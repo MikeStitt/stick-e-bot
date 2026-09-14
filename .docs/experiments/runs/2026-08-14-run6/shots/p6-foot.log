@@ -1,0 +1,19 @@
+06:49:33 the first Socket sat on the collar rim, not the ball centre - it goes
+06:49:33 about to click the Socket row, to delete it at (140, 617)
+06:49:34 clicked the Socket row, to delete it -> 01-b-done-the-socket-row-to-delete-it.png
+06:49:34 about to click Delete in the context menu at (251, 846)
+06:49:35 clicked Delete in the context menu -> 02-b-done-delete-in-the-context-menu.png
+06:49:37 deleted 'Socket'
+06:49:37 about to click the reference geometry group on the toolbar at (1080, 58)
+06:49:38 clicked the reference geometry group on the toolbar -> 04-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:49:39 about to click the face for Socket at (1040, 362)
+06:49:40 clicked the face for Socket -> 07-b-done-the-face-for-socket.png
+06:49:41 Socket: Origin entity Vertex of Origin × | Select owner entity Foot ×
+06:49:41 about to click the green tick at (424, 93)
+06:49:42 clicked the green tick -> 09-b-done-the-green-tick.png
+06:49:44 about to click the Mate connector 1 row, to rename it at (140, 638)
+06:49:45 clicked the Mate connector 1 row, to rename it -> 10-b-done-the-mate-connector-1-row-to-rename-it.png
+06:49:45 about to click Rename in the context menu at (251, 662)
+06:49:46 clicked Rename in the context menu -> 11-b-done-rename-in-the-context-menu.png
+06:49:48 renamed 'Mate connector 1' to 'Socket'
+06:49:48 after the foot after the Socket connector, no errored rows in the tree

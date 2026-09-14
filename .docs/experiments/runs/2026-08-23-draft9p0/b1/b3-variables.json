@@ -1,0 +1,357 @@
+{
+ "body": [
+  {
+   "name": "#ball",
+   "type": "LENGTH",
+   "expression": "#torsoH / 8"
+  },
+  {
+   "name": "#stand",
+   "type": "LENGTH",
+   "expression": "10 mm"
+  },
+  {
+   "name": "#hip_half",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  },
+  {
+   "name": "#shoulder_half",
+   "type": "LENGTH",
+   "expression": "#torsoW / 2"
+  },
+  {
+   "name": "#shoulder_drop",
+   "type": "LENGTH",
+   "expression": "8 mm"
+  },
+  {
+   "name": "#shoulder_len",
+   "type": "LENGTH",
+   "expression": "26 mm"
+  },
+  {
+   "name": "#boss_len",
+   "type": "LENGTH",
+   "expression": "#shoulder_len - #stand"
+  },
+  {
+   "name": "#boss_d",
+   "type": "LENGTH",
+   "expression": "16 mm"
+  },
+  {
+   "name": "#tilt",
+   "type": "ANGLE",
+   "expression": "53 deg"
+  },
+  {
+   "name": "#yaw",
+   "type": "ANGLE",
+   "expression": "30 deg"
+  }
+ ],
+ "head": [],
+ "ball and socket": [
+  {
+   "name": "#ball",
+   "type": "LENGTH",
+   "expression": "#torsoH / 8"
+  },
+  {
+   "name": "#stalk",
+   "type": "LENGTH",
+   "expression": "#ball / 2"
+  },
+  {
+   "name": "#fit",
+   "type": "LENGTH",
+   "expression": "0.8 mm"
+  },
+  {
+   "name": "#wall",
+   "type": "LENGTH",
+   "expression": "3 mm"
+  },
+  {
+   "name": "#collar",
+   "type": "LENGTH",
+   "expression": "11 mm"
+  },
+  {
+   "name": "#grip",
+   "type": "LENGTH",
+   "expression": "3.6 mm"
+  },
+  {
+   "name": "#slit",
+   "type": "LENGTH",
+   "expression": "1.6 mm"
+  },
+  {
+   "name": "#stud_len",
+   "type": "LENGTH",
+   "expression": "10 mm"
+  },
+  {
+   "name": "#slit_in",
+   "type": "LENGTH",
+   "expression": "5 mm"
+  },
+  {
+   "name": "#slit_out",
+   "type": "LENGTH",
+   "expression": "12 mm"
+  }
+ ],
+ "foot": [
+  {
+   "name": "#foot_l",
+   "type": "LENGTH",
+   "expression": "#torsoH"
+  },
+  {
+   "name": "#foot_w",
+   "type": "LENGTH",
+   "expression": "#torsoH / 2"
+  },
+  {
+   "name": "#ankle_h",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  },
+  {
+   "name": "#plate",
+   "type": "LENGTH",
+   "expression": "12 mm"
+  },
+  {
+   "name": "#top_round",
+   "type": "LENGTH",
+   "expression": "8 mm"
+  },
+  {
+   "name": "#ball",
+   "type": "LENGTH",
+   "expression": "#torsoH / 8"
+  },
+  {
+   "name": "#wall",
+   "type": "LENGTH",
+   "expression": "#torsoH / 32"
+  },
+  {
+   "name": "#collar",
+   "type": "LENGTH",
+   "expression": "11 mm"
+  },
+  {
+   "name": "#grip",
+   "type": "LENGTH",
+   "expression": "3.6 mm"
+  },
+  {
+   "name": "#collar_r",
+   "type": "LENGTH",
+   "expression": "#ball / 2 + #wall"
+  },
+  {
+   "name": "#collar_down",
+   "type": "LENGTH",
+   "expression": "#collar - #grip"
+  },
+  {
+   "name": "#pedestal",
+   "type": "LENGTH",
+   "expression": "#plate - #collar_down"
+  },
+  {
+   "name": "#rib_w",
+   "type": "LENGTH",
+   "expression": "6 mm"
+  },
+  {
+   "name": "#rib_d",
+   "type": "LENGTH",
+   "expression": "2 mm"
+  },
+  {
+   "name": "#heel_r",
+   "type": "LENGTH",
+   "expression": "#foot_w / 3"
+  },
+  {
+   "name": "#toe_r",
+   "type": "LENGTH",
+   "expression": "#foot_w / 2"
+  },
+  {
+   "name": "#heel_y",
+   "type": "LENGTH",
+   "expression": "#foot_l / 3"
+  }
+ ],
+ "hinge": [
+  {
+   "name": "#limbD",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  },
+  {
+   "name": "#blade",
+   "type": "LENGTH",
+   "expression": "10 mm"
+  },
+  {
+   "name": "#gap",
+   "type": "LENGTH",
+   "expression": "0.6 mm"
+  },
+  {
+   "name": "#slot",
+   "type": "LENGTH",
+   "expression": "#blade + 2 * #gap"
+  },
+  {
+   "name": "#ear",
+   "type": "LENGTH",
+   "expression": "(#limbD - #slot) / 2"
+  },
+  {
+   "name": "#nose",
+   "type": "LENGTH",
+   "expression": "#limbD / 2"
+  },
+  {
+   "name": "#blade_out",
+   "type": "LENGTH",
+   "expression": "32 mm"
+  },
+  {
+   "name": "#slot_deep",
+   "type": "LENGTH",
+   "expression": "#blade_out + 1 mm"
+  },
+  {
+   "name": "#blade_half",
+   "type": "LENGTH",
+   "expression": "sqrt(#limbD ^ 2 / 4 - #blade ^ 2 / 4)"
+  },
+  {
+   "name": "#stub",
+   "type": "LENGTH",
+   "expression": "4 mm"
+  },
+  {
+   "name": "#stub_proud",
+   "type": "LENGTH",
+   "expression": "1.6 mm"
+  },
+  {
+   "name": "#pocket_d",
+   "type": "LENGTH",
+   "expression": "4.4 mm"
+  },
+  {
+   "name": "#teeth_ri",
+   "type": "LENGTH",
+   "expression": "8.8 mm"
+  },
+  {
+   "name": "#teeth_r",
+   "type": "LENGTH",
+   "expression": "10.4 mm"
+  },
+  {
+   "name": "#bump_r",
+   "type": "LENGTH",
+   "expression": "(#teeth_ri + #teeth_r) / 2"
+  },
+  {
+   "name": "#bump_d",
+   "type": "LENGTH",
+   "expression": "#teeth_r - #teeth_ri"
+  },
+  {
+   "name": "#valley_d",
+   "type": "LENGTH",
+   "expression": "2 mm"
+  },
+  {
+   "name": "#valley_deep",
+   "type": "LENGTH",
+   "expression": "0.9 mm"
+  },
+  {
+   "name": "#tooth_proud",
+   "type": "LENGTH",
+   "expression": "1.2 mm"
+  },
+  {
+   "name": "#rod",
+   "type": "LENGTH",
+   "expression": "#limbD"
+  },
+  {
+   "name": "#rim_break",
+   "type": "LENGTH",
+   "expression": "0.1 mm"
+  }
+ ],
+ "u limb": [
+  {
+   "name": "#limbD",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  }
+ ],
+ "l limb": [
+  {
+   "name": "#limbD",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  }
+ ],
+ "gripper": [
+  {
+   "name": "#gripperL",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4"
+  },
+  {
+   "name": "#clipR",
+   "type": "LENGTH",
+   "expression": "5 mm"
+  },
+  {
+   "name": "#barD",
+   "type": "LENGTH",
+   "expression": "3.2 mm"
+  },
+  {
+   "name": "#bore",
+   "type": "LENGTH",
+   "expression": "#barD + 0.1 mm"
+  },
+  {
+   "name": "#mouth",
+   "type": "LENGTH",
+   "expression": "2.6 mm"
+  },
+  {
+   "name": "#ball",
+   "type": "LENGTH",
+   "expression": "#torsoH / 8"
+  },
+  {
+   "name": "#wall",
+   "type": "LENGTH",
+   "expression": "#torsoH / 32"
+  },
+  {
+   "name": "#collarR",
+   "type": "LENGTH",
+   "expression": "#ball / 2 + #wall"
+  }
+ ]
+}

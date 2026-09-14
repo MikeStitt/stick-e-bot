@@ -1,0 +1,109 @@
+<title>Collar step-back and swing</title>
+<style>
+:root{ --paper:#F7F8FA; --card:#FFF; --ink:#1B1F26; --muted:#5A6472; --rule:#DDE1E8;
+       --accent:#D6006E; --ok:#0F766E; --plate:#FFF; --fillp:#DCE3EB; --fillb:#B9C6D4; }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#14171C; --card:#1B1F26; --ink:#E7EAEF; --muted:#9AA4B2; --rule:#2A303A;
+  --accent:#FF4D9D; --ok:#4FD1C5; --plate:#1B1F26; --fillp:#2C3542; --fillb:#3E4A5A; } }
+:root[data-theme="dark"]{ --paper:#14171C; --card:#1B1F26; --ink:#E7EAEF; --muted:#9AA4B2;
+  --rule:#2A303A; --accent:#FF4D9D; --ok:#4FD1C5; --plate:#1B1F26; --fillp:#2C3542; --fillb:#3E4A5A; }
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);margin:0;
+ font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.wrap{max-width:58rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+h1{font:600 1.45rem/1.3 ui-monospace,Menlo,monospace;margin:0 0 .5rem;text-wrap:balance}
+h2{font:600 .9rem/1.4 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;
+   color:var(--muted);margin:2.75rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--rule)}
+p{margin:0 0 1rem;max-width:66ch} .lede{color:var(--muted);max-width:66ch}
+.mono{font-family:ui-monospace,Menlo,monospace}
+.pair{display:grid;gap:1.25rem;margin:0 0 1.5rem}
+@media(min-width:46rem){.pair{grid-template-columns:1fr 1fr}}
+.plate{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:1rem;
+ display:flex;justify-content:center}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:1.3rem 1.5rem;margin:0 0 1.5rem}
+.wrong{border-left:3px solid var(--accent);padding-left:1rem;margin:0 0 1.5rem}
+table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--rule)}
+th{font:600 .72rem/1.4 ui-monospace,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n{text-align:right;font-family:ui-monospace,Menlo,monospace}
+.ok{color:var(--ok)} .bad{color:var(--accent)}
+.scroll{overflow-x:auto}
+
+.panel{width:100%;height:auto;max-width:380px}
+.part{fill:var(--fillp);stroke:var(--ink);stroke-width:1.4}
+.ghost{fill:none;stroke:var(--muted);stroke-width:1.2;stroke-dasharray:5 4}
+.void{fill:var(--plate);stroke:var(--ink);stroke-width:1.2}
+.ball{fill:var(--fillb);stroke:var(--ink);stroke-width:1.4}
+.dim{stroke:var(--accent);stroke-width:1.6}
+.dimtxt{fill:var(--accent);font:600 12px ui-monospace,Menlo,monospace}
+.arc{fill:none;stroke-width:2.4;stroke-dasharray:4 3}
+.arc.ok{stroke:var(--ok)} .arc.bad{stroke:var(--accent)}
+.ttl{fill:var(--ink);font:600 15px ui-monospace,Menlo,monospace}
+.big{font:700 30px ui-monospace,Menlo,monospace}
+.big.ok{fill:var(--ok)} .big.bad{fill:var(--accent)}
+.cap{fill:var(--muted);font:12px ui-monospace,Menlo,monospace}
+.dated{border:1px solid var(--accent);border-left-width:3px;border-radius:4px;
+  background:var(--card);padding:.9rem 1.1rem;margin:1rem 0 1.6rem;max-width:70ch}
+.dated b{color:var(--accent)}
+.dated p{margin:0;color:var(--muted);font-size:.94rem;line-height:1.6}
+</style>
+<div class="wrap">
+<h1>The collar step-back &mdash; and why a bigger limb is worse</h1>
+<div class="dated">
+<p><b>Dated 2026-08-11, and kept that way.</b> The trade it shows is real &mdash; collar height buys swing, limb diameter spends it &mdash; but it puts the stalk binding at about 40&deg;, and derived from the joint the limit was 37.09&deg; even then. The robot has since doubled: the limb is
+&Oslash;24, the ball &Oslash;12, <span class="mono">#grip</span> 1.9465 and the swing
+41.76&deg;. For the numbers to build to, read the current plan sheets and the build briefs.</p>
+</div>
+
+<p class="lede">Section through a ball joint at the end of a limb. Solid = at rest; dashed = the
+limb swung until it collides. The ball, collar and stalk are identical in both panels; only the
+limb diameter changes.</p>
+
+<div class="pair">
+  <div class="plate"><svg viewBox="0 0 380 480" class="panel" role="img" aria-label="12 mm limb"><text x="190.0" y="26" class="ttl" text-anchor="middle">&#216;12 mm limb</text><g transform="rotate(-77.6 190 250)"><rect x="148.0" y="278.0" width="84.0" height="154.0" class="ghost"/><rect x="157.1" y="239.5" width="65.8" height="38.5" class="ghost"/></g><rect x="148.0" y="61.0" width="84.0" height="154.0" class="part"/><rect x="179.5" y="215.0" width="21.0" height="35.0" class="part"/><rect x="148.0" y="278.0" width="84.0" height="154.0" class="part"/><rect x="157.1" y="239.5" width="65.8" height="38.5" class="part"/><circle cx="190.0" cy="250.0" r="22.4" class="void"/><circle cx="190.0" cy="250.0" r="21.0" class="ball"/><line x1="222.9" y1="278.0" x2="232.0" y2="278.0" class="dim"/><text x="240.0" y="282.0" class="dimtxt">step-back 1.3 mm</text><path d="M 190.0 362.0 A 112.0 112.0 0 0 0 299.4 274.1" class="arc ok"/><text x="190.0" y="428" class="big ok" text-anchor="middle">78&#176;</text><text x="190.0" y="450" class="cap" text-anchor="middle">swing before the rims meet</text></svg></div>
+  <div class="plate"><svg viewBox="0 0 380 480" class="panel" role="img" aria-label="16 mm limb"><text x="190.0" y="26" class="ttl" text-anchor="middle">&#216;16 mm limb</text><g transform="rotate(-60.6 190 250)"><rect x="134.0" y="278.0" width="112.0" height="154.0" class="ghost"/><rect x="157.1" y="239.5" width="65.8" height="38.5" class="ghost"/></g><rect x="134.0" y="61.0" width="112.0" height="154.0" class="part"/><rect x="179.5" y="215.0" width="21.0" height="35.0" class="part"/><rect x="134.0" y="278.0" width="112.0" height="154.0" class="part"/><rect x="157.1" y="239.5" width="65.8" height="38.5" class="part"/><circle cx="190.0" cy="250.0" r="22.4" class="void"/><circle cx="190.0" cy="250.0" r="21.0" class="ball"/><line x1="222.9" y1="278.0" x2="246.0" y2="278.0" class="dim"/><text x="254.0" y="282.0" class="dimtxt">step-back 3.3 mm</text><path d="M 190.0 362.0 A 112.0 112.0 0 0 0 287.5 305.1" class="arc bad"/><text x="190.0" y="428" class="big bad" text-anchor="middle">61&#176;</text><text x="190.0" y="450" class="cap" text-anchor="middle">swing before the rims meet</text></svg></div>
+</div>
+
+<h2>What the drawing shows</h2>
+<div class="card">
+  <p>The joint stops when the <strong>socket limb's top rim</strong> swings up and meets the
+  <strong>face of the part the ball is rooted in</strong>. That rim sits at the limb's radius, so
+  the wider the limb, the further out the rim is, and the sooner it arrives.</p>
+  <div class="scroll"><table>
+    <tr><th>Limb</th><th class="n">Step-back / side</th><th class="n">Swing</th><th class="n">No collar at all</th></tr>
+    <tr><td>&#216;12</td><td class="n">1.3 mm</td><td class="n ok">78&deg;</td><td class="n">56&deg;</td></tr>
+    <tr><td>&#216;16</td><td class="n">3.3 mm</td><td class="n bad">61&deg;</td><td class="n">39&deg;</td></tr>
+  </table></div>
+  <p style="margin-top:1rem"><strong>&#216;12 swings 17&deg; further than &#216;16.</strong> The
+  bigger step-back does not buy travel &mdash; it comes with a bigger rim, which costs travel.</p>
+</div>
+
+<h2>What actually buys the travel</h2>
+<div class="card">
+  <p>Compare the last two columns. Boring the socket straight into the limb's end face &mdash; no
+  collar &mdash; gives 56&deg; on &#216;12. Standing the collar <strong>5.5 mm proud</strong> lifts
+  the joint centre clear of the rim and takes it to 78&deg;.</p>
+  <p><strong>It is the collar's height that buys the swing, not the radial gap around it.</strong>
+  Height moves the pivot away from the rim; radial gap just makes the rim wider.</p>
+</div>
+
+<h2>Where I had this wrong</h2>
+<div class="wrong">
+  <p>I told you &#216;16 was the one thing the ball socket liked, because its step-back grows from
+  1.3 to 3.3 mm. That is backwards. The step-back grows because <em>the limb grew</em>, and the
+  limb growing is what costs the swing.</p>
+</div>
+<p>So the ball joint has no reason to prefer &#216;16 either. With the hinge respecified to a
+7.0 mm fork inside &#216;12, <strong>nothing in the design now wants the larger limb</strong>.</p>
+
+<h2>The caveat worth testing</h2>
+<div class="card">
+  <p>These numbers assume the mating part's face sits <span class="mono">5 mm</span> above the ball
+  centre and the socket limb's face <span class="mono">4 mm</span> below it. Both are current plan
+  values, and both are adjustable &mdash; raising the stand-off buys swing at both diameters.</p>
+  <p>The other limit, the stalk binding in the mouth at about <span class="mono">40&deg;</span>, is
+  unaffected by any of this and is reached first. So in practice <strong>the mouth is the real
+  constraint and these rim numbers are headroom</strong> &mdash; which is another reason not to
+  have spent limb diameter on it.</p>
+</div>
+</div>

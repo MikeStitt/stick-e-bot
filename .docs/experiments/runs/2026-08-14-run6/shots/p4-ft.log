@@ -1,0 +1,837 @@
+04:08:32 about to click the Top plane in the feature list at (140, 209)
+04:08:33 clicked the Top plane in the feature list -> 02-b-done-the-top-plane-in-the-feature-list.png
+04:08:34 about to click the Sketch tool at (155, 58)
+04:08:35 clicked the Sketch tool -> 03-b-done-the-sketch-tool.png
+04:09:27 about to click the circle tool at (306, 58)
+04:09:28 clicked the circle tool -> 05-b-done-the-circle-tool.png
+04:09:30 about to click the heel's centre, on the vertical axis at (923, 400)
+04:09:31 clicked the heel's centre, on the vertical axis -> 06-b-done-the-heel-s-centre-on-the-vertical-axis.png
+04:09:31 about to click out to the heel's edge at (923, 460)
+04:09:32 clicked out to the heel's edge -> 07-b-done-out-to-the-heel-s-edge.png
+04:09:34 about to click the toe's centre, on the vertical axis at (923, 680)
+04:09:34 clicked the toe's centre, on the vertical axis -> 08-b-done-the-toe-s-centre-on-the-vertical-axis.png
+04:09:35 about to click out to the toe's edge at (923, 770)
+04:09:36 clicked out to the toe's edge -> 09-b-done-out-to-the-toe-s-edge.png
+04:10:06 about to click the toe's edge at (1014, 679)
+04:10:07 clicked the toe's edge -> 11-b-done-the-toe-s-edge.png
+04:10:08 about to click where the toe's dimension sits at (1180, 760)
+04:10:09 clicked where the toe's dimension sits -> 12-b-done-where-the-toe-s-dimension-sits.png
+04:10:12 the toe, and so the foot's width: 49.90891 mm -> 24
+04:11:12 about to click the heel's edge at (1004, 336)
+04:11:13 clicked the heel's edge -> 15-b-done-the-heel-s-edge.png
+04:11:14 about to click where the heel's dimension sits at (1180, 250)
+04:11:14 clicked where the heel's dimension sits -> 16-b-done-where-the-heel-s-dimension-sits.png
+04:11:17 the heel: 16.00031 mm -> 16
+04:11:40 about to click the arrow beside the constraints tool at (1032, 58)
+04:11:41 clicked the arrow beside the constraints tool -> 18-b-done-the-arrow-beside-the-constraints-tool.png
+04:12:18 about to click the line tool at (199, 58)
+04:12:19 clicked the line tool -> 20-b-done-the-line-tool.png
+04:12:20 about to click the left end of the heel's line at (700, 300)
+04:12:21 clicked the left end of the heel's line -> 21-b-done-the-left-end-of-the-heel-s-line.png
+04:12:21 about to click the right end of the heel's line at (1150, 300)
+04:12:22 clicked the right end of the heel's line -> 22-b-done-the-right-end-of-the-heel-s-line.png
+04:12:24 about to click the line tool at (199, 58)
+04:12:24 clicked the line tool -> 23-b-done-the-line-tool.png
+04:12:25 about to click the left end of the toe's line at (700, 860)
+04:12:26 clicked the left end of the toe's line -> 24-b-done-the-left-end-of-the-toe-s-line.png
+04:12:27 about to click the right end of the toe's line at (1150, 860)
+04:12:28 clicked the right end of the toe's line -> 25-b-done-the-right-end-of-the-toe-s-line.png
+04:13:05 about to click the toe's line at (800, 859)
+04:13:06 clicked the toe's line -> 27-b-done-the-toe-s-line.png
+04:13:47 about to click the heel circle at (1004, 336)
+04:13:47 clicked the heel circle -> 29-b-done-the-heel-circle.png
+04:13:48 about to click the heel's construction line at (760, 299)
+04:13:49 clicked the heel's construction line -> 30-b-done-the-heel-s-construction-line.png
+04:14:28 about to click undo at (57, 58)
+04:14:29 clicked undo -> 32-b-done-undo.png
+04:17:43 about to click empty space, to let go of everything at (560, 620)
+04:17:44 clicked empty space, to let go of everything -> 34-b-done-empty-space-to-let-go-of-everything.png
+04:17:44 about to click the heel circle, on its left side away from the line at (845, 336)
+04:17:45 clicked the heel circle, on its left side away from the line -> 36-b-done-the-heel-circle-on-its-left-side-away-from-the-l.png
+04:17:46 about to click the heel's construction line, out beyond the circle at (760, 299)
+04:17:47 clicked the heel's construction line, out beyond the circle -> 37-b-done-the-heel-s-construction-line-out-beyond-the-circ.png
+04:19:01 about to click empty space, to let go of everything at (560, 620)
+04:19:02 clicked empty space, to let go of everything -> 41-b-done-empty-space-to-let-go-of-everything.png
+04:19:03 about to click the toe's line at (760, 859)
+04:19:04 clicked the toe's line -> 42-b-done-the-toe-s-line.png
+04:19:06 about to click empty space, to let go of it at (560, 620)
+04:19:07 clicked empty space, to let go of it -> 43-b-done-empty-space-to-let-go-of-it.png
+04:19:08 about to click the toe circle, on its left side away from the line at (806, 694)
+04:19:09 clicked the toe circle, on its left side away from the line -> 45-b-done-the-toe-circle-on-its-left-side-away-from-the-li.png
+04:19:10 about to click the toe's construction line at (760, 859)
+04:19:11 clicked the toe's construction line -> 46-b-done-the-toe-s-construction-line.png
+04:19:14 about to click empty space, to see it plainly at (560, 620)
+04:19:15 clicked empty space, to see it plainly -> 48-b-done-empty-space-to-see-it-plainly.png
+04:20:00 about to click empty space, to let go of everything at (560, 620)
+04:20:01 clicked empty space, to let go of everything -> 50-b-done-empty-space-to-let-go-of-everything.png
+04:20:02 about to click the horizontal axis at (620, 495)
+04:20:03 clicked the horizontal axis -> 51-b-done-the-horizontal-axis.png
+04:20:04 about to click the heel's construction line at (760, 259)
+04:20:05 clicked the heel's construction line -> 52-b-done-the-heel-s-construction-line.png
+04:20:06 about to click a clear spot to park the number at (620, 380)
+04:20:06 clicked a clear spot to park the number -> 53-b-done-a-clear-spot-to-park-the-number.png
+04:20:09 heel line behind the origin: 24.46641 mm -> 16
+04:20:38 about to click empty space, to let go of everything at (560, 620)
+04:20:39 clicked empty space, to let go of everything -> 56-b-done-empty-space-to-let-go-of-everything.png
+04:20:41 about to click the horizontal axis at (500, 495)
+04:20:41 clicked the horizontal axis -> 57-b-done-the-horizontal-axis.png
+04:20:42 about to click the toe's construction line at (760, 811)
+04:20:43 clicked the toe's construction line -> 58-b-done-the-toe-s-construction-line.png
+04:20:44 about to click a clear spot to park the number at (500, 650)
+04:20:45 clicked a clear spot to park the number -> 59-b-done-a-clear-spot-to-park-the-number.png
+04:20:48 toe line ahead of the origin: 32.86634 mm -> 32
+04:21:30 about to click empty space, to let go of everything at (560, 620)
+04:21:31 clicked empty space, to let go of everything -> 61-b-done-empty-space-to-let-go-of-everything.png
+04:21:32 about to click the line tool at (199, 58)
+04:21:33 clicked the line tool -> 62-b-done-the-line-tool.png
+04:21:34 about to click the left side's top end, on the heel circle at (847, 407)
+04:21:34 clicked the left side's top end, on the heel circle -> 63-b-done-the-left-side-s-top-end-on-the-heel-circle.png
+04:21:35 about to click the left side's bottom end, on the toe circle at (809, 671)
+04:21:36 clicked the left side's bottom end, on the toe circle -> 64-b-done-the-left-side-s-bottom-end-on-the-toe-circle.png
+04:21:38 about to click the line tool at (199, 58)
+04:21:39 clicked the line tool -> 65-b-done-the-line-tool.png
+04:21:40 about to click the right side's top end, on the heel circle at (999, 407)
+04:21:40 clicked the right side's top end, on the heel circle -> 66-b-done-the-right-side-s-top-end-on-the-heel-circle.png
+04:21:41 about to click the right side's bottom end, on the toe circle at (1037, 671)
+04:21:42 clicked the right side's bottom end, on the toe circle -> 67-b-done-the-right-side-s-bottom-end-on-the-toe-circle.png
+04:21:44 about to click empty space, to see both sides at (560, 620)
+04:21:45 clicked empty space, to see both sides -> 68-b-done-empty-space-to-see-both-sides.png
+04:22:28 about to click empty space, to let go of everything at (560, 620)
+04:22:29 clicked empty space, to let go of everything -> 70-b-done-empty-space-to-let-go-of-everything.png
+04:22:30 about to click the left side line at (828, 539)
+04:22:31 clicked the left side line -> 71-b-done-the-left-side-line.png
+04:22:31 about to click the heel circle at (869, 364)
+04:22:32 clicked the heel circle -> 72-b-done-the-heel-circle.png
+04:22:35 about to click empty space, to let go of everything at (560, 620)
+04:22:36 clicked empty space, to let go of everything -> 73-b-done-empty-space-to-let-go-of-everything.png
+04:22:36 about to click the left side line at (828, 539)
+04:22:37 clicked the left side line -> 74-b-done-the-left-side-line.png
+04:22:38 about to click the toe circle at (841, 769)
+04:22:39 clicked the toe circle -> 75-b-done-the-toe-circle.png
+04:22:41 about to click empty space, to let go of everything at (560, 620)
+04:22:42 clicked empty space, to let go of everything -> 76-b-done-empty-space-to-let-go-of-everything.png
+04:22:43 about to click the right side line at (1018, 539)
+04:22:44 clicked the right side line -> 77-b-done-the-right-side-line.png
+04:22:44 about to click the heel circle at (869, 364)
+04:22:45 clicked the heel circle -> 78-b-done-the-heel-circle.png
+04:22:48 about to click empty space, to let go of everything at (560, 620)
+04:22:49 clicked empty space, to let go of everything -> 79-b-done-empty-space-to-let-go-of-everything.png
+04:22:49 about to click the right side line at (1018, 539)
+04:22:50 clicked the right side line -> 80-b-done-the-right-side-line.png
+04:22:51 about to click the toe circle at (841, 769)
+04:22:52 clicked the toe circle -> 81-b-done-the-toe-circle.png
+04:22:54 about to click empty space, to see the outline at (560, 620)
+04:22:55 clicked empty space, to see the outline -> 82-b-done-empty-space-to-see-the-outline.png
+04:23:31 about to click empty space, to let go of everything at (560, 620)
+04:23:32 clicked empty space, to let go of everything -> 84-b-done-empty-space-to-let-go-of-everything.png
+04:23:32 about to click the trim tool at (724, 58)
+04:23:33 clicked the trim tool -> 85-b-done-the-trim-tool.png
+04:23:35 about to click the heel circle's inner arc at (884, 485)
+04:23:36 clicked the heel circle's inner arc -> 87-b-done-the-heel-circle-s-inner-arc.png
+04:23:38 about to click the trim tool at (724, 58)
+04:23:39 clicked the trim tool -> 88-b-done-the-trim-tool.png
+04:24:04 about to click the trim tool at (724, 58)
+04:24:05 clicked the trim tool -> 89-b-done-the-trim-tool.png
+04:24:07 about to click the toe circle's inner arc at (962, 578)
+04:24:08 clicked the toe circle's inner arc -> 91-b-done-the-toe-circle-s-inner-arc.png
+04:24:10 about to click empty space, to see the outline at (560, 620)
+04:24:11 clicked empty space, to see the outline -> 92-b-done-empty-space-to-see-the-outline.png
+04:24:41 about to click the green tick, to close the sketch at (424, 93)
+04:24:42 clicked the green tick, to close the sketch -> 94-b-done-the-green-tick-to-close-the-sketch.png
+04:24:43 about to click the Sketch 1 row, to rename it at (140, 287)
+04:24:44 clicked the Sketch 1 row, to rename it -> 96-b-done-the-sketch-1-row-to-rename-it.png
+04:24:44 about to click Rename in the context menu at (263, 311)
+04:24:45 clicked Rename in the context menu -> 97-b-done-rename-in-the-context-menu.png
+04:24:46 renamed 'Sketch 1' to 'Foot outline'
+04:25:19 about to click inside the foot outline at (923, 600)
+04:25:20 clicked inside the foot outline -> 100-b-done-inside-the-foot-outline.png
+04:25:21 about to click the extrude tool at (219, 58)
+04:25:22 clicked the extrude tool -> 101-b-done-the-extrude-tool.png
+04:25:26 about to click the green tick at (424, 93)
+04:25:27 clicked the green tick -> 104-b-done-the-green-tick.png
+04:25:29 about to click the View menu at (1563, 232)
+04:25:30 clicked the View menu -> 105-b-done-the-view-menu.png
+04:25:31 about to click Isometric at (1454, 258)
+04:25:31 clicked Isometric -> 106-b-done-isometric.png
+04:25:33 about to click the View menu at (1563, 232)
+04:25:34 clicked the View menu -> 107-b-done-the-view-menu.png
+04:25:35 about to click Zoom to fit at (1458, 393)
+04:25:36 clicked Zoom to fit -> 108-b-done-zoom-to-fit.png
+04:27:06 about to click the opposite-direction arrow beside the depth at (425, 262)
+04:27:06 clicked the opposite-direction arrow beside the depth -> 111-b-done-the-opposite-direction-arrow-beside-the-depth.png
+04:27:08 about to click the Starting offset tick box at (277, 313)
+04:27:09 clicked the Starting offset tick box -> 113-b-done-the-starting-offset-tick-box.png
+04:28:09 about to click the flip arrow beside Blind at (453, 231)
+04:28:10 clicked the flip arrow beside Blind -> 115-b-done-the-flip-arrow-beside-blind.png
+04:29:05 about to click the starting offset's own flip arrow at (453, 368)
+04:29:06 clicked the starting offset's own flip arrow -> 119-b-done-the-starting-offset-s-own-flip-arrow.png
+04:29:07 about to click the green tick at (424, 93)
+04:29:08 clicked the green tick -> 121-b-done-the-green-tick.png
+04:29:25 about to click the Extrude 1 row, to rename it at (140, 313)
+04:29:26 clicked the Extrude 1 row, to rename it -> 123-b-done-the-extrude-1-row-to-rename-it.png
+04:29:26 about to click Rename in the context menu at (261, 337)
+04:29:27 clicked Rename in the context menu -> 124-b-done-rename-in-the-context-menu.png
+04:29:29 renamed 'Extrude 1' to 'Foot plate'
+04:29:29 about to click the Part 1 row, to rename it at (140, 696)
+04:29:29 clicked the Part 1 row, to rename it -> 126-b-done-the-part-1-row-to-rename-it.png
+04:29:29 about to click Rename in the context menu at (256, 364)
+04:29:30 clicked Rename in the context menu -> 127-b-done-rename-in-the-context-menu.png
+04:29:32 renamed 'Part 1' to 'Foot'
+04:29:32 about to click the View menu at (1563, 232)
+04:29:33 clicked the View menu -> 129-b-done-the-view-menu.png
+04:29:34 about to click Zoom to fit at (1458, 393)
+04:29:34 clicked Zoom to fit -> 130-b-done-zoom-to-fit.png
+04:30:11 about to click the eye beside Top at (220, 209)
+04:30:12 clicked the eye beside Top -> 132-b-done-the-eye-beside-top.png
+04:30:14 about to click the eye beside Front at (220, 235)
+04:30:14 clicked the eye beside Front -> 133-b-done-the-eye-beside-front.png
+04:30:16 about to click the eye beside Right at (220, 261)
+04:30:16 clicked the eye beside Right -> 134-b-done-the-eye-beside-right.png
+04:31:42 about to click the Top face of the view cube at (1508, 141)
+04:31:43 clicked the Top face of the view cube -> 136-b-done-the-top-face-of-the-view-cube.png
+04:31:45 about to click the View menu at (1563, 232)
+04:31:45 clicked the View menu -> 137-b-done-the-view-menu.png
+04:31:46 about to click Zoom to fit at (1458, 393)
+04:31:47 clicked Zoom to fit -> 138-b-done-zoom-to-fit.png
+04:32:16 about to click empty space at (400, 800)
+04:32:17 clicked empty space -> 140-b-done-empty-space.png
+04:32:18 about to click the fillet tool at (411, 58)
+04:32:19 clicked the fillet tool -> 141-b-done-the-fillet-tool.png
+04:32:20 about to click the straight left edge of the top face at (745, 463)
+04:32:21 clicked the straight left edge of the top face -> 142-b-done-the-straight-left-edge-of-the-top-face.png
+04:32:51 about to click the Top face of the view cube at (1508, 141)
+04:32:52 clicked the Top face of the view cube -> 145-b-done-the-top-face-of-the-view-cube.png
+04:32:53 about to click the View menu at (1563, 232)
+04:32:54 clicked the View menu -> 146-b-done-the-view-menu.png
+04:32:55 about to click Isometric at (1454, 258)
+04:32:56 clicked Isometric -> 147-b-done-isometric.png
+04:33:27 about to click the green tick at (424, 93)
+04:33:27 clicked the green tick -> 149-b-done-the-green-tick.png
+04:33:29 about to click the Fillet 1 row, to rename it at (140, 339)
+04:33:30 clicked the Fillet 1 row, to rename it -> 150-b-done-the-fillet-1-row-to-rename-it.png
+04:33:30 about to click Rename in the context menu at (261, 363)
+04:33:31 clicked Rename in the context menu -> 151-b-done-rename-in-the-context-menu.png
+04:33:32 renamed 'Fillet 1' to 'Top round'
+04:34:38 about to click the Top face of the view cube at (1508, 141)
+04:34:39 clicked the Top face of the view cube -> 154-b-done-the-top-face-of-the-view-cube.png
+04:34:40 about to click the View menu at (1563, 232)
+04:34:41 clicked the View menu -> 155-b-done-the-view-menu.png
+04:34:42 about to click Zoom to fit at (1458, 393)
+04:34:43 clicked Zoom to fit -> 156-b-done-zoom-to-fit.png
+04:34:45 about to click the plate's top face at (960, 500)
+04:34:46 clicked the plate's top face -> 157-b-done-the-plate-s-top-face.png
+04:34:47 about to click the Sketch tool at (130, 58)
+04:34:48 clicked the Sketch tool -> 159-b-done-the-sketch-tool.png
+04:35:22 about to click the circle tool at (306, 58)
+04:35:23 clicked the circle tool -> 161-b-done-the-circle-tool.png
+04:35:24 about to click the sketch origin, for the circle's centre at (922, 381)
+04:35:25 clicked the sketch origin, for the circle's centre -> 162-b-done-the-sketch-origin-for-the-circle-s-centre.png
+04:35:26 about to click a point out from the centre, to set the size at (1000, 381)
+04:35:27 clicked a point out from the centre, to set the size -> 163-b-done-a-point-out-from-the-centre-to-set-the-size.png
+04:35:30 about to click the circle at (1000, 381)
+04:35:31 clicked the circle -> 165-b-done-the-circle.png
+04:35:31 about to click a clear spot to park the number at (1120, 300)
+04:35:32 clicked a clear spot to park the number -> 166-b-done-a-clear-spot-to-park-the-number.png
+04:35:35 collar diameter: 8.73851 mm -> 9.4
+04:36:11 about to click the green tick, to close the sketch at (424, 93)
+04:36:12 clicked the green tick, to close the sketch -> 168-b-done-the-green-tick-to-close-the-sketch.png
+04:36:14 about to click the Sketch 1 row, to rename it at (140, 365)
+04:36:15 clicked the Sketch 1 row, to rename it -> 169-b-done-the-sketch-1-row-to-rename-it.png
+04:36:15 about to click Rename in the context menu at (263, 389)
+04:36:16 clicked Rename in the context menu -> 170-b-done-rename-in-the-context-menu.png
+04:36:17 renamed 'Sketch 1' to 'Collar circle'
+04:36:17 about to click inside the collar circle at (922, 340)
+04:36:18 clicked inside the collar circle -> 172-b-done-inside-the-collar-circle.png
+04:36:19 about to click the extrude tool at (219, 58)
+04:36:20 clicked the extrude tool -> 173-b-done-the-extrude-tool.png
+04:36:42 about to click Add, so the collar joins the foot at (313, 148)
+04:36:43 clicked Add, so the collar joins the foot -> 175-b-done-add-so-the-collar-joins-the-foot.png
+04:36:48 about to click the green tick at (424, 93)
+04:36:48 clicked the green tick -> 177-b-done-the-green-tick.png
+04:36:50 about to click the Extrude 1 row, to rename it at (140, 391)
+04:36:51 clicked the Extrude 1 row, to rename it -> 178-b-done-the-extrude-1-row-to-rename-it.png
+04:36:51 about to click Rename in the context menu at (261, 415)
+04:36:52 clicked Rename in the context menu -> 179-b-done-rename-in-the-context-menu.png
+04:36:53 renamed 'Extrude 1' to 'Ankle collar'
+04:37:22 about to click empty space at (400, 800)
+04:37:23 clicked empty space -> 181-b-done-empty-space.png
+04:37:24 about to click the Sketch tool at (130, 58)
+04:37:24 clicked the Sketch tool -> 182-b-done-the-sketch-tool.png
+04:37:26 about to click the Front plane in the tree at (140, 235)
+04:37:27 clicked the Front plane in the tree -> 183-b-done-the-front-plane-in-the-tree.png
+04:37:29 about to click the Front face of the view cube at (1483, 178)
+04:37:30 clicked the Front face of the view cube -> 184-b-done-the-front-face-of-the-view-cube.png
+04:38:26 about to click the View menu at (1563, 232)
+04:38:26 clicked the View menu -> 186-b-done-the-view-menu.png
+04:38:27 about to click Isometric at (1454, 258)
+04:38:28 clicked Isometric -> 187-b-done-isometric.png
+04:38:30 about to click the Front face of the view cube at (1483, 178)
+04:38:31 clicked the Front face of the view cube -> 188-b-done-the-front-face-of-the-view-cube.png
+04:38:33 about to click the View menu at (1563, 232)
+04:38:34 clicked the View menu -> 189-b-done-the-view-menu.png
+04:38:35 about to click Zoom to fit at (1458, 393)
+04:38:35 clicked Zoom to fit -> 190-b-done-zoom-to-fit.png
+04:39:46 about to click the arrow beside the arc tool at (382, 58)
+04:39:47 clicked the arrow beside the arc tool -> 193-b-done-the-arrow-beside-the-arc-tool.png
+04:40:21 about to click Center point arc at (421, 162)
+04:40:22 clicked Center point arc -> 195-b-done-center-point-arc.png
+04:40:23 about to click the origin, for the arc's centre at (922, 457)
+04:40:24 clicked the origin, for the arc's centre -> 196-b-done-the-origin-for-the-arc-s-centre.png
+04:40:25 about to click the bottom of the ball at (922, 553)
+04:40:26 clicked the bottom of the ball -> 197-b-done-the-bottom-of-the-ball.png
+04:40:27 about to click the top of the ball, sweeping round the +X side at (922, 361)
+04:40:28 clicked the top of the ball, sweeping round the +X side -> 198-b-done-the-top-of-the-ball-sweeping-round-the-x-side.png
+04:40:59 about to click the line tool at (199, 58)
+04:41:00 clicked the line tool -> 200-b-done-the-line-tool.png
+04:41:01 about to click the arc's top end at (922, 361)
+04:41:02 clicked the arc's top end -> 201-b-done-the-arc-s-top-end.png
+04:41:02 about to click the arc's bottom end at (922, 553)
+04:41:03 clicked the arc's bottom end -> 202-b-done-the-arc-s-bottom-end.png
+04:41:06 about to click the arc at (1018, 457)
+04:41:07 clicked the arc -> 204-b-done-the-arc.png
+04:41:08 about to click a clear spot to park the number at (1120, 380)
+04:41:08 clicked a clear spot to park the number -> 205-b-done-a-clear-spot-to-park-the-number.png
+04:41:11 ball radius: 2.99359 mm -> 3
+04:41:39 about to click the green tick, to close the sketch at (424, 93)
+04:41:40 clicked the green tick, to close the sketch -> 207-b-done-the-green-tick-to-close-the-sketch.png
+04:41:41 about to click the Sketch 1 row, to rename it at (140, 417)
+04:41:42 clicked the Sketch 1 row, to rename it -> 208-b-done-the-sketch-1-row-to-rename-it.png
+04:41:42 about to click Rename in the context menu at (263, 441)
+04:41:43 clicked Rename in the context menu -> 209-b-done-rename-in-the-context-menu.png
+04:41:44 renamed 'Sketch 1' to 'Ball profile'
+04:41:44 about to click inside the half-circle at (960, 430)
+04:41:45 clicked inside the half-circle -> 211-b-done-inside-the-half-circle.png
+04:41:46 about to click the revolve tool at (253, 58)
+04:41:47 clicked the revolve tool -> 212-b-done-the-revolve-tool.png
+04:42:11 about to click the half-circle, into the first field at (960, 430)
+04:42:12 clicked the half-circle, into the first field -> 214-b-done-the-half-circle-into-the-first-field.png
+04:42:51 about to click the half-circle where it shows above the collar at (960, 380)
+04:42:52 clicked the half-circle where it shows above the collar -> 216-b-done-the-half-circle-where-it-shows-above-the-collar.png
+04:42:53 about to click the Revolve axis field at (343, 213)
+04:42:54 clicked the Revolve axis field -> 217-b-done-the-revolve-axis-field.png
+04:42:55 about to click the profile's closing line, which is the axis at (922, 375)
+04:42:56 clicked the profile's closing line, which is the axis -> 218-b-done-the-profile-s-closing-line-which-is-the-axis.png
+04:43:21 about to click the half-circle where it shows above the collar at (960, 380)
+04:43:22 clicked the half-circle where it shows above the collar -> 220-b-done-the-half-circle-where-it-shows-above-the-collar.png
+04:43:55 about to click the profile's closing line, which is the axis at (922, 500)
+04:43:56 clicked the profile's closing line, which is the axis -> 221-b-done-the-profile-s-closing-line-which-is-the-axis.png
+04:44:24 about to click the closing line at y=395 at (922, 395)
+04:44:25 clicked the closing line at y=395 -> 224-b-done-the-closing-line-at-y-395.png
+04:44:28 about to click the closing line at y=375 at (922, 375)
+04:44:29 clicked the closing line at y=375 -> 226-b-done-the-closing-line-at-y-375.png
+04:45:10 about to click the Revolve axis field at (343, 231)
+04:45:11 clicked the Revolve axis field -> 228-b-done-the-revolve-axis-field.png
+04:45:12 about to click the profile's closing line at (922, 450)
+04:45:13 clicked the profile's closing line -> 229-b-done-the-profile-s-closing-line.png
+04:45:34 about to click New, so the ball is its own part at (268, 148)
+04:45:35 clicked New, so the ball is its own part -> 231-b-done-new-so-the-ball-is-its-own-part.png
+04:45:37 about to click the green tick at (424, 93)
+04:45:37 clicked the green tick -> 233-b-done-the-green-tick.png
+04:45:39 about to click the Revolve 1 row, to rename it at (140, 443)
+04:45:40 clicked the Revolve 1 row, to rename it -> 234-b-done-the-revolve-1-row-to-rename-it.png
+04:45:40 about to click Rename in the context menu at (261, 467)
+04:45:41 clicked Rename in the context menu -> 235-b-done-rename-in-the-context-menu.png
+04:45:42 renamed 'Revolve 1' to 'Ankle ball'
+04:46:05 about to click the Part 2 row, to rename it at (140, 722)
+04:46:06 clicked the Part 2 row, to rename it -> 237-b-done-the-part-2-row-to-rename-it.png
+04:46:06 about to click Rename in the context menu at (256, 346)
+04:46:07 clicked Rename in the context menu -> 238-b-done-rename-in-the-context-menu.png
+04:46:08 renamed 'Part 2' to 'Ball tool'
+04:46:08 about to click the Boolean tool at (779, 58)
+04:46:09 clicked the Boolean tool -> 240-b-done-the-boolean-tool.png
+04:46:51 about to click Subtract at (348, 121)
+04:46:52 clicked Subtract -> 242-b-done-subtract.png
+04:46:53 about to click the Foot part, as the target at (140, 696)
+04:46:55 clicked the Foot part, as the target -> 243-b-done-the-foot-part-as-the-target.png
+04:47:37 about to click the x beside Foot, to take it out of Tools at (447, 172)
+04:47:38 clicked the x beside Foot, to take it out of Tools -> 245-b-done-the-x-beside-foot-to-take-it-out-of-tools.png
+04:47:39 about to click the Ball tool part, as the tool at (140, 722)
+04:47:40 clicked the Ball tool part, as the tool -> 246-b-done-the-ball-tool-part-as-the-tool.png
+04:47:59 about to click the Targets field at (355, 203)
+04:48:00 clicked the Targets field -> 248-b-done-the-targets-field.png
+04:48:01 about to click the Foot part, as the target at (140, 696)
+04:48:01 clicked the Foot part, as the target -> 249-b-done-the-foot-part-as-the-target.png
+04:48:35 about to click the Offset tick box at (256, 253)
+04:48:36 clicked the Offset tick box -> 251-b-done-the-offset-tick-box.png
+04:49:06 about to click the Offset all tick box at (256, 281)
+04:49:07 clicked the Offset all tick box -> 253-b-done-the-offset-all-tick-box.png
+04:49:33 about to click the green tick at (424, 93)
+04:49:34 clicked the green tick -> 256-b-done-the-green-tick.png
+04:49:35 about to click the Boolean 1 row, to rename it at (140, 469)
+04:49:36 clicked the Boolean 1 row, to rename it -> 257-b-done-the-boolean-1-row-to-rename-it.png
+04:49:36 about to click Rename in the context menu at (261, 493)
+04:49:37 clicked Rename in the context menu -> 258-b-done-rename-in-the-context-menu.png
+04:49:38 renamed 'Boolean 1' to 'Ankle cavity from the ball'
+04:51:05 about to click the subtract's row at (140, 469)
+04:51:06 clicked the subtract's row -> 260-b-done-the-subtract-s-row.png
+04:51:37 about to click the subtract's row at (140, 469)
+04:51:38 clicked the subtract's row -> 261-b-done-the-subtract-s-row.png
+04:51:39 about to click Suppress in the context menu at (261, 562)
+04:51:40 clicked Suppress in the context menu -> 262-b-done-suppress-in-the-context-menu.png
+04:51:42 about to click the subtract's row at (140, 469)
+04:51:43 clicked the subtract's row -> 264-b-done-the-subtract-s-row.png
+04:51:44 about to click Unsuppress in the context menu at (251, 539)
+04:51:45 clicked Unsuppress in the context menu -> 265-b-done-unsuppress-in-the-context-menu.png
+04:52:26 about to click the View menu at (1563, 232)
+04:52:27 clicked the View menu -> 266-b-done-the-view-menu.png
+04:52:27 about to click Isometric at (1454, 258)
+04:52:28 clicked Isometric -> 267-b-done-isometric.png
+04:52:30 about to click the Top face of the view cube at (1508, 141)
+04:52:31 clicked the Top face of the view cube -> 268-b-done-the-top-face-of-the-view-cube.png
+04:52:33 about to click the View menu at (1563, 232)
+04:52:34 clicked the View menu -> 269-b-done-the-view-menu.png
+04:52:34 about to click Zoom to fit at (1458, 393)
+04:52:35 clicked Zoom to fit -> 270-b-done-zoom-to-fit.png
+04:53:10 about to click the collar's rim at (990, 381)
+04:53:11 clicked the collar's rim -> 272-b-done-the-collar-s-rim.png
+04:53:12 about to click the Sketch tool at (130, 58)
+04:53:13 clicked the Sketch tool -> 273-b-done-the-sketch-tool.png
+04:54:03 about to click the arrow beside the rectangle tool at (278, 58)
+04:54:04 clicked the arrow beside the rectangle tool -> 275-b-done-the-arrow-beside-the-rectangle-tool.png
+04:54:05 about to click Center point rectangle at (336, 130)
+04:54:06 clicked Center point rectangle -> 276-b-done-center-point-rectangle.png
+04:54:07 about to click the origin, for the slot's centre at (923, 382)
+04:54:08 clicked the origin, for the slot's centre -> 277-b-done-the-origin-for-the-slot-s-centre.png
+04:54:09 about to click a corner, roughly 12 long and 0.8 wide at (1351, 353)
+04:54:10 clicked a corner, roughly 12 long and 0.8 wide -> 278-b-done-a-corner-roughly-12-long-and-0-8-wide.png
+04:54:47 about to click the slot's top edge at (700, 351)
+04:54:48 clicked the slot's top edge -> 280-b-done-the-slot-s-top-edge.png
+04:54:49 about to click a clear spot to park the number at (700, 250)
+04:54:50 clicked a clear spot to park the number -> 281-b-done-a-clear-spot-to-park-the-number.png
+04:54:53 slot length: 12.03624 mm -> 12
+04:54:55 about to click the slot's left end at (495, 382)
+04:54:56 clicked the slot's left end -> 283-b-done-the-slot-s-left-end.png
+04:54:57 about to click a clear spot to park the number at (400, 500)
+04:54:57 clicked a clear spot to park the number -> 284-b-done-a-clear-spot-to-park-the-number.png
+04:55:39 about to click the slot's left end at (497, 381)
+04:55:40 clicked the slot's left end -> 286-b-done-the-slot-s-left-end.png
+04:55:41 about to click a clear spot to park the number at (400, 520)
+04:55:42 clicked a clear spot to park the number -> 287-b-done-a-clear-spot-to-park-the-number.png
+04:55:45 slot width: 0.8538 mm -> 0.8
+04:59:00 about to click the green tick, to close the sketch at (424, 93)
+04:59:01 clicked the green tick, to close the sketch -> 290-b-done-the-green-tick-to-close-the-sketch.png
+04:59:03 about to click the Sketch 1 row, to rename it at (140, 495)
+04:59:04 clicked the Sketch 1 row, to rename it -> 291-b-done-the-sketch-1-row-to-rename-it.png
+04:59:04 about to click Rename in the context menu at (263, 519)
+04:59:05 clicked Rename in the context menu -> 292-b-done-rename-in-the-context-menu.png
+04:59:06 renamed 'Sketch 1' to 'Slit profile'
+04:59:06 about to click the extrude tool at (219, 58)
+04:59:07 clicked the extrude tool -> 294-b-done-the-extrude-tool.png
+04:59:09 about to click the slot, into the first field at (700, 380)
+04:59:10 clicked the slot, into the first field -> 295-b-done-the-slot-into-the-first-field.png
+04:59:32 about to click Remove, so the slot cuts at (366, 148)
+04:59:33 clicked Remove, so the slot cuts -> 297-b-done-remove-so-the-slot-cuts.png
+05:00:04 about to click the depth box at (386, 261)
+05:00:05 clicked the depth box -> 298-b-done-the-depth-box.png
+05:00:27 about to click the View menu at (1563, 232)
+05:00:28 clicked the View menu -> 299-b-done-the-view-menu.png
+05:00:29 about to click Isometric at (1454, 258)
+05:00:30 clicked Isometric -> 300-b-done-isometric.png
+05:00:31 about to click the View menu at (1563, 232)
+05:00:32 clicked the View menu -> 301-b-done-the-view-menu.png
+05:00:33 about to click Zoom to fit at (1458, 393)
+05:00:34 clicked Zoom to fit -> 302-b-done-zoom-to-fit.png
+05:01:01 about to click the green tick at (424, 93)
+05:01:02 clicked the green tick -> 304-b-done-the-green-tick.png
+05:01:03 about to click the Extrude 1 row, to rename it at (140, 521)
+05:01:04 clicked the Extrude 1 row, to rename it -> 305-b-done-the-extrude-1-row-to-rename-it.png
+05:01:04 about to click Rename in the context menu at (261, 545)
+05:01:05 clicked Rename in the context menu -> 306-b-done-rename-in-the-context-menu.png
+05:01:06 renamed 'Extrude 1' to 'Relief slit'
+05:01:25 about to click the arrow beside the pattern tool at (714, 58)
+05:01:26 clicked the arrow beside the pattern tool -> 309-b-done-the-arrow-beside-the-pattern-tool.png
+05:01:42 about to click Circular pattern at (772, 126)
+05:01:43 clicked Circular pattern -> 311-b-done-circular-pattern.png
+05:02:08 about to click the pattern-type list at (344, 121)
+05:02:09 clicked the pattern-type list -> 313-b-done-the-pattern-type-list.png
+05:02:27 about to click Feature pattern at (305, 178)
+05:02:28 clicked Feature pattern -> 315-b-done-feature-pattern.png
+05:02:30 about to click the Relief slit feature, to pattern it at (140, 521)
+05:02:31 clicked the Relief slit feature, to pattern it -> 317-b-done-the-relief-slit-feature-to-pattern-it.png
+05:02:58 about to click the axis field at (343, 203)
+05:02:59 clicked the axis field -> 319-b-done-the-axis-field.png
+05:03:01 about to click the collar's cylindrical face, for the axis at (980, 440)
+05:03:02 clicked the collar's cylindrical face, for the axis -> 321-b-done-the-collar-s-cylindrical-face-for-the-axis.png
+05:03:23 about to click the angle field, reading '360 deg' at (363, 252)
+05:03:23 clicked the angle field, reading '360 deg' -> 323-b-done-the-angle-field-reading-360-deg.png
+05:03:26 angle: 360 deg -> 90 deg
+05:03:26 about to click the instance count field, reading '4' at (387, 278)
+05:03:26 clicked the instance count field, reading '4' -> 324-b-done-the-instance-count-field-reading-4.png
+05:03:29 instance count: 4 -> 2
+05:03:29 about to click the Reapply features tick at (257, 359)
+05:03:30 clicked the Reapply features tick -> 325-b-done-the-reapply-features-tick.png
+05:03:56 about to click the green tick at (424, 93)
+05:03:57 clicked the green tick -> 327-b-done-the-green-tick.png
+05:03:58 about to click the Circular pattern 1 row, to rename it at (140, 547)
+05:03:59 clicked the Circular pattern 1 row, to rename it -> 328-b-done-the-circular-pattern-1-row-to-rename-it.png
+05:03:59 about to click Rename in the context menu at (261, 571)
+05:04:00 clicked Rename in the context menu -> 329-b-done-rename-in-the-context-menu.png
+05:04:02 renamed 'Circular pattern 1' to 'Four slits'
+05:05:21 about to click the View menu at (1563, 232)
+05:05:22 clicked the View menu -> 332-b-done-the-view-menu.png
+05:05:23 about to click Isometric at (1454, 258)
+05:05:24 clicked Isometric -> 333-b-done-isometric.png
+05:05:25 about to click Top on the view cube at (1508, 141)
+05:05:26 clicked Top on the view cube -> 334-b-done-top-on-the-view-cube.png
+05:05:28 about to click the cube again, which from Top gives Bottom at (1483, 178)
+05:05:29 clicked the cube again, which from Top gives Bottom -> 335-b-done-the-cube-again-which-from-top-gives-bottom.png
+05:05:30 about to click the View menu at (1563, 232)
+05:05:31 clicked the View menu -> 336-b-done-the-view-menu.png
+05:05:32 about to click Zoom to fit at (1458, 393)
+05:05:33 clicked Zoom to fit -> 337-b-done-zoom-to-fit.png
+05:06:32 about to click the sole at (923, 500)
+05:06:33 clicked the sole -> 339-b-done-the-sole.png
+05:06:34 about to click the Sketch tool at (130, 58)
+05:06:35 clicked the Sketch tool -> 340-b-done-the-sketch-tool.png
+05:07:12 about to click the Right plane in the tree at (140, 261)
+05:07:13 clicked the Right plane in the tree -> 343-b-done-the-right-plane-in-the-tree.png
+05:07:14 about to click the Front plane in the tree at (140, 235)
+05:07:15 clicked the Front plane in the tree -> 344-b-done-the-front-plane-in-the-tree.png
+05:08:05 about to click the origin at (923, 665)
+05:08:06 clicked the origin -> 347-b-done-the-origin.png
+05:08:43 about to click the red X, to drop this sketch at (452, 93)
+05:08:44 clicked the red X, to drop this sketch -> 350-b-done-the-red-x-to-drop-this-sketch.png
+05:08:45 about to click the View menu at (1563, 232)
+05:08:46 clicked the View menu -> 351-b-done-the-view-menu.png
+05:08:47 about to click Isometric at (1454, 258)
+05:08:48 clicked Isometric -> 352-b-done-isometric.png
+05:08:49 about to click Top on the view cube at (1508, 141)
+05:08:50 clicked Top on the view cube -> 353-b-done-top-on-the-view-cube.png
+05:08:52 about to click the View menu at (1563, 232)
+05:08:53 clicked the View menu -> 354-b-done-the-view-menu.png
+05:08:54 about to click Zoom to fit at (1458, 393)
+05:08:55 clicked Zoom to fit -> 355-b-done-zoom-to-fit.png
+05:08:56 about to click the Top plane in the tree at (140, 209)
+05:08:57 clicked the Top plane in the tree -> 356-b-done-the-top-plane-in-the-tree.png
+05:08:58 about to click the Sketch tool at (130, 58)
+05:08:59 clicked the Sketch tool -> 357-b-done-the-sketch-tool.png
+05:09:36 about to click the arrow beside the rectangle tool at (278, 58)
+05:09:37 clicked the arrow beside the rectangle tool -> 359-b-done-the-arrow-beside-the-rectangle-tool.png
+05:09:38 about to click Center point rectangle at (336, 130)
+05:09:39 clicked Center point rectangle -> 360-b-done-center-point-rectangle.png
+05:09:41 about to click the groove's centre, on the centreline at (923, 516)
+05:09:42 clicked the groove's centre, on the centreline -> 362-b-done-the-groove-s-centre-on-the-centreline.png
+05:09:42 about to click a corner, roughly 30 across and 3 deep at (1178, 491)
+05:09:43 clicked a corner, roughly 30 across and 3 deep -> 363-b-done-a-corner-roughly-30-across-and-3-deep.png
+05:10:19 about to click the groove's top edge at (800, 489)
+05:10:20 clicked the groove's top edge -> 365-b-done-the-groove-s-top-edge.png
+05:10:21 about to click a clear spot to park the number at (800, 430)
+05:10:22 clicked a clear spot to park the number -> 366-b-done-a-clear-spot-to-park-the-number.png
+05:10:25 groove length across the foot: 28.80806 mm -> 30
+05:10:27 about to click the groove's left end at (668, 515)
+05:10:28 clicked the groove's left end -> 367-b-done-the-groove-s-left-end.png
+05:10:28 about to click a clear spot to park the number at (560, 620)
+05:10:29 clicked a clear spot to park the number -> 368-b-done-a-clear-spot-to-park-the-number.png
+05:10:54 about to click the groove's left end at (658, 515)
+05:10:55 clicked the groove's left end -> 370-b-done-the-groove-s-left-end.png
+05:10:56 about to click a clear spot to park the number at (560, 620)
+05:10:57 clicked a clear spot to park the number -> 371-b-done-a-clear-spot-to-park-the-number.png
+05:11:00 groove width: 2.93542 mm -> 3
+05:11:51 about to click empty space, to let go of everything at (560, 700)
+05:11:52 clicked empty space, to let go of everything -> 374-b-done-empty-space-to-let-go-of-everything.png
+05:11:53 about to click the groove's centre point at (923, 521)
+05:11:54 clicked the groove's centre point -> 376-b-done-the-groove-s-centre-point.png
+05:11:55 about to click the origin at (923, 380)
+05:11:56 clicked the origin -> 378-b-done-the-origin.png
+05:12:36 about to click the eye beside the Foot part at (220, 696)
+05:12:37 clicked the eye beside the Foot part -> 380-b-done-the-eye-beside-the-foot-part.png
+05:13:09 about to click empty space, to let go of everything at (560, 750)
+05:13:10 clicked empty space, to let go of everything -> 382-b-done-empty-space-to-let-go-of-everything.png
+05:13:10 about to click the groove's centre point at (923, 521)
+05:13:11 clicked the groove's centre point -> 383-b-done-the-groove-s-centre-point.png
+05:13:12 about to click the origin at (923, 381)
+05:13:13 clicked the origin -> 385-b-done-the-origin.png
+05:13:16 about to click empty space, to see it plainly at (560, 750)
+05:13:17 clicked empty space, to see it plainly -> 387-b-done-empty-space-to-see-it-plainly.png
+05:14:17 about to click empty space, to let go of everything at (560, 750)
+05:14:18 clicked empty space, to let go of everything -> 389-b-done-empty-space-to-let-go-of-everything.png
+05:14:50 about to click empty space, to let go of everything at (400, 800)
+05:14:51 clicked empty space, to let go of everything -> 391-b-done-empty-space-to-let-go-of-everything.png
+05:14:52 about to click the groove's centre point at (921, 521)
+05:14:53 clicked the groove's centre point -> 392-b-done-the-groove-s-centre-point.png
+05:14:54 about to click the origin at (921, 126)
+05:14:54 clicked the origin -> 394-b-done-the-origin.png
+05:14:57 about to click empty space, to see it plainly at (400, 800)
+05:14:58 clicked empty space, to see it plainly -> 396-b-done-empty-space-to-see-it-plainly.png
+05:15:38 about to click empty space, to let go of everything at (400, 800)
+05:15:39 clicked empty space, to let go of everything -> 398-b-done-empty-space-to-let-go-of-everything.png
+05:15:41 about to click the groove's centre point at (921, 521)
+05:15:42 clicked the groove's centre point -> 399-b-done-the-groove-s-centre-point.png
+05:15:42 about to click the origin at (921, 126)
+05:15:43 clicked the origin -> 400-b-done-the-origin.png
+05:15:44 about to click a clear spot to park the number at (600, 300)
+05:15:45 clicked a clear spot to park the number -> 401-b-done-a-clear-spot-to-park-the-number.png
+05:15:48 groove set back from the ankle: 7.89069 mm -> 8
+05:16:25 about to click the green tick, to close the sketch at (424, 93)
+05:16:26 clicked the green tick, to close the sketch -> 404-b-done-the-green-tick-to-close-the-sketch.png
+05:16:28 about to click the Sketch 1 row, to rename it at (140, 573)
+05:16:28 clicked the Sketch 1 row, to rename it -> 405-b-done-the-sketch-1-row-to-rename-it.png
+05:16:28 about to click Rename in the context menu at (263, 597)
+05:16:29 clicked Rename in the context menu -> 406-b-done-rename-in-the-context-menu.png
+05:16:31 renamed 'Sketch 1' to 'Groove profile'
+05:16:32 about to click the eye, to show the foot again at (220, 696)
+05:16:33 clicked the eye, to show the foot again -> 408-b-done-the-eye-to-show-the-foot-again.png
+05:16:34 about to click the View menu at (1563, 232)
+05:16:35 clicked the View menu -> 409-b-done-the-view-menu.png
+05:16:36 about to click Isometric at (1454, 258)
+05:16:37 clicked Isometric -> 410-b-done-isometric.png
+05:16:38 about to click the View menu at (1563, 232)
+05:16:39 clicked the View menu -> 411-b-done-the-view-menu.png
+05:16:40 about to click Zoom to fit at (1458, 393)
+05:16:41 clicked Zoom to fit -> 412-b-done-zoom-to-fit.png
+05:17:01 about to click the Groove profile sketch in the tree at (140, 573)
+05:17:01 clicked the Groove profile sketch in the tree -> 414-b-done-the-groove-profile-sketch-in-the-tree.png
+05:17:02 about to click the extrude tool at (219, 58)
+05:17:03 clicked the extrude tool -> 415-b-done-the-extrude-tool.png
+05:17:05 about to click Remove, so the groove cuts at (366, 148)
+05:17:06 clicked Remove, so the groove cuts -> 416-b-done-remove-so-the-groove-cuts.png
+05:17:29 about to click the flip, to send the cut downward at (453, 231)
+05:17:30 clicked the flip, to send the cut downward -> 418-b-done-the-flip-to-send-the-cut-downward.png
+05:17:31 about to click the depth field, reading '25 mm' at (359, 259)
+05:17:32 clicked the depth field, reading '25 mm' -> 419-b-done-the-depth-field-reading-25-mm.png
+05:17:34 depth: 25 mm -> 1 mm
+05:17:34 about to click Starting offset at (277, 313)
+05:17:35 clicked Starting offset -> 420-b-done-starting-offset.png
+05:17:56 about to click the offset's own flip, to send it downward at (453, 368)
+05:17:56 clicked the offset's own flip, to send it downward -> 422-b-done-the-offset-s-own-flip-to-send-it-downward.png
+05:18:52 about to click the green tick at (424, 93)
+05:18:53 clicked the green tick -> 425-b-done-the-green-tick.png
+05:18:54 about to click the Extrude 1 row, to rename it at (140, 599)
+05:18:55 clicked the Extrude 1 row, to rename it -> 426-b-done-the-extrude-1-row-to-rename-it.png
+05:18:55 about to click Rename in the context menu at (264, 623)
+05:18:56 clicked Rename in the context menu -> 427-b-done-rename-in-the-context-menu.png
+05:18:58 renamed 'Extrude 1' to 'Sole groove'
+05:19:44 about to click the depth's flip, to send it down to the ground at (453, 231)
+05:19:45 clicked the depth's flip, to send it down to the ground -> 431-b-done-the-depth-s-flip-to-send-it-down-to-the-ground.png
+05:20:03 about to click the green tick at (424, 93)
+05:20:04 clicked the green tick -> 433-b-done-the-green-tick.png
+05:20:50 about to click the linear pattern tool at (689, 58)
+05:20:51 clicked the linear pattern tool -> 435-b-done-the-linear-pattern-tool.png
+05:20:52 about to click the pattern-type list at (344, 121)
+05:20:53 clicked the pattern-type list -> 436-b-done-the-pattern-type-list.png
+05:21:14 about to click the red X, to drop the circular pattern at (452, 93)
+05:21:15 clicked the red X, to drop the circular pattern -> 438-b-done-the-red-x-to-drop-the-circular-pattern.png
+05:21:16 about to click the arrow beside the pattern tool at (714, 58)
+05:21:17 clicked the arrow beside the pattern tool -> 439-b-done-the-arrow-beside-the-pattern-tool.png
+05:21:18 about to click Linear pattern at (772, 93)
+05:21:19 clicked Linear pattern -> 440-b-done-linear-pattern.png
+05:21:21 about to click the pattern-type list at (344, 121)
+05:21:22 clicked the pattern-type list -> 441-b-done-the-pattern-type-list.png
+05:21:23 about to click Feature pattern at (305, 178)
+05:21:24 clicked Feature pattern -> 442-b-done-feature-pattern.png
+05:21:45 about to click the Sole groove feature, to pattern it at (140, 599)
+05:21:47 clicked the Sole groove feature, to pattern it -> 444-b-done-the-sole-groove-feature-to-pattern-it.png
+05:21:48 about to click the direction field at (356, 203)
+05:21:49 clicked the direction field -> 445-b-done-the-direction-field.png
+05:23:31 about to click the top face of the plate at (750, 638)
+05:23:32 clicked the top face of the plate -> 453-b-done-the-top-face-of-the-plate.png
+05:23:53 about to click the Front plane in the tree at (140, 235)
+05:23:55 clicked the Front plane in the tree -> 455-b-done-the-front-plane-in-the-tree.png
+05:24:15 about to click the distance field, reading '25 mm' at (371, 252)
+05:24:16 clicked the distance field, reading '25 mm' -> 457-b-done-the-distance-field-reading-25-mm.png
+05:24:18 distance: 25 mm -> 6 mm
+05:24:18 about to click the instance count field, reading '2' at (387, 278)
+05:24:19 clicked the instance count field, reading '2' -> 458-b-done-the-instance-count-field-reading-2.png
+05:24:21 instance count: 2 -> 7
+05:24:21 about to click the centered tick at (257, 305)
+05:24:22 clicked the centered tick -> 459-b-done-the-centered-tick.png
+05:24:23 about to click the reapply features tick at (257, 359)
+05:24:24 clicked the reapply features tick -> 460-b-done-the-reapply-features-tick.png
+05:24:53 about to click the green tick at (424, 93)
+05:24:54 clicked the green tick -> 462-b-done-the-green-tick.png
+05:24:56 about to click the Linear pattern 1 row, to rename it at (140, 625)
+05:24:57 clicked the Linear pattern 1 row, to rename it -> 463-b-done-the-linear-pattern-1-row-to-rename-it.png
+05:24:57 about to click Rename in the context menu at (261, 649)
+05:24:58 clicked Rename in the context menu -> 464-b-done-rename-in-the-context-menu.png
+05:25:00 renamed 'Linear pattern 1' to 'Sole ribs'
+05:27:49 about to click the green tick at (424, 93)
+05:27:49 clicked the green tick -> 469-b-done-the-green-tick.png
+05:28:42 about to click the instance count field, reading '5' at (387, 278)
+05:28:43 clicked the instance count field, reading '5' -> 470-b-done-the-instance-count-field-reading-5.png
+05:29:52 about to click the green tick at (424, 93)
+05:29:53 clicked the green tick -> 473-b-done-the-green-tick.png
+05:30:19 about to click the green tick at (424, 93)
+05:30:20 clicked the green tick -> 475-b-done-the-green-tick.png
+05:32:19 about to click the mirror tool at (741, 58)
+05:32:19 clicked the mirror tool -> 476-b-done-the-mirror-tool.png
+05:32:42 about to click Add, so the copy merges with the foot at (313, 148)
+05:32:43 clicked Add, so the copy merges with the foot -> 478-b-done-add-so-the-copy-merges-with-the-foot.png
+05:32:44 about to click the Foot part, to mirror at (140, 696)
+05:32:45 clicked the Foot part, to mirror -> 479-b-done-the-foot-part-to-mirror.png
+05:32:46 about to click the mirror plane field at (343, 231)
+05:32:47 clicked the mirror plane field -> 480-b-done-the-mirror-plane-field.png
+05:32:48 about to click the Right plane in the tree at (140, 261)
+05:32:49 clicked the Right plane in the tree -> 481-b-done-the-right-plane-in-the-tree.png
+05:32:51 about to click the green tick at (424, 93)
+05:32:52 clicked the green tick -> 483-b-done-the-green-tick.png
+05:34:06 about to click the mirror plane field at (343, 231)
+05:34:07 clicked the mirror plane field -> 486-b-done-the-mirror-plane-field.png
+05:34:08 about to click the Right plane in the tree at (140, 240)
+05:34:09 clicked the Right plane in the tree -> 487-b-done-the-right-plane-in-the-tree.png
+05:34:11 about to click the green tick at (424, 93)
+05:34:12 clicked the green tick -> 489-b-done-the-green-tick.png
+05:34:35 about to click the Mirror 1 row at (140, 630)
+05:34:36 clicked the Mirror 1 row -> 491-b-done-the-mirror-1-row.png
+05:35:24 about to click the View menu at (1563, 232)
+05:35:25 clicked the View menu -> 493-b-done-the-view-menu.png
+05:35:26 about to click Isometric at (1454, 258)
+05:35:27 clicked Isometric -> 494-b-done-isometric.png
+05:35:28 about to click Top on the view cube at (1508, 141)
+05:35:29 clicked Top on the view cube -> 495-b-done-top-on-the-view-cube.png
+05:35:31 about to click the View menu at (1563, 232)
+05:35:32 clicked the View menu -> 496-b-done-the-view-menu.png
+05:35:32 about to click Zoom to fit at (1458, 393)
+05:35:33 clicked Zoom to fit -> 497-b-done-zoom-to-fit.png
+05:35:37 about to click the direction field at (340, 201)
+05:35:38 clicked the direction field -> 498-b-done-the-direction-field.png
+05:36:52 about to click the slit's straight edge at (936, 330)
+05:36:53 clicked the slit's straight edge -> 503-b-done-the-slit-s-straight-edge.png
+05:37:15 about to click the red X, to drop the edit at (452, 93)
+05:37:16 clicked the red X, to drop the edit -> 505-b-done-the-red-x-to-drop-the-edit.png
+05:37:18 about to click the View menu at (1563, 232)
+05:37:19 clicked the View menu -> 506-b-done-the-view-menu.png
+05:37:20 about to click Isometric at (1454, 258)
+05:37:20 clicked Isometric -> 507-b-done-isometric.png
+05:37:22 about to click the View menu at (1563, 232)
+05:37:23 clicked the View menu -> 508-b-done-the-view-menu.png
+05:37:24 about to click Zoom to fit at (1458, 393)
+05:37:25 clicked Zoom to fit -> 509-b-done-zoom-to-fit.png
+05:42:59 about to click the Sole ribs row at (140, 617)
+05:43:00 clicked the Sole ribs row -> 511-b-done-the-sole-ribs-row.png
+05:43:03 about to click the Sole groove row at (140, 599)
+05:43:03 clicked the Sole groove row -> 513-b-done-the-sole-groove-row.png
+05:43:06 about to click the Groove profile row at (140, 573)
+05:43:07 clicked the Groove profile row -> 515-b-done-the-groove-profile-row.png
+05:44:50 about to click the Right plane in the tree at (140, 261)
+05:44:51 clicked the Right plane in the tree -> 517-b-done-the-right-plane-in-the-tree.png
+05:44:54 about to click the Sketch tool at (130, 58)
+05:44:55 clicked the Sketch tool -> 519-b-done-the-sketch-tool.png
+05:44:57 about to click the View menu at (1563, 232)
+05:44:58 clicked the View menu -> 520-b-done-the-view-menu.png
+05:44:59 about to click Zoom to fit at (1458, 393)
+05:45:00 clicked Zoom to fit -> 521-b-done-zoom-to-fit.png
+05:46:09 about to click the rectangle tool at (253, 58)
+05:46:10 clicked the rectangle tool -> 523-b-done-the-rectangle-tool.png
+05:46:11 about to click the groove's centre, out in clear space at (700, 850)
+05:46:12 clicked the groove's centre, out in clear space -> 524-b-done-the-groove-s-centre-out-in-clear-space.png
+05:46:12 about to click a corner, roughly 3 along the foot and 1 deep at (740, 864)
+05:46:13 clicked a corner, roughly 3 along the foot and 1 deep -> 525-b-done-a-corner-roughly-3-along-the-foot-and-1-deep.png
+05:47:18 about to click the profile's top edge at (660, 827)
+05:47:18 clicked the profile's top edge -> 528-b-done-the-profile-s-top-edge.png
+05:47:19 about to click a clear spot to park the number at (700, 740)
+05:47:20 clicked a clear spot to park the number -> 529-b-done-a-clear-spot-to-park-the-number.png
+05:47:55 about to click the profile's edge at 670,828 at (670, 828)
+05:47:56 clicked the profile's edge at 670,828 -> 530-b-done-the-profile-s-edge-at-670-828.png
+05:47:56 about to click a clear spot to park the number at (700, 740)
+05:47:57 clicked a clear spot to park the number -> 531-b-done-a-clear-spot-to-park-the-number.png
+05:47:58 about to click the profile's edge at 670,827 at (670, 827)
+05:47:59 clicked the profile's edge at 670,827 -> 532-b-done-the-profile-s-edge-at-670-827.png
+05:48:00 about to click a clear spot to park the number at (700, 740)
+05:48:01 clicked a clear spot to park the number -> 533-b-done-a-clear-spot-to-park-the-number.png
+05:48:02 about to click the profile's edge at 665,829 at (665, 829)
+05:48:03 clicked the profile's edge at 665,829 -> 534-b-done-the-profile-s-edge-at-665-829.png
+05:48:04 about to click a clear spot to park the number at (700, 740)
+05:48:05 clicked a clear spot to park the number -> 535-b-done-a-clear-spot-to-park-the-number.png
+05:48:06 about to click the profile's edge at 670,873 at (670, 873)
+05:48:07 clicked the profile's edge at 670,873 -> 536-b-done-the-profile-s-edge-at-670-873.png
+05:48:07 about to click a clear spot to park the number at (700, 740)
+05:48:08 clicked a clear spot to park the number -> 537-b-done-a-clear-spot-to-park-the-number.png
+05:48:11 groove width along the foot: 2.97784 mm -> 3
+05:49:02 about to click the profile's end edge at 637,862 at (637, 862)
+05:49:03 clicked the profile's end edge at 637,862 -> 539-b-done-the-profile-s-end-edge-at-637-862.png
+05:49:03 about to click a clear spot to park the number at (520, 900)
+05:49:04 clicked a clear spot to park the number -> 540-b-done-a-clear-spot-to-park-the-number.png
+05:49:07 groove depth: 1.05 mm -> 1
+05:49:08 about to click Show constraints, to put the badges away at (256, 203)
+05:49:09 clicked Show constraints, to put the badges away -> 541-b-done-show-constraints-to-put-the-badges-away.png
+05:49:11 about to click the eye beside the Foot part at (220, 696)
+05:49:12 clicked the eye beside the Foot part -> 542-b-done-the-eye-beside-the-foot-part.png
+05:49:45 about to click the groove's centre point at (700, 850)
+05:49:46 clicked the groove's centre point -> 544-b-done-the-groove-s-centre-point.png
+05:49:47 about to click the origin at (1394, 103)
+05:49:48 clicked the origin -> 545-b-done-the-origin.png
+05:49:48 about to click a spot below both, so the number reads along the foot at (1000, 950)
+05:49:49 clicked a spot below both, so the number reads along the foot -> 546-b-done-a-spot-below-both-so-the-number-reads-along-the-.png
+05:49:52 groove centre forward of the ankle: 16.28213 mm -> 8
+05:50:26 about to click the groove's bottom edge at (1040, 872)
+05:50:27 clicked the groove's bottom edge -> 548-b-done-the-groove-s-bottom-edge.png
+05:50:28 about to click the origin at (1394, 103)
+05:50:29 clicked the origin -> 549-b-done-the-origin.png
+05:50:30 about to click a spot beside both, so the number reads down the foot at (1250, 400)
+05:50:31 clicked a spot beside both, so the number reads down the foot -> 550-b-done-a-spot-beside-both-so-the-number-reads-down-the-.png
+05:50:34 sole below the ankle: 18.00332 mm -> 12
+05:51:02 about to click Show constraints, to put the badges back at (256, 203)
+05:51:03 clicked Show constraints, to put the badges back -> 552-b-done-show-constraints-to-put-the-badges-back.png
+05:51:04 about to click the green tick, to close the sketch at (424, 93)
+05:51:05 clicked the green tick, to close the sketch -> 553-b-done-the-green-tick-to-close-the-sketch.png
+05:51:06 about to click the Sketch 1 row, to rename it at (140, 573)
+05:51:07 clicked the Sketch 1 row, to rename it -> 554-b-done-the-sketch-1-row-to-rename-it.png
+05:51:07 about to click Rename in the context menu at (263, 597)
+05:51:08 clicked Rename in the context menu -> 555-b-done-rename-in-the-context-menu.png
+05:51:09 renamed 'Sketch 1' to 'Groove profile'
+05:51:10 about to click the eye, to show the foot again at (220, 696)
+05:51:11 clicked the eye, to show the foot again -> 557-b-done-the-eye-to-show-the-foot-again.png
+05:51:12 about to click the View menu at (1563, 232)
+05:51:13 clicked the View menu -> 558-b-done-the-view-menu.png
+05:51:14 about to click Isometric at (1454, 258)
+05:51:15 clicked Isometric -> 559-b-done-isometric.png
+05:51:17 about to click the View menu at (1563, 232)
+05:51:18 clicked the View menu -> 560-b-done-the-view-menu.png
+05:51:18 about to click Zoom to fit at (1458, 393)
+05:51:19 clicked Zoom to fit -> 561-b-done-zoom-to-fit.png
+05:51:42 about to click the Groove profile row at (140, 573)
+05:51:43 clicked the Groove profile row -> 563-b-done-the-groove-profile-row.png
+05:51:44 about to click the Extrude tool at (219, 58)
+05:51:45 clicked the Extrude tool -> 564-b-done-the-extrude-tool.png
+05:52:11 about to click Remove at (366, 148)
+05:52:12 clicked Remove -> 566-b-done-remove.png
+05:52:13 about to click Symmetric at (254, 340)
+05:52:14 clicked Symmetric -> 567-b-done-symmetric.png
+05:52:17 about to click the dialog title, to let the number settle at (340, 93)
+05:52:18 clicked the dialog title, to let the number settle -> 568-b-done-the-dialog-title-to-let-the-number-settle.png
+05:52:52 about to click the green tick, to take the cut at (424, 93)
+05:52:53 clicked the green tick, to take the cut -> 570-b-done-the-green-tick-to-take-the-cut.png
+05:53:28 about to click the green tick, to take the cut at (424, 93)
+05:53:29 clicked the green tick, to take the cut -> 571-b-done-the-green-tick-to-take-the-cut.png
+05:53:31 about to click the Extrude 1 row, to rename it at (140, 599)
+05:53:32 clicked the Extrude 1 row, to rename it -> 572-b-done-the-extrude-1-row-to-rename-it.png
+05:53:32 about to click Rename in the context menu at (264, 623)
+05:53:33 clicked Rename in the context menu -> 573-b-done-rename-in-the-context-menu.png
+05:53:35 renamed 'Extrude 1' to 'Sole groove'
+05:53:35 about to click Top on the view cube at (1508, 141)
+05:53:36 clicked Top on the view cube -> 575-b-done-top-on-the-view-cube.png
+05:53:38 about to click Bottom, from Top at (1483, 178)
+05:53:39 clicked Bottom, from Top -> 576-b-done-bottom-from-top.png
+05:53:40 about to click the View menu at (1563, 232)
+05:53:41 clicked the View menu -> 577-b-done-the-view-menu.png
+05:53:42 about to click Zoom to fit at (1458, 393)
+05:53:43 clicked Zoom to fit -> 578-b-done-zoom-to-fit.png
+05:54:48 about to click the arrow beside the pattern tool at (714, 58)
+05:54:49 clicked the arrow beside the pattern tool -> 580-b-done-the-arrow-beside-the-pattern-tool.png
+05:54:50 about to click Linear pattern at (772, 93)
+05:54:51 clicked Linear pattern -> 581-b-done-linear-pattern.png
+05:54:53 about to click the pattern-type list at (344, 121)
+05:54:54 clicked the pattern-type list -> 582-b-done-the-pattern-type-list.png
+05:54:55 about to click Feature pattern at (305, 178)
+05:54:56 clicked Feature pattern -> 583-b-done-feature-pattern.png
+05:54:58 about to click the Sole groove row, the feature to repeat at (140, 599)
+05:54:59 clicked the Sole groove row, the feature to repeat -> 584-b-done-the-sole-groove-row-the-feature-to-repeat.png
+05:55:00 about to click the direction field at (356, 203)
+05:55:01 clicked the direction field -> 585-b-done-the-direction-field.png
+05:55:02 about to click the Front plane, whose normal runs along the foot at (140, 235)
+05:55:03 clicked the Front plane, whose normal runs along the foot -> 586-b-done-the-front-plane-whose-normal-runs-along-the-foot.png
+05:55:46 about to click the instance count at (387, 278)
+05:55:47 clicked the instance count -> 588-b-done-the-instance-count.png
+05:55:49 about to click the spacing, to let the count settle at (371, 252)
+05:55:50 clicked the spacing, to let the count settle -> 589-b-done-the-spacing-to-let-the-count-settle.png
+05:55:51 about to click Centered at (254, 305)
+05:55:52 clicked Centered -> 590-b-done-centered.png
+05:55:53 about to click Reapply features at (254, 359)
+05:55:54 clicked Reapply features -> 591-b-done-reapply-features.png
+05:56:15 about to click the green tick at (424, 93)
+05:56:16 clicked the green tick -> 593-b-done-the-green-tick.png
+05:56:18 about to click the Linear pattern 1 row, to rename it at (140, 625)
+05:56:19 clicked the Linear pattern 1 row, to rename it -> 594-b-done-the-linear-pattern-1-row-to-rename-it.png
+05:56:19 about to click Rename in the context menu at (261, 649)
+05:56:20 clicked Rename in the context menu -> 595-b-done-rename-in-the-context-menu.png
+05:56:21 renamed 'Linear pattern 1' to 'Sole ribs'

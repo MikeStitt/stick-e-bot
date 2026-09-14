@@ -1,0 +1,52 @@
+06:38:46 about to click the reference geometry group on the toolbar at (1080, 58)
+06:38:47 clicked the reference geometry group on the toolbar -> 02-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:38:48 about to click the reference geometry dropdown arrow at (1100, 58)
+06:38:49 clicked the reference geometry dropdown arrow -> 03-b-done-the-reference-geometry-dropdown-arrow.png
+06:38:49 about to click Mate connector in the list at (1140, 754)
+06:38:50 clicked Mate connector in the list -> 04-b-done-mate-connector-in-the-list.png
+06:38:51 about to click the face for Neck socket at (890, 590)
+06:38:53 clicked the face for Neck socket -> 07-b-done-the-face-for-neck-socket.png
+06:38:54 Neck socket: Origin entity Face of Cavity from ball × | Select owner entity Head × | Attach to Face of Cavity from ball ×
+06:38:54 about to click the green tick at (424, 93)
+06:38:54 clicked the green tick -> 09-b-done-the-green-tick.png
+06:38:57 about to click the Mate connector 1 row, to rename it at (140, 630)
+06:38:58 clicked the Mate connector 1 row, to rename it -> 10-b-done-the-mate-connector-1-row-to-rename-it.png
+06:38:58 about to click Rename in the context menu at (251, 654)
+06:38:59 clicked Rename in the context menu -> 11-b-done-rename-in-the-context-menu.png
+06:39:00 renamed 'Mate connector 1' to 'Neck socket'
+06:39:00 after the head after the Neck socket connector, no errored rows in the tree
+06:39:33 about to click the Neck socket row, to delete it at (140, 630)
+06:39:34 clicked the Neck socket row, to delete it -> 14-b-done-the-neck-socket-row-to-delete-it.png
+06:39:34 about to click Delete in the context menu at (251, 859)
+06:39:35 clicked Delete in the context menu -> 15-b-done-delete-in-the-context-menu.png
+06:39:37 deleted 'Neck socket'
+06:39:37 about to click the reference geometry group on the toolbar at (1080, 58)
+06:39:38 clicked the reference geometry group on the toolbar -> 16-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:39:39 about to click the face for Neck socket at (880, 505)
+06:39:40 clicked the face for Neck socket -> 19-b-done-the-face-for-neck-socket.png
+06:39:41 Neck socket: Origin entity Face of Cavity from ball × | Select owner entity Head × | Attach to Face of Cavity from ball ×
+06:39:41 about to click the green tick at (424, 93)
+06:39:42 clicked the green tick -> 21-b-done-the-green-tick.png
+06:39:44 about to click the Mate connector 1 row, to rename it at (140, 630)
+06:39:45 clicked the Mate connector 1 row, to rename it -> 22-b-done-the-mate-connector-1-row-to-rename-it.png
+06:39:45 about to click Rename in the context menu at (251, 654)
+06:39:46 clicked Rename in the context menu -> 23-b-done-rename-in-the-context-menu.png
+06:39:47 renamed 'Mate connector 1' to 'Neck socket'
+07:06:12 about to click the Neck socket row, to delete it at (140, 617)
+07:06:13 clicked the Neck socket row, to delete it -> 26-b-done-the-neck-socket-row-to-delete-it.png
+07:06:13 about to click Delete in the context menu at (251, 846)
+07:06:14 clicked Delete in the context menu -> 27-b-done-delete-in-the-context-menu.png
+07:06:16 deleted 'Neck socket'
+07:06:16 about to click the reference geometry group on the toolbar at (1080, 58)
+07:06:17 clicked the reference geometry group on the toolbar -> 29-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:06:18 about to click the face for Neck socket at (919, 883)
+07:06:19 clicked the face for Neck socket -> 32-b-done-the-face-for-neck-socket.png
+07:06:23 Neck socket: Origin entity Vertex of Cavity profile × | Select owner entity Head ×
+07:06:23 about to click the green tick at (424, 93)
+07:06:24 clicked the green tick -> 34-b-done-the-green-tick.png
+07:06:26 about to click the Mate connector 1 row, to rename it at (140, 617)
+07:06:27 clicked the Mate connector 1 row, to rename it -> 35-b-done-the-mate-connector-1-row-to-rename-it.png
+07:06:27 about to click Rename in the context menu at (251, 641)
+07:06:28 clicked Rename in the context menu -> 36-b-done-rename-in-the-context-menu.png
+07:06:30 renamed 'Mate connector 1' to 'Neck socket'
+07:06:30 after the head after the Neck socket connector, no errored rows in the tree

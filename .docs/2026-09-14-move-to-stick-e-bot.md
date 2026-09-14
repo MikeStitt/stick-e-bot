@@ -1,0 +1,131 @@
+# Moving to stick-e-bot
+
+This repository is 1.5 GB of git history holding 12,977 PNGs, and it is named after a robot we
+stopped building. `https://github.com/MikeStitt/stick-e-bot.git` is the replacement. This file says
+what moves, what does not, what stops the same accident happening again, and in what order.
+
+## What was measured, 2026-09-14
+
+| | |
+| --- | ---: |
+| Tracked PNG under `.docs/experiments/runs/` — interim capture, never published | 1,235 MB |
+| Tracked PNG under `instructions/` — nine guide drafts, one of them live | 416 MB |
+| Everything else tracked — prose, plans, logs, reference JSON, tools | 28 MB |
+| `.git` | 1.5 GB |
+
+- **PNG is 1,651 MB of the 1,679 MB tracked, across 12,977 files.** Everything else is rounding.
+- **The largest file ever committed is 2.12 MB**, `c1-raw.json`. GitHub warns at 50 MB and blocks
+  at 100 MB.
+- **71 files of built Sphinx HTML are tracked**, which is the same accident in a different costume.
+- **`instructions/stickbot-draft9p4/` is 80.12 MB of frames and 0.53 MB of everything else** — 20
+  source files and 22 toolbar close-ups.
+
+**Git LFS is not needed and would make this worse.** LFS solves one enormous file. The problem here
+is count, not size: it would add a bandwidth quota, a second thing to install, and a clone that
+cannot check out without it.
+
+## Settled decisions
+
+- **Fresh `git init`. No history, no `git-filter-repo`.** Rewriting 1.5 GB costs a day, breaks
+  every path in every archived record, and buys a log this directory already holds. This repository
+  stays on disk as the archive, which is what the Constitution's Archive section already calls it.
+- **`stick-e-bot` is public.** GitHub Pages is free on public repositories and needs a paid plan on
+  private ones. Publishing `.docs/project.md` hands over identifiers, not access: on 2026-09-14 a
+  second Onshape account was given the exact document and workspace id of `stickbot-draft9p4` and
+  was refused with *document does not exist or you don't have permission to access it*. Knowing an
+  id is not enough to open a document, and that is now performed rather than assumed.
+- **draft9p4 becomes the reference model, not a guide.** It is finished over REST so it is
+  structurally right, and it publishes no pages. draft9p5 is the guide, built from an empty
+  workspace in the GUI, and it captures its own frames.
+- **Interim capture leaves the repository.** A take writes its frames to the session scratchpad. A
+  frame reaches git only by being placed on a page, or by being the evidence a written finding
+  rests on. This is the whole of what went wrong: 1,235 MB arrived because capture and publication
+  shared a tree.
+
+## Phase 1 — the gate, before the first commit
+
+- **`.gitignore` denies images by default.** Ignore `*.png` and `*.jpg`/`*.jpeg` anywhere, then
+  un-ignore exactly `instructions/*/source/images/`. Ignore `instructions/*/build/` and
+  `**/capture/`.
+- **`check-images` joins `ninja check`.** It fails if a tracked image sits outside
+  `instructions/*/source/images/`, and fails if built HTML is tracked. One pass over
+  `git ls-files`, the shape of `check_wrap.py`.
+- **A size ceiling with a number in it.** The check also fails on any tracked file over 5 MB.
+  Nothing legitimate here approaches it and the one that tries will be an accident.
+
+**Why this is Phase 1 and not Phase 5.** The rule was already written down. `retakes-changes.md`,
+dated 2026-08-23, named the missing `.gitignore`, the exact paths it had to cover, and the 1.2 GB
+it would hide from `git status` — three weeks before the bill came due. Nobody acted on it. Writing
+the rule down is the thing that failed, so the gate is a check that runs rather than a sentence
+somebody is meant to remember.
+
+## Phase 2 — carry the text
+
+`git init` in `/Users/mikestitt/projects/first/2027/stick-e-bot`, the remote, the first commit.
+
+**Carries:** `tools/` entire; `.claude/rules/` and `.claude/skills/`; `pyproject.toml`, `uv.lock`,
+`build.ninja`, `.gitattributes`; `docs/`; `.docs/` including `build/`, `project.md`,
+`robot-build-plan.md`, `session-state.md`, `onshape-gui-howto.md`, `onshape-api.md`,
+`browser-access.md`, `verification-lessons.md`, `reviews/`; every run folder's text — plans, notes,
+registers, logs and `reference/*.json`; and from `instructions/stickbot-draft9p4/`, the 20 source
+files and the 22 toolbar close-ups.
+
+**Does not carry:** 12,977 PNGs; the eight superseded guide drafts entire; the built HTML;
+`.docs/experiments/spongebob-guide/`, which the Constitution already calls retired;
+`old-constitution.md`, whose diff has been taken.
+
+**Resolved on 2026-09-14.** `draft-prose-style.md` and `pre-plan.md` were deleted, along with the
+untracked scratch files `process-map.md` and `retakes-changes.md`; every finding those two held has
+either landed or is carried by this plan. `old-constitution.md` stays here in the archive and does
+not carry, which makes `SKIP_FILES = ("old-constitution.md",)` in `tools/check_wrap.py` dead in the
+new repository — it comes out with the file.
+
+## Phase 3 — the rename and the contract
+
+- **`sponge` appears in 12 live tracked files**, the Constitution among them. This is a meaning
+  change, so the prose rule permits the edit.
+- **The Constitution's *Where developmental draft products live*** still reads *an example
+  completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
+- **`tools/check_spelling.py`** carries `sponge` in its dictionary or its docstring.
+
+## Phase 4 — draft9p4 to a finished reference model, over REST
+
+Tutorials 9 to 14 are unbuilt: the hinge is part way, and `u limb`, `l limb`, `gripper` and the two
+assembly tutorials have not started. The joints come from `stickbot-draft9p1p6`, the rest from
+draft9p1p1's construction, exactly as draft9p4's own declaration says.
+
+**Two conditions, both from the draft9p1p6 precedent:**
+
+- **The grant is per-document and does not carry.** draft9p1p6's plan records that the earlier
+  permission covered `stickbot-draft9p1p2` and `stickbot-draft9p1p4` and did not extend. **Mike
+  granted REST for `stickbot-draft9p4` by name on 2026-09-14**, so Phase 4 is authorized in that
+  document and in no other.
+- **REST edits features; it does not emit geometry.** The same plan: geometry is written *by
+  editing the features the parent already holds, with their constraints, patterns and mirrors
+  intact, not by emitting fresh geometry because emitting is cheaper*. That is the whole of what
+  "structurally right" means here, and it is what `modeling-practice` asks for.
+
+No frames are taken. The tab is proved by `read_shape.py`, `diff_shape.py` and rendered views, the
+way a reference model is proved.
+
+**What this drops:** the 208 uncommitted hinge frames and draft9p4's eight written pages. The
+frames were captured for a guide draft9p4 is no longer making. The pages carry forward as text for
+draft9p5 to write against.
+
+## Phase 5 — draft9p5 from empty
+
+A new plan, a new empty Onshape workspace, the GUI for every feature, and draft9p4 as the reference
+the audits diff against. The frames it publishes are the only frames that reach git.
+
+## What we do not know yet
+
+- **Whether a shared Onshape document opens for an account without ownership rights.** The refusal
+  on 2026-09-14 proves an unshared one does not. Nothing has tested a shared one, and the
+  *Recovery point* gate wants a published named version a student can start from.
+- **Why it refused.** Onshape returns one message for both cases — *document does not exist or you
+  don't have permission to access it* — so the refusal does not say which. What it does say is that
+  the account was signed in and the request was evaluated rather than bounced, so the test was
+  performed. The id came off `reference/documents.json`, read from the model.
+- **Which Onshape plan this account is on.** If it is an Education or team license rather than
+  Free, then no draft has ever been built under the constraint students face, and
+  `before-you-start.rst` describes a plan nobody here has used.

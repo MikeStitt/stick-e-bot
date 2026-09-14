@@ -1,0 +1,7005 @@
+{
+ "features": [
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "assignVariable",
+    "featureId": "F1Ir1vV2pCJD5x4_0",
+    "name": "###name = #value",
+    "parameters": [
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 124,
+                  "typeName": "BTEntityTypeFilter",
+                  "message": {
+                   "entityType": "FACE"
+                  }
+                 },
+                 "operand2": {
+                  "type": 124,
+                  "typeName": "BTEntityTypeFilter",
+                  "message": {
+                   "entityType": "EDGE"
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "VERTEX"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "BODY"
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": false,
+                 "objectType": "NOT_SKETCH_OBJECT"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 112,
+            "typeName": "BTBodyTypeFilter",
+            "message": {
+             "bodyType": "MATE_CONNECTOR"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 3018,
+          "typeName": "BTFlatSheetMetalFilter",
+          "message": {
+           "allows": "MODEL_AND_FLATTENED"
+          }
+         }
+        }
+       },
+       "parameterId": "initEntities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "1aal/6xtr+UC71W9"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "VariableMode",
+       "value": "ASSIGNED",
+       "namespace": "",
+       "parameterId": "mode",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "TRubrtL822QCC93N"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "VariableType",
+       "value": "LENGTH",
+       "namespace": "",
+       "parameterId": "variableType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "8g9rXmNtrIk6lSUj"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "VariableMeasurementMode",
+       "value": "DISTANCE",
+       "namespace": "",
+       "parameterId": "measurementMode",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "EGS7EYl3gXLgxKCR"
+      }
+     },
+     {
+      "type": 149,
+      "typeName": "BTMParameterString",
+      "message": {
+       "value": "limbD",
+       "parameterId": "name",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "UDng8xLkYE2XyGkv"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "#torsoH / 4",
+       "isInteger": false,
+       "parameterId": "lengthValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "hdZcYFKGVniO8mXL"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 deg",
+       "isInteger": false,
+       "parameterId": "angleValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Sz+G6RqI61ttXFlF"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "numberValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "CSlNTB/MWIoW88d0"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "anyValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "jS4MmwulecLmhY1a"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "#torsoH / 4",
+       "isInteger": false,
+       "parameterId": "value",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "RQcFBEP3HXCRJ26K"
+      }
+     },
+     {
+      "type": 917,
+      "typeName": "BTMParameterReferenceTable",
+      "message": {
+       "namespace": "",
+       "revisionData": {
+        "type": 2090,
+        "typeName": "BTRevisionCustomData",
+        "message": {
+         "partNumber": "",
+         "revision": ""
+        }
+       },
+       "elementLibraryData": {
+        "type": 3133,
+        "typeName": "BTElementLibraryReferenceData",
+        "message": {
+         "elementLibraryId": "",
+         "elementLibraryVersion": "",
+         "elementLibrarySelectionPath": []
+        }
+       },
+       "parameterId": "csv",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "v/7QAQUNUn73bTeu"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AccessType",
+       "value": "INDEX",
+       "namespace": "",
+       "parameterId": "rowAccessType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "MUVQu9/OOxO0poTh"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "rowIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2wK31gZvw7U90mAH"
+      }
+     },
+     {
+      "type": 149,
+      "typeName": "BTMParameterString",
+      "message": {
+       "value": "",
+       "parameterId": "rowValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ZzRc6vGJ6Z8wP2JD"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "rowRegexp",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Q2seGFEwpllXHsFl"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "rowMinIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "RteCVgvWHx+8IztA"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "rowMaxIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "tWhLSMWLCB55Ax5g"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "ResultType",
+       "value": "SINGLE",
+       "namespace": "",
+       "parameterId": "rowResult",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "a3e3lg7hV0UnBGeV"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "rowLabelIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "W4B0B5mHjRnG94eq"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AccessType",
+       "value": "INDEX",
+       "namespace": "",
+       "parameterId": "columnAccessType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "IUBucgXUVPVwx2jX"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "columnIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "w/vs/ZlFf42kIDlz"
+      }
+     },
+     {
+      "type": 149,
+      "typeName": "BTMParameterString",
+      "message": {
+       "value": "",
+       "parameterId": "columnValue",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "mLrqbt2iscrmsPKb"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "columnRegexp",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "u2ZmnE4AGYbI7leA"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "columnMinIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "wa4A/ppSrsENFw1B"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "columnMaxIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "nOKQov29gdAI/smz"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "ResultType",
+       "value": "SINGLE",
+       "namespace": "",
+       "parameterId": "columnResult",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "rBzs00lexo/1F6ht"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": true,
+       "parameterId": "columnLabelIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "YcuK4S9qUKD1fh3Q"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "useConversionFactor",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9grnZqOuAiZNc4a1"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "conversionFactor",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "JGXN6cu8/uhll+AS"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 124,
+                  "typeName": "BTEntityTypeFilter",
+                  "message": {
+                   "entityType": "FACE"
+                  }
+                 },
+                 "operand2": {
+                  "type": 124,
+                  "typeName": "BTEntityTypeFilter",
+                  "message": {
+                   "entityType": "EDGE"
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "VERTEX"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "BODY"
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": false,
+                 "objectType": "NOT_SKETCH_OBJECT"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 112,
+            "typeName": "BTBodyTypeFilter",
+            "message": {
+             "bodyType": "MATE_CONNECTOR"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 3018,
+          "typeName": "BTFlatSheetMetalFilter",
+          "message": {
+           "allows": "MODEL_AND_FLATTENED"
+          }
+         }
+        }
+       },
+       "parameterId": "entityCouple",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "4b68piaaMUbjCbq6"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "VariableMinMaxSelection",
+       "value": "MINIMUM",
+       "namespace": "",
+       "parameterId": "minmax",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "MwVMHgRIaPU84uS+"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "extendEntities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "R30iUikal2xlxvLz"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "measureFromAxis",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "EgDwktaPUjTY1VYE"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "distance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "RNnAbtt8K3cj63Ux"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "xOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "bRA4EOpCb64zWYwu"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "yOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "1cghG5P4w5RlgcPx"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "zOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "iNUEqsNYZIhL9F6n"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AxisWithCustom",
+       "value": "DISTANCE",
+       "namespace": "",
+       "parameterId": "componentSelector",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "QzRgv8UKxvZWvF9u"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 130,
+              "typeName": "BTGeometryFilter",
+              "message": {
+               "geometryType": "LINE"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "CIRCLE"
+                }
+               },
+               "operand2": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 130,
+                  "typeName": "BTGeometryFilter",
+                  "message": {
+                   "geometryType": "ARC"
+                  }
+                 },
+                 "operand2": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 130,
+                    "typeName": "BTGeometryFilter",
+                    "message": {
+                     "geometryType": "CYLINDER"
+                    }
+                   },
+                   "operand2": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 130,
+                      "typeName": "BTGeometryFilter",
+                      "message": {
+                       "geometryType": "CONE"
+                      }
+                     },
+                     "operand2": {
+                      "type": 130,
+                      "typeName": "BTGeometryFilter",
+                      "message": {
+                       "geometryType": "REVOLVED"
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 163,
+            "typeName": "BTMateConnectorFilter",
+            "message": {
+             "requiresOccurrence": false,
+             "allowImplicitMateConnector": false,
+             "isMateConnectorInferenceEnabledByDefault": false
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 130,
+          "typeName": "BTGeometryFilter",
+          "message": {
+           "geometryType": "PLANE"
+          }
+         }
+        }
+       },
+       "parameterId": "customDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "kqsSu8ZqsE0kIE4S"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "customOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "kokUz+zepqutonFn"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 124,
+            "typeName": "BTEntityTypeFilter",
+            "message": {
+             "entityType": "EDGE"
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "BODY"
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "WIRE"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 3018,
+          "typeName": "BTFlatSheetMetalFilter",
+          "message": {
+           "allows": "MODEL_AND_FLATTENED"
+          }
+         }
+        }
+       },
+       "parameterId": "lengthEntities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "zrxhURGgWdZYnfHZ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "radius",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "fegWXWgVh0thO8Dh"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "CIRCLE"
+                }
+               },
+               "operand2": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "ARC"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 130,
+              "typeName": "BTGeometryFilter",
+              "message": {
+               "geometryType": "CYLINDER"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 130,
+            "typeName": "BTGeometryFilter",
+            "message": {
+             "geometryType": "SPHERE"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 3018,
+          "typeName": "BTFlatSheetMetalFilter",
+          "message": {
+           "allows": "MODEL_AND_FLATTENED"
+          }
+         }
+        }
+       },
+       "parameterId": "diameterEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "+5ilgydR9nfXLBr8"
+      }
+     },
+     {
+      "type": 149,
+      "typeName": "BTMParameterString",
+      "message": {
+       "value": "",
+       "parameterId": "description",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "S3WvZpThOzXoTafl"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MIh8l6zCGyNXgXt69"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "importDerived",
+    "featureId": "FqeiGf5pvPgi3Ak_0",
+    "name": "add blade",
+    "parameters": [
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "newUI",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "MWhPShaB8AWMa1DN"
+      }
+     },
+     {
+      "type": 3302,
+      "typeName": "BTMParameterReferencePartStudio",
+      "message": {
+       "partQuery": {
+        "type": 148,
+        "typeName": "BTMParameterQueryList",
+        "message": {
+         "queries": [
+          {
+           "type": 138,
+           "typeName": "BTMIndividualQuery",
+           "message": {
+            "geometryIds": [
+             "JHD"
+            ],
+            "hasUserCode": false,
+            "nodeId": "M5NR7S+o7hTDmC97r"
+           }
+          }
+         ],
+         "filter": {
+          "type": 0
+         },
+         "parameterId": "partQuery",
+         "libraryRelationType": "DEFAULT",
+         "parameterName": "",
+         "hasUserCode": false,
+         "nodeId": "Sl2zoxnxzdcFY8v/"
+        }
+       },
+       "standardContentParametersId": "",
+       "partIdentity": {
+        "type": 2741,
+        "typeName": "BTPSOIdentity",
+        "message": {
+         "theId": ""
+        }
+       },
+       "configuration": [],
+       "namespace": "e184adaa7b3e7abc7bc4357c7::medc630b58e4e3d5dc601af82",
+       "revisionData": {
+        "type": 2090,
+        "typeName": "BTRevisionCustomData",
+        "message": {
+         "partNumber": "",
+         "revision": ""
+        }
+       },
+       "elementLibraryData": {
+        "type": 0
+       },
+       "parameterId": "partStudio",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "RULnUv4KLmZTZiLv"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "preserveActiveSheetMetal",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "mfNvSD7YLFVCIjQC"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 112,
+        "typeName": "BTBodyTypeFilter",
+        "message": {
+         "bodyType": "MATE_CONNECTOR"
+        }
+       },
+       "parameterId": "location",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "71habo54ZWx7y9X0"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "DerivedPlacementType",
+       "value": "AT_ORIGIN",
+       "namespace": "",
+       "parameterId": "placement",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "KZwd+PXdL5addxdd"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "-1",
+       "isInteger": true,
+       "parameterId": "mateConnectorIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "XqO5e4OEL0ybq6Hv"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "mateConnectorId",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "BeUHntNvDZx4yrK3"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "-1",
+       "isInteger": true,
+       "parameterId": "mateConnectorIndexInFeature",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "baev8/CTflhVHnBQ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "includeMateConnectors",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "qnJ2n9uGixERNB3/"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "includeProperties",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Nel41hwmt0vHSQhc"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 0
+       },
+       "parameterId": "parts",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "K8DmIe7JtSvDkc4Y"
+      }
+     },
+     {
+      "type": 864,
+      "typeName": "BTMParameterDerived",
+      "message": {
+       "imports": [],
+       "namespace": "",
+       "configuration": [],
+       "revisionData": {
+        "type": 2090,
+        "typeName": "BTRevisionCustomData",
+        "message": {
+         "partNumber": "",
+         "revision": ""
+        }
+       },
+       "parameterId": "buildFunction",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "jaI3QldJD5elIC8S"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M62PWXHcgU0t/R0NS"
+   }
+  },
+  {
+   "type": 151,
+   "typeName": "BTMSketch",
+   "message": {
+    "entities": [
+     {
+      "type": 4,
+      "typeName": "BTMSketchCurve",
+      "message": {
+       "geometry": {
+        "type": 115,
+        "typeName": "BTCurveGeometryCircle",
+        "message": {
+         "radius": 0.012,
+         "xCenter": 0,
+         "yCenter": 0,
+         "xDir": 1,
+         "yDir": 0,
+         "clockwise": false
+        }
+       },
+       "centerId": "yhUXVF07MGLA.center",
+       "internalIds": [],
+       "curvedTextIds": [],
+       "isConstruction": false,
+       "parameters": [],
+       "isFromSplineHandle": false,
+       "isFromEndpointSplineHandle": false,
+       "isFromSplineControlPolygon": false,
+       "entityId": "yhUXVF07MGLA",
+       "namespace": "",
+       "index": 1,
+       "name": "",
+       "hasUserCode": false,
+       "nodeId": "MdpeoR+iDygnyVyon"
+      }
+     }
+    ],
+    "constraints": [
+     {
+      "type": 2,
+      "typeName": "BTMSketchConstraint",
+      "message": {
+       "constraintType": "COINCIDENT",
+       "parameters": [
+        {
+         "type": 149,
+         "typeName": "BTMParameterString",
+         "message": {
+          "value": "yhUXVF07MGLA.center",
+          "parameterId": "localFirst",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "MqXmDoCyPeOLr0WKE"
+         }
+        },
+        {
+         "type": 148,
+         "typeName": "BTMParameterQueryList",
+         "message": {
+          "queries": [
+           {
+            "type": 138,
+            "typeName": "BTMIndividualQuery",
+            "message": {
+             "geometryIds": [
+              "IB"
+             ],
+             "hasUserCode": false,
+             "nodeId": "M3FwO9JfhPHV47nJq"
+            }
+           }
+          ],
+          "filter": {
+           "type": 0
+          },
+          "parameterId": "externalSecond",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "MUQ4jdiyFSrKpv8mH"
+         }
+        }
+       ],
+       "helpParameters": [],
+       "hasOffsetData1": false,
+       "offsetOrientation1": false,
+       "offsetDistance1": 0,
+       "hasOffsetData2": false,
+       "offsetOrientation2": false,
+       "offsetDistance2": 0,
+       "hasPierceParameter": false,
+       "pierceParameter": 0,
+       "entityId": "yhUXVF07MGLA.centerSnap0",
+       "namespace": "",
+       "index": 1,
+       "name": "",
+       "hasUserCode": false,
+       "nodeId": "MQDnCGCkGfRLLLyu9"
+      }
+     },
+     {
+      "type": 2,
+      "typeName": "BTMSketchConstraint",
+      "message": {
+       "constraintType": "DIAMETER",
+       "parameters": [
+        {
+         "type": 149,
+         "typeName": "BTMParameterString",
+         "message": {
+          "value": "yhUXVF07MGLA",
+          "parameterId": "localFirst",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "MZU7Xv9wWV1DSROZ8"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "#limbD",
+          "isInteger": false,
+          "parameterId": "length",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "MBzl830FJ5gj7VYmP"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "1.5729450189314735",
+          "isInteger": false,
+          "parameterId": "labelRatio",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "M0vCe6itFkG591EvY"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "0.3652449809001628*rad",
+          "isInteger": false,
+          "parameterId": "labelAngle",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "MUVIuzbhKcsPZz3om"
+         }
+        }
+       ],
+       "helpParameters": [],
+       "hasOffsetData1": false,
+       "offsetOrientation1": false,
+       "offsetDistance1": 0,
+       "hasOffsetData2": false,
+       "offsetOrientation2": false,
+       "offsetDistance2": 0,
+       "hasPierceParameter": false,
+       "pierceParameter": 0,
+       "entityId": "sXrhnihPjqpt",
+       "namespace": "",
+       "index": 1,
+       "name": "",
+       "hasUserCode": false,
+       "nodeId": "M67Sz++psxFmaZEjg"
+      }
+     }
+    ],
+    "featureType": "newSketch",
+    "featureId": "FFguzeinT4UmfeC_1",
+    "name": "limb section",
+    "parameters": [
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "JDC"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FTWC5fDMrledvSA"
+         }
+        }
+       ],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 130,
+              "typeName": "BTGeometryFilter",
+              "message": {
+               "geometryType": "PLANE"
+              }
+             },
+             "operand2": {
+              "type": 3018,
+              "typeName": "BTFlatSheetMetalFilter",
+              "message": {
+               "allows": "MODEL_ONLY"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 1651,
+                "typeName": "BTSMDefinitionEntityTypeFilter",
+                "message": {
+                 "smDefinitionEntityType": "FACE"
+                }
+               },
+               "operand2": {
+                "type": 3018,
+                "typeName": "BTFlatSheetMetalFilter",
+                "message": {
+                 "allows": "MODEL_AND_FLATTENED"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 130,
+              "typeName": "BTGeometryFilter",
+              "message": {
+               "geometryType": "PLANE"
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "MATE_CONNECTOR"
+          }
+         }
+        }
+       },
+       "parameterId": "sketchPlane",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "T9B530OeaQXaFQD4"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "disableImprinting",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "6jQJmT0uUE+3XQo4"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M4OH7+bD0xQRpOKuX"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "extrude",
+    "featureId": "FDSXGCrkOgWBdgd_1",
+    "name": "limb",
+    "parameters": [
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "OperationDomain",
+       "value": "MODEL",
+       "namespace": "",
+       "parameterId": "domain",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2/CkNlPyERY3SJ2C"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "ExtendedToolBodyType",
+       "value": "SOLID",
+       "namespace": "",
+       "parameterId": "bodyType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "d8/J91MrpIH3hwGg"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "NewBodyOperationType",
+       "value": "NEW",
+       "namespace": "",
+       "parameterId": "operationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "RALGEiGhs/1anwpl"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "NewSurfaceOperationType",
+       "value": "NEW",
+       "namespace": "",
+       "parameterId": "surfaceOperationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "GSXKsIvjEOuxgLKm"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "FlatOperationType",
+       "value": "REMOVE",
+       "namespace": "",
+       "parameterId": "flatOperationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "sxODzelLNgaSPqC/"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RDDC"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FlPMa2j3INZyfhh"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 3018,
+                "typeName": "BTFlatSheetMetalFilter",
+                "message": {
+                 "allows": "MODEL_AND_FLATTENED"
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": true,
+                 "objectType": "ANY_SKETCH_OBJECT"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "PLANE"
+                }
+               },
+               "operand2": {
+                "type": 3018,
+                "typeName": "BTFlatSheetMetalFilter",
+                "message": {
+                 "allows": "MODEL_ONLY"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 113,
+          "typeName": "BTConstructionObjectFilter",
+          "message": {
+           "isConstruction": false
+          }
+         }
+        }
+       },
+       "parameterId": "entities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "DNTmPXL0GEEkJasF"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "EDGE"
+              }
+             },
+             "operand2": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": true,
+               "objectType": "ANY_SKETCH_OBJECT"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 113,
+          "typeName": "BTConstructionObjectFilter",
+          "message": {
+           "isConstruction": false
+          }
+         }
+        }
+       },
+       "parameterId": "surfaceEntities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "8tnteF+6Fnk/wFff"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "FACE"
+                }
+               },
+               "operand2": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "PLANE"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 113,
+              "typeName": "BTConstructionObjectFilter",
+              "message": {
+               "isConstruction": false
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": false
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "EDGE"
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": true,
+                 "objectType": "ANY_SKETCH_OBJECT"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 113,
+              "typeName": "BTConstructionObjectFilter",
+              "message": {
+               "isConstruction": false
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           }
+          }
+         }
+        }
+       },
+       "parameterId": "wallShape",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "0OBQLTXv2RHKKrRG"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "midplane",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "IuztVujKZBhPc5mF"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "5 mm",
+       "isInteger": false,
+       "parameterId": "thickness1",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "rga1mu6JcV6gosUp"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "flipWall",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "G6RZdAcHdt8sPzHw"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "thickness2",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "bWoJ5jzaRwFTSwOk"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "5 mm",
+       "isInteger": false,
+       "parameterId": "thickness",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "/MYU1/scolDqJ/vO"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "BoundingType",
+       "value": "BLIND",
+       "namespace": "",
+       "parameterId": "endBound",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "tVqbRUV4fNffQ21T"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "oppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "fGUDQQ7Var+/d9sW"
+      }
+     },
+     {
+      "type": 2579,
+      "typeName": "BTMParameterTolerantQuantity",
+      "message": {
+       "toleranceParameters": [
+        {
+         "type": 145,
+         "typeName": "BTMParameterEnum",
+         "message": {
+          "enumName": "PrecisionType",
+          "value": "DEFAULT",
+          "namespace": "",
+          "parameterId": "precision",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "O0FLfwoKNTd5eIDC"
+         }
+        },
+        {
+         "type": 145,
+         "typeName": "BTMParameterEnum",
+         "message": {
+          "enumName": "LengthToleranceType",
+          "value": "DEFAULT",
+          "namespace": "",
+          "parameterId": "toleranceType",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "kKyoNAc3VHIxmOgE"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "0 mm",
+          "isInteger": false,
+          "parameterId": "deviation",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "8ShcozzXDr0WRmVp"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "0 mm",
+          "isInteger": false,
+          "parameterId": "upper",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "69ZGXa7fHAuQk4K5"
+         }
+        },
+        {
+         "type": 144,
+         "typeName": "BTMParameterBoolean",
+         "message": {
+          "value": true,
+          "parameterId": "positiveUpper",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "kugEZ6Z+QWGacPnA"
+         }
+        },
+        {
+         "type": 147,
+         "typeName": "BTMParameterQuantity",
+         "message": {
+          "units": "",
+          "value": 0,
+          "expression": "0 mm",
+          "isInteger": false,
+          "parameterId": "lower",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "x5N35tCQZnEH3Ps+"
+         }
+        },
+        {
+         "type": 144,
+         "typeName": "BTMParameterBoolean",
+         "message": {
+          "value": false,
+          "parameterId": "positiveLower",
+          "libraryRelationType": "DEFAULT",
+          "parameterName": "",
+          "hasUserCode": false,
+          "nodeId": "3+iJf7B9yWl1PUHi"
+         }
+        }
+       ],
+       "units": "",
+       "value": 0,
+       "expression": "#limbCenter - #stand - #limbD / 2",
+       "isInteger": false,
+       "parameterId": "depth",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "MmVUxaoYDBQQuOfX"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             },
+             "operand2": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "MATE_CONNECTOR"
+          }
+         }
+        }
+       },
+       "parameterId": "endBoundEntityFace",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9dQvV3tSQ2SaeAb4"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "SOLID"
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "SHEET"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 184,
+            "typeName": "BTSketchObjectFilter",
+            "message": {
+             "isSketchObject": false,
+             "objectType": "NOT_SKETCH_OBJECT"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "endBoundEntityBody",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "mHJ1bx7GgPReTJfT"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "VERTEX"
+          }
+         },
+         "operand2": {
+          "type": 163,
+          "typeName": "BTMateConnectorFilter",
+          "message": {
+           "requiresOccurrence": false,
+           "allowImplicitMateConnector": false,
+           "isMateConnectorInferenceEnabledByDefault": false
+          }
+         }
+        }
+       },
+       "parameterId": "endBoundEntityVertex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "fFR2D6bRR9snr83T"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "QNnXVMdBklSO6lzj"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "25 mm",
+       "isInteger": false,
+       "parameterId": "offsetDistance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ZyLMJtrYvrhUUQzt"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "offsetOppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "bmRq04A38/hGLYqk"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasExtrudeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "heILJIRApjAuLaL7"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "LINE"
+                }
+               },
+               "operand2": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 130,
+                  "typeName": "BTGeometryFilter",
+                  "message": {
+                   "geometryType": "CIRCLE"
+                  }
+                 },
+                 "operand2": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 130,
+                    "typeName": "BTGeometryFilter",
+                    "message": {
+                     "geometryType": "ARC"
+                    }
+                   },
+                   "operand2": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 130,
+                      "typeName": "BTGeometryFilter",
+                      "message": {
+                       "geometryType": "CYLINDER"
+                      }
+                     },
+                     "operand2": {
+                      "type": 167,
+                      "typeName": "BTOrFilter",
+                      "message": {
+                       "operand1": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "CONE"
+                        }
+                       },
+                       "operand2": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "REVOLVED"
+                        }
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 163,
+              "typeName": "BTMateConnectorFilter",
+              "message": {
+               "requiresOccurrence": false,
+               "allowImplicitMateConnector": false,
+               "isMateConnectorInferenceEnabledByDefault": false
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 130,
+            "typeName": "BTGeometryFilter",
+            "message": {
+             "geometryType": "PLANE"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "MATE_CONNECTOR"
+          }
+         }
+        }
+       },
+       "parameterId": "extrudeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "aCB7YcFrIuEgUU6J"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "startOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "+no+Pn8Rnj543mlT"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "StartOffsetType",
+       "value": "BLIND",
+       "namespace": "",
+       "parameterId": "startOffsetBound",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "SfcHJddX1rd4Ji2r"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "#limbD / 2",
+       "isInteger": false,
+       "parameterId": "startOffsetDistance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "dUpe0EICvunbFOe1"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "startOffsetOppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Eij+RWOqlcIMtSCh"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "PLANE"
+                }
+               },
+               "operand2": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "FACE"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "EDGE"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 124,
+            "typeName": "BTEntityTypeFilter",
+            "message": {
+             "entityType": "VERTEX"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "MATE_CONNECTOR"
+          }
+         }
+        }
+       },
+       "parameterId": "startOffsetEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "lrFZY7oHzJ6kKdz5"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "symmetric",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "gB/9h76po6GHvz3e"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasDraft",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "8l6mWgdZozQzyY0G"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "3 deg",
+       "isInteger": false,
+       "parameterId": "draftAngle",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "sWU4gHE/4s4hNPr4"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "draftPullDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "55kYmvSeF911Lt1A"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasSecondDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Hciai41s6m41Jmw2"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "BoundingType",
+       "value": "BLIND",
+       "namespace": "",
+       "parameterId": "secondDirectionBound",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "OzM+zKD1XsTHTrQW"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "secondDirectionOppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "rJogF5S6UA5eMmuA"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "25 mm",
+       "isInteger": false,
+       "parameterId": "secondDirectionDepth",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ygQ8i7iv7xBo1KV8"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             },
+             "operand2": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "MATE_CONNECTOR"
+          }
+         }
+        }
+       },
+       "parameterId": "secondDirectionBoundEntityFace",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2dalldT0Hd35o0QR"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "SOLID"
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "SHEET"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 184,
+            "typeName": "BTSketchObjectFilter",
+            "message": {
+             "isSketchObject": false,
+             "objectType": "NOT_SKETCH_OBJECT"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "secondDirectionBoundEntityBody",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Jz4D4gEXgSceYnmQ"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "VERTEX"
+          }
+         },
+         "operand2": {
+          "type": 163,
+          "typeName": "BTMateConnectorFilter",
+          "message": {
+           "requiresOccurrence": false,
+           "allowImplicitMateConnector": false,
+           "isMateConnectorInferenceEnabledByDefault": false
+          }
+         }
+        }
+       },
+       "parameterId": "secondDirectionBoundEntityVertex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9ssbBhEsEB92cyY/"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasSecondDirectionOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "5dM07PxP+MlOtfRK"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "25 mm",
+       "isInteger": false,
+       "parameterId": "secondDirectionOffsetDistance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "z8tupHNcnIo++ZE5"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "secondDirectionOffsetOppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "G0iqQH5mlNNsqDdV"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "hasSecondDirectionDraft",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "EsgQvO1aR6vVTRHY"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "3 deg",
+       "isInteger": false,
+       "parameterId": "secondDirectionDraftAngle",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "lI8b0X2nfC+g0wNw"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "secondDirectionDraftPullDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "yrFPue5R9LarHKTr"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "defaultScope",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Y/XtiBJe9da8H6Jr"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "MgXnKeh0ps1FNNHkP"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 112,
+              "typeName": "BTBodyTypeFilter",
+              "message": {
+               "bodyType": "SOLID"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "booleanScope",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "OKgr1XZ+Ksz7Qzze"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "defaultSurfaceScope",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "wPUvyE9JjnaVLhm+"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 124,
+                "typeName": "BTEntityTypeFilter",
+                "message": {
+                 "entityType": "BODY"
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "SHEET"
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 1593,
+              "typeName": "BTModifiableEntityOnlyFilter",
+              "message": {
+               "modifiableOnly": true
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 184,
+          "typeName": "BTSketchObjectFilter",
+          "message": {
+           "isSketchObject": false,
+           "objectType": "NOT_SKETCH_OBJECT"
+          }
+         }
+        }
+       },
+       "parameterId": "booleanSurfaceScope",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "HyFUBFhkZjJVcrIq"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M5t78MUiDDx7RybTS"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "mateConnector",
+    "featureId": "FnM7iQuyndLICQG_2",
+    "name": "mate for ball stud",
+    "parameters": [
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "OriginCreationType",
+       "value": "ON_ENTITY",
+       "namespace": "",
+       "parameterId": "originType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "xVwMTeW8XEF7FqNz"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "REDK"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FA7xDXgggsxkVDM"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "EDGE"
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "VERTEX"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             },
+             "operand2": {
+              "type": 113,
+              "typeName": "BTConstructionObjectFilter",
+              "message": {
+               "isConstruction": false
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "XkgnILqu/WKnbWmA"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "EntityInferenceType",
+       "value": "CENTROID",
+       "namespace": "",
+       "parameterId": "entityInferenceType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "WicKFbVKEOy2OPBp"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 0
+       },
+       "parameterId": "secondaryOriginQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "hCdQLuwY4u4hVyYw"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originAdditionalQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "fXFmmpgnT0x77rMa"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "realign",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "J/jSVoDdTZQD81zN"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "primaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "iNOaBJyK98TFCmdf"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "secondaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "v/kbuTuVcurYGRif"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "transform",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "DtpeBLVQGREA+Ftl"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationX",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "K5lR/iP/P4fCgpD9"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationY",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "njBPUSgQAT/7mRui"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationZ",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "VFKYVBqKQVP64Yu9"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "RotationType",
+       "value": "ABOUT_Z",
+       "namespace": "",
+       "parameterId": "rotationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "bbeg5vVJMX1jxddY"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 deg",
+       "isInteger": false,
+       "parameterId": "rotation",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Yb76ANOQJ5fng4pL"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "allowOwnerEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ahzUM3wmzzOGNTxZ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "requireOwnerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Y8Rs9oBqrRlD0Mf0"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "REDD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "McD3Su3FMQsEfrjEU"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 167,
+                      "typeName": "BTOrFilter",
+                      "message": {
+                       "operand1": {
+                        "type": 112,
+                        "typeName": "BTBodyTypeFilter",
+                        "message": {
+                         "bodyType": "SOLID"
+                        }
+                       },
+                       "operand2": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "MESH"
+                        }
+                       }
+                      }
+                     },
+                     "operand2": {
+                      "type": 112,
+                      "typeName": "BTBodyTypeFilter",
+                      "message": {
+                       "bodyType": "SHEET"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "WIRE"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 112,
+                  "typeName": "BTBodyTypeFilter",
+                  "message": {
+                   "bodyType": "COMPOSITE"
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "POINT"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           },
+           "operand2": {
+            "type": 165,
+            "typeName": "BTNotFilter",
+            "message": {
+             "operand": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       },
+       "parameterId": "ownerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Gcu/Cr08Ps3X29Fh"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AttachmentOption",
+       "value": "TO_SELECTION",
+       "namespace": "",
+       "parameterId": "attachmentOption",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "uPUn69sKPS7uYhl+"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "REDK"
+          ],
+          "hasUserCode": false,
+          "nodeId": "MTNSK3j9V/7aXR7tn"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 110,
+                "typeName": "BTAndFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "FACE"
+                      }
+                     },
+                     "operand2": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "BODY"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "MATE_CONNECTOR"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 1593,
+                  "typeName": "BTModifiableEntityOnlyFilter",
+                  "message": {
+                   "modifiableOnly": true
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 1026,
+                "typeName": "BTAllowMeshGeometryFilter",
+                "message": {
+                 "allowsMeshGeometry": true
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 2944,
+                "typeName": "BTActiveSheetMetalFilter",
+                "message": {
+                 "isFromActiveSheetMetal": false
+                }
+               },
+               "operand2": {
+                "type": 1651,
+                "typeName": "BTSMDefinitionEntityTypeFilter",
+                "message": {
+                 "smDefinitionEntityType": "FACE"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 184,
+            "typeName": "BTSketchObjectFilter",
+            "message": {
+             "isSketchObject": false,
+             "objectType": "NOT_SKETCH_OBJECT"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 113,
+          "typeName": "BTConstructionObjectFilter",
+          "message": {
+           "isConstruction": false
+          }
+         }
+        }
+       },
+       "parameterId": "attachTo",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "PQrdLaO/HGCErX++"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "specifyNormal",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9JvxqtZ77D2rP30x"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nx",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "twMwY1npSaT3PPPI"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "ny",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "XhbY6gK+x+khQI9T"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nz",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "U9DO36eIbU9+nhFL"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "flipPrimary",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "kgJfwdSUkiXAFckL"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "MateConnectorAxisType",
+       "value": "PLUS_X",
+       "namespace": "",
+       "parameterId": "secondaryAxisType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9vUU+mKNRvg0i913"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "isForSubFeature",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "vxmhGXMzyE8tQZCt"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M2xTwUlkN8grLBmPF"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "importDerived",
+    "featureId": "FOC8LNQD9roLgkK_2",
+    "name": "add ball stud",
+    "parameters": [
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "newUI",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "bstamTkEqYrH+68q"
+      }
+     },
+     {
+      "type": 3302,
+      "typeName": "BTMParameterReferencePartStudio",
+      "message": {
+       "partQuery": {
+        "type": 148,
+        "typeName": "BTMParameterQueryList",
+        "message": {
+         "queries": [
+          {
+           "type": 138,
+           "typeName": "BTMIndividualQuery",
+           "message": {
+            "geometryIds": [
+             "JHD"
+            ],
+            "hasUserCode": false,
+            "nodeId": "MXkt3WAkB+XspLOb8"
+           }
+          }
+         ],
+         "filter": {
+          "type": 0
+         },
+         "parameterId": "partQuery",
+         "libraryRelationType": "DEFAULT",
+         "parameterName": "",
+         "hasUserCode": false,
+         "nodeId": "KOftWAZc09vFGfMy"
+        }
+       },
+       "standardContentParametersId": "",
+       "partIdentity": {
+        "type": 2741,
+        "typeName": "BTPSOIdentity",
+        "message": {
+         "theId": ""
+        }
+       },
+       "configuration": [],
+       "namespace": "e6dcfcf8856d4feea7faa440a::m05009b4b27a59e7fa5a6bf16",
+       "revisionData": {
+        "type": 2090,
+        "typeName": "BTRevisionCustomData",
+        "message": {
+         "partNumber": "",
+         "revision": ""
+        }
+       },
+       "elementLibraryData": {
+        "type": 0
+       },
+       "parameterId": "partStudio",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "cPWqogb0uUdMKAGt"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "preserveActiveSheetMetal",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "29pZrJh9dJAA6i5x"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 112,
+        "typeName": "BTBodyTypeFilter",
+        "message": {
+         "bodyType": "MATE_CONNECTOR"
+        }
+       },
+       "parameterId": "location",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "M40QQHCN8HHyIaCs"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "DerivedPlacementType",
+       "value": "AT_ORIGIN",
+       "namespace": "",
+       "parameterId": "placement",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "i4CO3NXGScXLvX75"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "-1",
+       "isInteger": true,
+       "parameterId": "mateConnectorIndex",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "m3Vdahhj6oW54P2Y"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "mateConnectorId",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "TcvIGYVzE5noctS+"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "-1",
+       "isInteger": true,
+       "parameterId": "mateConnectorIndexInFeature",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "fIcYNL1t/4EJlMjx"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "includeMateConnectors",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ApWGf2L3cqC6kawT"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "includeProperties",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "72ltPAOqhcrUt16o"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 0
+       },
+       "parameterId": "parts",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Jzlkr2QZvel4pcR4"
+      }
+     },
+     {
+      "type": 864,
+      "typeName": "BTMParameterDerived",
+      "message": {
+       "imports": [],
+       "namespace": "",
+       "configuration": [],
+       "revisionData": {
+        "type": 2090,
+        "typeName": "BTRevisionCustomData",
+        "message": {
+         "partNumber": "",
+         "revision": ""
+        }
+       },
+       "parameterId": "buildFunction",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "xX5BAqEnyUyWAoss"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MTo6xXCBckFjGFfaM"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "transform",
+    "featureId": "FzASKkTnZpSO2F4_3",
+    "name": "move ball stud",
+    "parameters": [
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RbDD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FQZmAglfZZXwt7E"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "MATE_CONNECTOR"
+                }
+               },
+               "operand2": {
+                "type": 3810,
+                "typeName": "BTInContextObjectFilter",
+                "message": {
+                 "isInContext": false
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 184,
+          "typeName": "BTSketchObjectFilter",
+          "message": {
+           "isSketchObject": false,
+           "objectType": "NOT_SKETCH_OBJECT"
+          }
+         }
+        }
+       },
+       "parameterId": "entities",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "BNbqfvP0OWj91EKD"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "TransformType",
+       "value": "TRANSFORM_MATE_CONNECTORS",
+       "namespace": "",
+       "parameterId": "transformType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "79iHJonN7U3edeSI"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "oppositeDirectionEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "AI6mdLZe5yUfsNwD"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "VERTEX"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "transformLine",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "aJCSnTt7Dw/IkUCX"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 130,
+            "typeName": "BTGeometryFilter",
+            "message": {
+             "geometryType": "LINE"
+            }
+           },
+           "operand2": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 130,
+              "typeName": "BTGeometryFilter",
+              "message": {
+               "geometryType": "CIRCLE"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "ARC"
+                }
+               },
+               "operand2": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 130,
+                  "typeName": "BTGeometryFilter",
+                  "message": {
+                   "geometryType": "CYLINDER"
+                  }
+                 },
+                 "operand2": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 130,
+                    "typeName": "BTGeometryFilter",
+                    "message": {
+                     "geometryType": "CONE"
+                    }
+                   },
+                   "operand2": {
+                    "type": 130,
+                    "typeName": "BTGeometryFilter",
+                    "message": {
+                     "geometryType": "REVOLVED"
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 163,
+          "typeName": "BTMateConnectorFilter",
+          "message": {
+           "requiresOccurrence": false,
+           "allowImplicitMateConnector": false,
+           "isMateConnectorInferenceEnabledByDefault": false
+          }
+         }
+        }
+       },
+       "parameterId": "transformAxis",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "MapoXxvyTT6Qd4ZE"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 130,
+                "typeName": "BTGeometryFilter",
+                "message": {
+                 "geometryType": "LINE"
+                }
+               },
+               "operand2": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 130,
+                  "typeName": "BTGeometryFilter",
+                  "message": {
+                   "geometryType": "CIRCLE"
+                  }
+                 },
+                 "operand2": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 130,
+                    "typeName": "BTGeometryFilter",
+                    "message": {
+                     "geometryType": "ARC"
+                    }
+                   },
+                   "operand2": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 130,
+                      "typeName": "BTGeometryFilter",
+                      "message": {
+                       "geometryType": "CYLINDER"
+                      }
+                     },
+                     "operand2": {
+                      "type": 167,
+                      "typeName": "BTOrFilter",
+                      "message": {
+                       "operand1": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "CONE"
+                        }
+                       },
+                       "operand2": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "REVOLVED"
+                        }
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 163,
+              "typeName": "BTMateConnectorFilter",
+              "message": {
+               "requiresOccurrence": false,
+               "allowImplicitMateConnector": false,
+               "isMateConnectorInferenceEnabledByDefault": false
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 130,
+            "typeName": "BTGeometryFilter",
+            "message": {
+             "geometryType": "PLANE"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "VERTEX"
+          }
+         }
+        }
+       },
+       "parameterId": "transformDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ZgPFNkNz18xtV2qU"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "25 mm",
+       "isInteger": false,
+       "parameterId": "distance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "L1Tz+xad8g2E3tX1"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "uniform",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "B3I6q/tqpIGtA4EF"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "1",
+       "isInteger": false,
+       "parameterId": "scale",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "72YQIIsYJAcWf2mD"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "1",
+       "isInteger": false,
+       "parameterId": "scaleX",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "jTrCcT8+YIx3Hu8z"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "1",
+       "isInteger": false,
+       "parameterId": "scaleY",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2rSn4XQU2uemgvPm"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "1",
+       "isInteger": false,
+       "parameterId": "scaleZ",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "01SQ6zOLIJNcCMtC"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "QbD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FWpijErJADyk1az"
+         }
+        }
+       ],
+       "filter": {
+        "type": 112,
+        "typeName": "BTBodyTypeFilter",
+        "message": {
+         "bodyType": "MATE_CONNECTOR"
+        }
+       },
+       "parameterId": "baseConnector",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "WiFqqB2jBpAHDE87"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "QFD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "F3ENC0EsXmr0aCQ"
+         }
+        }
+       ],
+       "filter": {
+        "type": 112,
+        "typeName": "BTBodyTypeFilter",
+        "message": {
+         "bodyType": "MATE_CONNECTOR"
+        }
+       },
+       "parameterId": "destinationConnector",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "WkbLdKu16igOamaI"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "oppositeDirectionMateAxis",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "UuH3iy4s7XOHTDmo"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "MateConnectorAxisType",
+       "value": "PLUS_X",
+       "namespace": "",
+       "parameterId": "secondaryAxisType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "E4rC/dg/VALq+9TZ"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "30 deg",
+       "isInteger": false,
+       "parameterId": "angle",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "za9Rl0TK5I00DQVK"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "oppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "th5cd9XJmZQuakLh"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "dx",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "99N3dPVOxCaOgA0w"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "dy",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ggmTXnBOzEe5/cxi"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "dz",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "gCCvJhp9hvJtGxi/"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "VERTEX"
+          }
+         },
+         "operand2": {
+          "type": 163,
+          "typeName": "BTMateConnectorFilter",
+          "message": {
+           "requiresOccurrence": false,
+           "allowImplicitMateConnector": false,
+           "isMateConnectorInferenceEnabledByDefault": false
+          }
+         }
+        }
+       },
+       "parameterId": "scalePoint",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2TzjaU8eA/dX4/Rc"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "makeCopy",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Pa9nF/qPgE5kZSFW"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MhnpL9diGTrDbpqfv"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "booleanBodies",
+    "featureId": "F4Eiu1Ov2f88Tvw_3",
+    "name": "combine parts",
+    "parameters": [
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "BooleanOperationType",
+       "value": "UNION",
+       "namespace": "",
+       "parameterId": "operationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "m8nS0gFsKcF2mkzf"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FiMMb6smmPQ16PC"
+         }
+        },
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "REDD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FVUWy40jcKerUSf"
+         }
+        },
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RbDD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FZGPQuVnpce38Ln"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 124,
+            "typeName": "BTEntityTypeFilter",
+            "message": {
+             "entityType": "BODY"
+            }
+           },
+           "operand2": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 112,
+              "typeName": "BTBodyTypeFilter",
+              "message": {
+               "bodyType": "SOLID"
+              }
+             },
+             "operand2": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 110,
+                "typeName": "BTAndFilter",
+                "message": {
+                 "operand1": {
+                  "type": 112,
+                  "typeName": "BTBodyTypeFilter",
+                  "message": {
+                   "bodyType": "SHEET"
+                  }
+                 },
+                 "operand2": {
+                  "type": 113,
+                  "typeName": "BTConstructionObjectFilter",
+                  "message": {
+                   "isConstruction": false
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": false,
+                 "objectType": "NOT_SKETCH_OBJECT"
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "tools",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "M4BaXipaGoD2ziA4"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 1593,
+              "typeName": "BTModifiableEntityOnlyFilter",
+              "message": {
+               "modifiableOnly": true
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 112,
+              "typeName": "BTBodyTypeFilter",
+              "message": {
+               "bodyType": "SOLID"
+              }
+             },
+             "operand2": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 110,
+                "typeName": "BTAndFilter",
+                "message": {
+                 "operand1": {
+                  "type": 112,
+                  "typeName": "BTBodyTypeFilter",
+                  "message": {
+                   "bodyType": "SHEET"
+                  }
+                 },
+                 "operand2": {
+                  "type": 113,
+                  "typeName": "BTConstructionObjectFilter",
+                  "message": {
+                   "isConstruction": false
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 184,
+                "typeName": "BTSketchObjectFilter",
+                "message": {
+                 "isSketchObject": false,
+                 "objectType": "NOT_SKETCH_OBJECT"
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "targets",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "V/AKVJ0lF3uYT9yy"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "offset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "woTFnr7m0+PoztMW"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "offsetAll",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "shEI7xSEGbIn/NMn"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 112,
+          "typeName": "BTBodyTypeFilter",
+          "message": {
+           "bodyType": "SOLID"
+          }
+         }
+        }
+       },
+       "parameterId": "entitiesToOffset",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ocDz8Hf7SP10MljE"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "5 mm",
+       "isInteger": false,
+       "parameterId": "offsetDistance",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "rWurjftLnHx3UtjQ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "oppositeDirection",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "1m/cdvveM5XoPT92"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "reFillet",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "9XmSmkeA4+S93cim"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "keepTools",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "6pYZkmWIMpMnrnQw"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "Mse41TNM4Mokxv/jF"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "mateConnector",
+    "featureId": "FT6q2sVvHv8Orw7_1",
+    "name": "elbow end",
+    "parameters": [
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "OriginCreationType",
+       "value": "BETWEEN_ENTITIES",
+       "namespace": "",
+       "parameterId": "originType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "uH0V26ee8u/7Cy9e"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADS"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FiUWSj6h33stC7U"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "EDGE"
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "VERTEX"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             },
+             "operand2": {
+              "type": 113,
+              "typeName": "BTConstructionObjectFilter",
+              "message": {
+               "isConstruction": false
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "zlql5RfEgVYvite5"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "EntityInferenceType",
+       "value": "CENTER",
+       "namespace": "",
+       "parameterId": "entityInferenceType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "5r49AOjsnD5b7m3A"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADl"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FtXrkSuNZwMdcos"
+         }
+        }
+       ],
+       "filter": {
+        "type": 0
+       },
+       "parameterId": "secondaryOriginQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "PQe1skSzhddnmVY/"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADO"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FuaO85la1PO3HzA"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originAdditionalQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "p94JZOgbTDH4eUsX"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "realign",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "t13z27wAQc2HOH3R"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "primaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "WDtq0cm85APYSl+W"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "secondaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "5M8rbqDzxOXI2/2U"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "transform",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "aNtphcleWxbo/NAH"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationX",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "3F07VTUufHwW49rX"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationY",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "B7eXgjbTaZ70JC41"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationZ",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Tdcss8DHdfI0A3e9"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "RotationType",
+       "value": "ABOUT_Z",
+       "namespace": "",
+       "parameterId": "rotationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Y/cTJeSrhn/PM5Vu"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 deg",
+       "isInteger": false,
+       "parameterId": "rotation",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "QyD6Oba10nxa7xQc"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "allowOwnerEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "09psH+cOWwtDqdAU"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "requireOwnerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "nuFqBgKyIe4ARuEm"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "Mh9R8/JHErl7L3/KA"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 167,
+                      "typeName": "BTOrFilter",
+                      "message": {
+                       "operand1": {
+                        "type": 112,
+                        "typeName": "BTBodyTypeFilter",
+                        "message": {
+                         "bodyType": "SOLID"
+                        }
+                       },
+                       "operand2": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "MESH"
+                        }
+                       }
+                      }
+                     },
+                     "operand2": {
+                      "type": 112,
+                      "typeName": "BTBodyTypeFilter",
+                      "message": {
+                       "bodyType": "SHEET"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "WIRE"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 112,
+                  "typeName": "BTBodyTypeFilter",
+                  "message": {
+                   "bodyType": "COMPOSITE"
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "POINT"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           },
+           "operand2": {
+            "type": 165,
+            "typeName": "BTNotFilter",
+            "message": {
+             "operand": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       },
+       "parameterId": "ownerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "xtJjMXlHqjnmxMy5"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AttachmentOption",
+       "value": "TO_SELECTION",
+       "namespace": "",
+       "parameterId": "attachmentOption",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ZyK0MOLXTbKG2iKh"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADS"
+          ],
+          "hasUserCode": false,
+          "nodeId": "M3kQ/BIlWJXgnkWhZ"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 110,
+                "typeName": "BTAndFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "FACE"
+                      }
+                     },
+                     "operand2": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "BODY"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "MATE_CONNECTOR"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 1593,
+                  "typeName": "BTModifiableEntityOnlyFilter",
+                  "message": {
+                   "modifiableOnly": true
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 1026,
+                "typeName": "BTAllowMeshGeometryFilter",
+                "message": {
+                 "allowsMeshGeometry": true
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 2944,
+                "typeName": "BTActiveSheetMetalFilter",
+                "message": {
+                 "isFromActiveSheetMetal": false
+                }
+               },
+               "operand2": {
+                "type": 1651,
+                "typeName": "BTSMDefinitionEntityTypeFilter",
+                "message": {
+                 "smDefinitionEntityType": "FACE"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 184,
+            "typeName": "BTSketchObjectFilter",
+            "message": {
+             "isSketchObject": false,
+             "objectType": "NOT_SKETCH_OBJECT"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 113,
+          "typeName": "BTConstructionObjectFilter",
+          "message": {
+           "isConstruction": false
+          }
+         }
+        }
+       },
+       "parameterId": "attachTo",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "GusgXUlaohNw72vT"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "specifyNormal",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "DA0cPkfwqTueg4js"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nx",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "XS7bspEAE7xZyOxK"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "ny",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "YfVLpJr9CW0o+BlI"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nz",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "4AvsvG0Ehcdrnse0"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "flipPrimary",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "n9+vahg+ZJoHV7eD"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "MateConnectorAxisType",
+       "value": "PLUS_X",
+       "namespace": "",
+       "parameterId": "secondaryAxisType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "AFI3V8M1yLfiFRsQ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "isForSubFeature",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Bcsxv7YqnkxyrlAc"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MlfijL7+0ygAdmNP+"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "mateConnector",
+    "featureId": "FqkB807Tntbxd5B_1",
+    "name": "wrist end",
+    "parameters": [
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "OriginCreationType",
+       "value": "ON_ENTITY",
+       "namespace": "",
+       "parameterId": "originType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "x77/w7woFEg8tXlZ"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RdDC"
+          ],
+          "hasUserCode": false,
+          "nodeId": "FeDeqEzbjgiVPzL"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 167,
+            "typeName": "BTOrFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "EDGE"
+              }
+             },
+             "operand2": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "VERTEX"
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "FACE"
+              }
+             },
+             "operand2": {
+              "type": 113,
+              "typeName": "BTConstructionObjectFilter",
+              "message": {
+               "isConstruction": false
+              }
+             }
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "HdYXBDaMyY02z/jK"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "EntityInferenceType",
+       "value": "CENTER",
+       "namespace": "",
+       "parameterId": "entityInferenceType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "n4dj34P4KY6pXBcZ"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 0
+       },
+       "parameterId": "secondaryOriginQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "c13T7JFaWjYHVeez"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 1026,
+          "typeName": "BTAllowMeshGeometryFilter",
+          "message": {
+           "allowsMeshGeometry": true
+          }
+         }
+        }
+       },
+       "parameterId": "originAdditionalQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "j2cbcuaBrFqCRNxz"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "realign",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "1FsKXqjba1Wtgriw"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "primaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "i4t6H18W97CVKUcW"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [],
+       "filter": {
+        "type": 167,
+        "typeName": "BTOrFilter",
+        "message": {
+         "operand1": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "FACE"
+          }
+         },
+         "operand2": {
+          "type": 124,
+          "typeName": "BTEntityTypeFilter",
+          "message": {
+           "entityType": "EDGE"
+          }
+         }
+        }
+       },
+       "parameterId": "secondaryAxisQuery",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "6kOzlSjm39NtMuKh"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "transform",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "7qC1QB0j5945N1HG"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationX",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "VyvQnUNC+OQ/GjlK"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationY",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "pPM8S4ALpc86MCam"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 mm",
+       "isInteger": false,
+       "parameterId": "translationZ",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Y+tq8uUiebBNCstR"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "RotationType",
+       "value": "ABOUT_Z",
+       "namespace": "",
+       "parameterId": "rotationType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "ZoITzzvcaV/V/mVi"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0 deg",
+       "isInteger": false,
+       "parameterId": "rotation",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "tM3NZJ0/c0Xns4wQ"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "allowOwnerEntity",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "6l4sOUAvxZuxtlCI"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": true,
+       "parameterId": "requireOwnerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "swL3FmHgDTq0dE8B"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RADD"
+          ],
+          "hasUserCode": false,
+          "nodeId": "MLDzAzmT1MA8/nVkg"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 124,
+              "typeName": "BTEntityTypeFilter",
+              "message": {
+               "entityType": "BODY"
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 167,
+                "typeName": "BTOrFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 167,
+                      "typeName": "BTOrFilter",
+                      "message": {
+                       "operand1": {
+                        "type": 112,
+                        "typeName": "BTBodyTypeFilter",
+                        "message": {
+                         "bodyType": "SOLID"
+                        }
+                       },
+                       "operand2": {
+                        "type": 130,
+                        "typeName": "BTGeometryFilter",
+                        "message": {
+                         "geometryType": "MESH"
+                        }
+                       }
+                      }
+                     },
+                     "operand2": {
+                      "type": 112,
+                      "typeName": "BTBodyTypeFilter",
+                      "message": {
+                       "bodyType": "SHEET"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "WIRE"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 112,
+                  "typeName": "BTBodyTypeFilter",
+                  "message": {
+                   "bodyType": "COMPOSITE"
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 112,
+                "typeName": "BTBodyTypeFilter",
+                "message": {
+                 "bodyType": "POINT"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 1026,
+            "typeName": "BTAllowMeshGeometryFilter",
+            "message": {
+             "allowsMeshGeometry": true
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 167,
+          "typeName": "BTOrFilter",
+          "message": {
+           "operand1": {
+            "type": 1593,
+            "typeName": "BTModifiableEntityOnlyFilter",
+            "message": {
+             "modifiableOnly": true
+            }
+           },
+           "operand2": {
+            "type": 165,
+            "typeName": "BTNotFilter",
+            "message": {
+             "operand": {
+              "type": 184,
+              "typeName": "BTSketchObjectFilter",
+              "message": {
+               "isSketchObject": false,
+               "objectType": "NOT_SKETCH_OBJECT"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       },
+       "parameterId": "ownerPart",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "H3aeCxVEUocWYmIU"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "AttachmentOption",
+       "value": "TO_SELECTION",
+       "namespace": "",
+       "parameterId": "attachmentOption",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "UtDVWR8I6RAT4rQp"
+      }
+     },
+     {
+      "type": 148,
+      "typeName": "BTMParameterQueryList",
+      "message": {
+       "queries": [
+        {
+         "type": 138,
+         "typeName": "BTMIndividualQuery",
+         "message": {
+          "geometryIds": [
+           "RdDC"
+          ],
+          "hasUserCode": false,
+          "nodeId": "M7sJBM1wbdkiphMUl"
+         }
+        }
+       ],
+       "filter": {
+        "type": 110,
+        "typeName": "BTAndFilter",
+        "message": {
+         "operand1": {
+          "type": 110,
+          "typeName": "BTAndFilter",
+          "message": {
+           "operand1": {
+            "type": 110,
+            "typeName": "BTAndFilter",
+            "message": {
+             "operand1": {
+              "type": 110,
+              "typeName": "BTAndFilter",
+              "message": {
+               "operand1": {
+                "type": 110,
+                "typeName": "BTAndFilter",
+                "message": {
+                 "operand1": {
+                  "type": 167,
+                  "typeName": "BTOrFilter",
+                  "message": {
+                   "operand1": {
+                    "type": 167,
+                    "typeName": "BTOrFilter",
+                    "message": {
+                     "operand1": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "FACE"
+                      }
+                     },
+                     "operand2": {
+                      "type": 124,
+                      "typeName": "BTEntityTypeFilter",
+                      "message": {
+                       "entityType": "BODY"
+                      }
+                     }
+                    }
+                   },
+                   "operand2": {
+                    "type": 112,
+                    "typeName": "BTBodyTypeFilter",
+                    "message": {
+                     "bodyType": "MATE_CONNECTOR"
+                    }
+                   }
+                  }
+                 },
+                 "operand2": {
+                  "type": 1593,
+                  "typeName": "BTModifiableEntityOnlyFilter",
+                  "message": {
+                   "modifiableOnly": true
+                  }
+                 }
+                }
+               },
+               "operand2": {
+                "type": 1026,
+                "typeName": "BTAllowMeshGeometryFilter",
+                "message": {
+                 "allowsMeshGeometry": true
+                }
+               }
+              }
+             },
+             "operand2": {
+              "type": 167,
+              "typeName": "BTOrFilter",
+              "message": {
+               "operand1": {
+                "type": 2944,
+                "typeName": "BTActiveSheetMetalFilter",
+                "message": {
+                 "isFromActiveSheetMetal": false
+                }
+               },
+               "operand2": {
+                "type": 1651,
+                "typeName": "BTSMDefinitionEntityTypeFilter",
+                "message": {
+                 "smDefinitionEntityType": "FACE"
+                }
+               }
+              }
+             }
+            }
+           },
+           "operand2": {
+            "type": 184,
+            "typeName": "BTSketchObjectFilter",
+            "message": {
+             "isSketchObject": false,
+             "objectType": "NOT_SKETCH_OBJECT"
+            }
+           }
+          }
+         },
+         "operand2": {
+          "type": 113,
+          "typeName": "BTConstructionObjectFilter",
+          "message": {
+           "isConstruction": false
+          }
+         }
+        }
+       },
+       "parameterId": "attachTo",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "UPjLax9sDMnjTn6r"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "specifyNormal",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "0SIseIlil0GvTQ37"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nx",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "Y0X1dJMkHzcmRVHg"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "ny",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "OCm+KthZ9P6+NaTk"
+      }
+     },
+     {
+      "type": 147,
+      "typeName": "BTMParameterQuantity",
+      "message": {
+       "units": "",
+       "value": 0,
+       "expression": "0",
+       "isInteger": false,
+       "parameterId": "nz",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "0grh2kBjYq1mms7q"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "flipPrimary",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "WsPAWUrx+JBCpa7F"
+      }
+     },
+     {
+      "type": 145,
+      "typeName": "BTMParameterEnum",
+      "message": {
+       "enumName": "MateConnectorAxisType",
+       "value": "PLUS_X",
+       "namespace": "",
+       "parameterId": "secondaryAxisType",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "GroODGW9lWPgPaRY"
+      }
+     },
+     {
+      "type": 144,
+      "typeName": "BTMParameterBoolean",
+      "message": {
+       "value": false,
+       "parameterId": "isForSubFeature",
+       "libraryRelationType": "DEFAULT",
+       "parameterName": "",
+       "hasUserCode": false,
+       "nodeId": "2NTZ+CBTk2q4Nj7g"
+      }
+     }
+    ],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M+vY89FhqOdmCmldn"
+   }
+  }
+ ],
+ "imports": [
+  {
+   "type": 136,
+   "typeName": "BTMImport",
+   "message": {
+    "path": "onshape/std/geometry.fs",
+    "version": "3044.0",
+    "namespace": "",
+    "hasUserCode": false,
+    "nodeId": "MuIFPGmzMo7T/5XMx"
+   }
+  }
+ ],
+ "featureStates": [
+  {
+   "key": "FDSXGCrkOgWBdgd_1",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "Origin",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "Front",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FnM7iQuyndLICQG_2",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "Right",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FFguzeinT4UmfeC_1",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "F1Ir1vV2pCJD5x4_0",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FqkB807Tntbxd5B_1",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FqeiGf5pvPgi3Ak_0",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "Top",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FT6q2sVvHv8Orw7_1",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "F4Eiu1Ov2f88Tvw_3",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FzASKkTnZpSO2F4_3",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  },
+  {
+   "key": "FOC8LNQD9roLgkK_2",
+   "value": {
+    "type": 1688,
+    "typeName": "BTFeatureState",
+    "message": {
+     "featureStatus": "OK",
+     "inactive": false
+    }
+   }
+  }
+ ],
+ "isComplete": true,
+ "rollbackIndex": 10,
+ "defaultFeatures": [
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "origin",
+    "featureId": "Origin",
+    "name": "Origin",
+    "parameters": [],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MhFkIEexJeMoZx+Np"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "defaultPlane",
+    "featureId": "Top",
+    "name": "Top",
+    "parameters": [],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MlWmFeofWVB3bJgtC"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "defaultPlane",
+    "featureId": "Front",
+    "name": "Front",
+    "parameters": [],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "MtB+NBM0gu00Ou+7g"
+   }
+  },
+  {
+   "type": 134,
+   "typeName": "BTMFeature",
+   "message": {
+    "featureType": "defaultPlane",
+    "featureId": "Right",
+    "name": "Right",
+    "parameters": [],
+    "suppressed": false,
+    "namespace": "",
+    "subFeatures": [],
+    "returnAfterSubfeatures": false,
+    "suppressionState": {
+     "type": 0
+    },
+    "parameterLibraries": [],
+    "hasUserCode": false,
+    "nodeId": "M3DXF4SCMW2H6EFEu"
+   }
+  }
+ ],
+ "serializationVersion": "1.2.0",
+ "sourceMicroversion": "7e9f635a33821398261e8248",
+ "rejectMicroversionSkew": false,
+ "microversionSkew": false,
+ "libraryVersion": 3044
+}

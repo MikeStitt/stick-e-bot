@@ -1,0 +1,67 @@
+{
+ "measured": "2026-08-15",
+ "how": "bodydetails, massproperties and boundingboxes off each named version; faces keyed by (surface, radius, area) so two parts compare without part ids",
+ "gripper": {
+  "run6": {
+   "version": "hand-run6-2026-08-15",
+   "vid": "6f4f1d9a8c70581028b4d122",
+   "features": 10,
+   "volume_mm3": 520.4792,
+   "faces": 36,
+   "box_mm": {"x": [-4.6829, 4.6829], "y": [-5.0, 4.828], "z": [-12.0, 1.35]},
+   "cavity_faces": [17.8924, 17.8924, 17.8924, 17.8924],
+   "slit_walls_mm2": [13.2928, 13.2928, 13.2928, 13.2928,
+                      13.2928, 13.2928, 13.2928, 13.2928],
+   "clip_side_wall": {"area_mm2": 48.8375, "z": [-12.0, -3.5489]}
+  },
+  "run6p2": {
+   "version": "hand-run6p2-2026-08-15",
+   "vid": "482e7c4013651aff98bedd40",
+   "features": 4,
+   "volume_mm3": 544.6419,
+   "faces": 39,
+   "box_mm": {"x": [-4.6829, 4.6829], "y": [-5.0, 4.828], "z": [-12.0, 1.35]},
+   "cavity_faces": [60.8973],
+   "slit_walls_mm2": [8.9601, 8.9601, 8.9601, 8.9601,
+                      9.2599, 9.2599, 9.2599, 9.2599],
+   "slit_run_out_slivers_mm2": [0.017, 0.017, 0.5486, 0.5486],
+   "clip_side_wall": {"area_mm2": 50.5532, "z": [-12.0, -2.0]}
+  }
+ },
+ "joint_socket": {
+  "version": "ball-socket-run6p2-2026-08-15",
+  "vid": "d7a2a03e71a0a743efa70d18",
+  "part": "Socket body",
+  "faces": 22,
+  "cavity_faces": [80.1417],
+  "slit_walls_mm2": [10.3269, 10.3269, 10.3269, 10.3269,
+                     10.3269, 10.3269, 10.3269, 10.3269],
+  "slit_run_out_slivers_mm2": [1.7327, 1.7327, 1.7327, 1.7327]
+ },
+ "same_in_both": {
+  "slit_planes_mm": {"x": [-0.4, 0.4], "y": [-0.4, 0.4]},
+  "slit_floor_z_mm": -4.15,
+  "collar_top_z_mm": 1.35,
+  "slit_depth_mm": 5.5,
+  "cavity_radius_mm": 3.2,
+  "cavity_centre_mm": [0, 0, 0],
+  "bounding_box": "identical to 4 decimal places"
+ },
+ "deltas": [
+  {
+   "what": "the slits cross the axis in run 6 and stop short of it in the joint",
+   "evidence": "run 6's cavity comes back as four separate sphere faces, the joint's and run6p2's as one",
+   "verdict": "run6p2 matches the joint; phase 4's from-scratch socket is the one that differs"
+  },
+  {
+   "what": "volume differs by 24.1627 mm3, 4.6 percent, run6p2 the heavier",
+   "evidence": "544.6419 against 520.4792",
+   "verdict": "follows from the slits: slits that stop short of the axis remove less material"
+  },
+  {
+   "what": "the clip's side walls meet the collar 1.5489 mm lower in run 6",
+   "evidence": "z -3.5489 against z -2.0, areas 48.8375 against 50.5532",
+   "verdict": "the clip features are untouched by the cut, so this is the collar's outer profile differing, same root cause"
+  }
+ ]
+}

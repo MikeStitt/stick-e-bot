@@ -1,0 +1,533 @@
+22:44:13  ABOUT TO: create my own page and stamp it HINGE_RUN3
+22:44:13  RESULT: page created, window.name=HINGE_RUN3
+22:44:13  ABOUT TO: goto documents list
+22:44:19  RESULT: url=https://cad.onshape.com/documents title=Sign in
+22:46:45  ABOUT TO: add 25 borrowed Onshape cookies to the agent browser context
+22:46:54  RESULT: url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392 signed in as Mike Stitt
+22:47:08  ABOUT TO: click Create (visible) on the documents page
+22:47:08  Create button bbox {'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+22:47:09  ABOUT TO: click Document... by coordinate (65,100)
+22:47:11  dialog count 1
+22:47:11  name field reads 'hinge-run3'
+22:47:12  ABOUT TO: click the dialog's Create button
+22:47:24  RESULT: url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b914b279a5545
+22:47:45  command-id elements: 29 -> ['UNDO_A_CHANGE', 'REDO_A_CHANGE', 'newSketch', 'extrude', 'revolve', 'sweep', 'loft', 'thicken', 'fillet', 'chamfer', 'draft', 'rib', 'shell', 'hole', 'externalThread', 'linearPattern', 'mirror', 'booleanBodies', 'splitPart', 'transform', 'deleteBodies', 'modifyFillet', 'deleteFace', 'moveFace', 'replaceFace', 'cPlane', 'frame', 'sheetMetalStart', 'USER_FEATURES']
+22:47:45  ABOUT TO: open the document menu (hamburger left of the name)
+22:47:47  menu candidates: [['Rename document', 140, 45, 225], ['Move to…', 140, 72, 225], ['Document details…', 140, 99, 225], ['Restore deleted workspaces…', 140, 126, 225], ['Copy workspace…', 140, 168, 225], ['Update workspace…', 140, 195, 225], ['Workspace units…', 140, 222, 225], ['Workspace properties…', 140, 249, 225], ['Print…', 140, 291, 225], ['Close document', 140, 333, 225], ['Sketch', 144, 48, 43]]
+22:47:59  ABOUT TO: click Workspace units...
+22:48:01  select {'id': '', 'name': '', 'val': '2: inch', 'opts': ['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard'], 'x': 257, 'y': 167}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 'x': 475, 'y': 167}
+22:48:01  select {'id': '', 'name': '', 'val': '1: inchPerSecondSquared', 'opts': ['Foot per second squared', 'Inch per second squared', 'Meter per second squared', 'Millimeter per second squared'], 'x': 257, 'y': 226}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 'x': 475, 'y': 226}
+22:48:01  select {'id': '', 'name': '', 'val': '0: degree', 'opts': ['Degree', 'Radian'], 'x': 257, 'y': 321}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 'x': 475, 'y': 321}
+22:48:01  select {'id': '', 'name': '', 'val': '0: degreePerSecond', 'opts': ['Degree per second', 'Radian per second', 'Revolutions per minute'], 'x': 257, 'y': 380}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 'x': 475, 'y': 380}
+22:48:01  select {'id': '', 'name': '', 'val': '3: pound', 'opts': ['Gram', 'Kilogram', 'Ounce', 'Pound'], 'x': 257, 'y': 476}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567'], 'x': 475, 'y': 476}
+22:48:01  select {'id': '', 'name': '', 'val': '5: poundPerCubicInch', 'opts': ['Gram per cubic centimeter', 'Gram per liter', 'Gram per milliliter', 'Kilogram per cubic meter', 'Pound per cubic foot', 'Pound per cubic inch'], 'x': 257, 'y': 535}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 'x': 475, 'y': 535}
+22:48:01  select {'id': '', 'name': '', 'val': '2: poundForce', 'opts': ['Kilonewton', 'Newton', 'Pound-force'], 'x': 257, 'y': 594}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 'x': 475, 'y': 594}
+22:48:01  select {'id': '', 'name': '', 'val': '0: hertz', 'opts': ['Hertz'], 'x': 257, 'y': 653}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 'x': 475, 'y': 653}
+22:48:01  select {'id': '', 'name': '', 'val': '1: inchPound', 'opts': ['Foot-pound', 'Inch-pound', 'Newton-meter', 'Newton-millimeter'], 'x': 257, 'y': 712}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567'], 'x': 475, 'y': 712}
+22:48:01  select {'id': '', 'name': '', 'val': '5: poundPerSquareInch', 'opts': ['Gigapascal', 'Kilopascal', 'Kilopound per square inch', 'Megapascal', 'Pascal', 'Pound per square inch'], 'x': 257, 'y': 771}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 'x': 475, 'y': 771}
+22:48:01  select {'id': '', 'name': '', 'val': '0: footPoundForce', 'opts': ['Foot-pound force', 'Joule'], 'x': 257, 'y': 830}
+22:48:01  select {'id': '', 'name': '', 'val': '3: 3', 'opts': ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 'x': 475, 'y': 830}
+22:48:15  ABOUT TO: set Length default unit = Millimeter, decimals = 0.12345
+22:48:16  RESULT: length=4: millimeter decimals=5: 5
+22:48:16  ok-button count 1
+22:48:18  RESULT: units dialog accepted; dialogs visible now 0
+22:49:40  ABOUT TO: select Front in the feature tree and click Sketch
+22:49:44  ABOUT TO: press n (view normal to)
+22:49:46  sketch command-ids: ['UNDO_A_CHANGE', 'REDO_A_CHANGE', 'extrude', 'revolve', 'LINESEGMENT', 'RECTANGLE_TWO_CORNERS', 'CIRCLE_CENTER_RADIUS', 'ARC_START_END_RADIUS', 'INSCRIBED_POLYGON', 'SPLINE', 'POINT', 'TEXT_RECTANGLE_TWO_CORNERS', 'USE', 'TOGGLE_CONSTRUCTION', 'FILLET', 'TRIM', 'OFFSET', 'SKETCHMIRROR', 'SKETCHLPATTERN', 'INSERT_DXFDWG', 'DIMENSION', 'COINCIDENT']
+22:50:11  ABOUT TO: draw a circle at the origin, radius ~200 px, for calibration and as the round end
+22:50:15  ABOUT TO: dimension the circle to read the pre-filled value
+22:50:19  visible inputs: 2
+22:50:19    input 0 = ''
+22:50:19    input 1 = '110.63283 mm'
+22:51:02  ABOUT TO: set the round-end circle diameter to 11.62 mm (was '110.63283 mm')
+22:51:03  field reads back '11.62' before Enter
+22:51:05  ABOUT TO: zoom to fit with f
+22:51:07  RESULT: screenshots taken
+22:51:30  ABOUT TO: zoom in 36 wheel notches centred on the origin at (922,522)
+22:51:36  RESULT: zoomed, screenshot 04-g-zoomed.png
+22:52:12  ABOUT TO: corner rectangle from (638, 532) to (1212, 258) (fork tongue, deliberately oversize in X)
+22:52:16  RESULT: rectangle drawn
+22:52:38  ABOUT TO: select the rectangle's left line then shift-click the circle
+22:52:41  ABOUT TO: press t for Tangent
+22:52:43  RESULT: see screenshot
+22:53:06  ABOUT TO: tangent the rectangle's right line to the circle
+22:53:11  ABOUT TO: dimension the left line length to 6.11 mm
+22:53:16  visible inputs 2
+22:53:16    input 0 = ''
+22:53:16    input 1 = '6.17527 mm'
+22:53:17  field reads back '6.11'
+22:53:43  ABOUT TO: double-click the dialog title to rename Sketch 1 -> Fork profile
+22:53:44  visible inputs 1
+22:53:44    input 0 = ''
+22:54:08  ABOUT TO: accept the sketch with the green check
+22:54:11  ABOUT TO: right-click Sketch 1 in the feature tree to rename it
+22:54:12  Sketch 1 row bbox {'x': 66, 'y': 276.5, 'width': 164, 'height': 19.984375}
+22:54:14  context menu: [['Hide', 132, 301], ['Hide other planes', 132, 323], ['Hide all planes', 132, 345], ['Section view…', 132, 367], ['Clear selection', 132, 390], ['Edit sketch appearance…', 132, 413]]
+22:54:30  ABOUT TO: click Hide all planes in the open context menu
+22:54:32  ABOUT TO: right-click the Sketch 1 tree row again
+22:54:34  context menu: [['Rename', 132, 301], ['Edit…', 132, 324], ['Copy sketch', 132, 346], ['Show dimensions', 132, 368], ['Add selection to folder…', 132, 391], ['Hide', 132, 414], ['Create Drawing of Sketch 1…', 132, 437], ['Export as DXF/DWG…', 132, 459], ['Section view…', 132, 482], ['Suppress', 132, 504], ['Dynamic suppression', 132, 526], ['Add comment', 132, 549], ['Zoom to selection', 132, 572], ['View normal to', 132, 594], ['Clear selection', 132, 617], ['Show dependencies…', 132, 640], ['Edit sketch appearance…', 132, 663], ['Delete', 132, 686]]
+22:54:47  ABOUT TO: click Rename in the context menu and type 'Fork profile'
+22:54:48  visible inputs 2
+22:54:48    input 0 = ''
+22:54:48    input 1 = 'Sketch 1'
+22:54:48  rename box reads 'Fork profile'
+22:54:51  tree names: []
+22:55:06  ABOUT TO: select 'Fork profile' in the tree and open Extrude
+22:55:09  PARAM {'pid': 'bodyType', 'tag': 'DIV', 'txt': 'Solid\n      \n      Surface\n      \n      Thin', 'x': 246, 'y': 108, 'w': 220, 'h': 28}
+22:55:09  PARAM {'pid': 'bodyType', 'tag': 'SPAN', 'txt': 'Solid\n      \n      Surface\n      \n      Thin', 'x': 246, 'y': 108, 'w': 220, 'h': 26}
+22:55:09  PARAM {'pid': 'operationType', 'tag': 'DIV', 'txt': 'New\n      \n      Add\n      \n      Remove\n      \n      Inters', 'x': 246, 'y': 136, 'w': 220, 'h': 28}
+22:55:09  PARAM {'pid': 'operationType', 'tag': 'SPAN', 'txt': 'New\n      \n      Add\n      \n      Remove\n      \n      Inters', 'x': 246, 'y': 136, 'w': 220, 'h': 26}
+22:55:09  PARAM {'pid': 'entities', 'tag': 'DIV', 'txt': 'Faces and sketch regions to extrude', 'x': 249, 'y': 169, 'w': 214, 'h': 26}
+22:55:09  PARAM {'pid': 'entities', 'tag': 'DIV', 'txt': 'Faces and sketch regions to extrude', 'x': 249, 'y': 169, 'w': 214, 'h': 26}
+22:55:09  PARAM {'pid': 'endBound', 'tag': 'DIV', 'txt': 'Blind', 'x': 246, 'y': 200, 'w': 194, 'h': 28}
+22:55:09  PARAM {'pid': 'endBound', 'tag': 'DIV', 'txt': 'Blind', 'x': 246, 'y': 200, 'w': 194, 'h': 25}
+22:55:09  PARAM {'pid': 'oppositeDirection', 'tag': 'DIV', 'txt': '', 'x': 440, 'y': 200, 'w': 26, 'h': 28}
+22:55:09  PARAM {'pid': 'oppositeDirection', 'tag': 'DIV', 'txt': '', 'x': 440, 'y': 200, 'w': 26, 'h': 26}
+22:55:09  PARAM {'pid': 'depth', 'tag': 'DIV', 'txt': 'Depth', 'x': 246, 'y': 228, 'w': 194, 'h': 26}
+22:55:09  PARAM {'pid': 'depth', 'tag': 'DIV', 'txt': 'Depth', 'x': 246, 'y': 228, 'w': 194, 'h': 26}
+22:55:09  PARAM {'pid': 'hasExtrudeDirection', 'tag': 'DIV', 'txt': 'Direction', 'x': 266, 'y': 254, 'w': 175, 'h': 27}
+22:55:09  PARAM {'pid': 'hasExtrudeDirection', 'tag': 'DIV', 'txt': 'Direction', 'x': 266, 'y': 254, 'w': 175, 'h': 27}
+22:55:09  PARAM {'pid': 'startOffset', 'tag': 'DIV', 'txt': 'Starting offset', 'x': 266, 'y': 281, 'w': 175, 'h': 27}
+22:55:09  PARAM {'pid': 'startOffset', 'tag': 'DIV', 'txt': 'Starting offset', 'x': 266, 'y': 281, 'w': 175, 'h': 27}
+22:55:09  PARAM {'pid': 'symmetric', 'tag': 'DIV', 'txt': 'Symmetric', 'x': 246, 'y': 309, 'w': 194, 'h': 27}
+22:55:09  PARAM {'pid': 'symmetric', 'tag': 'DIV', 'txt': 'Symmetric', 'x': 246, 'y': 309, 'w': 194, 'h': 27}
+22:55:09  PARAM {'pid': 'hasDraft', 'tag': 'DIV', 'txt': 'Draft', 'x': 246, 'y': 336, 'w': 54, 'h': 27}
+22:55:09  PARAM {'pid': 'hasDraft', 'tag': 'DIV', 'txt': 'Draft', 'x': 246, 'y': 336, 'w': 54, 'h': 27}
+22:55:09  PARAM {'pid': 'hasSecondDirection', 'tag': 'DIV', 'txt': 'Second end position', 'x': 266, 'y': 363, 'w': 175, 'h': 27}
+22:55:09  PARAM {'pid': 'hasSecondDirection', 'tag': 'DIV', 'txt': 'Second end position', 'x': 266, 'y': 363, 'w': 175, 'h': 27}
+22:55:29  ABOUT TO: with the entities field active, click 'Fork profile' in the feature tree
+22:55:31  entities field text: 'Faces and sketch regions to extrude\n          \n          \n        \n        \n          \n          \n          \n            \n              \n               Faces of Fork profile\n              \n              \n              \n            \n            ×'
+22:55:47  ABOUT TO: tick Symmetric and set Depth to 6 mm
+22:55:48  visible inputs 3
+22:55:48    input 0 = ''
+22:55:48    input 1 = ''
+22:55:48    input 2 = '25 mm'
+22:55:48  depth field reads '6'
+22:55:49  ABOUT TO: accept the extrude
+22:55:51  RESULT: extrude accepted
+22:56:36  ABOUT TO: double-click Extrude 1 in the tree to edit it
+22:56:39  symmetric checked? False
+22:56:39  ABOUT TO: click the Symmetric checkbox label
+22:57:27  dialog open? ok-buttons=1
+22:57:27  symmetric info {'checked': False, 'ix': 246, 'iy': 333.78125, 'iw': 0, 'ih': 13, 'lx': 246, 'ly': 326.625, 'lw': 194, 'lh': 27.3125}
+22:57:27  ABOUT TO: click the Symmetric label text by coordinate
+22:57:28  symmetric checked now? True
+22:57:31  RESULT: accepted
+22:58:55  ABOUT TO: rename Extrude 1 -> Clevis fork blank
+22:59:02    renamed 'Extrude 1' -> 'Clevis fork blank'
+22:59:02  ABOUT TO: new sketch on the Top plane for Limb section
+22:59:36  ABOUT TO: draw the Limb section circle at the origin and dimension it 12 mm
+22:59:55  screenshot taken
+23:00:13  ABOUT TO: dimension the Limb section circle to 12 mm (clicking its bottom, inside the canvas)
+23:00:20    dimension prefill 15.66193 mm -> set 12
+23:00:20    px per mm from prefill: 44.694
+23:00:29    renamed 'Sketch 1' -> 'Limb section'
+23:00:29  RESULT: Limb section done
+23:00:44  ABOUT TO: open Extrude for Trim fork to limb (Intersect)
+23:00:49  entities: Faces and sketch regions to extrude Faces of Limb section ×
+23:00:50    operationType := Intersect
+23:00:51  params now: ['bodyType', 'operationType', 'entities', 'endBound', 'oppositeDirection', 'depth', 'hasExtrudeDirection', 'startOffset', 'symmetric', 'hasDraft', 'hasSecondDirection', 'defaultScope', 'booleanScope']
+23:01:06  ABOUT TO: set symmetric, depth 60, and pick the intersect scope by hand
+23:01:07    symmetric False -> True
+23:01:07    depth: '25 mm' -> '60'
+23:01:08  defaultScope text: Merge with all
+23:01:08    defaultScope already False
+23:01:11  booleanScope: Merge scope
+23:01:20    renamed 'Extrude 1' -> 'Trim fork to limb'
+23:01:20  RESULT: trim done
+23:02:09  ABOUT TO: edit Trim fork to limb and pick the body into Merge scope by clicking it on the canvas
+23:02:15  booleanScope now: Merge scope Part 1 ×
+23:02:18  RESULT: see screenshot
+23:03:12  ABOUT TO: create an offset plane 6.11 above Top for the clevis rod base
+23:03:17  plane params: ['entities', 'cplaneType', 'offset', 'oppositeDirection', 'flipNormal']
+23:03:17    entities = Entities Top plane ×
+23:03:17    cplaneType = Offset
+23:03:17    offset = Offset distance
+23:03:17    oppositeDirection = 
+23:03:17    flipNormal = Flip normal
+23:03:28    offset: '25 mm' -> '6.11'
+23:03:38    renamed 'Plane 1' -> 'Clevis rod base'
+23:03:38  RESULT: plane made; check which way it went in the screenshot
+23:04:05  ABOUT TO: new sketch on Clevis rod base
+23:04:12  RESULT: sketch open, screenshot taken
+23:04:46  ABOUT TO: fill the empty Sketch plane field with Clevis rod base from the tree
+23:04:49  sketch plane field: 
+23:04:51  RESULT: check screenshots for the plane field and view cube
+23:05:15  ABOUT TO: draw the clevis rod circle and dimension it 12 mm
+23:05:27    dimension prefill 15.66193 mm -> set 12
+23:06:15    renamed 'Sketch 1' -> 'Clevis rod circle'
+23:06:15  ABOUT TO: extrude the clevis rod 14 mm, Add, merged with Part 1
+23:06:20  entities: Faces and sketch regions to extrude
+23:06:21    operationType := Add
+23:06:21    depth: '25 mm' -> '14'
+23:06:22    defaultScope already False
+23:06:25  booleanScope: Merge scope
+23:06:32    renamed 'Extrude 1' -> 'Clevis limb'
+23:06:32  RESULT: clevis limb extruded
+23:08:15  ABOUT TO: edit Clevis limb (ERROR) and pick the sketch into the entities field
+23:08:18  entities before: Faces and sketch regions to extrude
+23:08:21  entities after tree pick: Faces and sketch regions to extrude Faces of Clevis rod circle ×
+23:08:22  RESULT: see screenshot
+23:08:37  ABOUT TO: finish Clevis limb - Add, 14 mm, merge scope = the clevis body
+23:08:37  operationType: New Add Remove Intersect
+23:08:37  depth: Depth
+23:08:37    defaultScope already False
+23:08:39  booleanScope: Merge scope Part 1 ×
+23:08:41  RESULT: accepted
+23:09:01  ABOUT TO: cut the 3.6 mm slot with a symmetric Remove extrude of Fork profile
+23:09:07  entities: Faces and sketch regions to extrude Faces of Fork profile ×
+23:09:08    operationType := Remove
+23:09:09    symmetric False -> True
+23:09:10    depth: '25 mm' -> '3.6'
+23:09:10    defaultScope already False
+23:09:13  booleanScope: Merge scope
+23:09:20    renamed 'Extrude 1' -> 'Clevis slot'
+23:09:20  RESULT: slot cut
+23:09:46  ABOUT TO: edit Clevis slot and pick the body into Merge scope from the Parts list
+23:09:51  Part 1 row bbox {'x': 85, 'y': 685.5, 'width': 145, 'height': 19.984375}
+23:09:53  booleanScope: Merge scope Part 1 ×
+23:10:29  ABOUT TO: accept Clevis slot
+23:10:31  ABOUT TO: rename Part 1 -> Clevis
+23:10:36    renamed 'Part 1' -> 'Clevis'
+23:10:36  RESULT: done
+23:11:09  ABOUT TO: new sketch on Front for the blade profile
+23:11:13  sketchPlane param: 'Sketch plane\n          \n          \n        \n        \n          \n          \n          \n            \n              \n               Front plane\n              \n              \n              \n            \n            ×'
+23:11:16  RESULT: screenshot taken
+23:11:38  ABOUT TO: zoom to fit so the origin is on screen
+23:11:41  RESULT: screenshot taken
+23:12:03  ABOUT TO: zoom in 28 notches at the origin (922,583)
+23:12:08  RESULT: screenshot taken
+23:12:51  ABOUT TO: blade round end - circle at the origin, dimension 11.62
+23:13:02    dimension prefill 16.39105 mm -> set 11.62
+23:13:02    px/mm from prefill: 42.706
+23:13:02  ABOUT TO: blade tongue rectangle, first corner on the X axis
+23:13:02    rectangle (649, 587) -> (1199, 849)
+23:13:06  RESULT: circle and rectangle drawn
+23:13:33  ABOUT TO: make the left line tangent to the round end
+23:13:38  ABOUT TO: make the right line tangent to the round end
+23:13:42  ABOUT TO: dimension the blade tongue depth to 6.11
+23:14:18  ABOUT TO: hide the Clevis so the sketch entities are the only pickable things
+23:14:20  Hide at None
+23:14:38  Clevis row {'x': 66, 'y': 302.5, 'width': 164, 'height': 19.984375} ; clicking the eye icon at x=220
+23:14:40  ABOUT TO: tangent the left line to the round end
+23:14:45  ABOUT TO: tangent the right line to the round end
+23:14:49  RESULT: see screenshots
+23:15:16  ABOUT TO: dimension the blade tongue depth to 6.11 mm
+23:15:24    dimension prefill 6.11973 mm -> set 6.11
+23:15:31    renamed 'Sketch 1' -> 'Blade profile'
+23:15:31  RESULT: Blade profile sketch complete
+23:15:56  ABOUT TO: extrude Blade profile symmetric 3.0 as a New part
+23:16:03    entities := Faces and sketch regions to extrude Faces of Blade profile ×
+23:16:03  operationType row: New Add Remove Intersect
+23:16:04    operationType := New
+23:16:05    symmetric False -> True
+23:16:05    depth: '25 mm' -> '3'
+23:16:13    renamed 'Extrude 1' -> 'Blade blank'
+23:16:13  RESULT: blade blank made
+23:16:27  ABOUT TO: offset plane 6.11 below Top for the blade rod base
+23:16:32  entities: Entities Top plane ×
+23:16:33    offset: '25 mm' -> '6.11'
+23:16:51  oppositeDirection rect {'x': 440, 'y': 190, 'w': 26, 'h': 26}
+23:16:51  ABOUT TO: click the flip-direction button so the plane goes to z = -6.11
+23:17:00    renamed 'Plane 1' -> 'Blade rod base'
+23:17:00  RESULT: plane made; direction to be verified by the rod bounding box
+23:17:17  ABOUT TO: new sketch on Blade rod base
+23:17:22  sketchPlane: Sketch plane Blade rod base ×
+23:17:25  RESULT: screenshot taken
+23:17:51  ABOUT TO: draw the blade rod circle and dimension it 12 mm
+23:18:02    dimension prefill 16.39100 mm -> set 12
+23:18:10    renamed 'Sketch 1' -> 'Blade rod circle'
+23:18:10  ABOUT TO: extrude the blade limb 14 mm, Add, merged with Part 2
+23:18:16    entities := Faces and sketch regions to extrude Faces of Blade rod circle ×
+23:18:17    operationType := Add
+23:18:18    depth: '25 mm' -> '14'
+23:18:18    defaultScope already False
+23:18:22    booleanScope := Merge scope Part 2 ×
+23:18:29    renamed 'Extrude 1' -> 'Blade limb'
+23:18:29  RESULT: blade limb extruded
+23:19:01  ABOUT TO: edit Blade limb and flip its direction (it grew +Z into the blade)
+23:19:05  oppositeDirection rect {'x': 440, 'y': 218, 'w': 26, 'h': 28}
+23:19:09  RESULT: flipped
+23:19:47    renamed 'Part 2' -> 'Blade'
+23:19:47  ABOUT TO: offset plane 1.8 mm from Front -> Ear inner plane
+23:19:52    entities: Entities Front plane ×
+23:19:53    offset: '25 mm' -> '1.8'
+23:20:01    renamed 'Plane 1' -> 'Ear inner plane'
+23:20:01  ABOUT TO: offset plane 1.5 mm from Front -> Blade face plane
+23:20:07    entities: Entities Front plane ×
+23:20:07    offset: '25 mm' -> '1.5'
+23:20:15    renamed 'Plane 1' -> 'Blade face plane'
+23:20:15  RESULT: two offset planes made; sign to be checked
+23:20:31  ABOUT TO: new sketch on Ear inner plane
+23:20:36  sketchPlane: Sketch plane Ear inner plane ×
+23:20:40  RESULT: screenshot taken
+23:21:04  ABOUT TO: zoom in 49 notches at the origin to reach roughly 100 px/mm
+23:21:09  RESULT: screenshot taken
+23:23:47  ABOUT TO: draw the stub circle at the origin and dimension it 2 mm
+23:23:59    dimension prefill 4.21364 mm -> set 2
+23:23:59    px/mm here: 94.930
+23:24:06    renamed 'Sketch 1' -> 'Stub circle'
+23:24:06  RESULT: stub circle done
+23:24:48  ABOUT TO: extrude Stub circle 0.8 mm, Add, merge with Clevis
+23:24:52    operationType := Add
+23:24:58    entities := Faces and sketch regions to extrude Faces of Stub circle ×
+23:24:58    depth: '25 mm' -> '0.8'
+23:25:02    booleanScope := Merge scope Clevis ×
+23:25:02    entities: Faces and sketch regions to extrude Faces of Stub circle ×
+23:25:02    scope:    Merge scope Clevis ×
+23:25:09    renamed 'Extrude 1' -> 'Stub'
+23:25:09  RESULT: stub extruded; direction still to be checked by volume
+23:25:30  ABOUT TO: flip Stub -- volume did not change, so it grew into the ear
+23:26:04  dialog open? True
+23:26:06  dialog open now? False
+23:26:18  ABOUT TO: flip Stub -- volume did not change, so it grew into the ear
+23:26:26  RESULT: flipped
+23:27:08  ABOUT TO: sketch the Pocket circle on Blade face plane (view left alone, so the origin stays at 930,547 and the scale stays 94.93 px/mm)
+23:27:12    sketchPlane: Sketch plane Blade face plane ×
+23:27:23    dimension prefill 4.21364 mm -> set 2.2
+23:27:23    px/mm here: 94.930
+23:27:30    renamed 'Sketch 1' -> 'Pocket circle'
+23:27:30  RESULT: pocket circle done
+23:27:49  ABOUT TO: extrude Pocket circle 1.0 mm, Remove, scope Blade, flipped inward
+23:27:53    operationType := Remove
+23:27:58    entities := Faces and sketch regions to extrude Faces of Pocket circle ×
+23:27:59    depth: '25 mm' -> '1.0'
+23:28:03    booleanScope := Merge scope Blade ×
+23:28:04    entities: Faces and sketch regions to extrude Faces of Pocket circle ×
+23:28:04    scope:    Merge scope Blade ×
+23:28:12    renamed 'Extrude 1' -> 'Pocket'
+23:28:12  RESULT: pocket cut; volume to be checked
+23:28:45  ABOUT TO: un-flip Pocket -- flipped it cut nothing, so the default direction was the one going into the blade
+23:28:52  RESULT: un-flipped
+23:30:05  ABOUT TO: open the Mirror dialog and list its parameters
+23:30:08     patternType :: Part mirror
+23:30:08     patternType :: Part mirror
+23:30:08     operationType :: New Add Remove Intersect
+23:30:08     operationType :: New Add Remove Intersect
+23:30:08     entities :: Entities to mirror
+23:30:08     entities :: Entities to mirror
+23:30:08     mirrorPlane :: Mirror plane
+23:30:08     mirrorPlane :: Mirror plane
+23:30:23  patternType: {'tag': '\n    <!---->\n  <os-enum-parameter bt-parameter="btParameter" parent-dialog-id="feature-dialog">\n<!---->\n<!----><span ng-if="!$ctrl.btParameter.getIsNotApplicable() &amp;&amp; ($ctrl.btParameter.getDisplayStyle() === $ctrl.EnumDisplayStyle.DROPDOWN)" class="os-param-wrapper os-param-select">\n  <!---->\n  <!---->\n  <div class="select-container-wrapper">\n    <div class="select-input os-select-container os-select-bootstrap dropdown ng-not-empty ng-valid" ng-class="{\'os-param-readonly\': $ctrl.btParameter.getIsReadOnly(), \'os-invalid-textbox\': $ctrl.btParameter.getHasParameterError(), \'os-is-within-s'}
+23:30:36  options: ['Mirror 1 @66,629', 'Mirror 1 @246,93', 'Part mirror @257,152', 'Feature mirror @257,178', 'Face mirror @257,204']
+23:30:51  ABOUT TO: Feature mirror of Stub and Pocket about Front
+23:30:53    patternType now: Feature mirror
+23:31:03     patternType :: Feature mirror
+23:31:03     instanceFunction :: Features to mirror
+23:31:03     mirrorPlane :: Mirror plane
+23:31:03     fullFeaturePattern :: Reapply features
+23:31:23  ABOUT TO: fill the Feature mirror -- features Stub and Pocket, plane Front, Reapply features ticked
+23:31:28    instanceFunction: Features to mirror Stub × Pocket ×
+23:31:30    mirrorPlane: Mirror plane
+23:31:31    fullFeaturePattern False -> True
+23:31:39    renamed 'Mirror 1' -> 'Mirror stub and pocket'
+23:31:39  RESULT: mirror done
+23:32:22  ABOUT TO: fix the mirror -- its plane never took, so the feature is in ERROR
+23:32:26    before: mirrorPlane 'Mirror plane'
+23:32:27    Front row at {'x': 85, 'y': 83.4921875}
+23:32:29    after:  mirrorPlane 'Mirror plane'
+23:32:31  RESULT: mirror plane set
+23:32:56  ABOUT TO: fix the mirror plane again, this time scrolling the tree to the top first (the Front row was at y=83, up behind the filter bar)
+23:33:03    Front row now at {'x': 85, 'y': 234.4921875}
+23:33:04    mirrorPlane: 'Mirror plane Front plane ×'
+23:33:06  RESULT: done
+23:35:05  STAGE 1 ACCEPTANCE (all figures read back from the model, not assumed):
+23:35:05    bodies = 2, non-intersecting (volumes sum to the whole: 1874.386 + 1947.827 = 3822.213)
+23:35:05    ear inner faces y=+/-1.800, blade faces y=+/-1.500  -> gap 0.300 each side
+23:35:05    stub top faces y=+/-1.000, r=1.0  -> 0.800 proud of the ear
+23:35:05    pocket bore r=1.1, mouth y=+/-1.500, floor y=+/-0.500 -> 1.000 deep, stub tip sits 0.500 inside, radial clearance 0.100
+23:35:05    blade web between the two pocket floors = 1.000
+23:35:05    ear inner chord x[-5.72,5.72] = 11.45; ear outer chord 10.39; blade width 11.62
+23:35:05    ear free length: inner face runs z[-5.81, 6.11] -> 11.92 mm cantilever
+23:35:05    sweep from measured faces: rod ends at z=+/-6.11, rod half-width 6.0 at y=0, so corner radius 8.5634 -> +/-91.04 deg
+23:35:10  RESULT: stage 1 complete
+23:36:00  ABOUT TO: hide the two construction planes, then open a sketch on Ear inner plane for the detent bump
+23:36:02    hid Ear inner plane
+23:36:05    hid Blade face plane
+23:36:10    sketchPlane: Sketch plane Ear inner plane ×
+23:36:15  RESULT: sketch open, view normal, screenshot taken
+23:36:45  ABOUT TO: zoom 35 notches at the origin (8.3 px/mm is too small to click a Ø0.8 circle)
+23:36:51  RESULT: zoomed
+23:37:39  ABOUT TO: draw the detent bump circle at r4.80 above the origin, Ø0.8
+23:37:52    dimension2 prefill 4.34053 mm -> set 4.8
+23:37:52    px/mm from the radial dimension: 63.587
+23:38:14  state screenshot taken; dialog open? True
+23:38:47  ABOUT TO: dimension the bump circle Ø0.8 (scale here is 63.59 px/mm, from the 4.8 dimension's pre-filled 4.34053)
+23:38:53    dimension prefill 0.76933 mm -> set 0.8
+23:38:53    px/mm from the diameter: 59.792
+23:39:00    renamed 'Sketch 1' -> 'Detent bump circle'
+23:39:00  RESULT: bump circle done
+23:39:20  ABOUT TO: extrude Detent bump circle 0.6 mm proud, Add, merge Clevis, flipped the same way the stub had to be
+23:39:24    operationType := Add
+23:39:30    entities := Faces and sketch regions to extrude Faces of Detent bump circle ×
+23:39:30    depth: '25 mm' -> '0.6'
+23:39:34    booleanScope := Merge scope
+23:40:02  ABOUT TO: finish the bump extrude -- scroll the tree down so the Parts list is on screen, then pick Clevis into the merge scope
+23:40:04    Clevis row at {'x': 85, 'y': 695.4921875}
+23:40:08    booleanScope := Merge scope Clevis ×
+23:40:09    depth: Depth
+23:40:17    renamed 'Extrude 1' -> 'Detent bump'
+23:40:17  RESULT: bump extruded
+23:45:20  ABOUT TO: hide the Blade and look along Right, so the slot can be seen into. The bump crown faces +Y and is walled in by the far ear, the near ear and the blade; no standard view can reach it.
+23:45:34  RESULT: blade hidden, Right view
+23:46:01  ABOUT TO: right-drag -100 px to swing the camera toward +Y
+23:46:06  RESULT: rotated
+23:46:28  ABOUT TO: right-drag 70 px to swing the camera toward +Y
+23:46:33  RESULT: rotated
+23:46:58  ABOUT TO: zoom 45 notches at (890,541)
+23:47:03  RESULT: zoomed
+23:47:31  ABOUT TO: fillet the bump crown r0.4 -- a full round on a Ø0.8 boss
+23:47:34    fillet parameters: ['allowEdgeOverflow', 'blendControlType', 'crossSection', 'entities', 'filletType', 'isAsymmetric', 'isPartial', 'isVariable', 'radius', 'smoothCorners', 'tangentPropagation']
+23:47:37    entities: Entities to fillet Face of Detent bump ×
+23:47:50  ABOUT TO: set the crown fillet radius to 0.4
+23:47:50    radius: '6 mm' -> '0.4'
+23:47:53    error text on screen: []
+23:47:56    dialog still open after OK? False
+23:48:36  ABOUT TO: rename the fillet, then zoom out to find the stub's cylindrical face for the circular pattern axis
+23:48:41    renamed 'Fillet 1' -> 'Dome the bump crown'
+23:48:44  RESULT: zoomed out
+23:49:11  toolbar command-ids: ['REDO_A_CHANGE', 'UNDO_A_CHANGE', 'USER_FEATURES', 'booleanBodies', 'cPlane', 'chamfer', 'deleteBodies', 'deleteFace', 'draft', 'externalThread', 'extrude', 'fillet', 'frame', 'hole', 'linearPattern', 'loft', 'mirror', 'modifyFillet', 'moveFace', 'newSketch', 'replaceFace', 'revolve', 'rib', 'sheetMetalStart', 'shell', 'splitPart', 'sweep', 'thicken', 'transform']
+23:49:30  ABOUT TO: open the pattern dropdown and pick Circular pattern
+23:49:30    linearPattern tool at {'x': 672.515625, 'y': 42, 'width': 32, 'height': 32}
+23:49:31    Circular pattern menu item at {'x': 733.515625, 'y': 126}
+23:49:34     angle :: Angle
+23:49:34     axis :: Axis of pattern
+23:49:34     entities :: Entities to pattern
+23:49:34     equalSpace :: Equal spacing
+23:49:34     instanceCount :: Instance count
+23:49:34     isCentered :: Centered
+23:49:34     operationType :: New Add Remove Intersect
+23:49:34     oppositeDirection :: 
+23:49:34     patternType :: Part pattern
+23:49:34     skipInstances :: Skip instances
+23:50:01  ABOUT TO: switch the circular pattern to Feature pattern
+23:50:04    patternType now: Feature pattern
+23:50:08    instanceFunction: Features to pattern Detent bump × Dome the bump crown ×
+23:50:11    axis: Axis of pattern Face of Stub ×
+23:50:29  ABOUT TO: 24 instances at 15 deg, Reapply features ticked
+23:50:29    instanceCount: '4' -> '24'
+23:50:32    angle: '360 deg' -> '15'
+23:50:34    fullFeaturePattern False -> True
+23:50:34    equalSpace state: True
+23:50:34    wall clock from OK to the dialog closing: 0.34 s
+23:51:07  ABOUT TO: fix the pattern -- Equal spacing was on by default, so 'angle' is the TOTAL sweep, not the step. 24 instances at 15 deg total put them all on top of each other.
+23:51:11    angle: '15 deg' -> '360'
+23:51:15    wall clock from OK to the dialog closing: 0.47 s
+23:51:21    renamed 'Circular pattern 1' -> '24 detent bumps'
+23:51:21  RESULT: pattern set to 360 deg
+23:51:45  ABOUT TO: open the feature-tree stopwatch to read per-feature regeneration times
+23:51:49    timing cells: ['216ms @496,143', '16ms @496,168', '14ms @496,194', '13ms @496,219', '12ms @496,245', '9ms @496,271', '9ms @496,296', '8ms @496,322', '8ms @496,347', '7ms @496,373', '7ms @496,399', '6ms @496,424', '6ms @496,450', '6ms @496,475', '5ms @496,501', '5ms @496,527', '5ms @496,552', '5ms @496,578', '5ms @496,603', '4ms @496,629', '3ms @496,654', '3ms @496,680', '3ms @496,706', '3ms @496,731']
+23:52:45  ABOUT TO: swap visibility -- show the Blade, hide the Clevis. The valley rim is an outside face of the Blade, so with the Clevis out of the way a plain Front view reaches it.
+23:53:07  RESULT: blade alone, front view
+23:53:41  ABOUT TO: flip to the true Front view (n gave Back first) and zoom in on the origin
+23:53:52  RESULT: view set
+23:54:27  ABOUT TO: sketch the detent valley on Blade face plane, Ø1.0 at r4.80, same clock position as the bump (+Z)
+23:54:31    sketchPlane: Sketch plane Blade face plane ×
+23:54:44    dimension2 prefill 5.06115 mm -> set 4.8
+23:54:44    px/mm here: 56.904
+23:54:44    circle centre now at y=187
+23:54:50    dimension prefill 0.98758 mm -> set 1.0
+23:54:50    px/mm from the diameter: 60.755
+23:54:57    renamed 'Sketch 1' -> 'Detent valley circle'
+23:54:57  RESULT: valley circle done
+23:55:16  ABOUT TO: extrude Detent valley circle 0.45 Remove, scope Blade (same plane and same default direction as the Pocket, which cut inward, so no flip)
+23:55:20    operationType := Remove
+23:55:25    entities := Faces and sketch regions to extrude Faces of Detent valley circle ×
+23:55:26    depth: '25 mm' -> '0.45'
+23:55:32    booleanScope := Merge scope
+23:55:53  ABOUT TO: put Blade in the valley cut's merge scope
+23:55:56    Blade row at {'x': 85, 'y': 721.4921875}
+23:55:58    booleanScope: Merge scope Blade ×
+23:56:06    renamed 'Extrude 1' -> 'Detent valley'
+23:56:06  RESULT: valley cut
+23:56:33  screenshot taken
+23:57:11  ABOUT TO: break the valley rim with an r0.1 fillet -- the land between neighbouring valleys is only 0.2566 mm, so 0.13 is the ceiling
+23:57:16    entities: Entities to fillet Edge of Detent valley ×
+23:57:16    radius: '0.4 mm' -> '0.1'
+23:57:26    renamed 'Fillet 1' -> 'Break the valley rim'
+23:57:26  RESULT: rim broken
+23:57:59  ABOUT TO: circular pattern the valley x24. The stub's cylindrical face belongs to the hidden Clevis, and the pocket bore is edge-on from here, so the axis is the pocket's rim edge -- a circular edge on the hinge axis.
+23:58:48  ABOUT TO: circular pattern the valley x24. The stub's cylindrical face belongs to the hidden Clevis, and the pocket bore is edge-on from here, so the axis is the pocket's rim edge -- a circular edge on the hinge axis.
+23:58:48    pattern tool button is 'circularPattern'
+23:58:58    instanceFunction: Features to pattern Detent valley × Break the valley rim ×
+23:59:01    axis: Axis of pattern Edge of Pocket ×
+23:59:01    instanceCount: '4' -> '24'
+23:59:03    angle: '360 deg' -> '360'
+23:59:05    fullFeaturePattern False -> True
+23:59:07    wall clock from OK to the dialog closing: 0.51 s
+23:59:12    renamed 'Circular pattern 1' -> '24 detent valleys'
+23:59:12  RESULT: valleys patterned
+23:59:46  ABOUT TO: mirror all six tooth features about Front, Reapply features ticked
+23:59:58    instanceFunction: Features to mirror Detent bump × Dome the bump crown × 24 detent bumps × Detent valley × Break the valley rim × 24 detent valleys ×
+00:00:02    mirrorPlane: Mirror plane Front plane ×
+00:00:03    fullFeaturePattern False -> True
+00:00:04    wall clock from OK to the dialog closing: 0.81 s
+00:00:09    renamed 'Mirror 1' -> 'Mirror the teeth'
+00:00:09  RESULT: teeth mirrored
+00:02:03  ABOUT TO: show the Clevis again and take the finished isometric
+00:02:17  RESULT: both parts shown
+00:02:37  parts 200: [('JHD', 'Clevis'), ('JVD', 'Blade')]
+00:02:38    wrote render-clevis-isometric.png (42126 bytes)
+00:02:39    wrote render-clevis-front.png (40533 bytes)
+00:02:40    wrote render-clevis-right.png (62321 bytes)
+00:02:41    wrote render-clevis-top.png (84044 bytes)
+00:02:42    wrote render-blade-isometric.png (91081 bytes)
+00:02:43    wrote render-blade-front.png (87626 bytes)
+00:02:45    wrote render-blade-right.png (12912 bytes)
+00:02:46    wrote render-blade-top.png (54792 bytes)
+00:03:25  ABOUT TO: create a named version 'run3-hinge-stage2'
+00:03:27    'Create version' menu item at None
+00:03:27    menu items visible: ['Main @296,9', 'Sketch @144,48', 'Features (33) @40,114', 'Fork profile @66,-121', 'Clevis fork blank @66,-95', 'Limb section @66,-69', 'Trim fork to limb @66,-43', 'Clevis rod base @66,-17', 'Clevis rod circle @66,9', 'Clevis limb @66,35', 'Clevis slot @66,61', 'Blade profile @66,87', 'Blade blank @66,113', 'Blade rod base @66,139', 'Blade rod circle @66,165', 'Blade limb @66,191', 'Ear inner plane @66,217', 'Blade face plane @66,243', 'Stub circle @66,269', 'Stub @66,295', 'Pocket circle @66,321', 'Pocket @66,347', 'Mirror stub and pocket @66,373', 'Detent bump circle @66,399', 'Main @295,40']
+00:03:57  ABOUT TO: click the left-rail icon at (20,163) looking for Versions and history
+00:03:58    tooltip near it: ['Blade rod base', 'Blade rod circle', 'Blade limb', 'Document notes']
+00:04:17    y=58 -> ['Document notes', 'Versions and history']
+00:04:18    y=93 -> ['Create version…']
+00:04:19    y=128 -> ['Comments']
+00:04:20    y=163 -> ['Document notes']
+00:04:22    y=198 -> ['Performance errors detected']
+00:04:23    y=233 -> ['AI Advisor']
+00:04:24    y=268 -> ['Action items']
+00:04:38    'Create version…' at None
+00:04:53  ABOUT TO: click the left-rail 'Create version...' button at (20,93)
+00:04:58    visible inputs: ['V1', '']
+00:04:58    ok button present? False
+00:05:11    name box now 'run3-hinge-stage2'
+00:05:16    url now: https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b914b279a5545
+00:05:16  RESULT: version created
+00:05:43  ABOUT TO: open the version link in my own page to prove it resolves
+00:05:58    version page title: 'hinge-run3 | Part Studio 1'  url: https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/v/9f3e9a7769aa0f0e09b2a28a/e/8857827e482b914b279a5545
+00:06:09  ABOUT TO: go back to the live workspace
+00:06:30    workspace page title: 'hinge-run3 | Part Studio 1'
+00:06:31  RESULT: both links opened; page re-stamped
+00:07:15  ABOUT TO: re-read the regeneration times with all 33 features in place
+00:07:19    times: []
+00:07:19    names: ['Default geometry@147', 'Fork profile@277', 'Clevis fork blank@303', 'Limb section@329', 'Trim fork to limb@355', 'Clevis rod base@381', 'Clevis rod circle@407', 'Clevis limb@433', 'Clevis slot@459', 'Blade profile@485', 'Blade blank@511', 'Blade rod base@537']
+00:07:38    regen-time candidates: []
+00:07:55  ABOUT TO: re-read the regeneration times with all 33 features in place
+00:08:00    times: []
+00:08:00    names: ['Default geometry@147', 'Fork profile@277', 'Clevis fork blank@303', 'Limb section@329', 'Trim fork to limb@355', 'Clevis rod base@381', 'Clevis rod circle@407', 'Clevis limb@433', 'Clevis slot@459', 'Blade profile@485', 'Blade blank@511', 'Blade rod base@537']
+00:08:22  ABOUT TO: close the stray Document notes panel, then open the stopwatch
+00:08:29    times: ['463ms@143', '247ms@168', '216ms@194', '16ms@219', '14ms@245', '13ms@271', '12ms@296', '9ms@322', '9ms@347', '8ms@373', '8ms@399', '8ms@424', '7ms@450', '7ms@475']
+00:08:29    names: ['Mirror the teeth@143', '24 detent valleys@168', '24 detent bumps@194', 'Clevis slot@219', 'Clevis limb@245', 'Mirror stub and pocket@271', 'Trim fork to limb@296', 'Fork profile@322', 'Blade limb@347', 'Stub@373', 'Detent bump@399', 'Detent valley@424', 'Pocket@450', 'Dome the bump crown@475']
+00:13:37  STAGE 2 ACCEPTANCE (FeatureScript and mass properties, read-only):
+00:13:37    2 bodies: Clevis 1885.646 mm3, Blade 1930.524 mm3
+00:13:37    48 spherical faces r0.400 (24 domes per ear); 48 torus faces (24 broken rims per face)
+00:13:37    minimum distance between the two parts = 0.1000 mm -- they do not interfere
+00:13:37    closest gap between neighbouring domes = 0.4531 mm (brief expected 0.46)
+00:13:37    valley ring reaches r5.40; round end 5.81 -> rim 0.41 mm (brief expected 0.51)
+00:13:37    THINNEST WALL = 0.0531 mm, the land between two broken valley rims -- not the rim
+00:13:37    dome fillet r0.4 accepted with no complaint; -0.06705 mm3 vs 0.06702 for a hemisphere
+00:13:37    fillet patterns with the bump: +5.39521 mm3 vs 5.3951 for 23 more domes
+00:13:37    regen: Mirror the teeth 463 ms, 24 detent valleys 247 ms, 24 detent bumps 216 ms
+00:13:37  VERSION run3-hinge-stage2 = 9f3e9a7769aa0f0e09b2a28a; both links opened
+00:13:37  DONE -- build-notes.md written

@@ -1,0 +1,142 @@
+2026-08-11T18:05:55Z  START  run2 ball-and-socket build begins. Read constitution, gui-howto, brief, parts/onshape.md.
+2026-08-11T18:05:55Z  about to  create python venv with playwright
+2026-08-11T18:05:59Z  result  venv created
+2026-08-11T18:06:23Z  about to  create my own page and stamp it BALLSOCK_RUN2
+2026-08-11T18:06:30Z  result  page stamped; at https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+2026-08-11T18:06:46Z  about to  click Create -> Document... and name it ball-socket-run2
+2026-08-11T18:07:20Z  result  document created: https://cad.onshape.com/documents/b58c15803eb989fe3f676150/w/6b00a528e8d48f5d5c862785/e/f2b99ffa760d66d00534d1cb
+2026-08-11T18:07:39Z  about to  open hamburger menu -> Workspace units
+2026-08-11T18:08:33Z  about to  set Length default unit = Millimeter, Display decimals = 0.12345
+2026-08-11T18:08:37Z  result  units accepted with green check
+2026-08-11T18:13:55Z  about to  select Front plane and start Sketch 1 (ball stud profile)
+2026-08-11T18:14:01Z  result  sketch 1 open, normal-to pressed
+2026-08-11T18:14:23Z  about to  draw ball circle centred on origin
+2026-08-11T18:14:27Z  result  circle drawn
+2026-08-11T18:14:54Z  about to  dimension ball circle to 6 mm diameter
+2026-08-11T18:14:59Z  result  circle dimensioned
+2026-08-11T18:15:58Z  about to  edit the Dia dimension to 6 mm via the input element
+2026-08-11T18:16:17Z  result  ball circle set to 6 mm
+2026-08-11T18:16:34Z  about to  wheel-zoom in anchored on the origin
+2026-08-11T18:16:38Z  result  zoomed
+2026-08-11T18:17:58Z  about to  draw axis line from bottom of ball to origin
+2026-08-11T18:18:02Z  result  axis line drawn
+2026-08-11T18:19:52Z  about to  draw stalk rectangle from origin to (1.5, 8)
+2026-08-11T18:19:57Z  about to  draw base rectangle from (0,8) to (5,18)
+2026-08-11T18:20:02Z  result  both rectangles drawn
+2026-08-11T18:20:52Z  about to  dimension stalk height 8 mm (rect1 right edge)
+2026-08-11T18:22:13Z  about to  dimension stalk height 8 mm
+2026-08-11T18:22:20Z  result  D1 done
+2026-08-11T18:22:41Z  about to  dimension stalk half-width 1.5 mm (Y axis to stalk right edge)
+2026-08-11T18:22:49Z  result  D2 done
+2026-08-11T18:23:11Z  about to  dimension base height 10 mm
+2026-08-11T18:23:17Z  about to  dimension base half-width 5 mm
+2026-08-11T18:23:25Z  result  D3 D4 done
+2026-08-11T18:24:20Z  about to  edit base half-width dimension to 5 mm
+2026-08-11T18:24:27Z  result  base width set to 5
+2026-08-11T18:25:01Z  about to  accept Sketch 1 with the green check
+2026-08-11T18:25:04Z  result  sketch 1 accepted
+2026-08-11T18:25:45Z  about to  open Revolve tool
+2026-08-11T18:25:48Z  result  revolve dialog open
+2026-08-11T18:26:24Z  about to  pick 4 sketch regions for revolve
+2026-08-11T18:26:31Z  result  regions picked
+2026-08-11T18:27:00Z  about to  click into Revolve axis field then pick the stalk left edge as axis
+2026-08-11T18:27:21Z  about to  accept Revolve 1 (ball stud)
+2026-08-11T18:27:26Z  result  revolve accepted
+2026-08-11T18:27:42Z  about to  rename Part 1 -> Ball stud
+2026-08-11T18:28:13Z  result  part renamed to Ball stud
+2026-08-11T18:28:48Z  about to  start Sketch 2 on Front plane for the socket pad
+2026-08-11T18:28:56Z  result  sketch 2 open
+2026-08-11T18:29:39Z  about to  draw pad rectangle 20 x 6 below the ball
+2026-08-11T18:29:44Z  result  pad rectangle drawn
+2026-08-11T18:30:16Z  about to  select pad left edge, right edge, Y axis and apply Symmetric (shift+q)
+2026-08-11T18:30:22Z  result  symmetric attempted
+2026-08-11T18:30:53Z  about to  dimension pad width 20 mm
+2026-08-11T18:30:59Z  about to  dimension pad thickness 6 mm
+2026-08-11T18:31:33Z  about to  dimension pad thickness 6 mm (retry on moved edge)
+2026-08-11T18:31:55Z  about to  dimension pad thickness 6 mm (retry, label to the right)
+2026-08-11T18:32:16Z  about to  dimension X axis to pad top face = 4.15 mm
+2026-08-11T18:32:25Z  result  pad top face positioned
+2026-08-11T18:32:45Z  about to  accept Sketch 2 and open Extrude
+2026-08-11T18:32:52Z  result  extrude dialog open
+2026-08-11T18:33:16Z  about to  pick pad region, tick Symmetric, set depth 20
+2026-08-11T18:34:01Z  about to  set extrude depth 20 mm and accept
+2026-08-11T18:34:09Z  result  pad extruded
+2026-08-11T18:35:16Z  about to  rename Part 2 -> Socket body
+2026-08-11T18:35:21Z  result  Part 2 renamed Socket body
+2026-08-11T18:35:36Z  about to  start Sketch 3 on Front plane for the collar, with imprinting disabled
+2026-08-11T18:35:44Z  result  sketch 3 open, imprinting disabled
+2026-08-11T18:38:05Z  about to  draw collar rectangle: corner on Y axis at pad top, out to (4.7, 1.35)
+2026-08-11T18:38:10Z  result  collar rect drawn
+2026-08-11T18:38:33Z  about to  draw collar rectangle using the toolbar Corner rectangle button
+2026-08-11T18:38:39Z  result  collar rect drawn (toolbar button)
+2026-08-11T18:39:10Z  about to  dimension collar length 5.5 mm
+2026-08-11T18:39:28Z  about to  dimension collar radius 4.7 mm from Y axis
+2026-08-11T18:40:02Z  about to  dimension grip: X axis to collar mouth face = 1.35 mm
+2026-08-11T18:40:10Z  result  collar profile dimensioned
+2026-08-11T18:40:37Z  about to  accept Sketch 3, open Revolve, switch to Add
+2026-08-11T18:41:15Z  about to  pick collar region and axis for Revolve 2
+2026-08-11T18:41:52Z  about to  retry: click region field then collar region
+2026-08-11T18:42:35Z  about to  click axis field then pick collar left edge
+2026-08-11T18:43:03Z  about to  set merge scope = Socket body
+2026-08-11T18:43:33Z  about to  accept Revolve 2 (collar) and measure
+2026-08-11T18:43:39Z  result  collar added
+2026-08-11T18:44:17Z  about to  open Boolean tool
+2026-08-11T18:44:42Z  about to  switch Boolean to Subtract
+2026-08-11T18:45:12Z  about to  Boolean Subtract: Tools=Ball stud, Targets=Socket body
+2026-08-11T18:45:36Z  about to  click into Targets field, pick Socket body, then tick Offset
+2026-08-11T18:46:07Z  about to  tick Offset all and set Offset distance 0.2 mm
+2026-08-11T18:46:38Z  about to  accept Boolean 1 (subtract with 0.2 mm offset)
+2026-08-11T18:46:45Z  result  boolean accepted
+2026-08-11T18:48:20Z  about to  start Sketch 4 on Top plane for one relief slit
+2026-08-11T18:48:29Z  result  sketch 4 open on Top plane
+2026-08-11T18:49:39Z  about to  draw one relief slit rectangle 2.5..6 x -0.4..0.4
+2026-08-11T18:49:45Z  result  slit rect drawn
+2026-08-11T18:50:26Z  about to  symmetric constraint on slit about the X axis
+2026-08-11T18:51:07Z  about to  dimension slit width 0.8 mm
+2026-08-11T18:51:26Z  about to  dimension slit inner end 2.5 mm from axis
+2026-08-11T18:51:33Z  about to  dimension slit outer end 6 mm from axis
+2026-08-11T18:51:43Z  result  slit dims done
+2026-08-11T18:52:11Z  about to  accept Sketch 4, open Extrude, choose Remove, pick slit region
+2026-08-11T18:53:11Z  about to  cancel Extrude 2 and hide both parts so the sketch region is pickable
+2026-08-11T18:53:51Z  about to  Extrude Remove: pick slit region, set scope Socket body
+2026-08-11T18:54:25Z  about to  set merge scope Socket body, depth 1.35, second end position 4.15
+2026-08-11T18:55:04Z  about to  tick Second end position and set 4.15 mm
+2026-08-11T18:55:23Z  about to  set second end depth 4.15 mm and accept Extrude 2
+2026-08-11T18:55:57Z  about to  accept Extrude 2 (one slit)
+2026-08-11T18:56:02Z  result  extrude 2 accepted
+2026-08-11T18:56:47Z  about to  open Circular pattern via the Search tools box
+2026-08-11T18:57:33Z  about to  cancel pattern, unhide both parts
+2026-08-11T18:58:13Z  about to  switch to isometric view
+2026-08-11T18:58:50Z  result  isometric + zoom to fit
+2026-08-11T18:59:20Z  about to  hide all planes and zoom in on the model
+2026-08-11T18:59:56Z  result  planes hidden, zoomed
+2026-08-11T19:00:29Z  about to  open Circular pattern, set Feature pattern
+2026-08-11T19:00:47Z  about to  switch pattern type dropdown to Feature pattern
+2026-08-11T19:01:17Z  about to  choose Feature pattern, pick Extrude 2, then try the collar cylindrical face as axis
+2026-08-11T19:01:52Z  about to  test: does Axis of pattern accept the Front plane?
+2026-08-11T19:02:26Z  about to  test: does Axis of pattern accept the collar cylindrical face?
+2026-08-11T19:03:14Z  about to  accept Circular pattern 1
+2026-08-11T19:03:20Z  result  pattern accepted
+2026-08-11T19:06:15Z  about to  edit Extrude 2: swap depths (dir1=4.15 down, dir2=1.35 up)
+2026-08-11T19:07:05Z  about to  accept edited Extrude 2 and re-verify slit length
+2026-08-11T19:07:11Z  result  slit length fixed?
+2026-08-11T19:07:38Z  about to  rename feature at y=287 to Ball stud profile
+2026-08-11T19:07:41Z  about to  rename feature at y=313 to Ball stud
+2026-08-11T19:07:45Z  about to  rename feature at y=339 to Pad profile
+2026-08-11T19:07:49Z  about to  rename feature at y=365 to Socket pad
+2026-08-11T19:07:52Z  about to  rename feature at y=391 to Collar profile
+2026-08-11T19:08:32Z  result  features renamed
+2026-08-11T19:10:26Z  about to  Create version v1-ball-and-socket
+2026-08-11T19:10:49Z  result  version published
+2026-08-11T19:11:12Z  about to  render Socket body alone from several angles (shadedviews)
+2026-08-11T19:11:15Z  result  socket renders 1
+2026-08-11T19:12:34Z  about to  render Ball stud alone from three angles
+2026-08-11T19:12:39Z  result  renders done
+2026-08-11T19:14:01Z  about to  open Section view and cut on the Front plane
+2026-08-11T19:15:02Z  result  section view taken
+2026-08-11T19:15:46Z  about to  turn off section view, hide Ball stud, go to top view
+2026-08-11T19:18:33Z  about to  select the cavity spherical face and read the graphics-area readout
+2026-08-11T19:19:11Z  about to  select one mouth arc and read its radius
+2026-08-11T19:19:50Z  about to  unhide Ball stud, then open the version link and the workspace link
+2026-08-11T19:20:56Z  result  both links opened and verified
+2026-08-11T19:24:27Z  result  build-notes.md written; run complete

@@ -1,0 +1,543 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "184adaa7b3e7abc7bc4357c7",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#limbD = 24 mm",
+  "#blade = 10 mm",
+  "#gap = 0.6 mm",
+  "#slot = 11.2 mm",
+  "#ear = 6.4 mm",
+  "#nose = 12 mm",
+  "#blade_out = 32 mm",
+  "#slot_deep = 33 mm",
+  "#blade_half = 10.90871 mm",
+  "#stub = 4 mm",
+  "#stub_proud = 1.6 mm",
+  "#pocket_d = 4.4 mm",
+  "#teeth_ri = 8.8 mm",
+  "#teeth_r = 10.4 mm",
+  "#bump_r = 9.6 mm",
+  "#bump_d = 1.6 mm",
+  "#valley_d = 2 mm",
+  "#valley_deep = 0.9 mm",
+  "#tooth_proud = 1.2 mm",
+  "#rod = 6.4 mm",
+  "blade profile",
+  "blade blank",
+  "stub axle outline",
+  "stub axle",
+  "blade bump outline",
+  "blade bump",
+  "#rim_break = 0.1 mm",
+  "dome blade bump",
+  "axis for circular patterns",
+  "24 blade bumps",
+  "mirror blade",
+  "blade rod outline",
+  "blade arm",
+  "fork outline",
+  "fork blank",
+  "fork blade top cut outline",
+  "trim fork to arm",
+  "pocket axle sketch",
+  "pocket axle on fork",
+  "ear valley outline",
+  "ear valley",
+  "round ear valley rim",
+  "24 ear valleys",
+  "two forks",
+  "fork arm outline",
+  "fork arm",
+  "combine fork parts",
+  "fork to robot connector",
+  "blade to robot connector"
+ ],
+ "features": {
+  "#limbD = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "#ear = 6.4 mm",
+    "#nose = 12 mm",
+    "#blade_half = 10.90871 mm",
+    "blade rod outline",
+    "fork outline",
+    "fork arm outline"
+   ]
+  },
+  "#blade = 10 mm": {
+   "upstream": [],
+   "downstream": [
+    "#slot = 11.2 mm",
+    "#blade_half = 10.90871 mm",
+    "blade blank",
+    "stub axle",
+    "blade bump",
+    "24 blade bumps",
+    "mirror blade"
+   ]
+  },
+  "#gap = 0.6 mm": {
+   "upstream": [],
+   "downstream": [
+    "#slot = 11.2 mm"
+   ]
+  },
+  "#slot = 11.2 mm": {
+   "upstream": [
+    "#blade = 10 mm",
+    "#gap = 0.6 mm"
+   ],
+   "downstream": [
+    "#ear = 6.4 mm",
+    "fork outline",
+    "fork blade top cut outline",
+    "ear valley"
+   ]
+  },
+  "#ear = 6.4 mm": {
+   "upstream": [
+    "#limbD = 24 mm",
+    "#slot = 11.2 mm"
+   ],
+   "downstream": [
+    "#rod = 6.4 mm"
+   ]
+  },
+  "#nose = 12 mm": {
+   "upstream": [
+    "#limbD = 24 mm"
+   ],
+   "downstream": [
+    "blade profile",
+    "blade arm",
+    "fork blank",
+    "fork blade top cut outline",
+    "fork arm",
+    "fork to robot connector"
+   ]
+  },
+  "#blade_out = 32 mm": {
+   "upstream": [],
+   "downstream": [
+    "#slot_deep = 33 mm",
+    "blade profile",
+    "blade arm"
+   ]
+  },
+  "#slot_deep = 33 mm": {
+   "upstream": [
+    "#blade_out = 32 mm"
+   ],
+   "downstream": [
+    "fork blank",
+    "fork arm",
+    "fork to robot connector"
+   ]
+  },
+  "#blade_half = 10.90871 mm": {
+   "upstream": [
+    "#limbD = 24 mm",
+    "#blade = 10 mm"
+   ],
+   "downstream": [
+    "blade profile"
+   ]
+  },
+  "#stub = 4 mm": {
+   "upstream": [],
+   "downstream": [
+    "stub axle outline"
+   ]
+  },
+  "#stub_proud = 1.6 mm": {
+   "upstream": [],
+   "downstream": [
+    "stub axle"
+   ]
+  },
+  "#pocket_d = 4.4 mm": {
+   "upstream": [],
+   "downstream": [
+    "pocket axle sketch"
+   ]
+  },
+  "#teeth_ri = 8.8 mm": {
+   "upstream": [],
+   "downstream": [
+    "#bump_r = 9.6 mm",
+    "#bump_d = 1.6 mm"
+   ]
+  },
+  "#teeth_r = 10.4 mm": {
+   "upstream": [],
+   "downstream": [
+    "#bump_r = 9.6 mm",
+    "#bump_d = 1.6 mm"
+   ]
+  },
+  "#bump_r = 9.6 mm": {
+   "upstream": [
+    "#teeth_ri = 8.8 mm",
+    "#teeth_r = 10.4 mm"
+   ],
+   "downstream": [
+    "blade bump outline",
+    "ear valley outline"
+   ]
+  },
+  "#bump_d = 1.6 mm": {
+   "upstream": [
+    "#teeth_ri = 8.8 mm",
+    "#teeth_r = 10.4 mm"
+   ],
+   "downstream": [
+    "blade bump outline",
+    "dome blade bump",
+    "24 blade bumps",
+    "mirror blade"
+   ]
+  },
+  "#valley_d = 2 mm": {
+   "upstream": [],
+   "downstream": [
+    "ear valley outline"
+   ]
+  },
+  "#valley_deep = 0.9 mm": {
+   "upstream": [],
+   "downstream": [
+    "ear valley"
+   ]
+  },
+  "#tooth_proud = 1.2 mm": {
+   "upstream": [],
+   "downstream": [
+    "blade bump",
+    "24 blade bumps",
+    "mirror blade"
+   ]
+  },
+  "#rod = 6.4 mm": {
+   "upstream": [
+    "#ear = 6.4 mm"
+   ],
+   "downstream": [
+    "blade arm",
+    "fork arm",
+    "fork to robot connector"
+   ]
+  },
+  "blade profile": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "Right",
+    "#nose = 12 mm",
+    "#blade_out = 32 mm",
+    "#blade_half = 10.90871 mm"
+   ],
+   "downstream": [
+    "blade blank"
+   ]
+  },
+  "blade blank": {
+   "upstream": [
+    "#blade = 10 mm",
+    "blade profile"
+   ],
+   "downstream": [
+    "stub axle",
+    "blade bump",
+    "axis for circular patterns",
+    "blade arm",
+    "blade to robot connector"
+   ]
+  },
+  "stub axle outline": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#stub = 4 mm"
+   ],
+   "downstream": [
+    "stub axle"
+   ]
+  },
+  "stub axle": {
+   "upstream": [
+    "#blade = 10 mm",
+    "#stub_proud = 1.6 mm",
+    "blade blank",
+    "stub axle outline"
+   ],
+   "downstream": [
+    "axis for circular patterns"
+   ]
+  },
+  "blade bump outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "#bump_r = 9.6 mm",
+    "#bump_d = 1.6 mm"
+   ],
+   "downstream": [
+    "blade bump"
+   ]
+  },
+  "blade bump": {
+   "upstream": [
+    "#blade = 10 mm",
+    "#tooth_proud = 1.2 mm",
+    "blade blank",
+    "blade bump outline"
+   ],
+   "downstream": [
+    "dome blade bump",
+    "24 blade bumps",
+    "mirror blade"
+   ]
+  },
+  "#rim_break = 0.1 mm": {
+   "upstream": [],
+   "downstream": [
+    "round ear valley rim"
+   ]
+  },
+  "dome blade bump": {
+   "upstream": [
+    "#bump_d = 1.6 mm",
+    "blade bump"
+   ],
+   "downstream": [
+    "24 blade bumps",
+    "mirror blade"
+   ]
+  },
+  "axis for circular patterns": {
+   "upstream": [
+    "blade blank",
+    "stub axle"
+   ],
+   "downstream": [
+    "24 blade bumps",
+    "pocket axle sketch",
+    "ear valley outline",
+    "24 ear valleys"
+   ]
+  },
+  "24 blade bumps": {
+   "upstream": [
+    "#blade = 10 mm",
+    "#bump_d = 1.6 mm",
+    "#tooth_proud = 1.2 mm",
+    "blade bump",
+    "dome blade bump",
+    "axis for circular patterns"
+   ],
+   "downstream": [
+    "mirror blade"
+   ]
+  },
+  "mirror blade": {
+   "upstream": [
+    "Front",
+    "#blade = 10 mm",
+    "#bump_d = 1.6 mm",
+    "#tooth_proud = 1.2 mm",
+    "blade bump",
+    "dome blade bump",
+    "24 blade bumps"
+   ],
+   "downstream": []
+  },
+  "blade rod outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "#limbD = 24 mm"
+   ],
+   "downstream": [
+    "blade arm"
+   ]
+  },
+  "blade arm": {
+   "upstream": [
+    "#nose = 12 mm",
+    "#blade_out = 32 mm",
+    "#rod = 6.4 mm",
+    "blade blank",
+    "blade rod outline"
+   ],
+   "downstream": [
+    "blade to robot connector"
+   ]
+  },
+  "fork outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "#limbD = 24 mm",
+    "#slot = 11.2 mm"
+   ],
+   "downstream": [
+    "fork blank"
+   ]
+  },
+  "fork blank": {
+   "upstream": [
+    "#nose = 12 mm",
+    "#slot_deep = 33 mm",
+    "fork outline"
+   ],
+   "downstream": [
+    "trim fork to arm",
+    "pocket axle on fork",
+    "ear valley",
+    "two forks",
+    "combine fork parts",
+    "fork to robot connector"
+   ]
+  },
+  "fork blade top cut outline": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#slot = 11.2 mm",
+    "#nose = 12 mm"
+   ],
+   "downstream": [
+    "trim fork to arm"
+   ]
+  },
+  "trim fork to arm": {
+   "upstream": [
+    "fork blank",
+    "fork blade top cut outline"
+   ],
+   "downstream": []
+  },
+  "pocket axle sketch": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#pocket_d = 4.4 mm",
+    "axis for circular patterns"
+   ],
+   "downstream": [
+    "pocket axle on fork"
+   ]
+  },
+  "pocket axle on fork": {
+   "upstream": [
+    "fork blank",
+    "pocket axle sketch"
+   ],
+   "downstream": []
+  },
+  "ear valley outline": {
+   "upstream": [
+    "Front",
+    "#bump_r = 9.6 mm",
+    "#valley_d = 2 mm",
+    "axis for circular patterns"
+   ],
+   "downstream": [
+    "ear valley"
+   ]
+  },
+  "ear valley": {
+   "upstream": [
+    "#slot = 11.2 mm",
+    "#valley_deep = 0.9 mm",
+    "fork blank",
+    "ear valley outline"
+   ],
+   "downstream": [
+    "round ear valley rim",
+    "24 ear valleys"
+   ]
+  },
+  "round ear valley rim": {
+   "upstream": [
+    "#rim_break = 0.1 mm",
+    "ear valley"
+   ],
+   "downstream": [
+    "24 ear valleys"
+   ]
+  },
+  "24 ear valleys": {
+   "upstream": [
+    "axis for circular patterns",
+    "ear valley",
+    "round ear valley rim"
+   ],
+   "downstream": []
+  },
+  "two forks": {
+   "upstream": [
+    "Front",
+    "fork blank"
+   ],
+   "downstream": [
+    "combine fork parts"
+   ]
+  },
+  "fork arm outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "#limbD = 24 mm"
+   ],
+   "downstream": [
+    "fork arm"
+   ]
+  },
+  "fork arm": {
+   "upstream": [
+    "#nose = 12 mm",
+    "#slot_deep = 33 mm",
+    "#rod = 6.4 mm",
+    "fork arm outline"
+   ],
+   "downstream": [
+    "combine fork parts",
+    "fork to robot connector"
+   ]
+  },
+  "combine fork parts": {
+   "upstream": [
+    "fork blank",
+    "two forks",
+    "fork arm"
+   ],
+   "downstream": []
+  },
+  "fork to robot connector": {
+   "upstream": [
+    "#nose = 12 mm",
+    "#slot_deep = 33 mm",
+    "#rod = 6.4 mm",
+    "fork blank",
+    "fork arm"
+   ],
+   "downstream": []
+  },
+  "blade to robot connector": {
+   "upstream": [
+    "blade blank",
+    "blade arm"
+   ],
+   "downstream": []
+  }
+ }
+}

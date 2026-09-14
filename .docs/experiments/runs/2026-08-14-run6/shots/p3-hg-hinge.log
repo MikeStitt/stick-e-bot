@@ -1,0 +1,52 @@
+07:40:58 limb diameter: 82.90714 mm -> 12
+07:43:51 blade width, the chord at plus and minus 2.5: 10.8525 mm -> 10.909
+07:43:54 twice the 10 the blade's own limb stops at: 20.23171 mm -> 20
+07:44:43 Sketch 1 committed
+07:46:54 Extrude 1 committed
+07:46:58 part renamed Detent blade
+07:47:53 default planes hidden so zoom to fit frames the part
+07:49:57 the limb's own diameter: 69.86395 mm -> 12
+07:50:00 Sketch 2 committed
+07:54:11 Extrude 2 committed, the blade's limb stub added
+07:56:19 Extrude 3 committed
+07:56:23 part renamed Clevis fork
+08:07:30 the round end, the limb's own diameter: 12.05152 mm -> 12
+08:07:35 square width, the limb's diameter: 15.9879 mm -> 12
+08:07:39 square height: 16.04103 mm -> 12
+08:08:23 Sketch 3 committed
+08:11:50 Extrude 4 committed, the fork's round end trimmed
+08:14:11 wider than the limb, so the slot runs right across: 20.25385 mm -> 20
+08:14:15 slot width, the blade plus 0.3 either side: 5.65296 mm -> 5.6
+08:14:41 Sketch 4 committed
+08:15:42 Extrude 5 committed, the fork slotted
+08:18:05 the stub, on the hinge axis: 4.9117 mm -> 2
+08:18:34 Sketch 5 committed
+08:19:43 Extrude 6 committed, one stub on one ear
+08:23:25 Mirror 1 committed, both ears carry a stub
+08:24:30 the pocket, 0.1 wider all round than the stub: 4.94862 mm -> 2.2
+08:25:27 the pocket, 0.1 wider all round than the stub: 4.98553 mm -> 2.2
+08:26:25 Sketch 6 committed
+08:27:44 Extrude 7 committed, one pocket in one blade face
+08:27:58 Mirror 2 committed, both blade faces pocketed
+08:30:19 Extrude 7 re-committed with the direction flipped
+08:32:31 Mirror 2 committed
+08:33:57 longer than the blade is wide, so the slit runs right through: 19.92122 mm -> 20
+08:34:02 slit width, the same relief cut the socket collar uses: 4.68647 mm -> 0.8
+08:34:52 Sketch 7 committed
+08:35:39 Extrude 8 committed, the blade slit
+08:36:25 Extrude 8 re-committed
+08:46:51 the tooth is a small dome, not run 2's 0.9: 2.30921 mm -> 0.8
+08:49:55 the middle of the band, r 4.40 to 5.20: 6.22114 mm -> 4.8
+08:50:41 Sketch 8 committed, the first tooth
+08:52:48 Extrude 9 committed, the first tooth
+08:58:46 Fillet 1 committed, the tooth is a dome
+09:19:39 0.1 of radial room round a 0.8 dome: 1.0898 mm -> 1.0
+09:20:48 the same band centre the teeth sit on: 8.86418 mm -> 4.8
+09:21:43 Sketch 9 committed, the valley
+09:26:33 Extrude 10 committed, the first valley
+09:28:18 Extrude 10 recommitted, flipped
+09:30:37 Fillet 2 committed, the valley rim break
+09:33:33 Circular pattern 2 committed, 24 valleys
+09:35:27 Mirror 4 committed, valleys on both faces
+09:37:39 Mirror 4 recommitted with the Front plane
+09:41:05 Clevis fork shown again

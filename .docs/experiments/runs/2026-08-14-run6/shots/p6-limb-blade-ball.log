@@ -1,0 +1,37 @@
+07:01:48 about to click the reference geometry group on the toolbar at (1080, 58)
+07:01:49 clicked the reference geometry group on the toolbar -> 02-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:01:50 about to click the face for Ball at (915, 815)
+07:01:52 clicked the face for Ball -> 05-b-done-the-face-for-ball.png
+07:01:53 Ball: Origin entity Face of Ball stud × | Select owner entity limb-blade-ball × | Attach to Face of Ball stud ×
+07:01:53 about to click the green tick at (424, 93)
+07:01:54 clicked the green tick -> 07-b-done-the-green-tick.png
+07:01:57 about to click the Mate connector 1 row, to rename it at (140, 630)
+07:01:58 clicked the Mate connector 1 row, to rename it -> 08-b-done-the-mate-connector-1-row-to-rename-it.png
+07:01:58 about to click Rename in the context menu at (251, 654)
+07:01:59 clicked Rename in the context menu -> 09-b-done-rename-in-the-context-menu.png
+07:02:01 renamed 'Mate connector 1' to 'Ball'
+07:02:01 after the limb-blade-ball after the Ball connector, no errored rows in the tree
+07:04:23 about to click the reference geometry group on the toolbar at (1080, 58)
+07:04:24 clicked the reference geometry group on the toolbar -> 13-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:04:25 about to click the face for Hinge at (919, 319)
+07:04:27 clicked the face for Hinge -> 16-b-done-the-face-for-hinge.png
+07:04:28 about to click Realign, which asks for the axis the connector points along at (256, 204)
+07:04:30 clicked Realign, which asks for the axis the connector points along -> 17-b-done-realign-which-asks-for-the-axis-the-connector-po.png
+07:04:31 about to click the primary axis field at (356, 235)
+07:04:32 clicked the primary axis field -> 18-b-done-the-primary-axis-field.png
+07:04:35 primary axis: Primary axis entity Edge of Pocket ×
+07:04:35 Hinge: Origin entity Vertex of Origin × | Primary axis entity Edge of Pocket × | Secondary axis entity | Select owner entity limb-blade-ball ×
+07:04:35 about to click the green tick at (424, 93)
+07:04:36 clicked the green tick -> 20-b-done-the-green-tick.png
+07:04:39 about to click the Mate connector 1 row, to rename it at (140, 630)
+07:04:40 clicked the Mate connector 1 row, to rename it -> 21-b-done-the-mate-connector-1-row-to-rename-it.png
+07:04:40 about to click Rename in the context menu at (260, 654)
+07:04:41 clicked Rename in the context menu -> 22-b-done-rename-in-the-context-menu.png
+07:04:43 renamed 'Mate connector 1' to 'Hinge'
+07:04:43 after the limb-blade-ball after the Hinge connector, no errored rows in the tree
+07:32:41 on limb-blade-ball-run6
+07:32:44 about to click the limb-blade-ball row, to rename it at (140, 696)
+07:32:45 clicked the limb-blade-ball row, to rename it -> 25-b-done-the-limb-blade-ball-row-to-rename-it.png
+07:32:45 about to click Rename in the context menu at (281, 364)
+07:32:45 clicked Rename in the context menu -> 26-b-done-rename-in-the-context-menu.png
+07:32:47 renamed 'limb-blade-ball' to 'Lower limb'

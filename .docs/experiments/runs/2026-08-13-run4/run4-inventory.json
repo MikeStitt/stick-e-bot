@@ -1,0 +1,875 @@
+{
+ "ball-socket": {
+  "features": [
+   [
+    "Ball stud profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Ball stud",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Limb stub profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Limb stub",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Collar profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Socket collar",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Socket cavity",
+    "booleanBodies",
+    "OK"
+   ],
+   [
+    "Slit profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Relief slit",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Relief slits x4",
+    "circularPattern",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Ball stud",
+    "JHD"
+   ],
+   [
+    "Socket body",
+    "JKD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.006,
+   "lowY": -0.006,
+   "lowZ": -0.01415,
+   "highX": 0.006,
+   "highY": 0.006,
+   "highZ": 0.018000000000000002
+  },
+  "volume": 2.305346117430037e-06
+ },
+ "foot": {
+  "features": [
+   [
+    "Foot outline",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Foot plate",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Top edge fillet",
+    "fillet",
+    "OK"
+   ],
+   [
+    "Ankle ball profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Ankle ball",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Socket collar profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Socket collar",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ankle socket",
+    "booleanBodies",
+    "OK"
+   ],
+   [
+    "Sole rib profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Sole rib",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Sole ribs",
+    "linearPattern",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Foot",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.016,
+   "lowY": -0.011999999999999999,
+   "lowZ": -0.012,
+   "highX": 0.032,
+   "highY": 0.012000000000000002,
+   "highZ": 0.0013500000000000005
+  },
+  "volume": 4.94550309915551e-06
+ },
+ "hand": {
+  "features": [
+   [
+    "Clip profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Clip",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Collar profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Socket collar",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Wrist ball profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Wrist ball",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Wrist socket",
+    "booleanBodies",
+    "OK"
+   ],
+   [
+    "Slit profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Relief slit",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Relief slits x4",
+    "circularPattern",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Hand",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.004682947789587238,
+   "lowY": -0.004999999999999989,
+   "lowZ": -0.012,
+   "highX": 0.004682947789587238,
+   "highY": 0.004828043081829324,
+   "highZ": 0.00135
+  },
+  "volume": 5.304489103248033e-07
+ },
+ "head": {
+  "features": [
+   [
+    "Head profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Head body",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Outline rounds",
+    "fillet",
+    "OK"
+   ],
+   [
+    "Face plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Eye profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Eye",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Second eye",
+    "mirror",
+    "OK"
+   ],
+   [
+    "Mouth profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Mouth",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Boss circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Neck recess",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ball profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Neck ball tool",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Neck socket",
+    "booleanBodies",
+    "OK"
+   ],
+   [
+    "Head shell",
+    "shell",
+    "OK"
+   ],
+   [
+    "Boss rim chamfer",
+    "chamfer",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Head",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.018000000000000006,
+   "lowY": -0.0165,
+   "lowZ": -0.018000000000000002,
+   "highX": 0.018000000000000006,
+   "highY": 0.015,
+   "highZ": 0.018000000000000002
+  },
+  "volume": 5.804703140867256e-06
+ },
+ "hinge": {
+  "features": [
+   [
+    "Fork profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Clevis fork blank",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Limb section",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Trim fork to limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Clevis rod base",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Clevis rod circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Clevis limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Clevis slot",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Blade profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Blade blank",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Blade rod base",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Blade rod circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Blade limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ear inner plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Blade face plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Stub circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Stub",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Pocket circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Pocket",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Mirror stub and pocket",
+    "mirror",
+    "OK"
+   ],
+   [
+    "Detent bump circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Detent bump",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Dome the bump crown",
+    "fillet",
+    "OK"
+   ],
+   [
+    "24 detent bumps",
+    "circularPattern",
+    "OK"
+   ],
+   [
+    "Detent valley circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Detent valley",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Break the valley rim",
+    "fillet",
+    "OK"
+   ],
+   [
+    "24 detent valleys",
+    "circularPattern",
+    "OK"
+   ],
+   [
+    "Mirror the teeth",
+    "mirror",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Clevis",
+    "JHD"
+   ],
+   [
+    "Blade",
+    "JVD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.006,
+   "lowY": -0.006,
+   "lowZ": -0.020110000000000003,
+   "highX": 0.006,
+   "highY": 0.006,
+   "highZ": 0.020110000000000003
+  },
+  "volume": 3.816169573300005e-06
+ },
+ "lesson": {
+  "features": [
+   [
+    "Sketch 1",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Torso",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Neck",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Head",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Sketch 2",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Extrude 1",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Extrude 2",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Sketch 3",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Extrude 3",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Sketch 4",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Extrude 4",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Sketch 5",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Extrude 5",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Linear pattern 1",
+    "linearPattern",
+    "OK"
+   ],
+   [
+    "Sketch 6",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Extrude 6",
+    "extrude",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Robot",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.01800000000000001,
+   "lowY": -0.02,
+   "lowZ": -0.024000000000000004,
+   "highX": 0.018000000000000006,
+   "highY": 0.015,
+   "highZ": 0.066
+  },
+  "volume": 8.078656965629603e-05
+ },
+ "limb-blade-ball": {
+  "features": [
+   [
+    "Blade profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Blade blank",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Limb section",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Trim blade to limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ball stud profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Ball stud",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Blade face plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Pocket circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Pocket",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Detent valley circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Detent valley",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Break the valley rim",
+    "fillet",
+    "OK"
+   ],
+   [
+    "24 detent valleys",
+    "circularPattern",
+    "OK"
+   ],
+   [
+    "Mirror the blade features",
+    "mirror",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Forearm and shin",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.005999999999999999,
+   "lowY": -0.005999999999999999,
+   "lowZ": -0.027,
+   "highX": 0.005999999999999999,
+   "highY": 0.005999999999999999,
+   "highZ": 0.005810000000000002
+  },
+  "volume": 2.0396355663921127e-06
+ },
+ "limb-socket-clevis": {
+  "features": [
+   [
+    "Limb top plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Limb section",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Limb body",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Collar circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Socket collar",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ball tool profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Ball tool",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Socket cavity",
+    "booleanBodies",
+    "OK"
+   ],
+   [
+    "Slit profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Relief slit",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Relief slits x4",
+    "circularPattern",
+    "OK"
+   ],
+   [
+    "Clevis fork profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Clevis fork blank",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Trim fork to limb",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Clevis slot",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Ear inner plane",
+    "cPlane",
+    "OK"
+   ],
+   [
+    "Stub circle",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Stub",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Mirror stub",
+    "mirror",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Upper arm / thigh",
+    "JID"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.006000000000000001,
+   "lowY": -0.006000000000000001,
+   "lowZ": -0.02981,
+   "highX": 0.006000000000000001,
+   "highY": 0.006000000000000001,
+   "highZ": 0.0013499999999999996
+  },
+  "volume": 2.084128777709807e-06
+ },
+ "torso": {
+  "features": [
+   [
+    "Torso footprint",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Torso block",
+    "extrude",
+    "OK"
+   ],
+   [
+    "Shoulder stud profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Shoulder stud right",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Shoulder stud left",
+    "mirror",
+    "OK"
+   ],
+   [
+    "Hip stud profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Hip stud right",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Hip stud left",
+    "mirror",
+    "OK"
+   ],
+   [
+    "Neck stud profile",
+    "newSketch",
+    "OK"
+   ],
+   [
+    "Neck stud",
+    "revolve",
+    "OK"
+   ],
+   [
+    "Fuse studs to torso",
+    "booleanBodies",
+    "OK"
+   ]
+  ],
+  "parts": [
+   [
+    "Torso",
+    "JHD"
+   ]
+  ],
+  "bad": [],
+  "bbox": {
+   "lowX": -0.026000000000000002,
+   "lowY": -0.012,
+   "lowZ": -0.032,
+   "highX": 0.026000000000000002,
+   "highY": 0.012000000000000002,
+   "highZ": 0.032
+  },
+  "volume": 4.211510511121621e-05
+ }
+}

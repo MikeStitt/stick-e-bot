@@ -1,0 +1,146 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "32166c7b3d22572c0e7dd0c3",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#gripperL = 24 mm",
+  "#clipR = 5 mm",
+  "#barD = 3.2 mm",
+  "#bore = 3.3 mm",
+  "#mouth = 2.6 mm",
+  "#ball = 12 mm",
+  "#wall = 3 mm",
+  "#collarR = 9 mm",
+  "copy socket",
+  "clip profile",
+  "clip body",
+  "plane to cut top of clip",
+  "remove top of clip",
+  "combine parts",
+  "mate to robot"
+ ],
+ "features": {
+  "#gripperL = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "clip profile"
+   ]
+  },
+  "#clipR = 5 mm": {
+   "upstream": [],
+   "downstream": [
+    "clip profile"
+   ]
+  },
+  "#barD = 3.2 mm": {
+   "upstream": [],
+   "downstream": [
+    "#bore = 3.3 mm"
+   ]
+  },
+  "#bore = 3.3 mm": {
+   "upstream": [
+    "#barD = 3.2 mm"
+   ],
+   "downstream": [
+    "clip profile"
+   ]
+  },
+  "#mouth = 2.6 mm": {
+   "upstream": [],
+   "downstream": [
+    "clip profile"
+   ]
+  },
+  "#ball = 12 mm": {
+   "upstream": [],
+   "downstream": [
+    "#collarR = 9 mm"
+   ]
+  },
+  "#wall = 3 mm": {
+   "upstream": [],
+   "downstream": [
+    "#collarR = 9 mm"
+   ]
+  },
+  "#collarR = 9 mm": {
+   "upstream": [
+    "#ball = 12 mm",
+    "#wall = 3 mm"
+   ],
+   "downstream": [
+    "clip profile",
+    "clip body"
+   ]
+  },
+  "copy socket": {
+   "upstream": [],
+   "downstream": [
+    "plane to cut top of clip",
+    "combine parts",
+    "mate to robot"
+   ]
+  },
+  "clip profile": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "Right",
+    "#gripperL = 24 mm",
+    "#clipR = 5 mm",
+    "#bore = 3.3 mm",
+    "#mouth = 2.6 mm",
+    "#collarR = 9 mm"
+   ],
+   "downstream": [
+    "clip body"
+   ]
+  },
+  "clip body": {
+   "upstream": [
+    "#collarR = 9 mm",
+    "clip profile"
+   ],
+   "downstream": [
+    "remove top of clip",
+    "combine parts"
+   ]
+  },
+  "plane to cut top of clip": {
+   "upstream": [
+    "copy socket"
+   ],
+   "downstream": [
+    "remove top of clip"
+   ]
+  },
+  "remove top of clip": {
+   "upstream": [
+    "clip body",
+    "plane to cut top of clip"
+   ],
+   "downstream": []
+  },
+  "combine parts": {
+   "upstream": [
+    "copy socket",
+    "clip body"
+   ],
+   "downstream": []
+  },
+  "mate to robot": {
+   "upstream": [
+    "Origin",
+    "copy socket"
+   ],
+   "downstream": []
+  }
+ }
+}

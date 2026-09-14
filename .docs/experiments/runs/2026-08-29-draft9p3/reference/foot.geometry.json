@@ -1,0 +1,200 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "c01ac56602d81451da6a5db5",
+ "sketches": {
+  "foot outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      16.0
+     ],
+     "endPoint": [
+      -15.8359,
+      18.2857
+     ],
+     "id": "ikVHsZuz6nYn",
+     "radius": 16.0,
+     "startPoint": [
+      15.8359,
+      18.2857
+     ],
+     "type": "arc"
+    },
+    {
+     "center": [
+      0.0,
+      -40.0
+     ],
+     "endPoint": [
+      23.7538,
+      -36.5714
+     ],
+     "id": "cMZaggF0b8nj",
+     "radius": 24.0,
+     "startPoint": [
+      -23.7538,
+      -36.5714
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -23.7538,
+      -36.5714
+     ],
+     "id": "W8CZvnZ8r8Pr",
+     "startPoint": [
+      -15.8359,
+      18.2857
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      23.7538,
+      -36.5714
+     ],
+     "id": "tXmNVdoy479R",
+     "startPoint": [
+      15.8359,
+      18.2857
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "groove profile": {
+   "entities": [
+    {
+     "endPoint": [
+      -48.0,
+      -55.0
+     ],
+     "id": "hRyr0uNvJMdN.bottom",
+     "startPoint": [
+      48.0,
+      -55.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -48.0,
+      -61.0
+     ],
+     "id": "hRyr0uNvJMdN.top",
+     "startPoint": [
+      48.0,
+      -61.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      48.0,
+      -61.0
+     ],
+     "id": "hRyr0uNvJMdN.left",
+     "startPoint": [
+      48.0,
+      -55.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -48.0,
+      -61.0
+     ],
+     "id": "hRyr0uNvJMdN.right",
+     "startPoint": [
+      -48.0,
+      -55.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "pedestal outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "3yIzdx5LLCyh",
+     "radius": 9.0,
+     "type": "circle"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  }
+ },
+ "wid": "a1af16872d25103815f1c32a"
+}

@@ -1,0 +1,318 @@
+{
+ "did": "50b2d87357670c07c2fbcb89",
+ "eid": "931b7af8544d60df904361c3",
+ "sketches": {
+  "hip connector location": {
+   "entities": [],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     -48.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     -1,
+     0
+    ]
+   }
+  },
+  "neck connector location": {
+   "entities": [],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     48.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "pivot lines": {
+   "entities": [
+    {
+     "endPoint": [
+      36.0,
+      40.0
+     ],
+     "id": "wvrn9mVZ5XiW",
+     "isConstruction": true,
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "torso outline": {
+   "entities": [
+    {
+     "endPoint": [
+      -36.0,
+      48.0
+     ],
+     "id": "RebVUxv2YMAh.bottom",
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      -48.0
+     ],
+     "id": "RebVUxv2YMAh.top",
+     "startPoint": [
+      36.0,
+      -48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      36.0,
+      -48.0
+     ],
+     "id": "RebVUxv2YMAh.left",
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      -48.0
+     ],
+     "id": "RebVUxv2YMAh.right",
+     "startPoint": [
+      -36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "torso shoulder profile": {
+   "entities": [
+    {
+     "endPoint": [
+      -40.806,
+      27.2218
+     ],
+     "id": "dtGRlyLYrUyL.first",
+     "startPoint": [
+      -21.5479,
+      52.7782
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -47.195,
+      32.0364
+     ],
+     "id": "dtGRlyLYrUyL.second",
+     "startPoint": [
+      -40.806,
+      27.2218
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -27.937,
+      57.5927
+     ],
+     "id": "dtGRlyLYrUyL.third",
+     "startPoint": [
+      -47.195,
+      32.0364
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -21.5479,
+      52.7782
+     ],
+     "id": "dtGRlyLYrUyL.fourth",
+     "startPoint": [
+      -27.937,
+      57.5927
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0.5,
+     0.866025,
+     0
+    ],
+    "origin": [
+     9.0,
+     15.5885,
+     0.0
+    ],
+    "x": [
+     -0.866025,
+     0.5,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "trim shoulder pattern": {
+   "entities": [
+    {
+     "endPoint": [
+      -68.0,
+      64.0
+     ],
+     "id": "Pv4sVx6qm5OR.bottom",
+     "startPoint": [
+      68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -68.0,
+      48.0
+     ],
+     "id": "Pv4sVx6qm5OR.top",
+     "startPoint": [
+      68.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      68.0,
+      48.0
+     ],
+     "id": "Pv4sVx6qm5OR.left",
+     "startPoint": [
+      68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -68.0,
+      48.0
+     ],
+     "id": "Pv4sVx6qm5OR.right",
+     "startPoint": [
+      -68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "wid": "a49825ea9aa838bdfae7b78d"
+}

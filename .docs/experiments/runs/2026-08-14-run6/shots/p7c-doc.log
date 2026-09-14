@@ -1,0 +1,28 @@
+21:45:42 about to press Escape to close anything the page opened with
+21:45:43 pressed Escape to close anything the page opened with -> 01-b-done-close-anything-the-page-opened-with.png
+21:45:43 about to click the Coach Mike Experiments folder at (351, 534)
+21:45:44 clicked the Coach Mike Experiments folder -> 03-b-done-the-coach-mike-experiments-folder.png
+21:45:49 about to click the Create button, inside the folder at (110, 66)
+21:45:50 clicked the Create button, inside the folder -> 04-b-done-the-create-button-inside-the-folder.png
+21:45:51 about to click Document... in the Create menu at (120, 104)
+21:45:52 clicked Document... in the Create menu -> 05-b-done-document-in-the-create-menu.png
+21:45:54 about to set the Document name field to 'lesson-run6p2'
+21:45:55 set the Document name field to 'lesson-run6p2' -> 06-b-done-the-document-name-field.png
+21:45:55 about to click the Create button in the New document dialog at (978, 542)
+21:45:56 clicked the Create button in the New document dialog -> 07-b-done-the-create-button-in-the-new-document-dialog.png
+21:46:08 url https://cad.onshape.com/documents/44e680c797993a1e48b675b6/w/d92b6b655c66edc3105901ca/e/77fb1a843f57ea6459284f48
+21:46:08 about to click the hamburger menu beside the document name at (155, 20)
+21:46:09 clicked the hamburger menu beside the document name -> 08-b-done-the-hamburger-menu-beside-the-document-name.png
+21:46:10 about to click Workspace units in the document menu at (252, 236)
+21:46:11 clicked Workspace units in the document menu -> 09-b-done-workspace-units-in-the-document-menu.png
+21:46:14 units dialog ['2: 2: inch', '3: 3: 3', '1: 1: inchPerSecondSquared', '3: 3: 3', '0: 0: degree', '3: 3: 3', '0: 0: degreePerSecond', '3: 3: 3', '3: 3: pound', '3: 3: 3', '5: 5: poundPerCubicInch', '3: 3: 3', '2: 2: poundForce', '3: 3: 3', '0: 0: hertz', '3: 3: 3', '1: 1: inchPound', '3: 3: 3', '5: 5: poundPerSquareInch', '3: 3: 3', '0: 0: footPoundForce', '3: 3: 3']
+21:46:14 about to click the green tick on Workspace units at (542, 93)
+21:46:15 clicked the green tick on Workspace units -> 11-b-done-the-green-tick-on-workspace-units.png
+21:46:18 elements [('Part Studio 1', 'PARTSTUDIO'), ('Assembly 1', 'ASSEMBLY'), ('BOM : Assembly 1', 'BILLOFMATERIALS')]
+21:47:23 about to click the hamburger menu beside the document name at (155, 20)
+21:47:24 clicked the hamburger menu beside the document name -> 12-b-done-the-hamburger-menu-beside-the-document-name.png
+21:47:25 about to click Workspace units in the document menu at (252, 236)
+21:47:26 clicked Workspace units in the document menu -> 13-b-done-workspace-units-in-the-document-menu.png
+21:47:30 length unit '4: millimeter' decimals '5: 5'
+21:47:30 about to click the green tick on Workspace units at (542, 93)
+21:47:31 clicked the green tick on Workspace units -> 15-b-done-the-green-tick-on-workspace-units.png

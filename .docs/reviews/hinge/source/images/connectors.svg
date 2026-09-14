@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-46 -45.85 156 104.7" width="998" height="670" font-family="ui-monospace, Menlo, monospace"><style>
+  .part  { fill:#dfe7ec; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .ghost { fill:#eef2f5; stroke:#8ea0ad; stroke-width:0.7; stroke-linejoin:round; }
+  .void  { fill:#ffffff; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .mate  { fill:#f6f9fa; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .hid   { fill:none; stroke:#5b6b78; stroke-width:0.4; stroke-dasharray:2 1.4; }
+  .dim   { stroke:#b8156e; stroke-width:0.35; fill:none; }
+  .dimt  { fill:#b8156e; font-size:4.2px; font-weight:700; }
+  .name  { fill:#12303c; font-size:5px; font-weight:700; letter-spacing:0.06em; }
+  .call  { fill:#43525e; font-size:3.4px; }
+  .lead  { stroke:#8ea0ad; stroke-width:0.3; fill:none; }
+  .lbl   { fill:#43525e; font-size:4.6px; font-weight:700; letter-spacing:0.12em; }
+  .note  { fill:#6b7a88; font-size:3.6px; }
+  .warn  { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .ctr   { stroke:#7f8f9c; stroke-width:0.3; stroke-dasharray:6 2 1 2; }
+  .stn   { stroke:#0b6e86; stroke-width:0.25; stroke-dasharray:3 2; }
+  .gnd   { stroke:#0b6e86; stroke-width:0.8; }
+  .tooth { stroke:#1d262e; stroke-width:0.5; fill:none; }
+  .det * { vector-effect: non-scaling-stroke; }
+  .fig * { vector-effect: non-scaling-stroke; }
+  .fig .call { font-size:6.83655px; }
+  .fig .note { font-size:7.2387px; }
+  .fig .name { font-size:10.0537px; }
+  .fig .dimt { font-size:8.44515px; }
+  .fig .lbl { font-size:9.24945px; }
+  .fig .warn { font-size:7.2387px; }
+
+  .rod   { fill:#f3e6d8; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .bad   { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .good  { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+  .head  { fill:#12303c; font-size:5.4px; font-weight:700; letter-spacing:0.04em; }
+  .sub   { fill:#43525e; font-size:3.8px; }
+  .arrow { stroke:#b8156e; stroke-width:0.7; fill:none; }
+  .conn  { stroke:#0b6e86; stroke-width:0.8; fill:none; }
+  .connd { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+</style><path class="part" d="M -5.15,-21 L -12,-21 L -12,0 A 12,12 0 0 0 -5.15,10.8387 Z"/><path class="part" d="M 5.15,-21 L 12,-21 L 12,0 A 12,12 0 0 1 5.15,10.8387 Z"/><rect class="part" x="-12" y="-27.85" width="24" height="6.85"/><rect class="void" x="-12" y="-2.2" width="6.85" height="4.4"/><rect class="void" x="5.15" y="-2.2" width="6.85" height="4.4"/><path class="mate" d="M -5,20 L -5.0000,-10.9087 A 12,12 0 0 1 5.0000,-10.9087 L 5,20 Z"/><rect class="void" x="-2" y="-12" width="4" height="32"/><rect class="mate" x="-12" y="20" width="24" height="6.85"/><rect class="mate" x="-6.3" y="-2" width="1.3" height="4"/><rect class="mate" x="5" y="-2" width="1.3" height="4"/><path class="ctr" d="M 0,-31.85 V 30.85"/><path class="ctr" d="M -24,0 H 24"/><path class="conn" d="M -6,-12 H 6"/><circle class="conn" cx="0" cy="-12" r="1.4" fill="#0b6e86"/><path class="conn" d="M 0,-12 V -20"/><path class="conn" fill="#0b6e86" d="M 0,-20 L -1.5,-17.2 L 1.5,-17.2 Z"/><path class="conn" d="M -6,26.85 H 6"/><circle class="conn" cx="0" cy="26.85" r="1.4" fill="#0b6e86"/><path class="conn" d="M 0,26.85 V 34.85"/><path class="conn" fill="#0b6e86" d="M 0,34.85 L -1.5,32.05 L 1.5,32.05 Z"/><path class="lead" d="M 2,-12 L 16,-16"/><text class="connd" x="17" y="-15" text-anchor="start">fork to robot connector</text><text class="call" x="17" y="-10" text-anchor="start">12 mm from the pin, inside the solid</text><text class="call" x="17" y="-5" text-anchor="start">15.85 mm short of its own end face</text><path class="lead" d="M 2,26.85 L 16,22.85"/><text class="connd" x="17" y="23.85" text-anchor="start">blade to robot connector</text><text class="call" x="17" y="28.85" text-anchor="start">26.85 mm from the pin, on its end face</text><text class="call" x="17" y="33.85" text-anchor="start">and pointing out of the part</text><path class="dim" d="M -21,-27.85 V -12"/><path class="dim" d="M -22.6,-26.25 L -19.4,-29.45"/><path class="dim" d="M -22.6,-10.4 L -19.4,-13.6"/><path class="dim" d="M -12,-27.85 H -21"/><path class="dim" d="M -12,-12 H -21"/><text class="dimt" x="-24.4" y="-19.925" text-anchor="middle" transform="rotate(-90 -24.4 -19.925)">15.85 mm</text><text class="head" x="26" y="-38.85" text-anchor="middle">the two robot connectors</text><text class="sub" x="26" y="42.85" text-anchor="middle">one is buried and points inward, the other is flush</text><text class="sub" x="26" y="47.85" text-anchor="middle">and points out, so the fork needs Transform's flip</text><text class="sub" x="26" y="52.85" text-anchor="middle">in its limb where the blade does not</text></svg>

@@ -1,0 +1,831 @@
+20:02:49 about to select the Hip stud profile row, the first feature that re-creates a joint at (140, 339)
+20:02:50 selected the Hip stud profile row, the first feature that re-creates a joint -> 07-a-select-the-hip-stud-profile-row-the-first-feature-that-.png
+20:02:51 about to click the Hip L row, with Shift, to take the whole tail at (140, 617)
+20:02:52 clicked the Hip L row, with Shift, to take the whole tail -> 08-b-done-the-hip-l-row-with-shift-to-take-the-whole-tail.png
+20:02:53 about to click the picked rows, to open their menu at (140, 617)
+20:02:54 clicked the picked rows, to open their menu -> 10-b-done-the-picked-rows-to-open-their-menu.png
+20:02:56 about to click Delete in the context menu at (270, 843)
+20:02:57 clicked Delete in the context menu -> 11-b-done-delete-in-the-context-menu.png
+20:03:01 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Torso outline', 'Torso block', '', 'Parts (1)', 'Torso']
+20:03:26 about to press Alt+c to alt-c, which opens the tool search
+20:03:27 pressed Alt+c to alt-c, which opens the tool search -> 12-b-done-alt-c-which-opens-the-tool-search.png
+20:03:33 about to click the Derived result, which arms the tool at (1120, 159)
+20:03:35 clicked the Derived result, which arms the tool -> 13-b-done-the-derived-result-which-arms-the-tool.png
+20:03:38 Derived armed after about 3 s
+20:03:38 about to click Select Part Studio…, which opens the document picker at (368, 148)
+20:03:38 clicked Select Part Studio…, which opens the document picker -> 14-b-done-select-part-studio-which-opens-the-document-pick.png
+20:03:42 about to click the Other documents tab in the picker at (692, 124)
+20:03:43 clicked the Other documents tab in the picker -> 15-b-done-the-other-documents-tab-in-the-picker.png
+20:03:46 about to click the picker's search box at (620, 161)
+20:03:47 clicked the picker's search box -> 16-b-done-the-picker-s-search-box.png
+20:03:52 about to press Enter to Enter, which is what runs the picker's search
+20:03:53 pressed Enter to Enter, which is what runs the picker's search -> 17-b-done-enter-which-is-what-runs-the-picker-s-search.png
+20:03:58 about to click the ball-socket-run6p2 document at (607, 195)
+20:03:59 clicked the ball-socket-run6p2 document -> 18-b-done-the-ball-socket-run6p2-document.png
+20:04:04 the picker reads version ['ball-socket-run6p2-2026-08-15']; wanted 'ball-socket-run6p2-2026-08-15'
+20:04:04 about to click Ball stud, off ball-socket-run6p2-2026-08-15 at (672, 284)
+20:04:05 clicked Ball stud, off ball-socket-run6p2-2026-08-15 -> 19-b-done-ball-stud-off-ball-socket-run6p2-2026-08-15.png
+20:04:07 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+20:04:08 clicked the X on the picker, which leaves the Derived dialog standing -> 20-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+20:04:11 about to click the green tick, which keeps the Derived at (424, 93)
+20:04:12 clicked the green tick, which keeps the Derived -> 22-b-done-the-green-tick-which-keeps-the-derived.png
+20:04:17 about to click the Derived 1 row, to rename it at (140, 339)
+20:04:18 clicked the Derived 1 row, to rename it -> 23-b-done-the-derived-1-row-to-rename-it.png
+20:04:18 about to click Rename in the context menu at (261, 363)
+20:04:18 clicked Rename in the context menu -> 24-b-done-rename-in-the-context-menu.png
+20:04:20 renamed 'Derived 1' to 'Hip stud from the joint'
+20:04:20 derived Ball stud as 'Hip stud from the joint'
+20:04:53 about to click Ball stud in the parts list, the thing to move at (140, 722)
+20:04:54 clicked Ball stud in the parts list, the thing to move -> 26-b-done-ball-stud-in-the-parts-list-the-thing-to-move.png
+20:04:56 about to press Alt+c to alt-c, which opens the tool search
+20:04:56 pressed Alt+c to alt-c, which opens the tool search -> 27-b-done-alt-c-which-opens-the-tool-search.png
+20:05:03 about to click the Transform result, which arms the tool at (1120, 159)
+20:05:04 clicked the Transform result, which arms the tool -> 28-b-done-the-transform-result-which-arms-the-tool.png
+20:05:10 about to click the transformation-type dropdown at (430, 175)
+20:05:10 clicked the transformation-type dropdown -> 29-b-done-the-transformation-type-dropdown.png
+20:05:12 about to click Translate by XYZ in the list at (350, 258)
+20:05:13 clicked Translate by XYZ in the list -> 30-b-done-translate-by-xyz-in-the-list.png
+20:05:22 about to click the green tick, which keeps the move at (424, 93)
+20:05:23 clicked the green tick, which keeps the move -> 32-b-done-the-green-tick-which-keeps-the-move.png
+20:05:28 about to click the Transform 1 row, to rename it at (140, 365)
+20:05:29 clicked the Transform 1 row, to rename it -> 33-b-done-the-transform-1-row-to-rename-it.png
+20:05:29 about to click Rename in the context menu at (251, 389)
+20:05:30 clicked Rename in the context menu -> 34-b-done-rename-in-the-context-menu.png
+20:05:32 renamed 'Transform 1' to 'Move the hip stud to its station'
+20:05:50 about to press Alt+c to alt-c, which opens the tool search
+20:05:51 pressed Alt+c to alt-c, which opens the tool search -> 36-b-done-alt-c-which-opens-the-tool-search.png
+20:05:57 about to click the Mirror result, which arms the tool at (1120, 159)
+20:05:58 clicked the Mirror result, which arms the tool -> 37-b-done-the-mirror-result-which-arms-the-tool.png
+20:06:04 the dialog reads 'Mirror 1\nPart mirror\nNew\nAdd\nRemove\nIntersect\nEntities to mirror\nMirror plane'
+20:06:27 the dialog's boxes are [['', 247, 109]]
+20:06:55 the dialog's boxes are [['Entities to mirror', 356, 182], ['Mirror plane', 343, 213]]
+20:06:55 about to click the Entities to mirror box, to arm it at (356, 182)
+20:06:56 clicked the Entities to mirror box, to arm it -> 39-b-done-the-entities-to-mirror-box-to-arm-it.png
+20:06:59 about to click Ball stud, the hip's own at (140, 722)
+20:06:59 clicked Ball stud, the hip's own -> 40-b-done-ball-stud-the-hip-s-own.png
+20:07:02 about to click the Mirror plane box, to arm it at (343, 231)
+20:07:03 clicked the Mirror plane box, to arm it -> 41-b-done-the-mirror-plane-box-to-arm-it.png
+20:07:05 about to click the Right plane, which the robot is symmetric about at (140, 261)
+20:07:07 clicked the Right plane, which the robot is symmetric about -> 42-b-done-the-right-plane-which-the-robot-is-symmetric-abo.png
+20:07:09 the dialog reads 'Mirror 1\nPart mirror\nNew\nAdd\nRemove\nIntersect\nEntities to mirror\nBall stud\n×\nMirror plane\nRight plane\n×\nMerge with all\nMerge scope\nTorso\n×'
+20:07:09 about to click the green tick, which keeps the mirror at (424, 93)
+20:07:10 clicked the green tick, which keeps the mirror -> 44-b-done-the-green-tick-which-keeps-the-mirror.png
+20:07:15 about to click the Mirror 1 row, to rename it at (140, 391)
+20:07:16 clicked the Mirror 1 row, to rename it -> 45-b-done-the-mirror-1-row-to-rename-it.png
+20:07:16 about to click Rename in the context menu at (261, 415)
+20:07:17 clicked Rename in the context menu -> 46-b-done-rename-in-the-context-menu.png
+20:07:18 renamed 'Mirror 1' to 'Mirror the hip stud'
+20:08:27 about to click the Right plane, which the pivot lines sit on at (140, 261)
+20:08:28 clicked the Right plane, which the pivot lines sit on -> 48-b-done-the-right-plane-which-the-pivot-lines-sit-on.png
+20:08:29 about to click the Sketch tool at (130, 58)
+20:08:30 clicked the Sketch tool -> 49-b-done-the-sketch-tool.png
+20:08:33 about to press n to n, to look square on at the sketch plane
+20:08:34 pressed n to n, to look square on at the sketch plane -> 50-b-done-n-to-look-square-on-at-the-sketch-plane.png
+20:08:37 about to click the View menu at (1563, 232)
+20:08:38 clicked the View menu -> 51-b-done-the-view-menu.png
+20:08:39 about to click Zoom to fit at (1458, 393)
+20:08:40 clicked Zoom to fit -> 52-b-done-zoom-to-fit.png
+20:09:16 about to click the line tool at (200, 58)
+20:09:17 clicked the line tool -> 54-b-done-the-line-tool.png
+20:09:18 about to click the sketch origin, where both lines start at (922, 462)
+20:09:19 clicked the sketch origin, where both lines start -> 55-b-done-the-sketch-origin-where-both-lines-start.png
+20:09:20 about to click a point straight out along +y at (1074, 462)
+20:09:21 clicked a point straight out along +y -> 56-b-done-a-point-straight-out-along-y.png
+20:09:23 about to click the origin again, for the second line at (922, 462)
+20:09:24 clicked the origin again, for the second line -> 57-b-done-the-origin-again-for-the-second-line.png
+20:09:25 about to click a point straight up along +z at (922, 310)
+20:09:26 clicked a point straight up along +z -> 58-b-done-a-point-straight-up-along-z.png
+20:09:53 about to click the line tool again at (200, 58)
+20:09:54 clicked the line tool again -> 60-b-done-the-line-tool-again.png
+20:09:55 about to click the origin, where the second line starts at (922, 462)
+20:09:56 clicked the origin, where the second line starts -> 61-b-done-the-origin-where-the-second-line-starts.png
+20:09:57 about to click a point straight up along +z at (922, 310)
+20:09:58 clicked a point straight up along +z -> 62-b-done-a-point-straight-up-along-z.png
+20:10:26 about to click the +y line, to dimension it at (1000, 462)
+20:10:27 clicked the +y line, to dimension it -> 64-b-done-the-y-line-to-dimension-it.png
+20:10:28 about to click a clear spot below it to park the number at (1000, 560)
+20:10:29 clicked a clear spot below it to park the number -> 65-b-done-a-clear-spot-below-it-to-park-the-number.png
+20:10:32 the +y line's length: 9.96443 mm -> 10
+20:10:34 about to click the +z line, to dimension it at (922, 380)
+20:10:35 clicked the +z line, to dimension it -> 66-b-done-the-z-line-to-dimension-it.png
+20:10:36 about to click a clear spot beside it to park the number at (1180, 380)
+20:10:37 clicked a clear spot beside it to park the number -> 67-b-done-a-clear-spot-beside-it-to-park-the-number.png
+20:10:40 the +z line's length: 10.07813 mm -> 10
+20:10:41 about to click the green tick, which keeps the sketch at (424, 93)
+20:10:42 clicked the green tick, which keeps the sketch -> 69-b-done-the-green-tick-which-keeps-the-sketch.png
+20:10:45 about to click the Sketch 1 row, to rename it at (140, 417)
+20:10:46 clicked the Sketch 1 row, to rename it -> 70-b-done-the-sketch-1-row-to-rename-it.png
+20:10:46 about to click Rename in the context menu at (263, 441)
+20:10:47 clicked Rename in the context menu -> 71-b-done-rename-in-the-context-menu.png
+20:10:49 renamed 'Sketch 1' to 'Pivot lines'
+20:11:02 about to press Alt+c to alt-c, which opens the tool search
+20:11:03 pressed Alt+c to alt-c, which opens the tool search -> 73-b-done-alt-c-which-opens-the-tool-search.png
+20:11:09 about to click the Derived result, which arms the tool at (1120, 159)
+20:11:10 clicked the Derived result, which arms the tool -> 74-b-done-the-derived-result-which-arms-the-tool.png
+20:11:13 Derived armed after about 3 s
+20:11:13 about to click Select Part Studio…, which opens the document picker at (368, 148)
+20:11:14 clicked Select Part Studio…, which opens the document picker -> 75-b-done-select-part-studio-which-opens-the-document-pick.png
+20:11:18 about to click the Other documents tab in the picker at (692, 124)
+20:11:19 clicked the Other documents tab in the picker -> 76-b-done-the-other-documents-tab-in-the-picker.png
+20:11:22 about to click the picker's search box at (620, 161)
+20:11:23 clicked the picker's search box -> 77-b-done-the-picker-s-search-box.png
+20:11:28 about to press Enter to Enter, which is what runs the picker's search
+20:11:29 pressed Enter to Enter, which is what runs the picker's search -> 78-b-done-enter-which-is-what-runs-the-picker-s-search.png
+20:11:34 about to click the ball-socket-run6p2 document at (607, 195)
+20:11:34 clicked the ball-socket-run6p2 document -> 79-b-done-the-ball-socket-run6p2-document.png
+20:11:39 the picker reads version ['ball-socket-run6p2-2026-08-15']; wanted 'ball-socket-run6p2-2026-08-15'
+20:11:39 about to click Ball stud, off ball-socket-run6p2-2026-08-15 at (672, 284)
+20:11:40 clicked Ball stud, off ball-socket-run6p2-2026-08-15 -> 80-b-done-ball-stud-off-ball-socket-run6p2-2026-08-15.png
+20:11:43 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+20:11:44 clicked the X on the picker, which leaves the Derived dialog standing -> 81-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+20:11:46 about to click the green tick, which keeps the Derived at (424, 93)
+20:11:47 clicked the green tick, which keeps the Derived -> 83-b-done-the-green-tick-which-keeps-the-derived.png
+20:11:52 about to click the Derived 1 row, to rename it at (140, 443)
+20:11:53 clicked the Derived 1 row, to rename it -> 84-b-done-the-derived-1-row-to-rename-it.png
+20:11:53 about to click Rename in the context menu at (279, 467)
+20:11:54 clicked Rename in the context menu -> 85-b-done-rename-in-the-context-menu.png
+20:11:56 renamed 'Derived 1' to 'Neck stud from the joint'
+20:11:56 derived Ball stud as 'Neck stud from the joint'
+20:13:10 about to select the Neck stud from the joint row, the first feature that re-creates a joint at (140, 443)
+20:13:11 selected the Neck stud from the joint row, the first feature that re-creates a joint -> 88-a-select-the-neck-stud-from-the-joint-row-the-first-featu.png
+20:13:12 about to click the Neck stud from the joint row, with Shift, to take the whole tail at (140, 443)
+20:13:13 clicked the Neck stud from the joint row, with Shift, to take the whole tail -> 89-b-done-the-neck-stud-from-the-joint-row-with-shift-to-t.png
+20:13:15 about to click the picked rows, to open their menu at (140, 443)
+20:13:15 clicked the picked rows, to open their menu -> 91-b-done-the-picked-rows-to-open-their-menu.png
+20:13:17 about to click Delete in the context menu at (289, 694)
+20:13:18 clicked Delete in the context menu -> 92-b-done-delete-in-the-context-menu.png
+20:13:22 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Torso outline', 'Torso block', 'Hip stud from the joint', 'Move the hip stud to its station', 'Mirror the hip stud', 'Pivot lines', '', 'Parts (1)', 'Torso']
+20:13:23 about to select the Mirror the hip stud row, the first feature that re-creates a joint at (140, 391)
+20:13:24 selected the Mirror the hip stud row, the first feature that re-creates a joint -> 93-a-select-the-mirror-the-hip-stud-row-the-first-feature-th.png
+20:13:25 about to click the Mirror the hip stud row, with Shift, to take the whole tail at (140, 391)
+20:13:26 clicked the Mirror the hip stud row, with Shift, to take the whole tail -> 94-b-done-the-mirror-the-hip-stud-row-with-shift-to-take-t.png
+20:13:27 about to click the picked rows, to open their menu at (140, 391)
+20:13:28 clicked the picked rows, to open their menu -> 96-b-done-the-picked-rows-to-open-their-menu.png
+20:13:29 about to click Delete in the context menu at (261, 644)
+20:13:30 clicked Delete in the context menu -> 97-b-done-delete-in-the-context-menu.png
+20:13:34 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Torso outline', 'Torso block', 'Hip stud from the joint', 'Move the hip stud to its station', 'Pivot lines', '', 'Parts (2)', 'Torso', 'Ball stud']
+20:13:35 about to select the Move the hip stud to its station row, the first feature that re-creates a joint at (140, 365)
+20:13:36 selected the Move the hip stud to its station row, the first feature that re-creates a joint -> 98-a-select-the-move-the-hip-stud-to-its-station-row-the-fir.png
+20:13:37 about to click the Move the hip stud to its station row, with Shift, to take the whole tail at (140, 365)
+20:13:38 clicked the Move the hip stud to its station row, with Shift, to take the whole tail -> 99-b-done-the-move-the-hip-stud-to-its-station-row-with-sh.png
+20:13:39 about to click the picked rows, to open their menu at (140, 365)
+20:13:40 clicked the picked rows, to open their menu -> 101-b-done-the-picked-rows-to-open-their-menu.png
+20:13:42 about to click Delete in the context menu at (251, 595)
+20:13:43 clicked Delete in the context menu -> 102-b-done-delete-in-the-context-menu.png
+20:13:47 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Torso outline', 'Torso block', 'Hip stud from the joint', 'Pivot lines', '', 'Parts (2)', 'Torso', 'Ball stud']
+20:13:47 about to click the Hip stud from the joint row, to rename it at (140, 339)
+20:13:48 clicked the Hip stud from the joint row, to rename it -> 103-b-done-the-hip-stud-from-the-joint-row-to-rename-it.png
+20:13:48 about to click Rename in the context menu at (261, 363)
+20:13:48 clicked Rename in the context menu -> 104-b-done-rename-in-the-context-menu.png
+20:13:50 renamed 'Hip stud from the joint' to 'Ball stud from the joint'
+20:14:14 about to click a Ball stud in the parts list, the thing to copy at (140, 722)
+20:14:15 clicked a Ball stud in the parts list, the thing to copy -> 106-b-done-a-ball-stud-in-the-parts-list-the-thing-to-copy.png
+20:14:16 about to press Alt+c to alt-c, which opens the tool search
+20:14:17 pressed Alt+c to alt-c, which opens the tool search -> 107-b-done-alt-c-which-opens-the-tool-search.png
+20:14:24 about to click the Transform result, which arms the tool at (1120, 159)
+20:14:24 clicked the Transform result, which arms the tool -> 108-b-done-the-transform-result-which-arms-the-tool.png
+20:14:30 about to click the transformation-type dropdown at (430, 175)
+20:14:31 clicked the transformation-type dropdown -> 109-b-done-the-transformation-type-dropdown.png
+20:14:33 the type list reads [['Translate by line\nTranslate by distance\nTranslate by XYZ\nTransform by mate connectors\nRotate\nCopy in place\nScale', 350, 284], ['Translate by line', 350, 206], ['Translate by distance', 350, 232], ['Translate by XYZ', 350, 258], ['Transform by mate connectors', 350, 284], ['Rotate', 350, 310], ['Copy in place', 350, 336], ['Scale', 350, 362]]
+20:14:33 about to click Copy in place in the list at (350, 336)
+20:14:34 clicked Copy in place in the list -> 110-b-done-copy-in-place-in-the-list.png
+20:14:36 the dialog reads 'Transform 1\nEntities to transform or copy\nBall stud\n×\nCopy in place'
+20:14:36 about to click the green tick, which keeps the copy at (424, 93)
+20:14:37 clicked the green tick, which keeps the copy -> 111-b-done-the-green-tick-which-keeps-the-copy.png
+20:14:42 about to click the Transform 1 row, to rename it at (140, 391)
+20:14:43 clicked the Transform 1 row, to rename it -> 112-b-done-the-transform-1-row-to-rename-it.png
+20:14:43 about to click Rename in the context menu at (261, 415)
+20:14:44 clicked Rename in the context menu -> 113-b-done-rename-in-the-context-menu.png
+20:14:46 renamed 'Transform 1' to 'Copy the stud for the neck'
+20:14:47 about to click a Ball stud in the parts list, the thing to copy at (140, 722)
+20:14:47 clicked a Ball stud in the parts list, the thing to copy -> 115-b-done-a-ball-stud-in-the-parts-list-the-thing-to-copy.png
+20:14:49 about to press Alt+c to alt-c, which opens the tool search
+20:14:50 pressed Alt+c to alt-c, which opens the tool search -> 116-b-done-alt-c-which-opens-the-tool-search.png
+20:14:56 about to click the Transform result, which arms the tool at (1120, 159)
+20:14:57 clicked the Transform result, which arms the tool -> 117-b-done-the-transform-result-which-arms-the-tool.png
+20:15:03 about to click the transformation-type dropdown at (430, 175)
+20:15:04 clicked the transformation-type dropdown -> 118-b-done-the-transformation-type-dropdown.png
+20:15:06 about to click Copy in place in the list at (350, 336)
+20:15:07 clicked Copy in place in the list -> 119-b-done-copy-in-place-in-the-list.png
+20:15:10 the dialog reads 'Transform 1\nEntities to transform or copy\nBall stud\n×\nCopy in place'
+20:15:10 about to click the green tick, which keeps the copy at (424, 93)
+20:15:10 clicked the green tick, which keeps the copy -> 120-b-done-the-green-tick-which-keeps-the-copy.png
+20:15:28 about to click the Transform 1 row, to rename it at (140, 417)
+20:15:29 clicked the Transform 1 row, to rename it -> 121-b-done-the-transform-1-row-to-rename-it.png
+20:15:29 about to click Rename in the context menu at (261, 441)
+20:15:30 clicked Rename in the context menu -> 122-b-done-rename-in-the-context-menu.png
+20:15:32 renamed 'Transform 1' to 'Copy the stud for the shoulder'
+20:16:00 about to click Ball stud in the parts list, the thing to move at (140, 722)
+20:16:01 clicked Ball stud in the parts list, the thing to move -> 124-b-done-ball-stud-in-the-parts-list-the-thing-to-move.png
+20:16:02 about to press Alt+c to alt-c, which opens the tool search
+20:16:03 pressed Alt+c to alt-c, which opens the tool search -> 125-b-done-alt-c-which-opens-the-tool-search.png
+20:16:09 about to click the Transform result, which arms the tool at (1120, 159)
+20:16:11 clicked the Transform result, which arms the tool -> 126-b-done-the-transform-result-which-arms-the-tool.png
+20:16:17 about to click the transformation-type dropdown at (430, 175)
+20:16:17 clicked the transformation-type dropdown -> 127-b-done-the-transformation-type-dropdown.png
+20:16:19 about to click Translate by XYZ in the list at (350, 258)
+20:16:20 clicked Translate by XYZ in the list -> 128-b-done-translate-by-xyz-in-the-list.png
+20:16:30 about to click the green tick, which keeps the move at (424, 93)
+20:16:30 clicked the green tick, which keeps the move -> 130-b-done-the-green-tick-which-keeps-the-move.png
+20:16:35 about to click the Transform 1 row, to rename it at (140, 443)
+20:16:36 clicked the Transform 1 row, to rename it -> 131-b-done-the-transform-1-row-to-rename-it.png
+20:16:36 about to click Rename in the context menu at (251, 467)
+20:16:37 clicked Rename in the context menu -> 132-b-done-rename-in-the-context-menu.png
+20:16:39 renamed 'Transform 1' to 'Move the hip stud to its station'
+20:16:46 the dialog's boxes are []
+20:17:07 about to click the View menu at (1563, 232)
+20:17:08 clicked the View menu -> 134-b-done-the-view-menu.png
+20:17:09 about to click Isometric at (1458, 258)
+20:17:10 clicked Isometric -> 135-b-done-isometric.png
+20:17:13 about to click the View menu at (1563, 232)
+20:17:13 clicked the View menu -> 136-b-done-the-view-menu.png
+20:17:15 about to click Zoom to fit at (1458, 393)
+20:17:16 clicked Zoom to fit -> 137-b-done-zoom-to-fit.png
+20:17:53 about to press Alt+c to alt-c, which opens the tool search
+20:17:54 pressed Alt+c to alt-c, which opens the tool search -> 139-b-done-alt-c-which-opens-the-tool-search.png
+20:18:00 about to click the Mirror result, which arms the tool at (1120, 159)
+20:18:01 clicked the Mirror result, which arms the tool -> 140-b-done-the-mirror-result-which-arms-the-tool.png
+20:18:07 about to click the Entities to mirror box, to arm it at (356, 182)
+20:18:08 clicked the Entities to mirror box, to arm it -> 141-b-done-the-entities-to-mirror-box-to-arm-it.png
+20:18:10 about to click the hip stud on the model at (1045, 850)
+20:18:11 clicked the hip stud on the model -> 142-b-done-the-hip-stud-on-the-model.png
+20:18:13 about to click the Mirror plane box, to arm it at (343, 231)
+20:18:14 clicked the Mirror plane box, to arm it -> 143-b-done-the-mirror-plane-box-to-arm-it.png
+20:18:16 about to click the Right plane, which the robot is symmetric about at (140, 261)
+20:18:18 clicked the Right plane, which the robot is symmetric about -> 144-b-done-the-right-plane-which-the-robot-is-symmetric-abo.png
+20:18:20 the dialog reads 'Mirror 1\nPart mirror\nNew\nAdd\nRemove\nIntersect\nEntities to mirror\nBall stud\n×\nMirror plane\nRight plane\n×\nMerge with all\nMerge scope\nTorso\n×'
+20:18:21 about to click the green tick, which keeps the mirror at (424, 93)
+20:18:21 clicked the green tick, which keeps the mirror -> 146-b-done-the-green-tick-which-keeps-the-mirror.png
+20:18:26 about to click the Mirror 1 row, to rename it at (140, 469)
+20:18:27 clicked the Mirror 1 row, to rename it -> 147-b-done-the-mirror-1-row-to-rename-it.png
+20:18:27 about to click Rename in the context menu at (261, 493)
+20:18:28 clicked Rename in the context menu -> 148-b-done-rename-in-the-context-menu.png
+20:18:30 renamed 'Mirror 1' to 'Mirror the hip stud'
+20:19:09 about to click the Torso part, to pick it at (140, 696)
+20:19:10 clicked the Torso part, to pick it -> 150-b-done-the-torso-part-to-pick-it.png
+20:19:43 about to click the eye beside Torso, to hide the block at (220, 696)
+20:19:44 clicked the eye beside Torso, to hide the block -> 152-b-done-the-eye-beside-torso-to-hide-the-block.png
+20:20:19 about to click a Ball stud at the origin, the neck's own at (140, 722)
+20:20:20 clicked a Ball stud at the origin, the neck's own -> 154-b-done-a-ball-stud-at-the-origin-the-neck-s-own.png
+20:20:21 about to press Alt+c to alt-c, which opens the tool search
+20:20:22 pressed Alt+c to alt-c, which opens the tool search -> 155-b-done-alt-c-which-opens-the-tool-search.png
+20:20:29 about to click the Transform result, which arms the tool at (1120, 159)
+20:20:30 clicked the Transform result, which arms the tool -> 156-b-done-the-transform-result-which-arms-the-tool.png
+20:20:36 about to click the transformation-type dropdown at (430, 175)
+20:20:37 clicked the transformation-type dropdown -> 157-b-done-the-transformation-type-dropdown.png
+20:20:38 about to click Rotate in the list at (350, 310)
+20:20:39 clicked Rotate in the list -> 158-b-done-rotate-in-the-list.png
+20:20:42 the Rotate dialog reads [['Transform 1', 328, 93], ['Entities to transform or', 340, 124], ['Ball stud', 349, 144], ['×', 447, 144], ['Rotate', 336, 175], ['Axis', 343, 208], ['Angle', 266, 241], ['Copy part', 296, 266], ['Final', 0, 0]]
+20:20:42 its number boxes are [['', 247, 163], ['30 deg', 363, 239], ['on', 246, 266]]
+20:21:01 about to click the Axis box, to arm it at (343, 208)
+20:21:02 clicked the Axis box, to arm it -> 160-b-done-the-axis-box-to-arm-it.png
+20:21:03 about to click the +y pivot line, which the stud turns about at (985, 448)
+20:21:04 clicked the +y pivot line, which the stud turns about -> 161-b-done-the-y-pivot-line-which-the-stud-turns-about.png
+20:21:07 after the axis the dialog reads 'Transform 1\nEntities to transform or copy\nBall stud\n×\nRotate\nAxis\nEdge of Pivot lines\n×\nAngle\nCopy part'
+20:21:44 after the axis the dialog reads 'Transform 1\nEntities to transform or copy\nBall stud\n×\nRotate\nAxis\nEdge of Pivot lines\n×\nAngle\nCopy part'
+20:21:47 about to click the green tick, which keeps the turn at (424, 93)
+20:21:48 clicked the green tick, which keeps the turn -> 163-b-done-the-green-tick-which-keeps-the-turn.png
+20:21:53 about to click the Transform 1 row, to rename it at (140, 495)
+20:21:54 clicked the Transform 1 row, to rename it -> 164-b-done-the-transform-1-row-to-rename-it.png
+20:21:54 about to click Rename in the context menu at (254, 519)
+20:21:55 clicked Rename in the context menu -> 165-b-done-rename-in-the-context-menu.png
+20:21:57 renamed 'Transform 1' to 'Turn the neck stud over'
+20:23:05 about to click the downward stalk, which is the turned stud at (922, 530)
+20:23:06 clicked the downward stalk, which is the turned stud -> 168-b-done-the-downward-stalk-which-is-the-turned-stud.png
+20:23:08 about to press Alt+c to alt-c, which opens the tool search
+20:23:08 pressed Alt+c to alt-c, which opens the tool search -> 169-b-done-alt-c-which-opens-the-tool-search.png
+20:23:15 about to click the Transform result, which arms the tool at (1120, 159)
+20:23:16 clicked the Transform result, which arms the tool -> 170-b-done-the-transform-result-which-arms-the-tool.png
+20:23:22 the dialog reads 'Transform 1\nEntities to transform or copy\nBall stud\n×\nTranslate by line\nLine or points\nCopy part'
+20:23:22 about to click the transformation-type dropdown at (430, 175)
+20:23:23 clicked the transformation-type dropdown -> 171-b-done-the-transformation-type-dropdown.png
+20:23:24 about to click Translate by XYZ in the list at (350, 258)
+20:23:25 clicked Translate by XYZ in the list -> 172-b-done-translate-by-xyz-in-the-list.png
+20:23:32 about to click the green tick, which keeps the move at (424, 93)
+20:23:32 clicked the green tick, which keeps the move -> 174-b-done-the-green-tick-which-keeps-the-move.png
+20:23:37 about to click the Transform 1 row, to rename it at (140, 521)
+20:23:38 clicked the Transform 1 row, to rename it -> 175-b-done-the-transform-1-row-to-rename-it.png
+20:23:38 about to click Rename in the context menu at (251, 545)
+20:23:39 clicked Rename in the context menu -> 176-b-done-rename-in-the-context-menu.png
+20:23:41 renamed 'Transform 1' to 'Move the neck stud to its station'
+20:24:38 about to click the stud still at the origin at (922, 483)
+20:24:39 clicked the stud still at the origin -> 178-b-done-the-stud-still-at-the-origin.png
+20:24:41 about to press Alt+c to alt-c, which opens the tool search
+20:24:41 pressed Alt+c to alt-c, which opens the tool search -> 179-b-done-alt-c-which-opens-the-tool-search.png
+20:24:48 about to click the Transform result, which arms the tool at (1120, 159)
+20:24:49 clicked the Transform result, which arms the tool -> 180-b-done-the-transform-result-which-arms-the-tool.png
+20:24:55 about to click the transformation-type dropdown at (430, 175)
+20:24:56 clicked the transformation-type dropdown -> 181-b-done-the-transformation-type-dropdown.png
+20:24:57 about to click Rotate in the list at (350, 310)
+20:24:58 clicked Rotate in the list -> 182-b-done-rotate-in-the-list.png
+20:25:01 about to click the Axis box, to arm it at (343, 208)
+20:25:02 clicked the Axis box, to arm it -> 183-b-done-the-axis-box-to-arm-it.png
+20:25:03 about to click the pivot line it turns about at (985, 448)
+20:25:04 clicked the pivot line it turns about -> 184-b-done-the-pivot-line-it-turns-about.png
+20:26:12 about to click the red x, to drop the half-filled Transform at (452, 93)
+20:26:13 clicked the red x, to drop the half-filled Transform -> 185-b-done-the-red-x-to-drop-the-half-filled-transform.png
+20:29:24 about to click the stud still at the origin at (922, 483)
+20:29:25 clicked the stud still at the origin -> 186-b-done-the-stud-still-at-the-origin.png
+20:29:27 about to press Alt+c to alt-c, which opens the tool search
+20:29:28 pressed Alt+c to alt-c, which opens the tool search -> 187-b-done-alt-c-which-opens-the-tool-search.png
+20:29:34 about to click the Transform result, which arms the tool at (1120, 159)
+20:29:35 clicked the Transform result, which arms the tool -> 188-b-done-the-transform-result-which-arms-the-tool.png
+20:29:41 about to click the transformation-type dropdown at (430, 157)
+20:29:42 clicked the transformation-type dropdown -> 189-b-done-the-transformation-type-dropdown.png
+20:30:39 about to press Escape to escape, which shuts the type list
+20:30:40 pressed Escape to escape, which shuts the type list -> 190-b-done-escape-which-shuts-the-type-list.png
+20:30:41 about to click the red x, to drop the Transform at (452, 93)
+20:30:42 clicked the red x, to drop the Transform -> 191-b-done-the-red-x-to-drop-the-transform.png
+20:30:57 about to click the stud still at the origin at (922, 483)
+20:30:58 clicked the stud still at the origin -> 192-b-done-the-stud-still-at-the-origin.png
+20:31:00 about to press Alt+c to alt-c, which opens the tool search
+20:31:01 pressed Alt+c to alt-c, which opens the tool search -> 193-b-done-alt-c-which-opens-the-tool-search.png
+20:31:07 about to click the Transform result, which arms the tool at (1120, 159)
+20:31:08 clicked the Transform result, which arms the tool -> 194-b-done-the-transform-result-which-arms-the-tool.png
+20:31:14 about to click the transformation-type dropdown at (430, 157)
+20:31:15 clicked the transformation-type dropdown -> 195-b-done-the-transformation-type-dropdown.png
+20:31:17 about to click Rotate in the list at (277, 292)
+20:31:18 clicked Rotate in the list -> 196-b-done-rotate-in-the-list.png
+20:31:22 about to click the Axis box, to arm it at (343, 190)
+20:31:23 clicked the Axis box, to arm it -> 197-b-done-the-axis-box-to-arm-it.png
+20:31:24 about to click the pivot line it turns about at (985, 448)
+20:31:25 clicked the pivot line it turns about -> 198-b-done-the-pivot-line-it-turns-about.png
+20:31:31 about to click the green tick, which keeps it at (424, 93)
+20:31:32 clicked the green tick, which keeps it -> 200-b-done-the-green-tick-which-keeps-it.png
+20:31:37 about to click the Transform 1 row, to rename it at (140, 547)
+20:31:38 clicked the Transform 1 row, to rename it -> 201-b-done-the-transform-1-row-to-rename-it.png
+20:31:38 about to click Rename in the context menu at (286, 571)
+20:31:39 clicked Rename in the context menu -> 202-b-done-rename-in-the-context-menu.png
+20:31:40 renamed 'Transform 1' to 'Lay the shoulder stud along x'
+20:33:31 about to click the red x, to shut the rotate at (452, 93)
+20:33:32 clicked the red x, to shut the rotate -> 204-b-done-the-red-x-to-shut-the-rotate.png
+20:34:37 about to select the Lay the shoulder stud along x row, the first feature that re-creates a joint at (140, 547)
+20:34:38 selected the Lay the shoulder stud along x row, the first feature that re-creates a joint -> 206-a-select-the-lay-the-shoulder-stud-along-x-row-the-first-.png
+20:34:39 about to click the Lay the shoulder stud along x row, with Shift, to take the whole tail at (140, 547)
+20:34:40 clicked the Lay the shoulder stud along x row, with Shift, to take the whole tail -> 207-b-done-the-lay-the-shoulder-stud-along-x-row-with-shift.png
+20:34:41 about to click the picked rows, to open their menu at (140, 547)
+20:34:42 clicked the picked rows, to open their menu -> 209-b-done-the-picked-rows-to-open-their-menu.png
+20:34:43 about to click Delete in the context menu at (289, 753)
+20:34:44 clicked Delete in the context menu -> 210-b-done-delete-in-the-context-menu.png
+20:34:48 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Torso outline', 'Torso block', 'Ball stud from the joint', 'Pivot lines', 'Copy the stud for the neck', 'Copy the stud for the shoulder', 'Move the hip stud to its station', 'Mirror the hip stud', 'Turn the neck stud over', 'Move the neck stud to its station', '', 'Parts (3)', 'Torso', 'Ball stud', 'Ball stud']
+20:35:34 about to click Show, which puts the pivot lines back on screen at (254, 502)
+20:35:34 clicked Show, which puts the pivot lines back on screen -> 211-b-done-show-which-puts-the-pivot-lines-back-on-screen.png
+20:36:25 about to click the stud still at the origin at (903, 495)
+20:36:26 clicked the stud still at the origin -> 213-b-done-the-stud-still-at-the-origin.png
+20:36:27 about to press Alt+c to alt-c, which opens the tool search
+20:36:28 pressed Alt+c to alt-c, which opens the tool search -> 214-b-done-alt-c-which-opens-the-tool-search.png
+20:36:35 about to click the Transform result, which arms the tool at (1120, 159)
+20:36:36 clicked the Transform result, which arms the tool -> 215-b-done-the-transform-result-which-arms-the-tool.png
+20:36:42 about to click the transformation-type dropdown at (430, 175)
+20:36:42 clicked the transformation-type dropdown -> 216-b-done-the-transformation-type-dropdown.png
+20:36:45 about to click Rotate in the list at (277, 310)
+20:36:45 clicked Rotate in the list -> 217-b-done-rotate-in-the-list.png
+20:36:49 about to click the Axis box, to arm it at (343, 208)
+20:36:50 clicked the Axis box, to arm it -> 218-b-done-the-axis-box-to-arm-it.png
+20:36:52 about to click the pivot line it turns about at (985, 447)
+20:36:53 clicked the pivot line it turns about -> 219-b-done-the-pivot-line-it-turns-about.png
+20:36:59 about to click the green tick, which keeps it at (424, 93)
+20:37:00 clicked the green tick, which keeps it -> 221-b-done-the-green-tick-which-keeps-it.png
+20:37:05 about to click the Transform 1 row, to rename it at (140, 547)
+20:37:06 clicked the Transform 1 row, to rename it -> 222-b-done-the-transform-1-row-to-rename-it.png
+20:37:06 about to click Rename in the context menu at (254, 571)
+20:37:07 clicked Rename in the context menu -> 223-b-done-rename-in-the-context-menu.png
+20:37:08 renamed 'Transform 1' to 'Lay the shoulder stud along x'
+20:37:08 about to click the same stud, now lying along x at (903, 495)
+20:37:09 clicked the same stud, now lying along x -> 225-b-done-the-same-stud-now-lying-along-x.png
+20:37:11 about to press Alt+c to alt-c, which opens the tool search
+20:37:11 pressed Alt+c to alt-c, which opens the tool search -> 226-b-done-alt-c-which-opens-the-tool-search.png
+20:37:18 about to click the Transform result, which arms the tool at (1120, 159)
+20:37:19 clicked the Transform result, which arms the tool -> 227-b-done-the-transform-result-which-arms-the-tool.png
+20:37:25 about to click the transformation-type dropdown at (430, 175)
+20:37:26 clicked the transformation-type dropdown -> 228-b-done-the-transformation-type-dropdown.png
+20:37:28 about to click Translate by XYZ in the list at (309, 258)
+20:37:28 clicked Translate by XYZ in the list -> 229-b-done-translate-by-xyz-in-the-list.png
+20:38:19 about to click the red x, to drop the half-filled move at (452, 93)
+20:38:20 clicked the red x, to drop the half-filled move -> 230-b-done-the-red-x-to-drop-the-half-filled-move.png
+20:38:23 about to click the stud lying along x at (903, 495)
+20:38:23 clicked the stud lying along x -> 231-b-done-the-stud-lying-along-x.png
+20:38:25 about to press Alt+c to alt-c, which opens the tool search
+20:38:26 pressed Alt+c to alt-c, which opens the tool search -> 232-b-done-alt-c-which-opens-the-tool-search.png
+20:38:32 about to click the Transform result, which arms the tool at (1120, 159)
+20:38:33 clicked the Transform result, which arms the tool -> 233-b-done-the-transform-result-which-arms-the-tool.png
+20:38:39 about to click the transformation-type dropdown at (430, 175)
+20:38:40 clicked the transformation-type dropdown -> 234-b-done-the-transformation-type-dropdown.png
+20:38:42 about to click Translate by XYZ in the list at (309, 258)
+20:38:43 clicked Translate by XYZ in the list -> 235-b-done-translate-by-xyz-in-the-list.png
+20:38:50 about to click the green tick, which keeps it at (424, 93)
+20:38:51 clicked the green tick, which keeps it -> 237-b-done-the-green-tick-which-keeps-it.png
+20:38:56 about to click the Transform 1 row, to rename it at (140, 573)
+20:38:57 clicked the Transform 1 row, to rename it -> 238-b-done-the-transform-1-row-to-rename-it.png
+20:38:57 about to click Rename in the context menu at (251, 597)
+20:38:58 clicked Rename in the context menu -> 239-b-done-rename-in-the-context-menu.png
+20:38:59 renamed 'Transform 1' to 'Reach the shoulder stud out 13'
+20:40:49 about to click the Right plane, which the shoulder boss is drawn on at (140, 261)
+20:40:50 clicked the Right plane, which the shoulder boss is drawn on -> 241-b-done-the-right-plane-which-the-shoulder-boss-is-drawn.png
+20:40:51 about to click the Sketch tool at (130, 58)
+20:40:52 clicked the Sketch tool -> 242-b-done-the-sketch-tool.png
+20:40:55 about to press n to n, to look square on at the sketch plane
+20:40:56 pressed n to n, to look square on at the sketch plane -> 243-b-done-n-to-look-square-on-at-the-sketch-plane.png
+20:40:59 about to click the View menu at (1563, 232)
+20:41:00 clicked the View menu -> 244-b-done-the-view-menu.png
+20:41:01 about to click Zoom to fit at (1458, 393)
+20:41:02 clicked Zoom to fit -> 245-b-done-zoom-to-fit.png
+20:41:44 about to click the circle tool at (307, 58)
+20:41:45 clicked the circle tool -> 247-b-done-the-circle-tool.png
+20:41:46 about to click the origin, which the boss is centred on at (838, 875)
+20:41:47 clicked the origin, which the boss is centred on -> 248-b-done-the-origin-which-the-boss-is-centred-on.png
+20:41:48 about to click a rim point about 4 out at (907, 806)
+20:41:49 clicked a rim point about 4 out -> 249-b-done-a-rim-point-about-4-out.png
+20:41:51 about to press d to d, for the dimension tool
+20:41:52 pressed d to d, for the dimension tool -> 250-b-done-d-for-the-dimension-tool.png
+20:41:53 about to click the circle, to dimension it at (907, 806)
+20:41:54 clicked the circle, to dimension it -> 251-b-done-the-circle-to-dimension-it.png
+20:41:55 about to click clear space, to drop the dimension there at (1200, 700)
+20:41:56 clicked clear space, to drop the dimension there -> 252-b-done-clear-space-to-drop-the-dimension-there.png
+20:41:59 the boss diameter: 8.1318 mm -> 8
+20:42:32 about to click the green tick, which keeps the sketch at (424, 93)
+20:42:33 clicked the green tick, which keeps the sketch -> 254-b-done-the-green-tick-which-keeps-the-sketch.png
+20:42:37 about to click the Sketch 1 row, to rename it at (140, 599)
+20:42:38 clicked the Sketch 1 row, to rename it -> 255-b-done-the-sketch-1-row-to-rename-it.png
+20:42:38 about to click Rename in the context menu at (263, 197)
+20:42:39 clicked Rename in the context menu -> 256-b-done-rename-in-the-context-menu.png
+20:42:40 renamed 'Sketch 1' to 'Shoulder boss circle'
+20:42:43 about to click the boss circle, which the extrude runs from at (140, 599)
+20:42:44 clicked the boss circle, which the extrude runs from -> 258-b-done-the-boss-circle-which-the-extrude-runs-from.png
+20:42:45 about to press Alt+c to alt-c, which opens the tool search
+20:42:46 pressed Alt+c to alt-c, which opens the tool search -> 259-b-done-alt-c-which-opens-the-tool-search.png
+20:42:52 about to click the Extrude result, which arms the tool at (1098, 160)
+20:42:53 clicked the Extrude result, which arms the tool -> 260-b-done-the-extrude-result-which-arms-the-tool.png
+20:43:35 about to click New, so the boss arrives as its own part at (268, 149)
+20:43:36 clicked New, so the boss arrives as its own part -> 261-b-done-new-so-the-boss-arrives-as-its-own-part.png
+20:43:42 about to click Starting offset, to begin it back inside the block at (266, 313)
+20:43:43 clicked Starting offset, to begin it back inside the block -> 262-b-done-starting-offset-to-begin-it-back-inside-the-bloc.png
+20:43:49 about to click the green tick, which keeps the boss at (424, 93)
+20:43:50 clicked the green tick, which keeps the boss -> 264-b-done-the-green-tick-which-keeps-the-boss.png
+20:44:46 about to click the Extrude 1 row, to rename it at (140, 625)
+20:44:47 clicked the Extrude 1 row, to rename it -> 265-b-done-the-extrude-1-row-to-rename-it.png
+20:44:47 about to click Rename in the context menu at (280, 649)
+20:44:48 clicked Rename in the context menu -> 266-b-done-rename-in-the-context-menu.png
+20:44:49 renamed 'Extrude 1' to 'Shoulder boss'
+20:44:51 about to press Escape to escape, to look at the whole part again
+20:44:51 pressed Escape to escape, to look at the whole part again -> 268-b-done-escape-to-look-at-the-whole-part-again.png
+20:44:53 about to click the View menu at (1563, 232)
+20:44:54 clicked the View menu -> 269-b-done-the-view-menu.png
+20:44:55 about to click Zoom to fit at (1458, 393)
+20:44:56 clicked Zoom to fit -> 270-b-done-zoom-to-fit.png
+20:44:58 about to click the first Ball stud row, to see which one lights up at (140, 722)
+20:44:59 clicked the first Ball stud row, to see which one lights up -> 271-b-done-the-first-ball-stud-row-to-see-which-one-lights-.png
+20:45:52 about to click the Ball stud row, to rename it at (140, 722)
+20:45:53 clicked the Ball stud row, to rename it -> 273-b-done-the-ball-stud-row-to-rename-it.png
+20:45:53 about to click Rename in the context menu at (264, 346)
+20:45:54 clicked Rename in the context menu -> 274-b-done-rename-in-the-context-menu.png
+20:45:56 renamed 'Ball stud' to 'Neck stud'
+20:45:57 about to click the Ball stud row, to rename it at (140, 748)
+20:45:58 clicked the Ball stud row, to rename it -> 276-b-done-the-ball-stud-row-to-rename-it.png
+20:46:30 about to click the Ball stud row, to rename it at (140, 748)
+20:46:31 clicked the Ball stud row, to rename it -> 277-b-done-the-ball-stud-row-to-rename-it.png
+20:46:57 about to click the Ball stud row, to open its menu at (140, 748)
+20:46:57 clicked the Ball stud row, to open its menu -> 278-b-done-the-ball-stud-row-to-open-its-menu.png
+20:46:59 about to click the Ball stud row, to rename it at (140, 748)
+20:47:00 clicked the Ball stud row, to rename it -> 279-b-done-the-ball-stud-row-to-rename-it.png
+20:47:44 about to click the Ball stud row, to rename it at (140, 748)
+20:47:45 clicked the Ball stud row, to rename it -> 280-b-done-the-ball-stud-row-to-rename-it.png
+20:48:25 about to click the Ball stud row on its own at (140, 748)
+20:48:26 clicked the Ball stud row on its own -> 281-b-done-the-ball-stud-row-on-its-own.png
+20:48:28 about to click the Ball stud row, to rename it at (140, 748)
+20:48:29 clicked the Ball stud row, to rename it -> 282-b-done-the-ball-stud-row-to-rename-it.png
+20:48:29 about to click Rename in the context menu at (264, 372)
+20:48:29 clicked Rename in the context menu -> 283-b-done-rename-in-the-context-menu.png
+20:48:31 renamed 'Ball stud' to 'Shoulder stud'
+20:48:35 about to click the Part 4 row on its own at (140, 774)
+20:48:36 clicked the Part 4 row on its own -> 285-b-done-the-part-4-row-on-its-own.png
+20:48:38 about to click the Part 4 row, to rename it at (140, 774)
+20:48:38 clicked the Part 4 row, to rename it -> 286-b-done-the-part-4-row-to-rename-it.png
+20:48:38 about to click Rename in the context menu at (256, 398)
+20:48:39 clicked Rename in the context menu -> 287-b-done-rename-in-the-context-menu.png
+20:48:41 renamed 'Part 4' to 'Shoulder boss part'
+20:48:43 about to click Boolean on the toolbar at (780, 58)
+20:48:44 clicked Boolean on the toolbar -> 289-b-done-boolean-on-the-toolbar.png
+20:48:48 about to click Shoulder stud in the parts list at (140, 748)
+20:48:49 clicked Shoulder stud in the parts list -> 290-b-done-shoulder-stud-in-the-parts-list.png
+20:48:51 about to click Shoulder boss part in the parts list at (140, 748)
+20:48:52 clicked Shoulder boss part in the parts list -> 291-b-done-shoulder-boss-part-in-the-parts-list.png
+20:48:54 about to click the Keep tools box, to turn it off at (239, 204)
+20:48:55 clicked the Keep tools box, to turn it off -> 292-b-done-the-keep-tools-box-to-turn-it-off.png
+20:48:56 about to click the green tick, which keeps the union at (424, 93)
+20:48:57 clicked the green tick, which keeps the union -> 293-b-done-the-green-tick-which-keeps-the-union.png
+20:49:46 about to click the boss, the second tool for the union at (140, 774)
+20:49:47 clicked the boss, the second tool for the union -> 294-b-done-the-boss-the-second-tool-for-the-union.png
+20:49:50 about to click the green tick, which keeps the union at (424, 93)
+20:49:51 clicked the green tick, which keeps the union -> 295-b-done-the-green-tick-which-keeps-the-union.png
+20:50:41 about to click the Boolean 1 row, to rename it at (140, 617)
+20:50:42 clicked the Boolean 1 row, to rename it -> 296-b-done-the-boolean-1-row-to-rename-it.png
+20:50:42 about to click Rename in the context menu at (251, 641)
+20:50:42 clicked Rename in the context menu -> 297-b-done-rename-in-the-context-menu.png
+20:50:44 renamed 'Boolean 1' to 'Union the shoulder boss and stud'
+20:50:47 about to click the shoulder stud in the parts list at (140, 748)
+20:50:48 clicked the shoulder stud in the parts list -> 299-b-done-the-shoulder-stud-in-the-parts-list.png
+20:50:49 about to press Alt+c to alt-c, which opens the tool search
+20:50:50 pressed Alt+c to alt-c, which opens the tool search -> 300-b-done-alt-c-which-opens-the-tool-search.png
+20:50:57 about to click the Transform result, which arms the tool at (1120, 159)
+20:50:58 clicked the Transform result, which arms the tool -> 301-b-done-the-transform-result-which-arms-the-tool.png
+20:51:04 about to click the transformation-type dropdown at (430, 175)
+20:51:04 clicked the transformation-type dropdown -> 302-b-done-the-transformation-type-dropdown.png
+20:51:06 about to click Rotate in the list at (277, 310)
+20:51:07 clicked Rotate in the list -> 303-b-done-rotate-in-the-list.png
+20:51:11 about to click the Axis box, to arm it at (343, 208)
+20:51:12 clicked the Axis box, to arm it -> 304-b-done-the-axis-box-to-arm-it.png
+20:51:14 about to click the pivot line it turns about at (1030, 855)
+20:51:15 clicked the pivot line it turns about -> 305-b-done-the-pivot-line-it-turns-about.png
+20:51:21 about to click the green tick, which keeps it at (424, 93)
+20:51:22 clicked the green tick, which keeps it -> 307-b-done-the-green-tick-which-keeps-it.png
+20:51:27 about to click the Transform 1 row, to rename it at (140, 643)
+20:51:28 clicked the Transform 1 row, to rename it -> 308-b-done-the-transform-1-row-to-rename-it.png
+20:51:28 about to click Rename in the context menu at (254, 667)
+20:51:28 clicked Rename in the context menu -> 309-b-done-rename-in-the-context-menu.png
+20:51:30 renamed 'Transform 1' to 'Tip shoulder 53 deg'
+20:52:25 about to click the eye on the shoulder stud, to uncover the pivot line at (220, 748)
+20:52:26 clicked the eye on the shoulder stud, to uncover the pivot line -> 311-b-done-the-eye-on-the-shoulder-stud-to-uncover-the-pivo.png
+20:52:29 about to click the shoulder stud in the parts list at (140, 748)
+20:52:29 clicked the shoulder stud in the parts list -> 312-b-done-the-shoulder-stud-in-the-parts-list.png
+20:52:31 about to press Alt+c to alt-c, which opens the tool search
+20:52:32 pressed Alt+c to alt-c, which opens the tool search -> 313-b-done-alt-c-which-opens-the-tool-search.png
+20:52:38 about to click the Transform result, which arms the tool at (1120, 159)
+20:52:39 clicked the Transform result, which arms the tool -> 314-b-done-the-transform-result-which-arms-the-tool.png
+20:52:45 about to click the transformation-type dropdown at (430, 175)
+20:52:46 clicked the transformation-type dropdown -> 315-b-done-the-transformation-type-dropdown.png
+20:52:48 about to click Rotate in the list at (277, 310)
+20:52:49 clicked Rotate in the list -> 316-b-done-rotate-in-the-list.png
+20:52:53 about to click the Axis box, to arm it at (343, 208)
+20:52:54 clicked the Axis box, to arm it -> 317-b-done-the-axis-box-to-arm-it.png
+20:52:55 about to click the pivot line it turns about at (851, 700)
+20:52:56 clicked the pivot line it turns about -> 318-b-done-the-pivot-line-it-turns-about.png
+20:53:03 about to click the green tick, which keeps it at (424, 93)
+20:53:04 clicked the green tick, which keeps it -> 320-b-done-the-green-tick-which-keeps-it.png
+20:53:09 about to click the Transform 1 row, to rename it at (140, 630)
+20:53:09 clicked the Transform 1 row, to rename it -> 321-b-done-the-transform-1-row-to-rename-it.png
+20:53:09 about to click Rename in the context menu at (254, 654)
+20:53:10 clicked Rename in the context menu -> 322-b-done-rename-in-the-context-menu.png
+20:53:12 renamed 'Transform 1' to 'Swing shoulder 30 deg forward'
+20:53:13 about to click the eye again, to put the shoulder stud back on screen at (220, 748)
+20:53:14 clicked the eye again, to put the shoulder stud back on screen -> 324-b-done-the-eye-again-to-put-the-shoulder-stud-back-on-s.png
+20:53:34 about to click the shoulder stud in the parts list at (140, 748)
+20:53:35 clicked the shoulder stud in the parts list -> 325-b-done-the-shoulder-stud-in-the-parts-list.png
+20:53:36 about to press Alt+c to alt-c, which opens the tool search
+20:53:37 pressed Alt+c to alt-c, which opens the tool search -> 326-b-done-alt-c-which-opens-the-tool-search.png
+20:53:44 about to click the Transform result, which arms the tool at (1120, 159)
+20:53:44 clicked the Transform result, which arms the tool -> 327-b-done-the-transform-result-which-arms-the-tool.png
+20:53:51 about to click the transformation-type dropdown at (430, 175)
+20:53:51 clicked the transformation-type dropdown -> 328-b-done-the-transformation-type-dropdown.png
+20:53:53 about to click Translate by XYZ in the list at (309, 258)
+20:53:54 clicked Translate by XYZ in the list -> 329-b-done-translate-by-xyz-in-the-list.png
+20:54:04 about to click the green tick, which keeps it at (424, 93)
+20:54:05 clicked the green tick, which keeps it -> 331-b-done-the-green-tick-which-keeps-it.png
+20:54:10 about to click the Transform 1 row, to rename it at (140, 630)
+20:54:11 clicked the Transform 1 row, to rename it -> 332-b-done-the-transform-1-row-to-rename-it.png
+20:54:11 about to click Rename in the context menu at (251, 654)
+20:54:12 clicked Rename in the context menu -> 333-b-done-rename-in-the-context-menu.png
+20:54:14 renamed 'Transform 1' to 'Move the shoulder to its station'
+20:57:03 about to press Alt+c to alt-c, which opens the tool search
+20:57:04 pressed Alt+c to alt-c, which opens the tool search -> 335-b-done-alt-c-which-opens-the-tool-search.png
+20:57:10 about to click the Mirror result, which arms the tool at (1120, 159)
+20:57:11 clicked the Mirror result, which arms the tool -> 336-b-done-the-mirror-result-which-arms-the-tool.png
+20:57:17 about to click the Entities to mirror box, to arm it at (356, 182)
+20:57:18 clicked the Entities to mirror box, to arm it -> 337-b-done-the-entities-to-mirror-box-to-arm-it.png
+20:57:21 about to click the shoulder stud, the one being mirrored at (140, 748)
+20:57:22 clicked the shoulder stud, the one being mirrored -> 338-b-done-the-shoulder-stud-the-one-being-mirrored.png
+20:57:24 about to click the Mirror plane box, to arm it at (343, 231)
+20:57:25 clicked the Mirror plane box, to arm it -> 339-b-done-the-mirror-plane-box-to-arm-it.png
+20:57:27 about to click the Right plane, which the robot is symmetric about at (140, 261)
+20:57:28 clicked the Right plane, which the robot is symmetric about -> 340-b-done-the-right-plane-which-the-robot-is-symmetric-abo.png
+20:57:31 about to click the green tick, which keeps the mirror at (424, 93)
+20:57:32 clicked the green tick, which keeps the mirror -> 342-b-done-the-green-tick-which-keeps-the-mirror.png
+20:57:38 about to click the Mirror the hip stud row, to rename it at (140, 344)
+20:57:39 clicked the Mirror the hip stud row, to rename it -> 343-b-done-the-mirror-the-hip-stud-row-to-rename-it.png
+20:57:39 about to click Rename in the context menu at (261, 368)
+20:57:40 clicked Rename in the context menu -> 344-b-done-rename-in-the-context-menu.png
+20:57:41 renamed 'Mirror the hip stud' to 'Mirror the shoulder'
+20:58:14 about to click the Mirror the shoulder row on its own at (140, 400)
+20:58:15 clicked the Mirror the shoulder row on its own -> 346-b-done-the-mirror-the-shoulder-row-on-its-own.png
+20:58:16 about to click the Mirror the shoulder row, to rename it at (140, 400)
+20:58:17 clicked the Mirror the shoulder row, to rename it -> 347-b-done-the-mirror-the-shoulder-row-to-rename-it.png
+20:58:17 about to click Rename in the context menu at (261, 424)
+20:58:18 clicked Rename in the context menu -> 348-b-done-rename-in-the-context-menu.png
+20:58:20 renamed 'Mirror the shoulder' to 'Mirror the hip stud'
+20:58:24 about to click the Mirror 1 row on its own at (140, 617)
+20:58:24 clicked the Mirror 1 row on its own -> 350-b-done-the-mirror-1-row-on-its-own.png
+20:58:26 about to click the Mirror 1 row, to rename it at (140, 617)
+20:58:27 clicked the Mirror 1 row, to rename it -> 351-b-done-the-mirror-1-row-to-rename-it.png
+20:58:27 about to click Rename in the context menu at (261, 641)
+20:58:28 clicked Rename in the context menu -> 352-b-done-rename-in-the-context-menu.png
+20:58:29 renamed 'Mirror 1' to 'Mirror the shoulder'
+20:58:33 about to click the Ball stud row on its own at (140, 774)
+20:58:34 clicked the Ball stud row on its own -> 354-b-done-the-ball-stud-row-on-its-own.png
+20:58:35 about to click the Ball stud row, to rename it at (140, 774)
+20:58:36 clicked the Ball stud row, to rename it -> 355-b-done-the-ball-stud-row-to-rename-it.png
+20:58:36 about to click Rename in the context menu at (264, 398)
+20:58:37 clicked Rename in the context menu -> 356-b-done-rename-in-the-context-menu.png
+20:58:39 renamed 'Ball stud' to 'Left shoulder stud'
+20:58:42 about to click Boolean on the toolbar at (780, 58)
+20:58:42 clicked Boolean on the toolbar -> 358-b-done-boolean-on-the-toolbar.png
+20:58:46 about to click Torso in the parts list at (140, 696)
+20:58:47 clicked Torso in the parts list -> 359-b-done-torso-in-the-parts-list.png
+20:58:50 about to click Neck stud in the parts list at (140, 722)
+20:58:51 clicked Neck stud in the parts list -> 360-b-done-neck-stud-in-the-parts-list.png
+20:58:54 about to click Shoulder stud in the parts list at (140, 722)
+20:58:55 clicked Shoulder stud in the parts list -> 361-b-done-shoulder-stud-in-the-parts-list.png
+20:58:58 about to click Left shoulder stud in the parts list at (140, 722)
+20:58:59 clicked Left shoulder stud in the parts list -> 362-b-done-left-shoulder-stud-in-the-parts-list.png
+20:59:02 about to click the Keep tools box, to turn it off at (239, 277)
+20:59:02 clicked the Keep tools box, to turn it off -> 363-b-done-the-keep-tools-box-to-turn-it-off.png
+20:59:04 about to click the green tick, which keeps the union at (424, 93)
+20:59:05 clicked the green tick, which keeps the union -> 364-b-done-the-green-tick-which-keeps-the-union.png
+21:00:15 about to click the Boolean 1 row, to rename it at (140, 643)
+21:00:16 clicked the Boolean 1 row, to rename it -> 365-b-done-the-boolean-1-row-to-rename-it.png
+21:00:16 about to click Rename in the context menu at (251, 667)
+21:00:17 clicked Rename in the context menu -> 366-b-done-rename-in-the-context-menu.png
+21:00:19 renamed 'Boolean 1' to 'Union the studs into the torso'
+21:00:22 about to click the Top plane, which the trim ring is drawn on at (140, 209)
+21:00:23 clicked the Top plane, which the trim ring is drawn on -> 368-b-done-the-top-plane-which-the-trim-ring-is-drawn-on.png
+21:00:25 about to click the Sketch tool at (130, 58)
+21:00:25 clicked the Sketch tool -> 369-b-done-the-sketch-tool.png
+21:00:28 about to press n to n, to look square on at the sketch plane
+21:00:29 pressed n to n, to look square on at the sketch plane -> 370-b-done-n-to-look-square-on-at-the-sketch-plane.png
+21:00:32 about to click the View menu at (1563, 232)
+21:00:33 clicked the View menu -> 371-b-done-the-view-menu.png
+21:00:34 about to click Zoom to fit at (1458, 393)
+21:00:35 clicked Zoom to fit -> 372-b-done-zoom-to-fit.png
+21:01:15 about to click the eye on the Torso, to put it back on screen at (220, 696)
+21:01:16 clicked the eye on the Torso, to put it back on screen -> 374-b-done-the-eye-on-the-torso-to-put-it-back-on-screen.png
+21:01:19 about to click the View menu at (1563, 232)
+21:01:20 clicked the View menu -> 375-b-done-the-view-menu.png
+21:01:21 about to click Zoom to fit at (1458, 393)
+21:01:22 clicked Zoom to fit -> 376-b-done-zoom-to-fit.png
+21:02:13 about to click the circle tool at (307, 58)
+21:02:14 clicked the circle tool -> 378-b-done-the-circle-tool.png
+21:02:16 about to click the origin, which both circles are centred on at (922, 522)
+21:02:16 clicked the origin, which both circles are centred on -> 379-b-done-the-origin-which-both-circles-are-centred-on.png
+21:02:17 about to click a rim point about 4 out at (965, 479)
+21:02:18 clicked a rim point about 4 out -> 380-b-done-a-rim-point-about-4-out.png
+21:02:21 about to press d to d, for the dimension tool
+21:02:22 pressed d to d, for the dimension tool -> 381-b-done-d-for-the-dimension-tool.png
+21:02:23 about to click the circle, to dimension it at (965, 479)
+21:02:24 clicked the circle, to dimension it -> 382-b-done-the-circle-to-dimension-it.png
+21:02:25 about to click clear space, to drop the dimension there at (1050, 640)
+21:02:25 clicked clear space, to drop the dimension there -> 383-b-done-clear-space-to-drop-the-dimension-there.png
+21:02:28 the ring's inside diameter: 8.02956 mm -> 8
+21:02:31 about to click the circle tool at (307, 58)
+21:02:32 clicked the circle tool -> 384-b-done-the-circle-tool.png
+21:02:34 about to click the origin, which both circles are centred on at (922, 522)
+21:02:34 clicked the origin, which both circles are centred on -> 385-b-done-the-origin-which-both-circles-are-centred-on.png
+21:02:35 about to click a rim point about 25 out at (1193, 251)
+21:02:36 clicked a rim point about 25 out -> 386-b-done-a-rim-point-about-25-out.png
+21:02:39 about to press d to d, for the dimension tool
+21:02:40 pressed d to d, for the dimension tool -> 387-b-done-d-for-the-dimension-tool.png
+21:02:41 about to click the circle, to dimension it at (1193, 251)
+21:02:42 clicked the circle, to dimension it -> 388-b-done-the-circle-to-dimension-it.png
+21:02:43 about to click clear space, to drop the dimension there at (1330, 180)
+21:02:43 clicked clear space, to drop the dimension there -> 389-b-done-clear-space-to-drop-the-dimension-there.png
+21:02:47 the ring's outside diameter: 50.10261 mm -> 50
+21:03:29 about to click the green tick, which keeps the sketch at (424, 93)
+21:03:29 clicked the green tick, which keeps the sketch -> 391-b-done-the-green-tick-which-keeps-the-sketch.png
+21:03:33 about to click the Sketch 1 row, to rename it at (140, 630)
+21:03:34 clicked the Sketch 1 row, to rename it -> 392-b-done-the-sketch-1-row-to-rename-it.png
+21:03:34 about to click Rename in the context menu at (263, 228)
+21:03:35 clicked Rename in the context menu -> 393-b-done-rename-in-the-context-menu.png
+21:03:37 renamed 'Sketch 1' to 'Trim ring'
+21:03:39 about to click the eye on the Torso, so only the ring can be picked at (220, 696)
+21:03:40 clicked the eye on the Torso, so only the ring can be picked -> 395-b-done-the-eye-on-the-torso-so-only-the-ring-can-be-pic.png
+21:03:44 about to press Alt+c to alt-c, which opens the tool search
+21:03:45 pressed Alt+c to alt-c, which opens the tool search -> 396-b-done-alt-c-which-opens-the-tool-search.png
+21:03:51 about to click the Extrude result, which arms the tool at (1098, 160)
+21:03:52 clicked the Extrude result, which arms the tool -> 397-b-done-the-extrude-result-which-arms-the-tool.png
+21:03:57 about to click the ring itself, between its two circles at (1072, 522)
+21:03:58 clicked the ring itself, between its two circles -> 398-b-done-the-ring-itself-between-its-two-circles.png
+21:04:23 about to click Remove, because the ring takes material away at (366, 149)
+21:04:23 clicked Remove, because the ring takes material away -> 399-b-done-remove-because-the-ring-takes-material-away.png
+21:04:29 about to click Starting offset, to begin at the top face at (266, 313)
+21:04:30 clicked Starting offset, to begin at the top face -> 400-b-done-starting-offset-to-begin-at-the-top-face.png
+21:05:40 about to click Merge with all, so the cut knows what to take material from at (257, 477)
+21:05:40 clicked Merge with all, so the cut knows what to take material from -> 402-b-done-merge-with-all-so-the-cut-knows-what-to-take-mat.png
+21:06:06 about to click the green tick, which takes the cut at (424, 93)
+21:06:07 clicked the green tick, which takes the cut -> 403-b-done-the-green-tick-which-takes-the-cut.png
+21:06:13 about to click the Extrude 1 row, to rename it at (140, 630)
+21:06:14 clicked the Extrude 1 row, to rename it -> 404-b-done-the-extrude-1-row-to-rename-it.png
+21:06:14 about to click Rename in the context menu at (261, 654)
+21:06:15 clicked Rename in the context menu -> 405-b-done-rename-in-the-context-menu.png
+21:06:17 renamed 'Extrude 1' to 'Trim the bosses flush'
+21:06:19 about to click the eye on the Torso, to see the whole part again at (220, 696)
+21:06:20 clicked the eye on the Torso, to see the whole part again -> 407-b-done-the-eye-on-the-torso-to-see-the-whole-part-again.png
+21:07:18 about to click the green tick, which takes the cut the right way round at (424, 93)
+21:07:19 clicked the green tick, which takes the cut the right way round -> 408-b-done-the-green-tick-which-takes-the-cut-the-right-way.png
+21:11:31 about to click the View menu at (1563, 232)
+21:11:32 clicked the View menu -> 409-b-done-the-view-menu.png
+21:11:33 about to click Isometric at (1458, 258)
+21:11:34 clicked Isometric -> 410-b-done-isometric.png
+21:11:37 about to click the View menu at (1563, 232)
+21:11:38 clicked the View menu -> 411-b-done-the-view-menu.png
+21:11:39 about to click Zoom to fit at (1458, 393)
+21:11:40 clicked Zoom to fit -> 412-b-done-zoom-to-fit.png
+21:12:19 about to press Control+m to ctrl-m, which opens Mate connector
+21:12:20 pressed Control+m to ctrl-m, which opens Mate connector -> 414-b-done-ctrl-m-which-opens-mate-connector.png
+21:12:24 about to click the Origin entity field, to arm it at (355, 154)
+21:12:25 clicked the Origin entity field, to arm it -> 415-b-done-the-origin-entity-field-to-arm-it.png
+21:12:27 about to click the neck ball, whose centre the connector sits on at (922, 285)
+21:12:27 clicked the neck ball, whose centre the connector sits on -> 416-b-done-the-neck-ball-whose-centre-the-connector-sits-on.png
+21:12:54 about to click the neck ball, after the cursor has settled on it at (922, 285)
+21:12:55 clicked the neck ball, after the cursor has settled on it -> 417-b-done-the-neck-ball-after-the-cursor-has-settled-on-it.png
+21:13:26 about to click the green tick, which keeps the connector at (424, 93)
+21:13:27 clicked the green tick, which keeps the connector -> 419-b-done-the-green-tick-which-keeps-the-connector.png
+21:13:31 about to click the Mate connector 1 row, to rename it at (140, 643)
+21:13:32 clicked the Mate connector 1 row, to rename it -> 420-b-done-the-mate-connector-1-row-to-rename-it.png
+21:13:32 about to click Rename in the context menu at (251, 667)
+21:13:33 clicked Rename in the context menu -> 421-b-done-rename-in-the-context-menu.png
+21:13:35 renamed 'Mate connector 1' to 'Neck'
+21:13:36 about to press Control+m to ctrl-m, which opens Mate connector
+21:13:37 pressed Control+m to ctrl-m, which opens Mate connector -> 423-b-done-ctrl-m-which-opens-mate-connector.png
+21:13:41 about to click the Origin entity field, to arm it at (355, 154)
+21:13:42 clicked the Origin entity field, to arm it -> 424-b-done-the-origin-entity-field-to-arm-it.png
+21:13:46 about to click the right shoulder ball at (1070, 562)
+21:13:47 clicked the right shoulder ball -> 425-b-done-the-right-shoulder-ball.png
+21:13:50 about to click the green tick, which keeps the connector at (424, 93)
+21:13:51 clicked the green tick, which keeps the connector -> 427-b-done-the-green-tick-which-keeps-the-connector.png
+21:13:55 about to click the Mate connector 1 row, to rename it at (140, 630)
+21:13:56 clicked the Mate connector 1 row, to rename it -> 428-b-done-the-mate-connector-1-row-to-rename-it.png
+21:13:56 about to click Rename in the context menu at (260, 654)
+21:13:57 clicked Rename in the context menu -> 429-b-done-rename-in-the-context-menu.png
+21:13:58 renamed 'Mate connector 1' to 'Shoulder R'
+21:14:23 about to click the view cube's left arrow, turn 1 of 2 at (1440, 166)
+21:14:24 clicked the view cube's left arrow, turn 1 of 2 -> 431-b-done-the-view-cube-s-left-arrow-turn-1-of-2.png
+21:14:27 about to click the view cube's left arrow, turn 2 of 2 at (1440, 166)
+21:14:28 clicked the view cube's left arrow, turn 2 of 2 -> 432-b-done-the-view-cube-s-left-arrow-turn-2-of-2.png
+21:14:30 about to click the view cube's down arrow, to look up under the block at (1510, 237)
+21:14:31 clicked the view cube's down arrow, to look up under the block -> 433-b-done-the-view-cube-s-down-arrow-to-look-up-under-the-.png
+21:15:11 about to click the View menu at (1563, 232)
+21:15:12 clicked the View menu -> 435-b-done-the-view-menu.png
+21:15:13 about to click Isometric at (1458, 258)
+21:15:14 clicked Isometric -> 436-b-done-isometric.png
+21:15:16 about to click the view cube's left arrow, turn 1 of 2 at (1440, 166)
+21:15:17 clicked the view cube's left arrow, turn 1 of 2 -> 437-b-done-the-view-cube-s-left-arrow-turn-1-of-2.png
+21:15:20 about to click the view cube's left arrow, turn 2 of 2 at (1440, 166)
+21:15:21 clicked the view cube's left arrow, turn 2 of 2 -> 438-b-done-the-view-cube-s-left-arrow-turn-2-of-2.png
+21:15:23 about to click the View menu at (1563, 232)
+21:15:24 clicked the View menu -> 439-b-done-the-view-menu.png
+21:15:25 about to click Zoom to fit at (1458, 393)
+21:15:26 clicked Zoom to fit -> 440-b-done-zoom-to-fit.png
+21:16:11 about to click the View menu at (1563, 232)
+21:16:12 clicked the View menu -> 442-b-done-the-view-menu.png
+21:16:13 about to click Isometric at (1458, 258)
+21:16:14 clicked Isometric -> 443-b-done-isometric.png
+21:16:16 about to click the view cube's left arrow, turn 1 of 2 at (1440, 166)
+21:16:17 clicked the view cube's left arrow, turn 1 of 2 -> 444-b-done-the-view-cube-s-left-arrow-turn-1-of-2.png
+21:16:20 about to click the view cube's left arrow, turn 2 of 2 at (1440, 166)
+21:16:21 clicked the view cube's left arrow, turn 2 of 2 -> 445-b-done-the-view-cube-s-left-arrow-turn-2-of-2.png
+21:16:23 about to click the View menu at (1563, 232)
+21:16:24 clicked the View menu -> 446-b-done-the-view-menu.png
+21:16:25 about to click Zoom to fit at (1458, 393)
+21:16:26 clicked Zoom to fit -> 447-b-done-zoom-to-fit.png
+21:17:28 orbiting with a middle-button drag, half a turn to the left
+21:19:44 about to press f to f, which should zoom to fit
+21:19:45 pressed f to f, which should zoom to fit -> 452-b-done-f-which-should-zoom-to-fit.png
+21:20:36 about to press Control+m to ctrl-m, which opens Mate connector
+21:20:37 pressed Control+m to ctrl-m, which opens Mate connector -> 454-b-done-ctrl-m-which-opens-mate-connector.png
+21:20:41 about to click the Origin entity field, to arm it at (355, 154)
+21:20:42 clicked the Origin entity field, to arm it -> 455-b-done-the-origin-entity-field-to-arm-it.png
+21:20:47 about to click a Hip ball at (1040, 808)
+21:20:48 clicked a Hip ball -> 456-b-done-a-hip-ball.png
+21:20:51 about to click the green tick, which keeps the connector at (424, 93)
+21:20:51 clicked the green tick, which keeps the connector -> 457-b-done-the-green-tick-which-keeps-the-connector.png
+21:20:56 about to click the Mate connector 1 row, to rename it at (140, 630)
+21:20:56 clicked the Mate connector 1 row, to rename it -> 458-b-done-the-mate-connector-1-row-to-rename-it.png
+21:20:56 about to click Rename in the context menu at (260, 654)
+21:20:57 clicked Rename in the context menu -> 459-b-done-rename-in-the-context-menu.png
+21:20:59 renamed 'Mate connector 1' to 'Hip R'
+21:21:13 about to press Control+m to ctrl-m, which opens Mate connector
+21:21:14 pressed Control+m to ctrl-m, which opens Mate connector -> 461-b-done-ctrl-m-which-opens-mate-connector.png
+21:21:18 about to click the Origin entity field, to arm it at (355, 154)
+21:21:19 clicked the Origin entity field, to arm it -> 462-b-done-the-origin-entity-field-to-arm-it.png
+21:21:23 about to click a Hip ball at (1143, 712)
+21:21:24 clicked a Hip ball -> 463-b-done-a-hip-ball.png
+21:21:27 about to click the green tick, which keeps the connector at (424, 93)
+21:21:28 clicked the green tick, which keeps the connector -> 464-b-done-the-green-tick-which-keeps-the-connector.png
+21:21:32 about to click the Mate connector 1 row, to rename it at (140, 630)
+21:21:33 clicked the Mate connector 1 row, to rename it -> 465-b-done-the-mate-connector-1-row-to-rename-it.png
+21:21:33 about to click Rename in the context menu at (260, 654)
+21:21:34 clicked Rename in the context menu -> 466-b-done-rename-in-the-context-menu.png
+21:21:36 renamed 'Mate connector 1' to 'Hip L'
+21:22:04 about to press f to f, to frame it again
+21:22:05 pressed f to f, to frame it again -> 468-b-done-f-to-frame-it-again.png
+21:22:34 about to press Control+m to ctrl-m, which opens Mate connector
+21:22:35 pressed Control+m to ctrl-m, which opens Mate connector -> 470-b-done-ctrl-m-which-opens-mate-connector.png
+21:22:39 about to click the Origin entity field, to arm it at (355, 154)
+21:22:40 clicked the Origin entity field, to arm it -> 471-b-done-the-origin-entity-field-to-arm-it.png
+21:22:45 about to click a Shoulder ball at (1088, 352)
+21:22:45 clicked a Shoulder ball -> 472-b-done-a-shoulder-ball.png
+21:22:49 about to click the green tick, which keeps the connector at (424, 93)
+21:22:49 clicked the green tick, which keeps the connector -> 473-b-done-the-green-tick-which-keeps-the-connector.png
+21:22:54 about to click the Mate connector 1 row, to rename it at (140, 630)
+21:22:54 clicked the Mate connector 1 row, to rename it -> 474-b-done-the-mate-connector-1-row-to-rename-it.png
+21:22:54 about to click Rename in the context menu at (260, 654)
+21:22:55 clicked Rename in the context menu -> 475-b-done-rename-in-the-context-menu.png
+21:22:57 renamed 'Mate connector 1' to 'Shoulder L'

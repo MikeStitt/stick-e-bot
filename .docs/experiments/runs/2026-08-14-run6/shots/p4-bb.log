@@ -1,0 +1,933 @@
+00:30:27 on limb-blade-ball-run6
+00:30:40 on limb-blade-ball-run6
+00:30:40 row ['Default geometry', 521, 157]
+00:30:40 row ['Origin', 521, 183]
+00:30:40 row ['Top', 521, 209]
+00:30:40 row ['Front', 521, 235]
+00:30:40 row ['Right', 521, 261]
+00:30:40 row ['', 521, 287]
+00:30:40 row ['Parts (0)', 521, 670]
+00:30:40 mass properties: []
+00:30:56 about to click the versions icon on the left rail, to close the panel at (20, 58)
+00:30:57 clicked the versions icon on the left rail, to close the panel -> 03-b-done-the-versions-icon-on-the-left-rail-to-close-the-.png
+00:30:58 row ['Default geometry', 140, 157]
+00:30:58 row ['Origin', 140, 183]
+00:30:58 row ['Top', 140, 209]
+00:30:58 row ['Front', 140, 235]
+00:30:58 row ['Right', 140, 261]
+00:30:58 row ['', 140, 287]
+00:30:58 row ['Parts (0)', 140, 670]
+00:31:41 about to click the Front plane in the feature list at (140, 235)
+00:31:42 clicked the Front plane in the feature list -> 05-b-done-the-front-plane-in-the-feature-list.png
+00:31:43 about to click the Sketch tool at (155, 58)
+00:31:43 clicked the Sketch tool -> 06-b-done-the-sketch-tool.png
+00:32:07 about to click the view cube's Front label at (1494, 180)
+00:32:08 clicked the view cube's Front label -> 08-b-done-the-view-cube-s-front-label.png
+00:32:47 about to click the circle group's arrow at (331, 58)
+00:32:48 clicked the circle group's arrow -> 10-b-done-the-circle-group-s-arrow.png
+00:32:49 about to click Center point circle at (381, 94)
+00:32:50 clicked Center point circle -> 11-b-done-center-point-circle.png
+00:32:51 about to click the origin, where the hinge axis goes at (922, 522)
+00:32:52 clicked the origin, where the hinge axis goes -> 12-b-done-the-origin-where-the-hinge-axis-goes.png
+00:32:52 about to click a point out on the circle at (1050, 522)
+00:32:52 clicked a point out on the circle -> 13-b-done-a-point-out-on-the-circle.png
+00:32:54 about to click the circle's rim at (1050, 522)
+00:32:55 clicked the circle's rim -> 15-b-done-the-circle-s-rim.png
+00:32:55 about to click where the diameter sits at (1200, 430)
+00:32:56 clicked where the diameter sits -> 16-b-done-where-the-diameter-sits.png
+00:32:59 the round end, the limb's own diameter: 45.64645 mm -> 12
+00:34:06 about to click the rectangle group's arrow at (278, 58)
+00:34:06 clicked the rectangle group's arrow -> 19-b-done-the-rectangle-group-s-arrow.png
+00:34:07 about to click Center point rectangle at (336, 130)
+00:34:08 clicked Center point rectangle -> 20-b-done-center-point-rectangle.png
+00:34:09 about to click the rectangle's middle, below the round end at (923, 660)
+00:34:10 clicked the rectangle's middle, below the round end -> 21-b-done-the-rectangle-s-middle-below-the-round-end.png
+00:34:10 about to click a corner, out past the round end at (1060, 770)
+00:34:10 clicked a corner, out past the round end -> 22-b-done-a-corner-out-past-the-round-end.png
+00:34:11 about to click the origin, which is the hinge axis at (923, 526)
+00:34:12 clicked the origin, which is the hinge axis -> 24-b-done-the-origin-which-is-the-hinge-axis.png
+00:34:12 about to click the rectangle's top edge, added to the selection at (795, 550)
+00:34:13 clicked the rectangle's top edge, added to the selection -> 25-b-done-the-rectangle-s-top-edge-added-to-the-selection.png
+00:35:03 about to click empty canvas, to clear the selection at (600, 880)
+00:35:04 clicked empty canvas, to clear the selection -> 27-b-done-empty-canvas-to-clear-the-selection.png
+00:35:04 about to click the origin, which is the hinge axis at (923, 526)
+00:35:05 clicked the origin, which is the hinge axis -> 28-b-done-the-origin-which-is-the-hinge-axis.png
+00:35:05 about to click the rectangle's top edge, well clear of its corner at (870, 548)
+00:35:06 clicked the rectangle's top edge, well clear of its corner -> 30-b-done-the-rectangle-s-top-edge-well-clear-of-its-corne.png
+00:36:05 about to click empty canvas, to clear the selection at (600, 880)
+00:36:06 clicked empty canvas, to clear the selection -> 33-b-done-empty-canvas-to-clear-the-selection.png
+00:36:06 about to click the rectangle's top edge at (870, 548)
+00:36:07 clicked the rectangle's top edge -> 34-b-done-the-rectangle-s-top-edge.png
+00:36:07 about to click the horizontal axis, added to the selection at (1300, 526)
+00:36:08 clicked the horizontal axis, added to the selection -> 35-b-done-the-horizontal-axis-added-to-the-selection.png
+00:36:39 about to click empty canvas, to clear the selection at (600, 880)
+00:36:40 clicked empty canvas, to clear the selection -> 38-b-done-empty-canvas-to-clear-the-selection.png
+00:36:40 about to click the rectangle's middle point at (923, 637)
+00:36:41 clicked the rectangle's middle point -> 39-b-done-the-rectangle-s-middle-point.png
+00:36:41 about to click the vertical axis, added to the selection at (923, 300)
+00:36:42 clicked the vertical axis, added to the selection -> 40-b-done-the-vertical-axis-added-to-the-selection.png
+00:37:09 about to click empty canvas, to clear the selection at (600, 880)
+00:37:10 clicked empty canvas, to clear the selection -> 43-b-done-empty-canvas-to-clear-the-selection.png
+00:37:11 about to click the rectangle's bottom edge at (860, 747)
+00:37:12 clicked the rectangle's bottom edge -> 44-b-done-the-rectangle-s-bottom-edge.png
+00:37:12 about to click where the width sits at (923, 850)
+00:37:13 clicked where the width sits -> 45-b-done-where-the-width-sits.png
+00:38:17 about to click empty canvas, to clear the selection at (600, 880)
+00:38:18 clicked empty canvas, to clear the selection -> 47-b-done-empty-canvas-to-clear-the-selection.png
+00:38:19 about to click the rectangle's middle point at (923, 637)
+00:38:20 clicked the rectangle's middle point -> 48-b-done-the-rectangle-s-middle-point.png
+00:38:20 about to click the vertical axis, added to the selection at (923, 300)
+00:38:21 clicked the vertical axis, added to the selection -> 49-b-done-the-vertical-axis-added-to-the-selection.png
+00:38:22 about to click empty canvas, to clear the selection at (600, 880)
+00:38:23 clicked empty canvas, to clear the selection -> 51-b-done-empty-canvas-to-clear-the-selection.png
+00:38:24 about to click the rectangle's bottom edge at (860, 747)
+00:38:25 clicked the rectangle's bottom edge -> 52-b-done-the-rectangle-s-bottom-edge.png
+00:38:25 about to click where the width sits, clear of the axis at (1200, 850)
+00:38:26 clicked where the width sits, clear of the axis -> 53-b-done-where-the-width-sits-clear-of-the-axis.png
+00:38:29 the blade's width, the limb's own diameter: 13.68402 mm -> 12
+00:38:53 about to click empty canvas, to clear the selection at (600, 880)
+00:38:54 clicked empty canvas, to clear the selection -> 55-b-done-empty-canvas-to-clear-the-selection.png
+00:38:55 about to click the rectangle's left edge at (805, 690)
+00:38:56 clicked the rectangle's left edge -> 56-b-done-the-rectangle-s-left-edge.png
+00:38:56 about to click where the height sits at (660, 690)
+00:38:57 clicked where the height sits -> 57-b-done-where-the-height-sits.png
+00:38:59 how far the blade reaches down its own limb: 11.05022 mm -> 10
+00:39:22 about to click the green tick at (424, 93)
+00:39:23 clicked the green tick -> 59-b-done-the-green-tick.png
+00:39:25 about to click the Sketch 1 row, to rename it at (140, 287)
+00:39:26 clicked the Sketch 1 row, to rename it -> 60-b-done-the-sketch-1-row-to-rename-it.png
+00:39:26 about to click Rename in the context menu at (263, 311)
+00:39:26 clicked Rename in the context menu -> 61-b-done-rename-in-the-context-menu.png
+00:39:28 renamed 'Sketch 1' to 'Blade profile'
+00:40:00 about to click the extrude tool at (219, 58)
+00:40:01 clicked the extrude tool -> 64-b-done-the-extrude-tool.png
+00:40:02 about to click the Blade profile row in the feature list, which hands over every region at (140, 287)
+00:40:04 clicked the Blade profile row in the feature list, which hands over every region -> 65-b-done-the-blade-profile-row-in-the-feature-list-which-.png
+00:40:05 symmetric sits at [[300, 340]]
+00:40:05 about to click the Symmetric box at (288, 340)
+00:40:06 clicked the Symmetric box -> 67-b-done-the-symmetric-box.png
+00:40:07 about to click the depth field, reading '25 mm' at (359, 259)
+00:40:08 clicked the depth field, reading '25 mm' -> 68-b-done-the-depth-field-reading-25-mm.png
+00:40:10 how thick the blade is: 25 mm -> 5 mm
+00:40:31 about to click the green tick at (424, 93)
+00:40:32 clicked the green tick -> 70-b-done-the-green-tick.png
+00:40:34 about to click the Extrude 1 row, to rename it at (140, 313)
+00:40:35 clicked the Extrude 1 row, to rename it -> 71-b-done-the-extrude-1-row-to-rename-it.png
+00:40:35 about to click Rename in the context menu at (261, 337)
+00:40:35 clicked Rename in the context menu -> 72-b-done-rename-in-the-context-menu.png
+00:40:37 renamed 'Extrude 1' to 'Blade blank'
+00:40:37 blade blank volume 882.7433 mm3, closed form 882.7433
+00:41:05 about to click the Top plane in the feature list at (140, 209)
+00:41:06 clicked the Top plane in the feature list -> 75-b-done-the-top-plane-in-the-feature-list.png
+00:41:07 about to click the Sketch tool at (155, 58)
+00:41:07 clicked the Sketch tool -> 76-b-done-the-sketch-tool.png
+00:41:10 about to click the view menu at (1563, 232)
+00:41:11 clicked the view menu -> 77-b-done-the-view-menu.png
+00:41:11 about to click Isometric at (1455, 302)
+00:41:12 clicked Isometric -> 78-b-done-isometric.png
+00:41:42 about to click the view cube's Top face at (1511, 141)
+00:41:43 clicked the view cube's Top face -> 80-b-done-the-view-cube-s-top-face.png
+00:41:45 about to click the view menu at (1563, 232)
+00:41:46 clicked the view menu -> 81-b-done-the-view-menu.png
+00:41:46 about to click Zoom to fit at (1459, 393)
+00:41:47 clicked Zoom to fit -> 82-b-done-zoom-to-fit.png
+00:42:26 about to click the circle group's arrow at (331, 58)
+00:42:26 clicked the circle group's arrow -> 85-b-done-the-circle-group-s-arrow.png
+00:42:27 about to click Center point circle at (381, 94)
+00:42:28 clicked Center point circle -> 86-b-done-center-point-circle.png
+00:42:29 about to click the origin, where the limb's middle goes at (871, 525)
+00:42:29 clicked the origin, where the limb's middle goes -> 87-b-done-the-origin-where-the-limb-s-middle-goes.png
+00:42:29 about to click a point out on the circle at (1030, 525)
+00:42:30 clicked a point out on the circle -> 88-b-done-a-point-out-on-the-circle.png
+00:43:00 about to click the limb circle's rim at (983, 413)
+00:43:01 clicked the limb circle's rim -> 90-b-done-the-limb-circle-s-rim.png
+00:43:01 about to click where the diameter sits at (1180, 330)
+00:43:02 clicked where the diameter sits -> 91-b-done-where-the-diameter-sits.png
+00:43:04 the limb's outside: 20.10151 mm -> 12
+00:43:04 about to click the green tick at (424, 93)
+00:43:05 clicked the green tick -> 93-b-done-the-green-tick.png
+00:43:07 about to click the Sketch 1 row, to rename it at (140, 339)
+00:43:08 clicked the Sketch 1 row, to rename it -> 94-b-done-the-sketch-1-row-to-rename-it.png
+00:43:08 about to click Rename in the context menu at (263, 363)
+00:43:09 clicked Rename in the context menu -> 95-b-done-rename-in-the-context-menu.png
+00:43:10 renamed 'Sketch 1' to 'Limb section'
+00:43:42 about to click the extrude tool at (219, 58)
+00:43:43 clicked the extrude tool -> 98-b-done-the-extrude-tool.png
+00:43:45 about to click the Limb section row in the feature list at (140, 339)
+00:43:46 clicked the Limb section row in the feature list -> 99-b-done-the-limb-section-row-in-the-feature-list.png
+00:43:47 about to click Intersect at (432, 148)
+00:43:48 clicked Intersect -> 100-b-done-intersect.png
+00:43:49 about to click the end condition list at (343, 231)
+00:43:50 clicked the end condition list -> 102-b-done-the-end-condition-list.png
+00:44:17 about to click Through all at (291, 392)
+00:44:18 clicked Through all -> 104-b-done-through-all.png
+00:44:19 symmetric sits at [[300, 314]]
+00:44:19 about to click the Symmetric box at (288, 314)
+00:44:20 clicked the Symmetric box -> 105-b-done-the-symmetric-box.png
+00:44:21 merge scope reads Part 1 at [[158, 695], [349, 419]]
+00:47:13 about to click the green tick at (424, 93)
+00:47:14 clicked the green tick -> 107-b-done-the-green-tick.png
+00:47:16 about to click the Extrude 1 row, to rename it at (140, 365)
+00:47:17 clicked the Extrude 1 row, to rename it -> 108-b-done-the-extrude-1-row-to-rename-it.png
+00:47:17 about to click Rename in the context menu at (261, 389)
+00:47:18 clicked Rename in the context menu -> 109-b-done-rename-in-the-context-menu.png
+00:47:20 renamed 'Extrude 1' to 'Trim blade to limb'
+00:50:07 about to click Isometric, so the rod's direction is visible at (1455, 302)
+00:50:08 clicked Isometric, so the rod's direction is visible -> 112-b-done-isometric-so-the-rod-s-direction-is-visible.png
+00:50:10 about to click the extrude tool at (219, 58)
+00:50:11 clicked the extrude tool -> 113-b-done-the-extrude-tool.png
+00:50:12 tree rows ['', 'Blade blank', 'Blade profile', 'Default geometry', 'Extrude 1', 'Front', 'Limb section', 'Origin', 'Part 1', 'Parts (1)', 'Right', 'Top', 'Trim blade to limb']
+00:50:12 about to click the Limb section row, which hands over the Ø12 region again at (140, 339)
+00:50:13 clicked the Limb section row, which hands over the Ø12 region again -> 114-b-done-the-limb-section-row-which-hands-over-the-12-reg.png
+00:50:14 about to click Add at (313, 148)
+00:50:15 clicked Add -> 115-b-done-add.png
+00:50:45 about to click the depth field, reading '25 mm' at (359, 259)
+00:50:46 clicked the depth field, reading '25 mm' -> 117-b-done-the-depth-field-reading-25-mm.png
+00:50:48 how far the rod runs: 25 mm -> 10 mm
+00:50:49 about to click the Direction box, to send the rod the other way at (256, 286)
+00:50:50 clicked the Direction box, to send the rod the other way -> 118-b-done-the-direction-box-to-send-the-rod-the-other-way.png
+00:51:13 direction sits at [[314, 286], [256, 256]]
+00:51:13 about to click the Direction box, to send the rod the other way at (305, 286)
+00:51:14 clicked the Direction box, to send the rod the other way -> 120-b-done-the-direction-box-to-send-the-rod-the-other-way.png
+00:51:16 starting offset sits at [[330, 349]]
+00:51:16 about to click the Starting offset box at (321, 349)
+00:51:17 clicked the Starting offset box -> 122-b-done-the-starting-offset-box.png
+00:51:53 about to click the Direction box again, to put it back at (276, 286)
+00:51:53 clicked the Direction box again, to put it back -> 124-b-done-the-direction-box-again-to-put-it-back.png
+00:51:55 about to click the view menu at (1563, 232)
+00:51:56 clicked the view menu -> 125-b-done-the-view-menu.png
+00:51:57 about to click Isometric at (1455, 302)
+00:51:58 clicked Isometric -> 126-b-done-isometric.png
+00:52:27 about to click Add at (313, 148)
+00:52:28 clicked Add -> 128-b-done-add.png
+00:52:29 about to click the arrow that turns the extrude around at (452, 231)
+00:52:30 clicked the arrow that turns the extrude around -> 129-b-done-the-arrow-that-turns-the-extrude-around.png
+00:53:24 icon [261, 516, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [281, 121, 'SPAN', '']
+00:53:24 icon [433, 121, 'SPAN', '']
+00:53:24 icon [268, 149, 'SPAN', '']
+00:53:24 icon [312, 149, 'SPAN', '']
+00:53:24 icon [447, 200, 'SPAN', 'os-param-selection-list-entry-delete']
+00:53:24 icon [430, 234, 'I', 'caret float-end']
+00:53:24 icon [453, 230, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [256, 259, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [287, 261, 'SPAN', '']
+00:53:24 icon [425, 261, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [256, 286, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [276, 286, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [256, 313, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [276, 313, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [430, 342, 'I', 'caret float-end']
+00:53:24 icon [287, 369, 'SPAN', '']
+00:53:24 icon [453, 367, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [256, 395, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [256, 422, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [283, 422, 'SPAN', 'os-param-checkbox-label']
+00:53:24 icon [256, 449, 'use', '[object SVGAnimatedString]']
+00:53:24 icon [276, 449, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [256, 477, 'SPAN', 'os-checkbox-indicator']
+00:53:24 icon [331, 541, 'DIV', 'noUi-handle noUi-handle-lower']
+00:53:24 icon [455, 539, 'use', '[object SVGAnimatedString]']
+00:53:47 about to click the arrow that turns the starting offset around at (453, 367)
+00:53:47 clicked the arrow that turns the starting offset around -> 131-b-done-the-arrow-that-turns-the-starting-offset-around.png
+00:54:09 about to click the green tick at (424, 93)
+00:54:10 clicked the green tick -> 133-b-done-the-green-tick.png
+00:54:13 about to click the Extrude 1 row, to rename it at (140, 391)
+00:54:14 clicked the Extrude 1 row, to rename it -> 134-b-done-the-extrude-1-row-to-rename-it.png
+00:54:14 about to click Rename in the context menu at (261, 415)
+00:54:14 clicked Rename in the context menu -> 135-b-done-rename-in-the-context-menu.png
+00:54:16 renamed 'Extrude 1' to 'Limb'
+00:56:43 about to click the view cube's Front face at (1494, 180)
+00:56:44 clicked the view cube's Front face -> 138-b-done-the-view-cube-s-front-face.png
+00:56:46 about to click the view menu at (1563, 232)
+00:56:47 clicked the view menu -> 139-b-done-the-view-menu.png
+00:56:48 about to click Zoom to fit at (1459, 393)
+00:56:49 clicked Zoom to fit -> 140-b-done-zoom-to-fit.png
+00:57:24 about to click the Front plane in the feature list at (140, 235)
+00:57:24 clicked the Front plane in the feature list -> 143-b-done-the-front-plane-in-the-feature-list.png
+00:57:25 about to click the sketch tool at (155, 58)
+00:57:26 clicked the sketch tool -> 144-b-done-the-sketch-tool.png
+00:57:59 about to click the circle group's arrow at (331, 58)
+00:58:00 clicked the circle group's arrow -> 146-b-done-the-circle-group-s-arrow.png
+00:58:00 about to click Center point circle at (381, 94)
+00:58:01 clicked Center point circle -> 147-b-done-center-point-circle.png
+00:58:02 about to click where the ball's centre goes, well below the limb at (922, 660)
+00:58:03 clicked where the ball's centre goes, well below the limb -> 148-b-done-where-the-ball-s-centre-goes-well-below-the-limb.png
+00:58:03 about to click a point out on the ball at (964, 660)
+00:58:04 clicked a point out on the ball -> 149-b-done-a-point-out-on-the-ball.png
+00:58:05 about to click the line tool at (200, 58)
+00:58:06 clicked the line tool -> 151-b-done-the-line-tool.png
+00:58:06 about to click the bottom of the ball, on the axis at (922, 703)
+00:58:07 clicked the bottom of the ball, on the axis -> 152-b-done-the-bottom-of-the-ball-on-the-axis.png
+00:58:07 about to click up the axis to where the stalk's top goes at (922, 589)
+00:58:08 clicked up the axis to where the stalk's top goes -> 153-b-done-up-the-axis-to-where-the-stalk-s-top-goes.png
+00:58:08 about to click out to the stalk's side at (943, 589)
+00:58:09 clicked out to the stalk's side -> 154-b-done-out-to-the-stalk-s-side.png
+00:58:09 about to click down the stalk's side onto the ball at (943, 617)
+00:58:10 clicked down the stalk's side onto the ball -> 155-b-done-down-the-stalk-s-side-onto-the-ball.png
+01:00:04 about to click the line tool at (200, 58)
+01:00:04 clicked the line tool -> 159-b-done-the-line-tool.png
+01:00:05 about to click the free end of the stalk's top edge at (957, 528)
+01:00:06 clicked the free end of the stalk's top edge -> 160-b-done-the-free-end-of-the-stalk-s-top-edge.png
+01:00:07 about to click down onto the ball at (957, 652)
+01:00:07 clicked down onto the ball -> 161-b-done-down-onto-the-ball.png
+01:00:50 about to click the view menu at (1563, 232)
+01:00:51 clicked the view menu -> 163-b-done-the-view-menu.png
+01:00:52 about to click Zoom to fit at (1459, 393)
+01:00:53 clicked Zoom to fit -> 164-b-done-zoom-to-fit.png
+01:02:30 about to click the ball's rim, out on its left at (885, 753)
+01:02:31 clicked the ball's rim, out on its left -> 167-b-done-the-ball-s-rim-out-on-its-left.png
+01:02:31 about to click where the diameter sits, clear of everything at (770, 870)
+01:02:32 clicked where the diameter sits, clear of everything -> 168-b-done-where-the-diameter-sits-clear-of-everything.png
+01:02:34 the ball across: 6.00374 mm -> 6
+01:02:35 about to click the hinge axis, out to the right at (1300, 452)
+01:02:36 clicked the hinge axis, out to the right -> 170-b-done-the-hinge-axis-out-to-the-right.png
+01:02:36 about to click the ball's centre at (922, 753)
+01:02:37 clicked the ball's centre -> 171-b-done-the-ball-s-centre.png
+01:02:37 about to click where the length sits at (1120, 620)
+01:02:38 clicked where the length sits -> 172-b-done-where-the-length-sits.png
+01:02:40 how far the ball's centre sits from the hinge: 23.98578 mm -> 24
+01:03:09 about to click the hinge axis, out to the right at (1300, 452)
+01:03:10 clicked the hinge axis, out to the right -> 174-b-done-the-hinge-axis-out-to-the-right.png
+01:03:10 about to click the corner where the stalk's top meets its side at (938, 690)
+01:03:10 clicked the corner where the stalk's top meets its side -> 175-b-done-the-corner-where-the-stalk-s-top-meets-its-side.png
+01:03:10 about to click where the depth sits at (1290, 570)
+01:03:11 clicked where the depth sits -> 176-b-done-where-the-depth-sits.png
+01:03:53 about to click the message's close button at (990, 99)
+01:03:54 clicked the message's close button -> 177-b-done-the-message-s-close-button.png
+01:04:26 about to click the hinge axis, well out to the left at (600, 156)
+01:04:27 clicked the hinge axis, well out to the left -> 179-b-done-the-hinge-axis-well-out-to-the-left.png
+01:04:27 about to click the corner where the stalk's top meets its side at (941, 690)
+01:04:28 clicked the corner where the stalk's top meets its side -> 180-b-done-the-corner-where-the-stalk-s-top-meets-its-side.png
+01:04:28 about to click where the depth sits at (1150, 400)
+01:04:29 clicked where the depth sits -> 181-b-done-where-the-depth-sits.png
+01:04:31 how far the stalk's top runs up inside the limb: 18.95976 mm -> 19
+01:04:32 about to click the vertical axis, below the ball at (899, 970)
+01:04:33 clicked the vertical axis, below the ball -> 183-b-done-the-vertical-axis-below-the-ball.png
+01:04:33 about to click the same corner at (941, 690)
+01:04:34 clicked the same corner -> 184-b-done-the-same-corner.png
+01:04:34 about to click where the half-width sits at (1080, 960)
+01:04:35 clicked where the half-width sits -> 185-b-done-where-the-half-width-sits.png
+01:05:10 about to click the message's close button at (988, 99)
+01:05:11 clicked the message's close button -> 186-b-done-the-message-s-close-button.png
+01:05:11 about to click the line that closes the profile on the axis at (899, 800)
+01:05:12 clicked the line that closes the profile on the axis -> 187-b-done-the-line-that-closes-the-profile-on-the-axis.png
+01:05:12 about to click the stalk's top corner at (941, 690)
+01:05:13 clicked the stalk's top corner -> 188-b-done-the-stalk-s-top-corner.png
+01:05:13 about to click where the half-width sits at (1080, 880)
+01:05:14 clicked where the half-width sits -> 189-b-done-where-the-half-width-sits.png
+01:05:16 half the stalk's thickness: 1.48853 mm -> 1.5
+01:05:32 about to click the view menu at (1563, 232)
+01:05:33 clicked the view menu -> 191-b-done-the-view-menu.png
+01:05:34 about to click Zoom to fit at (1459, 393)
+01:05:35 clicked Zoom to fit -> 192-b-done-zoom-to-fit.png
+01:05:59 about to click the green tick at (424, 93)
+01:06:00 clicked the green tick -> 194-b-done-the-green-tick.png
+01:06:02 about to click the Sketch 1 row, to rename it at (140, 417)
+01:06:03 clicked the Sketch 1 row, to rename it -> 195-b-done-the-sketch-1-row-to-rename-it.png
+01:06:03 about to click Rename in the context menu at (263, 441)
+01:06:04 clicked Rename in the context menu -> 196-b-done-rename-in-the-context-menu.png
+01:06:05 renamed 'Sketch 1' to 'Ball stud profile'
+01:07:07 about to click the revolve tool at (253, 58)
+01:07:08 clicked the revolve tool -> 200-b-done-the-revolve-tool.png
+01:07:10 about to click the stalk, right of the axis at (932, 665)
+01:07:11 clicked the stalk, right of the axis -> 202-b-done-the-stalk-right-of-the-axis.png
+01:07:12 about to click the ball's right half at (950, 790)
+01:07:12 clicked the ball's right half -> 203-b-done-the-ball-s-right-half.png
+01:07:39 about to click the line closing the profile, which is the axis to spin about at (912, 700)
+01:07:40 clicked the line closing the profile, which is the axis to spin about -> 205-b-done-the-line-closing-the-profile-which-is-the-axis-t.png
+01:07:42 about to click Add at (313, 148)
+01:07:42 clicked Add -> 207-b-done-add.png
+01:08:11 about to click the x on the third region, which is the ball's left half at (447, 248)
+01:08:12 clicked the x on the third region, which is the ball's left half -> 209-b-done-the-x-on-the-third-region-which-is-the-ball-s-le.png
+01:08:13 about to click the Revolve axis box at (343, 255)
+01:08:14 clicked the Revolve axis box -> 210-b-done-the-revolve-axis-box.png
+01:08:15 about to click the line closing the profile, which is the axis to spin about at (912, 700)
+01:08:16 clicked the line closing the profile, which is the axis to spin about -> 211-b-done-the-line-closing-the-profile-which-is-the-axis-t.png
+01:08:39 about to click the green tick at (424, 93)
+01:08:40 clicked the green tick -> 213-b-done-the-green-tick.png
+01:08:43 about to click the Revolve 1 row, to rename it at (140, 443)
+01:08:44 clicked the Revolve 1 row, to rename it -> 214-b-done-the-revolve-1-row-to-rename-it.png
+01:08:44 about to click Rename in the context menu at (269, 467)
+01:08:44 clicked Rename in the context menu -> 215-b-done-rename-in-the-context-menu.png
+01:08:46 renamed 'Revolve 1' to 'Ball stud'
+01:10:40 opening Ball stud profile at 140,417
+01:11:14 about to click empty canvas, to start with nothing picked at (600, 900)
+01:11:15 clicked empty canvas, to start with nothing picked -> 219-b-done-empty-canvas-to-start-with-nothing-picked.png
+01:11:15 about to click the line that closes the profile at (912, 780)
+01:11:16 clicked the line that closes the profile -> 220-b-done-the-line-that-closes-the-profile.png
+01:11:16 about to click the vertical axis, below the ball at (912, 900)
+01:11:17 clicked the vertical axis, below the ball -> 221-b-done-the-vertical-axis-below-the-ball.png
+01:11:41 about to click the green tick at (424, 93)
+01:11:42 clicked the green tick -> 224-b-done-the-green-tick.png
+01:12:57 about to click the Right plane in the feature list at (140, 261)
+01:12:58 clicked the Right plane in the feature list -> 226-b-done-the-right-plane-in-the-feature-list.png
+01:12:59 about to click the sketch tool at (155, 58)
+01:13:00 clicked the sketch tool -> 227-b-done-the-sketch-tool.png
+01:13:02 about to click the view cube's right arrow, to look along the limb's other side at (1580, 166)
+01:13:03 clicked the view cube's right arrow, to look along the limb's other side -> 228-b-done-the-view-cube-s-right-arrow-to-look-along-the-li.png
+01:13:05 about to click the view menu at (1563, 232)
+01:13:06 clicked the view menu -> 229-b-done-the-view-menu.png
+01:13:07 about to click Zoom to fit at (1459, 393)
+01:13:07 clicked Zoom to fit -> 230-b-done-zoom-to-fit.png
+01:13:53 about to click the button that looks straight at the sketch plane at (429, 285)
+01:13:54 clicked the button that looks straight at the sketch plane -> 232-b-done-the-button-that-looks-straight-at-the-sketch-pla.png
+01:14:53 about to click the view menu at (1563, 232)
+01:14:54 clicked the view menu -> 234-b-done-the-view-menu.png
+01:16:07 about to click the red X, to drop this sketch at (452, 93)
+01:16:08 clicked the red X, to drop this sketch -> 236-b-done-the-red-x-to-drop-this-sketch.png
+01:16:09 about to click the view cube's Top face at (1511, 141)
+01:16:10 clicked the view cube's Top face -> 237-b-done-the-view-cube-s-top-face.png
+01:16:12 about to click the view menu at (1563, 232)
+01:16:13 clicked the view menu -> 238-b-done-the-view-menu.png
+01:16:14 about to click Zoom to fit at (1459, 393)
+01:16:15 clicked Zoom to fit -> 239-b-done-zoom-to-fit.png
+01:16:48 about to click the view cube's up arrow at (1509, 98)
+01:16:49 clicked the view cube's up arrow -> 241-b-done-the-view-cube-s-up-arrow.png
+01:17:27 about to click the Top plane in the feature list at (140, 209)
+01:17:27 clicked the Top plane in the feature list -> 243-b-done-the-top-plane-in-the-feature-list.png
+01:18:06 about to click the Top plane again, to start the sketch on it at (140, 209)
+01:18:07 clicked the Top plane again, to start the sketch on it -> 245-b-done-the-top-plane-again-to-start-the-sketch-on-it.png
+01:18:08 about to click the sketch tool at (155, 58)
+01:18:09 clicked the sketch tool -> 246-b-done-the-sketch-tool.png
+01:18:47 about to click the Top plane in the feature list at (140, 209)
+01:18:48 clicked the Top plane in the feature list -> 248-b-done-the-top-plane-in-the-feature-list.png
+01:19:47 about to click the rectangle tool at (254, 58)
+01:19:48 clicked the rectangle tool -> 250-b-done-the-rectangle-tool.png
+01:19:49 about to click one corner of the slit, out past the limb at (760, 505)
+01:19:50 clicked one corner of the slit, out past the limb -> 251-b-done-one-corner-of-the-slit-out-past-the-limb.png
+01:19:50 about to click the far corner at (1080, 555)
+01:19:51 clicked the far corner -> 252-b-done-the-far-corner.png
+01:19:52 about to click empty canvas, to clear the selection at (600, 800)
+01:19:53 clicked empty canvas, to clear the selection -> 254-b-done-empty-canvas-to-clear-the-selection.png
+01:19:53 about to click the rectangle's top edge at (900, 505)
+01:19:54 clicked the rectangle's top edge -> 255-b-done-the-rectangle-s-top-edge.png
+01:19:54 about to click the bottom edge at (900, 555)
+01:19:54 clicked the bottom edge -> 256-b-done-the-bottom-edge.png
+01:19:54 about to click the horizontal axis, which the slit straddles at (500, 529)
+01:19:55 clicked the horizontal axis, which the slit straddles -> 257-b-done-the-horizontal-axis-which-the-slit-straddles.png
+01:20:43 about to click the red X, to drop that sketch at (452, 93)
+01:20:44 clicked the red X, to drop that sketch -> 259-b-done-the-red-x-to-drop-that-sketch.png
+01:20:45 about to click the Top plane in the feature list at (140, 209)
+01:20:46 clicked the Top plane in the feature list -> 260-b-done-the-top-plane-in-the-feature-list.png
+01:20:47 about to click the sketch tool at (155, 58)
+01:20:48 clicked the sketch tool -> 261-b-done-the-sketch-tool.png
+01:20:50 about to click the rectangle group's arrow at (278, 58)
+01:20:51 clicked the rectangle group's arrow -> 263-b-done-the-rectangle-group-s-arrow.png
+01:20:52 about to click Center point rectangle at (336, 130)
+01:20:53 clicked Center point rectangle -> 264-b-done-center-point-rectangle.png
+01:20:53 about to click the origin, which the slit is built out from at (920, 529)
+01:20:54 clicked the origin, which the slit is built out from -> 265-b-done-the-origin-which-the-slit-is-built-out-from.png
+01:20:54 about to click a corner, out past the limb at (1080, 555)
+01:20:55 clicked a corner, out past the limb -> 266-b-done-a-corner-out-past-the-limb.png
+01:21:30 about to click the message's close button at (940, 99)
+01:21:31 clicked the message's close button -> 268-b-done-the-message-s-close-button.png
+01:21:33 about to click the rectangle's left edge at (760, 545)
+01:21:34 clicked the rectangle's left edge -> 269-b-done-the-rectangle-s-left-edge.png
+01:21:34 about to click the right edge at (1080, 545)
+01:21:34 clicked the right edge -> 270-b-done-the-right-edge.png
+01:21:34 about to click where the width sits at (1250, 800)
+01:21:35 clicked where the width sits -> 271-b-done-where-the-width-sits.png
+01:21:38 right across the limb, so the cut runs clean out both sides: 11.33126 mm -> 14
+01:21:39 about to click the top edge at (900, 505)
+01:21:40 clicked the top edge -> 273-b-done-the-top-edge.png
+01:21:40 about to click the bottom edge at (900, 553)
+01:21:41 clicked the bottom edge -> 274-b-done-the-bottom-edge.png
+01:21:41 about to click where the thickness sits at (1250, 700)
+01:21:41 clicked where the thickness sits -> 275-b-done-where-the-thickness-sits.png
+01:22:10 about to click the top edge at (1000, 498)
+01:22:10 clicked the top edge -> 276-b-done-the-top-edge.png
+01:22:10 about to click the bottom edge at (1000, 560)
+01:22:11 clicked the bottom edge -> 277-b-done-the-bottom-edge.png
+01:22:11 about to click where the thickness sits at (1300, 650)
+01:22:12 clicked where the thickness sits -> 278-b-done-where-the-thickness-sits.png
+01:22:15 how thick the slit is: 2.23274 mm -> 0.8
+01:22:30 about to click the green tick at (424, 93)
+01:22:31 clicked the green tick -> 280-b-done-the-green-tick.png
+01:22:33 about to click the Sketch 1 row, to rename it at (140, 469)
+01:22:34 clicked the Sketch 1 row, to rename it -> 281-b-done-the-sketch-1-row-to-rename-it.png
+01:22:34 about to click Rename in the context menu at (263, 493)
+01:22:35 clicked Rename in the context menu -> 282-b-done-rename-in-the-context-menu.png
+01:22:37 renamed 'Sketch 1' to 'Slit profile'
+01:25:38 about to click the extrude tool at (219, 58)
+01:25:38 clicked the extrude tool -> 285-b-done-the-extrude-tool.png
+01:25:40 about to click the Slit profile row, which hands over its one region at (140, 469)
+01:25:41 clicked the Slit profile row, which hands over its one region -> 286-b-done-the-slit-profile-row-which-hands-over-its-one-re.png
+01:25:42 about to click Remove at (366, 148)
+01:25:43 clicked Remove -> 287-b-done-remove.png
+01:25:45 about to click the end condition list at (343, 231)
+01:25:45 clicked the end condition list -> 288-b-done-the-end-condition-list.png
+01:26:13 about to click Through all at (292, 392)
+01:26:14 clicked Through all -> 290-b-done-through-all.png
+01:26:15 about to click the view menu at (1563, 232)
+01:26:16 clicked the view menu -> 292-b-done-the-view-menu.png
+01:26:17 about to click Isometric at (1455, 302)
+01:26:18 clicked Isometric -> 293-b-done-isometric.png
+01:26:56 about to click the opposite direction arrow, so the cut runs up the blade at (452, 231)
+01:26:57 clicked the opposite direction arrow, so the cut runs up the blade -> 295-b-done-the-opposite-direction-arrow-so-the-cut-runs-up-.png
+01:26:58 about to click Starting offset at (276, 287)
+01:26:59 clicked Starting offset -> 296-b-done-starting-offset.png
+01:27:34 about to click the starting offset's own opposite direction arrow at (452, 343)
+01:27:35 clicked the starting offset's own opposite direction arrow -> 298-b-done-the-starting-offset-s-own-opposite-direction-arr.png
+01:28:12 about to click the green tick at (424, 93)
+01:28:13 clicked the green tick -> 300-b-done-the-green-tick.png
+01:28:15 about to click the Extrude 1 row, to rename it at (140, 495)
+01:28:16 clicked the Extrude 1 row, to rename it -> 301-b-done-the-extrude-1-row-to-rename-it.png
+01:28:42 about to click the green tick at (424, 93)
+01:28:43 clicked the green tick -> 302-b-done-the-green-tick.png
+01:28:56 about to click the Extrude 1 row, to rename it at (140, 495)
+01:28:57 clicked the Extrude 1 row, to rename it -> 304-b-done-the-extrude-1-row-to-rename-it.png
+01:28:57 about to click Rename in the context menu at (261, 519)
+01:28:58 clicked Rename in the context menu -> 305-b-done-rename-in-the-context-menu.png
+01:29:00 renamed 'Extrude 1' to 'Slit'
+01:34:12 about to click the view menu at (1563, 232)
+01:34:13 clicked the view menu -> 308-b-done-the-view-menu.png
+01:34:33 about to click Zoom to fit at (1459, 393)
+01:34:34 clicked Zoom to fit -> 310-b-done-zoom-to-fit.png
+01:34:35 about to click the Front plane in the feature list at (140, 235)
+01:34:36 clicked the Front plane in the feature list -> 311-b-done-the-front-plane-in-the-feature-list.png
+01:35:12 about to click the sketch tool at (155, 58)
+01:35:13 clicked the sketch tool -> 313-b-done-the-sketch-tool.png
+01:36:23 about to click the circle tool at (306, 58)
+01:36:24 clicked the circle tool -> 316-b-done-the-circle-tool.png
+01:36:25 about to click the origin, which is the hinge axis end-on at (929, 528)
+01:36:26 clicked the origin, which is the hinge axis end-on -> 317-b-done-the-origin-which-is-the-hinge-axis-end-on.png
+01:36:26 about to click a point out from it, to set a first size at (1049, 528)
+01:36:27 clicked a point out from it, to set a first size -> 318-b-done-a-point-out-from-it-to-set-a-first-size.png
+01:36:30 about to click the circle at (1049, 528)
+01:36:30 clicked the circle -> 320-b-done-the-circle.png
+01:36:30 about to click where the size sits at (1200, 400)
+01:36:31 clicked where the size sits -> 321-b-done-where-the-size-sits.png
+01:36:34 how wide the pocket is: 4.66346 mm -> 2.2
+01:37:04 about to click the green tick at (424, 93)
+01:37:05 clicked the green tick -> 323-b-done-the-green-tick.png
+01:37:08 about to click the Sketch 1 row, to rename it at (140, 521)
+01:37:08 clicked the Sketch 1 row, to rename it -> 324-b-done-the-sketch-1-row-to-rename-it.png
+01:37:08 about to click Rename in the context menu at (263, 545)
+01:37:09 clicked Rename in the context menu -> 325-b-done-rename-in-the-context-menu.png
+01:37:11 renamed 'Sketch 1' to 'Pocket circle'
+01:38:04 about to click the extrude tool at (219, 58)
+01:38:05 clicked the extrude tool -> 327-b-done-the-extrude-tool.png
+01:38:07 about to click the Pocket circle row at (140, 521)
+01:38:08 clicked the Pocket circle row -> 328-b-done-the-pocket-circle-row.png
+01:38:09 about to click Remove at (366, 148)
+01:38:10 clicked Remove -> 329-b-done-remove.png
+01:38:14 about to click Starting offset at (276, 313)
+01:38:14 clicked Starting offset -> 330-b-done-starting-offset.png
+01:38:53 about to click the green tick at (424, 93)
+01:38:54 clicked the green tick -> 333-b-done-the-green-tick.png
+01:38:57 about to click the Extrude 1 row, to rename it at (140, 547)
+01:38:58 clicked the Extrude 1 row, to rename it -> 334-b-done-the-extrude-1-row-to-rename-it.png
+01:39:13 about to click the Extrude 1 row, to rename it at (140, 547)
+01:39:14 clicked the Extrude 1 row, to rename it -> 335-b-done-the-extrude-1-row-to-rename-it.png
+01:40:17 about to click the green tick at (424, 93)
+01:40:18 clicked the green tick -> 336-b-done-the-green-tick.png
+01:40:21 about to click the Extrude 1 row, to rename it at (140, 547)
+01:40:22 clicked the Extrude 1 row, to rename it -> 337-b-done-the-extrude-1-row-to-rename-it.png
+01:40:22 about to click Rename in the context menu at (261, 571)
+01:40:22 clicked Rename in the context menu -> 338-b-done-rename-in-the-context-menu.png
+01:40:24 renamed 'Extrude 1' to 'Pocket'
+01:41:18 about to click the starting offset's own opposite direction arrow at (452, 369)
+01:41:19 clicked the starting offset's own opposite direction arrow -> 341-b-done-the-starting-offset-s-own-opposite-direction-arr.png
+01:41:20 about to click the green tick at (424, 93)
+01:41:21 clicked the green tick -> 343-b-done-the-green-tick.png
+01:42:08 about to click the Front plane in the feature list at (140, 235)
+01:42:08 clicked the Front plane in the feature list -> 344-b-done-the-front-plane-in-the-feature-list.png
+01:42:09 about to click the sketch tool at (155, 58)
+01:42:10 clicked the sketch tool -> 345-b-done-the-sketch-tool.png
+01:42:12 about to click the circle tool at (306, 58)
+01:42:13 clicked the circle tool -> 346-b-done-the-circle-tool.png
+01:42:14 about to click a point up the blade's centre line at (929, 275)
+01:42:15 clicked a point up the blade's centre line -> 347-b-done-a-point-up-the-blade-s-centre-line.png
+01:42:16 about to click a point out from it, to set a first size at (955, 275)
+01:42:16 clicked a point out from it, to set a first size -> 348-b-done-a-point-out-from-it-to-set-a-first-size.png
+01:42:45 about to click the valley circle at (957, 275)
+01:42:46 clicked the valley circle -> 350-b-done-the-valley-circle.png
+01:42:46 about to click where the size sits at (1150, 190)
+01:42:47 clicked where the size sits -> 351-b-done-where-the-size-sits.png
+01:42:49 how wide a valley is: 1.00652 mm -> 1.0
+01:42:51 about to click the origin, on the hinge axis at (929, 528)
+01:42:52 clicked the origin, on the hinge axis -> 353-b-done-the-origin-on-the-hinge-axis.png
+01:42:52 about to click the valley's centre at (929, 275)
+01:42:52 clicked the valley's centre -> 354-b-done-the-valley-s-centre.png
+01:42:52 about to click where the reach sits at (1060, 400)
+01:42:53 clicked where the reach sits -> 355-b-done-where-the-reach-sits.png
+01:43:18 how far out the tooth circle runs: 4.90274 mm -> 4.8
+01:43:19 about to click the green tick at (424, 93)
+01:43:20 clicked the green tick -> 358-b-done-the-green-tick.png
+01:43:23 about to click the Sketch 1 row, to rename it at (140, 573)
+01:43:24 clicked the Sketch 1 row, to rename it -> 359-b-done-the-sketch-1-row-to-rename-it.png
+01:43:24 about to click Rename in the context menu at (263, 597)
+01:43:25 clicked Rename in the context menu -> 360-b-done-rename-in-the-context-menu.png
+01:43:26 renamed 'Sketch 1' to 'Detent valley circle'
+01:43:48 about to click the extrude tool at (219, 58)
+01:43:49 clicked the extrude tool -> 362-b-done-the-extrude-tool.png
+01:43:50 about to click the Detent valley circle row at (140, 573)
+01:43:51 clicked the Detent valley circle row -> 363-b-done-the-detent-valley-circle-row.png
+01:43:53 about to click Remove at (366, 148)
+01:43:54 clicked Remove -> 364-b-done-remove.png
+01:43:57 about to click Starting offset at (276, 313)
+01:43:58 clicked Starting offset -> 365-b-done-starting-offset.png
+01:43:59 about to click the starting offset's own opposite direction arrow at (452, 369)
+01:44:00 clicked the starting offset's own opposite direction arrow -> 366-b-done-the-starting-offset-s-own-opposite-direction-arr.png
+01:44:29 about to click the green tick at (424, 93)
+01:44:30 clicked the green tick -> 368-b-done-the-green-tick.png
+01:44:33 about to click the green tick at (424, 93)
+01:44:34 clicked the green tick -> 369-b-done-the-green-tick.png
+01:44:36 about to click the Extrude 1 row, to rename it at (140, 599)
+01:44:37 clicked the Extrude 1 row, to rename it -> 370-b-done-the-extrude-1-row-to-rename-it.png
+01:44:37 about to click Rename in the context menu at (277, 623)
+01:44:38 clicked Rename in the context menu -> 371-b-done-rename-in-the-context-menu.png
+01:44:40 renamed 'Extrude 1' to 'Detent valley'
+01:46:33 about to click the Detent valley row, to take it out at (140, 599)
+01:46:34 clicked the Detent valley row, to take it out -> 373-b-done-the-detent-valley-row-to-take-it-out.png
+01:46:34 about to click Delete in the context menu at (277, 873)
+01:46:35 clicked Delete in the context menu -> 374-b-done-delete-in-the-context-menu.png
+01:46:37 about to click the Detent valley circle row, to take it out at (140, 573)
+01:46:38 clicked the Detent valley circle row, to take it out -> 375-b-done-the-detent-valley-circle-row-to-take-it-out.png
+01:46:38 about to click Delete in the context menu at (289, 981)
+01:46:39 clicked Delete in the context menu -> 376-b-done-delete-in-the-context-menu.png
+01:46:41 about to click the Pocket row, to take it out at (140, 547)
+01:46:42 clicked the Pocket row, to take it out -> 377-b-done-the-pocket-row-to-take-it-out.png
+01:46:42 about to click Delete in the context menu at (261, 821)
+01:46:43 clicked Delete in the context menu -> 378-b-done-delete-in-the-context-menu.png
+01:46:45 about to click the Pocket circle row, to take it out at (140, 521)
+01:46:46 clicked the Pocket circle row, to take it out -> 379-b-done-the-pocket-circle-row-to-take-it-out.png
+01:46:46 about to click Delete in the context menu at (274, 929)
+01:46:46 clicked Delete in the context menu -> 380-b-done-delete-in-the-context-menu.png
+01:47:24 about to click the blade's flat face, the one the clevis rides on at (929, 400)
+01:47:25 clicked the blade's flat face, the one the clevis rides on -> 381-b-done-the-blade-s-flat-face-the-one-the-clevis-rides-o.png
+01:47:26 about to click the sketch tool at (155, 58)
+01:47:27 clicked the sketch tool -> 383-b-done-the-sketch-tool.png
+01:47:58 about to click the blade's round end at (1085, 258)
+01:47:59 clicked the blade's round end -> 385-b-done-the-blade-s-round-end.png
+01:48:40 about to click the circle tool at (306, 58)
+01:48:41 clicked the circle tool -> 387-b-done-the-circle-tool.png
+01:48:41 about to click somewhere clear on the blade face at (1100, 700)
+01:48:42 clicked somewhere clear on the blade face -> 388-b-done-somewhere-clear-on-the-blade-face.png
+01:48:43 about to click a point out from it, to set a first size at (1140, 700)
+01:48:44 clicked a point out from it, to set a first size -> 389-b-done-a-point-out-from-it-to-set-a-first-size.png
+01:48:45 about to click the pocket circle at (1140, 700)
+01:48:46 clicked the pocket circle -> 390-b-done-the-pocket-circle.png
+01:48:46 about to click the blade's round end at (1085, 258)
+01:48:47 clicked the blade's round end -> 391-b-done-the-blade-s-round-end.png
+01:49:16 about to click the pocket circle at (966, 491)
+01:49:16 clicked the pocket circle -> 393-b-done-the-pocket-circle.png
+01:49:16 about to click where the size sits at (1160, 380)
+01:49:17 clicked where the size sits -> 394-b-done-where-the-size-sits.png
+01:49:47 about to click the pocket circle at (961, 496)
+01:49:48 clicked the pocket circle -> 395-b-done-the-pocket-circle.png
+01:49:48 about to click where the size sits at (1160, 380)
+01:49:49 clicked where the size sits -> 396-b-done-where-the-size-sits.png
+01:49:51 how wide the pocket is: 1.55611 mm -> 2.2
+01:49:53 about to click the green tick at (424, 93)
+01:49:54 clicked the green tick -> 398-b-done-the-green-tick.png
+01:49:56 about to click the Sketch 1 row, to rename it at (140, 521)
+01:49:57 clicked the Sketch 1 row, to rename it -> 399-b-done-the-sketch-1-row-to-rename-it.png
+01:49:57 about to click Rename in the context menu at (263, 545)
+01:49:58 clicked Rename in the context menu -> 400-b-done-rename-in-the-context-menu.png
+01:50:00 renamed 'Sketch 1' to 'Pocket circle'
+01:50:23 about to click the extrude tool at (219, 58)
+01:50:23 clicked the extrude tool -> 402-b-done-the-extrude-tool.png
+01:50:25 about to click the Pocket circle row at (140, 521)
+01:50:26 clicked the Pocket circle row -> 403-b-done-the-pocket-circle-row.png
+01:50:27 about to click Remove at (366, 148)
+01:50:28 clicked Remove -> 404-b-done-remove.png
+01:50:57 about to click the green tick at (424, 93)
+01:50:58 clicked the green tick -> 406-b-done-the-green-tick.png
+01:51:00 about to click the green tick at (424, 93)
+01:51:01 clicked the green tick -> 407-b-done-the-green-tick.png
+01:51:04 about to click the Extrude 1 row, to rename it at (140, 547)
+01:51:05 clicked the Extrude 1 row, to rename it -> 408-b-done-the-extrude-1-row-to-rename-it.png
+01:51:05 about to click Rename in the context menu at (261, 571)
+01:51:05 clicked Rename in the context menu -> 409-b-done-rename-in-the-context-menu.png
+01:51:07 renamed 'Extrude 1' to 'Pocket'
+01:52:02 about to click the blade's flat face, below the pocket at (929, 700)
+01:52:03 clicked the blade's flat face, below the pocket -> 411-b-done-the-blade-s-flat-face-below-the-pocket.png
+01:52:04 about to click the sketch tool at (155, 58)
+01:52:04 clicked the sketch tool -> 412-b-done-the-sketch-tool.png
+01:52:07 about to click the blade's round end at (1085, 258)
+01:52:08 clicked the blade's round end -> 413-b-done-the-blade-s-round-end.png
+01:52:10 about to click the circle tool at (306, 58)
+01:52:11 clicked the circle tool -> 414-b-done-the-circle-tool.png
+01:52:12 about to click somewhere clear, for the first valley at (1100, 300)
+01:52:13 clicked somewhere clear, for the first valley -> 415-b-done-somewhere-clear-for-the-first-valley.png
+01:52:13 about to click a point out from it, to set a first size at (1126, 300)
+01:52:14 clicked a point out from it, to set a first size -> 416-b-done-a-point-out-from-it-to-set-a-first-size.png
+01:52:42 about to click the valley's centre at (1100, 300)
+01:52:43 clicked the valley's centre -> 418-b-done-the-valley-s-centre.png
+01:52:43 about to click the hinge axis, where the round end is centred at (929, 528)
+01:52:44 clicked the hinge axis, where the round end is centred -> 419-b-done-the-hinge-axis-where-the-round-end-is-centred.png
+01:53:20 about to click the hinge axis at (929, 528)
+01:53:21 clicked the hinge axis -> 422-b-done-the-hinge-axis.png
+01:53:21 about to click the valley's centre at (929, 242)
+01:53:22 clicked the valley's centre -> 423-b-done-the-valley-s-centre.png
+01:53:22 about to click where the reach sits at (1120, 390)
+01:53:22 clicked where the reach sits -> 424-b-done-where-the-reach-sits.png
+01:53:25 how far out the tooth circle runs: 5.55298 mm -> 4.8
+01:53:26 about to click the valley circle at (947, 258)
+01:53:27 clicked the valley circle -> 426-b-done-the-valley-circle.png
+01:53:27 about to click where the size sits at (1180, 200)
+01:53:28 clicked where the size sits -> 427-b-done-where-the-size-sits.png
+01:53:31 how wide a valley is: 1.01147 mm -> 1.0
+01:53:51 about to click the green tick at (424, 93)
+01:53:52 clicked the green tick -> 429-b-done-the-green-tick.png
+01:53:55 about to click the Sketch 1 row, to rename it at (140, 573)
+01:53:56 clicked the Sketch 1 row, to rename it -> 430-b-done-the-sketch-1-row-to-rename-it.png
+01:53:56 about to click Rename in the context menu at (263, 597)
+01:53:57 clicked Rename in the context menu -> 431-b-done-rename-in-the-context-menu.png
+01:53:58 renamed 'Sketch 1' to 'Detent valley circle'
+01:54:15 about to click the extrude tool at (219, 58)
+01:54:16 clicked the extrude tool -> 433-b-done-the-extrude-tool.png
+01:54:18 about to click the Detent valley circle row at (140, 573)
+01:54:19 clicked the Detent valley circle row -> 434-b-done-the-detent-valley-circle-row.png
+01:54:20 about to click Remove at (366, 148)
+01:54:21 clicked Remove -> 435-b-done-remove.png
+01:54:25 about to click the green tick at (424, 93)
+01:54:26 clicked the green tick -> 437-b-done-the-green-tick.png
+01:54:29 about to click the green tick at (424, 93)
+01:54:30 clicked the green tick -> 438-b-done-the-green-tick.png
+01:54:32 about to click the Extrude 1 row, to rename it at (140, 599)
+01:54:33 clicked the Extrude 1 row, to rename it -> 439-b-done-the-extrude-1-row-to-rename-it.png
+01:54:33 about to click Rename in the context menu at (277, 623)
+01:54:34 clicked Rename in the context menu -> 440-b-done-rename-in-the-context-menu.png
+01:54:36 renamed 'Extrude 1' to 'Detent valley'
+01:55:42 about to click empty space, to start with nothing picked at (300, 120)
+01:55:43 clicked empty space, to start with nothing picked -> 443-b-done-empty-space-to-start-with-nothing-picked.png
+01:55:43 about to click the valley's rim edge at (1002, 224)
+01:55:44 clicked the valley's rim edge -> 444-b-done-the-valley-s-rim-edge.png
+01:56:18 about to click the valley's rim edge at (1002, 224)
+01:56:18 clicked the valley's rim edge -> 446-b-done-the-valley-s-rim-edge.png
+01:56:19 about to click the tool search box at (1348, 58)
+01:56:20 clicked the tool search box -> 448-b-done-the-tool-search-box.png
+01:56:22 about to click the Fillet result in the search panel at (1098, 160)
+01:56:23 clicked the Fillet result in the search panel -> 450-b-done-the-fillet-result-in-the-search-panel.png
+01:56:53 about to click the valley's rim edge at (1002, 224)
+01:56:54 clicked the valley's rim edge -> 453-b-done-the-valley-s-rim-edge.png
+01:57:24 about to click the x on the Control row, to put it back at (429, 258)
+01:57:25 clicked the x on the Control row, to put it back -> 455-b-done-the-x-on-the-control-row-to-put-it-back.png
+01:58:04 about to click the Radius field, reading '0.4 mm' at (361, 286)
+01:58:05 clicked the Radius field, reading '0.4 mm' -> 457-b-done-the-radius-field-reading-0-4-mm.png
+01:58:07 the rim break reads 0.1
+01:58:08 about to click the green tick at (424, 93)
+01:58:09 clicked the green tick -> 459-b-done-the-green-tick.png
+01:58:12 about to click the green tick at (424, 93)
+01:58:13 clicked the green tick -> 460-b-done-the-green-tick.png
+01:58:15 about to click the Fillet 1 row, to rename it at (140, 625)
+01:58:16 clicked the Fillet 1 row, to rename it -> 461-b-done-the-fillet-1-row-to-rename-it.png
+01:58:16 about to click Rename in the context menu at (261, 649)
+01:58:17 clicked Rename in the context menu -> 462-b-done-rename-in-the-context-menu.png
+01:58:19 renamed 'Fillet 1' to 'Break the valley rim'
+01:59:43 about to click the tool search box at (1348, 58)
+01:59:44 clicked the tool search box -> 465-b-done-the-tool-search-box.png
+01:59:46 about to click the Circular pattern result in the search panel at (1120, 159)
+01:59:47 clicked the Circular pattern result in the search panel -> 467-b-done-the-circular-pattern-result-in-the-search-panel.png
+02:00:16 about to click the pattern type list at (343, 121)
+02:00:17 clicked the pattern type list -> 470-b-done-the-pattern-type-list.png
+02:00:36 about to click Feature pattern at (305, 178)
+02:00:36 clicked Feature pattern -> 472-b-done-feature-pattern.png
+02:00:38 about to click the Detent valley row at (140, 578)
+02:00:39 clicked the Detent valley row -> 473-b-done-the-detent-valley-row.png
+02:00:39 about to click the Break the valley rim row at (140, 604)
+02:00:40 clicked the Break the valley rim row -> 474-b-done-the-break-the-valley-rim-row.png
+02:01:14 about to click the pocket's rim edge, which turns about the hinge axis at (986, 655)
+02:01:14 clicked the pocket's rim edge, which turns about the hinge axis -> 476-b-done-the-pocket-s-rim-edge-which-turns-about-the-hing.png
+02:01:42 about to click the x beside Pocket, which does not belong in the list at (447, 172)
+02:01:43 clicked the x beside Pocket, which does not belong in the list -> 478-b-done-the-x-beside-pocket-which-does-not-belong-in-the.png
+02:01:45 about to click the Axis of pattern field, so the next click goes there at (343, 227)
+02:01:45 clicked the Axis of pattern field, so the next click goes there -> 479-b-done-the-axis-of-pattern-field-so-the-next-click-goes.png
+02:01:46 about to click the pocket's rim edge, which turns about the hinge axis at (986, 655)
+02:01:47 clicked the pocket's rim edge, which turns about the hinge axis -> 480-b-done-the-pocket-s-rim-edge-which-turns-about-the-hing.png
+02:02:18 about to click the Reapply features box at (298, 383)
+02:02:21 clicked the Reapply features box -> 482-b-done-the-reapply-features-box.png
+02:02:47 about to click the green tick at (424, 93)
+02:02:49 clicked the green tick -> 484-b-done-the-green-tick.png
+02:02:51 about to click the Circular pattern 1 row, to rename it at (140, 630)
+02:02:52 clicked the Circular pattern 1 row, to rename it -> 485-b-done-the-circular-pattern-1-row-to-rename-it.png
+02:02:52 about to click Rename in the context menu at (261, 654)
+02:02:53 clicked Rename in the context menu -> 486-b-done-rename-in-the-context-menu.png
+02:02:55 renamed 'Circular pattern 1' to '24 detent valleys'
+02:03:11 about to click the tool search box at (1348, 58)
+02:03:12 clicked the tool search box -> 488-b-done-the-tool-search-box.png
+02:03:13 about to click the Mirror result in the search panel at (1120, 159)
+02:03:14 clicked the Mirror result in the search panel -> 490-b-done-the-mirror-result-in-the-search-panel.png
+02:03:46 about to click the mirror type list at (343, 121)
+02:03:47 clicked the mirror type list -> 493-b-done-the-mirror-type-list.png
+02:03:48 about to click Feature mirror at (302, 178)
+02:03:49 clicked Feature mirror -> 494-b-done-feature-mirror.png
+02:03:50 about to click the Pocket row at (140, 500)
+02:03:52 clicked the Pocket row -> 495-b-done-the-pocket-row.png
+02:03:52 about to click the Detent valley row at (140, 552)
+02:03:53 clicked the Detent valley row -> 496-b-done-the-detent-valley-row.png
+02:03:53 about to click the Break the valley rim row at (140, 578)
+02:03:55 clicked the Break the valley rim row -> 497-b-done-the-break-the-valley-rim-row.png
+02:03:55 about to click the 24 detent valleys row at (140, 604)
+02:03:56 clicked the 24 detent valleys row -> 498-b-done-the-24-detent-valleys-row.png
+02:04:26 about to click the Front plane, the blade's middle at (140, 188)
+02:04:26 clicked the Front plane, the blade's middle -> 500-b-done-the-front-plane-the-blade-s-middle.png
+02:04:28 about to click the Reapply features box at (298, 307)
+02:04:29 clicked the Reapply features box -> 501-b-done-the-reapply-features-box.png
+02:07:17 about to click the Mirror plane field, so the next click goes there at (343, 275)
+02:07:18 clicked the Mirror plane field, so the next click goes there -> 503-b-done-the-mirror-plane-field-so-the-next-click-goes-th.png
+02:07:19 about to click the Front plane, the blade's middle at (140, 188)
+02:07:20 clicked the Front plane, the blade's middle -> 504-b-done-the-front-plane-the-blade-s-middle.png
+02:07:43 about to click the green tick at (424, 93)
+02:07:47 clicked the green tick -> 506-b-done-the-green-tick.png
+02:07:50 about to click the Mirror 1 row, to rename it at (140, 630)
+02:07:51 clicked the Mirror 1 row, to rename it -> 507-b-done-the-mirror-1-row-to-rename-it.png
+02:07:51 about to click Rename in the context menu at (261, 654)
+02:07:52 clicked Rename in the context menu -> 508-b-done-rename-in-the-context-menu.png
+02:07:54 renamed 'Mirror 1' to 'Mirror the joint face'
+02:26:43 about to click the Part 1 row, to rename it at (140, 696)
+02:26:43 clicked the Part 1 row, to rename it -> 511-b-done-the-part-1-row-to-rename-it.png
+02:26:43 about to click Rename in the context menu at (256, 364)
+02:26:44 clicked Rename in the context menu -> 512-b-done-rename-in-the-context-menu.png
+02:26:46 renamed 'Part 1' to 'limb-blade-ball'
+02:29:04 about to click the View menu at (1563, 232)
+02:29:04 clicked the View menu -> 514-b-done-the-view-menu.png
+02:29:04 about to click Isometric at (1455, 302)
+02:29:06 clicked Isometric -> 515-b-done-isometric.png
+02:29:08 about to click the View menu at (1563, 232)
+02:29:09 clicked the View menu -> 516-b-done-the-view-menu.png
+02:29:09 about to click Zoom to fit at (1459, 393)
+02:29:11 clicked Zoom to fit -> 517-b-done-zoom-to-fit.png
+02:29:13 about to click the Front plane at (140, 235)
+02:29:14 clicked the Front plane -> 519-b-done-the-front-plane.png
+02:29:16 about to click the View menu at (1563, 232)
+02:29:17 clicked the View menu -> 520-b-done-the-view-menu.png
+02:29:17 about to click Zoom to fit at (1459, 393)
+02:29:19 clicked Zoom to fit -> 521-b-done-zoom-to-fit.png
+02:29:48 about to click the Default geometry row at (140, 157)
+02:29:49 clicked the Default geometry row -> 523-b-done-the-default-geometry-row.png
+02:30:19 about to click the View menu at (1563, 232)
+02:30:20 clicked the View menu -> 524-b-done-the-view-menu.png
+02:30:20 about to click Isometric at (1455, 302)
+02:30:22 clicked Isometric -> 525-b-done-isometric.png
+02:30:24 about to click the View menu at (1563, 232)
+02:30:24 clicked the View menu -> 526-b-done-the-view-menu.png
+02:30:24 about to click Zoom to fit at (1459, 393)
+02:30:26 clicked Zoom to fit -> 527-b-done-zoom-to-fit.png
+02:30:39 about to click the View menu at (1563, 232)
+02:30:40 clicked the View menu -> 529-b-done-the-view-menu.png
+02:30:40 about to click Zoom to fit at (1459, 393)
+02:30:42 clicked Zoom to fit -> 530-b-done-zoom-to-fit.png
+02:30:44 about to click the Front plane at (140, 235)
+02:30:45 clicked the Front plane -> 531-b-done-the-front-plane.png
+02:31:43 about to click the Top plane row at (140, 209)
+02:31:45 clicked the Top plane row -> 533-b-done-the-top-plane-row.png
+02:31:45 about to click the Right plane row, taking all three at (140, 261)
+02:31:45 clicked the Right plane row, taking all three -> 534-b-done-the-right-plane-row-taking-all-three.png
+02:31:46 about to click the Front row at (140, 235)
+02:31:47 clicked the Front row -> 535-b-done-the-front-row.png
+02:32:07 about to click the eye on the Top row at (220, 209)
+02:32:09 clicked the eye on the Top row -> 536-b-done-the-eye-on-the-top-row.png
+02:32:10 about to click the eye on the Front row at (220, 235)
+02:32:12 clicked the eye on the Front row -> 537-b-done-the-eye-on-the-front-row.png
+02:32:13 about to click the eye on the Right row at (220, 261)
+02:32:14 clicked the eye on the Right row -> 538-b-done-the-eye-on-the-right-row.png
+02:32:15 about to click the View menu at (1563, 232)
+02:32:16 clicked the View menu -> 539-b-done-the-view-menu.png
+02:32:16 about to click Isometric at (1455, 302)
+02:32:17 clicked Isometric -> 540-b-done-isometric.png
+02:32:19 about to click the View menu at (1563, 232)
+02:32:20 clicked the View menu -> 541-b-done-the-view-menu.png
+02:32:20 about to click Zoom to fit at (1459, 393)
+02:32:22 clicked Zoom to fit -> 542-b-done-zoom-to-fit.png
+02:32:49 about to click empty space, to let go of everything at (500, 800)
+02:32:50 clicked empty space, to let go of everything -> 544-b-done-empty-space-to-let-go-of-everything.png
+02:38:53 about to click the Slit row, to take it out at (140, 495)
+02:38:53 clicked the Slit row, to take it out -> 546-b-done-the-slit-row-to-take-it-out.png
+02:38:55 about to click Delete in the context menu at (261, 792)
+02:38:55 clicked Delete in the context menu -> 547-b-done-delete-in-the-context-menu.png
+02:38:59 about to click the Slit profile row, to take it out at (140, 469)
+02:39:03 clicked the Slit profile row, to take it out -> 548-b-done-the-slit-profile-row-to-take-it-out.png
+02:39:04 about to click Delete in the context menu at (267, 900)
+02:39:05 clicked Delete in the context menu -> 549-b-done-delete-in-the-context-menu.png
+02:39:32 about to click the Right plane, which runs down the limb at (140, 261)
+02:39:33 clicked the Right plane, which runs down the limb -> 551-b-done-the-right-plane-which-runs-down-the-limb.png
+02:39:34 about to click the Sketch tool at (155, 58)
+02:39:36 clicked the Sketch tool -> 552-b-done-the-sketch-tool.png
+02:40:35 about to click the rectangle tool's arrow at (278, 58)
+02:40:36 clicked the rectangle tool's arrow -> 554-b-done-the-rectangle-tool-s-arrow.png
+02:40:37 about to click Center point rectangle at (336, 130)
+02:40:38 clicked Center point rectangle -> 555-b-done-center-point-rectangle.png
+02:40:39 about to click the origin, which the slit is built out from at (981, 319)
+02:40:41 clicked the origin, which the slit is built out from -> 556-b-done-the-origin-which-the-slit-is-built-out-from.png
+02:40:42 about to click a corner, roughly out and down at (1080, 430)
+02:40:43 clicked a corner, roughly out and down -> 557-b-done-a-corner-roughly-out-and-down.png
+02:41:10 about to click the slit's left edge, to say how long it is at (882, 380)
+02:41:11 clicked the slit's left edge, to say how long it is -> 559-b-done-the-slit-s-left-edge-to-say-how-long-it-is.png
+02:41:12 about to click where the dimension sits at (760, 380)
+02:41:14 clicked where the dimension sits -> 560-b-done-where-the-dimension-sits.png
+02:41:16 how long the slit is: 9.56262 mm -> 20
+02:42:00 about to click the slit's root edge, to say how wide it is at (790, 549)
+02:42:01 clicked the slit's root edge, to say how wide it is -> 563-b-done-the-slit-s-root-edge-to-say-how-wide-it-is.png
+02:42:02 about to click where the dimension sits at (790, 640)
+02:42:03 clicked where the dimension sits -> 564-b-done-where-the-dimension-sits.png
+02:42:06 how wide the slit is: 17.91314 mm -> 0.8
+02:42:21 about to click the green tick at (424, 93)
+02:42:22 clicked the green tick -> 567-b-done-the-green-tick.png
+02:42:26 about to click the Sketch 1 row, to rename it at (140, 630)
+02:42:27 clicked the Sketch 1 row, to rename it -> 568-b-done-the-sketch-1-row-to-rename-it.png
+02:42:27 about to click Rename in the context menu at (263, 206)
+02:42:28 clicked Rename in the context menu -> 569-b-done-rename-in-the-context-menu.png
+02:42:30 renamed 'Sketch 1' to 'Slit profile'
+02:42:51 about to click the extrude tool at (219, 58)
+02:42:53 clicked the extrude tool -> 571-b-done-the-extrude-tool.png
+02:42:55 about to click the Slit profile row, which hands over its one region at (140, 604)
+02:42:57 clicked the Slit profile row, which hands over its one region -> 572-b-done-the-slit-profile-row-which-hands-over-its-one-re.png
+02:42:59 about to click Remove at (366, 148)
+02:43:00 clicked Remove -> 573-b-done-remove.png
+02:43:02 about to click the end condition list at (343, 231)
+02:43:03 clicked the end condition list -> 574-b-done-the-end-condition-list.png
+02:43:04 about to click Through all at (292, 392)
+02:43:05 clicked Through all -> 575-b-done-through-all.png
+02:43:07 about to click the Symmetric box, so the cut runs both ways at (280, 314)
+02:43:08 clicked the Symmetric box, so the cut runs both ways -> 576-b-done-the-symmetric-box-so-the-cut-runs-both-ways.png
+02:43:37 about to click the green tick at (424, 93)
+02:43:39 clicked the green tick -> 578-b-done-the-green-tick.png
+02:43:42 about to click the Extrude 1 row, to rename it at (140, 630)
+02:43:43 clicked the Extrude 1 row, to rename it -> 579-b-done-the-extrude-1-row-to-rename-it.png
+02:43:43 about to click Rename in the context menu at (261, 654)
+02:43:44 clicked Rename in the context menu -> 580-b-done-rename-in-the-context-menu.png
+02:43:45 renamed 'Extrude 1' to 'Slit'
+02:44:38 about to click the View menu at (1563, 232)
+02:44:39 clicked the View menu -> 582-b-done-the-view-menu.png
+02:44:39 about to click Isometric at (1455, 302)
+02:44:40 clicked Isometric -> 583-b-done-isometric.png
+02:44:42 about to click the View menu at (1563, 232)
+02:44:43 clicked the View menu -> 584-b-done-the-view-menu.png
+02:44:43 about to click Zoom to fit at (1459, 393)
+02:44:44 clicked Zoom to fit -> 585-b-done-zoom-to-fit.png
+02:44:55 about to click the View menu at (1563, 232)
+02:44:56 clicked the View menu -> 587-b-done-the-view-menu.png
+02:44:56 about to click Zoom to fit at (1459, 393)
+02:44:58 clicked Zoom to fit -> 588-b-done-zoom-to-fit.png
+02:45:00 about to click the Front plane at (140, 188)
+02:45:01 clicked the Front plane -> 589-b-done-the-front-plane.png
+02:45:36 about to click the Front plane at (140, 188)
+02:45:37 clicked the Front plane -> 591-b-done-the-front-plane.png
+02:45:39 about to click empty space, to let go of the plane at (500, 850)
+02:45:40 clicked empty space, to let go of the plane -> 592-b-done-empty-space-to-let-go-of-the-plane.png
+02:45:40 about to click the View menu at (1563, 232)
+02:45:41 clicked the View menu -> 593-b-done-the-view-menu.png
+02:45:41 about to click Zoom to fit at (1459, 393)
+02:45:42 clicked Zoom to fit -> 594-b-done-zoom-to-fit.png
+02:45:45 about to click the View menu at (1563, 232)
+02:45:46 clicked the View menu -> 596-b-done-the-view-menu.png
+02:45:46 about to click Isometric at (1455, 302)
+02:45:47 clicked Isometric -> 597-b-done-isometric.png
+02:45:49 about to click the View menu at (1563, 232)
+02:45:50 clicked the View menu -> 598-b-done-the-view-menu.png
+02:45:50 about to click Zoom to fit at (1459, 393)
+02:45:52 clicked Zoom to fit -> 599-b-done-zoom-to-fit.png
+02:46:20 about to click empty space, to let go of everything at (400, 250)
+02:46:21 clicked empty space, to let go of everything -> 601-b-done-empty-space-to-let-go-of-everything.png
+02:46:22 about to click the Front plane at (140, 188)
+02:46:23 clicked the Front plane -> 603-b-done-the-front-plane.png
+02:46:26 about to click empty space, to let go of the plane at (400, 250)
+02:46:26 clicked empty space, to let go of the plane -> 604-b-done-empty-space-to-let-go-of-the-plane.png
+02:46:26 about to click the View menu at (1563, 232)
+02:46:27 clicked the View menu -> 605-b-done-the-view-menu.png
+02:46:27 about to click Zoom to fit at (1459, 393)
+02:46:29 clicked Zoom to fit -> 606-b-done-zoom-to-fit.png

@@ -1,0 +1,91 @@
+{
+ "did": "500752af84dc92deea53f9e4",
+ "eid": "f3f8362fd5e9f31ee2fa5eb2",
+ "sketches": {
+  "limb section": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      -10.4494,
+      5.9
+     ],
+     "id": "9CcYkTkB6a6a",
+     "radius": 12.0,
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -10.4494,
+      5.9
+     ],
+     "id": "YDAvZTxZ22oz",
+     "startPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      5.9
+     ],
+     "id": "zXL16Di8qF1J",
+     "startPoint": [
+      10.4494,
+      -5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      10.4494,
+      -5.9
+     ],
+     "id": "jZIV04WFFgtY.trimOffspring",
+     "radius": 12.0,
+     "startPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "type": "arc"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     -10.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     -1,
+     0
+    ]
+   }
+  }
+ },
+ "vid": "80c22eb7b8b0342ac03f8a6d"
+}

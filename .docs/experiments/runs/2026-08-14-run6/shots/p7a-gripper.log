@@ -1,0 +1,64 @@
+09:12:17 on hand-run6p2, Part Studio 1
+09:12:43 about to select the Collar circle row, the first feature that re-creates the socket at (140, 339)
+09:12:44 selected the Collar circle row, the first feature that re-creates the socket -> 02-a-select-the-collar-circle-row-the-first-feature-that-re-.png
+09:12:44 about to click the Socket row, with Shift, to take the whole tail at (140, 547)
+09:12:45 clicked the Socket row, with Shift, to take the whole tail -> 03-b-done-the-socket-row-with-shift-to-take-the-whole-tail.png
+09:12:46 about to click the picked rows, to open their menu at (140, 547)
+09:12:47 clicked the picked rows, to open their menu -> 05-b-done-the-picked-rows-to-open-their-menu.png
+09:12:47 about to click Delete in the context menu at (270, 773)
+09:12:48 clicked Delete in the context menu -> 06-b-done-delete-in-the-context-menu.png
+09:12:51 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Clip profile', 'Clip', '', 'Parts (1)', 'Gripper']
+09:12:51 cut clean: Clip profile and Clip survive, the socket is gone
+09:16:13 about to click the tool search box at (1353, 58)
+09:16:14 clicked the tool search box -> 09-b-done-the-tool-search-box.png
+09:16:43 about to click Highlight tool in toolbar, beside the Derived result at (1516, 349)
+09:16:44 clicked Highlight tool in toolbar, beside the Derived result -> 11-b-done-highlight-tool-in-toolbar-beside-the-derived-res.png
+09:18:34 about to click the tool search box at (1353, 58)
+09:18:35 clicked the tool search box -> 13-b-done-the-tool-search-box.png
+09:19:08 about to press Alt+c to alt-c, which opens the tool search
+09:19:09 pressed Alt+c to alt-c, which opens the tool search -> 14-b-done-alt-c-which-opens-the-tool-search.png
+09:19:15 about to click the Derived result, which arms the tool at (1120, 159)
+09:19:16 clicked the Derived result, which arms the tool -> 16-b-done-the-derived-result-which-arms-the-tool.png
+09:19:19 Derived armed after about 3 s; the tree grew {'Derived 1'}
+09:19:37 about to click Select Part Studio…, which opens the document picker at (368, 148)
+09:19:38 clicked Select Part Studio…, which opens the document picker -> 18-b-done-select-part-studio-which-opens-the-document-pick.png
+09:20:01 about to click the Other documents tab in the picker at (692, 124)
+09:20:02 clicked the Other documents tab in the picker -> 20-b-done-the-other-documents-tab-in-the-picker.png
+09:20:22 about to click the picker's search box at (620, 161)
+09:20:23 clicked the picker's search box -> 22-b-done-the-picker-s-search-box.png
+09:21:02 about to press Enter to Enter, which is what runs the picker's search
+09:21:03 pressed Enter to Enter, which is what runs the picker's search -> 24-b-done-enter-which-is-what-runs-the-picker-s-search.png
+09:21:08 about to click the ball-socket-run6p2 document at (607, 195)
+09:21:09 clicked the ball-socket-run6p2 document -> 26-b-done-the-ball-socket-run6p2-document.png
+09:21:36 the picker reads version ['ball-socket-run6p2-2026-08-15']; wanted 'ball-socket-run6p2-2026-08-15'
+09:21:36 about to click Socket body, the half the gripper reuses at (672, 325)
+09:21:36 clicked Socket body, the half the gripper reuses -> 28-b-done-socket-body-the-half-the-gripper-reuses.png
+09:22:09 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+09:22:10 clicked the X on the picker, which leaves the Derived dialog standing -> 30-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+09:22:12 about to click the green tick, which keeps the Derived at (424, 93)
+09:22:13 clicked the green tick, which keeps the Derived -> 32-b-done-the-green-tick-which-keeps-the-derived.png
+09:22:17 about to click the Derived 1 row, to rename it at (140, 339)
+09:22:18 clicked the Derived 1 row, to rename it -> 33-b-done-the-derived-1-row-to-rename-it.png
+09:22:18 about to click Rename in the context menu at (261, 363)
+09:22:19 clicked Rename in the context menu -> 34-b-done-rename-in-the-context-menu.png
+09:22:20 renamed 'Derived 1' to 'Socket from the joint'
+09:22:46 about to click Boolean on the toolbar at (780, 58)
+09:22:47 clicked Boolean on the toolbar -> 37-b-done-boolean-on-the-toolbar.png
+09:22:50 about to click Socket body in the parts list at (140, 722)
+09:22:51 clicked Socket body in the parts list -> 39-b-done-socket-body-in-the-parts-list.png
+09:22:53 about to click Gripper in the parts list at (140, 696)
+09:22:54 clicked Gripper in the parts list -> 40-b-done-gripper-in-the-parts-list.png
+09:22:56 about to click the Keep tools box, to turn it off at (239, 229)
+09:22:57 clicked the Keep tools box, to turn it off -> 42-b-done-the-keep-tools-box-to-turn-it-off.png
+09:22:58 about to click the green tick, which keeps the union at (424, 93)
+09:22:59 clicked the green tick, which keeps the union -> 44-b-done-the-green-tick-which-keeps-the-union.png
+09:23:25 about to click the Boolean 1 row, to rename it at (140, 365)
+09:23:25 clicked the Boolean 1 row, to rename it -> 45-b-done-the-boolean-1-row-to-rename-it.png
+09:23:25 about to click Rename in the context menu at (251, 389)
+09:23:26 clicked Rename in the context menu -> 46-b-done-rename-in-the-context-menu.png
+09:23:28 renamed 'Boolean 1' to 'Union the clip and the socket'
+09:23:28 about to click the Socket body row, to rename it at (140, 696)
+09:23:29 clicked the Socket body row, to rename it -> 48-b-done-the-socket-body-row-to-rename-it.png
+09:23:29 about to click Rename in the context menu at (272, 364)
+09:23:30 clicked Rename in the context menu -> 49-b-done-rename-in-the-context-menu.png
+09:23:31 renamed 'Socket body' to 'Gripper'

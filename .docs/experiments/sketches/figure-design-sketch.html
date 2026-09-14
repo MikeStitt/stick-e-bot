@@ -1,0 +1,505 @@
+<title>Stikbot-style figure — design sketch</title>
+<style>
+  :root {
+    --paper:      #E8ECEE;
+    --sheet:      #F7F9FA;
+    --ink:        #12171C;
+    --ink-soft:   #47535E;
+    --muted:      #6B7A88;
+    --rule:       #C3CDD4;
+    --grid:       #DDE4E8;
+    --fixed:      #B8156E;   /* dimensions set by LEGO — not yours to change */
+    --balance:    #0B6E86;   /* balance geometry */
+    --sheet-edge: #CAD4DA;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #0E1216;
+      --sheet:      #171D23;
+      --ink:        #E2E8ED;
+      --ink-soft:   #A9B6C1;
+      --muted:      #8595A2;
+      --rule:       #333F49;
+      --grid:       #232C34;
+      --fixed:      #FF5FAE;
+      --balance:    #3FC4E0;
+      --sheet-edge: #2B353E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #0E1216;
+    --sheet:      #171D23;
+    --ink:        #E2E8ED;
+    --ink-soft:   #A9B6C1;
+    --muted:      #8595A2;
+    --rule:       #333F49;
+    --grid:       #232C34;
+    --fixed:      #FF5FAE;
+    --balance:    #3FC4E0;
+    --sheet-edge: #2B353E;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 20px 64px;
+    background: var(--paper);
+    color: var(--ink);
+    font: 15px/1.65 ui-sans-serif, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sheet {
+    max-width: 1180px;
+    margin: 0 auto;
+    background: var(--sheet);
+    border: 1px solid var(--sheet-edge);
+    padding: 34px clamp(18px, 4vw, 46px) 0;
+  }
+  .eyebrow {
+    font: 600 11px/1 ui-monospace, "SF Mono", Menlo, monospace;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1 {
+    font-size: clamp(26px, 3.6vw, 38px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin: 10px 0 6px;
+    text-wrap: balance;
+  }
+  .standfirst { color: var(--ink-soft); max-width: 62ch; margin: 0 0 6px; }
+  h2 {
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--muted);
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  section { padding: 30px 0; border-top: 1px solid var(--rule); margin-top: 30px; }
+  section:first-of-type { border-top: 0; }
+  .stack { display: flex; flex-direction: column; gap: 18px; }
+
+  .views { display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start; }
+  .view { flex: 1 1 300px; min-width: 280px; display: flex; flex-direction: column; gap: 10px; }
+  .view figcaption {
+    font: 600 11px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted);
+  }
+  .scroller { overflow-x: auto; }
+  svg { display: block; width: 100%; height: auto; }
+
+  .dim   { font: 600 4px ui-monospace, monospace; fill: var(--ink-soft); }
+  .dimL  { font: 600 3.4px ui-monospace, monospace; fill: var(--muted); }
+  .fixedT{ font: 700 4px ui-monospace, monospace; fill: var(--fixed); }
+  .balT  { font: 600 4px ui-monospace, monospace; fill: var(--balance); }
+
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 12px 7px 0; border-bottom: 1px solid var(--rule); }
+  th {
+    font: 600 11px/1 ui-monospace, monospace; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  td.n { font-family: ui-monospace, monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.fixed { color: var(--fixed); font-weight: 600; }
+
+  .key { display: flex; flex-wrap: wrap; gap: 16px 26px; font-size: 13px; color: var(--ink-soft); }
+  .key span { display: inline-flex; align-items: center; gap: 8px; }
+  .swatch { width: 22px; height: 3px; border-radius: 2px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 22px; }
+  .card h3 { font-size: 15px; margin: 0 0 4px; }
+  .card p { margin: 0; color: var(--ink-soft); font-size: 14px; }
+
+  .note { border-left: 2px solid var(--fixed); padding-left: 14px; color: var(--ink-soft); }
+  .note strong { color: var(--ink); }
+
+  .titleblock {
+    display: flex; flex-wrap: wrap; gap: 0;
+    border-top: 1px solid var(--rule); margin-top: 34px;
+  }
+  .tb {
+    flex: 1 1 150px; padding: 12px 16px 16px 0; border-right: 1px solid var(--rule);
+  }
+  .tb:last-child { border-right: 0; }
+  .tb dt {
+    font: 600 10px/1 ui-monospace, monospace; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 5px;
+  }
+  .tb dd { margin: 0; font-family: ui-monospace, monospace; font-size: 13px; }
+  .superseded {
+    border: 1px solid var(--fixed); border-left-width: 3px; border-radius: 2px;
+    background: var(--sheet); padding: 14px 18px; margin: 4px 0 2px; max-width: 78ch;
+  }
+  .superseded b { color: var(--fixed); }
+  .superseded p { margin: 0; color: var(--ink-soft); font-size: 14.5px; line-height: 1.6; }
+  .superseded p + p { margin-top: 8px; }
+</style>
+
+<div class="sheet">
+  <header>
+    <div class="eyebrow">Design sketch · concept</div>
+    <h1>Stikbot-style figure, 150&nbsp;mm</h1>
+    <p class="standfirst">
+      A thirteen-joint articulated figure with oversized feet for free-standing balance and
+      C-clip hands that grip a LEGO bar. Every proportion is a fraction of one number — the
+      torso height, <b>48&nbsp;mm</b> — chosen because 2⁴&nbsp;×&nbsp;3 divides evenly by 2, 3,
+      4, 6, 8, 12, 16 and 24. No dimension in the figure lands on a fraction of a millimetre,
+      and the stack totals exactly 150.
+    </p>
+    <div class="superseded">
+      <p><b>This is the first sketch, kept as it was drawn.</b> It is the concept the project
+      started from, and the design has moved three times since. The figure is now twice this size
+      &mdash; <code>#torsoH</code> 96, a &Oslash;24 limb, a &Oslash;12 ball &mdash; and the height is
+      whatever the parts add up to rather than a target of 150.</p>
+      <p>What survives is the idea, not the arithmetic: one driving number, every other length a
+      fraction of it, and the hand fixed by the LEGO bar because that part is not ours to choose.
+      For the numbers to build to, read the current plan sheets and the build briefs.</p>
+    </div>
+
+    <div class="key">
+      <span><i class="swatch" style="background:var(--ink-soft)"></i> derived from #torsoH</span>
+      <span><i class="swatch" style="background:var(--fixed)"></i> fixed by LEGO — do not change</span>
+      <span><i class="swatch" style="background:var(--balance)"></i> balance geometry</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Elevations</h2>
+    <div class="views" style="margin-top:20px">
+
+      <figure class="view" style="margin:0">
+        <div class="scroller">
+        <svg viewBox="-64 -14 128 186" role="img" aria-label="Front elevation of the figure with dimensions">
+          <g fill="none" stroke="var(--ink)" stroke-width="0.9" stroke-linejoin="round">
+            <!-- head -->
+            <rect x="-18" y="0" width="36" height="36" rx="11"/>
+            <ellipse cx="-7.5" cy="14" rx="5.4" ry="4.2" stroke-width="0.7"/>
+            <ellipse cx="7.5"  cy="14" rx="5.4" ry="4.2" stroke-width="0.7"/>
+            <circle cx="-7.5" cy="14" r="1.9" fill="var(--ink)" stroke="none"/>
+            <circle cx="7.5"  cy="14" r="1.9" fill="var(--ink)" stroke="none"/>
+            <path d="M -7 26 h 14 a 2.6 2.6 0 0 1 0 5.2 h -14 a 2.6 2.6 0 0 1 0 -5.2 z" stroke-width="0.7"/>
+            <!-- neck + torso -->
+            <circle cx="0" cy="39" r="3"/>
+            <rect x="-18" y="42" width="36" height="48" rx="4"/>
+            <!-- arms -->
+            <g>
+              <circle cx="18" cy="45" r="3"/>
+              <rect x="14" y="45" width="8" height="20" rx="4"/>
+              <circle cx="18" cy="65" r="3"/>
+              <rect x="14" y="65" width="8" height="20" rx="4"/>
+              <circle cx="18" cy="85" r="3"/>
+              <path d="M 14.6 90.5 a 5.4 5.4 0 1 0 6.8 0" stroke-width="1.1"/>
+            </g>
+            <g transform="scale(-1,1)">
+              <circle cx="18" cy="45" r="3"/>
+              <rect x="14" y="45" width="8" height="20" rx="4"/>
+              <circle cx="18" cy="65" r="3"/>
+              <rect x="14" y="65" width="8" height="20" rx="4"/>
+              <circle cx="18" cy="85" r="3"/>
+              <path d="M 14.6 90.5 a 5.4 5.4 0 1 0 6.8 0" stroke-width="1.1"/>
+            </g>
+            <!-- legs + feet -->
+            <g>
+              <circle cx="12" cy="90" r="3"/>
+              <rect x="8" y="90" width="8" height="24" rx="4"/>
+              <circle cx="12" cy="114" r="3"/>
+              <rect x="8" y="114" width="8" height="24" rx="4"/>
+              <circle cx="12" cy="138" r="3"/>
+              <rect x="4" y="138" width="24" height="12" rx="5.5" stroke-width="1.1"/>
+            </g>
+            <g transform="scale(-1,1)">
+              <circle cx="12" cy="90" r="3"/>
+              <rect x="8" y="90" width="8" height="24" rx="4"/>
+              <circle cx="12" cy="114" r="3"/>
+              <rect x="8" y="114" width="8" height="24" rx="4"/>
+              <circle cx="12" cy="138" r="3"/>
+              <rect x="4" y="138" width="24" height="12" rx="5.5" stroke-width="1.1"/>
+            </g>
+          </g>
+
+          <!-- ground line -->
+          <line x1="-40" y1="150" x2="40" y2="150" stroke="var(--balance)" stroke-width="0.8"/>
+
+          <!-- overall height dimension -->
+          <g stroke="var(--muted)" stroke-width="0.4">
+            <line x1="-46" y1="0" x2="-46" y2="150"/>
+            <line x1="-48.5" y1="0" x2="-19" y2="0"/>
+            <line x1="-48.5" y1="150" x2="-30" y2="150"/>
+            <path d="M -46 0 l -1.6 4 h 3.2 z" fill="var(--muted)" stroke="none"/>
+            <path d="M -46 150 l -1.6 -4 h 3.2 z" fill="var(--muted)" stroke="none"/>
+          </g>
+          <text class="dim" x="-49" y="77" transform="rotate(-90 -49 77)" text-anchor="middle">150</text>
+
+          <!-- station dimensions on the right -->
+          <g stroke="var(--muted)" stroke-width="0.35" stroke-dasharray="2 1.6">
+            <line x1="30" y1="36"  x2="46" y2="36"/>
+            <line x1="30" y1="90"  x2="46" y2="90"/>
+            <line x1="30" y1="114" x2="46" y2="114"/>
+            <line x1="30" y1="138" x2="46" y2="138"/>
+            <line x1="30" y1="150" x2="46" y2="150"/>
+          </g>
+          <g class="dimL" text-anchor="start">
+            <text x="47" y="37.5">head 36</text>
+            <text x="47" y="91.5">hip 60</text>
+            <text x="47" y="115.5">knee 36</text>
+            <text x="47" y="139.5">ankle 12</text>
+            <text x="47" y="151.5">ground 0</text>
+          </g>
+
+          <!-- stance width -->
+          <g stroke="var(--balance)" stroke-width="0.4">
+            <line x1="-28" y1="160" x2="28" y2="160"/>
+            <path d="M -28 160 l 4 -1.6 v 3.2 z" fill="var(--balance)" stroke="none"/>
+            <path d="M 28 160 l -4 -1.6 v 3.2 z" fill="var(--balance)" stroke="none"/>
+          </g>
+          <text class="balT" x="0" y="167" text-anchor="middle">stance 56</text>
+        </svg>
+        </div>
+        <figcaption>Front elevation · mm</figcaption>
+      </figure>
+
+      <figure class="view" style="margin:0">
+        <div class="scroller">
+        <svg viewBox="-40 -14 100 186" role="img" aria-label="Side elevation showing foot length and body depth">
+          <g fill="none" stroke="var(--ink)" stroke-width="0.9" stroke-linejoin="round">
+            <rect x="-15" y="0" width="30" height="36" rx="10"/>
+            <ellipse cx="13" cy="14" rx="2.4" ry="4.2" stroke-width="0.7"/>
+            <circle cx="0" cy="39" r="3"/>
+            <rect x="-12" y="42" width="24" height="48" rx="4"/>
+            <!-- arm, seen edge-on -->
+            <g stroke-width="0.7" stroke-dasharray="2.4 1.6">
+              <rect x="-4" y="45" width="8" height="40" rx="4"/>
+            </g>
+            <!-- leg -->
+            <circle cx="0" cy="90" r="3"/>
+            <rect x="-4" y="90" width="8" height="24" rx="4"/>
+            <circle cx="0" cy="114" r="3"/>
+            <rect x="-4" y="114" width="8" height="24" rx="4"/>
+            <circle cx="0" cy="138" r="3"/>
+            <!-- foot: 18 behind ankle, 30 in front -->
+            <path d="M -18 150 h 48 a 6 6 0 0 0 -1 -8 q -14 -4 -46 -4 a 6 6 0 0 0 -1 12 z"
+                  stroke-width="1.1"/>
+          </g>
+
+          <line x1="-26" y1="150" x2="40" y2="150" stroke="var(--balance)" stroke-width="0.8"/>
+
+          <!-- foot length dims -->
+          <g stroke="var(--balance)" stroke-width="0.4">
+            <line x1="-18" y1="160" x2="30" y2="160"/>
+            <path d="M -18 160 l 4 -1.6 v 3.2 z" fill="var(--balance)" stroke="none"/>
+            <path d="M 30 160 l -4 -1.6 v 3.2 z" fill="var(--balance)" stroke="none"/>
+            <line x1="0" y1="152" x2="0" y2="166" stroke-dasharray="2 1.5"/>
+          </g>
+          <text class="balT" x="-9" y="167" text-anchor="middle">18</text>
+          <text class="balT" x="15" y="167" text-anchor="middle">30</text>
+
+          <!-- torso depth -->
+          <g stroke="var(--muted)" stroke-width="0.4">
+            <line x1="-10" y1="92" x2="10" y2="92" transform="translate(0,-30)"/>
+          </g>
+          <text class="dimL" x="20" y="63">torso depth 20</text>
+          <text class="dimL" x="20" y="20">head depth 30</text>
+        </svg>
+        </div>
+        <figcaption>Side elevation · mm</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Detail A — hand, sized to a LEGO bar</h2>
+    <div class="views" style="margin-top:20px">
+      <figure class="view" style="flex:1 1 260px;margin:0">
+        <div class="scroller">
+        <svg viewBox="-36 -16 90 34" role="img" aria-label="Cross-section of the C-clip hand gripping a LEGO bar">
+          <circle cx="0" cy="0" r="1.55" fill="none" stroke="var(--fixed)" stroke-width="0.45"
+                  stroke-dasharray="1.6 1.2"/>
+          <path d="M 1.2 -0.95 A 1.55 1.55 0 1 0 1.2 0.95" fill="none"
+                stroke="var(--fixed)" stroke-width="0.7"/>
+          <path d="M 1.25 -1.0 L 2.9 -2.3 A 3.15 3.15 0 1 1 2.9 2.3 L 1.25 1.0"
+                fill="none" stroke="var(--ink)" stroke-width="0.8" stroke-linejoin="round"/>
+          <line x1="-3.15" y1="0" x2="-9" y2="0" stroke="var(--ink)" stroke-width="0.8"/>
+          <circle cx="-11" cy="0" r="2.2" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+
+          <g stroke="var(--fixed)" stroke-width="0.3">
+            <line x1="0" y1="-1.55" x2="14" y2="-11"/>
+            <line x1="14" y1="-11" x2="20" y2="-11"/>
+          </g>
+          <text class="fixedT" x="21" y="-10">Ø3.2 LEGO bar</text>
+
+          <g stroke="var(--muted)" stroke-width="0.3">
+            <line x1="2.2" y1="2.6" x2="12" y2="12"/>
+            <line x1="12" y1="12" x2="18" y2="12"/>
+          </g>
+          <text class="dim" x="19" y="13">bore Ø3.1</text>
+
+          <g stroke="var(--muted)" stroke-width="0.3">
+            <line x1="1.2" y1="0.95" x2="-6" y2="14"/>
+            <line x1="-6" y1="14" x2="-12" y2="14"/>
+          </g>
+          <text class="dim" x="-13" y="15" text-anchor="end">mouth 2.5</text>
+
+          <text class="dimL" x="-11" y="-5" text-anchor="middle">wrist ball</text>
+        </svg>
+        </div>
+        <figcaption>Detail A · hand section · mm</figcaption>
+      </figure>
+
+      <div class="stack" style="flex:1 1 300px">
+        <p class="note">
+          <strong>Ø3.2 mm is not a design choice.</strong> A LEGO bar — the rod a minifigure holds —
+          is 3.2 mm, and every LEGO clip is a C that grips it. Model the bore at
+          <b>Ø3.1</b> so the plastic pinches, and the mouth at <b>2.5 mm</b> so it snaps over rather
+          than slides on. Wall 1.6 mm, grip depth 6 mm along the bar.
+        </p>
+        <p style="margin:0;color:var(--ink-soft)">
+          For a Technic cross-axle instead, the same hand scaled to a <b>Ø4.9 bore, 3.9 mm mouth</b>
+          holds a 4.8 mm axle. Worth modelling as a variable rather than a number, so one figure can
+          be printed either way.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Detail B — the joint, thirteen times over</h2>
+    <div class="views" style="margin-top:20px">
+      <figure class="view" style="flex:1 1 260px;margin:0">
+        <div class="scroller">
+        <svg viewBox="-39 -17 81 33" role="img" aria-label="Section through a ball and socket joint">
+          <line x1="-8" y1="0" x2="-22" y2="0" stroke="var(--ink)" stroke-width="1"/>
+          <circle cx="-4.5" cy="0" r="3.5" fill="none" stroke="var(--ink)" stroke-width="0.9"/>
+          <path d="M 3.6 -2.95 A 3.9 3.9 0 1 0 3.6 2.95 L 6.6 2.95 A 1.6 1.6 0 0 0 6.6 -2.95 Z"
+                fill="none" stroke="var(--ink)" stroke-width="0.9" stroke-linejoin="round"/>
+          <line x1="6.5" y1="0" x2="22" y2="0" stroke="var(--ink)" stroke-width="1"/>
+          <g stroke="var(--muted)" stroke-width="0.3" stroke-dasharray="1.4 1.2">
+            <line x1="-4.5" y1="-9" x2="-4.5" y2="9"/>
+          </g>
+          <g stroke="var(--muted)" stroke-width="0.3">
+            <line x1="-4.5" y1="-3.5" x2="-13" y2="-12"/>
+            <line x1="-13" y1="-12" x2="-19" y2="-12"/>
+          </g>
+          <text class="dim" x="-20" y="-11" text-anchor="end">ball Ø6</text>
+          <g stroke="var(--muted)" stroke-width="0.3">
+            <line x1="3.6" y1="2.95" x2="11" y2="12"/>
+            <line x1="11" y1="12" x2="17" y2="12"/>
+          </g>
+          <text class="dim" x="18" y="13">mouth 5.0</text>
+        </svg>
+        </div>
+        <figcaption>Detail B · joint section · mm</figcaption>
+      </figure>
+
+      <div class="stack" style="flex:1 1 300px">
+        <p style="margin:0;color:var(--ink-soft)">
+          One ball size everywhere — <b>Ø6 mm</b> (<code>#torsoH / 8</code>), socket mouth <b>5.0 mm</b> (84%), wall 1.6 mm, with
+          two relief slits so the cup can spread. Thirteen joints: neck, two shoulders, two elbows,
+          two wrists, two hips, two knees, two ankles.
+        </p>
+        <p style="margin:0;color:var(--ink-soft)">
+          Keeping every joint identical is a modelling decision, not a manufacturing one. Model the
+          socket once and it can be mirrored and patterned onto every limb — which is exactly the
+          lesson those tools exist to teach.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why it stands up</h2>
+    <div class="views" style="margin-top:20px">
+      <figure class="view" style="flex:0 1 300px;margin:0">
+        <div class="scroller">
+        <svg viewBox="-42 -40 84 92" role="img" aria-label="Plan view of the support polygon under the feet">
+          <g fill="none" stroke="var(--ink)" stroke-width="0.9">
+            <path d="M -28 -30 h 24 a 5 5 0 0 1 0 10 l -1 34 a 6 6 0 0 1 -23 0 z" opacity="0.85"/>
+            <path d="M 28 -30 h -24 a 5 5 0 0 0 0 10 l 1 34 a 6 6 0 0 0 23 0 z" opacity="0.85"/>
+          </g>
+          <path d="M -28 -30 H 28 V 20 H -28 Z" fill="var(--balance)" fill-opacity="0.10"
+                stroke="var(--balance)" stroke-width="0.6" stroke-dasharray="3 2"/>
+          <g stroke="var(--balance)" stroke-width="0.8">
+            <line x1="-4" y1="-5" x2="4" y2="-5"/>
+            <line x1="0" y1="-9" x2="0" y2="-1"/>
+          </g>
+          <text class="balT" x="6" y="-6">CoM ≈ 74 mm up</text>
+          <text class="balT" x="0" y="30" text-anchor="middle">support polygon 56 × 48</text>
+        </svg>
+        </div>
+        <figcaption>Plan · support polygon</figcaption>
+      </figure>
+
+      <div class="stack" style="flex:1 1 320px">
+        <table>
+          <thead><tr><th>Tip direction</th><th>Angle before it falls</th></tr></thead>
+          <tbody>
+            <tr><td>Sideways</td><td class="n">21°</td></tr>
+            <tr><td>Forward (onto the toes)</td><td class="n">22°</td></tr>
+            <tr><td>Backward (onto the heels)</td><td class="n">14°</td></tr>
+          </tbody>
+        </table>
+        <p style="margin:0;color:var(--ink-soft)">
+          Estimated from the volume of the primitives, so treat it as a sanity check rather than a
+          measurement. CoM sits at roughly 74&nbsp;mm. <b>Backward is the weak direction</b> — the heel is only 18 mm behind the ankle
+          against 30 mm of toe. Lengthening the heel is the cheapest fix if a printed figure tips.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dimensions</h2>
+    <div class="scroller" style="margin-top:18px">
+      <table>
+        <thead><tr><th>Feature</th><th>Dimension</th><th>Driven by</th></tr></thead>
+        <tbody>
+          <tr><td>Overall height</td><td class="n">150</td><td class="n">sum of the chain</td></tr>
+          <tr><td>Head</td><td class="n">36 × 36 × 30</td><td class="n">#torsoH × 3/4</td></tr>
+          <tr><td>Torso</td><td class="n">36 w × 48 h × 24 d</td><td class="n">2 : 3 : 4</td></tr>
+          <tr><td>Thigh / shin</td><td class="n">24 / 24</td><td class="n">#torsoH / 2</td></tr>
+          <tr><td>Upper arm / forearm</td><td class="n">20 / 20</td><td class="n">#torsoH × 5/12</td></tr>
+          <tr><td>Limb rod</td><td class="n">Ø8</td><td class="n">#torsoH / 6</td></tr>
+          <tr><td>Foot</td><td class="n">48 l × 24 w × 12 h</td><td class="n">#torsoH, /2, /4</td></tr>
+          <tr><td>Hip / foot centres</td><td class="n">±12 / ±16</td><td class="n">#torsoH /4, /3</td></tr>
+          <tr><td>Ball joint</td><td class="n">Ø6, mouth 5.0</td><td class="n">#torsoH / 8</td></tr>
+          <tr><td>Hand bore</td><td class="n fixed">Ø3.1 for a Ø3.2 bar</td><td class="fixed">LEGO</td></tr>
+          <tr><td>Hand mouth</td><td class="n fixed">2.5</td><td class="fixed">LEGO</td></tr>
+          <tr><td>Axle variant bore</td><td class="n fixed">Ø4.9 for a 4.8 axle</td><td class="fixed">LEGO</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>What this teaches</h2>
+    <div class="cards" style="margin-top:20px">
+      <div class="card">
+        <h3>Revolve</h3>
+        <p>Every ball is a half-circle spun about its own flat edge. Thirteen reasons to learn one tool.</p>
+      </div>
+      <div class="card">
+        <h3>Mirror</h3>
+        <p>Model the left side only. The figure is symmetric about one plane, which is the course's own advice for a symmetric part.</p>
+      </div>
+      <div class="card">
+        <h3>Variables</h3>
+        <p>Height drives limb lengths; bar diameter drives the hand. Change one number, get a different robot that still grips LEGO.</p>
+      </div>
+      <div class="card">
+        <h3>Assemblies and mates</h3>
+        <p>Thirteen ball mates, each leaving rotation about three axes — the thing a single-solid model can never demonstrate.</p>
+      </div>
+    </div>
+  </section>
+
+  <dl class="titleblock">
+    <div class="tb"><dt>Subject</dt><dd>Articulated figure, 13 joints</dd></div>
+    <div class="tb"><dt>Scale</dt><dd>Elevations 1:1 mm · details noted</dd></div>
+    <div class="tb"><dt>Units</dt><dd>Millimetres</dd></div>
+    <div class="tb"><dt>Driver</dt><dd>#torsoH = 48 mm</dd></div>
+    <div class="tb"><dt>Status</dt><dd>Concept — not yet modelled</dd></div>
+  </dl>
+</div>

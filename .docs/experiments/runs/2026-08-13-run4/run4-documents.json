@@ -1,0 +1,230 @@
+{
+ "hinge": {
+  "did": "62a872a81be583b5a834ab81",
+  "wid": "5c5537487dc30262ffc3a148",
+  "elements": {
+   "Part Studio 1": {
+    "id": "b7203dd686599652a16889f3",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "c86dab8a18555d3edf44365f",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "df21d6a4afe49e9702ce84ea",
+    "type": "BILLOFMATERIALS"
+   }
+  }
+ },
+ "ball-socket": {
+  "did": "b35ba30bf1c1f52ae737dc85",
+  "wid": "c7824bb08c0926e1a24b728f",
+  "elements": {
+   "Part Studio 1": {
+    "id": "5de57092a69d4096e37f1e04",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "79592aa7830a62817760ad04",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "63c8bac03d05a6226cac7db8",
+    "type": "BILLOFMATERIALS"
+   }
+  }
+ },
+ "torso": {
+  "did": "575eeaa61605e4e98cf83c98",
+  "wid": "f011204ed4175bdc6976db17",
+  "elements": {
+   "Part Studio 1": {
+    "id": "97e395ff11b881573017fedf",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "0c41d0adbcce572e50984579",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "97d7c217c8401bcdf9e3eeba",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JHD",
+    "name": "Torso"
+   }
+  ],
+  "versionId": "6ba1857cdffc5dd0c475490f",
+  "connectors": {
+   "Neck": "FhxnkxZnD6vW953_1",
+   "Shoulder R": "FIG337cG1fHGQdf_1",
+   "Shoulder L": "FThiC3GOFdU9OK1_1",
+   "Hip R": "FCkapbAiJHEwF6K_1",
+   "Hip L": "FSNOBpRjiQVNmkh_1"
+  }
+ },
+ "head": {
+  "did": "87941467ffcb5614f8e5cd9c",
+  "wid": "7f18b654613b6e67b8d64688",
+  "elements": {
+   "Part Studio 1": {
+    "id": "56f9b893e0768fe18f466f0f",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "2f2cdaddf28a305e251b8bdc",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "0b201d0258ccd91a7fe7ceba",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JHD",
+    "name": "Head"
+   }
+  ],
+  "versionId": "32f93c5a1cfe30975fda6b7c",
+  "connectors": {
+   "Neck socket": "FUlj1SekKA7I4DQ_1"
+  }
+ },
+ "hand": {
+  "did": "8376230696a463f1a8eefa0e",
+  "wid": "5694af49ef22d033f70465fa",
+  "elements": {
+   "Part Studio 1": {
+    "id": "f0874b32f6c5527d06dc7cc8",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "0f77366f6e66716792dea316",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "6ab953383e0932f54ffbcf0a",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JHD",
+    "name": "Hand"
+   }
+  ],
+  "versionId": "0ffe5e317500bc778dcc9274",
+  "connectors": {
+   "Socket": "FV3IkIGknbUMiLU_1"
+  }
+ },
+ "foot": {
+  "did": "88e4785754c8b39b144f2ff6",
+  "wid": "68067293dd9bdb4a17bdac26",
+  "elements": {
+   "Part Studio 1": {
+    "id": "e006e54f1fb375efcb1ad153",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "9a67a73c27753f7eaa161665",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "01f7c36e2ec935d3af51a21f",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JHD",
+    "name": "Foot"
+   }
+  ],
+  "versionId": "a4a53d32bfb9a13553c55ec0",
+  "connectors": {
+   "Socket": "FuCHV29r5aYVKvS_1"
+  }
+ },
+ "limb-blade-ball": {
+  "did": "96d4bd047e40887aa2d57801",
+  "wid": "4d1dc6a2fa13f79ecc0a4872",
+  "elements": {
+   "Part Studio 1": {
+    "id": "c9a3bb6afd7fd07b4e1b5a77",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "3f076766d1f0f1ccf22b32ab",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "af020f5ac85c3d9cf369a658",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JHD",
+    "name": "Forearm and shin"
+   }
+  ],
+  "versionId": "d960ee2907c08cf5890dbbc7",
+  "connectors": {
+   "Hinge": "FeiUJVpbH0IA6f2_1",
+   "Ball": "FOhCNxEH6lyz0pX_1"
+  }
+ },
+ "limb-socket-clevis": {
+  "did": "4bc4d4861b3a7bbe8b92061a",
+  "wid": "47e186bef90f5702f0593e03",
+  "elements": {
+   "Part Studio 1": {
+    "id": "894eec54de985ed632122ece",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "9e3eeffe12df7740952122c9",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "0e8cbd10ac897d46abe2d5ab",
+    "type": "BILLOFMATERIALS"
+   }
+  },
+  "parts": [
+   {
+    "partId": "JID",
+    "name": "Upper arm / thigh"
+   }
+  ],
+  "versionId": "507c3b6ba9fe9d5f7d6d463d",
+  "connectors": {
+   "Socket": "Fzktsp6aFfwXlZj_1",
+   "Hinge": "FARMNYuubcauguV_1"
+  }
+ },
+ "lesson": {
+  "did": "5ef020ed135f2610f5f937b3",
+  "wid": "bbdb1f90cec38a903999e13b",
+  "elements": {
+   "Part Studio 1": {
+    "id": "bfe06892359f885ab5e93597",
+    "type": "PARTSTUDIO"
+   },
+   "Assembly 1": {
+    "id": "e0fadcbe9955a336e740770c",
+    "type": "ASSEMBLY"
+   },
+   "BOM : Assembly 1": {
+    "id": "28f594cb7f51f9b6b68a5cd9",
+    "type": "BILLOFMATERIALS"
+   }
+  }
+ }
+}

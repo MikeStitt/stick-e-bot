@@ -1,0 +1,1088 @@
+12:02:24 on https://cad.onshape.com/documents/aca8691bb83295fdde2015db/w/51cea5ef558233bb62482046/e/08688d842246482d3d09959a
+12:02:24 tree row ['Default geometry', 140, 157]
+12:02:24 tree row ['Origin', 140, 183]
+12:02:24 tree row ['Top', 140, 209]
+12:02:24 tree row ['Front', 140, 235]
+12:02:24 tree row ['Right', 140, 261]
+12:02:24 tree row ['', 140, 287]
+12:02:24 tree row ['Parts (0)', 140, 670]
+12:06:14 about to select the Top plane in the feature tree at (140, 209)
+12:06:16 selected the Top plane in the feature tree -> 02-a-select-the-top-plane-in-the-feature-tree.png
+12:06:16 about to click the Sketch button at (155, 58)
+12:06:17 clicked the Sketch button -> 04-b-done-the-sketch-button.png
+12:07:12 about to click the circle tool at (307, 58)
+12:07:12 clicked the circle tool -> 08-b-done-the-circle-tool.png
+12:07:12 circle tool is lit
+12:07:12 about to select the origin, for the circle centre at (923, 522)
+12:07:14 selected the origin, for the circle centre -> 09-a-select-the-origin-for-the-circle-centre.png
+12:07:14 about to click a point out from the origin, setting the radius at (1050, 522)
+12:07:15 clicked a point out from the origin, setting the radius -> 10-b-done-a-point-out-from-the-origin-setting-the-radius.png
+12:07:16 about to select the circle edge at (1050, 522)
+12:07:18 selected the circle edge -> 13-a-select-the-circle-edge.png
+12:07:18 about to click where the dimension sits at (1180, 400)
+12:07:19 clicked where the dimension sits -> 14-b-done-where-the-dimension-sits.png
+12:07:20 the limb diameter: 70.70809 mm -> 12
+12:07:21 about to click the green tick, closing the sketch at (423, 93)
+12:07:22 clicked the green tick, closing the sketch -> 16-b-done-the-green-tick-closing-the-sketch.png
+12:07:22 after the limb circle sketch, no errored rows in the tree
+12:07:22 about to click the Sketch 1 row, to rename it at (140, 287)
+12:07:23 clicked the Sketch 1 row, to rename it -> 17-b-done-the-sketch-1-row-to-rename-it.png
+12:07:23 about to click Rename in the context menu at (263, 311)
+12:07:23 clicked Rename in the context menu -> 18-b-done-rename-in-the-context-menu.png
+12:07:25 renamed 'Sketch 1' to 'Limb circle'
+12:08:01 about to press f to fit the view to the sketch
+12:08:02 pressed f to fit the view to the sketch -> 21-b-done-fit-the-view-to-the-sketch.png
+12:09:56 about to select inside the limb circle, picking the region to extrude at (923, 470)
+12:09:57 selected inside the limb circle, picking the region to extrude -> 23-a-select-inside-the-limb-circle-picking-the-region-to-ext.png
+12:09:57 about to click the Extrude button at (219, 58)
+12:09:58 clicked the Extrude button -> 25-b-done-the-extrude-button.png
+12:10:37 about to click the Second end position tick box at (277, 395)
+12:10:38 clicked the Second end position tick box -> 28-b-done-the-second-end-position-tick-box.png
+12:11:15 about to click the green tick, making the rod at (423, 93)
+12:11:16 clicked the green tick, making the rod -> 31-b-done-the-green-tick-making-the-rod.png
+12:11:16 after the fork limb extrude, no errored rows in the tree
+12:11:16 about to click the Extrude 1 row, to rename it at (140, 313)
+12:11:17 clicked the Extrude 1 row, to rename it -> 32-b-done-the-extrude-1-row-to-rename-it.png
+12:12:01 dialog open before the tick: True
+12:12:01 about to click the green tick, making the rod at (423, 93)
+12:12:02 clicked the green tick, making the rod -> 33-b-done-the-green-tick-making-the-rod.png
+12:12:02 dialog open after the tick: False
+12:12:02 after the fork limb extrude, no errored rows in the tree
+12:12:02 about to click the Extrude 1 row, to rename it at (140, 313)
+12:12:03 clicked the Extrude 1 row, to rename it -> 34-b-done-the-extrude-1-row-to-rename-it.png
+12:12:03 about to click Rename in the context menu at (261, 337)
+12:12:04 clicked Rename in the context menu -> 35-b-done-rename-in-the-context-menu.png
+12:12:05 renamed 'Extrude 1' to 'Fork limb'
+12:12:05 about to click the Part 1 row, to rename it at (140, 696)
+12:12:06 clicked the Part 1 row, to rename it -> 37-b-done-the-part-1-row-to-rename-it.png
+12:12:06 about to click Rename in the context menu at (256, 364)
+12:12:07 clicked Rename in the context menu -> 38-b-done-rename-in-the-context-menu.png
+12:12:09 renamed 'Part 1' to 'Clevis fork'
+12:14:29 about to select the Front plane in the feature tree at (140, 235)
+12:14:30 selected the Front plane in the feature tree -> 41-a-select-the-front-plane-in-the-feature-tree.png
+12:14:30 about to click the Sketch button at (130, 58)
+12:14:31 clicked the Sketch button -> 43-b-done-the-sketch-button.png
+12:16:15 about to click the circle tool at (307, 58)
+12:16:15 clicked the circle tool -> 46-b-done-the-circle-tool.png
+12:16:15 about to select the origin, for the circle centre at (922, 523)
+12:16:17 selected the origin, for the circle centre -> 47-a-select-the-origin-for-the-circle-centre.png
+12:16:17 about to click a point out from the origin, setting the radius at (1010, 460)
+12:16:18 clicked a point out from the origin, setting the radius -> 48-b-done-a-point-out-from-the-origin-setting-the-radius.png
+12:16:19 about to select the circle edge at (998, 447)
+12:16:21 selected the circle edge -> 50-a-select-the-circle-edge.png
+12:16:21 about to click where the dimension sits at (1150, 360)
+12:16:21 clicked where the dimension sits -> 51-b-done-where-the-dimension-sits.png
+12:16:23 the round-end diameter: 17.49648 mm -> 12
+12:16:49 about to click the arrow beside the rectangle tool at (279, 58)
+12:16:50 clicked the arrow beside the rectangle tool -> 53-b-done-the-arrow-beside-the-rectangle-tool.png
+12:17:35 about to click Center point rectangle in the dropdown at (335, 130)
+12:17:36 clicked Center point rectangle in the dropdown -> 55-b-done-center-point-rectangle-in-the-dropdown.png
+12:17:36 about to select the origin, for the middle of the square at (922, 523)
+12:17:37 selected the origin, for the middle of the square -> 56-a-select-the-origin-for-the-middle-of-the-square.png
+12:17:37 about to click a corner out from the origin at (1010, 435)
+12:17:38 clicked a corner out from the origin -> 57-b-done-a-corner-out-from-the-origin.png
+12:17:40 about to select the top edge of the square at (870, 435)
+12:17:41 selected the top edge of the square -> 59-a-select-the-top-edge-of-the-square.png
+12:17:41 about to click where the width dimension sits at (870, 380)
+12:17:42 clicked where the width dimension sits -> 60-b-done-where-the-width-dimension-sits.png
+12:17:43 the square's width: 14.05244 mm -> 14
+12:17:43 about to select the right edge of the square at (1010, 570)
+12:17:45 selected the right edge of the square -> 61-a-select-the-right-edge-of-the-square.png
+12:17:45 about to click where the height dimension sits at (1090, 570)
+12:17:45 clicked where the height dimension sits -> 62-b-done-where-the-height-dimension-sits.png
+12:17:47 the square's height: 14.41042 mm -> 14
+12:19:20 about to click the line tool at (200, 58)
+12:19:21 clicked the line tool -> 64-b-done-the-line-tool.png
+12:19:21 about to select where the left edge crosses the axis at (834, 523)
+12:19:22 selected where the left edge crosses the axis -> 65-a-select-where-the-left-edge-crosses-the-axis.png
+12:19:22 about to click where the right edge crosses the axis at (1010, 523)
+12:19:23 clicked where the right edge crosses the axis -> 66-b-done-where-the-right-edge-crosses-the-axis.png
+12:20:04 about to click the green tick, closing the sketch at (423, 93)
+12:20:04 clicked the green tick, closing the sketch -> 68-b-done-the-green-tick-closing-the-sketch.png
+12:20:04 after the round end profile sketch, no errored rows in the tree
+12:20:04 about to click the Sketch 1 row, to rename it at (140, 339)
+12:20:05 clicked the Sketch 1 row, to rename it -> 69-b-done-the-sketch-1-row-to-rename-it.png
+12:20:05 about to click Rename in the context menu at (263, 363)
+12:20:06 clicked Rename in the context menu -> 70-b-done-rename-in-the-context-menu.png
+12:20:08 renamed 'Sketch 1' to 'Round end profile'
+12:20:34 about to select the lower half of the round end profile at (845, 600)
+12:20:35 selected the lower half of the round end profile -> 73-a-select-the-lower-half-of-the-round-end-profile.png
+12:20:35 about to click the Extrude button at (219, 58)
+12:20:36 clicked the Extrude button -> 75-b-done-the-extrude-button.png
+12:21:29 about to select the lower half of the round end profile at (845, 600)
+12:21:30 selected the lower half of the round end profile -> 77-a-select-the-lower-half-of-the-round-end-profile.png
+12:22:08 about to click Remove, so the corner comes out instead of going in at (365, 148)
+12:22:09 clicked Remove, so the corner comes out instead of going in -> 78-b-done-remove-so-the-corner-comes-out-instead-of-going-.png
+12:22:09 about to click the Blind dropdown at (343, 231)
+12:22:10 clicked the Blind dropdown -> 79-b-done-the-blind-dropdown.png
+12:22:46 about to click Through all at (291, 392)
+12:22:47 clicked Through all -> 81-b-done-through-all.png
+12:23:27 about to click the Symmetric tick box at (257, 315)
+12:23:27 clicked the Symmetric tick box -> 83-b-done-the-symmetric-tick-box.png
+12:23:29 about to click the green tick, rounding the end at (423, 93)
+12:23:30 clicked the green tick, rounding the end -> 85-b-done-the-green-tick-rounding-the-end.png
+12:23:30 after the fork round end, no errored rows in the tree
+12:23:30 about to click the Extrude 1 row, to rename it at (140, 365)
+12:23:30 clicked the Extrude 1 row, to rename it -> 86-b-done-the-extrude-1-row-to-rename-it.png
+12:23:31 about to click Rename in the context menu at (273, 389)
+12:23:31 clicked Rename in the context menu -> 87-b-done-rename-in-the-context-menu.png
+12:23:33 renamed 'Extrude 1' to 'Fork round end'
+12:24:57 about to select the Right plane in the feature tree at (140, 261)
+12:24:58 selected the Right plane in the feature tree -> 90-a-select-the-right-plane-in-the-feature-tree.png
+12:24:58 about to click the Sketch button at (130, 58)
+12:24:59 clicked the Sketch button -> 91-b-done-the-sketch-button.png
+12:26:08 about to click the arrow beside the rectangle tool at (279, 58)
+12:26:09 clicked the arrow beside the rectangle tool -> 93-b-done-the-arrow-beside-the-rectangle-tool.png
+12:26:09 about to click Corner rectangle in the dropdown at (335, 94)
+12:26:09 clicked Corner rectangle in the dropdown -> 94-b-done-corner-rectangle-in-the-dropdown.png
+12:26:09 about to select the slot's top left corner at (963, 387)
+12:26:11 selected the slot's top left corner -> 95-a-select-the-slot-s-top-left-corner.png
+12:26:11 about to click the slot's bottom right corner at (1033, 613)
+12:26:12 clicked the slot's bottom right corner -> 96-b-done-the-slot-s-bottom-right-corner.png
+12:26:38 about to select the slot's left wall at (963, 470)
+12:26:39 selected the slot's left wall -> 98-a-select-the-slot-s-left-wall.png
+12:26:39 about to select the Z axis at (998, 800)
+12:26:41 selected the Z axis -> 99-a-select-the-z-axis.png
+12:26:41 about to click where the dimension sits at (900, 700)
+12:26:41 clicked where the dimension sits -> 100-b-done-where-the-dimension-sits.png
+12:26:43 the left wall off the axis: 2.76891 mm -> 2.8
+12:26:43 about to select the slot's right wall at (1033, 470)
+12:26:44 selected the slot's right wall -> 101-a-select-the-slot-s-right-wall.png
+12:26:44 about to select the Z axis at (998, 800)
+12:26:46 selected the Z axis -> 102-a-select-the-z-axis.png
+12:26:46 about to click where the dimension sits at (1120, 700)
+12:26:46 clicked where the dimension sits -> 103-b-done-where-the-dimension-sits.png
+12:26:48 the right wall off the axis: 2.84395 mm -> 2.8
+12:26:48 about to select the slot's root at (1015, 387)
+12:26:49 selected the slot's root -> 104-a-select-the-slot-s-root.png
+12:26:49 about to select the Y axis at (1300, 525)
+12:26:51 selected the Y axis -> 105-a-select-the-y-axis.png
+12:26:51 about to click where the dimension sits at (1200, 450)
+12:26:51 clicked where the dimension sits -> 106-b-done-where-the-dimension-sits.png
+12:26:53 the slot root above the axis: 11.13354 mm -> 11
+12:26:53 about to select the slot's open end at (1015, 613)
+12:26:54 selected the slot's open end -> 107-a-select-the-slot-s-open-end.png
+12:26:54 about to select the Y axis at (1300, 525)
+12:26:55 selected the Y axis -> 108-a-select-the-y-axis.png
+12:26:55 about to click where the dimension sits at (1200, 580)
+12:26:56 clicked where the dimension sits -> 109-b-done-where-the-dimension-sits.png
+12:26:58 the open end below the axis: 7.08834 mm -> 7
+12:27:28 about to click the green tick, closing the sketch at (423, 93)
+12:27:29 clicked the green tick, closing the sketch -> 111-b-done-the-green-tick-closing-the-sketch.png
+12:27:29 after the slot profile sketch, no errored rows in the tree
+12:27:29 about to click the Sketch 1 row, to rename it at (140, 391)
+12:27:30 clicked the Sketch 1 row, to rename it -> 112-b-done-the-sketch-1-row-to-rename-it.png
+12:27:30 about to click Rename in the context menu at (263, 415)
+12:27:31 clicked Rename in the context menu -> 113-b-done-rename-in-the-context-menu.png
+12:27:32 renamed 'Sketch 1' to 'Slot profile'
+12:27:32 about to click the Extrude button at (219, 58)
+12:27:33 clicked the Extrude button -> 116-b-done-the-extrude-button.png
+12:27:35 about to select the slot region at (1015, 450)
+12:27:36 selected the slot region -> 117-a-select-the-slot-region.png
+12:28:10 about to select the Slot profile row in the feature tree at (140, 391)
+12:28:12 selected the Slot profile row in the feature tree -> 119-a-select-the-slot-profile-row-in-the-feature-tree.png
+12:28:39 about to click Remove at (365, 148)
+12:28:40 clicked Remove -> 120-b-done-remove.png
+12:28:40 about to click the Blind dropdown at (343, 231)
+12:28:41 clicked the Blind dropdown -> 121-b-done-the-blind-dropdown.png
+12:28:42 about to click Through all at (291, 392)
+12:28:42 clicked Through all -> 122-b-done-through-all.png
+12:28:44 about to click the Symmetric tick box at (257, 315)
+12:28:44 clicked the Symmetric tick box -> 123-b-done-the-symmetric-tick-box.png
+12:29:10 about to click the green tick, cutting the slot at (423, 93)
+12:29:10 clicked the green tick, cutting the slot -> 125-b-done-the-green-tick-cutting-the-slot.png
+12:29:11 after the fork slot, no errored rows in the tree
+12:29:11 about to click the Extrude 1 row, to rename it at (140, 417)
+12:29:11 clicked the Extrude 1 row, to rename it -> 126-b-done-the-extrude-1-row-to-rename-it.png
+12:29:11 about to click Rename in the context menu at (261, 441)
+12:29:12 clicked Rename in the context menu -> 127-b-done-rename-in-the-context-menu.png
+12:29:14 renamed 'Extrude 1' to 'Fork slot'
+12:31:32 about to click the view menu beside the view cube at (1563, 232)
+12:31:33 clicked the view menu beside the view cube -> 130-b-done-the-view-menu-beside-the-view-cube.png
+12:31:55 about to click Isometric at (1454, 258)
+12:31:56 clicked Isometric -> 132-b-done-isometric.png
+12:33:34 about to select the inside face of the far ear at (1000, 560)
+12:33:36 selected the inside face of the far ear -> 136-a-select-the-inside-face-of-the-far-ear.png
+12:34:02 about to click the Sketch button at (130, 58)
+12:34:03 clicked the Sketch button -> 137-b-done-the-sketch-button.png
+12:34:56 about to click the circle tool at (307, 58)
+12:34:57 clicked the circle tool -> 139-b-done-the-circle-tool.png
+12:34:57 about to select the origin, which is the hinge axis at (923, 569)
+12:34:58 selected the origin, which is the hinge axis -> 140-a-select-the-origin-which-is-the-hinge-axis.png
+12:34:58 about to click a point out from the origin, setting the radius at (962, 530)
+12:34:59 clicked a point out from the origin, setting the radius -> 141-b-done-a-point-out-from-the-origin-setting-the-radius.png
+12:35:00 about to select the circle edge at (962, 530)
+12:35:01 selected the circle edge -> 142-a-select-the-circle-edge.png
+12:35:01 about to click where the dimension sits at (1080, 460)
+12:35:02 clicked where the dimension sits -> 143-b-done-where-the-dimension-sits.png
+12:35:04 the stub diameter: 6.09041 mm -> 2
+12:35:05 about to click the green tick, closing the sketch at (423, 93)
+12:35:05 clicked the green tick, closing the sketch -> 145-b-done-the-green-tick-closing-the-sketch.png
+12:35:05 after the stub circle sketch, no errored rows in the tree
+12:35:05 about to click the Sketch 1 row, to rename it at (140, 443)
+12:35:06 clicked the Sketch 1 row, to rename it -> 146-b-done-the-sketch-1-row-to-rename-it.png
+12:35:06 about to click Rename in the context menu at (263, 467)
+12:35:07 clicked Rename in the context menu -> 147-b-done-rename-in-the-context-menu.png
+12:35:09 renamed 'Sketch 1' to 'Stub circle'
+12:35:29 about to click the Extrude button at (219, 58)
+12:35:30 clicked the Extrude button -> 150-b-done-the-extrude-button.png
+12:35:32 about to select the Stub circle row in the feature tree at (140, 443)
+12:35:33 selected the Stub circle row in the feature tree -> 151-a-select-the-stub-circle-row-in-the-feature-tree.png
+12:36:02 about to click the green tick, growing the stub at (423, 93)
+12:36:03 clicked the green tick, growing the stub -> 153-b-done-the-green-tick-growing-the-stub.png
+12:36:03 about to click the green tick again at (423, 93)
+12:36:04 clicked the green tick again -> 154-b-done-the-green-tick-again.png
+12:36:04 after the ear stub, no errored rows in the tree
+12:36:04 about to click the Extrude 1 row, to rename it at (140, 469)
+12:36:04 clicked the Extrude 1 row, to rename it -> 155-b-done-the-extrude-1-row-to-rename-it.png
+12:36:04 about to click Rename in the context menu at (261, 493)
+12:36:05 clicked Rename in the context menu -> 156-b-done-rename-in-the-context-menu.png
+12:36:07 renamed 'Extrude 1' to 'Ear stub'
+12:38:12 about to select the face filling the screen at (1050, 400)
+12:38:13 selected the face filling the screen -> 160-a-select-the-face-filling-the-screen.png
+12:38:13 readout: ''
+12:39:01 about to click the view menu beside the view cube at (1563, 232)
+12:39:02 clicked the view menu beside the view cube -> 161-b-done-the-view-menu-beside-the-view-cube.png
+12:39:02 about to click Isometric at (1454, 258)
+12:39:03 clicked Isometric -> 162-b-done-isometric.png
+12:39:39 about to select the inside face of the far ear at (1015, 630)
+12:39:41 selected the inside face of the far ear -> 164-a-select-the-inside-face-of-the-far-ear.png
+12:40:07 about to click empty space, clearing the selection at (500, 830)
+12:40:08 clicked empty space, clearing the selection -> 165-b-done-empty-space-clearing-the-selection.png
+12:40:08 about to select the inside face of the far ear, on its own at (1015, 630)
+12:40:09 selected the inside face of the far ear, on its own -> 166-a-select-the-inside-face-of-the-far-ear-on-its-own.png
+12:40:09 about to click the Sketch button at (130, 58)
+12:40:10 clicked the Sketch button -> 167-b-done-the-sketch-button.png
+12:40:47 about to click the red cross, cancelling the sketch at (451, 93)
+12:40:48 clicked the red cross, cancelling the sketch -> 169-b-done-the-red-cross-cancelling-the-sketch.png
+12:40:49 about to click the view menu beside the view cube at (1563, 232)
+12:40:50 clicked the view menu beside the view cube -> 170-b-done-the-view-menu-beside-the-view-cube.png
+12:40:50 about to click Isometric at (1454, 258)
+12:40:51 clicked Isometric -> 171-b-done-isometric.png
+12:40:53 tree now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Limb circle', 'Fork limb', 'Round end profile', 'Fork round end', 'Slot profile', 'Fork slot', 'Stub circle', 'Ear stub', '', 'Parts (1)', 'Clevis fork']
+12:41:37 about to select the inside face of the far ear at (1015, 630)
+12:41:38 selected the inside face of the far ear -> 173-a-select-the-inside-face-of-the-far-ear.png
+12:41:38 readout: 'Area:167.53209mm2'
+12:41:54 about to click the Sketch button at (130, 58)
+12:41:55 clicked the Sketch button -> 174-b-done-the-sketch-button.png
+12:41:58 sketch plane reads 'on'
+12:42:20 sketch plane reads '(no box)'
+12:44:13 about to click the circle tool at (307, 58)
+12:44:14 clicked the circle tool -> 177-b-done-the-circle-tool.png
+12:44:14 about to select a centre on the vertical axis, above the origin at (922, 340)
+12:44:15 selected a centre on the vertical axis, above the origin -> 178-a-select-a-centre-on-the-vertical-axis-above-the-origin.png
+12:44:15 about to click a point out from it, setting the radius at (944, 322)
+12:44:16 clicked a point out from it, setting the radius -> 179-b-done-a-point-out-from-it-setting-the-radius.png
+12:44:48 about to select the tooth circle's edge at (943, 319)
+12:44:49 selected the tooth circle's edge -> 181-a-select-the-tooth-circle-s-edge.png
+12:44:49 about to click where the diameter dimension sits at (1120, 240)
+12:44:50 clicked where the diameter dimension sits -> 182-b-done-where-the-diameter-dimension-sits.png
+12:44:52 the tooth diameter: 1.24384 mm -> 0.8
+12:44:52 about to select the origin, which is the hinge axis at (922, 569)
+12:44:53 selected the origin, which is the hinge axis -> 183-a-select-the-origin-which-is-the-hinge-axis.png
+12:44:53 about to select the tooth circle's centre at (922, 340)
+12:44:54 selected the tooth circle's centre -> 184-a-select-the-tooth-circle-s-centre.png
+12:44:54 about to click where the distance dimension sits at (1080, 460)
+12:44:55 clicked where the distance dimension sits -> 185-b-done-where-the-distance-dimension-sits.png
+12:48:51 about to select the origin, which is the hinge axis seen end-on at (922, 569)
+12:48:53 selected the origin, which is the hinge axis seen end-on -> 186-a-select-the-origin-which-is-the-hinge-axis-seen-end-on.png
+12:48:53 readout after the origin: []
+12:48:53 about to select the tooth circle's centre at (922, 421)
+12:48:54 selected the tooth circle's centre -> 187-a-select-the-tooth-circle-s-centre.png
+12:48:54 readout after the centre: ['Min dist']
+12:48:54 about to click where the distance dimension sits at (1090, 490)
+12:48:55 clicked where the distance dimension sits -> 188-b-done-where-the-distance-dimension-sits.png
+12:48:55 dimension box open: True
+12:48:56 the tooth off the hinge axis: 3.20751 mm -> 4.8
+12:49:58 about to click the green tick, which closes the sketch at (423, 93)
+12:49:59 clicked the green tick, which closes the sketch -> 191-b-done-the-green-tick-which-closes-the-sketch.png
+12:50:00 about to click the Sketch 1 row, to rename it at (140, 495)
+12:50:01 clicked the Sketch 1 row, to rename it -> 192-b-done-the-sketch-1-row-to-rename-it.png
+12:50:01 about to click Rename in the context menu at (263, 519)
+12:50:02 clicked Rename in the context menu -> 193-b-done-rename-in-the-context-menu.png
+12:50:04 renamed 'Sketch 1' to 'Tooth circle'
+12:50:04 after the tooth circle sketch, no errored rows in the tree
+12:51:08 about to click the Extrude button at (219, 58)
+12:51:09 clicked the Extrude button -> 197-b-done-the-extrude-button.png
+12:51:11 about to select the Tooth circle row in the feature tree at (140, 495)
+12:51:12 selected the Tooth circle row in the feature tree -> 199-a-select-the-tooth-circle-row-in-the-feature-tree.png
+12:52:04 about to click the green tick, growing the tooth at (423, 93)
+12:52:05 clicked the green tick, growing the tooth -> 201-b-done-the-green-tick-growing-the-tooth.png
+12:52:05 about to click the green tick again at (423, 93)
+12:52:06 clicked the green tick again -> 202-b-done-the-green-tick-again.png
+12:52:06 after the ear tooth, no errored rows in the tree
+12:52:06 about to click the Extrude 1 row, to rename it at (140, 521)
+12:52:07 clicked the Extrude 1 row, to rename it -> 203-b-done-the-extrude-1-row-to-rename-it.png
+12:52:07 about to click Rename in the context menu at (261, 545)
+12:52:08 clicked Rename in the context menu -> 204-b-done-rename-in-the-context-menu.png
+12:52:10 renamed 'Extrude 1' to 'Ear tooth'
+12:52:40 about to select the tooth's crown, the little flat circle on top at (922, 348)
+12:52:42 selected the tooth's crown, the little flat circle on top -> 207-a-select-the-tooth-s-crown-the-little-flat-circle-on-top.png
+12:52:42 readout: 'Diameter:12.00000mm'
+12:54:39 about to click the view menu beside the view cube at (1563, 232)
+12:54:40 clicked the view menu beside the view cube -> 208-b-done-the-view-menu-beside-the-view-cube.png
+12:54:40 about to click Isometric at (1454, 258)
+12:54:41 clicked Isometric -> 209-b-done-isometric.png
+12:57:10 about to click the Right face of the view cube at (1528, 180)
+12:57:11 clicked the Right face of the view cube -> 212-b-done-the-right-face-of-the-view-cube.png
+12:57:13 about to click the view menu at (1563, 232)
+12:57:14 clicked the view menu -> 213-b-done-the-view-menu.png
+12:58:06 about to click Zoom to fit at (1458, 393)
+12:58:07 clicked Zoom to fit -> 215-b-done-zoom-to-fit.png
+12:58:59 about to click the Right face of the view cube at (1528, 180)
+12:59:00 clicked the Right face of the view cube -> 218-b-done-the-right-face-of-the-view-cube.png
+13:00:00 about to click the view menu at (1563, 232)
+13:00:01 clicked the view menu -> 220-b-done-the-view-menu.png
+13:00:01 about to click Isometric at (1454, 258)
+13:00:02 clicked Isometric -> 221-b-done-isometric.png
+13:00:47 about to click the view menu at (1563, 232)
+13:00:48 clicked the view menu -> 223-b-done-the-view-menu.png
+13:00:48 about to click Zoom to window at (1472, 437)
+13:00:49 clicked Zoom to window -> 224-b-done-zoom-to-window.png
+13:01:44 (775,455) -> 
+13:01:45 (764,462) -> 
+13:01:46 (788,448) -> 
+13:01:47 (770,448) -> 
+13:01:48 (780,462) -> 
+13:02:17 about to select the grey face inside the slot at (900, 600)
+13:02:18 selected the grey face inside the slot -> 227-a-select-the-grey-face-inside-the-slot.png
+13:02:18 readout: ''
+13:03:06 cleared -> ''
+13:03:07 (775,455) -> ''
+13:03:07 cleared -> ''
+13:03:08 (764,462) -> ''
+13:03:08 cleared -> ''
+13:03:09 (788,448) -> ''
+13:03:10 cleared -> ''
+13:03:11 (770,448) -> ''
+13:03:11 cleared -> ''
+13:03:12 (780,465) -> ''
+13:03:12 cleared -> ''
+13:03:13 (757,455) -> ''
+13:04:31 about to click the Default geometry folder at (140, 157)
+13:04:32 clicked the Default geometry folder -> 231-b-done-the-default-geometry-folder.png
+13:04:33 menu: []
+13:05:15 about to click the Front plane row at (140, 235)
+13:05:16 clicked the Front plane row -> 233-b-done-the-front-plane-row.png
+13:05:17 menu: [['Rename', 261, 259], ['New sketch…', 261, 282], ['Offset plane…', 261, 304], ['Hide', 261, 327], ['Hide other planes', 261, 349], ['Hide all planes', 261, 371], ['Section view…', 261, 394], ['Add comment', 261, 417], ['Zoom to selection', 261, 440], ['View normal to', 261, 462], ['Clear selection', 261, 485], ['Show dependencies…', 261, 508], ['Add appearance to 3 faces…', 261, 531]]
+13:05:46 about to click Hide all planes at (261, 371)
+13:05:47 clicked Hide all planes -> 235-b-done-hide-all-planes.png
+13:05:49 about to click the Fork limb row at (140, 313)
+13:05:50 clicked the Fork limb row -> 236-b-done-the-fork-limb-row.png
+13:05:50 about to click Clear selection at (274, 563)
+13:05:51 clicked Clear selection -> 237-b-done-clear-selection.png
+13:07:29 (775,455) -> 'Diameter:0.80000mm'
+13:07:30 (785,445) -> ''
+13:07:31 (768,450) -> 'Diameter:0.80000mm'
+13:07:32 (780,465) -> ''
+13:07:33 (763,462) -> ''
+13:07:33 (790,452) -> ''
+13:07:52 about to click the view menu at (1563, 232)
+13:07:53 clicked the view menu -> 239-b-done-the-view-menu.png
+13:07:53 about to click Zoom to window at (1472, 437)
+13:07:54 clicked Zoom to window -> 240-b-done-zoom-to-window.png
+13:08:34 cleared -> ''
+13:08:35 (900,500) -> 'Diameter:0.80000mm'
+13:08:35 (760,700) -> ''
+13:08:36 (1050,600) -> 'Diameter:0.80000mm'
+13:08:37 (800,300) -> ''
+13:08:38 (1080,500) -> 'Diameter:0.80000mm'
+13:08:39 (750,850) -> 'Min dist:0.60000mm'
+13:10:12 (905,490) -> 'Diameter:0.80000mm'
+13:10:15 (695,595) -> 'Diameter:12.00000mm'
+13:10:17 (815,620) -> 'Diameter:0.80000mm'
+13:11:27 about to click the Fillet button at (411, 58)
+13:11:28 clicked the Fillet button -> 244-b-done-the-fillet-button.png
+13:11:29 about to select the tooth's crown at (905, 490)
+13:11:30 selected the tooth's crown -> 246-a-select-the-tooth-s-crown.png
+13:12:50 about to click the green tick, doming the tooth at (423, 93)
+13:12:51 clicked the green tick, doming the tooth -> 249-b-done-the-green-tick-doming-the-tooth.png
+13:12:51 about to click the green tick again at (423, 93)
+13:12:52 clicked the green tick again -> 250-b-done-the-green-tick-again.png
+13:12:52 after the crown fillet, tree has errors: ['Fillet 1']
+13:12:52 about to click the Fillet 1 row, to rename it at (140, 547)
+13:12:53 clicked the Fillet 1 row, to rename it -> 252-b-done-the-fillet-1-row-to-rename-it.png
+13:12:53 about to click Rename in the context menu at (272, 571)
+13:12:54 clicked Rename in the context menu -> 253-b-done-rename-in-the-context-menu.png
+13:12:56 renamed 'Fillet 1' to 'Tooth crown'
+13:13:34 about to click the Tooth crown row at (140, 547)
+13:13:35 clicked the Tooth crown row -> 256-b-done-the-tooth-crown-row.png
+13:13:36 about to click Delete at (287, 753)
+13:13:37 clicked Delete -> 257-b-done-delete.png
+13:13:38 tree now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Limb circle', 'Fork limb', 'Round end profile', 'Fork round end', 'Slot profile', 'Fork slot', 'Stub circle', 'Ear stub', 'Tooth circle', 'Ear tooth', '', 'Parts (1)', 'Clevis fork']
+13:13:49 AREA at (805,620) -> 'Area:0.50265mm2'
+13:13:50 AREA at (865,620) -> 'Area:0.50265mm2'
+13:13:50 AREA at (925,620) -> 'Area:0.50265mm2'
+13:13:51 AREA at (985,620) -> 'Area:0.50265mm2'
+13:13:52 AREA at (805,680) -> 'Area:167.02944mm2'
+13:13:52 AREA at (865,680) -> 'Area:167.02944mm2'
+13:14:21 about to select the tooth's crown, the little flat disc on its tip at (925, 620)
+13:14:22 selected the tooth's crown, the little flat disc on its tip -> 258-a-select-the-tooth-s-crown-the-little-flat-disc-on-its-ti.png
+13:14:22 readout: 'Diameter:0.80000mm'
+13:14:47 (925,560) -> ''
+13:14:48 (865,560) -> 'Diameter:0.80000mm'
+13:14:50 (985,560) -> ''
+13:14:51 (805,560) -> 'Diameter:0.80000mm'
+13:14:53 (925,500) -> ''
+13:14:54 (925,590) -> 'Diameter:0.80000mm'
+13:15:30 cleared -> ''
+13:15:32 (925,620) -> 'Diameter:0.80000mm'
+13:16:22 (808,640) -> 'Area:0.50265mm2'
+13:16:25 (812,600) -> 'Diameter:0.80000mm'
+13:16:28 (804,690) -> 'Area:0.50265mm2'
+13:16:50 about to click the Fillet button at (411, 58)
+13:16:51 clicked the Fillet button -> 262-b-done-the-fillet-button.png
+13:17:10 about to click the green tick, doming the tooth at (423, 93)
+13:17:11 clicked the green tick, doming the tooth -> 265-b-done-the-green-tick-doming-the-tooth.png
+13:17:11 about to click the green tick again at (423, 93)
+13:17:12 clicked the green tick again -> 266-b-done-the-green-tick-again.png
+13:17:12 after the crown fillet, no errored rows in the tree
+13:17:12 about to click the Fillet 1 row, to rename it at (140, 547)
+13:17:13 clicked the Fillet 1 row, to rename it -> 267-b-done-the-fillet-1-row-to-rename-it.png
+13:17:13 about to click Rename in the context menu at (261, 571)
+13:17:14 clicked Rename in the context menu -> 268-b-done-rename-in-the-context-menu.png
+13:17:16 renamed 'Fillet 1' to 'Tooth crown'
+13:18:55 about to click the arrow beside the pattern button at (714, 58)
+13:18:56 clicked the arrow beside the pattern button -> 274-b-done-the-arrow-beside-the-pattern-button.png
+13:18:57 menu: [['Linear pattern', 772, 93], ['Circular pattern', 772, 126], ['Curve pattern', 772, 159]]
+13:19:12 about to click Circular pattern at (772, 126)
+13:19:13 clicked Circular pattern -> 276-b-done-circular-pattern.png
+13:19:40 about to click the pattern type dropdown at (343, 121)
+13:19:41 clicked the pattern type dropdown -> 278-b-done-the-pattern-type-dropdown.png
+13:19:42 menu: [['New', 269, 149], ['Add', 313, 149], ['Remove', 366, 149], ['Intersect', 432, 149], ['Angle', 266, 246], ['Part pattern', 294, 152], ['Feature pattern', 305, 178], ['Face pattern', 296, 204]]
+13:19:59 about to click Feature pattern at (305, 178)
+13:19:59 clicked Feature pattern -> 280-b-done-feature-pattern.png
+13:20:01 about to select the Ear tooth row in the feature tree at (140, 521)
+13:20:02 selected the Ear tooth row in the feature tree -> 282-a-select-the-ear-tooth-row-in-the-feature-tree.png
+13:20:03 about to select the Tooth crown row in the feature tree at (140, 547)
+13:20:04 selected the Tooth crown row in the feature tree -> 283-a-select-the-tooth-crown-row-in-the-feature-tree.png
+13:20:39 about to click the Axis of pattern field, so it is the one collecting at (343, 227)
+13:20:40 clicked the Axis of pattern field, so it is the one collecting -> 285-b-done-the-axis-of-pattern-field-so-it-is-the-one-colle.png
+13:20:41 about to select the stub's round side, which runs along the hinge axis at (915, 880)
+13:20:42 selected the stub's round side, which runs along the hinge axis -> 286-a-select-the-stub-s-round-side-which-runs-along-the-hinge.png
+13:21:45 about to click the green tick, ringing the ear with teeth at (423, 93)
+13:21:47 clicked the green tick, ringing the ear with teeth -> 290-b-done-the-green-tick-ringing-the-ear-with-teeth.png
+13:21:47 about to click the green tick again at (423, 93)
+13:21:50 clicked the green tick again -> 291-b-done-the-green-tick-again.png
+13:21:50 after the tooth ring, no errored rows in the tree
+13:21:50 about to click the Circular pattern 1 row, to rename it at (140, 573)
+13:21:51 clicked the Circular pattern 1 row, to rename it -> 292-b-done-the-circular-pattern-1-row-to-rename-it.png
+13:21:51 about to click Rename in the context menu at (261, 597)
+13:21:52 clicked Rename in the context menu -> 293-b-done-rename-in-the-context-menu.png
+13:21:53 renamed 'Circular pattern 1' to 'Tooth ring'
+13:22:25 about to click the Mirror button at (740, 58)
+13:22:27 clicked the Mirror button -> 297-b-done-the-mirror-button.png
+13:22:54 about to click the mirror type dropdown at (343, 121)
+13:22:55 clicked the mirror type dropdown -> 299-b-done-the-mirror-type-dropdown.png
+13:22:56 menu: [['New', 269, 149], ['Add', 313, 149], ['Remove', 366, 149], ['Intersect', 432, 149], ['Part mirror', 291, 152], ['Feature mirror', 302, 178], ['Face mirror', 293, 204]]
+13:23:14 about to click Feature mirror at (302, 178)
+13:23:15 clicked Feature mirror -> 301-b-done-feature-mirror.png
+13:23:16 about to select the Ear stub row in the feature tree at (140, 469)
+13:23:18 selected the Ear stub row in the feature tree -> 303-a-select-the-ear-stub-row-in-the-feature-tree.png
+13:23:18 about to select the Ear tooth row in the feature tree at (140, 521)
+13:23:20 selected the Ear tooth row in the feature tree -> 304-a-select-the-ear-tooth-row-in-the-feature-tree.png
+13:23:20 about to select the Tooth crown row in the feature tree at (140, 547)
+13:23:22 selected the Tooth crown row in the feature tree -> 305-a-select-the-tooth-crown-row-in-the-feature-tree.png
+13:23:23 about to select the Tooth ring row in the feature tree at (140, 573)
+13:23:25 selected the Tooth ring row in the feature tree -> 306-a-select-the-tooth-ring-row-in-the-feature-tree.png
+13:23:53 about to click the Mirror plane field, so it is the one collecting at (343, 275)
+13:23:54 clicked the Mirror plane field, so it is the one collecting -> 308-b-done-the-mirror-plane-field-so-it-is-the-one-collecti.png
+13:23:55 about to select the Front plane row in the feature tree at (140, 235)
+13:23:59 selected the Front plane row in the feature tree -> 309-a-select-the-front-plane-row-in-the-feature-tree.png
+13:24:00 about to click the Reapply features box at (258, 325)
+13:24:04 clicked the Reapply features box -> 311-b-done-the-reapply-features-box.png
+13:24:30 about to click the green tick, giving the other ear its detents at (423, 93)
+13:24:34 clicked the green tick, giving the other ear its detents -> 313-b-done-the-green-tick-giving-the-other-ear-its-detents.png
+13:24:34 after the mirrored detents, no errored rows in the tree
+13:24:34 about to click the Mirror 1 row, to rename it at (140, 599)
+13:24:35 clicked the Mirror 1 row, to rename it -> 314-b-done-the-mirror-1-row-to-rename-it.png
+13:24:35 about to click Rename in the context menu at (261, 623)
+13:24:36 clicked Rename in the context menu -> 315-b-done-rename-in-the-context-menu.png
+13:24:38 renamed 'Mirror 1' to 'Detents both ears'
+13:30:02 about to click the view menu at (1563, 232)
+13:30:03 clicked the view menu -> 318-b-done-the-view-menu.png
+13:30:03 about to click Isometric at (1454, 258)
+13:30:05 clicked Isometric -> 319-b-done-isometric.png
+13:30:07 about to click the view menu at (1563, 232)
+13:30:07 clicked the view menu -> 320-b-done-the-view-menu.png
+13:30:07 about to click Zoom to fit at (1458, 393)
+13:30:10 clicked Zoom to fit -> 321-b-done-zoom-to-fit.png
+13:30:56 about to select the Top plane in the feature tree at (140, 209)
+13:30:58 selected the Top plane in the feature tree -> 323-a-select-the-top-plane-in-the-feature-tree.png
+13:30:58 about to click the Sketch button at (130, 58)
+13:30:59 clicked the Sketch button -> 325-b-done-the-sketch-button.png
+13:35:07 about to click the circle tool at (307, 58)
+13:35:08 clicked the circle tool -> 328-b-done-the-circle-tool.png
+13:35:08 about to select the origin, for the circle centre at (792, 392)
+13:35:10 selected the origin, for the circle centre -> 329-a-select-the-origin-for-the-circle-centre.png
+13:35:10 about to click a point out from the origin, setting the radius at (1042, 392)
+13:35:12 clicked a point out from the origin, setting the radius -> 330-b-done-a-point-out-from-the-origin-setting-the-radius.png
+13:35:12 about to press Escape to put the circle tool down
+13:35:13 pressed Escape to put the circle tool down -> 331-b-done-put-the-circle-tool-down.png
+13:35:13 about to select the circle, so the next keystroke acts on it at (1042, 392)
+13:35:14 selected the circle, so the next keystroke acts on it -> 333-a-select-the-circle-so-the-next-keystroke-acts-on-it.png
+13:35:14 about to press q to turn the circle into construction geometry
+13:35:17 pressed q to turn the circle into construction geometry -> 334-b-done-turn-the-circle-into-construction-geometry.png
+13:36:28 about to click the arrow beside the rectangle tool at (279, 58)
+13:36:29 clicked the arrow beside the rectangle tool -> 336-b-done-the-arrow-beside-the-rectangle-tool.png
+13:36:29 about to click Center point rectangle in the dropdown at (335, 130)
+13:36:30 clicked Center point rectangle in the dropdown -> 338-b-done-center-point-rectangle-in-the-dropdown.png
+13:36:55 the centre point rectangle tool is lit
+13:36:55 about to select the origin, for the rectangle's centre at (792, 392)
+13:36:57 selected the origin, for the rectangle's centre -> 339-a-select-the-origin-for-the-rectangle-s-centre.png
+13:36:57 about to click a corner up and to the right at (900, 330)
+13:36:59 clicked a corner up and to the right -> 340-b-done-a-corner-up-and-to-the-right.png
+13:36:59 about to press Escape to put the rectangle tool down
+13:37:00 pressed Escape to put the rectangle tool down -> 341-b-done-put-the-rectangle-tool-down.png
+13:37:33 about to click empty space, to start with nothing selected at (1250, 820)
+13:37:34 clicked empty space, to start with nothing selected -> 343-b-done-empty-space-to-start-with-nothing-selected.png
+13:37:34 about to select the rectangle's top right corner at (900, 330)
+13:37:36 selected the rectangle's top right corner -> 344-a-select-the-rectangle-s-top-right-corner.png
+13:37:36 about to select the construction circle, added to the selection at (792, 142)
+13:37:38 selected the construction circle, added to the selection -> 345-a-select-the-construction-circle-added-to-the-selection.png
+13:38:01 about to click the coincident constraint at (1008, 58)
+13:38:03 clicked the coincident constraint -> 348-b-done-the-coincident-constraint.png
+13:38:04 about to click empty space, to see the result on its own at (1250, 820)
+13:38:05 clicked empty space, to see the result on its own -> 349-b-done-empty-space-to-see-the-result-on-its-own.png
+13:38:44 about to select the rectangle's left edge at (684, 392)
+13:38:45 selected the rectangle's left edge -> 352-a-select-the-rectangle-s-left-edge.png
+13:38:45 about to click where the dimension sits at (560, 500)
+13:38:46 clicked where the dimension sits -> 353-b-done-where-the-dimension-sits.png
+13:38:48 the blade thickness: 4.12012 mm -> 5
+13:38:48 about to click empty space, to see the result on its own at (1250, 820)
+13:38:49 clicked empty space, to see the result on its own -> 354-b-done-empty-space-to-see-the-result-on-its-own.png
+13:39:16 about to select the construction circle at (792, 544)
+13:39:18 selected the construction circle -> 356-a-select-the-construction-circle.png
+13:39:18 about to click where the dimension sits at (792, 700)
+13:39:20 clicked where the dimension sits -> 357-b-done-where-the-dimension-sits.png
+13:39:21 the limb diameter the corners ride on: 9.88937 mm -> 12
+13:39:21 about to click empty space, to see the result on its own at (1250, 850)
+13:39:22 clicked empty space, to see the result on its own -> 358-b-done-empty-space-to-see-the-result-on-its-own.png
+13:39:45 about to click the green tick, closing the sketch at (423, 93)
+13:39:47 clicked the green tick, closing the sketch -> 360-b-done-the-green-tick-closing-the-sketch.png
+13:39:47 after the blade slice sketch, no errored rows in the tree
+13:39:47 about to click the Sketch 1 row, to rename it at (140, 625)
+13:39:48 clicked the Sketch 1 row, to rename it -> 361-b-done-the-sketch-1-row-to-rename-it.png
+13:39:48 about to click Rename in the context menu at (263, 223)
+13:39:49 clicked Rename in the context menu -> 362-b-done-rename-in-the-context-menu.png
+13:39:51 renamed 'Sketch 1' to 'Blade slice'
+13:40:46 about to click the extrude tool at (219, 58)
+13:40:47 clicked the extrude tool -> 366-b-done-the-extrude-tool.png
+13:40:49 about to click the Blade slice row, filling the faces field at (140, 604)
+13:40:50 clicked the Blade slice row, filling the faces field -> 368-b-done-the-blade-slice-row-filling-the-faces-field.png
+13:42:18 about to click the faces field, so it is the one collecting at (355, 182)
+13:42:19 clicked the faces field, so it is the one collecting -> 371-b-done-the-faces-field-so-it-is-the-one-collecting.png
+13:42:19 about to click the Blade slice row at (140, 604)
+13:42:20 clicked the Blade slice row -> 372-b-done-the-blade-slice-row.png
+13:43:12 about to click the Clevis fork row at (140, 696)
+13:43:13 clicked the Clevis fork row -> 374-b-done-the-clevis-fork-row.png
+13:43:13 about to click Hide in the context menu at (268, 787)
+13:43:14 clicked Hide in the context menu -> 375-b-done-hide-in-the-context-menu.png
+13:44:08 about to click inside the rectangle, picking the region to extrude at (700, 440)
+13:44:09 clicked inside the rectangle, picking the region to extrude -> 377-b-done-inside-the-rectangle-picking-the-region-to-extru.png
+13:44:50 about to click the eye beside Blade slice, to show the sketch at (219, 604)
+13:44:51 clicked the eye beside Blade slice, to show the sketch -> 379-b-done-the-eye-beside-blade-slice-to-show-the-sketch.png
+13:44:52 about to click inside the rectangle, picking the region to extrude at (700, 440)
+13:44:53 clicked inside the rectangle, picking the region to extrude -> 381-b-done-inside-the-rectangle-picking-the-region-to-extru.png
+13:45:54 about to click the red X, putting the extrude aside for now at (451, 93)
+13:45:55 clicked the red X, putting the extrude aside for now -> 383-b-done-the-red-x-putting-the-extrude-aside-for-now.png
+13:46:48 about to click the Clevis fork row at (140, 696)
+13:46:49 clicked the Clevis fork row -> 385-b-done-the-clevis-fork-row.png
+13:46:49 about to click Hide in the context menu at (268, 787)
+13:46:50 clicked Hide in the context menu -> 386-b-done-hide-in-the-context-menu.png
+13:47:46 about to click empty space, to start with nothing selected at (1300, 800)
+13:47:47 clicked empty space, to start with nothing selected -> 388-b-done-empty-space-to-start-with-nothing-selected.png
+13:47:47 about to select the top side at (960, 445)
+13:47:48 selected the top side -> 389-a-select-the-top-side.png
+13:47:48 about to select the bottom side at (990, 600)
+13:47:49 selected the bottom side -> 390-a-select-the-bottom-side.png
+13:47:49 about to select the left side at (755, 522)
+13:47:51 selected the left side -> 391-a-select-the-left-side.png
+13:47:51 about to select the right side at (1090, 522)
+13:47:52 selected the right side -> 392-a-select-the-right-side.png
+13:48:30 about to press q to turn the four sides back into real edges
+13:48:31 pressed q to turn the four sides back into real edges -> 394-b-done-turn-the-four-sides-back-into-real-edges.png
+13:48:32 about to click empty space, to see the result on its own at (1300, 800)
+13:48:33 clicked empty space, to see the result on its own -> 395-b-done-empty-space-to-see-the-result-on-its-own.png
+13:49:11 about to click the green tick, closing the sketch at (423, 93)
+13:49:12 clicked the green tick, closing the sketch -> 397-b-done-the-green-tick-closing-the-sketch.png
+13:49:12 after the corrected blade slice, no errored rows in the tree
+13:49:40 about to click the extrude tool at (219, 58)
+13:49:40 clicked the extrude tool -> 400-b-done-the-extrude-tool.png
+13:49:42 about to click inside the rectangle, picking the region to extrude at (800, 550)
+13:49:43 clicked inside the rectangle, picking the region to extrude -> 402-b-done-inside-the-rectangle-picking-the-region-to-extru.png
+13:50:29 about to click the Second end position box at (277, 395)
+13:50:30 clicked the Second end position box -> 405-b-done-the-second-end-position-box.png
+13:51:17 about to click the view menu at (1563, 232)
+13:51:18 clicked the view menu -> 408-b-done-the-view-menu.png
+13:51:18 about to click Isometric at (1454, 258)
+13:51:19 clicked Isometric -> 409-b-done-isometric.png
+13:52:00 about to click the green tick, making the slab at (423, 93)
+13:52:01 clicked the green tick, making the slab -> 411-b-done-the-green-tick-making-the-slab.png
+13:52:01 after the blade slab, no errored rows in the tree
+13:52:01 about to click the Extrude 1 row, to rename it at (140, 630)
+13:52:02 clicked the Extrude 1 row, to rename it -> 412-b-done-the-extrude-1-row-to-rename-it.png
+13:52:02 about to click Rename in the context menu at (261, 654)
+13:52:02 clicked Rename in the context menu -> 413-b-done-rename-in-the-context-menu.png
+13:52:04 renamed 'Extrude 1' to 'Blade slab'
+13:52:04 about to click the Part 2 row, to rename it at (140, 722)
+13:52:05 clicked the Part 2 row, to rename it -> 415-b-done-the-part-2-row-to-rename-it.png
+13:52:05 about to click Rename in the context menu at (256, 346)
+13:52:06 clicked Rename in the context menu -> 416-b-done-rename-in-the-context-menu.png
+13:52:07 renamed 'Part 2' to 'Detent blade'
+13:53:37 about to click the Round end profile row at (140, 318)
+13:53:37 clicked the Round end profile row -> 419-b-done-the-round-end-profile-row.png
+13:53:37 about to click Show in the context menu at (287, 455)
+13:53:38 clicked Show in the context menu -> 420-b-done-show-in-the-context-menu.png
+13:53:40 about to click the Front face of the view cube at (1487, 180)
+13:53:40 clicked the Front face of the view cube -> 421-b-done-the-front-face-of-the-view-cube.png
+13:53:42 about to click the view menu at (1563, 232)
+13:53:43 clicked the view menu -> 422-b-done-the-view-menu.png
+13:53:43 about to click Zoom to fit at (1458, 393)
+13:53:44 clicked Zoom to fit -> 423-b-done-zoom-to-fit.png
+13:54:38 about to click the Detent blade row at (140, 722)
+13:54:39 clicked the Detent blade row -> 425-b-done-the-detent-blade-row.png
+13:54:39 about to click Hide in the context menu at (274, 547)
+13:54:39 clicked Hide in the context menu -> 426-b-done-hide-in-the-context-menu.png
+13:55:36 about to click the extrude tool at (219, 58)
+13:55:37 clicked the extrude tool -> 429-b-done-the-extrude-tool.png
+13:55:38 about to click Remove, so this extrude takes material away at (366, 148)
+13:55:39 clicked Remove, so this extrude takes material away -> 430-b-done-remove-so-this-extrude-takes-material-away.png
+13:55:40 about to click the profile above the axis and outside the circle at (620, 150)
+13:55:41 clicked the profile above the axis and outside the circle -> 432-b-done-the-profile-above-the-axis-and-outside-the-circl.png
+13:56:24 about to click the end condition dropdown at (343, 231)
+13:56:25 clicked the end condition dropdown -> 434-b-done-the-end-condition-dropdown.png
+13:56:26 about to click Through all at (292, 392)
+13:56:27 clicked Through all -> 436-b-done-through-all.png
+13:57:07 about to click the Symmetric box, so the cut goes both ways at (257, 315)
+13:57:08 clicked the Symmetric box, so the cut goes both ways -> 438-b-done-the-symmetric-box-so-the-cut-goes-both-ways.png
+13:57:09 about to click the Merge scope field, so it is the one collecting at (355, 428)
+13:57:10 clicked the Merge scope field, so it is the one collecting -> 440-b-done-the-merge-scope-field-so-it-is-the-one-collectin.png
+13:57:10 about to click the Detent blade row at (140, 722)
+13:57:11 clicked the Detent blade row -> 441-b-done-the-detent-blade-row.png
+13:57:53 about to click the Merge scope field, so it is the one collecting at (355, 401)
+13:57:53 clicked the Merge scope field, so it is the one collecting -> 443-b-done-the-merge-scope-field-so-it-is-the-one-collectin.png
+13:57:53 about to click the Detent blade row at (140, 722)
+13:57:54 clicked the Detent blade row -> 444-b-done-the-detent-blade-row.png
+13:58:41 about to click the green tick, rounding the blade's end at (423, 93)
+13:58:42 clicked the green tick, rounding the blade's end -> 446-b-done-the-green-tick-rounding-the-blade-s-end.png
+13:58:42 after the blade round end, no errored rows in the tree
+13:58:42 about to click the Extrude 1 row, to rename it at (140, 630)
+13:58:43 clicked the Extrude 1 row, to rename it -> 447-b-done-the-extrude-1-row-to-rename-it.png
+13:58:43 about to click Rename in the context menu at (273, 654)
+13:58:44 clicked Rename in the context menu -> 448-b-done-rename-in-the-context-menu.png
+13:58:45 renamed 'Extrude 1' to 'Blade round end'
+14:00:01 about to click the Detent blade row at (140, 722)
+14:00:02 clicked the Detent blade row -> 451-b-done-the-detent-blade-row.png
+14:00:02 about to click Show, bringing the blade back at (274, 569)
+14:00:03 clicked Show, bringing the blade back -> 452-b-done-show-bringing-the-blade-back.png
+14:00:04 about to click the Round end profile row at (140, 292)
+14:00:05 clicked the Round end profile row -> 453-b-done-the-round-end-profile-row.png
+14:00:05 about to click Hide, putting the profile away at (287, 429)
+14:00:06 clicked Hide, putting the profile away -> 454-b-done-hide-putting-the-profile-away.png
+14:00:07 about to click the view menu at (1563, 232)
+14:00:07 clicked the view menu -> 455-b-done-the-view-menu.png
+14:00:07 about to click Isometric at (1454, 258)
+14:00:08 clicked Isometric -> 456-b-done-isometric.png
+14:00:10 about to click the view menu at (1563, 232)
+14:00:11 clicked the view menu -> 457-b-done-the-view-menu.png
+14:00:11 about to click Zoom to fit at (1458, 393)
+14:00:12 clicked Zoom to fit -> 458-b-done-zoom-to-fit.png
+14:01:12 about to click the view cube's down arrow at (1509, 235)
+14:01:13 clicked the view cube's down arrow -> 460-b-done-the-view-cube-s-down-arrow.png
+14:01:14 about to click the view cube's down arrow again at (1509, 235)
+14:01:15 clicked the view cube's down arrow again -> 461-b-done-the-view-cube-s-down-arrow-again.png
+14:02:06 about to click the view menu at (1563, 232)
+14:02:07 clicked the view menu -> 463-b-done-the-view-menu.png
+14:02:07 about to click Isometric at (1454, 258)
+14:02:08 clicked Isometric -> 464-b-done-isometric.png
+14:02:09 about to click the view cube's up arrow at (1509, 113)
+14:02:10 clicked the view cube's up arrow -> 465-b-done-the-view-cube-s-up-arrow.png
+14:02:11 about to click the view cube's up arrow at (1509, 113)
+14:02:12 clicked the view cube's up arrow -> 466-b-done-the-view-cube-s-up-arrow.png
+14:02:14 about to click the view cube's up arrow at (1509, 113)
+14:02:14 clicked the view cube's up arrow -> 467-b-done-the-view-cube-s-up-arrow.png
+14:03:51 about to click the view menu at (1563, 232)
+14:03:52 clicked the view menu -> 470-b-done-the-view-menu.png
+14:03:52 about to click Zoom to fit at (1458, 393)
+14:03:53 clicked Zoom to fit -> 471-b-done-zoom-to-fit.png
+14:04:39 about to select the blade's flat bottom face at (924, 212)
+14:04:40 selected the blade's flat bottom face -> 473-a-select-the-blade-s-flat-bottom-face.png
+14:04:41 the readout says 'Area:54.54356mm2'
+14:05:12 the readout says 'Area:54.54356mm2' — the 10.9087 x 5 bottom
+14:05:12 about to click the Sketch button at (130, 58)
+14:05:13 clicked the Sketch button -> 475-b-done-the-sketch-button.png
+14:06:08 construction mode is off, so this circle will be a real edge
+14:06:08 about to click the circle tool at (307, 58)
+14:06:09 clicked the circle tool -> 478-b-done-the-circle-tool.png
+14:06:09 about to select the origin, for the circle centre at (923, 522)
+14:06:10 selected the origin, for the circle centre -> 479-a-select-the-origin-for-the-circle-centre.png
+14:06:10 about to click a point out from the origin, setting the radius at (1100, 522)
+14:06:11 clicked a point out from the origin, setting the radius -> 480-b-done-a-point-out-from-the-origin-setting-the-radius.png
+14:06:11 about to press Escape to put the circle tool down
+14:06:12 pressed Escape to put the circle tool down -> 481-b-done-put-the-circle-tool-down.png
+14:06:13 about to select the circle edge at (1100, 522)
+14:06:14 selected the circle edge -> 484-a-select-the-circle-edge.png
+14:06:14 about to click where the dimension sits at (1250, 380)
+14:06:15 clicked where the dimension sits -> 485-b-done-where-the-dimension-sits.png
+14:06:16 the limb diameter: 8.09818 mm -> 12
+14:06:16 about to click empty space, to see the result on its own at (1350, 880)
+14:06:17 clicked empty space, to see the result on its own -> 486-b-done-empty-space-to-see-the-result-on-its-own.png
+14:06:56 about to click the green tick, closing the sketch at (423, 93)
+14:06:57 clicked the green tick, closing the sketch -> 488-b-done-the-green-tick-closing-the-sketch.png
+14:06:57 after the blade limb circle, no errored rows in the tree
+14:06:57 about to click the Sketch 1 row, to rename it at (140, 630)
+14:06:58 clicked the Sketch 1 row, to rename it -> 489-b-done-the-sketch-1-row-to-rename-it.png
+14:06:58 about to click Rename in the context menu at (263, 228)
+14:06:59 clicked Rename in the context menu -> 490-b-done-rename-in-the-context-menu.png
+14:07:00 renamed 'Sketch 1' to 'Blade limb circle'
+14:07:43 about to click the Blade limb circle row at (140, 630)
+14:07:43 clicked the Blade limb circle row -> 493-b-done-the-blade-limb-circle-row.png
+14:07:43 the sketch is already showing
+14:07:44 about to click the extrude tool at (219, 58)
+14:07:45 clicked the extrude tool -> 495-b-done-the-extrude-tool.png
+14:07:47 about to click Add, so this extrude puts material on at (313, 148)
+14:07:48 clicked Add, so this extrude puts material on -> 496-b-done-add-so-this-extrude-puts-material-on.png
+14:07:49 about to click the circle, clear of the blade's own face at (923, 700)
+14:07:49 clicked the circle, clear of the blade's own face -> 498-b-done-the-circle-clear-of-the-blade-s-own-face.png
+14:08:40 about to click the green tick, growing the limb at (423, 93)
+14:08:41 clicked the green tick, growing the limb -> 501-b-done-the-green-tick-growing-the-limb.png
+14:08:41 about to click the green tick again at (423, 93)
+14:08:42 clicked the green tick again -> 502-b-done-the-green-tick-again.png
+14:08:42 after the blade limb, no errored rows in the tree
+14:08:42 about to click the Extrude 1 row, to rename it at (140, 630)
+14:08:43 clicked the Extrude 1 row, to rename it -> 503-b-done-the-extrude-1-row-to-rename-it.png
+14:08:43 about to click Rename in the context menu at (271, 654)
+14:08:44 clicked Rename in the context menu -> 504-b-done-rename-in-the-context-menu.png
+14:08:46 renamed 'Extrude 1' to 'Blade limb'
+14:09:39 about to click the Blade limb circle row at (140, 604)
+14:09:40 clicked the Blade limb circle row -> 507-b-done-the-blade-limb-circle-row.png
+14:09:41 about to select the Right plane in the feature tree at (140, 162)
+14:09:42 selected the Right plane in the feature tree -> 508-a-select-the-right-plane-in-the-feature-tree.png
+14:09:42 about to click the Sketch button at (130, 58)
+14:09:43 clicked the Sketch button -> 510-b-done-the-sketch-button.png
+14:09:48 about to click the view menu at (1563, 232)
+14:09:48 clicked the view menu -> 511-b-done-the-view-menu.png
+14:09:48 about to click Zoom to fit at (1458, 393)
+14:09:49 clicked Zoom to fit -> 512-b-done-zoom-to-fit.png
+14:11:01 about to click the arrow beside the rectangle tool at (279, 58)
+14:11:02 clicked the arrow beside the rectangle tool -> 514-b-done-the-arrow-beside-the-rectangle-tool.png
+14:11:02 about to click Center point rectangle in the dropdown at (335, 130)
+14:11:03 clicked Center point rectangle in the dropdown -> 515-b-done-center-point-rectangle-in-the-dropdown.png
+14:11:03 about to select a point on the vertical axis, for the rectangle's centre at (923, 421)
+14:11:04 selected a point on the vertical axis, for the rectangle's centre -> 516-a-select-a-point-on-the-vertical-axis-for-the-rectangle-s.png
+14:11:04 about to click a corner up and to the right at (1000, 250)
+14:11:05 clicked a corner up and to the right -> 517-b-done-a-corner-up-and-to-the-right.png
+14:11:05 about to press Escape to put the rectangle tool down
+14:11:06 pressed Escape to put the rectangle tool down -> 518-b-done-put-the-rectangle-tool-down.png
+14:11:06 about to click empty space, to see it on its own at (1350, 880)
+14:11:07 clicked empty space, to see it on its own -> 519-b-done-empty-space-to-see-it-on-its-own.png
+14:11:53 about to select the rectangle's right side at (1000, 480)
+14:11:54 selected the rectangle's right side -> 522-a-select-the-rectangle-s-right-side.png
+14:11:54 about to click where the dimension sits at (1180, 520)
+14:11:55 clicked where the dimension sits -> 523-b-done-where-the-dimension-sits.png
+14:11:56 the slit length: 8.43523 mm -> 16
+14:11:56 about to click empty space, to see the result on its own at (1350, 880)
+14:11:57 clicked empty space, to see the result on its own -> 524-b-done-empty-space-to-see-the-result-on-its-own.png
+14:12:42 about to select the origin, which is the hinge axis at (923, 340)
+14:12:44 selected the origin, which is the hinge axis -> 526-a-select-the-origin-which-is-the-hinge-axis.png
+14:12:44 about to select the slit's far end at (850, 818)
+14:12:45 selected the slit's far end -> 527-a-select-the-slit-s-far-end.png
+14:12:45 about to click where the dimension sits at (620, 600)
+14:12:46 clicked where the dimension sits -> 528-b-done-where-the-dimension-sits.png
+14:12:47 the slit's reach past the axis: 11.7403 mm -> 10
+14:12:47 about to click empty space, to see the result on its own at (1350, 880)
+14:12:48 clicked empty space, to see the result on its own -> 529-b-done-empty-space-to-see-the-result-on-its-own.png
+14:13:44 about to select the slit's left side at (776, 500)
+14:13:45 selected the slit's left side -> 531-a-select-the-slit-s-left-side.png
+14:13:45 about to select the slit's right side at (1070, 500)
+14:13:46 selected the slit's right side -> 532-a-select-the-slit-s-right-side.png
+14:13:46 about to click where the dimension sits at (1280, 300)
+14:13:47 clicked where the dimension sits -> 533-b-done-where-the-dimension-sits.png
+14:13:49 the slit width: 7.25146 mm -> 0.8
+14:13:49 about to click empty space, to see the result on its own at (1350, 880)
+14:13:50 clicked empty space, to see the result on its own -> 534-b-done-empty-space-to-see-the-result-on-its-own.png
+14:14:31 about to click the green tick, closing the sketch at (423, 93)
+14:14:31 clicked the green tick, closing the sketch -> 536-b-done-the-green-tick-closing-the-sketch.png
+14:14:31 after the blade slit profile, no errored rows in the tree
+14:14:31 about to click the Sketch 1 row, to rename it at (140, 630)
+14:14:32 clicked the Sketch 1 row, to rename it -> 537-b-done-the-sketch-1-row-to-rename-it.png
+14:14:32 about to click Rename in the context menu at (263, 228)
+14:14:33 clicked Rename in the context menu -> 538-b-done-rename-in-the-context-menu.png
+14:14:35 renamed 'Sketch 1' to 'Blade slit profile'
+14:15:11 about to click the Blade slit profile row at (140, 630)
+14:15:12 clicked the Blade slit profile row -> 541-b-done-the-blade-slit-profile-row.png
+14:15:12 the sketch is already showing
+14:15:13 about to click the extrude tool at (219, 58)
+14:15:14 clicked the extrude tool -> 543-b-done-the-extrude-tool.png
+14:15:15 about to click Remove, so this extrude takes material away at (366, 148)
+14:15:16 clicked Remove, so this extrude takes material away -> 544-b-done-remove-so-this-extrude-takes-material-away.png
+14:15:17 about to click inside the slit's rectangle at (923, 600)
+14:15:18 clicked inside the slit's rectangle -> 545-b-done-inside-the-slit-s-rectangle.png
+14:16:10 about to click the red X, starting the cut over at (451, 93)
+14:16:11 clicked the red X, starting the cut over -> 547-b-done-the-red-x-starting-the-cut-over.png
+14:16:13 about to click the Detent blade row at (140, 722)
+14:16:14 clicked the Detent blade row -> 548-b-done-the-detent-blade-row.png
+14:16:14 about to click Hide, so the slit is not behind the blade at (274, 547)
+14:16:14 clicked Hide, so the slit is not behind the blade -> 549-b-done-hide-so-the-slit-is-not-behind-the-blade.png
+14:16:49 about to click the extrude tool at (219, 58)
+14:16:50 clicked the extrude tool -> 552-b-done-the-extrude-tool.png
+14:16:51 about to click Remove, so this extrude takes material away at (366, 148)
+14:16:52 clicked Remove, so this extrude takes material away -> 553-b-done-remove-so-this-extrude-takes-material-away.png
+14:16:53 about to click inside the slit's rectangle at (923, 600)
+14:16:54 clicked inside the slit's rectangle -> 554-b-done-inside-the-slit-s-rectangle.png
+14:16:56 about to click the end condition dropdown at (343, 231)
+14:16:56 clicked the end condition dropdown -> 556-b-done-the-end-condition-dropdown.png
+14:16:57 about to click Through all at (292, 392)
+14:16:58 clicked Through all -> 557-b-done-through-all.png
+14:16:59 about to click the Symmetric box, so the cut goes both ways at (257, 315)
+14:17:00 clicked the Symmetric box, so the cut goes both ways -> 558-b-done-the-symmetric-box-so-the-cut-goes-both-ways.png
+14:17:45 about to click the Merge scope field, so it is the one collecting at (355, 401)
+14:17:46 clicked the Merge scope field, so it is the one collecting -> 560-b-done-the-merge-scope-field-so-it-is-the-one-collectin.png
+14:17:46 about to click the Detent blade row at (140, 722)
+14:17:47 clicked the Detent blade row -> 561-b-done-the-detent-blade-row.png
+14:17:48 about to click the green tick, cutting the slit at (423, 93)
+14:17:49 clicked the green tick, cutting the slit -> 563-b-done-the-green-tick-cutting-the-slit.png
+14:17:49 after the blade slit, no errored rows in the tree
+14:17:49 about to click the Extrude 1 row, to rename it at (140, 630)
+14:17:50 clicked the Extrude 1 row, to rename it -> 564-b-done-the-extrude-1-row-to-rename-it.png
+14:17:50 about to click Rename in the context menu at (270, 654)
+14:17:51 clicked Rename in the context menu -> 565-b-done-rename-in-the-context-menu.png
+14:17:53 renamed 'Extrude 1' to 'Blade slit'
+14:22:40 about to click the Detent blade row at (140, 722)
+14:22:40 clicked the Detent blade row -> 568-b-done-the-detent-blade-row.png
+14:22:40 about to click Show, bringing the blade back at (274, 569)
+14:22:41 clicked Show, bringing the blade back -> 569-b-done-show-bringing-the-blade-back.png
+14:22:42 about to click the Blade slit profile row at (140, 604)
+14:22:43 clicked the Blade slit profile row -> 570-b-done-the-blade-slit-profile-row.png
+14:22:43 Blade slit profile already hide
+14:22:44 about to click the Front face of the view cube at (1487, 180)
+14:22:45 clicked the Front face of the view cube -> 571-b-done-the-front-face-of-the-view-cube.png
+14:22:47 about to click the view menu at (1563, 232)
+14:22:47 clicked the view menu -> 572-b-done-the-view-menu.png
+14:22:47 about to click Zoom to fit at (1458, 393)
+14:22:48 clicked Zoom to fit -> 573-b-done-zoom-to-fit.png
+14:25:13 about to click the view menu at (1563, 232)
+14:25:14 clicked the view menu -> 575-b-done-the-view-menu.png
+14:25:41 about to click the Front label on the view cube at (1494, 152)
+14:25:42 clicked the Front label on the view cube -> 576-b-done-the-front-label-on-the-view-cube.png
+14:25:44 about to click the view menu at (1563, 232)
+14:25:45 clicked the view menu -> 577-b-done-the-view-menu.png
+14:25:45 about to click Zoom to fit at (1459, 393)
+14:25:46 clicked Zoom to fit -> 578-b-done-zoom-to-fit.png
+14:26:47 about to click the blade's wide near face at (830, 500)
+14:26:48 clicked the blade's wide near face -> 580-b-done-the-blade-s-wide-near-face.png
+14:26:50 the readout says 'Area:163.79976mm2' — the blade's wide face
+14:26:50 about to click the Sketch button at (130, 58)
+14:26:51 clicked the Sketch button -> 582-b-done-the-sketch-button.png
+14:27:35 about to click the circle tool at (306, 58)
+14:27:36 clicked the circle tool -> 584-b-done-the-circle-tool.png
+14:27:38 about to click the origin, so the circle's centre lands on the hinge axis at (922, 340)
+14:27:39 clicked the origin, so the circle's centre lands on the hinge axis -> 585-b-done-the-origin-so-the-circle-s-centre-lands-on-the-h.png
+14:27:39 about to click out to the right, setting the circle's size for now at (1022, 340)
+14:27:40 clicked out to the right, setting the circle's size for now -> 586-b-done-out-to-the-right-setting-the-circle-s-size-for-n.png
+14:28:41 about to select the circle edge at (1022, 340)
+14:28:42 selected the circle edge -> 589-a-select-the-circle-edge.png
+14:28:42 about to click where the dimension sits at (1250, 250)
+14:28:43 clicked where the dimension sits -> 590-b-done-where-the-dimension-sits.png
+14:28:45 the pocket diameter: 4.9085 mm -> 2.2
+14:28:45 about to press Escape to put the dimension tool down
+14:28:46 pressed Escape to put the dimension tool down -> 591-b-done-put-the-dimension-tool-down.png
+14:28:46 about to click empty space, to see the result on its own at (1350, 880)
+14:28:46 clicked empty space, to see the result on its own -> 592-b-done-empty-space-to-see-the-result-on-its-own.png
+14:29:43 about to click the green tick, closing the sketch at (423, 93)
+14:29:44 clicked the green tick, closing the sketch -> 594-b-done-the-green-tick-closing-the-sketch.png
+14:29:44 after the blade pocket circle, no errored rows in the tree
+14:29:44 about to click the Sketch 1 row, to rename it at (140, 630)
+14:29:44 clicked the Sketch 1 row, to rename it -> 595-b-done-the-sketch-1-row-to-rename-it.png
+14:29:44 about to click Rename in the context menu at (263, 228)
+14:29:45 clicked Rename in the context menu -> 596-b-done-rename-in-the-context-menu.png
+14:29:47 renamed 'Sketch 1' to 'Blade pocket circle'
+14:30:20 about to click the extrude tool at (219, 58)
+14:30:21 clicked the extrude tool -> 600-b-done-the-extrude-tool.png
+14:30:22 about to click Remove, so this extrude takes material away at (366, 148)
+14:30:23 clicked Remove, so this extrude takes material away -> 601-b-done-remove-so-this-extrude-takes-material-away.png
+14:30:24 about to click inside the pocket circle at (922, 340)
+14:30:25 clicked inside the pocket circle -> 602-b-done-inside-the-pocket-circle.png
+14:30:26 the faces field holds the pocket circle: True
+14:31:10 about to click the green tick, cutting the pocket at (423, 93)
+14:31:11 clicked the green tick, cutting the pocket -> 605-b-done-the-green-tick-cutting-the-pocket.png
+14:31:11 about to click the green tick again at (423, 93)
+14:31:12 clicked the green tick again -> 606-b-done-the-green-tick-again.png
+14:31:12 after the blade pocket, no errored rows in the tree
+14:31:12 about to click the Extrude 1 row, to rename it at (140, 630)
+14:31:13 clicked the Extrude 1 row, to rename it -> 607-b-done-the-extrude-1-row-to-rename-it.png
+14:31:13 about to click Rename in the context menu at (277, 654)
+14:31:13 clicked Rename in the context menu -> 608-b-done-rename-in-the-context-menu.png
+14:31:15 renamed 'Extrude 1' to 'Blade pocket'
+14:34:18 about to click the blade's wide near face, the one holding the pocket at (830, 500)
+14:34:19 clicked the blade's wide near face, the one holding the pocket -> 611-b-done-the-blade-s-wide-near-face-the-one-holding-the-p.png
+14:34:20 the readout says 'Area:159.99844mm2' — the face with the pocket in it
+14:34:20 about to click the Sketch button at (130, 58)
+14:34:21 clicked the Sketch button -> 612-b-done-the-sketch-button.png
+14:35:12 about to click the circle tool at (306, 58)
+14:35:13 clicked the circle tool -> 614-b-done-the-circle-tool.png
+14:35:13 about to select a centre straight above the origin, on the vertical at (922, 144)
+14:35:15 selected a centre straight above the origin, on the vertical -> 615-a-select-a-centre-straight-above-the-origin-on-the-vertic.png
+14:35:15 about to click a point out from it, setting the radius at (952, 144)
+14:35:16 clicked a point out from it, setting the radius -> 616-b-done-a-point-out-from-it-setting-the-radius.png
+14:35:16 about to press Escape to put the circle tool down
+14:35:16 pressed Escape to put the circle tool down -> 617-b-done-put-the-circle-tool-down.png
+14:35:57 about to select the valley circle's edge at (952, 144)
+14:35:58 selected the valley circle's edge -> 619-a-select-the-valley-circle-s-edge.png
+14:35:58 about to click where the diameter dimension sits at (1180, 110)
+14:35:59 clicked where the diameter dimension sits -> 620-b-done-where-the-diameter-dimension-sits.png
+14:36:01 the valley diameter: 1.4552 mm -> 1
+14:36:01 about to press Escape to clear the pick
+14:36:02 pressed Escape to clear the pick -> 621-b-done-clear-the-pick.png
+14:36:02 about to select the origin, which is the hinge axis seen end-on at (922, 340)
+14:36:04 selected the origin, which is the hinge axis seen end-on -> 622-a-select-the-origin-which-is-the-hinge-axis-seen-end-on.png
+14:36:04 about to select the valley circle's centre at (922, 144)
+14:36:05 selected the valley circle's centre -> 623-a-select-the-valley-circle-s-centre.png
+14:36:05 about to click where the distance dimension sits at (1120, 250)
+14:36:06 clicked where the distance dimension sits -> 624-b-done-where-the-distance-dimension-sits.png
+14:37:11 about to press Escape to clear the failed pick
+14:37:12 pressed Escape to clear the failed pick -> 625-b-done-clear-the-failed-pick.png
+14:37:12 about to click the Blade pocket circle row at (140, 794)
+14:37:13 clicked the Blade pocket circle row -> 626-b-done-the-blade-pocket-circle-row.png
+14:37:56 about to press Escape to clear whatever is picked
+14:37:57 pressed Escape to clear whatever is picked -> 627-b-done-clear-whatever-is-picked.png
+14:37:58 about to select the origin, which is the hinge axis seen end-on at (922, 340)
+14:38:00 selected the origin, which is the hinge axis seen end-on -> 628-a-select-the-origin-which-is-the-hinge-axis-seen-end-on.png
+14:38:00 readout after the origin: ['Point:']
+14:38:00 about to select the valley circle's centre at (922, 144)
+14:38:01 selected the valley circle's centre -> 630-a-select-the-valley-circle-s-centre.png
+14:38:01 readout after the centre: []
+14:39:09 about to press Escape to clear whatever is picked
+14:39:10 pressed Escape to clear whatever is picked -> 632-b-done-clear-whatever-is-picked.png
+14:39:11 about to select the origin, which is the hinge axis seen end-on at (922, 340)
+14:39:12 selected the origin, which is the hinge axis seen end-on -> 633-a-select-the-origin-which-is-the-hinge-axis-seen-end-on.png
+14:39:13 readout after the origin: ['Point:']
+14:39:13 about to select the valley circle's centre at (922, 204)
+14:39:14 selected the valley circle's centre -> 634-a-select-the-valley-circle-s-centre.png
+14:39:14 readout after the centre: ['Min dist:4.17188mm']
+14:39:14 about to click where the distance dimension sits at (1120, 250)
+14:39:15 clicked where the distance dimension sits -> 635-b-done-where-the-distance-dimension-sits.png
+14:39:16 the valley off the hinge axis: 3.33985 mm -> 4.8
+14:39:16 about to press Escape to put the dimension tool down
+14:39:17 pressed Escape to put the dimension tool down -> 636-b-done-put-the-dimension-tool-down.png
+14:39:17 about to click empty space, to see the result on its own at (1350, 880)
+14:39:18 clicked empty space, to see the result on its own -> 637-b-done-empty-space-to-see-the-result-on-its-own.png
+14:39:57 about to click the green tick, closing the sketch at (423, 93)
+14:39:58 clicked the green tick, closing the sketch -> 639-b-done-the-green-tick-closing-the-sketch.png
+14:39:58 after the blade valley circle, no errored rows in the tree
+14:39:58 about to click the Sketch 1 row, to rename it at (140, 630)
+14:39:58 clicked the Sketch 1 row, to rename it -> 640-b-done-the-sketch-1-row-to-rename-it.png
+14:39:58 about to click Rename in the context menu at (263, 228)
+14:39:59 clicked Rename in the context menu -> 641-b-done-rename-in-the-context-menu.png
+14:40:01 renamed 'Sketch 1' to 'Blade valley circle'
+14:40:29 about to click the extrude tool at (219, 58)
+14:40:30 clicked the extrude tool -> 645-b-done-the-extrude-tool.png
+14:40:31 about to click Remove, so this extrude takes material away at (366, 148)
+14:40:32 clicked Remove, so this extrude takes material away -> 646-b-done-remove-so-this-extrude-takes-material-away.png
+14:40:33 about to click inside the valley circle at (922, 144)
+14:40:34 clicked inside the valley circle -> 647-b-done-inside-the-valley-circle.png
+14:41:15 about to click the green tick, cutting the valley at (423, 93)
+14:41:16 clicked the green tick, cutting the valley -> 649-b-done-the-green-tick-cutting-the-valley.png
+14:41:16 about to click the green tick again at (423, 93)
+14:41:17 clicked the green tick again -> 650-b-done-the-green-tick-again.png
+14:41:17 after the blade valley, no errored rows in the tree
+14:41:17 about to click the Extrude 1 row, to rename it at (140, 630)
+14:41:18 clicked the Extrude 1 row, to rename it -> 651-b-done-the-extrude-1-row-to-rename-it.png
+14:41:18 about to click Rename in the context menu at (275, 654)
+14:41:19 clicked Rename in the context menu -> 652-b-done-rename-in-the-context-menu.png
+14:41:20 renamed 'Extrude 1' to 'Blade valley'
+14:42:58 about to click empty space, to start with nothing picked at (1350, 880)
+14:42:59 clicked empty space, to start with nothing picked -> 656-b-done-empty-space-to-start-with-nothing-picked.png
+14:43:00 about to click the valley's rim edge at (962, 148)
+14:43:01 clicked the valley's rim edge -> 657-b-done-the-valley-s-rim-edge.png
+14:43:02 readout: []
+14:43:59 about to click the empty background, to start with nothing picked at (520, 100)
+14:44:00 clicked the empty background, to start with nothing picked -> 659-b-done-the-empty-background-to-start-with-nothing-picke.png
+14:44:01 about to click the fillet tool at (411, 58)
+14:44:02 clicked the fillet tool -> 661-b-done-the-fillet-tool.png
+14:44:03 about to click the valley's rim edge at (962, 149)
+14:44:04 clicked the valley's rim edge -> 662-b-done-the-valley-s-rim-edge.png
+14:44:05 what is in the field: ['Edge of Blade valley']
+14:44:51 about to click the green tick, breaking the rim at (423, 93)
+14:44:52 clicked the green tick, breaking the rim -> 665-b-done-the-green-tick-breaking-the-rim.png
+14:44:52 about to click the green tick again at (423, 93)
+14:44:53 clicked the green tick again -> 666-b-done-the-green-tick-again.png
+14:44:53 after the valley rim break, no errored rows in the tree
+14:44:53 about to click the Fillet 1 row, to rename it at (140, 630)
+14:44:54 clicked the Fillet 1 row, to rename it -> 667-b-done-the-fillet-1-row-to-rename-it.png
+14:44:54 about to click Rename in the context menu at (261, 654)
+14:44:55 clicked Rename in the context menu -> 668-b-done-rename-in-the-context-menu.png
+14:44:56 renamed 'Fillet 1' to 'Blade valley rim'
+14:46:28 about to click the arrow beside the pattern button at (714, 58)
+14:46:29 clicked the arrow beside the pattern button -> 672-b-done-the-arrow-beside-the-pattern-button.png
+14:46:30 about to click Circular pattern at (772, 126)
+14:46:31 clicked Circular pattern -> 673-b-done-circular-pattern.png
+14:46:33 about to click the pattern type dropdown at (343, 121)
+14:46:34 clicked the pattern type dropdown -> 674-b-done-the-pattern-type-dropdown.png
+14:46:35 about to click Feature pattern at (305, 178)
+14:46:36 clicked Feature pattern -> 675-b-done-feature-pattern.png
+14:46:37 about to select the Blade valley row in the feature tree at (140, 578)
+14:46:38 selected the Blade valley row in the feature tree -> 676-a-select-the-blade-valley-row-in-the-feature-tree.png
+14:46:39 about to select the Blade valley rim row in the feature tree at (140, 604)
+14:46:40 selected the Blade valley rim row in the feature tree -> 677-a-select-the-blade-valley-rim-row-in-the-feature-tree.png
+14:47:24 about to click the Axis of pattern field, so it is the one collecting at (343, 227)
+14:47:24 clicked the Axis of pattern field, so it is the one collecting -> 679-b-done-the-axis-of-pattern-field-so-it-is-the-one-colle.png
+14:47:25 about to select the pocket's rim, which runs round the hinge axis at (1012, 538)
+14:47:26 selected the pocket's rim, which runs round the hinge axis -> 680-a-select-the-pocket-s-rim-which-runs-round-the-hinge-axis.png
+14:47:28 what is in the field: ['Edge of Blade pocket']
+14:48:10 about to click the green tick, ringing the blade with valleys at (423, 93)
+14:48:11 clicked the green tick, ringing the blade with valleys -> 683-b-done-the-green-tick-ringing-the-blade-with-valleys.png
+14:48:11 about to click the green tick again at (423, 93)
+14:48:12 clicked the green tick again -> 684-b-done-the-green-tick-again.png
+14:48:12 after the valley ring, no errored rows in the tree
+14:48:12 about to click the Circular pattern 1 row, to rename it at (140, 630)
+14:48:13 clicked the Circular pattern 1 row, to rename it -> 685-b-done-the-circular-pattern-1-row-to-rename-it.png
+14:48:13 about to click Rename in the context menu at (261, 654)
+14:48:14 clicked Rename in the context menu -> 686-b-done-rename-in-the-context-menu.png
+14:48:16 renamed 'Circular pattern 1' to 'Blade valley ring'
+14:49:06 about to click the Mirror button at (740, 58)
+14:49:07 clicked the Mirror button -> 690-b-done-the-mirror-button.png
+14:49:09 about to click the mirror type dropdown at (343, 121)
+14:49:10 clicked the mirror type dropdown -> 691-b-done-the-mirror-type-dropdown.png
+14:49:11 about to click Feature mirror at (302, 178)
+14:49:12 clicked Feature mirror -> 692-b-done-feature-mirror.png
+14:49:13 about to select the Blade pocket row in the feature tree at (140, 500)
+14:49:15 selected the Blade pocket row in the feature tree -> 693-a-select-the-blade-pocket-row-in-the-feature-tree.png
+14:49:16 about to select the Blade valley row in the feature tree at (140, 552)
+14:49:17 selected the Blade valley row in the feature tree -> 694-a-select-the-blade-valley-row-in-the-feature-tree.png
+14:49:18 about to select the Blade valley rim row in the feature tree at (140, 578)
+14:49:20 selected the Blade valley rim row in the feature tree -> 695-a-select-the-blade-valley-rim-row-in-the-feature-tree.png
+14:49:20 about to select the Blade valley ring row in the feature tree at (140, 604)
+14:49:22 selected the Blade valley ring row in the feature tree -> 696-a-select-the-blade-valley-ring-row-in-the-feature-tree.png
+14:50:11 the Front plane row is at [140, 235]
+14:50:11 about to click the Mirror plane field, so it is the one collecting at (343, 275)
+14:50:12 clicked the Mirror plane field, so it is the one collecting -> 698-b-done-the-mirror-plane-field-so-it-is-the-one-collecti.png
+14:50:13 about to select the Front plane row in the feature tree at (140, 235)
+14:50:14 selected the Front plane row in the feature tree -> 699-a-select-the-front-plane-row-in-the-feature-tree.png
+14:50:15 about to click the Reapply features box at (258, 325)
+14:50:17 clicked the Reapply features box -> 701-b-done-the-reapply-features-box.png
+14:51:15 about to click the green tick, giving the other face its detents at (423, 93)
+14:51:16 clicked the green tick, giving the other face its detents -> 703-b-done-the-green-tick-giving-the-other-face-its-detents.png
+14:51:16 after the mirrored detents, no errored rows in the tree
+14:51:16 about to click the Mirror 1 row, to rename it at (140, 630)
+14:51:17 clicked the Mirror 1 row, to rename it -> 704-b-done-the-mirror-1-row-to-rename-it.png
+14:51:17 about to click Rename in the context menu at (261, 654)
+14:51:18 clicked Rename in the context menu -> 705-b-done-rename-in-the-context-menu.png
+14:51:19 renamed 'Mirror 1' to 'Detents both faces'
+14:54:22 about to click the Clevis fork row at (140, 696)
+14:54:23 clicked the Clevis fork row -> 708-b-done-the-clevis-fork-row.png
+14:54:23 about to click Show, bringing the fork back at (268, 543)
+14:54:26 clicked Show, bringing the fork back -> 709-b-done-show-bringing-the-fork-back.png
+14:54:26 about to click the view menu at (1563, 232)
+14:54:27 clicked the view menu -> 710-b-done-the-view-menu.png
+14:54:27 about to click Isometric at (1455, 258)
+14:54:30 clicked Isometric -> 711-b-done-isometric.png
+14:54:31 about to click the view menu at (1563, 232)
+14:54:32 clicked the view menu -> 712-b-done-the-view-menu.png
+14:54:32 about to click Zoom to fit at (1459, 393)
+14:54:35 clicked Zoom to fit -> 713-b-done-zoom-to-fit.png
+14:54:37 about to click the Front label on the view cube at (1494, 152)
+14:54:40 clicked the Front label on the view cube -> 715-b-done-the-front-label-on-the-view-cube.png
+14:54:43 about to click the right arrow beside the view cube at (1580, 166)
+14:54:46 clicked the right arrow beside the view cube -> 717-b-done-the-right-arrow-beside-the-view-cube.png

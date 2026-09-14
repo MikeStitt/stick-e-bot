@@ -1,0 +1,383 @@
+{
+ "sketches": [
+  {
+   "sketch": "pedestal outline",
+   "featureId": "F1WJsrx3eiW72sb_0",
+   "featuresUsed": [
+    "foot pedestal"
+   ],
+   "geomEntities": [
+    {
+     "id": "3yIzdx5LLCyh",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.009000000000000001
+    },
+    {
+     "id": "3yIzdx5LLCyh.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "foot outline",
+   "featureId": "FLot2iEBTjHzmpS_1",
+   "featuresUsed": [
+    "foot"
+   ],
+   "geomEntities": [
+    {
+     "id": "ikVHsZuz6nYn",
+     "entityType": "arc",
+     "center": [
+      0,
+      0.016,
+      0
+     ],
+     "radius": 0.016,
+     "clockwise": false,
+     "startPoint": [
+      0.015835893097772592,
+      0.018285714285714294,
+      0
+     ],
+     "endPoint": [
+      -0.015835893097772592,
+      0.018285714285714294,
+      0
+     ],
+     "endPointIds": [
+      "ikVHsZuz6nYn.start",
+      "ikVHsZuz6nYn.end"
+     ]
+    },
+    {
+     "id": "ikVHsZuz6nYn.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0.016,
+      0
+     ],
+     "isConstruction": true
+    },
+    {
+     "id": "ikVHsZuz6nYn.start",
+     "entityType": "point",
+     "point": [
+      0.015835893097772592,
+      0.018285714285714294,
+      0
+     ]
+    },
+    {
+     "id": "ikVHsZuz6nYn.end",
+     "entityType": "point",
+     "point": [
+      -0.015835893097772592,
+      0.018285714285714294,
+      0
+     ]
+    },
+    {
+     "id": "cMZaggF0b8nj",
+     "entityType": "arc",
+     "center": [
+      0,
+      -0.04,
+      0
+     ],
+     "radius": 0.024,
+     "clockwise": false,
+     "startPoint": [
+      -0.023753839646658892,
+      -0.03657142857142858,
+      0
+     ],
+     "endPoint": [
+      0.02375383964665889,
+      -0.036571428571428574,
+      0
+     ],
+     "endPointIds": [
+      "cMZaggF0b8nj.start",
+      "cMZaggF0b8nj.end"
+     ]
+    },
+    {
+     "id": "cMZaggF0b8nj.center",
+     "entityType": "point",
+     "point": [
+      0,
+      -0.04,
+      0
+     ],
+     "isConstruction": true
+    },
+    {
+     "id": "cMZaggF0b8nj.start",
+     "entityType": "point",
+     "point": [
+      -0.02375383964665889,
+      -0.03657142857142858,
+      0
+     ]
+    },
+    {
+     "id": "cMZaggF0b8nj.end",
+     "entityType": "point",
+     "point": [
+      0.02375383964665889,
+      -0.036571428571428574,
+      0
+     ]
+    },
+    {
+     "id": "W8CZvnZ8r8Pr.start",
+     "entityType": "point",
+     "point": [
+      -0.015835893097772592,
+      0.018285714285714294,
+      0
+     ]
+    },
+    {
+     "id": "W8CZvnZ8r8Pr.end",
+     "entityType": "point",
+     "point": [
+      -0.023753839646658892,
+      -0.03657142857142858,
+      0
+     ]
+    },
+    {
+     "id": "W8CZvnZ8r8Pr",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.015835893097772592,
+      0.018285714285714315,
+      0
+     ],
+     "endPoint": [
+      -0.023753839646658895,
+      -0.0365714285714286,
+      0
+     ],
+     "endPointIds": [
+      "W8CZvnZ8r8Pr.start",
+      "W8CZvnZ8r8Pr.end"
+     ]
+    },
+    {
+     "id": "tXmNVdoy479R.start",
+     "entityType": "point",
+     "point": [
+      0.015835893097772592,
+      0.018285714285714287,
+      0
+     ]
+    },
+    {
+     "id": "tXmNVdoy479R.end",
+     "entityType": "point",
+     "point": [
+      0.02375383964665889,
+      -0.036571428571428574,
+      0
+     ]
+    },
+    {
+     "id": "tXmNVdoy479R",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.01583589309777259,
+      0.018285714285714308,
+      0
+     ],
+     "endPoint": [
+      0.023753839646658892,
+      -0.036571428571428595,
+      0
+     ],
+     "endPointIds": [
+      "tXmNVdoy479R.start",
+      "tXmNVdoy479R.end"
+     ]
+    }
+   ]
+  },
+  {
+   "sketch": "groove profile",
+   "featureId": "Fa8MnatuFTKmVWD_1",
+   "featuresUsed": [
+    "sole groove"
+   ],
+   "geomEntities": [
+    {
+     "id": "hRyr0uNvJMdN.bottom.start",
+     "entityType": "point",
+     "point": [
+      0.048000000000000015,
+      -0.055,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.bottom.end",
+     "entityType": "point",
+     "point": [
+      -0.04799999999999999,
+      -0.054999999999999986,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.bottom",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.048000000000000015,
+      -0.055,
+      0
+     ],
+     "endPoint": [
+      -0.04799999999999999,
+      -0.054999999999999986,
+      0
+     ],
+     "endPointIds": [
+      "hRyr0uNvJMdN.bottom.start",
+      "hRyr0uNvJMdN.bottom.end"
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.top.start",
+     "entityType": "point",
+     "point": [
+      0.048000000000000015,
+      -0.061000000000000006,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.top.end",
+     "entityType": "point",
+     "point": [
+      -0.04799999999999999,
+      -0.06099999999999999,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.top",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.048000000000000015,
+      -0.061000000000000006,
+      0
+     ],
+     "endPoint": [
+      -0.04799999999999999,
+      -0.06099999999999999,
+      0
+     ],
+     "endPointIds": [
+      "hRyr0uNvJMdN.top.start",
+      "hRyr0uNvJMdN.top.end"
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.left.start",
+     "entityType": "point",
+     "point": [
+      0.048000000000000015,
+      -0.055,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.left.end",
+     "entityType": "point",
+     "point": [
+      0.048000000000000015,
+      -0.061,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.left",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.048000000000000015,
+      -0.055,
+      0
+     ],
+     "endPoint": [
+      0.048000000000000015,
+      -0.061,
+      0
+     ],
+     "endPointIds": [
+      "hRyr0uNvJMdN.left.start",
+      "hRyr0uNvJMdN.left.end"
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.right.start",
+     "entityType": "point",
+     "point": [
+      -0.04799999999999999,
+      -0.054999999999999986,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.right.end",
+     "entityType": "point",
+     "point": [
+      -0.04799999999999999,
+      -0.061,
+      0
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.right",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.04799999999999999,
+      -0.054999999999999986,
+      0
+     ],
+     "endPoint": [
+      -0.04799999999999999,
+      -0.061,
+      0
+     ],
+     "endPointIds": [
+      "hRyr0uNvJMdN.right.start",
+      "hRyr0uNvJMdN.right.end"
+     ]
+    },
+    {
+     "id": "hRyr0uNvJMdN.middle",
+     "entityType": "point",
+     "point": [
+      1.0654427152581971e-17,
+      -0.057999999999999996,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  }
+ ]
+}

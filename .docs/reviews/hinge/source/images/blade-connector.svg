@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-90 -28 190 68.85" width="1216" height="440" font-family="ui-monospace, Menlo, monospace"><style>
+  .part  { fill:#dfe7ec; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .ghost { fill:#eef2f5; stroke:#8ea0ad; stroke-width:0.7; stroke-linejoin:round; }
+  .void  { fill:#ffffff; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .mate  { fill:#f6f9fa; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .hid   { fill:none; stroke:#5b6b78; stroke-width:0.4; stroke-dasharray:2 1.4; }
+  .dim   { stroke:#b8156e; stroke-width:0.35; fill:none; }
+  .dimt  { fill:#b8156e; font-size:4.2px; font-weight:700; }
+  .name  { fill:#12303c; font-size:5px; font-weight:700; letter-spacing:0.06em; }
+  .call  { fill:#43525e; font-size:3.4px; }
+  .lead  { stroke:#8ea0ad; stroke-width:0.3; fill:none; }
+  .lbl   { fill:#43525e; font-size:4.6px; font-weight:700; letter-spacing:0.12em; }
+  .note  { fill:#6b7a88; font-size:3.6px; }
+  .warn  { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .ctr   { stroke:#7f8f9c; stroke-width:0.3; stroke-dasharray:6 2 1 2; }
+  .stn   { stroke:#0b6e86; stroke-width:0.25; stroke-dasharray:3 2; }
+  .gnd   { stroke:#0b6e86; stroke-width:0.8; }
+  .tooth { stroke:#1d262e; stroke-width:0.5; fill:none; }
+  .det * { vector-effect: non-scaling-stroke; }
+  .fig * { vector-effect: non-scaling-stroke; }
+  .fig .call { font-size:6.83655px; }
+  .fig .note { font-size:7.2387px; }
+  .fig .name { font-size:10.0537px; }
+  .fig .dimt { font-size:8.44515px; }
+  .fig .lbl { font-size:9.24945px; }
+  .fig .warn { font-size:7.2387px; }
+
+  .rod   { fill:#f3e6d8; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .bad   { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .good  { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+  .head  { fill:#12303c; font-size:5.4px; font-weight:700; letter-spacing:0.04em; }
+  .sub   { fill:#43525e; font-size:3.8px; }
+  .arrow { stroke:#b8156e; stroke-width:0.7; fill:none; }
+  .conn  { stroke:#0b6e86; stroke-width:0.8; fill:none; }
+  .connd { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+</style><path class="mate" d="M -5,20 L -5.0000,-10.9087 A 12,12 0 0 1 5.0000,-10.9087 L 5,20 Z"/><rect class="void" x="-2" y="-12" width="4" height="32"/><rect class="mate" x="-12" y="20" width="24" height="6.85"/><rect class="mate" x="-6.3" y="-2" width="1.3" height="4"/><rect class="mate" x="5" y="-2" width="1.3" height="4"/><path class="ctr" d="M 0,-16 V 32.85"/><path class="ctr" d="M -24,0 H 24"/><path class="conn" d="M -6,26.85 H 6"/><circle class="conn" cx="0" cy="26.85" r="1.4" fill="#0b6e86"/><path class="conn" d="M 0,26.85 V 34.85"/><path class="conn" fill="#0b6e86" d="M 0,34.85 L -1.5,32.05 L 1.5,32.05 Z"/><path class="lead" d="M 2,26.85 L 16,23.85"/><text class="connd" x="17" y="24.85" text-anchor="start">the reference</text><text class="call" x="17" y="29.85" text-anchor="start">0, 0, -26.85, pointing out</text><circle cx="-8.5" cy="20" r="1.4" fill="#b8156e" stroke="#b8156e"/><path class="lead" d="M -8.5,20 L -20,17"/><text class="bad" x="-21" y="18" text-anchor="end">draft9p3</text><text class="call" x="-21" y="23" text-anchor="end">0, -7.884, -20</text><text class="call" x="-21" y="28" text-anchor="end">the tongue root step's centroid</text><text class="head" x="0" y="-22" text-anchor="middle">the blade's robot connector</text></svg>

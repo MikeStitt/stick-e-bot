@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-46 -51 320 93" width="1920" height="558" font-family="ui-monospace, Menlo, monospace"><style>
+  .part  { fill:#dfe7ec; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .ghost { fill:#eef2f5; stroke:#8ea0ad; stroke-width:0.7; stroke-linejoin:round; }
+  .void  { fill:#ffffff; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .mate  { fill:#f6f9fa; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .hid   { fill:none; stroke:#5b6b78; stroke-width:0.4; stroke-dasharray:2 1.4; }
+  .dim   { stroke:#b8156e; stroke-width:0.35; fill:none; }
+  .dimt  { fill:#b8156e; font-size:4.2px; font-weight:700; }
+  .name  { fill:#12303c; font-size:5px; font-weight:700; letter-spacing:0.06em; }
+  .call  { fill:#43525e; font-size:3.4px; }
+  .lead  { stroke:#8ea0ad; stroke-width:0.3; fill:none; }
+  .lbl   { fill:#43525e; font-size:4.6px; font-weight:700; letter-spacing:0.12em; }
+  .note  { fill:#6b7a88; font-size:3.6px; }
+  .warn  { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .ctr   { stroke:#7f8f9c; stroke-width:0.3; stroke-dasharray:6 2 1 2; }
+  .stn   { stroke:#0b6e86; stroke-width:0.25; stroke-dasharray:3 2; }
+  .gnd   { stroke:#0b6e86; stroke-width:0.8; }
+  .tooth { stroke:#1d262e; stroke-width:0.5; fill:none; }
+  .det * { vector-effect: non-scaling-stroke; }
+  .fig * { vector-effect: non-scaling-stroke; }
+  .fig .call { font-size:6.83655px; }
+  .fig .note { font-size:7.2387px; }
+  .fig .name { font-size:10.0537px; }
+  .fig .dimt { font-size:8.44515px; }
+  .fig .lbl { font-size:9.24945px; }
+  .fig .warn { font-size:7.2387px; }
+
+  .rod   { fill:#f3e6d8; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .bad   { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .good  { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+  .head  { fill:#12303c; font-size:5.4px; font-weight:700; letter-spacing:0.04em; }
+  .sub   { fill:#43525e; font-size:3.8px; }
+  .arrow { stroke:#b8156e; stroke-width:0.7; fill:none; }
+  .conn  { stroke:#0b6e86; stroke-width:0.8; fill:none; }
+  .connd { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+</style><g transform="translate(0,0)"><path class="part" d="M 5.15,-33 L 12,-33 L 12,0 A 12,12 0 0 1 5.15,10.8387 Z"/><rect class="void" x="5.15" y="-2.2" width="6.85" height="4.4"/><path class="ctr" d="M 1.15,0 H 22"/><path class="gnd" d="M 3.15,-33 H 14"/><path class="arrow" d="M 16,0 L 22,0"/><path class="arrow" fill="#b8156e" d="M 22,0 L 18.000,-1.500 L 18.000,1.500 Z"/><text class="dimt" x="19" y="-2.8" text-anchor="middle">0.45 mm</text><path class="dim" d="M 32,-33 V 0"/><path class="dim" d="M 30.4,-31.4 L 33.6,-34.6"/><path class="dim" d="M 30.4,1.6 L 33.6,-1.6"/><path class="dim" d="M 15,-33 H 32"/><path class="dim" d="M 15,0 H 32"/><text class="dimt" x="35.4" y="-16.5" text-anchor="middle" transform="rotate(-90 35.4 -16.5)">33 mm</text><text class="sub" x="9" y="-42" text-anchor="middle">the plan sheet, before this review</text><text class="dimt" x="9" y="16" text-anchor="middle">1.78 kgf to press</text><text class="good" x="9" y="23" text-anchor="middle">3.48 MPa in the ear</text><text class="good" x="9" y="29" text-anchor="middle">8.59 MPa in the leaf</text><text class="good" x="9" y="35" text-anchor="middle">under PETG's 50</text></g><g transform="translate(86,0)"><path class="part" d="M 5.15,-12 L 12,-12 L 12,0 A 12,12 0 0 1 5.15,10.8387 Z"/><rect class="void" x="5.15" y="-2.2" width="6.85" height="4.4"/><path class="ctr" d="M 1.15,0 H 22"/><path class="gnd" d="M 3.15,-12 H 14"/><path class="arrow" d="M 16,0 L 22,0"/><path class="arrow" fill="#b8156e" d="M 22,0 L 18.000,-1.500 L 18.000,1.500 Z"/><text class="dimt" x="19" y="-2.8" text-anchor="middle">0.45 mm</text><path class="dim" d="M 32,-12 V 0"/><path class="dim" d="M 30.4,-10.4 L 33.6,-13.6"/><path class="dim" d="M 30.4,1.6 L 33.6,-1.6"/><path class="dim" d="M 15,-12 H 32"/><path class="dim" d="M 15,0 H 32"/><text class="dimt" x="35.4" y="-6" text-anchor="middle" transform="rotate(-90 35.4 -6)">12 mm</text><text class="sub" x="9" y="-42" text-anchor="middle">the rod run on to the pin</text><text class="dimt" x="9" y="16" text-anchor="middle">33.21 kgf to press</text><text class="bad" x="9" y="23" text-anchor="middle">25.25 MPa in the ear</text><text class="bad" x="9" y="29" text-anchor="middle">59.78 MPa in the leaf</text><text class="bad" x="9" y="35" text-anchor="middle">over PETG's 50</text></g><g transform="translate(172,0)"><path class="part" d="M 5.15,-21 L 12,-21 L 12,0 A 12,12 0 0 1 5.15,10.8387 Z"/><rect class="void" x="5.15" y="-2.2" width="6.85" height="4.4"/><path class="ctr" d="M 1.15,0 H 22"/><path class="gnd" d="M 3.15,-21 H 14"/><path class="arrow" d="M 16,0 L 22,0"/><path class="arrow" fill="#b8156e" d="M 22,0 L 18.000,-1.500 L 18.000,1.500 Z"/><text class="dimt" x="19" y="-2.8" text-anchor="middle">0.45 mm</text><path class="dim" d="M 32,-21 V 0"/><path class="dim" d="M 30.4,-19.4 L 33.6,-22.6"/><path class="dim" d="M 30.4,1.6 L 33.6,-1.6"/><path class="dim" d="M 15,-21 H 32"/><path class="dim" d="M 15,0 H 32"/><text class="dimt" x="35.4" y="-10.5" text-anchor="middle" transform="rotate(-90 35.4 -10.5)">21 mm</text><text class="sub" x="9" y="-42" text-anchor="middle">the design as it now is</text><text class="dimt" x="9" y="16" text-anchor="middle">7.16 kgf to press</text><text class="good" x="9" y="23" text-anchor="middle">9.11 MPa in the ear</text><text class="good" x="9" y="29" text-anchor="middle">21.54 MPa in the leaf</text><text class="good" x="9" y="35" text-anchor="middle">under PETG's 50</text></g></svg>

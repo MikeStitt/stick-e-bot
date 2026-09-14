@@ -1,0 +1,37 @@
+.idea/
+.venv/
+__pycache__/
+
+# Sphinx output
+instructions/*/build/
+.docs/reviews/*/build/
+
+# generated figure viewers
+.docs/reviews/*/*-pictures.html
+
+# ninja build state, regenerated on every run
+.ninja_log
+.ninja_deps
+.ninja_lock
+
+# Local Claude Code state. The contract under rules/ and skills/ is tracked.
+.claude/*
+!.claude/rules/
+!.claude/skills/
+
+# Raster images and video are denied by default, and un-ignored in exactly one
+# place: the frames a guide page publishes. A take's interim capture never
+# enters this tree at all — it is written to the session scratchpad, and a frame
+# reaches git only by being placed on a page.
+#
+# The previous repository committed 1,235 MB of interim capture because capture
+# and publication shared a directory. tools/check_images.py enforces what this
+# file requests. See .docs/2026-09-14-move-to-stick-e-bot.md.
+**/capture/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+!instructions/*/source/images/**

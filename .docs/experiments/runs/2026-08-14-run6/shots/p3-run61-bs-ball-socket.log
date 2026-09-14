@@ -1,0 +1,473 @@
+10:49:45 url https://cad.onshape.com/documents/de2c0d9bdbb02b3a345eada1/w/e73b85313fe2496ae852837b/e/b6db2491eeffbc3a865fff4f
+10:49:45 tree row ['Default geometry', 140, 157]
+10:49:45 tree row ['Origin', 140, 183]
+10:49:45 tree row ['Top', 140, 209]
+10:49:45 tree row ['Front', 140, 235]
+10:49:45 tree row ['Right', 140, 261]
+10:49:45 tree row ['', 140, 287]
+10:49:45 tree row ['Parts (0)', 140, 670]
+10:49:45 about to select the Front plane in the feature tree at (140, 235)
+10:49:46 selected the Front plane in the feature tree -> 01-a-select-the-front-plane-in-the-feature-tree.png
+10:49:46 about to click the Sketch button at (155, 58)
+10:49:47 clicked the Sketch button -> 02-b-done-the-sketch-button.png
+10:49:47 about to press n to look straight at the Front plane
+10:49:48 pressed n to look straight at the Front plane -> 04-b-done-look-straight-at-the-front-plane.png
+10:50:08 about to press c to pick the Circle tool
+10:50:09 pressed c to pick the Circle tool -> 05-b-done-pick-the-circle-tool.png
+10:50:09 about to select the origin, as the circle's center at (922, 522)
+10:50:11 selected the origin, as the circle's center -> 06-a-select-the-origin-as-the-circle-s-center.png
+10:50:11 about to click a point out from the center, to set a first size at (1030, 522)
+10:50:11 clicked a point out from the center, to set a first size -> 07-b-done-a-point-out-from-the-center-to-set-a-first-size.png
+10:50:11 about to press Escape to put the circle tool down
+10:50:12 pressed Escape to put the circle tool down -> 08-b-done-put-the-circle-tool-down.png
+10:50:13 about to select the circle at (1030, 522)
+10:50:15 selected the circle -> 09-a-select-the-circle.png
+10:50:15 about to click where the diameter dimension goes at (1090, 440)
+10:50:15 clicked where the diameter dimension goes -> 10-b-done-where-the-diameter-dimension-goes.png
+10:50:17 the ball's diameter: 59.6183 mm -> 6
+10:50:17 about to press f to zoom to fit the sketch
+10:50:18 pressed f to zoom to fit the sketch -> 11-b-done-zoom-to-fit-the-sketch.png
+10:51:17 about to press g to pick the Corner rectangle tool
+10:51:18 pressed g to pick the Corner rectangle tool -> 14-b-done-pick-the-corner-rectangle-tool.png
+10:51:18 about to select the origin, as the rectangle's lower left corner at (922, 524)
+10:51:19 selected the origin, as the rectangle's lower left corner -> 15-a-select-the-origin-as-the-rectangle-s-lower-left-corner.png
+10:51:19 about to click the rectangle's far corner, up and to the right at (990, 300)
+10:51:20 clicked the rectangle's far corner, up and to the right -> 16-b-done-the-rectangle-s-far-corner-up-and-to-the-right.png
+10:51:20 about to press Escape to put the rectangle tool down
+10:51:21 pressed Escape to put the rectangle tool down -> 17-b-done-put-the-rectangle-tool-down.png
+10:51:49 about to select the rectangle's right edge at (990, 400)
+10:51:50 selected the rectangle's right edge -> 18-a-select-the-rectangle-s-right-edge.png
+10:51:50 about to click where the height dimension goes at (1075, 400)
+10:51:51 clicked where the height dimension goes -> 19-b-done-where-the-height-dimension-goes.png
+10:51:52 ball center to the face the stud mounts on: 12.71847 mm -> 5
+10:52:16 about to select the rectangle's top edge at (958, 435)
+10:52:17 selected the rectangle's top edge -> 21-a-select-the-rectangle-s-top-edge.png
+10:52:17 about to click where the width dimension goes at (958, 380)
+10:52:18 clicked where the width dimension goes -> 22-b-done-where-the-width-dimension-goes.png
+10:52:20 half the stalk's diameter: 3.7443 mm -> 1.5
+10:52:53 about to press Escape to put the dimension tool down
+10:52:54 pressed Escape to put the dimension tool down -> 24-b-done-put-the-dimension-tool-down.png
+10:52:54 about to press l to pick the Line tool
+10:52:55 pressed l to pick the Line tool -> 25-b-done-pick-the-line-tool.png
+10:52:55 about to select a point on the vertical axis, above the stalk at (922, 400)
+10:52:56 selected a point on the vertical axis, above the stalk -> 26-a-select-a-point-on-the-vertical-axis-above-the-stalk.png
+10:52:56 about to click a point on the vertical axis, below the ball at (922, 580)
+10:52:57 clicked a point on the vertical axis, below the ball -> 27-b-done-a-point-on-the-vertical-axis-below-the-ball.png
+10:52:57 about to press Escape to finish the line
+10:52:58 pressed Escape to finish the line -> 28-b-done-finish-the-line.png
+10:52:58 about to press Escape to put the line tool down
+10:52:58 pressed Escape to put the line tool down -> 29-b-done-put-the-line-tool-down.png
+10:53:36 about to click the green tick on the sketch at (423, 93)
+10:53:37 clicked the green tick on the sketch -> 31-b-done-the-green-tick-on-the-sketch.png
+10:53:37 about to click the Sketch 1 row in the tree at (140, 287)
+10:53:38 clicked the Sketch 1 row in the tree -> 32-b-done-the-sketch-1-row-in-the-tree.png
+10:53:38 context menu ['Rename', 263, 311]
+10:53:52 about to click Rename in the context menu at (263, 311)
+10:53:53 clicked Rename in the context menu -> 33-b-done-rename-in-the-context-menu.png
+10:53:55 tree row ['Default geometry', 140, 157]
+10:53:55 tree row ['Origin', 140, 183]
+10:53:55 tree row ['Top', 140, 209]
+10:53:55 tree row ['Front', 140, 235]
+10:53:55 tree row ['Right', 140, 261]
+10:53:55 tree row ['Stud profile', 140, 287]
+10:53:55 tree row ['', 140, 313]
+10:53:55 tree row ['Parts (0)', 140, 670]
+10:54:41 about to select the ball's half, outside the stalk at (960, 548)
+10:54:42 selected the ball's half, outside the stalk -> 35-a-select-the-ball-s-half-outside-the-stalk.png
+10:54:42 about to shift-click the stalk's half inside the ball at (936, 500)
+10:54:43 about to shift-click the stalk's half above the ball at (936, 452)
+10:55:08 about to click the tool search box at (1325, 58)
+10:55:09 clicked the tool search box -> 39-b-done-the-tool-search-box.png
+10:55:11 search hit ['Revolve', 1098, 160]
+10:55:23 about to click Revolve in the search results at (1098, 160)
+10:55:24 clicked Revolve in the search results -> 41-b-done-revolve-in-the-search-results.png
+10:55:50 about to click the Revolve axis field, to make it the one collecting at (343, 279)
+10:55:50 clicked the Revolve axis field, to make it the one collecting -> 43-b-done-the-revolve-axis-field-to-make-it-the-one-collec.png
+10:55:50 about to select the line the stud spins around at (922, 415)
+10:55:52 selected the line the stud spins around -> 44-a-select-the-line-the-stud-spins-around.png
+10:55:52 dialog chips now ['Face of Stud profile', 'Face of Stud profile', 'Face of Stud profile', 'Edge of Stud profile']
+10:56:15 about to click the green tick on Revolve at (423, 93)
+10:56:16 clicked the green tick on Revolve -> 46-b-done-the-green-tick-on-revolve.png
+10:56:16 after the revolve, no errored rows in the tree
+10:56:16 about to click the Revolve 1 row, to rename it at (140, 313)
+10:56:17 clicked the Revolve 1 row, to rename it -> 47-b-done-the-revolve-1-row-to-rename-it.png
+10:56:17 about to click Rename in the context menu at (261, 337)
+10:56:18 clicked Rename in the context menu -> 48-b-done-rename-in-the-context-menu.png
+10:56:20 renamed 'Revolve 1' to 'Revolve stud'
+10:56:20 about to click the Part 1 row, to rename it at (140, 696)
+10:56:20 clicked the Part 1 row, to rename it -> 50-b-done-the-part-1-row-to-rename-it.png
+10:56:20 about to click Rename in the context menu at (256, 364)
+10:56:21 clicked Rename in the context menu -> 51-b-done-rename-in-the-context-menu.png
+10:56:23 renamed 'Part 1' to 'Ball stud'
+10:57:06 about to select the Top plane in the feature tree at (140, 209)
+10:57:07 selected the Top plane in the feature tree -> 54-a-select-the-top-plane-in-the-feature-tree.png
+10:57:07 about to click the Sketch button at (155, 58)
+10:57:08 clicked the Sketch button -> 55-b-done-the-sketch-button.png
+10:57:08 about to press n to look straight down at the Top plane
+10:57:09 pressed n to look straight down at the Top plane -> 57-b-done-look-straight-down-at-the-top-plane.png
+10:57:37 about to press c to pick the Circle tool
+10:57:38 pressed c to pick the Circle tool -> 58-b-done-pick-the-circle-tool.png
+10:57:38 about to select the origin, as the circle's center at (922, 470)
+10:57:40 selected the origin, as the circle's center -> 59-a-select-the-origin-as-the-circle-s-center.png
+10:57:40 about to click a point out from the center, to set a first size at (1040, 470)
+10:57:40 clicked a point out from the center, to set a first size -> 60-b-done-a-point-out-from-the-center-to-set-a-first-size.png
+10:57:40 about to press Escape to put the circle tool down
+10:57:41 pressed Escape to put the circle tool down -> 61-b-done-put-the-circle-tool-down.png
+10:57:42 about to select the circle at (1040, 470)
+10:57:43 selected the circle -> 62-a-select-the-circle.png
+10:57:43 about to click where the diameter dimension goes at (1110, 380)
+10:57:44 clicked where the diameter dimension goes -> 63-b-done-where-the-diameter-dimension-goes.png
+10:57:46 the collar's outside diameter: 13.12662 mm -> 9.4
+10:58:13 about to click the green tick on the sketch at (423, 93)
+10:58:14 clicked the green tick on the sketch -> 65-b-done-the-green-tick-on-the-sketch.png
+10:58:14 about to click the Sketch 1 row, to rename it at (140, 339)
+10:58:14 clicked the Sketch 1 row, to rename it -> 66-b-done-the-sketch-1-row-to-rename-it.png
+10:58:14 about to click Rename in the context menu at (263, 363)
+10:58:15 clicked Rename in the context menu -> 67-b-done-rename-in-the-context-menu.png
+10:58:17 renamed 'Sketch 1' to 'Collar circle'
+10:58:17 about to select the collar circle's region at (963, 523)
+10:58:18 selected the collar circle's region -> 69-a-select-the-collar-circle-s-region.png
+10:58:18 about to press Shift+e to open Extrude
+10:58:19 pressed Shift+e to open Extrude -> 70-b-done-open-extrude.png
+10:58:50 about to click New, so the collar is its own part at (268, 148)
+10:58:50 clicked New, so the collar is its own part -> 72-b-done-new-so-the-collar-is-its-own-part.png
+10:58:52 how far the collar stands above the ball's center: 25 mm -> 1.35
+10:58:52 about to click the Second end position checkbox at (277, 395)
+10:58:53 clicked the Second end position checkbox -> 74-b-done-the-second-end-position-checkbox.png
+10:58:54 dialog input ['text', '', 158, 99]
+10:58:54 dialog input ['text', '', 247, 219]
+10:58:54 dialog input ['text', '1.35 mm', 359, 259]
+10:58:54 dialog input ['checkbox', 'on', 266, 286]
+10:58:54 dialog input ['checkbox', 'on', 266, 313]
+10:58:54 dialog input ['checkbox', 'on', 246, 340]
+10:58:54 dialog input ['checkbox', 'on', 246, 368]
+10:58:54 dialog input ['checkbox', 'on', 266, 395]
+10:58:54 dialog input ['text', '', 267, 409]
+10:58:54 dialog input ['text', '25 mm', 374, 450]
+10:58:54 dialog input ['checkbox', 'on', 266, 476]
+10:59:48 about to click the green tick on Extrude at (423, 93)
+10:59:49 clicked the green tick on Extrude -> 76-b-done-the-green-tick-on-extrude.png
+10:59:49 after the collar blank, no errored rows in the tree
+10:59:49 about to click the Extrude 1 row, to rename it at (140, 365)
+10:59:50 clicked the Extrude 1 row, to rename it -> 77-b-done-the-extrude-1-row-to-rename-it.png
+10:59:50 about to click Rename in the context menu at (261, 389)
+10:59:51 clicked Rename in the context menu -> 78-b-done-rename-in-the-context-menu.png
+10:59:52 renamed 'Extrude 1' to 'Collar blank'
+10:59:52 about to click the Part 2 row, to rename it at (140, 722)
+10:59:53 clicked the Part 2 row, to rename it -> 80-b-done-the-part-2-row-to-rename-it.png
+10:59:53 about to click Rename in the context menu at (256, 346)
+10:59:54 clicked Rename in the context menu -> 81-b-done-rename-in-the-context-menu.png
+10:59:55 renamed 'Part 2' to 'Socket body'
+11:00:18 about to press Escape to clear the selection
+11:00:19 pressed Escape to clear the selection -> 84-b-done-clear-the-selection.png
+11:00:19 about to click the tool search box at (1325, 58)
+11:00:20 clicked the tool search box -> 85-b-done-the-tool-search-box.png
+11:00:22 search hit ['Boolean', 1120, 159]
+11:00:38 about to click Boolean in the search results at (1120, 159)
+11:00:39 clicked Boolean in the search results -> 87-b-done-boolean-in-the-search-results.png
+11:00:40 dialog control ['Union', 278, 121]
+11:00:40 dialog control ['Subtract', 348, 121]
+11:00:40 dialog control ['Intersect', 427, 121]
+11:00:40 dialog control ['Keep tools', 299, 186]
+11:00:57 about to click Subtract at (348, 121)
+11:00:58 clicked Subtract -> 89-b-done-subtract.png
+11:00:59 dialog control ['Tools', 356, 154]
+11:00:59 dialog control ['Targets', 356, 185]
+11:00:59 dialog control ['Offset', 286, 217]
+11:00:59 dialog control ['Keep tools', 299, 244]
+11:01:15 parts list rows {'Default geometry': (140, 157), 'Origin': (140, 183), 'Top': (140, 209), 'Front': (140, 235), 'Right': (140, 261), 'Stud profile': (140, 287), 'Revolve stud': (140, 313), 'Collar circle': (140, 339), 'Collar blank': (140, 365), 'Boolean 1': (140, 391), '': (140, 417), 'Parts (2)': (140, 670), 'Ball stud': (140, 696), 'Socket body': (140, 722)}
+11:01:15 about to click the Tools field, to make it the one collecting at (356, 154)
+11:01:16 clicked the Tools field, to make it the one collecting -> 91-b-done-the-tools-field-to-make-it-the-one-collecting.png
+11:01:16 about to select Ball stud in the parts list at (140, 696)
+11:01:18 selected Ball stud in the parts list -> 92-a-select-ball-stud-in-the-parts-list.png
+11:01:18 about to click the Targets field at (356, 185)
+11:01:18 clicked the Targets field -> 93-b-done-the-targets-field.png
+11:01:18 about to select Socket body in the parts list at (140, 722)
+11:01:20 selected Socket body in the parts list -> 94-a-select-socket-body-in-the-parts-list.png
+11:01:51 about to click the x on the Socket body chip in Tools at (447, 197)
+11:01:52 clicked the x on the Socket body chip in Tools -> 96-b-done-the-x-on-the-socket-body-chip-in-tools.png
+11:01:53 fields now at {'tools': (340, 152), 'targets': (356, 203)}
+11:01:53 about to click the Targets field at (356, 203)
+11:01:53 clicked the Targets field -> 97-b-done-the-targets-field.png
+11:01:53 about to select Socket body in the parts list at (140, 722)
+11:01:55 selected Socket body in the parts list -> 98-a-select-socket-body-in-the-parts-list.png
+11:02:32 about to click the Offset checkbox at (256, 253)
+11:02:32 clicked the Offset checkbox -> 100-b-done-the-offset-checkbox.png
+11:02:33 dialog input ['text', '', False, 158, 99]
+11:02:33 dialog input ['checkbox', 'on', True, 246, 253]
+11:02:33 dialog input ['checkbox', 'on', False, 246, 280]
+11:02:33 dialog input ['text', '5 mm', False, 388, 343]
+11:02:33 dialog input ['checkbox', 'on', False, 246, 369]
+11:02:33 dialog input ['checkbox', 'on', True, 246, 397]
+11:02:33 label ['Offset', 286, 253]
+11:02:33 label ['Offset all', 295, 280]
+11:02:33 label ['Faces to offset', 356, 312]
+11:02:33 label ['Offset distance', 291, 344]
+11:02:33 label ['Offset', 329, 253]
+11:02:55 about to click the Offset all checkbox at (246, 280)
+11:02:56 clicked the Offset all checkbox -> 102-b-done-the-offset-all-checkbox.png
+11:02:57 text field ['', 158, 99]
+11:02:57 text field ['5 mm', 388, 307]
+11:06:10 about to click the green check on the Boolean dialog at (423, 93)
+11:06:11 clicked the green check on the Boolean dialog -> 104-b-done-the-green-check-on-the-boolean-dialog.png
+11:06:39 after the Boolean, no errored rows in the tree
+11:06:39 about to click the Boolean 1 row, to rename it at (140, 391)
+11:06:39 clicked the Boolean 1 row, to rename it -> 105-b-done-the-boolean-1-row-to-rename-it.png
+11:06:39 about to click Rename in the context menu at (261, 415)
+11:06:40 clicked Rename in the context menu -> 106-b-done-rename-in-the-context-menu.png
+11:06:42 renamed 'Boolean 1' to 'Cavity from ball'
+11:06:43 tree row ['Default geometry', 140, 157]
+11:06:43 tree row ['Origin', 140, 183]
+11:06:43 tree row ['Top', 140, 209]
+11:06:43 tree row ['Front', 140, 235]
+11:06:43 tree row ['Right', 140, 261]
+11:06:43 tree row ['Stud profile', 140, 287]
+11:06:43 tree row ['Revolve stud', 140, 313]
+11:06:43 tree row ['Collar circle', 140, 339]
+11:06:43 tree row ['Collar blank', 140, 365]
+11:06:43 tree row ['Cavity from ball', 140, 391]
+11:06:43 tree row ['', 140, 417]
+11:06:43 tree row ['Parts (2)', 140, 670]
+11:06:43 tree row ['Ball stud', 140, 696]
+11:06:43 tree row ['Socket body', 140, 722]
+11:09:27 about to select the Top plane in the feature tree at (140, 209)
+11:09:28 selected the Top plane in the feature tree -> 109-a-select-the-top-plane-in-the-feature-tree.png
+11:09:28 about to click the Sketch button at (155, 58)
+11:09:29 clicked the Sketch button -> 111-b-done-the-sketch-button.png
+11:12:56 about to click the slot's first corner at (1050, 492)
+11:12:57 clicked the slot's first corner -> 119-b-done-the-slot-s-first-corner.png
+11:12:57 about to click the slot's far corner at (1225, 452)
+11:12:58 clicked the slot's far corner -> 120-b-done-the-slot-s-far-corner.png
+11:13:54 about to select the slot's inner end at (1050, 486)
+11:13:55 selected the slot's inner end -> 123-a-select-the-slot-s-inner-end.png
+11:13:55 about to select the y axis at (925, 850)
+11:13:56 selected the y axis -> 124-a-select-the-y-axis.png
+11:13:56 about to click an empty spot to park the 2.5 label at (990, 620)
+11:13:57 clicked an empty spot to park the 2.5 label -> 125-b-done-an-empty-spot-to-park-the-2-5-label.png
+11:14:00 inner end to the axis: 2.49839 mm -> 2.5
+11:14:00 about to select the slot's outer end at (1225, 486)
+11:14:01 selected the slot's outer end -> 127-a-select-the-slot-s-outer-end.png
+11:14:01 about to select the y axis at (925, 850)
+11:14:02 selected the y axis -> 128-a-select-the-y-axis.png
+11:14:02 about to click an empty spot to park the 6 label at (1080, 720)
+11:14:03 clicked an empty spot to park the 6 label -> 129-b-done-an-empty-spot-to-park-the-6-label.png
+11:14:06 outer end to the axis: 5.99055 mm -> 6
+11:14:31 about to select the slot's top edge at (1150, 452)
+11:14:32 selected the slot's top edge -> 131-a-select-the-slot-s-top-edge.png
+11:14:32 about to select the x axis at (600, 472)
+11:14:33 selected the x axis -> 132-a-select-the-x-axis.png
+11:14:33 about to click an empty spot to park the top 0.4 label at (1330, 380)
+11:14:34 clicked an empty spot to park the top 0.4 label -> 133-b-done-an-empty-spot-to-park-the-top-0-4-label.png
+11:14:37 top edge to the axis: 0.38307 mm -> 0.4
+11:14:37 about to select the slot's bottom edge at (1150, 492)
+11:14:38 selected the slot's bottom edge -> 134-a-select-the-slot-s-bottom-edge.png
+11:14:38 about to select the x axis at (600, 472)
+11:14:39 selected the x axis -> 135-a-select-the-x-axis.png
+11:14:39 about to click an empty spot to park the bottom 0.4 label at (1330, 570)
+11:14:40 clicked an empty spot to park the bottom 0.4 label -> 136-b-done-an-empty-spot-to-park-the-bottom-0-4-label.png
+11:14:43 bottom edge to the axis: 0.41477 mm -> 0.4
+11:15:21 about to click the caret next to the pattern tool at (886, 58)
+11:15:22 clicked the caret next to the pattern tool -> 138-b-done-the-caret-next-to-the-pattern-tool.png
+11:15:23 menu item ['Linear pattern', 945, 93]
+11:15:23 menu item ['Circular pattern', 945, 126]
+11:15:54 about to click Circular pattern in the menu at (945, 126)
+11:15:54 clicked Circular pattern in the menu -> 140-b-done-circular-pattern-in-the-menu.png
+11:15:56 dialog input ['text', '', 158, 99]
+11:15:56 dialog input ['checkbox', 'on', 246, 176]
+11:15:56 dialog input ['checkbox', 'on', 246, 203]
+11:15:56 dialog input ['checkbox', 'on', 246, 230]
+11:15:56 dialog input ['checkbox', 'on', 246, 258]
+11:15:56 dialog label ['Main', 383, 23]
+11:15:56 dialog label ['Coach Mike Experiments', 511, 20]
+11:15:56 dialog label ['Features (10)', 90, 129]
+11:15:56 dialog label ['Default geometry', 152, 156]
+11:15:56 dialog label ['Origin', 158, 182]
+11:15:56 dialog label ['Top', 158, 208]
+11:15:56 dialog label ['Front', 158, 234]
+11:15:56 dialog label ['Right', 158, 260]
+11:15:56 dialog label ['Stud profile', 148, 286]
+11:15:56 dialog label ['Revolve stud', 148, 312]
+11:15:56 dialog label ['Collar circle', 148, 338]
+11:15:56 dialog label ['Collar blank', 148, 364]
+11:15:56 dialog label ['Cavity from ball', 148, 390]
+11:15:56 dialog label ['Sketch 1', 328, 93]
+11:15:56 dialog label ['Sketch plane', 329, 124]
+11:15:56 dialog label ['Top plane', 336, 144]
+11:15:56 dialog label ['×', 421, 144]
+11:15:56 dialog label ['Disable imprinting', 321, 176]
+11:15:56 dialog label ['Show constraints', 319, 203]
+11:15:56 dialog label ['Show expressions', 321, 230]
+11:15:56 dialog label ['Show errors', 304, 258]
+11:16:38 about to select the slot's top edge at (1150, 452)
+11:16:39 selected the slot's top edge -> 142-a-select-the-slot-s-top-edge.png
+11:16:40 about to select the slot's outer end at (1225, 486)
+11:16:41 selected the slot's outer end -> 143-a-select-the-slot-s-outer-end.png
+11:16:41 about to select the slot's bottom edge at (1150, 492)
+11:16:43 selected the slot's bottom edge -> 144-a-select-the-slot-s-bottom-edge.png
+11:16:43 about to select the slot's inner end at (1050, 486)
+11:16:44 selected the slot's inner end -> 145-a-select-the-slot-s-inner-end.png
+11:17:24 double-clicked the instance count at (1100, 443)
+11:17:24 input ['text', '', 158, 99]
+11:17:24 input ['text', '3', 1101, 443]
+11:17:24 input ['checkbox', 'on', 246, 176]
+11:17:24 input ['checkbox', 'on', 246, 203]
+11:17:24 input ['checkbox', 'on', 246, 230]
+11:17:24 input ['checkbox', 'on', 246, 258]
+11:18:27 about to click the green check on the sketch at (423, 93)
+11:18:28 clicked the green check on the sketch -> 151-b-done-the-green-check-on-the-sketch.png
+11:18:31 after the slit sketch, no errored rows in the tree
+11:18:31 about to click the Sketch 1 row, to rename it at (140, 417)
+11:18:31 clicked the Sketch 1 row, to rename it -> 152-b-done-the-sketch-1-row-to-rename-it.png
+11:18:31 about to click Rename in the context menu at (263, 441)
+11:18:32 clicked Rename in the context menu -> 153-b-done-rename-in-the-context-menu.png
+11:18:34 renamed 'Sketch 1' to 'Slit profile'
+11:19:13 tree rows {'Default geometry': (140, 157), 'Origin': (140, 183), 'Top': (140, 209), 'Front': (140, 235), 'Right': (140, 261), 'Stud profile': (140, 287), 'Revolve stud': (140, 313), 'Collar circle': (140, 339), 'Collar blank': (140, 365), 'Cavity from ball': (140, 391), 'Slit profile': (140, 417), '': (140, 443), 'Parts (2)': (140, 670), 'Ball stud': (140, 696), 'Socket body': (140, 722)}
+11:19:13 about to select the Slit profile sketch, all four slots at once at (140, 417)
+11:19:14 selected the Slit profile sketch, all four slots at once -> 156-a-select-the-slit-profile-sketch-all-four-slots-at-once.png
+11:19:16 input ['text', '', False, 158, 99]
+11:19:16 input ['text', '', False, 247, 219]
+11:19:16 input ['text', '25 mm', False, 359, 259]
+11:19:16 input ['checkbox', 'on', False, 266, 286]
+11:19:16 input ['checkbox', 'on', False, 266, 313]
+11:19:16 input ['checkbox', 'on', False, 246, 340]
+11:19:16 input ['checkbox', 'on', False, 246, 368]
+11:19:16 input ['checkbox', 'on', False, 266, 395]
+11:19:16 label ['Main', 383, 23]
+11:19:16 label ['Coach Mike Experiments', 511, 20]
+11:19:16 label ['Extrude 1', 328, 93]
+11:19:16 label ['Solid', 281, 121]
+11:19:16 label ['Surface', 358, 121]
+11:19:16 label ['Thin', 433, 121]
+11:19:16 label ['New', 269, 149]
+11:19:16 label ['Add', 313, 149]
+11:19:16 label ['Remove', 366, 149]
+11:19:16 label ['Intersect', 432, 149]
+11:19:16 label ['Faces and sketch regions to extrude', 340, 180]
+11:19:16 label ['Faces of Slit profile', 349, 200]
+11:19:16 label ['×', 447, 200]
+11:19:16 label ['Blind', 336, 231]
+11:19:16 label ['Depth', 287, 261]
+11:19:16 label ['Direction', 314, 286]
+11:19:16 label ['Starting offset', 330, 313]
+11:19:16 label ['Symmetric', 300, 340]
+11:19:16 label ['Draft', 283, 368]
+11:19:16 label ['Second end position', 347, 395]
+11:19:16 label ['Assembly 1', 350, 984]
+11:19:46 about to click Remove at (366, 149)
+11:19:47 clicked Remove -> 159-b-done-remove.png
+11:19:49 label ['Main', 383, 23]
+11:19:49 label ['Coach Mike Experiments', 511, 20]
+11:19:49 label ['Extrude 1', 328, 93]
+11:19:49 label ['Solid', 281, 121]
+11:19:49 label ['Surface', 358, 121]
+11:19:49 label ['Thin', 433, 121]
+11:19:49 label ['New', 268, 149]
+11:19:49 label ['Add', 312, 149]
+11:19:49 label ['Remove', 365, 149]
+11:19:49 label ['Intersect', 432, 149]
+11:19:49 label ['Faces and sketch regions to extrude', 340, 180]
+11:19:49 label ['Faces of Slit profile', 349, 200]
+11:19:49 label ['×', 447, 200]
+11:19:49 label ['Blind', 336, 231]
+11:19:49 label ['Depth', 287, 261]
+11:19:49 label ['Direction', 314, 286]
+11:19:49 label ['Starting offset', 330, 313]
+11:19:49 label ['Symmetric', 300, 340]
+11:19:49 label ['Draft', 283, 368]
+11:19:49 label ['Second end position', 347, 395]
+11:19:49 label ['Merge with all', 310, 422]
+11:19:49 label ['Merge scope', 356, 454]
+11:19:49 label ['Assembly 1', 350, 984]
+11:19:49 input ['text', '', False, 158, 99]
+11:19:49 input ['text', '', False, 247, 219]
+11:19:49 input ['text', '25 mm', False, 359, 259]
+11:19:49 input ['checkbox', 'on', False, 266, 286]
+11:19:49 input ['checkbox', 'on', False, 266, 313]
+11:19:49 input ['checkbox', 'on', False, 246, 340]
+11:19:49 input ['checkbox', 'on', False, 246, 368]
+11:19:49 input ['checkbox', 'on', False, 266, 395]
+11:19:49 input ['checkbox', 'on', False, 246, 422]
+11:20:49 about to click the red x, to put the extrude aside for now at (451, 93)
+11:20:50 clicked the red x, to put the extrude aside for now -> 161-b-done-the-red-x-to-put-the-extrude-aside-for-now.png
+11:20:52 tree rows {'Default geometry': (140, 157), 'Origin': (140, 183), 'Top': (140, 209), 'Front': (140, 235), 'Right': (140, 261), 'Stud profile': (140, 287), 'Revolve stud': (140, 313), 'Collar circle': (140, 339), 'Collar blank': (140, 365), 'Cavity from ball': (140, 391), 'Slit profile': (140, 417), '': (140, 443), 'Parts (2)': (140, 670), 'Ball stud': (140, 696), 'Socket body': (140, 722)}
+11:21:39 about to click the caret next to the pattern tool at (886, 58)
+11:21:40 clicked the caret next to the pattern tool -> 163-b-done-the-caret-next-to-the-pattern-tool.png
+11:21:41 about to click Circular pattern at (945, 126)
+11:21:42 clicked Circular pattern -> 164-b-done-circular-pattern.png
+11:21:43 about to select the slot's top edge at (1150, 452)
+11:21:44 selected the slot's top edge -> 165-a-select-the-slot-s-top-edge.png
+11:21:45 about to select the slot's outer end at (1225, 486)
+11:21:46 selected the slot's outer end -> 166-a-select-the-slot-s-outer-end.png
+11:21:46 about to select the slot's bottom edge at (1150, 492)
+11:21:47 selected the slot's bottom edge -> 167-a-select-the-slot-s-bottom-edge.png
+11:21:48 about to select the slot's inner end at (1050, 486)
+11:21:49 selected the slot's inner end -> 168-a-select-the-slot-s-inner-end.png
+11:21:49 count field []
+11:23:00 about to click empty space, clear of the sketch at (600, 860)
+11:23:01 clicked empty space, clear of the sketch -> 171-b-done-empty-space-clear-of-the-sketch.png
+11:23:41 about to click the green check on the sketch at (423, 93)
+11:23:42 clicked the green check on the sketch -> 173-b-done-the-green-check-on-the-sketch.png
+11:23:45 after the slit sketch, no errored rows in the tree
+11:23:45 tree row ['Default geometry', 140, 157]
+11:23:45 tree row ['Origin', 140, 183]
+11:23:45 tree row ['Top', 140, 209]
+11:23:45 tree row ['Front', 140, 235]
+11:23:45 tree row ['Right', 140, 261]
+11:23:45 tree row ['Stud profile', 140, 287]
+11:23:45 tree row ['Revolve stud', 140, 313]
+11:23:45 tree row ['Collar circle', 140, 339]
+11:23:45 tree row ['Collar blank', 140, 365]
+11:23:45 tree row ['Cavity from ball', 140, 391]
+11:23:45 tree row ['Slit profile', 140, 417]
+11:23:45 tree row ['', 140, 443]
+11:23:45 tree row ['Parts (2)', 140, 670]
+11:23:45 tree row ['Ball stud', 140, 696]
+11:23:45 tree row ['Socket body', 140, 722]
+11:24:15 about to select the Slit profile sketch at (140, 417)
+11:24:16 selected the Slit profile sketch -> 175-a-select-the-slit-profile-sketch.png
+11:24:18 about to click Remove at (366, 149)
+11:24:19 clicked Remove -> 178-b-done-remove.png
+11:24:20 about to click the Merge scope field at (356, 454)
+11:24:21 clicked the Merge scope field -> 179-b-done-the-merge-scope-field.png
+11:24:22 about to select Socket body in the parts list at (140, 722)
+11:24:23 selected Socket body in the parts list -> 180-a-select-socket-body-in-the-parts-list.png
+11:25:12 about to click Second end position at (347, 395)
+11:25:13 clicked Second end position -> 183-b-done-second-end-position.png
+11:25:15 text field ['', 158, 99]
+11:25:15 text field ['', 247, 219]
+11:25:15 text field ['1.35 mm', 359, 259]
+11:25:15 text field ['', 267, 409]
+11:25:15 text field ['25 mm', 374, 450]
+11:26:33 about to click the green check on the extrude at (423, 93)
+11:26:34 clicked the green check on the extrude -> 186-b-done-the-green-check-on-the-extrude.png
+11:26:36 after the slit cut, no errored rows in the tree
+11:26:36 about to click the Extrude 1 row, to rename it at (140, 443)
+11:26:37 clicked the Extrude 1 row, to rename it -> 187-b-done-the-extrude-1-row-to-rename-it.png
+11:26:37 about to click Rename in the context menu at (261, 467)
+11:26:38 clicked Rename in the context menu -> 188-b-done-rename-in-the-context-menu.png
+11:26:40 renamed 'Extrude 1' to 'Relief slits'
+11:26:40 tree row ['Default geometry', 140, 157]
+11:26:40 tree row ['Origin', 140, 183]
+11:26:40 tree row ['Top', 140, 209]
+11:26:40 tree row ['Front', 140, 235]
+11:26:40 tree row ['Right', 140, 261]
+11:26:40 tree row ['Stud profile', 140, 287]
+11:26:40 tree row ['Revolve stud', 140, 313]
+11:26:40 tree row ['Collar circle', 140, 339]
+11:26:40 tree row ['Collar blank', 140, 365]
+11:26:40 tree row ['Cavity from ball', 140, 391]
+11:26:40 tree row ['Slit profile', 140, 417]
+11:26:40 tree row ['Relief slits', 140, 443]
+11:26:40 tree row ['', 140, 469]
+11:26:40 tree row ['Parts (2)', 140, 670]
+11:26:40 tree row ['Ball stud', 140, 696]
+11:26:40 tree row ['Socket body', 140, 722]
+11:47:49 tree rows {'Default geometry': (140, 157), 'Origin': (140, 183), 'Top': (140, 209), 'Front': (140, 235), 'Right': (140, 261), 'Stud profile': (140, 287), 'Revolve stud': (140, 313), 'Collar circle': (140, 339), 'Collar blank': (140, 365), 'Cavity from ball': (140, 391), 'Slit profile': (140, 417), 'Relief slits': (140, 443), '': (140, 469), 'Parts (2)': (140, 670), 'Ball stud': (140, 696), 'Socket body': (140, 722)}
+11:47:52 text field ['', 158, 99]
+11:47:52 text field ['', 247, 219]
+11:47:52 text field ['1.35 mm', 359, 259]
+11:47:52 text field ['', 267, 409]
+11:47:52 text field ['4.15 mm', 374, 450]
+11:48:13 about to click the green check on the extrude at (423, 93)
+11:48:14 clicked the green check on the extrude -> 193-b-done-the-green-check-on-the-extrude.png
+11:48:16 after the depth swap, no errored rows in the tree

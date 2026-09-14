@@ -1,0 +1,215 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "32166c7b3d22572c0e7dd0c3",
+ "sketches": {
+  "clip profile": {
+   "entities": [
+    {
+     "endPoint": [
+      9.0,
+      0.0
+     ],
+     "id": "IMMBa4YQLIVV.bottom",
+     "startPoint": [
+      -9.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -1.0161,
+      -17.7
+     ],
+     "id": "IMMBa4YQLIVV.top",
+     "startPoint": [
+      -5.0,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -9.0,
+      -13.7
+     ],
+     "id": "IMMBa4YQLIVV.left",
+     "startPoint": [
+      -9.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      9.0,
+      -13.7
+     ],
+     "id": "IMMBa4YQLIVV.right",
+     "startPoint": [
+      9.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "center": [
+      0.0,
+      -19.0
+     ],
+     "endPoint": [
+      -4.828,
+      -17.7
+     ],
+     "id": "WcGAWpZG5MoO",
+     "radius": 5.0,
+     "startPoint": [
+      -4.828,
+      -20.3
+     ],
+     "type": "arc"
+    },
+    {
+     "center": [
+      0.0,
+      -19.0
+     ],
+     "endPoint": [
+      -1.0161,
+      -17.7
+     ],
+     "id": "MeCT70AQ1r0h",
+     "radius": 1.65,
+     "startPoint": [
+      -1.0161,
+      -20.3
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -1.0161,
+      -20.3
+     ],
+     "id": "3UKlcorRyLWf",
+     "startPoint": [
+      -4.828,
+      -20.3
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      5.0,
+      -17.7
+     ],
+     "id": "6QcTJXoBpD0H.trimOffspring",
+     "startPoint": [
+      4.828,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -9.0,
+      -13.7
+     ],
+     "id": "9dJPy1ak3NT7.0.distanceAId",
+     "isConstruction": true,
+     "startPoint": [
+      -9.0,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -5.0,
+      -17.7
+     ],
+     "id": "9dJPy1ak3NT7.0.distanceBId",
+     "isConstruction": true,
+     "startPoint": [
+      -9.0,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -5.0,
+      -17.7
+     ],
+     "id": "9dJPy1ak3NT7.0.chamferPolyline",
+     "startPoint": [
+      -9.0,
+      -13.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      9.0,
+      -13.7
+     ],
+     "id": "CNvVC4CNoKSm.0.distanceAId",
+     "isConstruction": true,
+     "startPoint": [
+      9.0,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      5.0,
+      -17.7
+     ],
+     "id": "CNvVC4CNoKSm.0.distanceBId",
+     "isConstruction": true,
+     "startPoint": [
+      9.0,
+      -17.7
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      5.0,
+      -17.7
+     ],
+     "id": "CNvVC4CNoKSm.0.chamferPolyline",
+     "startPoint": [
+      9.0,
+      -13.7
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     1,
+     0,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     0,
+     1,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "wid": "a1af16872d25103815f1c32a"
+}

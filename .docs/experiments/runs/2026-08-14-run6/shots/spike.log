@@ -1,0 +1,138 @@
+05:52:09 opened the spike Part Studio 972f49f485537c33b3fbf3b7
+05:52:39 about to select the Top plane in the feature tree at (96, 209)
+05:52:40 selected the Top plane in the feature tree -> 02-a-select-the-top-plane-in-the-feature-tree.png
+05:52:40 about to click the Sketch button at (155, 58)
+05:52:41 clicked the Sketch button -> 03-b-done-the-sketch-button.png
+05:53:03 about to press n to look normal to the sketch plane
+05:53:04 pressed n to look normal to the sketch plane -> 04-b-done-look-normal-to-the-sketch-plane.png
+05:53:30 about to press r to center point rectangle tool for block 1
+05:53:31 pressed r to center point rectangle tool for block 1 -> 05-b-done-center-point-rectangle-tool-for-block-1.png
+05:53:32 about to press Escape to put the rectangle tool down after block 1
+05:53:33 pressed Escape to put the rectangle tool down after block 1 -> 06-b-done-put-the-rectangle-tool-down-after-block-1.png
+05:53:33 about to press r to center point rectangle tool for block 2
+05:53:34 pressed r to center point rectangle tool for block 2 -> 07-b-done-center-point-rectangle-tool-for-block-2.png
+05:53:35 about to press Escape to put the rectangle tool down after block 2
+05:53:35 pressed Escape to put the rectangle tool down after block 2 -> 08-b-done-put-the-rectangle-tool-down-after-block-2.png
+05:53:35 about to click the green check to close Sketch 1 at (423, 93)
+05:53:36 clicked the green check to close Sketch 1 -> 09-b-done-the-green-check-to-close-sketch-1.png
+05:54:19 about to select the left region of block A at (800, 400)
+05:54:20 selected the left region of block A -> 10-a-select-the-left-region-of-block-a.png
+05:54:20 shift-clicking the middle region so block A is the whole first rectangle
+05:54:22 about to click the Extrude button at (219, 58)
+05:54:23 clicked the Extrude button -> 12-b-done-the-extrude-button.png
+05:54:43 about to click the green check to commit Extrude 1 as Part 1 at (423, 93)
+05:54:44 clicked the green check to commit Extrude 1 as Part 1 -> 13-b-done-the-green-check-to-commit-extrude-1-as-part-1.png
+05:54:44 about to select the right-only region, for block B at (1020, 400)
+05:54:45 selected the right-only region, for block B -> 14-a-select-the-right-only-region-for-block-b.png
+05:54:45 about to click the Extrude button for block B at (219, 58)
+05:54:46 clicked the Extrude button for block B -> 15-b-done-the-extrude-button-for-block-b.png
+05:54:46 about to click the green check to commit Extrude 2 as Part 2 at (423, 93)
+05:54:47 clicked the green check to commit Extrude 2 as Part 2 -> 16-b-done-the-green-check-to-commit-extrude-2-as-part-2.png
+05:55:24 about to click the red X to cancel the empty Extrude 2 at (451, 93)
+05:55:25 clicked the red X to cancel the empty Extrude 2 -> 17-b-done-the-red-x-to-cancel-the-empty-extrude-2.png
+05:55:25 about to select Part 1 in the Parts list at (103, 696)
+05:55:26 selected Part 1 in the Parts list -> 18-a-select-part-1-in-the-parts-list.png
+05:55:26 about to click the Search tools box at (1130, 58)
+05:55:27 clicked the Search tools box -> 19-b-done-the-search-tools-box.png
+05:55:55 about to click the red X to cancel Frame 1 at (451, 93)
+05:55:56 clicked the red X to cancel Frame 1 -> 21-b-done-the-red-x-to-cancel-frame-1.png
+05:55:56 feature tree now: Features (6) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Parts (1) | Part 1 |  
+05:56:11 about to select Part 1 in the Parts list at (103, 696)
+05:56:12 selected Part 1 in the Parts list -> 22-a-select-part-1-in-the-parts-list.png
+05:56:12 about to press Alt+c to open the tool search
+05:56:13 pressed Alt+c to open the tool search -> 23-b-done-open-the-tool-search.png
+05:56:13 focused element: INPUT Search tools
+05:56:28 results: Transform / Transform / Transform / Transform
+05:56:52 about to click Transform in the tool search results at (1108, 159)
+05:56:53 clicked Transform in the tool search results -> 25-b-done-transform-in-the-tool-search-results.png
+05:57:14 about to click the transform-type dropdown at (343, 175)
+05:57:15 clicked the transform-type dropdown -> 26-b-done-the-transform-type-dropdown.png
+05:57:15 options: Create Material Library | Translate by line | Translate by distance | Translate by XYZ | Transform by mate connectors | Rotate | Copy in place | Scale
+05:57:51 tree: Features (7) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Transform 1 | Parts (1) | Part 1 |   | Transform 1 | Entities to transform or copy | Part 1 | × | Translate by line | Line or points | Copy part
+05:58:08 about to click the transform-type dropdown at (343, 175)
+05:58:09 clicked the transform-type dropdown -> 29-b-done-the-transform-type-dropdown.png
+05:58:10 dialog now: Part 1 |   | Transform 1 | Entities to transform or copy | Part 1 | × | Translate by XYZ | Copy part
+05:58:35 about to click the Copy part checkbox at (256, 282)
+05:58:35 clicked the Copy part checkbox -> 31-b-done-the-copy-part-checkbox.png
+05:58:37 about to click the green check to commit Transform 1 at (423, 93)
+05:58:38 clicked the green check to commit Transform 1 -> 33-b-done-the-green-check-to-commit-transform-1.png
+06:02:12 about to press Shift+7 to the isometric view shortcut
+06:02:13 pressed Shift+7 to the isometric view shortcut -> 34-b-done-the-isometric-view-shortcut.png
+06:02:13 about to click Part 1 in the Parts list, to see which block it is at (103, 696)
+06:02:14 clicked Part 1 in the Parts list, to see which block it is -> 35-b-done-part-1-in-the-parts-list-to-see-which-block-it-i.png
+06:02:42 about to click the eye on Part 2, to hide it at (220, 722)
+06:02:42 clicked the eye on Part 2, to hide it -> 36-b-done-the-eye-on-part-2-to-hide-it.png
+06:03:07 focus after Alt+c: INPUT Search tools
+06:03:32 about to click the Mate connector result in the tool search at (1090, 160)
+06:03:33 clicked the Mate connector result in the tool search -> 38-b-done-the-mate-connector-result-in-the-tool-search.png
+06:03:33 about to select the top face of Part 1 at (920, 390)
+06:03:34 selected the top face of Part 1 -> 39-a-select-the-top-face-of-part-1.png
+06:03:56 about to click the green check to commit Mate connector 1 at (423, 93)
+06:03:57 clicked the green check to commit Mate connector 1 -> 40-b-done-the-green-check-to-commit-mate-connector-1.png
+06:03:59 tree: Features (8) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Transform 1 | Mate connector 1 | Parts (2) | Part 1 | Part 2 |  
+06:04:38 about to click the Undo button, to back out the stray keystrokes at (57, 58)
+06:04:39 clicked the Undo button, to back out the stray keystrokes -> 42-b-done-the-undo-button-to-back-out-the-stray-keystrokes.png
+06:04:39 regen-error nodes: 0
+06:05:03 about to click the eye on Part 2, to show it again at (220, 722)
+06:05:04 clicked the eye on Part 2, to show it again -> 43-b-done-the-eye-on-part-2-to-show-it-again.png
+06:05:04 about to click the eye on Part 1, to hide it at (220, 696)
+06:05:05 clicked the eye on Part 1, to hide it -> 44-b-done-the-eye-on-part-1-to-hide-it.png
+06:05:31 about to click the Mate connector result in the tool search at (1090, 160)
+06:05:32 clicked the Mate connector result in the tool search -> 45-b-done-the-mate-connector-result-in-the-tool-search.png
+06:05:32 about to select the top face of Part 2 at (1010, 425)
+06:05:34 selected the top face of Part 2 -> 46-a-select-the-top-face-of-part-2.png
+06:05:52 about to click the green check to commit Mate connector 2 at (423, 93)
+06:05:53 clicked the green check to commit Mate connector 2 -> 47-b-done-the-green-check-to-commit-mate-connector-2.png
+06:05:54 about to click the eye on Part 1, to show it again at (220, 696)
+06:05:55 clicked the eye on Part 1, to show it again -> 48-b-done-the-eye-on-part-1-to-show-it-again.png
+06:05:55 tree: Features (9) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Transform 1 | Mate connector 1 | Mate connector 2 | Parts (2) | Part 1 | Part 2 |  
+06:06:36 about to click the Boolean result in the tool search at (1090, 158)
+06:06:37 clicked the Boolean result in the tool search -> 50-b-done-the-boolean-result-in-the-tool-search.png
+06:06:37 about to select Part 1 first, so it is the earlier-selected entity at (103, 696)
+06:06:38 selected Part 1 first, so it is the earlier-selected entity -> 51-a-select-part-1-first-so-it-is-the-earlier-selected-entit.png
+06:06:38 about to select Part 2 second at (103, 722)
+06:06:39 selected Part 2 second -> 52-a-select-part-2-second.png
+06:07:03 about to click the green check to commit Boolean 1, Part 1 first at (423, 93)
+06:07:04 clicked the green check to commit Boolean 1, Part 1 first -> 53-b-done-the-green-check-to-commit-boolean-1-part-1-first.png
+06:07:04 tree: Features (10) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Transform 1 | Mate connector 1 | Mate connector 2 | Boolean 1 | Parts (1) | Part 1 |  
+06:07:04 regen-error nodes: 0
+06:07:51 about to click the red X to cancel out of Mate connector 2 without changing it at (451, 93)
+06:07:52 clicked the red X to cancel out of Mate connector 2 without changing it -> 55-b-done-the-red-x-to-cancel-out-of-mate-connector-2-with.png
+06:07:52 about to click the Assembly 1 tab at (348, 984)
+06:07:53 clicked the Assembly 1 tab -> 56-b-done-the-assembly-1-tab.png
+06:08:09 about to click the Insert button in the assembly at (190, 58)
+06:08:10 clicked the Insert button in the assembly -> 57-b-done-the-insert-button-in-the-assembly.png
+06:08:26 about to click Part 1 in the insert list at (377, 380)
+06:08:27 clicked Part 1 in the insert list -> 58-b-done-part-1-in-the-insert-list.png
+06:08:27 about to click the green check to close Insert at (503, 93)
+06:08:28 clicked the green check to close Insert -> 59-b-done-the-green-check-to-close-insert.png
+06:08:47 about to click the chevron on Part 1 <1>, to list what it brought in at (51, 209)
+06:08:48 clicked the chevron on Part 1 <1>, to list what it brought in -> 60-b-done-the-chevron-on-part-1-1-to-list-what-it-brought-.png
+06:08:48 instances: Instances (1) | Assembly 1 | Origin | Part 1 <1> | Mate connector 1 | Loads (0) | Mate features (0) |  
+06:09:19 about to click the Part Studio 1 tab at (155, 984)
+06:09:20 clicked the Part Studio 1 tab -> 61-b-done-the-part-studio-1-tab.png
+06:09:43 about to click the reorder arrows on the Tools list at (447, 155)
+06:09:44 clicked the reorder arrows on the Tools list -> 63-b-done-the-reorder-arrows-on-the-tools-list.png
+06:10:03 dragging Part 2 above Part 1 in the Tools list
+06:10:24 about to click DONE, to leave reorder mode at (441, 153)
+06:10:25 clicked DONE, to leave reorder mode -> 65-b-done-done-to-leave-reorder-mode.png
+06:10:25 about to click the green check to commit Boolean 1 with Part 2 first at (423, 93)
+06:10:26 clicked the green check to commit Boolean 1 with Part 2 first -> 66-b-done-the-green-check-to-commit-boolean-1-with-part-2-.png
+06:10:26 tree: Features (10) | Default geometry | Origin | Top | Front | Right | Sketch 1 | Extrude 1 | Transform 1 | Mate connector 1 | Mate connector 2 | Boolean 1 | Parts (1) | Part 1 |  
+06:10:42 about to click the Assembly 1 tab at (348, 984)
+06:10:43 clicked the Assembly 1 tab -> 67-b-done-the-assembly-1-tab.png
+06:10:46 instances: Instances (1) | Assembly 1 | Origin | Part 1 <1> | Loads (0) | Mate features (0) |  
+06:10:58 about to click the chevron on Part 1 <1> at (51, 209)
+06:10:58 clicked the chevron on Part 1 <1> -> 69-b-done-the-chevron-on-part-1-1.png
+06:10:58 instances: Instances (1) | Assembly 1 | Origin | Part 1 <1> | Loads (0) | Mate features (0) |  
+06:11:26 error text: .ellipseOverflowText[_ngcontent-ng-c1058970468]{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}.osx-message-bubble-container[_ngcontent-ng-c1058970468]{left:0;line-height:1.3;margin-left:auto;margin-right:auto;max-width:60%;pointer-events:none;position:absolute;right:0;top:7px;width:auto;z-index:10000}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   div.alert[_ngcontent-ng-c1058970468]{padding:4px 25px 4px 10px}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   a[_ngcontent-ng-c1058970468]{cursor:pointer}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   button[_ngcontent-ng-c1058970468]{margin-top:-2px;position:relative;right:-21px}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   span[_ngcontent-ng-c1058970468]{display:inline;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   .osx-icon[_ngcontent-ng-c1058970468]{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;margin-right:10px;margin-top:-2px}.osx-message-bubble-container[_ngcontent-ng-c1058970468]   .osx-message[_ngcontent-ng-c1058970468]{-webkit-box-flex:1;flex-grow:1}.osx-message-bubble[_ngcontent-ng-c1058970468], .osx-message-bubble-container[_ngcontent-ng-c1058970468]   .osx-message[_ngcontent-ng-c1058970468]{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis}.osx-message-bubble[_ngcontent-ng-c1058970468]{display:-webkit-box;display:flex;max-width:830px;pointer-events:auto}.osx-message-bubble[_ngcontent-ng-c1058970468]   .osx-close[_ngcontent-ng-c1058970468]{background:transparent;border:0;cursor:pointer;float:right;font-size:21px;font-weight:700;line-height:1;padding:0}.osx-message-bubble-inner-container[_ngcontent-ng-c1058970468]{-webkit-box-pack:center;display:-webkit-box;display:flex;justify-content:center}.osx-message-bubble-backdrop[_ngcontent-ng-c1058970468]{background-color:var(--os-color-constitution);bottom:0;left:0;opacity:.5;position:fixed;right:0;top:0;z-index:9999}.osx-message-bubble-link[_ngcontent-ng-c1058970468]{font-weight:600;text-decoration:underline}.show-more[_ngcontent-ng-c1058970468]{color:#000;float:right;opacity:.5;padding-left:8px}.document-message-bubble[_ngcontent-ng-c1058970468]{top:85px}.alert-success[_ngcontent-ng-c1058970468]{--bs-alert-color:var(--os-alert-text);--bs-alert-bg:var(--os-alert-background-success);--bs-alert-border-color:var(--os-alert-outline-success)}.alert-success[_ngcontent-ng-c1058970468]   .close[_ngcontent-ng-c1058970468]{color:var(--os-alert-close-success);opacity:1;text-shadow:none}.alert-success[_ngcontent-ng-c1058970468]   .alert-link[_ngcontent-ng-c1058970468], .alert-success[_ngcontent-ng-c1058970468]   a[_ngcontent-ng-c1058970468]:not(.btn){color:var(--os-link)}.alert-info[_ngcontent-ng-c1058970468]{--bs-alert-color:var(--os-alert-text-info);--bs-alert-bg:var(--os-alert-background-info);--bs-alert-border-color:var(--os-alert-outline-info)}.alert-info[_ngcontent-ng-c1058970468]   .close[_ngcontent-ng-c1058970468]{color:var(--os-alert-close-info);opacity:1;text-shadow:none}.alert-info[_ngcontent-ng-c1058970468]   .alert-link[_ngcontent-ng-c1058970468], .alert-info[_ngcontent-ng-c1058970468]   a[_ngcontent-ng-c1058970468]:not(.btn){color:var(--os-link)}.alert-warning[_ngcontent-ng-c1058970468]{--bs-alert-color:var(--os-alert-text);--bs-alert-bg:var(--os-alert-background-warn);--bs-alert-border-color:var(--os-alert-outline-warn)}.alert-warning[_ngcontent-ng-c1058970468]   .close[_ngcontent-ng-c1058970468]{color:var(--os-alert-close-warn);opacity:1;text-shadow:none}.alert-warning[_ngcontent-ng-c1058970468]   .alert-link[_ngcontent-ng-c1058970468], .alert-warning[_ngcontent-ng-c1058970468]   a[_ngcontent-ng-c1058970468]:not(.btn){color:var(--os-link)}.alert-danger[_ngcontent-ng-c1058970468]{--bs-alert-color:var(--os-alert-text);--bs-alert-bg:var(--os-alert-background-error);--bs-alert-border-color:var(--os-alert-outline-error)}.alert-danger[_ngcontent-ng-c1058970468]   .close[_ngcontent-ng-c1058970468]{color:var(--os-alert-close-error);opacity:1;text-shadow:none}.alert-danger[_ngcontent-ng-c1058970468]   .alert-link[_ngcontent-ng-c1058970468], .alert-danger[_ngcontent-ng-c1058970468]   a[_ngcontent-ng-c1058970468]:not(.btn){color:var(--os-link)} // .ellipseOverflowText[_ngcontent-ng-c2854451789]{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}[_ngcontent-ng-c2854451789]:root, [data-os-theme=light][_ngcontent-ng-c2854451789]{--os-construction-plane-compare-text-color:var(--os-color-noreaster-900)}[data-os-theme=dark][_ngcontent-ng-c2854451789]{--os-construction-plane-compare-text-color:var(--os-color-noreaster-300)}[_ngcontent-ng-c2854451789]:root, [data-os-theme][_ngcontent-ng-c2854451789]{--osx-pressed:0px 3px 5px 0px var(--os-effect-shadow-button-primary) inset;--osx-pressed-secondary:0px 1px 1px 0px var(--os-effect-shadow-button-secondary) inset;--osx-drop-shadow-primary:0 5px 10px var(--os-effect-shadow-drop-primary);--osx-drop-shadow-secondary:0px 1px 2px 0px var(--os-effect-shadow-drop-secondary);--osx-drop-shadow-tertiary:0px 3px 6px 0px var(--os-effect-shadow-drop-secondary)}[_ngcontent-ng-c2854451789]:root, [data-os-theme=light][_ngcontent-ng-c2854451789]{--osx-inverted-background:unset}[data-os-theme=dark][_ngcontent-ng-c2854451789]{--osx-inverted-background:invert(1)}[_ngcontent-ng-c2854451789]:root{--osx-feature-dialog-width:220px}.contact-support-container[_ngcontent-ng-c2854451789]{bottom:30px;-webkit-box-shadow:var(--bs-box-shadow);box-shadow:var(--bs-box-shadow);display:block;height:auto;left:auto;position:absolute;right:30px;top:auto;width:400px}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-dialog[_ngcontent-ng-c2854451789]{background-color:var(--bs-body-bg);margin:0}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-header[_ngcontent-ng-c2854451789]{-webkit-box-pack:justify;border-bottom:1px solid var(--os-outline-secondary);justify-content:space-between}.contact-support-container[_ngcontent-ng-c2854451789]   .spinner-container[_ngcontent-ng-c2854451789]{bottom:0;left:0;position:absolute;right:0;top:0}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-footer[_ngcontent-ng-c2854451789]{-webkit-box-pack:justify;justify-content:space-between}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-footer[_ngcontent-ng-c2854451789]   .markup-file-error[_ngcontent-ng-c2854451789]{color:var(--os-text-invalid)}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-footer[_ngcontent-ng-c2854451789]   osx-svg-icon[_ngcontent-ng-c2854451789]{cursor:pointer}.contact-support-container[_ngcontent-ng-c2854451789]   .modal-footer[_ngcontent-ng-c2854451789]   .os-spinner-small[_ngcontent-ng-c2854451789]{top:2px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]{margin-bottom:15px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   p[_ngcontent-ng-c2854451789]{font-weight:700;margin-bottom:3px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   textarea[_ngcontent-ng-c2854451789]{max-height:300px;min-height:60px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .title-input[_ngcontent-ng-c2854451789]::-webkit-input-placeholder{font-style:normal;font-weight:400}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .title-input[_ngcontent-ng-c2854451789]::-moz-placeholder{font-style:normal;font-weight:400}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .title-input[_ngcontent-ng-c2854451789]::placeholder{font-style:normal;font-weight:400}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]{-webkit-box-align:center;-webkit-box-flex:1;-webkit-box-pack:justify;align-items:center;border:1px dashed var(--os-outline-secondary);display:-webkit-box;display:flex;flex:1;justify-content:space-between;margin:5px 0;min-width:0;padding:0 10px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section.file-error[_ngcontent-ng-c2854451789]{background-color:var(--os-alert-background-error);border-color:var(--os-alert-outline-error)}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]   .left-group[_ngcontent-ng-c2854451789]{-webkit-box-align:center;align-items:center;display:-webkit-box;display:flex;gap:4px;max-width:75%;min-width:0}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]   .left-group[_ngcontent-ng-c2854451789]   .os-spinner-small[_ngcontent-ng-c2854451789]{top:0}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]   .no-retry-spacer[_ngcontent-ng-c2854451789]{padding-right:14px}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]   .attachment-name[_ngcontent-ng-c2854451789]{-webkit-box-flex:1;flex:1;max-width:100%;min-width:0;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}.contact-support-container[_ngcontent-ng-c2854451789]   .form-control-container[_ngcontent-ng-c2854451789]   .attachment-section[_ngcontent-ng-c2854451789]   osx-svg-icon[_ngcontent-ng-c2854451789]{cursor:pointer}.contact-support-container[_ngcontent-ng-c2854451789]   .os-spinner-small[_ngcontent-ng-c2854451789]{display:inline-block;font-size:1.2px;left:-2px;margin-left:2px;position:relative;top:5px}.contact-support-container[_ngcontent-ng-c2854451789]   osx-svg-icon[icon=refresh-button][_ngcontent-ng-c2854451789]{position:relative;top:-1px}.contact-support-container[_ngcontent-ng-c2854451789]   .os-button[_ngcontent-ng-c2854451789]:disabled   *[_ngcontent-ng-c2854451789]{cursor:not-allowed} // Restore deleted workspaces… // Filter by contents with errors // Part 1 <1> has error: Failed to resolve instance.
+06:11:44 about to click the Insert button at (190, 58)
+06:11:45 clicked the Insert button -> 71-b-done-the-insert-button.png
+06:11:45 about to click Part 1 in the insert list at (377, 380)
+06:11:46 clicked Part 1 in the insert list -> 72-b-done-part-1-in-the-insert-list.png
+06:11:46 about to click the green check to close Insert at (503, 93)
+06:11:46 clicked the green check to close Insert -> 73-b-done-the-green-check-to-close-insert.png
+06:11:46 instances: Instances (2) | Assembly 1 | Origin | Part 1 <1> | Part 1 <2> | Loads (0) | Mate features (0) |  
+06:11:58 about to click the chevron on Part 1 <2>, the freshly inserted one at (51, 235)
+06:11:59 clicked the chevron on Part 1 <2>, the freshly inserted one -> 74-b-done-the-chevron-on-part-1-2-the-freshly-inserted-one.png
+06:11:59 instances: Instances (2) | Assembly 1 | Origin | Part 1 <1> | Part 1 <2> | Mate connector 2 | Loads (0) | Mate features (0) |  

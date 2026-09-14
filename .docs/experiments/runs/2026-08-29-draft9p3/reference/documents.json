@@ -1,0 +1,44 @@
+{
+ "stickbot-draft9p3": {
+  "did": "50b2d87357670c07c2fbcb89",
+  "wid": "a49825ea9aa838bdfae7b78d",
+  "elements": [
+   {
+    "name": "Part Studio 1",
+    "id": "931b7af8544d60df904361c3",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "name": "Assembly 1",
+    "id": "6874c4ba6226609e4d10164d",
+    "type": "ASSEMBLY"
+   },
+   {
+    "name": "BOM : Assembly 1",
+    "id": "67a98c5fe38319b597d927e1",
+    "type": "BILLOFMATERIALS"
+   }
+  ]
+ },
+ "stickbot-draft9p3-check": {
+  "did": "555033d6ce000bb44430dd6e",
+  "wid": "7786456e4391bf899e70d825",
+  "elements": [
+   {
+    "name": "Part Studio 1",
+    "id": "74433d23ba8c3b718fe83b85",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "name": "Assembly 1",
+    "id": "d9615705eb5656aacda9839d",
+    "type": "ASSEMBLY"
+   },
+   {
+    "name": "BOM : Assembly 1",
+    "id": "f9578efa87f6ba0db1b912c5",
+    "type": "BILLOFMATERIALS"
+   }
+  ]
+ }
+}

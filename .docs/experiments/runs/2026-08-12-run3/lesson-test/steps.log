@@ -1,0 +1,578 @@
+22:41:42 ABOUT TO: create my own page and stamp it LESSON_RUN3
+22:41:42 RESULT: page created and stamped; existing pages in ctx = 5
+22:41:42 ABOUT TO: goto documents list
+22:41:48 RESULT: url=https://cad.onshape.com/signin title=Sign in
+22:42:06   page: name='LESSON_RUN3' url=https://cad.onshape.com/documents/c41cf42f38cf553e6fb6f650/w/20b2fc45cc40d6875dbb36c9/e/9889e6ba40e9deffaf86cb
+22:42:06   page: name='BALLSOCK_RUN3' url=https://cad.onshape.com/documents/e333e1164b9742808aa7e0c2/w/bfc6334fc52c6831ba6798a0/e/bd68d816e04eee0771538c
+22:42:06   page: name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+22:42:06   page: name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+22:42:06   page: name='' url=about:blank
+22:42:06   page: name='LESSON_RUN3' url=https://cad.onshape.com/signin
+22:42:06 cookies: ['ELOQUA', '_ga', '_ga_DZZ0XQS0VB', '_ga_MHJTW9LF87', '_ga_MHJTW9LF87', '_ga_Z5PJYT14TV', '_u', 'on-session-id']
+22:42:06 ABOUT TO: retry goto documents
+22:42:13 RESULT: url=https://cad.onshape.com/signin title=Sign in
+22:42:53 ABOUT TO: re-stamped my page LESSON_RUN3_MSTITT_A ; probe session api
+22:42:53 RESULT sessioninfo: {'status': 204, 'body': ''}
+22:42:53 ABOUT TO: goto cad.onshape.com root
+22:42:59 RESULT: url=https://cad.onshape.com/signin title=Sign in
+22:43:13 contexts: 1
+22:43:13 ctx 0: 6 pages
+22:43:13 cookie _ga len=27 domain=.onshape.com
+22:43:13 cookie ELOQUA len=37 domain=.onshape.com
+22:43:13 cookie _ga_Z5PJYT14TV len=45 domain=.onshape.com
+22:43:13 cookie _ga_DZZ0XQS0VB len=45 domain=.onshape.com
+22:43:13 cookie _ga_MHJTW9LF87 len=7 domain=.cad.onshape.com
+22:43:13 cookie _u len=19 domain=cad.onshape.com
+22:43:13 cookie on-session-id len=224 domain=.onshape.com
+22:43:13 cookie _ga_MHJTW9LF87 len=45 domain=.onshape.com
+22:43:13 ABOUT TO: reload signin page and screenshot
+22:43:19 RESULT: url=https://cad.onshape.com/signin
+22:43:58 ABOUT TO: probe an existing document url (run2 doc) to test auth
+22:44:13 RESULT: url=https://cad.onshape.com/signin title=Sign in
+22:44:13 RESULT sessioninfo again: {'status': 204, 'body': ''}
+22:44:52 poll 0 sessioninfo: {'status': 204, 'body': ''}
+22:45:07 poll 1 sessioninfo: {'status': 204, 'body': ''}
+22:45:22 poll 2 sessioninfo: {'status': 204, 'body': ''}
+22:45:37 poll 3 sessioninfo: {'status': 204, 'body': ''}
+22:46:26 ABOUT TO: type the account email on the signin page and press Continue (no password will be handled)
+22:46:38 RESULT: url=https://cad.onshape.com/signin?page=2&email=mike@stitt.cc title=Sign in
+22:46:38 visible inputs: ['text:email', 'password:password']
+22:47:16 ABOUT TO: read-only census of pages (window.name + document.title), no focus changes
+22:47:16   page name='BALLSOCK_POLL' title='Sign in' url=https://cad.onshape.com/signin
+22:47:16   page name='HINGE_RUN3' title='hinge-run3 | Part Studio 1' url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b
+22:47:16   page name='LESSON_RUN3' title='Sign in' url=https://cad.onshape.com/signin
+22:47:16   page name='BALLSOCK_RUN3' title='Sign in' url=https://cad-usw2.onshape.com/signin
+22:47:16   page name='' title='Spires Robotics | Documents' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+22:47:16   page name='BALLSOCK_RUN3' title='Sign in' url=https://cad.onshape.com/signin
+22:47:16   page name='' title='' url=about:blank
+22:47:16   page name='LESSON_RUN3_MSTITT_A' title='Sign in' url=https://cad.onshape.com/signin?page=2&email=mike@stitt.cc
+22:47:16 ABOUT TO: abandon the signin form (no password entered) and park my page
+22:47:16 RESULT: my page parked at about:blank, still stamped
+22:47:49 BGPOLL 0: still signed out (status -1)
+22:50:05 BGPOLL2: parked on same-origin signin page, polling sessioninfo every 30 s for 12 min
+22:50:06 BGPOLL2 0: AUTH IS BACK -- {
+  "jsonType" : "BTUserOAuth2SummaryInfo",
+  "oauth2Scopes" : 0,
+  "roles" : [ "USER" ],
+  "companyPlan" : true,
+  "cli
+22:50:31 ABOUT TO: goto documents list now that auth is back; search for lesson-run3
+22:50:38 RESULT: url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392 title=Spires Robotics | Documents
+22:50:40 RESULT search lesson-run3: {'status': 200, 'items': []}
+22:50:53 ABOUT TO: click Create -> Document...
+22:50:53   Create button bbox={'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+22:50:58   name field reads: 'lesson-run3'
+22:51:10 RESULT: url=https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be1961c300552cd9d/e/c797d0e3a7e5a614806a22f6 title=lesson-run3 | Part Studio 1
+22:51:32 ABOUT TO: click the hamburger menu left of the document name (155,21)
+22:51:34   Workspace units item found at {'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27}
+22:51:37 RESULT: screenshotted units dialog
+22:52:00 visible selects in units dialog: 22
+22:52:00   select 0 value='2: inch' opts=['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard']
+22:52:00   select 1 value='3: 3' opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+22:52:00   select 2 value='1: inchPerSecondSquared' opts=['Foot per second squared', 'Inch per second squared', 'Meter per second squared', 'Millimeter per second squared']
+22:52:00   select 3 value='3: 3' opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+22:52:00 ABOUT TO: set Length default unit = Millimeter, Display decimals = 0.1
+22:52:01   now: length='4: millimeter' decimals='1: 1'
+22:52:02   total Display decimals labels: 11
+22:52:02 ABOUT TO: click the green check
+22:52:04 RESULT: units dialog accepted
+22:52:26 STEP 1.1 ABOUT TO: click Front in the Features list
+22:52:28 STEP 1.2 ABOUT TO: click Sketch on the toolbar
+22:52:31 STEP 1.3 ABOUT TO: move pointer over graphics area and press n
+22:52:34 RESULT: sketch 1 open, n pressed once
+22:53:00 STEP 2.1 ABOUT TO: press r for Center point rectangle
+22:53:02 STEP 2.2 ABOUT TO: click on the origin, then out to a corner
+22:53:05 STEP 2.4 ABOUT TO: press Escape once
+22:53:06 RESULT: torso rectangle drawn
+22:53:45 STEP 2.5 ABOUT TO: press d for Dimension (pointer over graphics area)
+22:53:47 DIM 04-c-torso-36-wide ABOUT TO: click entity at (860,722)
+22:53:50 DIM 04-c-torso-36-wide: prefill='82.90297 mm' typed='36'
+22:53:51 DIM 04-d-torso-48-tall ABOUT TO: click entity at (772,620)
+22:53:54 DIM 04-d-torso-48-tall RESULT: no edit box appeared
+22:53:54 prefills: width='82.90297 mm' height=False
+22:53:54 STEP 2.8 ABOUT TO: press Escape to put Dimension down
+22:53:54 RESULT: torso dimensioned
+22:54:23 STEP 2.7 (retry) ABOUT TO: press d and dimension the left edge 48 tall
+22:54:24 DIM 04-f-torso-48-tall ABOUT TO: click entity at (857,560)
+22:54:28 DIM 04-f-torso-48-tall: prefill='48.52173 mm' typed='48'
+22:54:29 prefill height='48.52173 mm'
+22:54:29 RESULT: torso 36 x 48
+22:54:56 STEP 3 ABOUT TO: zoom in on the top edge of the torso (922,435), 12 wheel notches
+22:54:59 RESULT: zoomed
+22:55:26 STEP 3 ABOUT TO: zoom 8 more notches on the torso top edge at (922,439)
+22:55:30 RESULT: zoomed more
+22:55:54 STEP 3.1 ABOUT TO: press g for Corner rectangle
+22:55:56 STEP 3.2 ABOUT TO: draw a small rectangle on top of the torso, right of the centerline
+22:55:59 STEP 3.3 ABOUT TO: press Escape
+22:56:00 RESULT: neck rectangle drawn
+22:56:26 STEP 3.4 ABOUT TO: press d and dimension the neck 6 wide
+22:56:27 DIM 06-c-neck-6-wide ABOUT TO: click entity at (975,428)
+22:56:30 DIM 06-c-neck-6-wide: prefill='7.2487 mm' typed='6'
+22:56:31 neck width prefill='7.2487 mm'
+22:56:52 STEP 3.4b ABOUT TO: dimension the neck 6 tall (Dimension tool still armed)
+22:56:52 DIM 06-d-neck-6-tall ABOUT TO: click entity at (966,418)
+22:56:55 DIM 06-d-neck-6-tall: prefill='6.63737 mm' typed='6'
+22:56:57 neck height prefill='6.63737 mm'
+22:56:57 STEP 3.4c ABOUT TO: press Escape to put the tool down
+22:56:57 RESULT: neck dimensioned
+22:57:24 ABOUT TO: find the Coincident constraint button in the sketch toolbar
+22:57:24 coincident candidates: []
+22:57:39 STEP 3.5 ABOUT TO: click the neck's left edge at (966,415)
+22:57:41 STEP 3.5b ABOUT TO: shift-click the vertical line through the origin at (923,250)
+22:57:43 RESULT: two things selected; screenshot taken to find the Coincident button
+22:58:13 ABOUT TO: photograph the sketch toolbar, magnified
+22:58:15   hover x=1008 tooltip=['Part Studio 1', 'Assembly 1', 'Coincident (i)']
+22:58:16   hover x=1032 tooltip=['Part Studio 1', 'Assembly 1']
+22:58:17   hover x=968 tooltip=['Part Studio 1', 'Assembly 1', 'Dimension (d)']
+22:58:19   hover x=937 tooltip=['Part Studio 1', 'Assembly 1']
+22:58:20   hover x=913 tooltip=['Part Studio 1', 'Assembly 1', 'Insert DXF or DWG']
+22:58:21   hover x=870 tooltip=['Part Studio 1', 'Assembly 1', 'Linear pattern']
+22:58:22   hover x=828 tooltip=['Part Studio 1', 'Assembly 1', 'Mirror']
+22:58:37 STEP 3.5c ABOUT TO: click the Coincident toolbar button at (1008,58)
+22:58:39 RESULT: coincident applied (screenshot)
+22:59:07 STEP 3.6 ABOUT TO: click the neck's bottom edge (960,428), shift-click the torso's top edge (800,439)
+22:59:10 STEP 3.6b ABOUT TO: press i for Coincident
+22:59:12 RESULT: i pressed
+23:00:22 STEP 4 DEVIATION: the lesson does not say to zoom out; a 36 mm head is ~414 px at this zoom and runs off the top of the window. Zooming out 10 notches.
+23:00:26 RESULT: zoomed out
+23:00:53 STEP 4.1 ABOUT TO: press g and draw a bigger rectangle above the neck
+23:00:57 STEP 4.2 ABOUT TO: Escape, then d, dimension 36 wide
+23:00:59 DIM 09-c-head-36-wide ABOUT TO: click entity at (900,365)
+23:01:02 DIM 09-c-head-36-wide: prefill='35.79055 mm' typed='36'
+23:01:04 head width prefill='35.79055 mm'
+23:01:28 STEP 4.2b ABOUT TO: dimension the head 36 tall
+23:01:28 DIM 09-e-head-36-tall ABOUT TO: click entity at (831,200)
+23:01:32 DIM 09-e-head-36-tall: prefill='34.23444 mm' typed='36'
+23:01:33 head height prefill='34.23444 mm'
+23:01:34 RESULT: head 36 x 36
+23:02:00 STEP 4.3 ABOUT TO: click head bottom edge (880,364), shift-click neck top edge (968,391)
+23:02:04 STEP 4.3b ABOUT TO: press i
+23:02:05 RESULT: i pressed
+23:02:29 STEP 4.4 ABOUT TO: click head left edge, shift-click right edge, shift-click the centerline, then shift+q
+23:02:34 STEP 4.4b ABOUT TO: press shift+q for Symmetric
+23:02:35 RESULT: shift+q pressed
+23:03:05 STEP 4.5 ABOUT TO: take the green check to finish Sketch 1
+23:03:08 STEP 5.1 ABOUT TO: click inside the torso rectangle at (880,650)
+23:03:10 RESULT: torso region clicked; area readout photographed
+23:03:28 STEP 5.2 ABOUT TO: press shift+e for Extrude
+23:03:30   input 0 = ''
+23:03:30   input 1 = ''
+23:03:30   input 2 = '25 mm'
+23:03:54 STEP 5.3 ABOUT TO: type 24 over the depth ('25 mm') and press Tab
+23:03:54   depth box now reads '24'
+23:03:55 STEP 5.4 ABOUT TO: tick Symmetric
+23:03:57 STEP 5.5 ABOUT TO: green check
+23:04:00 RESULT: torso extruded
+23:04:21 STEP 6 ABOUT TO: right-click Sketch 1 in the Features list and choose Show
+23:04:53   could not click Show: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Show").first
+    - locator resolved to 
+23:04:53 RESULT: sketch shown
+23:05:14 STEP 6 (retry) ABOUT TO: right-click Sketch 1 then click Show by coordinate
+23:05:19 RESULT: Show clicked
+23:05:44 STEP 7.1 ABOUT TO: zoom in on the neck (8 notches at 958,410)
+23:05:48 RESULT: zoomed on neck
+23:06:13 STEP 7.1b ABOUT TO: click inside the neck half-rectangle at (962,410)
+23:06:15 STEP 7.2 ABOUT TO: press shift+w for Revolve
+23:06:17 RESULT: revolve dialog open
+23:06:42 STEP 7.3 ABOUT TO: click into the Revolve axis field
+23:06:43 STEP 7.4 ABOUT TO: click the neck's own left edge at (928,400)
+23:06:45 RESULT: axis clicked
+23:07:10 STEP 7.6 ABOUT TO: green check to accept the revolve (operation reads Add, axis reads Edge of Sketch 1)
+23:07:13 RESULT: revolve accepted
+23:07:13 STEP 8.1 ABOUT TO: right-click Sketch 1 -> Show again (the revolve hid it) then click inside the head
+23:07:37 STEP 8.1 ABOUT TO: click inside the head rectangle at (820,250)
+23:07:39 RESULT: head region clicked, area photographed
+23:08:01 STEP 8.2 ABOUT TO: press shift+e for Extrude
+23:08:03   input 0 = ''
+23:08:03   input 1 = ''
+23:08:03   input 2 = '25 mm'
+23:08:28 STEP 8.2b ABOUT TO: type 30 over the depth ('25 mm'), Tab, tick Symmetric
+23:08:28   depth reads '30'
+23:08:30 STEP 8.3: operation already reads Add (it opened on Add); nothing to change
+23:08:30 STEP 8.4 ABOUT TO: green check
+23:08:34 RESULT: head extruded
+23:09:11 STEP 9.1 ABOUT TO: right-click Sketch 1 and choose Hide
+23:09:12   Hide candidates: [[213, 424]]
+23:09:14 RESULT: Hide clicked
+23:09:31 STEP 9.2 ABOUT TO: right-click row at y=313 and rename to Torso
+23:09:34   rename box currently ''
+23:09:34   rename box now 'Torso'
+23:09:36 STEP 9.2 ABOUT TO: right-click row at y=339 and rename to Neck
+23:09:37   RESULT: no Rename item found
+23:09:37 STEP 9.2 ABOUT TO: right-click row at y=365 and rename to Head
+23:09:38   RESULT: no Rename item found
+23:09:39 STEP 9.3 ABOUT TO: rename Part 1 to Robot in the Parts list
+23:09:39 STEP 9.2 ABOUT TO: right-click row at y=696 and rename to Robot
+23:09:40   RESULT: no Rename item found
+23:09:40 RESULT: renames done
+23:10:12 ABOUT TO: clear the feature-tree filter box (I typed Torso into it by mistake)
+23:10:13 ABOUT TO: right-click Extrude 1 and open Rename, then list every visible input
+23:10:15   Rename item at [[211, 337]]
+23:10:16   input 0 value='' box={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+23:10:16   input 1 value='Extrude 1' box={'x': 62, 'y': 301, 'width': 178, 'height': 24}
+23:10:44   editor was 'Extrude 1'
+23:10:45   editor now 'Torso'
+23:10:46 STEP 9 ABOUT TO: right-click row y=339, Rename -> Neck
+23:10:49   editor was 'Revolve 1'
+23:10:49   editor now 'Neck'
+23:10:50 STEP 9 ABOUT TO: right-click row y=365, Rename -> Head
+23:10:53   editor was 'Extrude 2'
+23:10:53   editor now 'Head'
+23:10:55 STEP 9 ABOUT TO: right-click row y=696, Rename -> Robot
+23:10:57   editor was 'Part 1'
+23:10:58   editor now 'Robot'
+23:10:59 RESULT: renames attempted
+23:11:26 CHECK ABOUT TO: open the view menu and pick Isometric
+23:11:27   Isometric at [[1455, 258]]
+23:11:30 CHECK ABOUT TO: zoom to fit so the whole body is visible
+23:11:32 RESULT: isometric
+23:12:03 CHECK ABOUT TO: click empty background, then the torso-front face at (885, 555)
+23:12:07 CHECK ABOUT TO: click empty background, then the torso-side face at (970, 545)
+23:12:10 CHECK ABOUT TO: click empty background, then the head-front face at (880, 400)
+23:12:14 RESULT: three faces measured
+23:12:50 CHANGE 1 ABOUT TO: right-click Sketch 1 -> Show
+23:12:51   Show at [[213, 424]]
+23:12:53 CHANGE 2 ABOUT TO: right-click Sketch 1 -> Show dimensions
+23:12:54   Show dimensions at [[213, 378]]
+23:12:57 RESULT: dimensions shown
+23:13:20 CHANGE 3 ABOUT TO: double-click the 48 label at (813,489)
+23:13:24   visible inputs after first double-click: 1
+23:13:24    input 0 = '' box={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+23:13:51 CHANGE 3b ABOUT TO: second double-click on the 48, type 60, Enter
+23:13:54    input 0 = '' box={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+23:13:54    input 1 = '48 mm' box={'x': 805.5, 'y': 470.046875, 'width': 100, 'height': 26}
+23:13:54   box now '60'
+23:13:57 RESULT: 60 committed
+23:14:27 CHANGE 4 ABOUT TO: undo with Meta+Z
+23:14:30 CHANGE 4b ABOUT TO: close the sketch dialog with the green check
+23:14:33 CHANGE 4c ABOUT TO: hide Sketch 1 again
+23:14:34   Hide at [[213, 424]]
+23:14:36 RESULT: undo, dialog closed, sketch hidden
+23:15:03 PART2 1 ABOUT TO: click Sketch, then the flat front face of the head at (880,400)
+23:15:08 PART2 2 ABOUT TO: press n to look straight at it
+23:15:11 RESULT: sketch on the head front face
+23:15:39 PART2 ABOUT TO: zoom in on the head face (12 notches at 922,522) -- "Zoom in before you aim"
+23:15:43 RESULT: zoomed
+23:16:16 EYES 1 ABOUT TO: press c and draw four circles (two eyes, two pupils)
+23:16:28 RESULT: four circles drawn
+23:16:59 EYES 2 ABOUT TO: click small circle (879, 472), shift-click big circle (894, 468), press shift+o
+23:17:04 EYES 2 ABOUT TO: click small circle (993, 480), shift-click big circle (1016, 476), press shift+o
+23:17:09 RESULT: concentric applied to both pairs
+23:17:36 EYES 3 ABOUT TO: click (896, 467), shift-click (1016, 475), press e for Equal
+23:17:40 EYES 3 ABOUT TO: click (875, 467), shift-click (995, 475), press e for Equal
+23:17:45 RESULT: equal applied to both pairs
+23:20:54 EYES 4 ABOUT TO: click left eye centre, shift-click right eye centre, shift-click vertical line, shift+q
+23:21:01 RESULT: symmetric attempted on eye centres
+23:21:22 EYES 5 ABOUT TO: press d, dimension the left big circle to 10
+23:21:24 DIM 28-b-dim-big-10 ABOUT TO: click entity at (896,467)
+23:21:27 DIM 28-b-dim-big-10: prefill='9.35343 mm' typed='10'
+23:21:28 RESULT: big circle dimensioned
+23:21:53 EYES 5b ABOUT TO: still in Dimension, dimension the left small circle to 4
+23:21:53 DIM 28-c-dim-small-4 ABOUT TO: click entity at (858,481)
+23:21:56 DIM 28-c-dim-small-4: prefill='5.45758 mm' typed='4'
+23:21:58 RESULT: small circle dimension attempted
+23:22:25 EYES 6 ABOUT TO: left eye centre (858,467) to vertical line (923,360) = 8
+23:22:25 DIM 29-b-dim-eye-to-centreline-8 ABOUT TO: click entity at (858,467)
+23:22:30 DIM 29-b-dim-eye-to-centreline-8: prefill='9.53125 mm' typed='8'
+23:22:31 RESULT: eye-to-centreline dimension attempted
+23:22:52 EYES 6b ABOUT TO: same eye centre (868,467) to head top edge (830,400) = 10
+23:22:52 DIM 29-c-dim-eye-to-top-10 ABOUT TO: click entity at (868,467)
+23:22:57 DIM 29-c-dim-eye-to-top-10: prefill='9.6696 mm' typed='10'
+23:22:59 RESULT: eye-to-top dimension attempted, Escape pressed
+23:23:27 EYES 7 ABOUT TO: green tick to accept Sketch 2
+23:23:30 RESULT: sketch 2 accepted
+23:23:49 EYES 8 ABOUT TO: click inside left ring (892,469), shift-click right ring (1002,469)
+23:23:52 EYES 8b ABOUT TO: shift+e for Extrude
+23:23:55 RESULT: extrude dialog opened on rings
+23:24:15 EYES 8c ABOUT TO: type depth 3 (operation already on Add)
+23:24:16 depth prefill='25 mm' typed='3'
+23:24:18 EYES 8d ABOUT TO: green tick
+23:24:21 RESULT: rings extruded 3 mm Add
+23:24:53 ABOUT TO: right-click tree row y=391 and pick Show
+23:24:57   RESULT: Show clicked at [213, 528]
+23:25:18 EYES 10 ABOUT TO: click inside the two pupil discs, shift+e, depth 5, Add
+23:25:25 RESULT: no depth box for pupils
+23:26:00 ABOUT TO: cancel the empty Extrude 2 (red x), then zoom in 8 notches on the eyes
+23:26:06 RESULT: cancelled and zoomed
+23:26:35 EYES 10 (retry, zoomed in) ABOUT TO: click inside the two pupil discs off-centre
+23:26:41 depth box at {'x': 307.609375, 'y': 270, 'width': 102.390625, 'height': 26} value '25 mm'
+23:26:41 typed '5'
+23:26:43 RESULT: depth typed; dialog state captured
+23:27:10 ABOUT TO: cancel the Surface extrude, zoom 8 more notches on the eyes
+23:27:15 RESULT: cancelled and zoomed further
+23:27:37 EYES 10 (retry 2) ABOUT TO: click inside the two pupil discs at (800,482) and (1075,482)
+23:27:43 RESULT: selection and dialog captured
+23:28:01 EYES 10b ABOUT TO: depth 5, Add, green tick
+23:28:02 depth prefill='25 mm' typed='5'
+23:28:06 EYES 11 ABOUT TO: right-click Sketch 2 -> Hide
+23:28:41 ABOUT TO: right-click tree row y=391 and pick Hide
+23:28:44   RESULT: Hide clicked at [213, 528]
+23:29:12 MOUTH 1 ABOUT TO: Sketch button, then click the head front face at (700,700)
+23:29:18 MOUTH 2 ABOUT TO: press l and draw a short horizontal line, then Escape
+23:29:23 RESULT: sketch 3 open with a line drawn
+23:29:48 MOUTH 3 ABOUT TO: look for the Offset dropdown on the sketch toolbar
+23:29:48   "Slot" text visible now at: []
+23:29:49   hovered caret x=490 -> Slot text at []
+23:29:50   hovered caret x=435 -> Slot text at []
+23:29:52   hovered caret x=607 -> Slot text at []
+23:29:52 RESULT: toolbar probe done
+23:30:03 MOUTH 3 ABOUT TO: click caret x=490 and look for Slot
+23:30:04   caret 490 -> Slot at []
+23:30:05 MOUTH 3 ABOUT TO: click caret x=435 and look for Slot
+23:30:06   caret 435 -> Slot at []
+23:30:07 MOUTH 3 ABOUT TO: click caret x=383 and look for Slot
+23:30:09   caret 383 -> Slot at []
+23:30:09 MOUTH 3 ABOUT TO: click caret x=607 and look for Slot
+23:30:11   caret 607 -> Slot at []
+23:30:43 MOUTH 3 probe: elements whose title/aria-label mentions slot or offset
+23:30:59   x=190 -> ['Part Studio 1', 'Assembly 1']
+23:31:00   x=217 -> ['Part Studio 1', 'Assembly 1']
+23:31:01   x=244 -> ['Part Studio 1', 'Assembly 1']
+23:31:02   x=271 -> ['Part Studio 1', 'Assembly 1']
+23:31:03   x=298 -> ['Part Studio 1', 'Assembly 1']
+23:31:04   x=325 -> ['Part Studio 1', 'Assembly 1']
+23:31:05   x=352 -> ['Part Studio 1', 'Assembly 1']
+23:31:06   x=379 -> ['Part Studio 1', 'Assembly 1']
+23:31:07   x=406 -> ['Part Studio 1', 'Assembly 1']
+23:31:08   x=433 -> ['Part Studio 1', 'Assembly 1']
+23:31:09   x=460 -> ['Part Studio 1', 'Assembly 1']
+23:31:10   x=487 -> ['Part Studio 1', 'Assembly 1']
+23:31:10   x=514 -> ['Part Studio 1', 'Assembly 1']
+23:31:11   x=541 -> ['Part Studio 1', 'Assembly 1']
+23:31:12   x=568 -> ['Part Studio 1', 'Assembly 1']
+23:31:13   x=595 -> ['Part Studio 1', 'Assembly 1']
+23:31:14   x=622 -> ['Part Studio 1', 'Assembly 1']
+23:31:15   x=649 -> ['Part Studio 1', 'Assembly 1']
+23:31:16   x=676 -> ['Part Studio 1', 'Assembly 1']
+23:31:17   x=703 -> ['Part Studio 1', 'Assembly 1']
+23:31:18   x=730 -> ['Part Studio 1', 'Assembly 1']
+23:31:19   x=757 -> ['Part Studio 1', 'Assembly 1']
+23:31:20   x=784 -> ['Part Studio 1', 'Assembly 1']
+23:31:21   x=811 -> ['Part Studio 1', 'Assembly 1']
+23:31:21   x=838 -> ['Part Studio 1', 'Assembly 1']
+23:31:22   x=865 -> ['Part Studio 1', 'Assembly 1']
+23:31:23   x=892 -> ['Part Studio 1', 'Assembly 1']
+23:31:24   x=919 -> ['Part Studio 1', 'Assembly 1']
+23:31:25   x=946 -> ['Part Studio 1', 'Assembly 1']
+23:31:26   x=973 -> ['Part Studio 1', 'Assembly 1']
+23:31:26 RESULT: tooltip sweep done
+23:31:41 RESULT: toolbar strip captured
+23:32:09 RESULT: hover 634 captured
+23:32:32   x=200 -> ['Line (l)']
+23:32:33   x=253 -> ['Corner rectangle (g)']
+23:32:35   x=306 -> ['Center point circle (c)']
+23:32:36   x=358 -> ['3 point arc (a)']
+23:32:37   x=410 -> ['Inscribed polygon']
+23:32:38   x=462 -> ['Spline']
+23:32:39   x=514 -> ['Point (shift+s)']
+23:32:40   x=547 -> ['Text']
+23:32:41   x=583 -> ['Use (Project/Convert) (u)']
+23:32:42   x=634 -> ['Construction (q)']
+23:32:44   x=671 -> ['Sketch fillet (shift+f)']
+23:32:45   x=723 -> ['Trim (m)']
+23:32:46   x=775 -> ['Offset (o)']
+23:32:47   x=828 -> ['Mirror']
+23:32:48   x=865 -> ['Linear pattern']
+23:32:49   x=913 -> ['Insert DXF or DWG']
+23:32:50   x=968 -> ['Dimension (d)']
+23:32:50 RESULT: tooltip diff sweep done
+23:33:03 MOUTH 3 ABOUT TO: open the Offset dropdown (caret right of Offset (o) at x=775)
+23:33:06   Slot at [[859, 129]]
+23:33:08 RESULT: Slot chosen from the Offset dropdown
+23:33:23 MOUTH 3b ABOUT TO: click the line at (870,764), move out to (870,800), click, Escape
+23:33:28 RESULT: slot drawn
+23:33:57 DEVIATION ABOUT TO: press f (zoom to fit) -- the Slot tool put its width dimension off the top of the window
+23:34:00 RESULT: zoom to fit
+23:34:37 MOUTH 4 ABOUT TO: left endpoint (891,317), shift right endpoint (958,317), shift vertical line (923,700), shift+q
+23:34:44 RESULT: symmetric attempted on the mouth
+23:35:18 DEVIATION ABOUT TO: clear selection and zoom in 12 notches on the mouth line; at fit zoom the endpoints could not be picked
+23:35:22 RESULT: zoomed on the mouth
+23:35:52 MOUTH 4 (retry, zoomed) ABOUT TO: endpoints (855,317) and (991,317), then the vertical line (923,600), shift+q
+23:36:00 RESULT: symmetric attempted again
+23:36:42 DEVIATION ABOUT TO: zoom out 8 notches so a stretch of the vertical line is clear of solid faces
+23:36:46 RESULT: zoomed out
+23:37:07 MOUTH 4 (retry 2) ABOUT TO: endpoints (878,317),(966,317), vertical line clear of solids at (923,850), shift+q
+23:37:15 RESULT: symmetric attempted (3rd try)
+23:37:40 MOUTH 5 ABOUT TO: press f so the Slot width dimension is on screen, then find it
+23:37:43 RESULT: fitted
+23:38:04 MOUTH 5 ABOUT TO: double-click the slot width dimension (Ø20 at 955,97) and type 5
+23:38:07   width prefill='20 mm' typed='5'
+23:38:09 RESULT: slot width set to 5
+23:38:34 DEVIATION ABOUT TO: zoom in 10 notches on the mouth so the line and the head bottom edge are both pickable
+23:38:37 RESULT: zoomed
+23:39:07 DEVIATION ABOUT TO: untick "Show constraints" in the sketch panel; the slot glyph pile covers the mouth line
+23:39:08 RESULT: show constraints unticked
+23:39:37 MOUTH 6 ABOUT TO: press d and dimension the mouth line 15 long
+23:39:38 DIM 45-b-mouth-length-15 ABOUT TO: click entity at (912,306)
+23:39:41 DIM 45-b-mouth-length-15 RESULT: no edit box appeared
+23:39:41 RESULT: mouth length dimension attempted
+23:40:25 MOUTH 6 (retry) ABOUT TO: press d, click the mouth line at (928,306), screenshot before placing
+23:40:32   focused input: '3.10293 mm'
+23:40:50 MOUTH 6: length prefill='3.10293 mm' typed='15'
+23:40:52 RESULT: mouth line set to 15
+23:41:21 MOUTH 6b ABOUT TO: still in Dimension, mouth line (928,306) to the head bottom edge (790,393), 9
+23:41:26   prefill='9.04058 mm' typed='9'
+23:41:29 RESULT: mouth placed 9 above the head bottom edge
+23:41:55 MOUTH 7 ABOUT TO: green tick, then click inside the slot fill at (900,318), shift+e
+23:42:02 RESULT: extrude dialog on the slot region
+23:42:27 MOUTH 7b ABOUT TO: click Remove, type depth 2, then look at the preview
+23:42:29   depth prefill='25 mm' typed='2'
+23:42:31 RESULT: depth 2 typed, preview captured
+23:42:57 MOUTH 7c ABOUT TO: green tick on the Remove extrude
+23:43:01 RESULT: extrude 3 accepted
+23:43:48 PANEL 1 ABOUT TO: Sketch button, click the torso front face at (800,600)
+23:43:54 PANEL 2 ABOUT TO: press g and draw a rectangle
+23:43:59 RESULT: rectangle drawn on the torso face
+23:44:25 PANEL 2 ABOUT TO: symmetric (850, 700) (1005, 700) about (923, 950)
+23:44:31 PANEL 2 ABOUT TO: symmetric (960, 620) (960, 765) about (1300, 688)
+23:44:38 RESULT: both symmetric constraints attempted
+23:45:05 PANEL 3 ABOUT TO: press d, dimension the panel 24 wide then 20 tall
+23:45:07 DIM 51-b-panel-24-wide ABOUT TO: click entity at (850,700)
+23:45:11 DIM 51-b-panel-24-wide: prefill='14.7577 mm' typed='24'
+23:45:12 DIM 51-c-panel-20-tall ABOUT TO: click entity at (960,611)
+23:45:16 DIM 51-c-panel-20-tall RESULT: no edit box appeared
+23:45:17 RESULT: panel dimensions attempted
+23:45:42 PANEL 3b ABOUT TO: press d and dimension the panel 20 tall (edges moved after the 24 landed)
+23:45:44 DIM 51-e-panel-20-tall ABOUT TO: click entity at (960,563)
+23:45:48 DIM 51-e-panel-20-tall: prefill='25.40901 mm' typed='20'
+23:45:50 RESULT: 20 tall attempted
+23:46:14 PANEL 4 ABOUT TO: green tick, click inside the panel (860,640), shift+e, Remove, depth 1
+23:46:21 RESULT: dialog open
+23:46:43 PANEL 4b ABOUT TO: Remove, depth 1, green tick
+23:46:46   depth prefill='25 mm' typed='1'
+23:46:51 RESULT: panel recessed 1 mm
+23:47:19 PANEL 5 ABOUT TO: Sketch button, click the recess floor at (950,730)
+23:47:24 PANEL 5b ABOUT TO: press c and draw one small circle near the top-left of the panel
+23:47:29 RESULT: circle drawn on the recess floor
+23:48:01 PANEL 5c ABOUT TO: press d, dimension the hole 4 across
+23:48:03 DIM 54-b-hole-4 ABOUT TO: click entity at (884,639)
+23:48:06 DIM 54-b-hole-4: prefill='4.09316 mm' typed='4'
+23:48:08 PANEL 5d ABOUT TO: centre 6 from the panel left edge
+23:48:08 DIM 54-d-hole-6-from-left ABOUT TO: click entity at (864,639)
+23:48:12 DIM 54-d-hole-6-from-left: prefill='6.05375 mm' typed='6'
+23:48:14 RESULT: first two hole dimensions attempted
+23:48:37 PANEL 5e ABOUT TO: centre 5 from the panel top edge
+23:48:37 DIM 54-f-hole-5-from-top ABOUT TO: click entity at (864,639)
+23:48:41 DIM 54-f-hole-5-from-top: prefill='4.9186 mm' typed='5'
+23:48:43 RESULT: third hole dimension attempted
+23:49:13 PANEL 6 ABOUT TO: green tick, click inside the hole (872,647), shift+e, Remove, depth 1
+23:49:22   depth prefill='25 mm' typed='1'
+23:49:27 RESULT: hole cut 1 mm
+23:49:54   x=1085 -> ['Plane']
+23:49:56   x=1140 -> ['Frame']
+23:49:57   x=1190 -> ['Sheet metal model']
+23:49:58   x=1245 -> ['Add custom features']
+23:49:59   x=1040 -> ['Replace face']
+23:50:00   x=1005 -> ['Move face']
+23:50:01   x=970 -> ['Delete face']
+23:50:02   x=937 -> ['Modify fillet']
+23:50:03   x=900 -> ['Delete part']
+23:50:04   x=860 -> ['Transform']
+23:50:05   x=813 -> ['Split']
+23:50:06   x=780 -> ['Boolean']
+23:50:06 RESULT: part toolbar sweep done
+23:50:22   x=220 -> ['Extrude (shift+e)']
+23:50:23   x=253 -> ['Revolve (shift+w)']
+23:50:24   x=288 -> ['Sweep']
+23:50:25   x=320 -> ['Loft']
+23:50:26   x=355 -> ['Thicken']
+23:50:27   x=410 -> ['Fillet (shift+f)']
+23:50:28   x=462 -> ['Chamfer']
+23:50:29   x=505 -> ['Draft']
+23:50:30   x=548 -> ['Rib']
+23:50:31   x=583 -> ['Shell']
+23:50:32   x=617 -> ['Hole']
+23:50:33   x=650 -> ['External thread']
+23:50:34   x=697 -> ['Linear pattern']
+23:50:35   x=740 -> ['Mirror']
+23:50:35 RESULT: part toolbar sweep 2 done
+23:50:49 PANEL 7 ABOUT TO: click Linear pattern (x=697) and read the dialog
+23:50:52 RESULT: pattern dialog open
+23:51:16 PANEL 7a ABOUT TO: switch the pattern dropdown to Feature pattern
+23:51:18   Feature pattern at [[305, 178]]
+23:51:20 PANEL 7b ABOUT TO: pick Extrude 5 in the Features list (tree row y=599)
+23:51:22 RESULT: feature pattern with Extrude 5
+23:51:50 PANEL 7c ABOUT TO: click the Direction field, then the panel top edge (950,590)
+23:51:54   no box for distance
+23:51:55   instance count prefill='25 mm' typed='3'
+23:51:57 RESULT: first direction set
+23:52:27 PANEL 7d ABOUT TO: set Distance 6 and Instance count 3
+23:52:28   distance prefill='3 mm' typed='6'
+23:52:30   instance count prefill='2' typed='3'
+23:52:32 RESULT: distance 6 count 3
+23:52:59 PANEL 7e ABOUT TO: tick Second direction, then click a vertical edge of the panel (805,730)
+23:53:03 RESULT: second direction opened and edge clicked
+23:53:29 PANEL 7f ABOUT TO: second direction distance 10, count 2
+23:53:31   distance 2 prefill='25 mm' typed='10'
+23:53:33   count 2 prefill='1' typed='2'
+23:53:35 RESULT: second direction set
+23:54:00 PANEL 7g ABOUT TO: green tick on Linear pattern 1
+23:54:03 RESULT: pattern accepted
+23:54:31 TEXT 1 ABOUT TO: Sketch on the torso front face below the panel (900,860)
+23:54:36 TEXT 2 ABOUT TO: click Text (x=547) and drag a box across the chest
+23:54:42 RESULT: text box dragged
+23:55:09 TEXT 2b ABOUT TO: type RUN3 into the Text dialog and accept its own green tick
+23:55:13 TEXT 3 ABOUT TO: green tick the sketch
+23:55:16 RESULT: text sketch done
+23:55:45 TEXT 3b ABOUT TO: click Sketch 6 in the Features list, shift+e, Remove, depth 0.5
+23:55:52   depth prefill='25 mm' typed='0.5'
+23:55:54 RESULT: text extrude configured
+23:56:17 TEXT 3c ABOUT TO: green tick the text extrude
+23:56:21 RESULT: text cut 0.5 mm
+23:56:57 MEASURE ABOUT TO: read-only REST for parts, bounding box and mass properties
+23:56:57 parts status 200
+23:56:57   part JHD name='Robot'
+23:56:57 bbox: {
+  "lowX" : -0.01800000000000001,
+  "lowY" : -0.02,
+  "lowZ" : -0.024000000000000004,
+  "highX" : 0.018000000000000006,
+  "highY" : 0.015,
+  "highZ" : 0.066
+}
+23:56:57 volume m3: [8.078656965629602e-05, 8.078446430639443e-05, 8.078867500619757e-05]
+23:56:57 centroid: [0.0, 0.0, 0.0]
+23:56:57 RESULT: measurements read
+23:57:35 RENDER ABOUT TO: shadedviews isometric
+23:57:35   wrote 61-render-isometric.png (60200 bytes)
+23:57:35 RENDER ABOUT TO: shadedviews front
+23:57:36   wrote 61-render-front.png (46693 bytes)
+23:57:36 RENDER ABOUT TO: shadedviews right
+23:57:36   wrote 61-render-right.png (24769 bytes)
+23:57:36 RENDER ABOUT TO: shadedviews top
+23:57:37   wrote 61-render-top.png (41168 bytes)
+23:57:37 RESULT: renders written
+23:58:07 VERSION ABOUT TO: click the Main label to look for Create version
+23:58:09   'Create version' -> []
+23:58:09   'Create Version' -> []
+23:58:09   'Version' -> []
+00:00:30 VERSION PROBE ABOUT TO: hover the left icon strip and diff innerText
+00:00:33   y=58 -> ['Versions and history']
+00:00:34   y=95 -> ['Create version…']
+00:00:35   y=128 -> ['Comments']
+00:00:36   y=165 -> ['Document notes']
+00:00:37   y=199 -> ['Performance errors detected']
+00:00:39   y=233 -> ['AI Advisor']
+00:00:40   y=268 -> ['Action items']
+00:00:40 RESULT: probe done
+00:00:49 VERSION ABOUT TO: click Create version at (20,95)
+00:00:52   focused input: 'V1'
+00:01:08 VERSION ABOUT TO: name it lesson-run3-final and Create
+00:01:08   name box now 'lesson-run3-final'
+00:01:14 versions status 200
+00:01:14   version id=796e691e42a0ba87db67daa6 name='Start' created=2026-08-13T02:50:58.366+00:00
+00:01:14   version id=0d33f8c86fb605e7b8864f0f name='lesson-run3-final' created=2026-08-13T04:01:09.011+00:00
+00:01:14 RESULT: version published
+00:02:47 FINALCHECK ABOUT TO: isometric view, zoom to fit
+00:02:50   clicked 'Isometric' at [1455, 258]
+00:02:55 RESULT: isometric fitted
+00:03:12 FINALCHECK ABOUT TO: empty background, then the head side face at (975,395)
+00:03:16 RESULT: head side face clicked
+00:03:31 FINALCHECK ABOUT TO: empty background, then the torso side face at (975,545)
+00:03:35 RESULT: torso side face clicked
+00:07:53 VERLINK ABOUT TO: read parts from the published version
+00:07:53   status 200
+00:07:53   version part JHD name='Robot'
+00:07:53 RESULT: version link checked

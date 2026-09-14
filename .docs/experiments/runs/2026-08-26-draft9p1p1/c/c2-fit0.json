@@ -1,0 +1,280 @@
+{
+ "tag": "fit0",
+ "table": {
+  "torsoH": "96 mm",
+  "torsoW": "72 mm",
+  "torsoD": "48 mm",
+  "limbCenter": "48 mm",
+  "ball": "#torsoH / 8",
+  "limbD": "#torsoH / 4",
+  "wall": "#torsoH / 32",
+  "stand": "#ball * 5 / 6",
+  "collar": "#ball / 2 + #wall",
+  "fit": "0 mm",
+  "grip": "sqrt((#ball / 2 + #fit) ^ 2 - (0.48 * #ball) ^ 2)"
+ },
+ "parts": {
+  "body/torso": {
+   "lowX": -55.5509,
+   "lowY": -24.0,
+   "lowZ": -64.0,
+   "highX": 55.5509,
+   "highY": 24.0,
+   "highZ": 64.0
+  },
+  "head/head": {
+   "lowX": -36.0,
+   "lowY": -33.0,
+   "lowZ": -46.68,
+   "highX": 36.0,
+   "highY": 30.0,
+   "highZ": 36.0
+  },
+  "ball and socket/Ball stud": {
+   "lowX": -6.0,
+   "lowY": -6.0,
+   "lowZ": -6.0,
+   "highX": 6.0,
+   "highY": 6.0,
+   "highZ": 10.0
+  },
+  "ball and socket/Socket body": {
+   "lowX": -9.0,
+   "lowY": -9.0,
+   "lowZ": -9.0,
+   "highX": 9.0,
+   "highY": 9.0,
+   "highZ": 1.68
+  },
+  "foot/Foot": {
+   "lowX": -24.0,
+   "lowY": -64.0,
+   "lowZ": -24.0,
+   "highX": 24.0,
+   "highY": 32.0,
+   "highZ": 1.68
+  },
+  "hinge/blade": {
+   "lowX": -12.0,
+   "lowY": -12.0,
+   "lowZ": -26.4,
+   "highX": 12.0,
+   "highY": 12.0,
+   "highZ": 12.0
+  },
+  "hinge/fork": {
+   "lowX": -12.0,
+   "lowY": -12.0,
+   "lowZ": -12.0,
+   "highX": 12.0,
+   "highY": 12.0,
+   "highZ": 27.4
+  },
+  "u limb/u limb": {
+   "lowX": -12.0,
+   "lowY": -12.0,
+   "lowZ": -60.0,
+   "highX": 12.0,
+   "highY": 12.0,
+   "highZ": 1.68
+  },
+  "l limb/l limb": {
+   "lowX": -12.0,
+   "lowY": -12.0,
+   "lowZ": -54.0,
+   "highX": 12.0,
+   "highY": 12.0,
+   "highZ": 12.0
+  },
+  "gripper/Gripper": {
+   "lowX": -9.0,
+   "lowY": -9.0,
+   "lowZ": -24.0,
+   "highX": 9.0,
+   "highY": 9.0,
+   "highZ": 1.68
+  }
+ },
+ "socket_faces": [
+  [
+   "planeZ",
+   1.68,
+   32.3649
+  ],
+  [
+   "planeZ",
+   1.68,
+   32.3649
+  ],
+  [
+   "planeZ",
+   1.68,
+   32.3649
+  ],
+  [
+   "cylinder",
+   9.0,
+   [
+    0,
+    0.0,
+    1.68
+   ]
+  ],
+  [
+   "planeZ",
+   1.68,
+   32.3649
+  ],
+  [
+   "planeZ",
+   -9.0,
+   254.469
+  ],
+  [
+   "sphere",
+   6.0,
+   [
+    0.0,
+    0,
+    0.0
+   ]
+  ],
+  [
+   "planeZ",
+   -3.0,
+   6.1001
+  ],
+  [
+   "planeZ",
+   -3.0,
+   6.1001
+  ],
+  [
+   "planeZ",
+   -3.0,
+   6.1001
+  ],
+  [
+   "planeZ",
+   -3.0,
+   6.1001
+  ],
+  [
+   "sphere",
+   6.0,
+   [
+    0.0,
+    0,
+    0.0
+   ]
+  ],
+  [
+   "cylinder",
+   3.0,
+   [
+    0.0,
+    0,
+    2.0
+   ]
+  ],
+  [
+   "planeZ",
+   10.0,
+   28.2743
+  ]
+ ],
+ "assembly": {
+  "lowX": -61.5509,
+  "lowY": -64.0,
+  "lowZ": -178.0,
+  "highX": 61.5509,
+  "highY": 32.0,
+  "highZ": 139.0
+ },
+ "stations": [
+  [
+   "head <1>",
+   0.0,
+   -0.0,
+   103.0
+  ],
+  [
+   "u limb <2>",
+   -49.5509,
+   -7.8236,
+   19.2355
+  ],
+  [
+   "u limb <1>",
+   49.5509,
+   -7.8236,
+   19.2355
+  ],
+  [
+   "torso <1>",
+   0,
+   0,
+   0
+  ],
+  [
+   "l limb <2>",
+   -49.5509,
+   -7.8236,
+   -28.7645
+  ],
+  [
+   "l limb <1>",
+   49.5509,
+   -7.8236,
+   -28.7645
+  ],
+  [
+   "u limb <3>",
+   24.0,
+   0,
+   -58.0
+  ],
+  [
+   "u limb <4>",
+   -24.0,
+   0,
+   -58.0
+  ],
+  [
+   "Gripper <2>",
+   -49.5509,
+   -7.8236,
+   -76.7645
+  ],
+  [
+   "Gripper <1>",
+   49.5509,
+   -7.8236,
+   -76.7645
+  ],
+  [
+   "l limb <4>",
+   -24.0,
+   0.0,
+   -106.0
+  ],
+  [
+   "l limb <3>",
+   24.0,
+   -0.0,
+   -106.0
+  ],
+  [
+   "Foot <2>",
+   -24.0,
+   -0.0,
+   -154.0
+  ],
+  [
+   "Foot <1>",
+   24.0,
+   -0.0,
+   -154.0
+  ]
+ ]
+}

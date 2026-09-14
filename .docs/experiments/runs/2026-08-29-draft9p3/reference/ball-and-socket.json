@@ -1,0 +1,138 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "6dcfcf8856d4feea7faa440a",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#stalk = 6 mm",
+  "#slit = 1.6 mm",
+  "#stud_len = 10 mm",
+  "#slit_in = 5 mm",
+  "#slit_out = 12 mm",
+  "stud profile",
+  "revolve stud",
+  "collar profile",
+  "collar blank",
+  "cavity from ball",
+  "slit profile",
+  "relief slits",
+  "stud connect to robot",
+  "socket connect to robot"
+ ],
+ "features": {
+  "#stalk = 6 mm": {
+   "upstream": [],
+   "downstream": [
+    "stud profile"
+   ]
+  },
+  "#slit = 1.6 mm": {
+   "upstream": [],
+   "downstream": [
+    "slit profile"
+   ]
+  },
+  "#stud_len = 10 mm": {
+   "upstream": [],
+   "downstream": [
+    "stud profile"
+   ]
+  },
+  "#slit_in = 5 mm": {
+   "upstream": [],
+   "downstream": [
+    "slit profile"
+   ]
+  },
+  "#slit_out = 12 mm": {
+   "upstream": [],
+   "downstream": [
+    "slit profile"
+   ]
+  },
+  "stud profile": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#stalk = 6 mm",
+    "#stud_len = 10 mm"
+   ],
+   "downstream": [
+    "revolve stud"
+   ]
+  },
+  "revolve stud": {
+   "upstream": [
+    "stud profile"
+   ],
+   "downstream": [
+    "cavity from ball",
+    "stud connect to robot"
+   ]
+  },
+  "collar profile": {
+   "upstream": [
+    "Origin",
+    "Top"
+   ],
+   "downstream": [
+    "collar blank"
+   ]
+  },
+  "collar blank": {
+   "upstream": [
+    "collar profile"
+   ],
+   "downstream": [
+    "cavity from ball",
+    "slit profile",
+    "relief slits",
+    "socket connect to robot"
+   ]
+  },
+  "cavity from ball": {
+   "upstream": [
+    "revolve stud",
+    "collar blank"
+   ],
+   "downstream": []
+  },
+  "slit profile": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "Right",
+    "#slit = 1.6 mm",
+    "#slit_in = 5 mm",
+    "#slit_out = 12 mm",
+    "collar blank"
+   ],
+   "downstream": [
+    "relief slits"
+   ]
+  },
+  "relief slits": {
+   "upstream": [
+    "collar blank",
+    "slit profile"
+   ],
+   "downstream": []
+  },
+  "stud connect to robot": {
+   "upstream": [
+    "revolve stud"
+   ],
+   "downstream": []
+  },
+  "socket connect to robot": {
+   "upstream": [
+    "collar blank"
+   ],
+   "downstream": []
+  }
+ }
+}

@@ -1,0 +1,61 @@
+06:54:21 about to click the reference geometry group on the toolbar at (1080, 58)
+06:54:23 clicked the reference geometry group on the toolbar -> 02-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:54:24 about to click the face for Hinge at (919, 788)
+06:54:25 clicked the face for Hinge -> 05-b-done-the-face-for-hinge.png
+06:55:22 about to click the reference geometry group on the toolbar at (1080, 58)
+06:55:23 clicked the reference geometry group on the toolbar -> 07-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:55:25 about to click the face for Hinge at (919, 788)
+06:55:27 clicked the face for Hinge -> 10-b-done-the-face-for-hinge.png
+06:55:31 Hinge: Origin entity Vertex of Round end profile × | Select owner entity limb-socket-clevis ×
+06:55:31 about to click the green tick at (424, 93)
+06:55:32 clicked the green tick -> 12-b-done-the-green-tick.png
+06:55:35 about to click the Mate connector 1 row, to rename it at (140, 629)
+06:55:36 clicked the Mate connector 1 row, to rename it -> 13-b-done-the-mate-connector-1-row-to-rename-it.png
+06:55:36 about to click Rename in the context menu at (251, 653)
+06:55:37 clicked Rename in the context menu -> 14-b-done-rename-in-the-context-menu.png
+06:55:39 renamed 'Mate connector 1' to 'Hinge'
+06:55:39 after the limb-socket-clevis after the Hinge connector, no errored rows in the tree
+06:57:01 about to click the Hinge row, to delete it at (140, 616)
+06:57:02 clicked the Hinge row, to delete it -> 17-b-done-the-hinge-row-to-delete-it.png
+06:57:02 about to click Delete in the context menu at (251, 845)
+06:57:03 clicked Delete in the context menu -> 18-b-done-delete-in-the-context-menu.png
+06:57:05 deleted 'Hinge'
+06:57:05 about to click the reference geometry group on the toolbar at (1080, 58)
+06:57:06 clicked the reference geometry group on the toolbar -> 20-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:57:07 about to click the face for Hinge at (918, 706)
+06:57:09 clicked the face for Hinge -> 23-b-done-the-face-for-hinge.png
+06:57:14 Hinge: Origin entity Vertex of Round end profile × | Select owner entity limb-socket-clevis ×
+06:57:14 about to click the green tick at (424, 93)
+06:57:15 clicked the green tick -> 25-b-done-the-green-tick.png
+06:57:17 about to click the Mate connector 1 row, to rename it at (140, 629)
+06:57:18 clicked the Mate connector 1 row, to rename it -> 26-b-done-the-mate-connector-1-row-to-rename-it.png
+06:57:18 about to click Rename in the context menu at (251, 653)
+06:57:19 clicked Rename in the context menu -> 27-b-done-rename-in-the-context-menu.png
+06:57:21 renamed 'Mate connector 1' to 'Hinge'
+06:57:21 after the limb-socket-clevis after the Hinge connector, no errored rows in the tree
+06:59:10 about to click the primary axis field at (356, 235)
+06:59:11 clicked the primary axis field -> 30-b-done-the-primary-axis-field.png
+06:59:12 about to click the ear face, whose normal is the hinge axis at (1000, 730)
+06:59:14 clicked the ear face, whose normal is the hinge axis -> 31-b-done-the-ear-face-whose-normal-is-the-hinge-axis.png
+06:59:15 about to click the green tick at (424, 93)
+06:59:16 clicked the green tick -> 33-b-done-the-green-tick.png
+06:59:18 after the clevis Hinge realigned, no errored rows in the tree
+06:59:40 about to click the reference geometry group on the toolbar at (1080, 58)
+06:59:42 clicked the reference geometry group on the toolbar -> 35-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:59:43 about to click the face for Socket at (919, 238)
+06:59:44 clicked the face for Socket -> 38-b-done-the-face-for-socket.png
+06:59:45 Socket: Origin entity Vertex of Origin × | Select owner entity limb-socket-clevis ×
+06:59:45 about to click the green tick at (424, 93)
+06:59:47 clicked the green tick -> 40-b-done-the-green-tick.png
+06:59:49 about to click the Mate connector 1 row, to rename it at (140, 629)
+06:59:50 clicked the Mate connector 1 row, to rename it -> 41-b-done-the-mate-connector-1-row-to-rename-it.png
+06:59:50 about to click Rename in the context menu at (260, 653)
+06:59:51 clicked Rename in the context menu -> 42-b-done-rename-in-the-context-menu.png
+06:59:53 renamed 'Mate connector 1' to 'Socket'
+06:59:53 after the limb-socket-clevis after the Socket connector, no errored rows in the tree
+07:32:18 on limb-socket-clevis-run6
+07:32:21 about to click the limb-socket-clevis row, to rename it at (140, 695)
+07:32:21 clicked the limb-socket-clevis row, to rename it -> 45-b-done-the-limb-socket-clevis-row-to-rename-it.png
+07:32:21 about to click Rename in the context menu at (289, 363)
+07:32:22 clicked Rename in the context menu -> 46-b-done-rename-in-the-context-menu.png
+07:32:24 renamed 'limb-socket-clevis' to 'Upper limb'

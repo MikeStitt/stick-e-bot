@@ -1,0 +1,700 @@
+{
+ "source": "make_plans.py by introspection; build-briefs/*.md by parsing",
+ "numbers": {
+  "ANKLE_Z": -77.0,
+  "ARM_ANGLE": 33.128344027484886,
+  "ARM_HI": 66.36495102518697,
+  "ARM_LO": -0.10826297021720421,
+  "ARM_OFF_STUD": 17.512118517810144,
+  "ARM_PLANE_Y": -3.911797650488313,
+  "ARM_SEG": 24,
+  "BALL": 6,
+  "BALL_SWING": 37.09379232889138,
+  "BAR": 3.2,
+  "BLADE": 5.0,
+  "BLADE_OUT": 16,
+  "BOSS_D": 8,
+  "BOSS_L": 8,
+  "BUMP_D": 0.7999999999999998,
+  "BUMP_R": 4.800000000000001,
+  "CAVITY": 3.2,
+  "CLIP_R": 5.0,
+  "COLLAR_L": 5.5,
+  "COLLAR_WALL": 1.5,
+  "EAR": 3.2,
+  "EAR_FREE": 11.0,
+  "EAR_I": 17.196989073605685,
+  "EAR_MOVE": 0.203753983370836,
+  "EAR_STRESS": 19.048381778582954,
+  "EAR_Z": 9.121501133606081,
+  "ELBOW_BEND": 45,
+  "EL_X": 37.89182373825801,
+  "EL_Z": -10.48102465480536,
+  "FIT": 0.2,
+  "FOOT_H": 12,
+  "GAP": 0.3,
+  "GB_Z": -45.71101611430406,
+  "GRIP": 1.35,
+  "GRIPPER_L": 12,
+  "HEAD_B": 27.65,
+  "HEAD_D": 30,
+  "HEAD_H": 36,
+  "HEAD_T": 63.65,
+  "HEAD_W": 36,
+  "HEIGHT": 152.65,
+  "HIP_Z": -29.0,
+  "KNEE_Z": -53.0,
+  "LEG_SEG": 24,
+  "LEG_X": 12.0,
+  "LIMB": 12,
+  "MOUTH": 5.802585630561604,
+  "MOVE": 0.5,
+  "NECK_Z": 29.0,
+  "NOSE": 6.0,
+  "PETG_E": 2000,
+  "PETG_YIELD": 50,
+  "POCKET_D": 1.0,
+  "PRESS_F": 3.220273116239567,
+  "S": 3.0,
+  "SHOULDER_AZ": 30,
+  "SHOULDER_DROP": 4,
+  "SHOULDER_EL": 53,
+  "SHOULDER_L": 13,
+  "SH_DX": 6.775432279574321,
+  "SH_DZ": 10.382261630614806,
+  "SH_ROOT": 20.0,
+  "SH_X": 24.77543227957432,
+  "SH_Z": 9.617738369385194,
+  "SLIT_DEEP": 16,
+  "SLIT_W": 0.8,
+  "SLOT": 5.6,
+  "SLOT_DEEP": 17,
+  "SOLE_Z": -89.0,
+  "STALK": 3,
+  "STAND": 5,
+  "STEP": 15,
+  "STUB": 2.0,
+  "STUB_PROUD": 0.8,
+  "STUD_R": 0.9536533277229859,
+  "TAB": 2.1,
+  "TAB_FREE": 10.0,
+  "TAB_I": 8.886442769697252,
+  "TAB_MOVE": 0.29624601662916394,
+  "TAB_STRESS": 18.947522089748972,
+  "TAB_Z": 8.33641441890745,
+  "TEETH_R": 5.2,
+  "TEETH_RI": 4.4,
+  "TOOTH_PROUD": 0.6,
+  "TORSO_D": 24,
+  "TORSO_H": 48,
+  "TORSO_W": 36,
+  "VALLEY_D": 1.0,
+  "VALLEY_DEEP": 0.45,
+  "WR_X": 32.95454145552398,
+  "WR_Z": -33.96768562780449
+ },
+ "vectors": {
+  "STUD_D": [
+   0.521187098428794,
+   -0.3009075115760241,
+   -0.7986355100472928
+  ]
+ },
+ "stations": {
+  "sole": -89.0,
+  "ankle": -77.0,
+  "knee": -53.0,
+  "hip": -29.0,
+  "shoulder root": 20.0,
+  "shoulder ball": 9.617738369385194,
+  "elbow": -10.48102465480536,
+  "wrist": -33.96768562780449,
+  "gripper bottom": -45.71101611430406,
+  "neck": 29.0,
+  "head underside": 27.65,
+  "head top": 63.65,
+  "height": 152.65
+ },
+ "joints": {
+  "torso": {
+   "neck ball": [
+    0,
+    0,
+    29.0
+   ],
+   "hip ball R": [
+    12.0,
+    0,
+    -29.0
+   ],
+   "hip ball L": [
+    -12.0,
+    0,
+    -29.0
+   ],
+   "shoulder root R": [
+    18.0,
+    0,
+    20.0
+   ],
+   "shoulder ball R": [
+    24.77543227957432,
+    -3.911797650488313,
+    9.617738369385194
+   ],
+   "shoulder ball L": [
+    -24.77543227957432,
+    -3.911797650488313,
+    9.617738369385194
+   ]
+  },
+  "limb-socket-clevis": {
+   "socket ball": [
+    0,
+    0,
+    0
+   ],
+   "pin axis": [
+    0,
+    0,
+    -24
+   ],
+   "slot root": [
+    0,
+    0,
+    -13.0
+   ]
+  },
+  "limb-blade-ball": {
+   "pin axis": [
+    0,
+    0,
+    0
+   ],
+   "ball": [
+    0,
+    0,
+    -24
+   ],
+   "blade limb stops": [
+    0,
+    0,
+    -10.0
+   ],
+   "blade tip": [
+    0,
+    0,
+    6.0
+   ]
+  },
+  "head": {
+   "socket ball": [
+    0,
+    0,
+    0
+   ],
+   "underside at the boss": [
+    0,
+    0,
+    -1.35
+   ],
+   "top": [
+    0,
+    0,
+    34.65
+   ]
+  },
+  "foot": {
+   "socket ball": [
+    0,
+    0,
+    0
+   ],
+   "sole": [
+    0,
+    0,
+    -12
+   ]
+  },
+  "hand": {
+   "socket ball": [
+    0,
+    0,
+    0
+   ],
+   "gripper bottom": [
+    0,
+    0,
+    -12
+   ]
+  }
+ },
+ "briefs": {
+  "ball-and-socket": [
+   {
+    "name": "ball",
+    "raw": "6",
+    "value": 6.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "stalk",
+    "raw": "3",
+    "value": 3.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "fit",
+    "raw": "0.2",
+    "value": 0.2,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "cavity",
+    "raw": "6.4",
+    "value": 6.4,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "grip",
+    "raw": "**1.35**",
+    "value": 1.35,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "mouth",
+    "raw": "**5.803**",
+    "value": 5.803,
+    "source": "built",
+    "kind": "record"
+   },
+   {
+    "name": "retention",
+    "raw": "0.197",
+    "value": 0.197,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "wall",
+    "raw": "1.5",
+    "value": 1.5,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "collar \u00d8",
+    "raw": "9.4",
+    "value": 9.4,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "collar length",
+    "raw": "5.5",
+    "value": 5.5,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "slits",
+    "raw": "4 \u00d7 0.8",
+    "value": 4.0,
+    "source": "**proposed**",
+    "kind": "target"
+   }
+  ],
+  "foot": [
+   {
+    "name": "length",
+    "raw": "48",
+    "value": 48.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "width",
+    "raw": "24",
+    "value": 24.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "ankle height",
+    "raw": "12",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "plate",
+    "raw": "6",
+    "value": 6.0,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "top fillet",
+    "raw": "4",
+    "value": 4.0,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "socket collar \u00d8",
+    "raw": "9.4",
+    "value": 9.4,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "socket collar length",
+    "raw": "5.5 \u2192 7.35",
+    "value": 5.5,
+    "source": "plan, then built",
+    "kind": "both"
+   },
+   {
+    "name": "sole ribs",
+    "raw": "3 wide \u00d7 1 deep",
+    "value": 3.0,
+    "source": "**proposed**",
+    "kind": "target"
+   }
+  ],
+  "gripper": [
+   {
+    "name": "bar",
+    "raw": "3.2",
+    "value": 3.2,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "clip bore",
+    "raw": "3.3",
+    "value": 3.3,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "clip outer",
+    "raw": "\u00d810",
+    "value": 10.0,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "clip wall",
+    "raw": "3.35",
+    "value": 3.35,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "mouth",
+    "raw": "2.6",
+    "value": 2.6,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "gripper length",
+    "raw": "12",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   }
+  ],
+  "head": [
+   {
+    "name": "across",
+    "raw": "36",
+    "value": 36.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "tall",
+    "raw": "36",
+    "value": 36.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "socket center",
+    "raw": "z = \u221216.65",
+    "value": 16.65,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "underside plan",
+    "raw": "36 \u00d7 30",
+    "value": 36.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "neck boss",
+    "raw": "\u00d812",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "recess step",
+    "raw": "1.0",
+    "value": 1.0,
+    "source": "run 3",
+    "kind": "record"
+   },
+   {
+    "name": "socket cavity r",
+    "raw": "3.2",
+    "value": 3.2,
+    "source": "derived",
+    "kind": "target"
+   }
+  ],
+  "hinge": [
+   {
+    "name": "limb",
+    "raw": "12",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "blade",
+    "raw": "5.0",
+    "value": 5.0,
+    "source": "balance",
+    "kind": "target"
+   },
+   {
+    "name": "gap",
+    "raw": "0.3",
+    "value": 0.3,
+    "source": "built",
+    "kind": "record"
+   },
+   {
+    "name": "**slot**",
+    "raw": "**5.6**",
+    "value": 5.6,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "ear",
+    "raw": "3.2",
+    "value": 3.2,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "slit",
+    "raw": "0.8 \u00d7 16",
+    "value": 0.8,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "tab",
+    "raw": "2.1",
+    "value": 2.1,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "blade width",
+    "raw": "10.909",
+    "value": 10.909,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "ear inner chord",
+    "raw": "10.613",
+    "value": 10.613,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "round end",
+    "raw": "r 6",
+    "value": 6.0,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "blade stands out",
+    "raw": "16",
+    "value": 16.0,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "slot depth",
+    "raw": "17",
+    "value": 17.0,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "stub",
+    "raw": "\u00d82.0 \u00d7 0.8",
+    "value": 2.0,
+    "source": "built",
+    "kind": "record"
+   },
+   {
+    "name": "pocket",
+    "raw": "\u00d82.2 \u00d7 1.0",
+    "value": 2.2,
+    "source": "built",
+    "kind": "record"
+   },
+   {
+    "name": "teeth",
+    "raw": "**at 15\u00b0**",
+    "value": 15.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "tooth band",
+    "raw": "r 4.40 \u2192 5.20",
+    "value": 4.4,
+    "source": "**proposed**",
+    "kind": "target"
+   },
+   {
+    "name": "bump",
+    "raw": "\u00d80.8 at r 4.80",
+    "value": 0.8,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "valley",
+    "raw": "\u00d81.0",
+    "value": 1.0,
+    "source": "built",
+    "kind": "record"
+   },
+   {
+    "name": "tooth depth",
+    "raw": "0.6",
+    "value": 0.6,
+    "source": "**proposed**",
+    "kind": "target"
+   }
+  ],
+  "limbs": [
+   {
+    "name": "limb",
+    "raw": "12",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "segment",
+    "raw": "24",
+    "value": 24.0,
+    "source": "plan",
+    "kind": "target"
+   }
+  ],
+  "torso": [
+   {
+    "name": "height",
+    "raw": "48",
+    "value": 48.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "width",
+    "raw": "36",
+    "value": 36.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "depth",
+    "raw": "24",
+    "value": 24.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "ball",
+    "raw": "6",
+    "value": 6.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "stalk",
+    "raw": "3",
+    "value": 3.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "shoulder half-spacing",
+    "raw": "18",
+    "value": 18.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "hip half-spacing",
+    "raw": "12",
+    "value": 12.0,
+    "source": "plan",
+    "kind": "target"
+   },
+   {
+    "name": "stand-off",
+    "raw": "5",
+    "value": 5.0,
+    "source": "r2",
+    "kind": "target"
+   },
+   {
+    "name": "neck boss",
+    "raw": "none",
+    "value": null,
+    "source": "derived",
+    "kind": "target"
+   },
+   {
+    "name": "shoulder stud",
+    "raw": "see below",
+    "value": null,
+    "source": "r2",
+    "kind": "target"
+   },
+   {
+    "name": "hip stud",
+    "raw": "plain stalk",
+    "value": null,
+    "source": "r2",
+    "kind": "target"
+   }
+  ]
+ },
+ "briefs_without_a_numbers_table": [
+  "README",
+  "assembly"
+ ]
+}

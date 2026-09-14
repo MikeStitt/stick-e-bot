@@ -1,0 +1,59 @@
+06:34:46 about to click Mate connector on the toolbar at (1080, 58)
+06:34:47 clicked Mate connector on the toolbar -> 02-b-done-mate-connector-on-the-toolbar.png
+06:34:48 about to click the face for Socket at (900, 270)
+06:34:49 clicked the face for Socket -> 05-b-done-the-face-for-socket.png
+06:35:17 about to click Mate connector on the toolbar at (1080, 58)
+06:35:18 clicked Mate connector on the toolbar -> 06-b-done-mate-connector-on-the-toolbar.png
+06:35:19 about to click the face for Socket at (900, 270)
+06:35:20 clicked the face for Socket -> 09-b-done-the-face-for-socket.png
+06:36:03 about to click the reference geometry group on the toolbar at (1080, 58)
+06:36:04 clicked the reference geometry group on the toolbar -> 10-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:36:06 about to click the reference geometry dropdown arrow at (1100, 58)
+06:36:07 clicked the reference geometry dropdown arrow -> 11-b-done-the-reference-geometry-dropdown-arrow.png
+06:36:07 about to click Mate connector in the list at (1140, 754)
+06:36:08 clicked Mate connector in the list -> 12-b-done-mate-connector-in-the-list.png
+06:36:09 about to click the face for Socket at (900, 270)
+06:36:10 clicked the face for Socket -> 15-b-done-the-face-for-socket.png
+06:36:46 about to click the reference geometry group on the toolbar at (1080, 58)
+06:36:47 clicked the reference geometry group on the toolbar -> 16-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:36:48 about to click the face for Socket at (900, 270)
+06:36:49 clicked the face for Socket -> 19-b-done-the-face-for-socket.png
+06:36:50 Socket: Origin entity Face of Wrist cavity from the ball × | Select owner entity Gripper × | Attach to Face of Wrist cavity from the ball ×
+06:36:50 about to click the green tick at (424, 93)
+06:36:51 clicked the green tick -> 21-b-done-the-green-tick.png
+06:37:27 about to click the Mate connector 1 row, to rename it at (140, 547)
+06:37:28 clicked the Mate connector 1 row, to rename it -> 22-b-done-the-mate-connector-1-row-to-rename-it.png
+06:37:28 about to click Rename in the context menu at (251, 571)
+06:37:29 clicked Rename in the context menu -> 23-b-done-rename-in-the-context-menu.png
+06:37:30 renamed 'Mate connector 1' to 'Socket'
+06:37:30 after the hand after the Socket connector, no errored rows in the tree
+06:50:21 the first Socket sat on the collar rim, not the ball centre - it goes
+06:50:21 about to click the Socket row, to delete it at (140, 547)
+06:50:22 clicked the Socket row, to delete it -> 26-b-done-the-socket-row-to-delete-it.png
+06:50:22 about to click Delete in the context menu at (251, 776)
+06:50:22 clicked Delete in the context menu -> 27-b-done-delete-in-the-context-menu.png
+06:50:24 deleted 'Socket'
+06:50:24 about to click the reference geometry group on the toolbar at (1080, 58)
+06:50:26 clicked the reference geometry group on the toolbar -> 29-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:50:27 about to click the reference geometry dropdown arrow at (1100, 58)
+06:50:28 clicked the reference geometry dropdown arrow -> 30-b-done-the-reference-geometry-dropdown-arrow.png
+06:50:28 about to click Mate connector in the list at (1140, 754)
+06:50:29 clicked Mate connector in the list -> 31-b-done-mate-connector-in-the-list.png
+06:50:30 about to click the face for Socket at (925, 323)
+06:50:31 clicked the face for Socket -> 34-b-done-the-face-for-socket.png
+06:50:33 clicked the face for Socket again; the first click only woke the canvas
+06:50:34 clicked the face for Socket again; the first click only woke the canvas
+06:50:36 clicked the face for Socket again; the first click only woke the canvas
+06:51:42 about to click the reference geometry group on the toolbar at (1080, 58)
+06:51:43 clicked the reference geometry group on the toolbar -> 36-b-done-the-reference-geometry-group-on-the-toolbar.png
+06:51:44 about to click the face for Socket at (922, 320)
+06:51:45 clicked the face for Socket -> 39-b-done-the-face-for-socket.png
+06:51:46 Socket: Origin entity Vertex of Origin × | Select owner entity Gripper ×
+06:51:46 about to click the green tick at (424, 93)
+06:51:47 clicked the green tick -> 41-b-done-the-green-tick.png
+06:51:49 about to click the Mate connector 1 row, to rename it at (140, 547)
+06:51:50 clicked the Mate connector 1 row, to rename it -> 42-b-done-the-mate-connector-1-row-to-rename-it.png
+06:51:50 about to click Rename in the context menu at (251, 571)
+06:51:51 clicked Rename in the context menu -> 43-b-done-rename-in-the-context-menu.png
+06:51:53 renamed 'Mate connector 1' to 'Socket'
+06:51:53 after the hand after the Socket connector, no errored rows in the tree

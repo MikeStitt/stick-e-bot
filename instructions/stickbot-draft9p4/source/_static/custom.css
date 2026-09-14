@@ -1,0 +1,122 @@
+/* The pictures are the lesson. Everything here exists to keep them large,
+   legible, and next to the sentences that explain them. */
+
+.wy-nav-content {
+  max-width: 1180px;
+}
+
+/* Screenshots: four-fifths of the page, centered under the sentence that gives
+   the instruction, framed so the pale Onshape panels do not bleed into the page
+   background. The instruction is the paragraph above, not a caption, so these
+   are plain images rather than figures. */
+img.shot {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0.7em auto 2.2em;
+  border: 1px solid #c8ccd4;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(20, 24, 40, 0.13);
+  background: #fff;
+}
+
+/* The two overview pictures at the top of a page do carry captions. */
+figure.shot img,
+.figure.shot img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #c8ccd4;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(20, 24, 40, 0.13);
+  background: #fff;
+}
+
+figure.shot,
+.figure.shot {
+  margin: 1.4em 0 1.1em;
+}
+
+/* The numbered list under each picture carries the badge numbers. Make the
+   numerals look like the badges so the eye pairs them up. */
+.section > ol,
+section > ol {
+  counter-reset: none;
+  margin-top: 0.4em;
+}
+
+.section > ol > li,
+section > ol > li {
+  margin-bottom: 0.85em;
+  line-height: 1.65;
+}
+
+.section > ol > li::marker,
+section > ol > li::marker {
+  color: #e5006d;
+  font-weight: 700;
+}
+
+/* Step headings: a quiet rule so the page reads as a sequence of stops. */
+.section > h2,
+section > h2 {
+  margin-top: 2.1em;
+  padding-top: 0.55em;
+  border-top: 3px solid #eceef2;
+}
+
+/* The lead sentence above each picture. */
+.section > h2 + p,
+section > h2 + p {
+  font-size: 1.06em;
+  color: #303a4a;
+}
+
+.admonition {
+  border-radius: 5px;
+}
+
+/* Advice: a friendly aside that tells you what to do and what you will see when
+   it works. Green, because it is a nudge forward and not a hazard sign. The RTD
+   theme paints admonition titles from the admonition class, so both are set. */
+.admonition.advice {
+  background: #f2f9f3;
+  border-left: 4px solid #2e8b57;
+}
+
+.admonition.advice > .admonition-title {
+  background: #2e8b57;
+  color: #fff;
+}
+
+.admonition.advice > .admonition-title::before {
+  content: "\f0eb";  /* lightbulb */
+}
+
+dl dt {
+  margin-top: 0.9em;
+  font-weight: 600;
+}
+
+/* What a student types goes in ``literals``. The RTD theme paints those red,
+   which reads as an error next to a page whose other red is the badge numbers.
+   Black, on the theme's own pale chip, so a typed value looks like something to
+   copy rather than something that went wrong. */
+.rst-content code.literal,
+.rst-content tt.literal,
+.rst-content code.literal span.pre,
+.rst-content tt.literal span.pre {
+  color: #1b1f2a;
+}
+
+/* Where a button is: a strip of the toolbar with the button under the pointer
+   and the head of Onshape's own tooltip, which names it and gives its key. Shown
+   at its own size, so the icons come out larger here than in the big screenshots
+   and the reader can match them. */
+img.button {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0.6em 0 1.6em;
+  border: 1px solid #dfe2e8;
+  border-radius: 4px;
+}

@@ -1,0 +1,1424 @@
+00:20:23 ABOUT TO: connect CDP 9223, census window.name on every page
+00:20:24 RESULT: 13 pages before stamping
+00:20:24    census before: name='BALLSOCK_POLL' url=https://cad.onshape.com/signin
+00:20:24    census before: name='HINGE_RUN3' url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b914b279a55
+00:20:24    census before: name='LESSON_RUN3' url=https://cad.onshape.com/signin
+00:20:24    census before: name='BALLSOCK_RUN3' url=https://cad-usw2.onshape.com/signin
+00:20:24    census before: name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+00:20:24    census before: name='ORCH_VERIFY_HINGE_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+00:20:24    census before: name='FOOT_RUN3_NVS79W' url=https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1c5780e11aac4ea9/e/f0566c848741fdf66f4763
+00:20:24    census before: name='HAND_RUN3_UK3WMB' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19
+00:20:24    census before: name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+00:20:24    census before: name='BALLSOCK_RUN3_B2' url=https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1c
+00:20:24    census before: name='' url=about:blank
+00:20:24    census before: name='LESSON_RUN3_MSTITT_A' url=https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be1961c300552cd9d/e/c797d0e3a7e5a614806a22
+00:20:24    census before: name='TORSO_RUN3_OA4SRWBU' url=https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef5562d74c6e
+00:20:24 RESULT: stamp HEAD_RUN3_7Q4XZ is unused. Creating my own page.
+00:20:24 ABOUT TO: ctx.new_page() and stamp it
+00:20:25 RESULT: re-census over 14 pages, 1 carry HEAD_RUN3_7Q4XZ
+00:20:25 ABOUT TO: check Onshape session via /api/users/sessioninfo
+00:20:30 RESULT: sessioninfo status=200 bodylen=934 roles=True
+00:20:30    body head: {   "jsonType" : "BTUserOAuth2SummaryInfo",   "oauth2Scopes" : 0,   "roles" : [ "USER" ],   "companyPlan" : true,   "clientId" : null,   "role" : 5,   "planGroup" : "EDU Educator",   "source" : 1,   "
+00:20:30 RESULT: screenshot 00-b-done-documents-page.png; title='Spires Robotics | Documents'
+00:20:48 ABOUT TO: check no document named head-run3 exists, then create one
+00:20:49 RESULT: document search status=200 names=[]
+00:20:49    Create button bbox={'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+00:20:52    dialog name field now = 'head-run3'
+00:20:59 RESULT: url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f2ac17c4d11ca title='head-run3 | Part Studio 1'
+00:21:17 ABOUT TO: open the document hamburger menu and find Workspace units
+00:21:18    locator 'Workspace units' count=1
+00:21:18       [0] visible=True bbox={'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27}
+00:21:30 ABOUT TO: hamburger -> Workspace units..., set mm and 0.12345
+00:21:33    visible selects: 0
+00:21:54 ABOUT TO: hamburger -> Workspace units (locator click, hover first)
+00:21:55    item bbox={'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27}
+00:21:58    dialogs visible: 2
+00:21:58    visible selects: 22
+00:21:58    select[0] value='2: inch' bbox={'x': 257, 'y': 166.59375, 'width': 209, 'height': 26} opts=['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard']
+00:21:58    select[1] value='3: 3' bbox={'x': 475, 'y': 166.59375, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:21:58    select[2] value='1: inchPerSecondSquared' bbox={'x': 257, 'y': 225.59375, 'width': 209, 'height': 26} opts=['Foot per second squared', 'Inch per second squared', 'Meter per second squared', 'Millimeter per second squared']
+00:21:58    select[3] value='3: 3' bbox={'x': 475, 'y': 225.59375, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:21:58    select[4] value='0: degree' bbox={'x': 257, 'y': 321.1875, 'width': 209, 'height': 26} opts=['Degree', 'Radian']
+00:21:58    select[5] value='3: 3' bbox={'x': 475, 'y': 321.1875, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:21:58    select[6] value='0: degreePerSecond' bbox={'x': 257, 'y': 380.1875, 'width': 209, 'height': 26} opts=['Degree per second', 'Radian per second', 'Revolutions per minute']
+00:21:58    select[7] value='3: 3' bbox={'x': 475, 'y': 380.1875, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:21:58    select[8] value='3: pound' bbox={'x': 257, 'y': 475.78125, 'width': 209, 'height': 26} opts=['Gram', 'Kilogram', 'Ounce', 'Pound']
+00:21:58    select[9] value='3: 3' bbox={'x': 475, 'y': 475.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567']
+00:21:58    select[10] value='5: poundPerCubicInch' bbox={'x': 257, 'y': 534.78125, 'width': 209, 'height': 26} opts=['Gram per cubic centimeter', 'Gram per liter', 'Gram per milliliter', 'Kilogram per cubic meter', 'Pound per cubic foot', 'Pound per cubic inch']
+00:21:58    select[11] value='3: 3' bbox={'x': 475, 'y': 534.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:21:58    select[12] value='2: poundForce' bbox={'x': 257, 'y': 593.78125, 'width': 209, 'height': 26} opts=['Kilonewton', 'Newton', 'Pound-force']
+00:21:58    select[13] value='3: 3' bbox={'x': 475, 'y': 593.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:21:58    select[14] value='0: hertz' bbox={'x': 257, 'y': 652.78125, 'width': 209, 'height': 26} opts=['Hertz']
+00:21:58    select[15] value='3: 3' bbox={'x': 475, 'y': 652.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:21:58    select[16] value='1: inchPound' bbox={'x': 257, 'y': 711.78125, 'width': 209, 'height': 26} opts=['Foot-pound', 'Inch-pound', 'Newton-meter', 'Newton-millimeter']
+00:21:58    select[17] value='3: 3' bbox={'x': 475, 'y': 711.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567']
+00:21:58    select[18] value='5: poundPerSquareInch' bbox={'x': 257, 'y': 770.78125, 'width': 209, 'height': 26} opts=['Gigapascal', 'Kilopascal', 'Kilopound per square inch', 'Megapascal', 'Pascal', 'Pound per square inch']
+00:21:58    select[19] value='3: 3' bbox={'x': 475, 'y': 770.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:21:58    select[20] value='0: footPoundForce' bbox={'x': 257, 'y': 829.78125, 'width': 209, 'height': 26} opts=['Foot-pound force', 'Joule']
+00:21:58    select[21] value='3: 3' bbox={'x': 475, 'y': 829.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:22:14 ABOUT TO: set Length unit + decimals. visible selects=22
+00:22:14    select[0] opts=['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard'] value='2: inch'
+00:22:14    select[1] opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'] value='3: 3'
+00:22:15 RESULT: select[0]='4: millimeter' select[1]='5: 5'
+00:22:24    btn[0] 'Explore Onshape' bbox={'x': 1004.8125, 'y': 5, 'width': 134.671875, 'height': 30}
+00:22:24    btn[1] '' bbox={'x': 1175.484375, 'y': 0, 'width': 32, 'height': 40}
+00:22:24    btn[2] '' bbox={'x': 1207.484375, 'y': 0, 'width': 32, 'height': 40}
+00:22:24    btn[3] '' bbox={'x': 1239.484375, 'y': 0, 'width': 32, 'height': 40}
+00:22:24    btn[4] 'Share' bbox={'x': 1275.484375, 'y': 2.5, 'width': 59.28125, 'height': 33.5}
+00:22:25    btn[5] 'Search tools… alt/⌥c' bbox={'x': 1272.515625, 'y': 41.75, 'width': 161.078125, 'height': 32.5}
+00:22:32 shot 05-x-units-dialog-top.png
+00:22:42 ABOUT TO: click green tick (540,93) to accept Workspace units
+00:22:44 RESULT: visible selects now 0 (0 = dialog closed)
+00:23:25 ABOUT TO: click Sketch (155,58), then click Front in the feature tree
+00:23:26    Front tree item bbox={'x': 85, 'y': 224.5, 'width': 145, 'height': 19.984375}
+00:23:29 ABOUT TO: press n to view normal to the sketch plane
+00:23:31 RESULT: screenshot taken; check the view cube in 06-b
+00:24:15 ABOUT TO: open the Arc flyout caret (383,58) and pick Center point arc
+00:24:16    'Center point arc' matches=1
+00:24:16    bbox={'x': 373, 'y': 151.5, 'width': 136, 'height': 20}
+00:24:18 ABOUT TO: draw a center point arc, centre on the origin, sweeping over the top
+00:24:24 RESULT: arc drawn; see 07-b-done-arc-drawn.png
+00:24:49 ABOUT TO: Dimension (970,58) the arc radius; read the pre-filled value to calibrate px->mm
+00:24:54    visible inputs=2
+00:24:54    input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:24:54    input[1] value='56.33546 mm' bbox={'x': 1172, 'y': 361.5, 'width': 100, 'height': 26}
+00:25:08 CALIBRATION: arc radius pre-fill 56.33546 mm at ~204.4 px => 3.6284 px/mm
+00:25:08 ABOUT TO: fill the radius dimension with 18 and press Enter
+00:25:08    read back before Enter: '18'
+00:25:10 RESULT: radius set; screenshot 08-b-done-arc-r18.png
+00:25:29 ABOUT TO: wheel-zoom in at the origin (872,522) 15 notches
+00:25:33 RESULT: zoomed; screenshot 09-x-zoomed-in.png
+00:26:28 CALIBRATION after zoom: origin (874,525), 18 mm = ~156 px => 8.65 px/mm
+00:26:28 ABOUT TO: Line tool (202,58); chain right-endpoint -> down-slanted -> across -> up to left endpoint
+00:26:40 RESULT: three lines drawn; see 10-b-done-profile-lines.png
+00:27:03 ABOUT TO: select the arc + the right side line and press t (Tangent)
+00:27:09 RESULT: pressed t; see 11-b-done-tangent-right.png
+00:27:38 ABOUT TO: clear selection, then arc + right line with SHIFT-click, then Tangent
+00:27:43 RESULT: selection screenshot cropped to crop_sel.png
+00:27:55 ABOUT TO: press t to apply Tangent to the selected arc + right line
+00:27:58 RESULT: see crop_t.png
+00:28:20 features status=200 len=3221
+00:28:40 ABOUT TO: tick Show constraints in the Sketch dialog to see what t applied
+00:28:40    label bbox={'x': 266, 'y': 189.3125, 'width': 105.71875, 'height': 27.3125}
+00:28:42 RESULT: crop_c.png
+00:29:01 ABOUT TO: open the sketch constraint flyout caret (1032,58)
+00:29:03    'Tangent' count=2 bbox0=None
+00:29:03    'Coincident' count=1 bbox0={'x': 1023, 'y': 84.25, 'width': 119, 'height': 20}
+00:29:03    'Horizontal' count=1 bbox0={'x': 1023, 'y': 226.25, 'width': 119, 'height': 20}
+00:29:03    'Vertical' count=1 bbox0={'x': 1023, 'y': 261.75, 'width': 119, 'height': 20}
+00:29:03    'Symmetric' count=1 bbox0={'x': 1023, 'y': 474.75, 'width': 91.640625, 'height': 20}
+00:29:03    'Equal' count=1 bbox0={'x': 1023, 'y': 332.75, 'width': 119, 'height': 20}
+00:29:12   Tangent[0] vis=False bbox=None text='Tangent'
+00:29:12   Tangent[1] vis=True bbox={'x': 1023, 'y': 190.75, 'width': 119, 'height': 20} text='Tangent'
+00:29:33 ABOUT TO: apply Tangent (constraint flyout) between the arc and the RIGHT side line
+00:29:42    Tangent row bbox={'x': 1023, 'y': 190.75, 'width': 119, 'height': 20}
+00:29:44 RESULT: see crop_right.png
+00:30:23 ABOUT TO: apply Tangent between the arc and the LEFT side line
+00:30:31    Tangent row bbox={'x': 1023, 'y': 190.75, 'width': 119, 'height': 20}
+00:30:33 RESULT: see crop_left.png
+00:31:06 ABOUT TO: retry Tangent arc+LEFT line (arc picked at (744,440), clear of the Y axis)
+00:31:13    Tangent row {'x': 1023, 'y': 190.75, 'width': 119, 'height': 20}
+00:31:15 RESULT: crop_left.png
+00:31:43 ABOUT TO: Tangent arc(744,440) + LEFT line(713,616) - line position found by pixel scan
+00:31:52 RESULT: crop_left.png / crop_sel_left.png
+00:32:11 ABOUT TO: DRAG TEST - drag the bottom-left corner to see whether Tangent holds the chain
+00:32:16 RESULT: crop_drag.png
+00:32:41 ABOUT TO: select both side lines and apply Vertical from the constraint flyout
+00:32:47    Vertical row {'x': 1023, 'y': 261.75, 'width': 119, 'height': 20}
+00:32:49 RESULT: crop_v.png
+00:33:06 ABOUT TO: press f (zoom to fit) with the cursor over the canvas
+00:33:10 RESULT: 13-x-zoom-to-fit.png
+00:33:37 ABOUT TO: Dimension bottom line to the X axis = 18 mm
+00:33:46    visible inputs=2
+00:33:46    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:33:46    input[1]='42.50539 mm' bbox={'x': 1112, 'y': 631.5, 'width': 100, 'height': 26}
+00:33:54    read back before Enter: '18'
+00:33:58 RESULT: 14-b-done-profile-defined.png
+00:34:18 ABOUT TO: clear the selection and check the profile is fully defined (black)
+00:34:20 RESULT: crop_def.png
+00:34:45 ABOUT TO: accept Sketch 1 (green tick 423,93) and rename it Head profile
+00:34:47    rename 'Sketch 1' -> 'Head profile' ; tree item bbox={'x': 66, 'y': 276.5, 'width': 164, 'height': 19.984375}
+00:34:50    rename box now = 'Head profile'
+00:34:52 RESULT: rename ok=True
+00:35:12 ABOUT TO: select Head profile in the tree, open Extrude via Search tools
+00:36:03 ABOUT TO: clear the feature-tree filter box (the rename went into it by mistake)
+00:36:03    filter box currently 'Head profile' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:36:05 RESULT: filter cleared; tree text=1
+00:36:26 ABOUT TO: rename Sketch 1 -> Head profile (rename box picked by row position)
+00:36:27    rename 'Sketch 1' -> 'Head profile' ; tree item bbox={'x': 66, 'y': 276.5, 'width': 164, 'height': 19.984375}
+00:36:29    rename box found at input[1] bbox={'x': 62, 'y': 275, 'width': 178, 'height': 24}
+00:36:30    rename box now = 'Head profile'
+00:36:32 RESULT: ok=True ; Head profile in tree=1
+00:36:37 ABOUT TO: select Head profile in the tree, open Extrude via Search tools
+00:36:42    visible inputs=1
+00:36:42    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:37:06 SURPRISE: Search tools + Enter for 'Extrude' created a Frame 1 feature (errored), not an Extrude.
+00:37:06 ABOUT TO: undo the Frame feature
+00:37:08 RESULT: tree now has Frame 1 count=0
+00:37:08    elements with data-command-id: 0
+00:37:46 ABOUT TO: select Head profile, click the toolbar Extrude button by command-id
+00:37:47    tool 'extrude' bbox={'x': 202.515625, 'y': 42, 'width': 32, 'height': 32}
+00:37:50    visible inputs=3
+00:37:50    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:37:50    input[1]='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:37:50    input[2]='25 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:38:15 ABOUT TO: tick Symmetric (click the label text) and set Depth 30 on Extrude 1
+00:38:15    Symmetric label bbox={'x': 266, 'y': 326.625, 'width': 68.234375, 'height': 27.3125}
+00:38:16    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:38:16    input[1]='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:38:16    input[2]='25 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:38:33 ABOUT TO: set Depth 30 and accept Extrude 1
+00:38:33    depth read back = '30'
+00:38:39 RESULT: parts panel text present=1
+00:38:51 parts status=200
+00:38:51    part id=JHD name='Part 1'
+00:38:51 bbox status=200 body={
+  "lowX" : -0.018000000000000006,
+  "lowY" : -0.015,
+  "lowZ" : -0.018000000000000006,
+  "highX" : 0.018000000000000006,
+  "highY" : 0.015,
+  "highZ" : 0.018000000000000002
+}
+00:38:51 volume=3.470814029644641e-05
+00:39:04 MEASURED after Extrude 1: bbox X -18..18, Y -15..15, Z -18..18 mm; volume 34708.14 mm3
+00:39:04 ABOUT TO: rename Extrude 1 -> Head body, and Part 1 -> Head
+00:39:04    rename 'Extrude 1' -> 'Head body' ; tree item bbox={'x': 66, 'y': 302.5, 'width': 164, 'height': 19.984375}
+00:39:07    rename box found at input[1] bbox={'x': 62, 'y': 301, 'width': 178, 'height': 24}
+00:39:07    rename box now = 'Head body'
+00:39:09    rename 'Part 1' -> 'Head' ; tree item bbox={'x': 85, 'y': 685.5, 'width': 145, 'height': 19.984375}
+00:39:13    rename box found at input[1] bbox={'x': 81, 'y': 684, 'width': 159, 'height': 24}
+00:39:13    rename box now = 'Head'
+00:39:15 RESULT: Head body=1 Head=4
+00:39:48 ABOUT TO: open the view-orientation dropdown (1463,232) and pick Isometric
+00:39:49    'Isometric' count=1 bbox={'x': 1330.375, 'y': 249, 'width': 49.59375, 'height': 18}
+00:39:49    'Trimetric' count=1 bbox={'x': 1330.375, 'y': 293, 'width': 48.890625, 'height': 18}
+00:39:49    'Zoom to fit' count=1 bbox={'x': 1330.375, 'y': 384, 'width': 56.65625, 'height': 18}
+00:39:49    'Section view' count=1 bbox={'x': 1330.375, 'y': 587, 'width': 74.640625, 'height': 18}
+00:39:53 RESULT: 18-x-isometric.png
+00:40:25 ABOUT TO: hide the default planes (right-click Top in the tree) then zoom in
+00:40:27    'Hide all planes' count=1 visible idx=[0]
+00:40:28    'Hide' count=2 visible idx=[0, 1]
+00:40:28    'Show' count=1 visible idx=[]
+00:40:38    Hide all planes bbox={'x': 151, 'y': 245.484375, 'width': 150, 'height': 18}
+00:40:43 RESULT: 18-b-done-isometric-planes-hidden.png
+00:41:25 ABOUT TO: open Fillet and pick the 3 visible vertical corner edges
+00:41:26    tool 'fillet' bbox={'x': 394.515625, 'y': 42, 'width': 32, 'height': 32}
+00:41:35    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:41:35    input[1]='' bbox={'x': 329.09375, 'y': 265.3125, 'width': 1, 'height': 1}
+00:41:35    input[2]='' bbox={'x': 295.46875, 'y': 293.3125, 'width': 1, 'height': 1}
+00:41:35    input[3]='4 mm' bbox={'x': 311.765625, 'y': 321.3125, 'width': 98.234375, 'height': 26}
+00:41:59 ABOUT TO: rotate 180 deg with the view-cube side arrows to reach the 4th vertical edge
+00:42:04 RESULT: 19-x-rotated-180.png
+00:42:57 ABOUT TO: pick the 4th (back-left) vertical edge, now the near centre-bottom edge
+00:43:00 RESULT: crop_fil.png / crop_rot.png
+00:43:58 ABOUT TO: cancel Fillet 1 (coordinate edge picking in isometric was ambiguous), go to Front view
+00:44:05 RESULT: crop_cube.png (check it says Front), crop_model.png
+00:44:44 ABOUT TO: Fillet - pick the two FRONT vertical corner edges from the Front view silhouette
+00:44:45    tool 'fillet' bbox={'x': 394.515625, 'y': 42, 'width': 32, 'height': 32}
+00:44:52    picked 2 front edges (check crop_fil.png)
+00:44:52 ABOUT TO: rotate to the Back view with the view-cube right arrow x2
+00:44:59 RESULT: crop_cube.png - check it reads Back
+00:45:41 ABOUT TO: click the view cube Left face to reach the Left view
+00:45:47    edges on row 750: [517, 518, 519, 1132, 1134, 1225, 1226]
+00:46:10 ABOUT TO: Left view - pick the LEFT silhouette (back-left vertical edge, no fillet preview on it)
+00:46:13 ABOUT TO: switch to the Right view via the view cube
+00:46:13 RESULT: crop_fil.png
+00:46:33 ABOUT TO: scroll the Entities to fillet list to the top and inspect every row
+00:46:35 RESULT: crop_fil.png
+00:47:01 ABOUT TO: remove the stray 'Face of Head body' row from Entities to fillet, then view from Top
+00:47:03    Top tree item {'x': 85, 'y': 198.5, 'width': 145, 'height': 19.984375}
+00:47:07 RESULT: crop_fil.png, 19-x-top-view-fillet-preview.png
+00:47:35 ABOUT TO: click the view-cube UP arrow to rotate Left -> Top, then zoom out to see the whole outline
+00:47:42 RESULT: check cube
+00:48:25 ABOUT TO: small right-drag rotate so the square (unfilleted) corner edge becomes a visible line
+00:48:30 RESULT: 19-x-rotated-for-4th-edge.png
+00:48:52 ABOUT TO: zoom out to bring the 4th (unfilleted) corner into view
+00:48:55 RESULT: 19-x-4th-corner-visible.png
+00:49:53    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:49:53    input[1]='' bbox={'x': 329.09375, 'y': 265.3125, 'width': 1, 'height': 1}
+00:49:53    input[2]='' bbox={'x': 295.46875, 'y': 293.3125, 'width': 1, 'height': 1}
+00:49:53    input[3]='4 mm' bbox={'x': 311.765625, 'y': 321.3125, 'width': 98.234375, 'height': 26}
+00:49:53 ABOUT TO: set fillet Radius 3 mm and accept
+00:49:54    radius read back '3'
+00:49:57 RESULT: volume=34358.772253 mm3 centroid=[0.0, 0.0, 0.0]
+00:50:43 featurescript status=200
+00:50:43    CYL r=3 axis=(-1.9274705288631186e-16, 0, 1) o=(15.000000000000002, 12, -5.78241158658936e-16)
+00:50:43    CYL r=3 axis=(1.9274705288631186e-16, 0, -1) o=(15.000000000000004, -12, -9)
+00:50:43    CYL r=3 axis=(0, 0, -1) o=(-15.000000000000007, 12, -3.469446951953614e-15)
+00:50:43    CYL r=3 axis=(0, 0, 1) o=(-15.000000000000007, -12, -9.000000000000004)
+00:50:43    CYL r=18.000000000000004 axis=(-0, 1, -0) o=(0, -15, 1.102182119232618e-15)
+00:51:14    rendered isometric -> 20-x-render-stage1-isometric.png
+00:51:15    rendered front -> 20-x-render-stage1-front.png
+00:51:16    rendered bottom -> 20-x-render-stage1-bottom.png
+00:52:08 ABOUT TO: new Sketch on Front for the eyes
+00:52:18    sketch tool UNDO_A_CHANGE          Undo (cmd+z/ctrl+z)          @ (42,42)
+00:52:18    sketch tool REDO_A_CHANGE          Redo (ctrl+y/shift+cmd+z)    @ (76,42)
+00:52:18    sketch tool extrude                Extrude (shift+e)            @ (114,42)
+00:52:18    sketch tool revolve                Revolve (shift+w)            @ (148,42)
+00:52:18    sketch tool LINESEGMENT            Line (l)                     @ (186,42)
+00:52:18    sketch tool RECTANGLE_TWO_CORNERS  Corner rectangle (g)         @ (238,42)
+00:52:18    sketch tool CIRCLE_CENTER_RADIUS   Center point circle (c)      @ (290,42)
+00:52:18    sketch tool CENTER_ARC             Center point arc             @ (342,42)
+00:52:18    sketch tool INSCRIBED_POLYGON      Inscribed polygon            @ (394,42)
+00:52:18    sketch tool SPLINE                 Spline                       @ (446,42)
+00:52:18    sketch tool POINT                  Point (shift+s)              @ (498,42)
+00:52:18    sketch tool TEXT_RECTANGLE_TWO_CORNERS Text                         @ (532,42)
+00:52:18    sketch tool USE                    Use (Project/Convert) (u)    @ (566,42)
+00:52:18    sketch tool TOGGLE_CONSTRUCTION    Construction (q)             @ (618,42)
+00:52:18    sketch tool FILLET                 Sketch fillet (shift+f)      @ (656,42)
+00:52:18    sketch tool TRIM                   Trim (m)                     @ (708,42)
+00:52:18    sketch tool OFFSET                 Offset (o)                   @ (760,42)
+00:52:18    sketch tool SKETCHMIRROR           Mirror                       @ (812,42)
+00:52:18    sketch tool SKETCHLPATTERN         Linear pattern               @ (846,42)
+00:52:18    sketch tool INSERT_DXFDWG          Insert DXF or DWG            @ (898,42)
+00:52:18    sketch tool DIMENSION              Dimension (d)                @ (954,42)
+00:52:18    sketch tool VERTICAL               Vertical (v)                 @ (992,42)
+00:52:34    total command-id elements: 22
+00:52:34    UNDO_A_CHANGE                    Undo (cmd+z/ctrl+z)            @(42,42)
+00:52:34    REDO_A_CHANGE                    Redo (ctrl+y/shift+cmd+z)      @(76,42)
+00:52:34    extrude                          Extrude (shift+e)              @(114,42)
+00:52:34    revolve                          Revolve (shift+w)              @(148,42)
+00:52:34    LINESEGMENT                      Line (l)                       @(186,42)
+00:52:34    RECTANGLE_TWO_CORNERS            Corner rectangle (g)           @(238,42)
+00:52:34    CIRCLE_CENTER_RADIUS             Center point circle (c)        @(290,42)
+00:52:34    CENTER_ARC                       Center point arc               @(342,42)
+00:52:34    INSCRIBED_POLYGON                Inscribed polygon              @(394,42)
+00:52:34    SPLINE                           Spline                         @(446,42)
+00:52:34    POINT                            Point (shift+s)                @(498,42)
+00:52:34    TEXT_RECTANGLE_TWO_CORNERS       Text                           @(532,42)
+00:52:34    USE                              Use (Project/Convert) (u)      @(566,42)
+00:52:34    TOGGLE_CONSTRUCTION              Construction (q)               @(618,42)
+00:52:34    FILLET                           Sketch fillet (shift+f)        @(656,42)
+00:52:34    TRIM                             Trim (m)                       @(708,42)
+00:52:34    OFFSET                           Offset (o)                     @(760,42)
+00:52:34    SKETCHMIRROR                     Mirror                         @(812,42)
+00:52:34    SKETCHLPATTERN                   Linear pattern                 @(846,42)
+00:52:34    INSERT_DXFDWG                    Insert DXF or DWG              @(898,42)
+00:52:34    DIMENSION                        Dimension (d)                  @(954,42)
+00:52:34    VERTICAL                         Vertical (v)                   @(992,42)
+00:52:50    circle group caret x=331 -> 2 flyout items
+00:52:50        CIRCLE_PERIMETER                   3 point circle               @(291,113)
+00:52:50        ELLIPSE                            Ellipse                      @(291,146)
+00:52:52    rectangle group caret x=279 -> 2 flyout items
+00:52:52        RECTANGLE_CENTER                   Center point rectangle (r)   @(239,113)
+00:52:52        RECTANGLE_ALIGNED                  Aligned rectangle            @(239,148)
+00:52:53    arc group caret x=383 -> 4 flyout items
+00:52:53        ARC_TANGENT                        Tangent arc                  @(343,113)
+00:52:53        CENTER_ARC                         Center point arc             @(343,146)
+00:52:53        ELLIPTICAL_ARC                     Elliptical arc               @(343,179)
+00:52:53        CONIC                              Conic                        @(343,212)
+00:52:55    spline group caret x=487 -> 2 flyout items
+00:52:55        BEZIER                             Bezier                       @(447,110)
+00:52:55        ADD_SPLINE_POINT                   Spline control point         @(447,143)
+00:52:56    fillet group caret x=697 -> 1 flyout items
+00:52:56        CHAMFER                            Sketch chamfer               @(657,113)
+00:53:12 ABOUT TO: zoom out so the whole front face is visible with margin
+00:53:15    silhouette x at row 750: [553, 606, 608, 1138, 1139, 1140, 1191, 1192, 1193]
+00:53:15    silhouette y at col 872: [148, 150, 203, 204, 256, 258, 515, 516, 530, 841]
+00:53:47 CALIBRATION: origin (872,522), 17.72 px/mm, +z is up, +x is right
+00:53:47 ABOUT TO: circle-group caret -> Ellipse; draw two rough ellipses on the face
+00:53:48    ELLIPSE flyout item bbox={'x': 291, 'y': 145.5, 'width': 176, 'height': 32}
+00:53:56    ELLIPSE flyout item bbox={'x': 290, 'y': 42, 'width': 32, 'height': 32}
+00:54:03 RESULT: crop_eye.png
+00:54:31 NOTE: after one use the circle group main button BECOMES Ellipse (most-recently-used slot)
+00:54:31 ABOUT TO: draw the second ellipse using the now-Ellipse main button at (290,42)
+00:54:31    tool 'ELLIPSE' bbox={'x': 290, 'y': 42, 'width': 32, 'height': 32}
+00:54:37 RESULT: crop_eye.png
+00:55:01 ABOUT TO: open the constraint flyout to find Equal/Symmetric command-ids
+00:55:02    CONCENTRIC                     Concentric (shift+o)         @(993,113)
+00:55:02    PARALLEL                       Parallel (b)                 @(993,148)
+00:55:02    TANGENT                        Tangent (t)                  @(993,184)
+00:55:02    HORIZONTAL                     Horizontal (h)               @(993,219)
+00:55:02    VERTICAL                       Vertical (v)                 @(993,255)
+00:55:02    PERPENDICULAR                  Perpendicular (shift+l)      @(993,290)
+00:55:02    EQUAL                          Equal (e)                    @(993,326)
+00:55:02    MIDPOINT                       Midpoint (shift+m)           @(993,361)
+00:55:02    NORMAL                         Normal (shift+k)             @(993,397)
+00:55:02    PIERCE                         Pierce (shift+g)             @(993,432)
+00:55:02    MIRROR                         Symmetric (shift+q)          @(993,468)
+00:55:02    FIX                            Fix (shift+j)                @(993,503)
+00:55:02    EQUAL_CURVATURE                Curvature (shift+u)          @(993,539)
+00:55:24 ABOUT TO: select both ellipse curves and apply Equal
+00:55:29    constraint EQUAL bbox={'x': 993, 'y': 325.5, 'width': 176, 'height': 34.5}
+00:55:31 RESULT: crop_sel.png, crop_eq.png
+00:55:51 ABOUT TO: dimension the LEFT ellipse (pick its curve) and read what Onshape offers
+00:55:53    tool 'DIMENSION' bbox={'x': 954, 'y': 42, 'width': 32, 'height': 32}
+00:56:00    input[0]='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:56:00    input[1]='10.15912 mm' bbox={'x': 812, 'y': 281.5, 'width': 100, 'height': 26}
+00:56:11 NOTE: picking an ellipse with Dimension gives the MAJOR AXIS DIAMETER (pre-filled 10.15912 mm)
+00:56:11    read back '10'
+00:56:14 RESULT: crop_eq.png - did the RIGHT ellipse change too? (Equal test)
+00:56:41 TEST: left ellipse is now exactly 10 major, right is ~9.88. Apply Equal and see if the right snaps.
+00:56:46    constraint EQUAL bbox={'x': 993, 'y': 325.5, 'width': 176, 'height': 34.5}
+00:56:48    blue ellipse pixels on row 432: [600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 643, 644, 645, 729, 730, 731, 732, 733, 734, 735, 820, 821, 822, 927, 928, 1009, 1010, 1011, 1012, 1013, 1014, 1096, 1097]
+03:39:49 === TAKEOVER AGENT starts. stamp HEAD2_RUN3_9C2F41 ===
+03:39:49 ABOUT TO: census window.name on every page BEFORE stamping
+03:39:49 RESULT: 18 pages before stamping
+03:39:49    census before: name='BALLSOCK_POLL' url=https://cad.onshape.com/signin
+03:39:49    census before: name='HEAD_RUN3_7Q4XZ' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f
+03:39:49    census before: name='LIMBBB_RUN3_cfca2a' url=https://cad.onshape.com/documents/8844e1331199cc35de25a417/w/b5995fc863d4643895b80f15/e/e70b20b1b40f
+03:39:49    census before: name='HINGE_RUN3' url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b
+03:39:49    census before: name='LESSON_RUN3' url=https://cad.onshape.com/signin
+03:39:49    census before: name='BALLSOCK_RUN3' url=https://cad-usw2.onshape.com/signin
+03:39:49    census before: name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:39:49    census before: name='ORCH_VERIFY_HINGE_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:39:49    census before: name='FOOT_RUN3_NVS79W' url=https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1c5780e11aac4ea9/e/f0566c848741
+03:39:49    census before: name='HAND_RUN3_UK3WMB' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c953
+03:39:49    census before: name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+03:39:49    census before: name='BALLSOCK_RUN3_B2' url=https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb556
+03:39:49    census before: name='' url=about:blank
+03:39:49    census before: name='LIMBSC2_RUN3_c31d7e' url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d6
+03:39:49    census before: name='LIMBSC_RUN3_9f4a1c' url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d6
+03:39:49    census before: name='ORCH_INVENTORY_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:39:49    census before: name='LESSON_RUN3_MSTITT_A' url=https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be1961c300552cd9d/e/c797d0e3a7e5
+03:39:49    census before: name='TORSO_RUN3_OA4SRWBU' url=https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef
+03:39:49 RESULT: stamp HEAD2_RUN3_9C2F41 is unused. Creating my own page.
+03:39:49 RESULT: re-census over 19 pages, 1 carry HEAD2_RUN3_9C2F41
+03:39:49 ABOUT TO: navigate to my document and check the Onshape session
+03:39:59 RESULT: sessioninfo status=200 bodylen=934 roles=True
+03:39:59    title='head-run3 | Part Studio 1' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f2ac17c4d11
+03:39:59 RESULT: screenshot 25-b-done-takeover-document-open.png
+03:40:26 ABOUT TO: read inherited state through read-only REST (features, parts, bbox, volume)
+03:40:38 ABOUT TO: read inherited state through read-only REST (features, parts, bbox, volume)
+03:40:48 ABOUT TO: read inherited state through read-only REST (features, parts, bbox, volume)
+03:40:48    feature newSketch      id=FlpbkGSk name='Head profile' state={"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}
+03:40:48    feature extrude        id=FYvmeAi2 name='Head body' state={"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}
+03:40:48    feature fillet         id=Fb05u4x9 name='Fillet 1' state={"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}
+03:40:48    feature newSketch      id=FoHWDAxU name='Sketch 1' state={"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}
+03:40:50    part id=JHD name='Head'
+03:40:51    bbox mm: {"lowX": -18.0, "lowY": -15.0, "lowZ": -18.0, "highX": 18.0, "highY": 15.0, "highZ": 18.0}
+03:40:52    volume mm3 = 34358.772253   centroid mm = [0.0, 0.0, 0.0]
+03:40:52    whole-studio parts count = 1
+03:40:52 ABOUT TO: dump Sketch 1's stored parameters to judge whether to keep it
+03:40:52    Sketch 1 dumped, 8148 chars
+03:40:52    PLANE n=(0, -1, 0) o=(0 meter, 0 meter, 0 meter) area=23225.760000000002 box=(-76.2, 0, -76.2)..(76.2, 0, 76.2)
+03:40:52    PLANE n=(0, 0, 1) o=(0 meter, 0 meter, 0 meter) area=23225.760000000002 box=(-76.2, -76.2, 0)..(76.2, 76.2, 0)
+03:40:52    PLANE n=(1, 0, 0) o=(0 meter, 0 meter, 0 meter) area=23225.760000000002 box=(0, -76.2, -76.2)..(0, 76.2, 76.2)
+03:40:52    PLANE n=(0, -1, 0) o=(0 meter, 0 meter, 0.00010799999999999872 meter) area=1156.9380098815468 box=(-18.000000000000007, 0, -18.000000000000007)..(18.000000000000007, 0, 18.000000000000004)
+03:40:52    PLANE n=(0, 1, 0) o=(-8.673617379884035e-19 meter, 0.015 meter, -0.0014009999999999986 meter) area=893.4291735288522 box=(-15.000000000000007, 15, -18.000000000000004)..(15.000000000000005, 15, 15.000000000000005)
+03:40:52    PLANE n=(0, -1, 0) o=(-8.673617379884035e-19 meter, -0.015 meter, -0.0014009999999999986 meter) area=893.4291735288524 box=(-15.000000000000007, -15, -18.000000000000004)..(15.000000000000005, -15, 15.000000000000005)
+03:40:52    PLANE n=(1, 0, 1.9274705288631186e-16) o=(0.018000000000000002 meter, 0 meter, -0.009 meter) area=432.00000000000017 box=(18, -12, -18.000000000000004)..(18.000000000000007, 12, 3.469446951953614e-15)
+03:40:52    PLANE n=(9.637352644315595e-17, 0, -1) o=(-1.734723475976807e-18 meter, 0 meter, -0.018000000000000002 meter) area=1072.2743338823086 box=(-18.000000000000007, -15, -18.000000000000007)..(18.000000000000007, 15, -18.000000000000004)
+03:40:52    PLANE n=(-1, 0, 0) o=(-0.018000000000000006 meter, 0 meter, -0.009000000000000003 meter) area=432.00000000000017 box=(-18.000000000000007, -12, -18.000000000000007)..(-18.000000000000007, 12, 0)
+03:40:52    PLANE n=(0, -1, 0) o=(-0.007911798037551914 meter, 0 meter, 0.0050865416415035725 meter) area=52.35988620667384 box=(-12.911798037551915, 0, 1.7532083081702394)..(-2.911798037551916, 0, 8.419874974836906)
+03:40:52    PLANE n=(0, -1, 0) o=(0.007865980076362314 meter, 0 meter, 0.0050865416415035725 meter) area=46.69727264835056 box=(3.088201641590562, 0, 1.9754305609503207)..(12.643758511134065, 0, 8.197652722056823)
+03:40:52    CYL r=3 axis=(-1.9274705288631186e-16, 0, 1) o=(15.000000000000002, 12, -5.78241158658936e-16) box=(15.000000000000004, 12, -18.000000000000004)..(18.000000000000007, 15, 3.469446951953614e-15)
+03:40:52    CYL r=3 axis=(1.9274705288631186e-16, 0, -1) o=(15.000000000000004, -12, -9) box=(15.000000000000004, -15, -18.000000000000004)..(18.000000000000007, -12, 3.469446951953614e-15)
+03:40:52    CYL r=3 axis=(0, 0, -1) o=(-15.000000000000007, 12, -3.469446951953614e-15) box=(-18.000000000000007, 12, -18.000000000000007)..(-15.000000000000007, 15, 1.8369701987210317e-16)
+03:40:52    CYL r=3 axis=(0, 0, 1) o=(-15.000000000000007, -12, -9.000000000000004) box=(-18.000000000000007, -15, -18.000000000000007)..(-15.000000000000007, -12, 1.8369701987210317e-16)
+03:40:52    CYL r=18.000000000000004 axis=(-0, 1, -0) o=(0, -15, 1.102182119232618e-15) box=(-18.000000000000007, -12, 0)..(18.000000000000004, 12, 18.000000000000004)
+03:43:01 ABOUT TO: probe the DOM hooks (command-id tools, feature tree rows)
+03:43:01    29 command-id elements
+03:43:01       UNDO_A_CHANGE                                               @(42,42)
+03:43:01       REDO_A_CHANGE                                               @(76,42)
+03:43:01       newSketch                  Sketch                           @(114,42)
+03:43:01       extrude                                                     @(202,42)
+03:43:01       revolve                                                     @(236,42)
+03:43:01       sweep                                                       @(270,42)
+03:43:01       loft                                                        @(304,42)
+03:43:01       thicken                                                     @(338,42)
+03:43:01       fillet                                                      @(394,42)
+03:43:01       chamfer                                                     @(446,42)
+03:43:01       draft                                                       @(480,42)
+03:43:01       rib                                                         @(532,42)
+03:43:01       shell                                                       @(566,42)
+03:43:01       hole                                                        @(600,42)
+03:43:01       externalThread                                              @(634,42)
+03:43:01       linearPattern                                               @(672,42)
+03:43:01       mirror                                                      @(724,42)
+03:43:01       booleanBodies                                               @(762,42)
+03:43:01       splitPart                                                   @(796,42)
+03:43:01       transform                                                   @(830,42)
+03:43:01       deleteBodies                                                @(882,42)
+03:43:01       modifyFillet                                                @(920,42)
+03:43:01       deleteFace                                                  @(954,42)
+03:43:01       moveFace                                                    @(988,42)
+03:43:01       replaceFace                                                 @(1022,42)
+03:43:01       cPlane                                                      @(1060,42)
+03:43:01       frame                                                       @(1116,42)
+03:43:01       sheetMetalStart                                             @(1172,42)
+03:43:01       USER_FEATURES                                               @(1228,42)
+03:43:01    0 feature-tree-ish rows
+03:43:01 RESULT: 26-x-probe-dom.png
+03:43:18 ABOUT TO: find the feature tree row DOM shape
+03:43:18    text='Head profile' @(66,276) 164x19
+03:43:18        ^ SPAN.os-list-item-name# attrs=class
+03:43:18        ^ DIV.os-list-item-label# attrs=class,data-id,data-bs-original-title,data-bs-html,data-bs-placement,style
+03:43:18        ^ DIV.os-list-item-inner# attrs=class
+03:43:18        ^ DIV.os-list-item ns-user-feature ns-list-item-hidden# attrs=class,:key,data-id,feature-id,feature-type
+03:43:18        ^ DIV.# attrs=class,style
+03:43:18        ^ DIV.# attrs=style
+03:43:18    text='Sketch 1' @(66,354) 164x19
+03:43:18        ^ SPAN.os-list-item-name# attrs=class
+03:43:18        ^ DIV.os-list-item-label# attrs=class,data-id,data-bs-original-title,data-bs-html,data-bs-placement,style
+03:43:18        ^ DIV.os-list-item-inner# attrs=class
+03:43:18        ^ DIV.os-list-item ns-user-feature# attrs=class,:key,data-id,feature-id,feature-type
+03:43:18        ^ DIV.# attrs=class,style
+03:43:18        ^ DIV.# attrs=style
+03:43:18    text='Head' @(85,685) 145x19
+03:43:18        ^ SPAN.os-list-item-name# attrs=class
+03:43:18        ^ DIV.os-list-item-label# attrs=class,data-bs-html,style
+03:43:18        ^ DIV.os-list-item-inner# attrs=class,data-bs-original-title,data-bs-placement
+03:43:18        ^ DIV.os-list-item# attrs=class,data-id
+03:43:18        ^ DIV.# attrs=class,style
+03:43:18        ^ DIV.# attrs=style
+03:44:00 ABOUT TO: delete the inherited unfinished eye sketch 'Sketch 1' (under-defined, ellipses not Equal)
+03:44:00    Sketch 1 row @(40,352)
+03:44:02    context menu items: [['Rename', 91, 378, 196, 22], ['Suppress', 91, 603, 196, 22]]
+03:44:28 ABOUT TO: delete the inherited unfinished eye sketch 'Sketch 1' (under-defined, ellipses not Equal)
+03:44:28    Sketch 1 row @(40,352)
+03:44:30    Delete rows found: [[91, 784, 196, 22, 2], [126, 786, 153, 18, 0]]
+03:44:34 RESULT: feature tree now ['Head profile', 'Head body', 'Fillet 1']
+03:44:34 ABOUT TO: rename 'Fillet 1' -> 'Outline rounds'
+03:44:37       renamed 'Fillet 1' -> 'Outline rounds'
+03:44:39 RESULT: feature tree now ['Head profile', 'Head body', 'Outline rounds']
+03:45:08 ABOUT TO: read the inherited 'Head profile' sketch constraints (tangency acceptance check)
+03:45:08    sketch entities (0):
+03:45:08    constraints (0):
+03:45:56 NOTE: inherited 'Head profile' carries 2 real TANGENT constraints (arc-to-left-line, arc-to-right-line),
+03:45:56       plus VERTICAL on both side lines, HORIZONTAL on the bottom, RADIUS 18 and DISTANCE 18.
+03:45:56 ABOUT TO: open the Plane tool (command-id cPlane) and dump its parameter rows
+03:45:59    param entities               val=None box=(249,113,214,26) text='Entities'
+03:45:59    param entities               val=None box=(249,113,214,26) text='Entities'
+03:45:59    param cplaneType             val='' box=(246,144,194,28) text='Offset'
+03:45:59    param cplaneType             val='' box=(246,144,194,25) text='Offset'
+03:45:59    param offset                 val='25 mm' box=(246,172,194,26) text='Offset distance'
+03:45:59    param offset                 val='25 mm' box=(246,172,194,26) text='Offset distance'
+03:45:59    param oppositeDirection      val=None box=(440,172,26,26) text=''
+03:45:59    param oppositeDirection      val=None box=(440,172,26,26) text=''
+03:45:59    param flipNormal             val='on' box=(246,198,194,27) text='Flip normal'
+03:45:59    param flipNormal             val='on' box=(246,198,194,27) text='Flip normal'
+03:46:00 RESULT: 28-a-select-plane-dialog.png ; dialog left open
+03:46:23 ABOUT TO: pick 'Front' from the feature tree into the plane's Entities field, offset 15
+03:46:24    entities row text now: 'Entities\nFront plane\n×'
+03:46:25       field offset read back '15'
+03:46:28 RESULT: tree now ['Head profile', 'Head body', 'Outline rounds']
+03:46:29    BIGPLANE n=(0, -1, 0) o=(0, 0, 0) area=23225.760000000002
+03:46:29    BIGPLANE n=(0, 0, 1) o=(0, 0, 0) area=23225.760000000002
+03:46:29    BIGPLANE n=(1, 0, 0) o=(0, 0, 0) area=23225.760000000002
+03:46:50    btn ['DIV', 'toolset-seperator', None, None, None, 390, 45, 2, 26]
+03:46:50    btn ['DIV', 'tool is-activatable is-button', None, None, None, 394, 42, 32, 32]
+03:46:50    btn ['DIV', 'tool-icon', None, None, None, 400, 48, 20, 20]
+03:46:50    btn ['svg', '[object SVGAnimatedString]', None, None, None, 400, 48, 20, 20]
+03:46:50    btn ['DIV', 'dropdown-arrow tool is-button', None, None, None, 426, 42, 18, 32]
+03:46:50    btn ['svg', '[object SVGAnimatedString]', None, None, None, 430, 53, 10, 10]
+03:46:50    btn ['DIV', 'tool is-activatable is-button', None, None, None, 446, 42, 32, 32]
+03:46:50    btn ['DIV', 'tool-icon', None, None, None, 452, 48, 20, 20]
+03:46:50    btn ['svg', '[object SVGAnimatedString]', None, None, None, 452, 48, 20, 20]
+03:46:50    btn ['DIV', 'ns-dialog-edit-hover-area', None, None, None, 382, 79, 28, 28]
+03:46:50    btn ['DIV', 'ns-dialog-button-ok button-ok', None, None, None, 410, 79, 28, 28]
+03:46:50    btn ['svg', '[object SVGAnimatedString]', 'ok-button', None, None, 410, 81, 28, 24]
+03:46:50    btn ['DIV', 'ns-dialog-button-cancel backbone-cancel', None, None, None, 438, 79, 28, 28]
+03:46:50    btn ['svg', '[object SVGAnimatedString]', 'cancel-button', None, None, 438, 81, 28, 24]
+03:47:05 ABOUT TO: accept Plane 1 (green tick is div.ns-dialog-button-ok, NOT [data-automation=ok-button])
+03:47:08 RESULT: tree now ['Head profile', 'Head body', 'Outline rounds', 'Plane 1']
+03:47:11       renamed 'Plane 1' -> 'Face plane'
+03:47:12 RESULT: tree now ['Head profile', 'Head body', 'Outline rounds', 'Face plane']
+03:48:05 ABOUT TO: start a new sketch on 'Face plane' for the eyes
+03:48:06    param sketchPlane            val=None text='Sketch plane'
+03:48:06    param sketchPlane            val=None text='Sketch plane'
+03:48:06    param disableImprinting      val='on' text='Disable imprinting'
+03:48:06    param disableImprinting      val='on' text='Disable imprinting'
+03:48:07    sketchPlane now: 'Sketch plane\nFace plane\n×'
+03:48:08 ABOUT TO: press n (view normal to) with the cursor over the canvas, then f (zoom to fit)
+03:48:18 RESULT: 29-a2-select-eye-sketch-viewcube.png - check the view cube reads Front
+03:49:10 ABOUT TO: wheel-zoom 18 notches at the origin so the head fills the canvas, then calibrate px/mm
+03:49:16    silhouette bbox px: (588.0, 1462.0, 123.0, 809.0, 71601)
+03:49:16 CALIBRATION: origin=(1025.0,466.0) px/mm x=24.2778 y=19.0556
+03:50:12 ABOUT TO: open the Ellipse tool from the circle group flyout and draw two rough ellipses
+03:50:12    calibration origin=(873.0,525.0) scale=15.8333 px/mm  (silhouette 36mm = 570px)
+03:50:12    circle-group main button: ['CIRCLE_CENTER_RADIUS', 290, 42, 50, 32]
+03:50:13    flyout items: [['CIRCLE_PERIMETER', 291, 112, 176, 32], ['ELLIPSE', 291, 145, 176, 32]]
+03:50:14    drawing ellipse centre (-8.0, 6) major 10 minor 7
+03:50:18    drawing ellipse centre (8.0, 6) major 10 minor 7
+03:50:24 RESULT: 29-b-done-two-ellipses.png
+03:50:55 ABOUT TO: select both ellipse curves and apply Equal (e)
+03:51:07 ABOUT TO: select both ellipse curves and apply Equal (e)
+03:51:10    selection summary: None
+03:51:12 RESULT: 30-b-done-equal-applied.png
+03:52:11 ABOUT TO: clear the armed tool (Escape + one throwaway click), then select both ellipse curves
+03:52:14    pick points (802.3127689928049, 390.8147817050367) (1055.6455689928048, 390.8147817050367)
+03:52:17 ABOUT TO: press e (Equal)
+03:52:58 ABOUT TO: re-select both ellipses and apply Equal from the constraint flyout (not the 'e' key)
+03:52:58    toolbar: [['SKETCHMIRROR', 812, 42, 32, 32], ['DIMENSION', 954, 42, 32, 32], ['EQUAL', 992, 42, 32, 32]]
+03:53:02    flyout: [['CONCENTRIC', 993, 112, 176, 34], ['PARALLEL', 993, 148, 176, 34], ['TANGENT', 993, 183, 176, 34], ['HORIZONTAL', 993, 219, 176, 34], ['VERTICAL', 993, 254, 176, 34], ['PERPENDICULAR', 993, 290, 176, 34], ['EQUAL', 993, 325, 176, 34], ['MIDPOINT', 993, 361, 176, 34], ['NORMAL', 993, 396, 176, 34], ['PIERCE', 993, 432, 176, 34], ['MIRROR', 993, 467, 176, 34], ['FIX', 993, 503, 176, 34], ['EQUAL_CURVATURE', 993, 538, 176, 34]]
+03:53:37 ABOUT TO: Dimension the LEFT ellipse major axis; read the pre-filled value, then set 10
+03:53:42    dimension edit boxes: [['9.99882 mm', 672, 711]]
+03:53:58    read back before Enter: '10'
+03:53:59 ABOUT TO: TEST Equal - dimension the RIGHT ellipse and READ its pre-filled major without committing
+03:54:02    RIGHT ellipse pre-filled major = [['10 mm', 1122, 711]]
+03:54:32 ABOUT TO: Escape the un-needed right-ellipse dimension (Equal already propagated 10 mm)
+03:54:33 ABOUT TO: try to dimension the ellipse MINOR axis - pick the curve near its top vertex
+03:54:38    pre-filled value when picking near the minor vertex: []
+03:55:24 ABOUT TO: Escape the pending min-dist dimension, then undo the duplicate right-ellipse '10'
+03:55:29 ABOUT TO: click the left ellipse alone and look at what handles it exposes
+03:56:06 ABOUT TO: try the MINOR axis - Dimension the ellipse, place the label ABOVE it (empty canvas)
+03:56:12    label-above pre-fill: [['10 mm', 718, 171]]
+03:56:41 NOTE: Dimension on an ellipse gives the MAJOR axis diameter wherever the label is placed.
+03:56:41 ABOUT TO: escape + undo that duplicate major, then dimension centre-point -> curve (min dist = semi-minor)
+03:56:53    centre-to-curve pre-fill: []
+03:57:42 NOTE: 'A dimension cannot be created between these items' for ellipse centre -> its own curve.
+03:57:42 ABOUT TO: draw a construction line from the left ellipse centre up to its curve, to pin the minor axis
+03:57:49 ABOUT TO: select that line and press q (construction), then dimension it 3.5
+03:58:02    line dimension pre-fill: []
+03:58:47 ABOUT TO: escape+undo the stray min-dist dimension, then dimension the construction line alone
+03:58:57    construction-line dimension pre-fill: [['3.5443 mm', 1292, 681]]
+03:58:57    read back before Enter: '3.5'
+03:59:31 ABOUT TO: Symmetric - select both ellipse centre points + the sketch vertical axis, then MIRROR constraint
+03:59:39    constraint group main button: [['EQUAL', 992, 42, 32, 32]]
+03:59:40    MIRROR (Symmetric) row: [['MIRROR', 993, 467, 176, 34]]
+04:00:25 ABOUT TO: retry Symmetric, picking the vertical axis at (873,825) INSIDE the sketch plane rectangle
+04:01:16 ABOUT TO: test whether the sketch's vertical axis can be picked just below the origin
+04:02:16 NOTE: clicking near the sketch origin selects the model's FRONT FACE - the sketch axes are not pickable
+04:02:16       in the graphics area, so the brief's 'Symmetric about the centerline' has no line to mirror about.
+04:02:16 ABOUT TO: Horizontal constraint between the two ellipse centre points
+04:02:28 ABOUT TO: dimension centre-to-centre = 16
+04:02:39    centre-to-centre pre-fill: [['16.01272 mm', 865, 311]]
+04:02:39       read back '16'
+04:03:19 ABOUT TO: dimension LEFT centre -> sketch origin point, label BELOW (horizontal distance) = 8
+04:03:25    pre-fill (expect ~8 horizontal): [['8.06418 mm', 802, 671]]
+04:03:25       read back '8'
+04:03:27 ABOUT TO: dimension RIGHT centre -> sketch origin point, label far RIGHT (vertical distance) = 6
+04:03:32    pre-fill (expect ~6 vertical): [['6.13489 mm', 1272, 461]]
+04:03:32       read back '6'
+04:04:09 FINDING: Equal between two ellipses ties the MAJOR axis only - the right ellipse stayed blue (minor free).
+04:04:09 ABOUT TO: draw the same centre->curve construction line on the RIGHT ellipse and make the two lines Equal
+04:04:23 ABOUT TO: select both construction lines and apply Equal
+04:05:21 ABOUT TO: select both minor-axis construction lines and apply Equal via the flyout
+04:05:27    Equal applied via flyout
+04:06:17 ABOUT TO: make the RIGHT construction line's top endpoint Coincident with the right ellipse curve
+04:06:52 ABOUT TO: add Vertical to the right minor-axis construction line
+04:07:12 ABOUT TO: add Vertical (v) to the right minor-axis construction line
+04:07:50 ABOUT TO: dimension the RIGHT ellipse major = 10 as well, to find out whether Equal is really holding it
+04:07:54    right-major pre-fill: [['10 mm', 1172, 781]]
+04:08:35 ABOUT TO: DRAG TEST - drag the right ellipse curve to see which degree of freedom is still free
+04:09:37 DECISION: the RIGHT ellipse would not go black - Equal ties only the major axis and the endpoint
+04:09:37   coincidence would not take. Deleting the right ellipse; the second eye becomes a feature Mirror
+04:09:37   about the Right plane instead. Recorded as a deviation from the brief's 'Equal + Symmetric'.
+04:09:50 ABOUT TO: re-dimension the LEFT centre height to the origin = 6 (label far right => vertical)
+04:10:06    pre-fill (expect ~6 vertical): [['6 mm', 1272, 451]]
+04:10:06       read back '6'
+04:10:34 ABOUT TO: accept the eye sketch and rename it 'Eye profile'
+04:10:52    tree from DOM: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Sketch 1', None]
+04:10:52 NOTE: GET /features returned 429 (rate limited); reading the tree from the DOM instead
+04:10:55       renamed 'Sketch 1' -> 'Eye profile'
+04:10:55    tree from DOM: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', None]
+04:10:55 ABOUT TO: Extrude 'Eye profile' Add 1.5 onto Head
+04:10:57    param bodyType                 val=None text='Solid | Surface | Thin'
+04:10:57    param bodyType                 val=None text='Solid | Surface | Thin'
+04:10:57    param operationType            val=None text='New | Add | Remove | Intersect'
+04:10:57    param operationType            val=None text='New | Add | Remove | Intersect'
+04:10:57    param entities                 val=None text='Faces and sketch regions to extrude | Faces of Eye profile | ×'
+04:10:57    param entities                 val=None text='Faces and sketch regions to extrude | Faces of Eye profile | ×'
+04:10:57    param endBound                 val='' text='Blind'
+04:10:57    param endBound                 val='' text='Blind'
+04:10:57    param oppositeDirection        val=None text=''
+04:10:57    param oppositeDirection        val=None text=''
+04:10:57    param depth                    val='25 mm' text='Depth'
+04:10:57    param depth                    val='25 mm' text='Depth'
+04:10:57    param hasExtrudeDirection      val='on' text='Direction'
+04:10:57    param hasExtrudeDirection      val='on' text='Direction'
+04:10:57    param startOffset              val='on' text='Starting offset'
+04:10:57    param startOffset              val='on' text='Starting offset'
+04:11:12 ABOUT TO: set the extrude to Add, depth 1.5, merge scope = Head
+04:11:13    param bodyType                 val=None text='Solid | Surface | Thin'
+04:11:13    param bodyType                 val=None text='Solid | Surface | Thin'
+04:11:13    param operationType            val=None text='New | Add | Remove | Intersect'
+04:11:13    param operationType            val=None text='New | Add | Remove | Intersect'
+04:11:13    param entities                 val=None text='Faces and sketch regions to extrude | Faces of Eye profile | ×'
+04:11:13    param entities                 val=None text='Faces and sketch regions to extrude | Faces of Eye profile | ×'
+04:11:13    param endBound                 val='' text='Blind'
+04:11:13    param endBound                 val='' text='Blind'
+04:11:13    param oppositeDirection        val=None text=''
+04:11:13    param oppositeDirection        val=None text=''
+04:11:13    param depth                    val='25 mm' text='Depth'
+04:11:13    param depth                    val='25 mm' text='Depth'
+04:11:13    param hasExtrudeDirection      val='on' text='Direction'
+04:11:13    param hasExtrudeDirection      val='on' text='Direction'
+04:11:13    param startOffset              val='on' text='Starting offset'
+04:11:13    param startOffset              val='on' text='Starting offset'
+04:11:13    param symmetric                val='on' text='Symmetric'
+04:11:13    param symmetric                val='on' text='Symmetric'
+04:11:13    param hasDraft                 val='on' text='Draft'
+04:11:13    param hasDraft                 val='on' text='Draft'
+04:11:13    param hasSecondDirection       val='on' text='Second end position'
+04:11:13    param hasSecondDirection       val='on' text='Second end position'
+04:11:13    param defaultScope             val='on' text='Merge with all'
+04:11:13    param defaultScope             val='on' text='Merge with all'
+04:11:13    param booleanScope             val=None text='Merge scope | Head | ×'
+04:11:13    param booleanScope             val=None text='Merge scope | Head | ×'
+04:11:31    booleanScope reads 'Merge scope\nHead\n×'
+04:11:31       field depth read back '1.5'
+04:11:34    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Extrude 1', None]
+04:11:34 RESULT: parts=1 volume=34358.772253 mm3 (34358.772253 + 82.4668 = 34441.2391 predicted for ONE eye 1.5 proud)
+04:11:34    bbox mm: {"lowX": -18.0, "lowY": -15.0, "lowZ": -18.0, "highX": 18.0, "highY": 15.0, "highZ": 18.0}
+04:11:54 FINDING: the eye extrude added 0 mm3 - the default direction from 'Face plane' points INTO the head (+Y).
+04:11:54 ABOUT TO: edit Extrude 1 and flip the direction
+04:12:44 FINDING: the eye extrude added 0 mm3 - the default direction from 'Face plane' points INTO the head (+Y).
+04:12:44 ABOUT TO: edit Extrude 1 and flip the direction
+04:12:56    row ['"Default geometry"', 40, 144, 200, 26]
+04:12:56    row ['"Origin"', 40, 170, 200, 26]
+04:12:56    row ['"Top"', 40, 196, 200, 26]
+04:12:56    row ['"Front"', 40, 222, 200, 26]
+04:12:56    row ['"Right"', 40, 248, 200, 26]
+04:12:56    row ['"Head profile"', 40, 274, 200, 26]
+04:12:56    row ['"Head body"', 40, 300, 200, 26]
+04:12:56    row ['"Outline rounds"', 40, 326, 200, 26]
+04:12:56    row ['"Face plane"', 40, 352, 200, 26]
+04:12:56    row ['"Eye profile"', 40, 378, 200, 26]
+04:12:56    row [None, 40, 404, 200, 26]
+04:12:56    row ['"Parts (1)"', 40, 657, 200, 26]
+04:12:56    row ['"Head"', 40, 683, 200, 26]
+04:13:32 NOTE: the first Extrude 1 vanished from the tree after Escape; rebuilding it with the flip set
+04:13:32 ABOUT TO: Extrude 'Eye profile' Add 1.5, flipped OUTWARD (-Y), merge scope Head
+04:13:36    entities: 'Faces and sketch regions to extrude\nFaces of Eye profile\n×'
+04:13:36    booleanScope: 'Merge scope\nHead\n×'
+04:13:36       field depth read back '1.5'
+04:14:22    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Extrude 1', None]
+04:14:22    param bodyType               val=None box=(245,108,220,28) text='Solid | Surface | Thin'
+04:14:22    param operationType          val=None box=(245,136,220,28) text='New | Add | Remove | Intersect'
+04:14:22    param entities               val=None box=(248,169,214,44) text='Faces and sketch regions to extrude | Faces of Eye profile | ×'
+04:14:22    param endBound               val='' box=(245,218,194,28) text='Blind'
+04:14:22    param oppositeDirection      val=None box=(439,218,26,28) text=''
+04:14:22    param depth                  val='1.5 mm' box=(245,246,194,26) text='Depth'
+04:14:22    param hasExtrudeDirection    val='on' box=(265,272,175,27) text='Direction'
+04:14:22    param startOffset            val='on' box=(265,299,175,27) text='Starting offset'
+04:14:22    param symmetric              val='on' box=(245,326,194,27) text='Symmetric'
+04:14:22    param hasDraft               val='on' box=(245,353,53,27) text='Draft'
+04:14:22    param hasSecondDirection     val='on' box=(265,381,175,27) text='Second end position'
+04:14:22    param defaultScope           val='on' box=(245,408,194,27) text='Merge with all'
+04:14:22    param booleanScope           val=None box=(248,440,214,44) text='Merge scope | Head | ×'
+04:14:50 ABOUT TO: click the direction-flip arrow by coordinate (Playwright's click was intercepted by an overlay)
+04:14:54    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Extrude 1', None]
+04:14:55 RESULT: volume=34441.027621 (predicted 34441.2391)  bbox lowY=-16.50000 (predicted -16.5)
+04:15:50 MEASURED: eye pad added 82.255368 mm3 => ellipse 10.000 x 6.982, not 10.000 x 7.000.
+04:15:50   The minor-axis construction line is 3.5 long but was never constrained Vertical.
+04:15:50 ABOUT TO: edit 'Eye profile', add Vertical to that construction line, and re-measure
+04:16:00 RESULT: volume=34441.027621 (34441.2391 = eye exactly 10 x 7); added 82.255368 vs 82.46680 predicted
+04:16:22    SMALLPLANE n=(0, -1, 0) o=(-8, -15, 6.000000000000002) area=54.977883462874736 box=(-13.000000000000002, -15, 2.500000000000002)..(-3, -15, 9.500000000000002)
+04:16:22    SMALLPLANE n=(0, -1, 0) o=(-8, -16.5, 6.000000000000002) area=54.97788704083715 box=(-13.000000000000002, -16.5, 2.500000000000002)..(-3, -16.5, 9.500000000000002)
+04:16:59 MEASURED (face, not volume): eye ellipse face box x -13..-3, z 2.5..9.5, area 54.977883 = exactly 10.000 x 7.000
+04:16:59 ABOUT TO: rename Extrude 1 -> 'Eye', then Mirror the feature about the Right plane
+04:17:02       renamed 'Extrude 1' -> 'Eye'
+04:17:04    param patternType            val='' box=(245,108) text='Part mirror'
+04:17:04    param operationType          val=None box=(245,136) text='New | Add | Remove | Intersect'
+04:17:04    param entities               val=None box=(248,169) text='Entities to mirror'
+04:17:04    param mirrorPlane            val=None box=(248,200) text='Mirror plane'
+04:17:23 ABOUT TO: switch Mirror to 'Feature mirror', features = Eye, plane = Right
+04:17:23    patternType control: {'tag': '\n    <!---->\n  <os-enum-parameter bt-parameter="btParameter" parent-dialog-id="feature-dialog">\n<!---->\n<!----><span ng-if="!$ctrl.btParameter.getIsNotApplicable() &amp;&amp; ($ctrl.btParameter.getDis'}
+04:17:23    param patternType            box=(245,108) text='Part mirror'
+04:17:23    param operationType          box=(245,136) text='New | Add | Remove | Intersect'
+04:17:23    param entities               box=(248,169) text='Entities to mirror'
+04:17:23    param mirrorPlane            box=(248,200) text='Mirror plane'
+04:17:24    entities: 'Entities to mirror'
+04:17:25    mirrorPlane: 'Mirror plane\nRight plane\n×'
+04:17:28    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Mirror 1', None]
+04:17:29 RESULT: parts=1 volume=34441.027621 (expect ~34523.5, one more 82.4668 eye)
+04:20:19 ABOUT TO: inspect 'Mirror 1' status and re-open it to switch to Feature mirror
+04:20:32 ABOUT TO: inspect 'Mirror 1' status and re-open it to switch to Feature mirror
+04:20:32    Head profile     OK
+04:20:32    Head body        OK
+04:20:32    Outline rounds   OK
+04:20:32    Face plane       OK
+04:20:32    Eye profile      OK
+04:20:32    Eye              OK
+04:20:32    Mirror 1         ERROR
+04:20:34    patternType outerHTML: <div ng-repeat="btParameter in $ctrl.btParameters|limitTo:$ctrl.group.len:$ctrl.group.startIndex" ng-if="btParameter.getIsVisible() &amp;&amp; !$ctrl.group.getIsCollapsible()" class="os-parameter-list-item os-param-fill-first-column" ng-class="{'full-width': $ctrl.fullWidth, 'os-param-fill-first-column': $ctrl.getFillsFirstColumn(btParameter) &amp;&amp; !$ctrl.fullWidth, 'os-param-fill-both-columns': btParameter.getBtParameterForCurrentConfiguration().getCanFillBothColumns(), 'os-param-display-short': btParameter.getBtParameterForCurrentConfiguration().getCanDisplayShort(), 'os-param-fits-in-right-column': $ctrl.getFitsInRightColumn(btParameter), 'os-param-requires-margin': btParameter.getBtParameterForCurrentConfiguration().getRequiresMargin(), 'enabled-button-with-readonly-view-overlay': btParameter.getIsReadonlyButtonEnabled(), 'os-disabled-overlay-button': btParameter.getIsReadonlyButton() &amp;&amp; !btParameter.getCanBeConfigured(), 'os-param-equally-spaced-column': btParameter.useEquallySpacedColumnLayout, 'os-param-grow': btParameter.getIsButton(), 'os-param-half': btParameter.getIsButton() &amp;&amp; btParameter.getCanDisplayShort()}" os-parameter="btParameter" os-context-menu="$ctrl.buildContextMenuForParameter(btParameter)" os-context-menu-disabled="$ctrl.disableContextMenuForParameter" os-context-menu-class="enterprise-context-menu" data-parameter-id="patternType" parent-dialog-id="feature-dialog"> <!----> <os-enum-parameter bt-parameter="btParameter" parent-dialog-id="feature-dialog"> <!----> <!----><span ng-if="!$ctrl.btParameter.getIsNotApplicable() &amp;&amp; ($ctrl.btParameter.getDisplayStyle() === $ctrl.EnumDisplayStyle.DROPDOWN)" class="os-param-wrapper os-param-select"> <!----> <!----> <div class="select-container-wrapper"> <div class="select-input o
+04:20:51 ABOUT TO: switch Mirror 1 patternType -> 'Feature mirror' via the custom enum dropdown
+04:20:53    option boxes: [[256, 168.1875, 90.203125, 20]]
+04:20:53    param patternType            box=(245,108) text='Feature mirror'
+04:20:53    param patternType            box=(245,108) text='Feature mirror'
+04:20:53    param instanceFunction       box=(248,141) text='Features to mirror'
+04:20:53    param instanceFunction       box=(248,141) text='Features to mirror'
+04:20:53    param mirrorPlane            box=(248,172) text='Mirror plane | Right plane | ×'
+04:20:53    param mirrorPlane            box=(248,172) text='Mirror plane | Right plane | ×'
+04:20:53    param fullFeaturePattern     box=(245,221) text='Reapply features'
+04:20:53    param fullFeaturePattern     box=(245,221) text='Reapply features'
+04:21:10 ABOUT TO: pick feature 'Eye' into 'Features to mirror', assert both fields, accept
+04:21:11    instanceFunction='Features to mirror | Eye | ×'  mirrorPlane='Mirror plane | Right plane | ×'
+04:21:14    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Mirror 1', None]
+04:21:15 RESULT: parts=1 volume=34523.283093 bbox x-18.000..18.000 y-16.500..15.000 z-18.000..18.000
+04:21:40 ABOUT TO: measure every planar face (checking the mirrored eye lands at x +3..+13)
+04:21:40    face x -76.200..  76.200 y   0.000..   0.000 z -76.200..  76.200 area=23225.760000
+04:21:40    face x -76.200..  76.200 y -76.200..  76.200 z   0.000..   0.000 area=23225.760000
+04:21:40    face x   0.000..   0.000 y -76.200..  76.200 z -76.200..  76.200 area=23225.760000
+04:21:40    face x -76.200..  76.200 y -15.000.. -15.000 z -76.200..  76.200 area=23225.760000
+04:21:40    face x -18.000..  18.000 y   0.000..   0.000 z -18.000..  18.000 area=1156.938010
+04:21:40    face x -18.000..  18.000 y -15.000..  15.000 z -18.000.. -18.000 area=1072.274334
+04:21:40    face x -15.000..  15.000 y  15.000..  15.000 z -18.000..  15.000 area=893.429174
+04:21:40    face x -15.000..  15.000 y -15.000.. -15.000 z -18.000..  15.000 area=783.473154
+04:21:40    face x  18.000..  18.000 y -12.000..  12.000 z -18.000..   0.000 area=432.000000
+04:21:40    face x -18.000.. -18.000 y -12.000..  12.000 z -18.000..   0.000 area=432.000000
+04:21:40    face x   3.000..  13.000 y -16.500.. -16.500 z   2.500..   9.500 area= 54.977887
+04:21:40    face x -13.000..  -3.000 y -16.500.. -16.500 z   2.500..   9.500 area= 54.977887
+04:21:40    face x -13.000..  -3.000 y -15.000.. -15.000 z   2.500..   9.500 area= 54.977883
+04:23:09 ABOUT TO: rename 'Mirror 1' -> 'Second eye' and render the part alone
+04:23:12       renamed 'Mirror 1' -> 'Second eye'
+04:23:15    rendered 38-x-eyes-front.png
+04:23:15    rendered 38-x-eyes-isometric.png
+04:23:15    rendered 38-x-eyes-right.png
+04:23:41 ABOUT TO: start a sketch on 'Face plane' for the mouth, then census the sketch toolbar for SLOT
+04:23:43    sketchPlane now: 'Sketch plane\nFace plane\n×'
+04:23:48    toolbar commands (22): ['UNDO_A_CHANGE', 'REDO_A_CHANGE', 'extrude', 'revolve', 'LINESEGMENT', 'RECTANGLE_TWO_CORNERS', 'ELLIPSE', 'ARC_START_END_RADIUS', 'INSCRIBED_POLYGON', 'SPLINE', 'POINT', 'TEXT_RECTANGLE_TWO_CORNERS', 'USE', 'TOGGLE_CONSTRUCTION', 'FILLET', 'TRIM', 'OFFSET', 'SKETCHMIRROR', 'SKETCHLPATTERN', 'INSERT_DXFDWG', 'DIMENSION', 'VERTICAL']
+04:23:48    SLOT candidates on the visible toolbar: []
+04:24:09 ABOUT TO: find the sketch toolbar's group carets (looking for a Slot tool)
+04:24:09    extrude @(114,42) 32x32
+04:24:09       par: <div class="os-row os-grow"><div class="tool is-activatable is-button" data-bs-html="true" command-id="extrude" data-id="5978b990310f18a3a66ad9e7" data-bs-placement="bottom" data-bs-original-title="Extrude (shift+e)" data-bs-expanded-content="Create, add to, subtract from, or int
+04:24:09    revolve @(148,42) 32x32
+04:24:09       par: <div class="os-row os-grow"><div class="tool is-activatable is-button" data-bs-html="true" command-id="extrude" data-id="5978b990310f18a3a66ad9e7" data-bs-placement="bottom" data-bs-original-title="Extrude (shift+e)" data-bs-expanded-content="Create, add to, subtract from, or int
+04:24:09    LINESEGMENT @(186,42) 32x32
+04:24:09       par: <div class="toolgroup is-hoverable"><div class="tool is-activatable is-button" data-bs-html="true" command-id="LINESEGMENT" data-id="5978b990310f18a3a66ad9ea" data-bs-placement="bottom" data-bs-original-title="Line (l)" data-bs-expanded-content="Sketch a line segment or series of
+04:24:09    RECTANGLE_TWO_CORNERS @(238,42) 32x32
+04:24:09       par: <div class="toolgroup is-hoverable"><div class="tool is-activatable is-button" data-bs-html="true" command-id="RECTANGLE_TWO_CORNERS" data-id="5978b990310f18a3a66ad9ec" data-bs-placement="bottom" data-bs-original-title="Corner rectangle (g)" data-bs-expanded-content="Sketch a rec
+04:24:09    ELLIPSE @(290,42) 32x32
+04:24:09       par: <div class="toolgroup is-hoverable"><div class="tool is-activatable is-button" data-bs-html="true" command-id="ELLIPSE" data-id="5978b990310f18a3a66ad9f1" data-bs-placement="bottom" data-bs-original-title="Ellipse" data-bs-expanded-content="Sketch an ellipse by defining its cente
+04:24:09    ARC_START_END_RADIUS @(342,42) 32x32
+04:24:09       par: <div class="toolgroup is-hoverable"><div class="tool is-activatable is-button" data-bs-html="true" command-id="ARC_START_END_RADIUS" data-id="5978b990310f18a3a66ad9f3" data-bs-placement="bottom" data-bs-original-title="3 point arc (a)" data-bs-expanded-content="Sketch an arc by d
+04:24:25 ABOUT TO: census EVERY command-id in the DOM (hidden ones included) for a Slot sketch tool
+04:24:25    22 distinct command-ids present
+04:24:25    ['ARC_START_END_RADIUS', 'DIMENSION', 'ELLIPSE', 'FILLET', 'INSCRIBED_POLYGON', 'INSERT_DXFDWG', 'LINESEGMENT', 'OFFSET', 'POINT', 'RECTANGLE_TWO_CORNERS', 'REDO_A_CHANGE', 'SKETCHLPATTERN', 'SKETCHMIRROR', 'SPLINE', 'TEXT_RECTANGLE_TWO_CORNERS', 'TOGGLE_CONSTRUCTION', 'TRIM', 'UNDO_A_CHANGE', 'USE', 'VERTICAL', 'extrude', 'revolve']
+04:24:25    SLOT matches: []
+04:24:25    tooltips mentioning slot: []
+04:24:50 ABOUT TO: open every sketch toolgroup flyout in turn and census its members (hunting Slot)
+04:24:50    14 toolgroups: ['LINESEGMENT', 'RECTANGLE_TWO_CORNERS', 'ELLIPSE', 'ARC_START_END_RADIUS', 'INSCRIBED_POLYGON', 'SPLINE', 'TEXT_RECTANGLE_TWO_CORNERS', 'USE', 'FILLET', 'TRIM', 'OFFSET', 'SKETCHLPATTERN', 'INSERT_DXFDWG', 'VERTICAL']
+04:24:51    group LINESEGMENT                -> ['LINESEGMENT', 'MIDPOINTLINE']
+04:24:53    group RECTANGLE_TWO_CORNERS      -> ['RECTANGLE_ALIGNED', 'RECTANGLE_CENTER', 'RECTANGLE_TWO_CORNERS']
+04:24:55    group ELLIPSE                    -> ['CIRCLE_CENTER_RADIUS', 'CIRCLE_PERIMETER', 'ELLIPSE']
+04:24:57    group ARC_START_END_RADIUS       -> ['ARC_START_END_RADIUS', 'ARC_TANGENT', 'CENTER_ARC', 'CONIC', 'ELLIPTICAL_ARC']
+04:24:59    group INSCRIBED_POLYGON          -> ['CIRCUMSCRIBED_POLYGON', 'INSCRIBED_POLYGON']
+04:25:00    group SPLINE                     -> ['ADD_SPLINE_POINT', 'BEZIER', 'SPLINE']
+04:25:02    group TEXT_RECTANGLE_TWO_CORNERS -> []
+04:25:04    group USE                        -> ['INTERSECTION', 'USE']
+04:25:06    group FILLET                     -> ['CHAMFER', 'FILLET']
+04:25:08    group TRIM                       -> ['EXTEND', 'SPLIT', 'TRIM']
+04:25:09    group OFFSET                     -> ['OFFSET', 'SLOT']
+04:25:11    group SKETCHLPATTERN             -> ['SKETCHCPATTERN', 'SKETCHLPATTERN', 'TRANSFORM']
+04:25:13    group INSERT_DXFDWG              -> ['IMAGE_RECTANGLE_TWO_CORNERS', 'INSERT_DXFDWG']
+04:25:14    group VERTICAL                   -> ['COINCIDENT', 'CONCENTRIC', 'EQUAL', 'EQUAL_CURVATURE', 'FIX', 'HORIZONTAL', 'MIDPOINT', 'MIRROR', 'NORMAL', 'PARALLEL', 'PERPENDICULAR', 'PIERCE', 'TANGENT', 'VERTICAL']
+04:25:15    ALL flyout members: ['ADD_SPLINE_POINT', 'ARC_START_END_RADIUS', 'ARC_TANGENT', 'BEZIER', 'CENTER_ARC', 'CHAMFER', 'CIRCLE_CENTER_RADIUS', 'CIRCLE_PERIMETER', 'CIRCUMSCRIBED_POLYGON', 'COINCIDENT', 'CONCENTRIC', 'CONIC', 'ELLIPSE', 'ELLIPTICAL_ARC', 'EQUAL', 'EQUAL_CURVATURE', 'EXTEND', 'FILLET', 'FIX', 'HORIZONTAL', 'IMAGE_RECTANGLE_TWO_CORNERS', 'INSCRIBED_POLYGON', 'INSERT_DXFDWG', 'INTERSECTION', 'LINESEGMENT', 'MIDPOINT', 'MIDPOINTLINE', 'MIRROR', 'NORMAL', 'OFFSET', 'PARALLEL', 'PERPENDICULAR', 'PIERCE', 'RECTANGLE_ALIGNED', 'RECTANGLE_CENTER', 'RECTANGLE_TWO_CORNERS', 'SKETCHCPATTERN', 'SKETCHLPATTERN', 'SLOT', 'SPLINE', 'SPLIT', 'TANGENT', 'TRANSFORM', 'TRIM', 'USE', 'VERTICAL']
+04:25:15    SLOT matches: ['SLOT']
+04:26:09 FINDING: the sketch SLOT tool DOES exist in this Onshape build - it is hidden inside the OFFSET toolgroup flyout, which is why the earlier visible-toolbar census missed it
+04:26:09 ABOUT TO: draw the mouth with the SLOT tool: centre line (-8,-6)->(8,-6), width click at (0,-4)
+04:26:12    slot param sketchPlane            val=None text='Sketch plane | Face plane | ×'
+04:26:12    slot param sketchPlane            val=None text='Sketch plane | Face plane | ×'
+04:26:12    slot param disableImprinting      val='on' text='Disable imprinting'
+04:26:12    slot param disableImprinting      val='on' text='Disable imprinting'
+04:26:15    slot drawn; screenshot 40-b-done-slot-drawn.png
+04:26:45 ABOUT TO: the 'f' zoom-to-fit shrank the view (it fits the whole 152 mm datum plane) - re-zoom on the head and re-calibrate px/mm before drawing the slot
+04:26:50    silhouette bbox (minx,maxx,miny,maxy,n) = (576.0, 1166.0, 357.0, 689.0, 21188)
+04:27:20 ABOUT TO: zoom further and calibrate px/mm from the head silhouette (threshold 620)
+04:27:23    silhouette = (480.0, 1338.0, 228.0, 792.0, 63275)
+04:27:23    width 858.0 px for 36 mm -> 23.8333 px/mm; height 564.0 px -> 15.6667 px/mm; centre (909.0,510.0)
+04:28:08 CALIBRATION (new camera): origin=(869.0,523.0) px, 14.95 px/mm, +x right +z up, view Front
+04:28:08 ABOUT TO: arm SLOT again and place centre line (-8,-6)->(8,-6) then width point (0,-4)
+04:28:26 CALIBRATION (new camera): origin=(869.0,523.0) px, 14.95 px/mm, +x right +z up, view Front
+04:28:26 ABOUT TO: arm SLOT again and place centre line (-8,-6)->(8,-6) then width point (0,-4)
+04:28:27    SLOT button class after arming: 'tool is-activatable is-active is-button'
+04:28:31    see 40-x-slot-p1.png and 40-b2-done-slot-drawn.png
+04:29:25 ABOUT TO: diagnose why the SLOT clicks do nothing - test the LINE tool in empty canvas
+04:29:29    drew a test line at (600,880)-(760,880); see 40-x-diag-line.png
+04:29:56 FINDING: plain click-click does nothing with the SLOT tool, though it works for LINE - undoing the test line and trying a click-DRAG for the slot centre line
+04:30:03    see 40-x-slot-drag1.png and 40-b3-done-slot-drag.png
+04:30:39 FINDING: Onshape's sketch SLOT lives in the OFFSET group because it works like Offset - it acts on an EXISTING sketch line, it does not draw one. Drawing the mouth centre line first.
+04:30:39 ABOUT TO: draw the mouth centre line (-8,-6)->(8,-6), select it, then run SLOT
+04:30:47    slot param sketchPlane            val=None text='Sketch plane | Face plane | ×'
+04:30:47    slot param sketchPlane            val=None text='Sketch plane | Face plane | ×'
+04:30:47    slot param disableImprinting      val='on' text='Disable imprinting'
+04:30:47    slot param disableImprinting      val='on' text='Disable imprinting'
+04:31:10    SLOT is live on the picked centre line (status bar read Length: 16.02417 mm); clicking 2 mm above it to set the slot width
+04:31:13    see 41-b-done-slot.png
+04:31:58 FINDING: SLOT took its width from where the pointer already was, not from the click - the slot came out ~20 mm wide. Dimensioning it to 4 mm.
+04:31:58 ABOUT TO: dimension the slot width (top long line to bottom long line) = 4 mm
+04:32:05    see 42-b-done-slot-width.png
+04:32:51 FINDING: jumping the slot width straight from ~20 mm to 4 mm made the solver give up ('Sketch could not be solved'). Undoing, dragging the width down by hand first, then dimensioning.
+04:32:58    dragged the slot's top line to ~2 mm above the centre line; see 42-x-drag-width.png
+04:33:32 FINDING: the width pick became a slot DIAMETER dimension (shown as O20). Undo kept the dimension and restored its value; stepping it down 20 -> 12 -> 8 -> 4 so the solver keeps up.
+04:33:34    after dblclick on the dimension label: 2 visible inputs
+04:33:34       set the slot width dimension '20 mm' -> 12
+04:33:37    after dblclick on the dimension label: 1 visible inputs
+04:33:39       no editable dimension field found; stopping
+04:34:05 ABOUT TO: step the slot width dimension 12 -> 8 -> 4 (finding the label in the DOM each time)
+04:34:05    label 'Ø12' found at []
+04:34:05       label not found; stopping
+04:35:28 ABOUT TO: locate the slot's width dimension label by pixels (Onshape draws it on the canvas, not in the DOM, so there is nothing to query)
+04:35:29    dark cluster n=82 x 914..1119 y 426..431
+04:35:29    dark cluster n=72 x 952..1089 y 480..485
+04:35:29    dark cluster n=65 x 913..1075 y 432..437
+04:35:29    dark cluster n=61 x 968..1098 y 378..383
+04:35:29    dark cluster n=61 x 949..1102 y 384..389
+04:35:29    dark cluster n=45 x 940..1088 y 474..479
+04:36:14 ABOUT TO: reach the slot width dimension through its leader line (the label is canvas-drawn and overlaps the eye, so pixel-hunting it is unreliable) - double-click the leader at (988,600)
+04:36:17    visible input 0: ''
+04:36:17    visible input 1: '12 mm'
+04:36:19    set the slot width to 4 mm
+04:37:04    slot width is now 4 mm, but the slot drifted below the head; dragging it back onto the face at roughly z=-6 before dimensioning its position
+04:37:08    see 43-x-slot-dragged-onto-face.png
+04:37:44 ABOUT TO: dimension the mouth's left end 7 mm from the head's left front edge (model edges give unambiguous point-to-line distances; the sketch axes are not pickable here)
+04:37:51    dimension 44: pre-filled None -> set 7
+04:38:37 FINDING: the constraint badges the SLOT tool created sit exactly on the centre line's end points, so clicks land on a badge instead of the point. Turning 'Show constraints' off.
+04:38:39 ABOUT TO: dimension the head's left front edge to the mouth's left end point = 7 mm
+04:38:45    dimension 45: pre-filled '6.9547 mm' -> set 7
+04:39:05 ABOUT TO: dimension the mouth's right end 7 mm from the right front edge, and the centre line 12 mm above the bottom front edge (7+16+7=30 = the face width, so the mouth is centred)
+04:39:12    dimension 46: pre-filled '6.97583 mm' -> set 7
+04:39:19    dimension 47: pre-filled '12.1009 mm' -> set 12
+04:40:02    the mouth sketch is fully defined (all black): 7 mm from each side edge, 12 mm above the bottom edge, slot width O4, so the slot is 16 long and centred by construction
+04:40:02 ABOUT TO: make the slot's centre line construction geometry, so the slot is one region
+04:40:07    see 48-b-done-construction.png
+04:40:37 ABOUT TO: accept the mouth sketch, rename it 'Mouth profile', then arm Extrude on the slot region
+04:40:40    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Sketch 1', None]
+04:40:43       renamed 'Sketch 1' -> 'Mouth profile'
+04:40:46    param bodyType               val=None box=(245,108) text='Solid | Surface | Thin'
+04:40:46    param operationType          val=None box=(245,136) text='New | Add | Remove | Intersect'
+04:40:46    param entities               val=None box=(248,169) text='Faces and sketch regions to extrude | Face of Mouth profile | ×'
+04:40:46    param endBound               val='' box=(245,218) text='Blind'
+04:40:46    param oppositeDirection      val=None box=(439,218) text=''
+04:40:46    param depth                  val='25 mm' box=(245,246) text='Depth'
+04:40:46    param hasExtrudeDirection    val='on' box=(265,272) text='Direction'
+04:40:46    param startOffset            val='on' box=(265,299) text='Starting offset'
+04:40:46    param symmetric              val='on' box=(245,326) text='Symmetric'
+04:40:46    param hasDraft               val='on' box=(245,353) text='Draft'
+04:40:46    param hasSecondDirection     val='on' box=(265,381) text='Second end position'
+04:40:46    param defaultScope           val='on' box=(245,408) text='Merge with all'
+04:40:46    param booleanScope           val=None box=(248,440) text='Merge scope | Head | ×'
+04:41:07 ABOUT TO: extrude the mouth slot as Remove, 1.5 mm deep (the eyes stand 1.5 proud, so the mouth is cut 1.5 in; Shell later follows the pocket and keeps the wall 1.2 everywhere)
+04:41:08    param bodyType               val=None text='Solid | Surface | Thin'
+04:41:08    param operationType          val=None text='New | Add | Remove | Intersect'
+04:41:08    param entities               val=None text='Faces and sketch regions to extrude | Face of Mouth profile | ×'
+04:41:08    param endBound               val='' text='Blind'
+04:41:08    param oppositeDirection      val=None text=''
+04:41:08    param depth                  val='25 mm' text='Depth'
+04:41:08    param hasExtrudeDirection    val='on' text='Direction'
+04:41:08    param startOffset            val='on' text='Starting offset'
+04:41:08    param symmetric              val='on' text='Symmetric'
+04:41:08    param hasDraft               val='on' text='Draft'
+04:41:08    param hasSecondDirection     val='on' text='Second end position'
+04:41:08    param defaultScope           val='on' text='Merge with all'
+04:41:08    param booleanScope           val=None text='Merge scope | Head | ×'
+04:41:08       field depth read back '1.5'
+04:41:11    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Extrude 1', None]
+04:41:12 RESULT: parts=1 volume=34523.283093 (was 34523.283093; expect -114.85 = 34408.4)
+04:41:33 FINDING (again): a sketch on 'Face plane' extrudes AWAY from the head by default - the Remove took 0 mm3. Re-opening the extrude and flipping the direction.
+04:41:47    tree now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', None]
+04:42:11 FINDING: a Remove extrude that removes nothing is discarded from the tree the moment you press Escape - the same thing happened to the first eye. Rebuilding it with the flip set before OK.
+04:42:11 ABOUT TO: re-extrude the mouth: Remove, depth 1.5, direction flipped INTO the head
+04:42:15    entities: 'Faces and sketch regions to extrude | Face of Mouth profile | ×'
+04:42:16       field depth read back '1.5'
+04:42:19    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Extrude 1', None]
+04:42:20 RESULT: parts=1 volume=34523.283093 (was 34523.283093; expect -114.85 -> 34408.43)
+04:43:00    Head profile     OK
+04:43:00    Head body        OK
+04:43:00    Outline rounds   OK
+04:43:00    Face plane       OK
+04:43:00    Eye profile      OK
+04:43:00    Eye              OK
+04:43:00    Second eye       OK
+04:43:00    Mouth profile    OK
+04:43:00    Extrude 1        INFO
+04:43:22 ABOUT TO: open 'Extrude 1' (status INFO, 'tools and targets do not intersect') and flip the direction back, checking the banner before accepting
+04:43:26    banner text now: ['Intersect']
+04:43:54    with the direction back the way it started the preview cuts (no banner), so accepting
+04:43:57    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Extrude 1', None]
+04:43:57 RESULT: parts=1 volume=34408.433537 (was 34523.283093; expect -114.85 -> 34408.43)
+04:44:00       renamed 'Extrude 1' -> 'Mouth'
+04:44:00    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', None]
+04:44:17    rendered 52-x-face-front.png
+04:44:17    rendered 52-x-face-isometric.png
+04:44:17    rendered 52-x-face-bottom.png
+04:46:27 ABOUT TO: turn the camera to look at the underside (view cube arrow), for the boss and recess
+04:46:29    clicked the view cube's up arrow; see 53-x-view1.png
+04:46:54 ABOUT TO: click the underside face and press n (view normal to) so the recess sketch is drawn flat on
+04:46:58    see 53-a-select-bottom-face.png and 53-x-view-bottom.png
+04:47:43 FINDING: 'n' did not orient normal to the selected face in this build - it went back to Front. Starting the sketch on the preselected underside face instead and letting Onshape orient it.
+04:47:45    sketchPlane: 'Sketch plane\nFace of Head body\n×'
+04:48:15 ABOUT TO: tip the view cube once, then click its 'Bottom' facet so the sketch plane faces the camera
+04:48:20    see 54-x-view-bottom.png
+04:48:49 ABOUT TO: zoom in on the underside and calibrate px/mm for this camera
+04:48:52    silhouette = (480.0, 1438.0, 136.0, 716.0, 43350)
+04:48:52    958.0 px / 36 mm = 26.6111 px/mm ; 580.0 px / 30 mm = 19.3333 px/mm ; centre (959.0,426.0)
+04:49:24 CALIBRATION (bottom view): origin=(871.0,529.0) px, 12.45 px/mm, +x right, +y down
+04:49:24 ABOUT TO: draw the Ø12 boss circle on the underside, centred on the sketch origin
+04:50:15 CALIBRATION (bottom view): origin=(871.0,529.0) px, 12.45 px/mm, +x right, +y down
+04:50:15 ABOUT TO: draw the Ø12 boss circle on the underside, centred on the sketch origin
+04:50:26    dimension 56: pre-filled '11.77018 mm' -> set 12
+04:51:01 ABOUT TO: accept the boss sketch, then Extrude Remove the underside AROUND the Ø12 circle by 1 mm, so the boss stands 1 mm proud of a recessed underside
+04:51:07       renamed 'Sketch 1' -> 'Boss circle'
+04:51:11    entities: 'Faces and sketch regions to extrude | Face of Head body | ×'
+04:51:12       field depth read back '1'
+04:51:12    banner: []
+04:51:15    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Extrude 1', None]
+04:51:15 RESULT: parts=1 volume=34408.433537 (was 34408.433537; expect -959.177 -> 33449.257)
+04:51:35    Head profile     OK
+04:51:35    Head body        OK
+04:51:35    Outline rounds   OK
+04:51:35    Face plane       OK
+04:51:35    Eye profile      OK
+04:51:35    Eye              OK
+04:51:35    Second eye       OK
+04:51:35    Mouth profile    OK
+04:51:35    Mouth            OK
+04:51:35    Boss circle      OK
+04:51:36    volume=34408.433537 z -18.000..18.000
+04:52:15 FINDING: a sketch drawn ON a face cannot be picked as a region by clicking - Onshape hands you the coincident FACE instead, so the extrude took the whole underside and removed nothing. Hiding the part so only the sketch region is pickable.
+04:52:16    'Hide' rows: [[90, 554, 178, 22, 2], [125, 556, 135, 18, 0]]
+04:52:22    entities: 'Faces and sketch regions to extrude'
+04:53:15 FINDING: a lone circle gives no 'region between' - the outer boundary has to be in the sketch. Adding the brief's 40 x 34 rectangle around the Ø12 circle.
+04:53:31    dimension 59: pre-filled '39.90551 mm' -> set 40
+04:53:37    dimension 60: pre-filled '33.82733 mm' -> set 34
+04:54:16 ABOUT TO: with the part still hidden (so the region is unambiguous), extrude the ring between the rectangle and the Ø12 circle as Remove, 1 mm - that is the underside recess
+04:54:23    entities: 'Faces and sketch regions to extrude\nFace of Boss circle\n×'
+04:54:24       field depth read back '1'
+04:54:26    banner: []
+04:54:26    merge scope: 'Merge scope'
+04:54:28    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Extrude 1', None]
+04:54:29 RESULT: parts=1 volume=34408.433537 (was 34408.433537; expect -959.177 -> 33449.257)
+04:54:52 FINDING: hiding the part left the extrude's Merge scope EMPTY, and an empty merge scope is a silent no-op - exactly the trap the how-to warns about. Showing the part and ticking 'Merge with all'.
+04:54:53    'Show' rows: [[90, 776, 178, 22, 2], [125, 778, 135, 18, 0]]
+04:54:57    merge scope before: 'Merge scope'
+04:55:02 RESULT: parts=1 volume=33449.256539 (expect 33449.257)
+04:55:23       renamed 'Extrude 1' -> 'Neck recess'
+04:55:23 ABOUT TO: measure the z-step between the boss face and the recessed underside
+04:55:23    face x -76.200..  76.200 y   0.000..   0.000 z -76.200..  76.200 area=23225.760000
+04:55:23    face x   0.000..   0.000 y -76.200..  76.200 z -76.200..  76.200 area=23225.760000
+04:55:23    face x -76.200..  76.200 y -15.000.. -15.000 z -76.200..  76.200 area=23225.760000
+04:55:23    face x -18.000..  18.000 y   0.000..   0.000 z -18.000..  18.000 area=1156.938010
+04:55:23    face x -20.000..  20.000 y -17.000..  17.000 z -18.000.. -18.000 area=1246.902664
+04:55:23    face x  -6.000..   6.000 y  -6.000..   6.000 z -18.000.. -18.000 area=113.097336
+04:55:23    face x  -6.000..   6.000 y  -6.000..   6.000 z -18.000.. -18.000 area=113.097336
+04:55:23    face x -18.000..  18.000 y -15.000..  15.000 z -17.000.. -17.000 area=959.176998
+04:55:23    face x -15.000..  15.000 y  15.000..  15.000 z -17.000..  15.000 area=863.429174
+04:55:23    face x  18.000..  18.000 y -12.000..  12.000 z -17.000..   0.000 area=408.000000
+04:55:23    face x -18.000.. -18.000 y -12.000..  12.000 z -17.000..   0.000 area=408.000000
+04:55:23    face x -15.000..  15.000 y -15.000.. -15.000 z -17.000..  15.000 area=676.906783
+04:56:13 ABOUT TO: return to the Front view for the socket sketch
+04:56:16    view cube text: 'n/a'
+04:56:44    silhouette = (482.0, 972.0, 102.0, 624.0, 8288)
+04:56:44    490.0 px/36mm = 13.6111 px/mm ; 522.0 px/36mm = 14.5000 px/mm ; centre (727.0,363.0)
+04:57:13    thr=560: x 702..1042 (9.4444 px/mm)  y 354..692 (9.3889 px/mm)  centre (872.0,523.0)
+04:57:13    thr=620: x 702..1042 (9.4444 px/mm)  y 354..692 (9.3889 px/mm)  centre (872.0,523.0)
+04:57:47    silhouette = (534.0, 1418.0, 100.0, 958.0, 87685)
+04:58:33 CALIBRATION (front view, zoomed): origin=(871.0,427.0) px, 18.83 px/mm
+04:58:33 EXPECTATION, stated before measuring: the socket is built UPSIDE DOWN - the head sits on top of the ball, so the cavity must be ABOVE its mouth face at z=-18. Ball centre (0,0,-16.65), grip 1.35. I expect cavity volume 109.48 mm3 and mouth Ø5.803. If it comes out 27.776 mm3 the socket is the wrong way up.
+04:58:33 ABOUT TO: sketch the ball profile on the Front plane - centre point arc r3 about (0,-16.65), closed by a line on the revolve axis
+04:58:36    sketchPlane: 'Sketch plane\nFront plane\n×'
+04:59:49 ABOUT TO: dimension the ball profile - arc radius 3, then its position from the recessed underside edge (z=-17): the arc's lowest point sits 2.65 below it, putting the centre at z=-16.65
+04:59:54    dimension 64: pre-filled '3.03326 mm' -> set 3
+05:00:01    position dimension: pre-filled 2.4378 -> set 2.65 (arc-to-line min distance)
+05:01:05 FINDING: a distance dimension is unsigned - setting it to 2.65 flipped the ball profile to the WRONG SIDE of the underside edge (centre ended up at z=-11.3). Deleting it, dragging the profile back below the edge, then re-dimensioning.
+05:01:46 ABOUT TO: re-create the position dimension now that the profile is already in the right place, so the value does not have to move it (that is what flipped it last time)
+05:01:53    position dimension pre-filled '3.3285 mm' -> set 2.65
+05:02:26 FINDING: Onshape measured that dimension from the arc's TOP end point, not its lowest point. The number I want there is 3.35 (top end at z=-13.65, so the centre lands at z=-16.65).
+05:02:29       '2.65 mm' -> 3.35
+05:03:04 ABOUT TO: accept the ball profile, hide the head so the profile region is pickable (the head's front face is between the camera and the Front-plane sketch), then Revolve it as New
+05:03:10       renamed 'Sketch 1' -> 'Ball profile'
+05:03:16    param bodyType               val=None text='Solid | Surface | Thin'
+05:03:16    param operationType          val=None text='New | Add | Remove | Intersect'
+05:03:16    param entities               val=None text='Faces and sketch regions to revolve | Face of Ball profile | ×'
+05:03:16    param axis                   val=None text='Revolve axis'
+05:03:16    param fullRevolve            val='on' text='Full revolve'
+05:03:33 ABOUT TO: set the revolve axis to the profile's vertical line, New, full revolve
+05:03:36    axis: 'Revolve axis\nEdge of Ball profile\n×'
+05:03:38    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Revolve 1', None]
+05:03:39    part JHD 'Head' volume=33449.256539
+05:03:39    part JaD 'Part 2' volume=113.097336
+05:03:59 ABOUT TO: show the head again, rename the revolve, and find the Boolean tool
+05:04:04       renamed 'Revolve 1' -> 'Neck ball tool'
+05:04:04    toolbar command-ids: ['REDO_A_CHANGE', 'UNDO_A_CHANGE', 'USER_FEATURES', 'booleanBodies', 'cPlane', 'chamfer', 'deleteBodies', 'deleteFace', 'draft', 'externalThread', 'extrude', 'fillet', 'frame', 'hole', 'linearPattern', 'loft', 'mirror', 'modifyFillet', 'moveFace', 'newSketch', 'replaceFace', 'revolve', 'rib', 'sheetMetalStart', 'shell', 'splitPart', 'sweep', 'thicken', 'transform']
+05:04:04    boolean-ish: ['booleanBodies']
+05:04:22 ABOUT TO: Boolean -> Subtract the ball from the head with Offset all 0.2, Keep tools OFF (the head must stay one part)
+05:04:24    param operationType          val=None box=(245,108) text='Union | Subtract | Intersect'
+05:04:24    param tools                  val=None box=(248,141) text='Tools'
+05:04:24    param keepTools              val='on' box=(245,172) text='Keep tools'
+05:04:38 ABOUT TO: switch the Boolean to Subtract and fill Targets = Head, Tools = the ball
+05:04:40    param operationType          val=None box=(245,108) text='Union | Subtract | Intersect'
+05:04:40    param tools                  val=None box=(248,141) text='Tools'
+05:04:40    param targets                val=None box=(248,172) text='Targets'
+05:04:40    param offset                 val='on' box=(245,203) text='Offset'
+05:04:40    param keepTools              val='on' box=(245,230) text='Keep tools'
+05:05:01    tools: 'Tools\nPart 2\n×'
+05:05:02    targets: 'Targets\nHead\n×'
+05:05:02    checkboxes: [['offset', False], ['offset', False], ['keepTools', False], ['keepTools', False]]
+05:05:03    param operationType          val=None text='Union | Subtract | Intersect'
+05:05:03    param tools                  val=None text='Tools | Part 2 | ×'
+05:05:03    param targets                val=None text='Targets | Head | ×'
+05:05:03    param offset                 val='on' text='Offset'
+05:05:03    param offsetAll              val='on' text='Offset all'
+05:05:03    param entitiesToOffset       val=None text='Faces to offset'
+05:05:03    param offsetDistance         val='5 mm' text='Offset distance'
+05:05:03    param oppositeDirection      val=None text=''
+05:05:03    param reFillet               val='on' text='Reapply fillet'
+05:05:03    param keepTools              val='on' text='Keep tools'
+05:05:03    checkboxes: [['offset', True], ['offset', True], ['offsetAll', False], ['offsetAll', False], ['reFillet', False], ['reFillet', False], ['keepTools', False], ['keepTools', False]]
+05:05:33 ABOUT TO: tick 'Offset all', set Offset distance 0.2, leave 'Keep tools' OFF, accept
+05:05:34       field offsetDistance read back '0.2'
+05:05:35    checkboxes: [['offset', True], ['offset', True], ['offsetAll', True], ['offsetAll', True], ['reFillet', False], ['reFillet', False], ['keepTools', False], ['keepTools', False]]
+05:05:38    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Boolean 1', None]
+05:05:38    part JHD 'Head' volume=33449.256539
+05:05:38    part JaD 'Part 2' volume=113.097336
+05:05:38    EXPECTED (stated in advance): head 33339.774, i.e. 109.483 mm3 removed - the cavity is ABOVE the mouth face. 27.776 would mean it was built the wrong way up.
+05:05:56    Head profile       OK
+05:05:56    Head body          OK
+05:05:56    Outline rounds     OK
+05:05:56    Face plane         OK
+05:05:56    Eye profile        OK
+05:05:56    Eye                OK
+05:05:56    Second eye         OK
+05:05:56    Mouth profile      OK
+05:05:56    Mouth              OK
+05:05:56    Boss circle        OK
+05:05:56    Neck recess        OK
+05:05:56    Ball profile       OK
+05:05:56    Neck ball tool     OK
+05:06:51 FINDING: gui.ok() did not commit the Boolean - the dialog was still open afterwards, and the REST reads I trusted were of the uncommitted state. Clicking the green tick by coordinate.
+05:06:51    ns-dialog-button-ok boxes: [[409, 79, 28, 28]]
+05:06:54    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Boolean 1', None]
+05:06:54    part JHD 'Head' volume=33339.774522
+05:06:54    EXPECTED before measuring: head 33339.774 (109.483 mm3 cavity, ABOVE its mouth face)
+05:07:26       renamed 'Boolean 1' -> 'Neck socket'
+05:07:26 ABOUT TO: measure the socket - sphere radius and centre, and the boss face area (mouth Ø)
+05:07:27    sphere r=3.200000 centre (0.000, 0.000, -16.650) area=91.483178
+05:07:27    low plane x -6.000..6.000 z=-18.000 area=113.097336
+05:07:27    low plane x -20.000..20.000 z=-18.000 area=1246.902664
+05:07:27    low plane x -6.000..6.000 z=-18.000 area=86.652979
+05:07:27    -> socket mouth Ø = 5.8026 mm (brief: 5.803)
+05:07:56 ABOUT TO: tip the view so the recessed underside is visible, ready to pick it for Shell
+05:10:40 ABOUT TO: use the view-cube dropdown to go to Bottom, then tip it so the recess is pickable
+05:10:41    'Bottom' menu rows: []
+05:11:06 ABOUT TO: click the view-cube down arrow again to reach an underside view
+05:11:35 ABOUT TO: orbit with a middle-button drag to bring the recessed underside into view
+05:11:58 FINDING: middle-drag pans in this build; Onshape orbits on a right-button drag
+05:11:58 ABOUT TO: pan back down, then right-drag up to look at the underside
+05:13:34 
+05:13:34 === STEP 8: SHELL (brief's last step, thickness 1.2, opening the underside) ===
+05:13:34 EXPECTED before measuring (stated first, per the brief):
+05:13:34    - Shell succeeds and leaves Parts (1).
+05:13:34    - The socket cavity is NOT destroyed: shell offsets the sphere r3.2 outward to r4.4,
+05:13:34      so the cup survives as a 1.2 mm dome standing inside the hollow head. The socket
+05:13:34      therefore opens into the head's interior - there is no separate ceiling over it.
+05:13:34    - Eroded interior ~ (33.6 wide x 18 tall + half-disc r16.8) x 27.6 = 28927 mm3, less
+05:13:34      ~124 for the r1.8 eroded corners, plus/minus the eye bosses and the mouth pocket.
+05:13:34    - So head volume after Shell ~ 4.5 cm3, and I will accept 4.3-4.8 cm3 as agreeing.
+05:13:34 ABOUT TO: in Bottom view, pick the recessed underside face at (810,700) px
+05:13:36 ABOUT TO: open the Shell tool
+05:13:36    shell-ish command ids on the toolbar: ['thicken', 'shell']
+05:13:37    param isHollow               val='on' text='Hollow'
+05:13:37    param isHollow               val='on' text='Hollow'
+05:13:37    param entities               val=None text='Faces to remove | Face of Neck recess | ×'
+05:13:37    param entities               val=None text='Faces to remove | Face of Neck recess | ×'
+05:13:37    param thickness              val='2.5 mm' text='Shell thickness'
+05:13:37    param thickness              val='2.5 mm' text='Shell thickness'
+05:13:37    param oppositeDirection      val=None text=''
+05:13:37    param oppositeDirection      val=None text=''
+05:13:51    Shell picked up 'Face of Neck recess' - the recessed underside, which is the face the brief wants opened
+05:13:51 ABOUT TO: set shell thickness 2.5 -> 1.2 mm and look at the preview before committing
+05:13:51       field thickness read back '1.2'
+05:14:20    preview shows the recess face flagged for removal and a red ring at the boss step - committing to see the real status
+05:14:24    FEATURE STATE 'Shell 1' -> ERROR
+05:14:24    feature states: ['ERROR', 'OK']
+05:14:24    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Shell 1', None]
+05:14:24    Parts (1): ['Head']
+05:14:25    Head: volume=33339.774522 mm3
+05:14:40    'Shell 1' status=ERROR
+05:14:40    raw: {"featureStatus": "ERROR", "inactive": false}
+05:14:40    on-screen error text: ['Shell 1']
+05:16:13 ABOUT TO: hover the Shell 1 error badge to read Onshape's own message
+05:16:13    Shell 1 row at {'x': 39, 'y': 617, 'w': 200, 'h': 26}
+05:16:16    tooltip/text: 'Default geometry\nOrigin\nTop\nFront\nRight\nHead profile\nHead body\nOutline rounds\nFace plane\nEye profile\nEye\nSecond eye\nMouth profile\nMouth\nBoss circle\nNeck recess\nBall profile\nNeck ball tool\nNeck socket\nShell 1'
+05:16:16    tooltip/text: 'Features (19)\nDefault geometry\nOrigin\nTop\nFront\nRight\nHead profile\nHead body\nOutline rounds\nFace plane\nEye profile\nEye\nSecond eye\nMouth profile\nMouth\nBoss circle\nNeck recess\nBall profile\nNeck ball tool\nNeck socket\nShell 1'
+05:16:16    tooltip/text: 'Shell 1 did not regenerate properly: Could not shell part with selections.'
+05:16:16    tooltip/text: 'Features (19)\nDefault geometry\nOrigin\nTop\nFront\nRight\nHead profile\nHead body\nOutline rounds\nFace plane\nEye profile\nEye\nSecond eye\nMouth profile\nMouth\nBoss circle\nNeck recess\nBall profile\nNeck ball tool\nNeck socket\nShell 1\nParts (1)\nHead'
+05:16:16    tooltip/text: 'Sketch\nSearch tools… alt/⌥c\nFeatures (19)\nDefault geometry\nOrigin\nTop\nFront\nRight\nHead profile\nHead body\nOutline rounds\nFace plane\nEye profile\nEye\nSecond eye\nMouth profile\nMouth\nBoss circle\nNeck recess\nBall profile\nNeck ball tool\nNeck socket\nShell 1\nParts (1)\nHead\n \nPart Studio 1\nM\nAssembly 1'
+05:17:35 RESULT (order A, exactly as the brief writes it): Shell 1 -> ERROR
+05:17:35    Onshape's message: 'Shell 1 did not regenerate properly: Could not shell part with selections.'
+05:17:35    screenshot 72-e-shell-error-tooltip.png
+05:17:35 HYPOTHESIS: not a thickness problem. The removed face is the WHOLE underside except the
+05:17:35    Ø12 boss, so a 1.2 wall grown from the boss face and its 1 mm riser is an island: there
+05:17:35    is no material path from the boss out to the side walls. The shell would fall into two
+05:17:35    disconnected solids.
+05:17:35 TEST B: drop the thickness to 0.9 (under the 1.0 step). If the step were the problem this
+05:17:35    would pass; if the island is the problem it fails again.
+05:17:38       field thickness read back '0.9'
+05:17:44    TEST B result: not-OK features = [('Shell 1', 'ERROR')]
+05:18:05    TEST B verdict: 0.9 fails the same way, so the shell thickness is not what breaks it.
+05:18:05 TEST C: back to 1.2 and ALSO remove the boss face, so the underside opens right through
+05:18:05    the socket. Expect: it now shells (everything is one connected wall) but the socket
+05:18:05    cavity is gone - a hole straight through the boss.
+05:18:08       field thickness read back '1.2'
+05:18:10    faces to remove now: 'Faces to remove\nFace of Neck recess\n×\nFace of Head body\n×'
+05:18:14    TEST C result: not-OK features = [('Shell 1', 'ERROR')]
+05:18:14    Parts (1): ['Head']
+05:18:14    Head: volume=33339.774522 mm3
+05:18:45    TEST C verdict: still ERROR, so opening the boss face as well does not rescue it either.
+05:18:45 TEST D: put the face list back to the recess alone, then SUPPRESS 'Neck socket'.
+05:18:45    If Shell then passes, the spherical cavity is what Shell cannot offset.
+05:18:48    remove-chip buttons: [[436, 159, 20, 24], [436, 183, 20, 24]]
+05:18:49    faces to remove now: 'Faces to remove\nFace of Neck recess\n×'
+05:18:54    'Suppress' rows: [[90, 686, 193, 22, 1], [125, 688, 150, 18, 0]]
+05:18:58    TEST D result: not-OK features = [('Shell 1', 'ERROR')]
+05:19:40    TEST D verdict: still ERROR with the socket suppressed, so the spherical cavity is NOT
+05:19:40    what breaks it. Every variant that opens the recessed underside fails, which is what the
+05:19:40    island argument predicts.
+05:19:40 ABOUT TO: unsuppress 'Neck socket' and turn the model round to the back face
+05:19:42    menu row 'Unsuppress': [[90, 663, 172, 22, 1], [125, 665, 129, 18, 0]]
+05:20:26 DECISION: the head needs a floor under the neck boss, so the shell has to open somewhere
+05:20:26    else. Opening the BACK face keeps a floor that carries the boss and the socket, still
+05:20:26    hollows the head, and puts the opening on the side nobody looks at.
+05:20:26 ABOUT TO: edit Shell 1 - swap 'Face of Neck recess' for the back face (y=+15), 1.2 mm
+05:20:30    faces cleared -> 'Faces to remove'
+05:20:31    faces to remove now: 'Faces to remove\nFace of Head body\n×'
+05:20:31    thickness field: [{'id': 'isHollow', 'text': 'Hollow', 'val': 'on', 'x': 245, 'y': 108, 'w': 194, 'h': 27}, {'id': 'isHollow', 'text': 'Hollow', 'val': 'on', 'x': 245, 'y': 108, 'w': 194, 'h': 27}, {'id': 'entities', 'text': 'Faces to remove | Face of Head body | ×', 'val': None, 'x': 248, 'y': 140, 'w': 214, 'h': 44}, {'id': 'entities', 'text': 'Faces to remove | Face of Head body | ×', 'val': None, 'x': 248, 'y': 140, 'w': 214, 'h': 44}, {'id': 'thickness', 'text': 'Shell thickness', 'val': '1.2 mm', 'x': 245, 'y': 189, 'w': 194, 'h': 26}, {'id': 'thickness', 'text': 'Shell thickness', 'val': '1.2 mm', 'x': 245, 'y': 189, 'w': 194, 'h': 26}, {'id': 'oppositeDirection', 'text': '', 'val': None, 'x': 439, 'y': 189, 'w': 26, 'h': 26}, {'id': 'oppositeDirection', 'text': '', 'val': None, 'x': 439, 'y': 189, 'w': 26, 'h': 26}]
+05:20:35    result: not-OK features = []
+05:20:36    Parts (1): ['Head']
+05:20:36    Head: volume=5809.284630 mm3
+05:21:45 RESULT: Shell 1 regenerates. Head volume=5809.284630 mm3, Parts (1). 74-c-back-shell-done.png
+05:21:45 ABOUT TO: rename Shell 1 -> 'Head shell', then go back to Bottom and zoom on the boss
+05:21:48       renamed 'Shell 1' -> 'Head shell'
+05:22:22 ABOUT TO: chamfer the boss rim (the brief asks for it: 'once contact is rim-on-face rather
+05:22:22    than plate-on-plate, a small area carries the stop'). 0.5 mm on a 1.0 mm step.
+05:22:35    toolbar command ids: [['UNDO_A_CHANGE', 42, 42, 32, 32], ['REDO_A_CHANGE', 76, 42, 32, 32], ['newSketch', 114, 42, 82, 32], ['extrude', 202, 42, 32, 32], ['revolve', 236, 42, 32, 32], ['sweep', 270, 42, 32, 32], ['loft', 304, 42, 32, 32], ['thicken', 338, 42, 32, 32], ['fillet', 394, 42, 32, 32], ['chamfer', 446, 42, 32, 32], ['draft', 480, 42, 32, 32], ['rib', 532, 42, 32, 32], ['shell', 566, 42, 32, 32], ['hole', 600, 42, 32, 32], ['externalThread', 634, 42, 32, 32], ['linearPattern', 672, 42, 32, 32], ['mirror', 724, 42, 32, 32], ['booleanBodies', 762, 42, 32, 32], ['splitPart', 796, 42, 32, 32], ['transform', 830, 42, 32, 32], ['deleteBodies', 882, 42, 32, 32], ['modifyFillet', 920, 42, 32, 32], ['deleteFace', 954, 42, 32, 32], ['moveFace', 988, 42, 32, 32], ['replaceFace', 1022, 42, 32, 32], ['cPlane', 1060, 42, 32, 32], ['frame', 1116, 42, 32, 32], ['sheetMetalStart', 1172, 42, 32, 32], ['USER_FEATURES', 1228, 42, 32, 32]]
+05:22:48    CALIBRATION: 'chamfer' is its own toolbar button here, not a member of the fillet group
+05:22:49    param entities               val=None text='Entities to chamfer'
+05:22:49    param chamferMethod          val='' text='Measurement | Offset'
+05:22:49    param chamferType            val='' text='Chamfer type | Distance and angle'
+05:22:49    param width                  val='2 mm' text='Distance'
+05:22:49    param oppositeDirection      val=None text=''
+05:22:49    param angle                  val='45 deg' text='Angle'
+05:22:49    param directionOverrides     val=None text='Direction overrides'
+05:22:49    param tangentPropagation     val='on' text='Tangent propagation'
+05:22:50    entities now: 'Entities to chamfer\nEdge of Neck recess\n×'
+05:23:06    picked 'Edge of Neck recess' = the Ø12 boss rim. Distance 2 -> 0.5 mm at 45 deg.
+05:23:06       field width read back '0.5'
+05:23:11    not-OK features = []
+05:23:11    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Chamfer 1']
+05:23:12    Parts(1) Head: volume=5804.703141 mm3
+05:23:15       renamed 'Chamfer 1' -> 'Boss rim chamfer'
+05:24:33 ABOUT TO: acceptance measurements - tight bounding box and every face of the finished part
+05:24:33    tight box: x -76.200000..76.200000 (152.400000)  y -76.200000..76.200000 (152.400000)  z -76.200000..76.200000 (152.400000)
+05:24:56    (the first box read 152.4 cubed - qEverything(BODY) had picked up the datum plane; using BodyType.SOLID)
+05:24:56    tight box of the solid: x -18.000000..18.000000 (36.000000)  y -16.500000..15.000000 (31.500000)  z -18.000000..18.000000 (36.000000)
+05:24:56    FACES script failed: {"console": "", "notices": [{"type": 227, "typeName": "BTNotice", "message": {"level": "ERROR", "type": "EXECUTION", "message": "Can not divide undefined and ValueWithUnits (map).", "stackTrace": [{"type": 226, "typeName": "BTLocationInfo", "message": {"document": "e6f35e31754f2ac17c4d11ca", "version": "465f6f0c3e1b3525d4b6c2f9", "topLevel": "main", "parseNodeId": "PKz84rrUT3g2v2xjj", "character": 0, "line": 0, "column": 0, "endCharacter": 0, "endLine": 0, "endColumn": 0, "languageVersion": 0, "moduleIds": {"type": 0}, "elementMicroversion": "465f6f0c3e1b3525d4b6c2f9", "nodeId": "d2LKin8dfRhOTjlo"}}, {"type": 226, "typeName": "BTLocationInfo", "message": {"document": "e6f35e31754f2ac17c4d11ca", "version": "465f6f0c3e1b3525d4b6c2f9", "topLevel": "", "parseNodeId": "PaUCxE81dOM/GI5OV", "character": 0, "line": 0, "column": 0, "endCharacter": 0, "endLine": 0, "endColumn": 0, "languageVersion
+05:25:15    (the first box read 152.4 cubed - qEverything(BODY) had picked up the datum plane; using BodyType.SOLID)
+05:25:15    tight box of the solid: x -18.000000..18.000000 (36.000000)  y -16.500000..15.000000 (31.500000)  z -18.000000..18.000000 (36.000000)
+05:25:15    51 faces on the solid:
+05:25:15       CYL area=1266.690157927405 r=16.8 ax=(-0,1,-0) o=(0,-15,1.102182119232618e-15)
+05:25:15       CYL area=1357.1680263507906 r=18.000000000000004 ax=(-0,1,-0) o=(0,-15,1.102182119232618e-15)
+05:25:15       CYL area=15.079644737231002 r=3.1999999999999997 ax=(0,-1,0) o=(-8.000000000000007,-13.5,-6.000000000000002)
+05:25:15       CYL area=15.079644737231002 r=3.1999999999999997 ax=(0,-1,0) o=(8.000000000000004,-13.5,-6.000000000000002)
+05:25:15       CYL area=18.849555921538776 r=5.999999999999999 ax=(9.637352644315595e-17,0,-1) o=(1.6383499495336512e-15,-3.6739403974420594e-16,-17)
+05:25:15       CYL area=30.159289474462035 r=4.8 ax=(9.637352644315595e-17,0,-1) o=(1.6383499495336512e-15,-3.6739403974420594e-16,-17)
+05:25:15       CYL area=44.67344753404685 r=1.8000000000000003 ax=(-1.9274705288631186e-16,0,1) o=(15.000000000000002,12,-5.78241158658936e-16)
+05:25:15       CYL area=44.673447534046865 r=1.8000000000000003 ax=(0,0,1) o=(-15.000000000000007,-12,-9.000000000000004)
+05:25:15       CYL area=44.67344753404687 r=1.8000000000000003 ax=(0,0,-1) o=(-15.000000000000007,12,-3.469446951953614e-15)
+05:25:15       CYL area=44.6734475340469 r=1.8000000000000003 ax=(1.9274705288631186e-16,0,-1) o=(15.000000000000004,-12,-9)
+05:25:15       CYL area=56.54866776461627 r=15.000000000000004 ax=(0,-1,0) o=(0,15,1.102182119232618e-15)
+05:25:15       CYL area=80.11061266653974 r=3 ax=(-1.9274705288631186e-16,0,1) o=(15.000000000000002,12,-5.78241158658936e-16)
+05:25:15       CYL area=80.11061266653974 r=3 ax=(0,0,1) o=(-15.000000000000007,-12,-9.000000000000004)
+05:25:15       CYL area=80.11061266653975 r=3 ax=(1.9274705288631186e-16,0,-1) o=(15.000000000000004,-12,-9)
+05:25:15       CYL area=80.11061266653978 r=3 ax=(0,0,-1) o=(-15.000000000000007,12,-3.469446951953614e-15)
+05:25:15       CYL area=9.424777960769378 r=2 ax=(0,-1,0) o=(-8.000000000000007,-13.5,-6.000000000000002)
+05:25:15       CYL area=9.424777960769378 r=2 ax=(0,-1,0) o=(8.000000000000004,-13.5,-6.000000000000002)
+05:25:15       OTHER-ANALYTIC area=143.4184196123373
+05:25:15       OTHER-ANALYTIC area=143.4184196123373
+05:25:15       OTHER-ANALYTIC area=25.546576894410624
+05:25:15       OTHER-ANALYTIC area=250.34043290681873
+05:25:15       OTHER-ANALYTIC area=250.34043290681873
+05:25:15       OTHER-ANALYTIC area=29.058037256514467
+05:25:15       OTHER-ANALYTIC area=29.05803725651448
+05:25:15       OTHER-ANALYTIC area=40.36776934411391
+05:25:15       OTHER-ANALYTIC area=40.36776934411394
+05:25:15       PLANE area=11.631746799916217 n=(-9.637352644315595e-17,0,1) d=-16.8
+05:25:15       PLANE area=134.56990877275953 n=(0,1,0) d=-12.3
+05:25:15       PLANE area=18.959999999999997 n=(1,0,0) d=-15.000000000000007
+05:25:15       PLANE area=18.96 n=(-1,-0,-1.9274705288631186e-16) d=-15.000000000000002
+05:25:15       PLANE area=24.00000000000001 n=(0,0,-1) d=4.000000000000002
+05:25:15       PLANE area=24.00000000000001 n=(0,0,-1) d=9.200000000000001
+05:25:15       PLANE area=24.00000000000001 n=(0,0,1) d=-2.800000000000002
+05:25:15       PLANE area=24.00000000000001 n=(0,0,1) d=-8.000000000000002
+05:25:15       PLANE area=27.20756712037657 n=(0,1,0) d=-15.3
+05:25:15       PLANE area=27.207567120376574 n=(0,1,0) d=-15.3
+05:25:15       PLANE area=36.00000000000001 n=(0,1,0) d=15
+05:25:15       PLANE area=379.20000000000005 n=(-1,-0,-1.9274705288631186e-16) d=-16.8
+05:25:15       PLANE area=379.20000000000005 n=(1,0,0) d=-16.800000000000004
+05:25:15       PLANE area=408 n=(-1,0,0) d=18.000000000000007
+05:25:15       PLANE area=408.0000000000001 n=(1,0,1.9274705288631186e-16) d=18.000000000000004
+05:25:15       PLANE area=54.97788704083715 n=(0,-1,0) d=16.5
+05:25:15       PLANE area=54.97788704083718 n=(0,-1,0) d=16.5
+05:25:15       PLANE area=638.4441305153395 n=(0,1,0) d=-13.799999999999999
+05:25:15       PLANE area=676.9067832319839 n=(0,-1,0) d=15
+05:25:15       PLANE area=68.58882160949915 n=(9.637352644315595e-17,0,-1) d=18.000000000000004
+05:25:15       PLANE area=76.56637061435922 n=(0,-1,0) d=13.5
+05:25:15       PLANE area=888.1964654589223 n=(-9.637352644315595e-17,0,1) d=-15.8
+05:25:15       PLANE area=959.176998353076 n=(9.637352644315595e-17,0,-1) d=17
+05:25:15       SPH area=125.7893698497353 r=4.3999999999999995 c=(1.8369701987210307e-16,0,-16.650000000000002)
+05:25:15       SPH area=91.48317807253477 r=3.1999999999999993 c=(1.8369701987210307e-16,0,-16.650000000000002)
+05:26:52    51 faces with boxes:
+05:26:52       CYL r=1.8 | area=44.673 | box x -16.8..-15 y -13.8..-12 z -15.8..0
+05:26:52       CYL r=1.8 | area=44.673 | box x -16.8..-15 y 12..13.8 z -15.8..0
+05:26:52       CYL r=1.8 | area=44.673 | box x 15..16.8 y -13.8..-12 z -15.8..0
+05:26:52       CYL r=1.8 | area=44.673 | box x 15..16.8 y 12..13.8 z -15.8..0
+05:26:52       CYL r=15 | area=56.549 | box x -15..15 y 13.8..15 z 0..15
+05:26:52       CYL r=16.8 | area=1266.69 | box x -16.8..16.8 y -12..12 z 0..16.8
+05:26:52       CYL r=18 | area=1357.168 | box x -18..18 y -12..12 z 0..18
+05:26:52       CYL r=2 | area=9.425 | box x -10..-8 y -15..-13.5 z -8..-4
+05:26:52       CYL r=2 | area=9.425 | box x 8..10 y -15..-13.5 z -8..-4
+05:26:52       CYL r=3 | area=80.111 | box x -18..-15 y -15..-12 z -17..0
+05:26:52       CYL r=3 | area=80.111 | box x -18..-15 y 12..15 z -17..0
+05:26:52       CYL r=3 | area=80.111 | box x 15..18 y -15..-12 z -17..0
+05:26:52       CYL r=3 | area=80.111 | box x 15..18 y 12..15 z -17..0
+05:26:52       CYL r=3.2 | area=15.08 | box x -11.2..-8 y -13.8..-12.3 z -9.2..-2.8
+05:26:52       CYL r=3.2 | area=15.08 | box x 8..11.2 y -13.8..-12.3 z -9.2..-2.8
+05:26:52       CYL r=4.8 | area=30.159 | box x -4.8..4.8 y -4.8..4.8 z -16.8..-15.8
+05:26:52       CYL r=6 | area=18.85 | box x -6..6 y -6..6 z -17.5..-17
+05:26:52       OTHER | area=143.418 | box x -16.8..16.8 y -13.8..-12 z 0..16.8
+05:26:52       OTHER | area=143.418 | box x -16.8..16.8 y 12..13.8 z 0..16.8
+05:26:52       OTHER | area=25.547 | box x -6..6 y -6..6 z -18..-17.5
+05:26:52       OTHER | area=250.34 | box x -18..18 y -15..-12 z 0..18
+05:26:52       OTHER | area=250.34 | box x -18..18 y 12..15 z 0..18
+05:26:52       OTHER | area=29.058 | box x -11.8..-4.2 y -15.3..-13.8 z 3.7..8.3
+05:26:52       OTHER | area=29.058 | box x 4.2..11.8 y -15.3..-13.8 z 3.7..8.3
+05:26:52       OTHER | area=40.368 | box x -13..-3 y -16.5..-15 z 2.5..9.5
+05:26:52       OTHER | area=40.368 | box x 3..13 y -16.5..-15 z 2.5..9.5
+05:26:52       PLANE n=(-1,0,0) | area=18.96 | box x 15..15 y 13.8..15 z -15.8..0
+05:26:52       PLANE n=(-1,0,0) | area=379.2 | box x 16.8..16.8 y -12..12 z -15.8..0
+05:26:52       PLANE n=(-1,0,0) | area=408 | box x -18..-18 y -12..12 z -17..0
+05:26:52       PLANE n=(0,-1,0) | area=54.978 | box x -13..-3 y -16.5..-16.5 z 2.5..9.5
+05:26:52       PLANE n=(0,-1,0) | area=54.978 | box x 3..13 y -16.5..-16.5 z 2.5..9.5
+05:26:52       PLANE n=(0,-1,0) | area=676.907 | box x -15..15 y -15..-15 z -17..15
+05:26:52       PLANE n=(0,-1,0) | area=76.566 | box x -10..10 y -13.5..-13.5 z -8..-4
+05:26:52       PLANE n=(0,0,-1) | area=24 | box x -8..8 y -13.8..-12.3 z -9.2..-9.2
+05:26:52       PLANE n=(0,0,-1) | area=24 | box x -8..8 y -15..-13.5 z -4..-4
+05:26:52       PLANE n=(0,0,-1) | area=68.589 | box x -5.5..5.5 y -5.5..5.5 z -18..-18
+05:26:52       PLANE n=(0,0,-1) | area=959.177 | box x -18..18 y -15..15 z -17..-17
+05:26:52       PLANE n=(0,0,1) | area=11.632 | box x -4.8..4.8 y -4.8..4.8 z -16.8..-16.8
+05:26:52       PLANE n=(0,0,1) | area=24 | box x -8..8 y -13.8..-12.3 z -2.8..-2.8
+05:26:52       PLANE n=(0,0,1) | area=24 | box x -8..8 y -15..-13.5 z -8..-8
+05:26:52       PLANE n=(0,0,1) | area=888.196 | box x -16.8..16.8 y -13.8..15 z -15.8..-15.8
+05:26:52       PLANE n=(0,1,0) | area=134.57 | box x -11.2..11.2 y -12.3..-12.3 z -9.2..-2.8
+05:26:52       PLANE n=(0,1,0) | area=27.208 | box x -11.8..-4.2 y -15.3..-15.3 z 3.7..8.3
+05:26:52       PLANE n=(0,1,0) | area=27.208 | box x 4.2..11.8 y -15.3..-15.3 z 3.7..8.3
+05:26:52       PLANE n=(0,1,0) | area=36 | box x -15..15 y 15..15 z -17..-15.8
+05:26:52       PLANE n=(0,1,0) | area=638.444 | box x -15..15 y -13.8..-13.8 z -15.8..15
+05:26:52       PLANE n=(1,0,0) | area=18.96 | box x -15..-15 y 13.8..15 z -15.8..0
+05:26:52       PLANE n=(1,0,0) | area=379.2 | box x -16.8..-16.8 y -12..12 z -15.8..0
+05:26:52       PLANE n=(1,0,0) | area=408 | box x 18..18 y -12..12 z -17..0
+05:26:52       SPH r=3.2 | area=91.483 | box x -3.2..3.2 y -3.2..3.2 z -18..-13.45
+05:26:52       SPH r=4.4 | area=125.789 | box x -4.4..4.4 y -4.4..4.4 z -16.8..-12.25
+05:28:05 ABOUT TO: render the finished part alone (partId JHD) from five directions
+05:28:09    76-final-front.png
+05:28:09    76-final-isometric.png
+05:28:09    76-final-right.png
+05:28:09    76-final-bottom.png
+05:28:09    76-final-back.png
+05:30:03 ABOUT TO: publish a named version through the GUI (document menu)
+05:30:05    menu rows: [['Rename document', 140, 45], ['Move to…', 140, 72], ['Document details…', 140, 99], ['Restore deleted workspaces…', 140, 126], ['Copy workspace…', 140, 168], ['Update workspace…', 140, 195], ['Workspace units…', 140, 222], ['Workspace properties…', 140, 249], ['Print…', 140, 291], ['Close document', 140, 333], ['Sketch\nSearch tools… alt/⌥c', 40, 40], ['Sketch', 110, 40], ['Features (20)', 39, 77], ['Default geometry', 39, 97], ['Origin', 39, 123], ['Top', 39, 149], ['Front', 39, 175], ['Right', 39, 201], ['Head profile', 39, 227], ['Head body', 39, 253], ['Outline rounds', 39, 279], ['Face plane', 39, 305], ['Eye profile', 39, 331], ['Eye', 39, 357], ['Second eye', 39, 383], ['Mouth profile', 39, 409], ['Mouth', 39, 435], ['Boss circle', 39, 461], ['Neck recess', 39, 487], ['Ball profile', 39, 513], ['Neck ball tool', 39, 539], ['Neck socket', 39, 565], ['Head shell', 39, 591], ['Boss rim chamfer', 39, 617], ['Parts (1)\nHead', 39, 657], ['Parts (1)', 39, 657], ['Head', 39, 683]]
+05:30:32    left rail buttons: [['Versions and history', 0, 41, 39, 31], ['Create version…', 0, 76, 39, 31], ['Comments', 0, 111, 39, 31], ['Document notes', 0, 146, 39, 31], ['Performance errors detected', 0, 181, 39, 31], ['AI Advisor', 0, 216, 39, 31], ['Action items', 0, 252, 39, 31], ['Tab manager (alt/⌥+t)', 0, 969, 39, 31], ['Undo (cmd+z/ctrl+z)', 42, 42, 32, 32], ['Head profile [Sketch] (Hidden)', 39, 227, 200, 26], ['Head body [Extrude] &lt;- Head profile [Sketch]', 39, 253, 200, 26], ['Outline rounds [Fillet]', 39, 279, 200, 26], ['Face plane', 39, 305, 200, 26], ['Eye profile [Sketch] (Hidden)', 39, 331, 200, 26], ['Eye [Extrude] &lt;- Eye profile [Sketch]', 39, 357, 200, 26], ['Second eye [Mirror]', 39, 383, 200, 26], ['Mouth profile [Sketch] (Hidden)', 39, 409, 200, 26], ['Mouth [Extrude] &lt;- Mouth profile [Sketch]', 39, 435, 200, 26], ['Boss circle [Sketch] (Hidden)', 39, 461, 200, 26], ['Neck recess [Extrude] &lt;- Boss circle [Sketch]', 39, 487, 200, 26], ['Ball profile [Sketch] (Hidden)', 39, 513, 200, 26], ['Neck ball tool [Revolve] &lt;- Ball profile [Sketch]', 39, 539, 200, 26], ['Neck socket [Boolean]', 39, 565, 200, 26], ['Head shell', 39, 591, 200, 26], ['Boss rim chamfer', 39, 617, 200, 26], ['Rollback bar', 44, 652, 190, 7], ['Head', 39, 683, 200, 26], ['Insert new tab', 40, 970, 34, 30]]
+05:31:28    2 visible inputs in the version dialog
+05:31:28       input[0] value='V1' box={'x': 331.328125, 'y': 83.5, 'width': 300, 'height': 34}
+05:31:28       input[1] value='' box={'x': 78, 'y': 84, 'width': 158, 'height': 30}
+05:31:28    version name field now 'head v1 - face, neck socket, shell'
+05:31:49    dialog buttons: [['Create', 832, 305, 64, 33], ['Cancel', 1144, 305, 65, 33]]
+05:31:53    version 'Start' id=190288824e6271f9cd23f763 created=2026-08-13T04:20:53.427+00:00
+05:31:53    version 'head v1 - face, neck socket, shell' id=e8ac2fd35a4b025bb57a0708 created=2026-08-13T09:31:49.834+00:00
+05:32:21 
+05:32:21 ORDER EXPERIMENT: the brief says 'Report what breaks if you shell earlier'.
+05:32:21 ABOUT TO: drag 'Head shell' up the tree to sit before 'Boss circle', i.e. shell the plain
+05:32:21    head first and then try to add the boss, the recess and the socket into a 1.2 mm wall.
+05:32:21    order before: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Boss rim chamfer']
+05:32:21    dragging row at y=591 to y=461
+05:32:28    order after:  ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Head shell', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Boss rim chamfer']
+05:32:28    not-OK features = []
+05:32:51 RESULT of shelling early: every feature still regenerates - nothing goes red. Measuring what it actually made:
+05:32:52    Parts(1) Head: volume=4802.429163 mm3
+05:32:52       CYL r=1.8 | area=47.501 | z -16.8..0 | x -16.8..-15
+05:32:52       CYL r=1.8 | area=47.501 | z -16.8..0 | x -16.8..-15
+05:32:52       CYL r=1.8 | area=47.501 | z -16.8..0 | x 15..16.8
+05:32:52       CYL r=1.8 | area=47.501 | z -16.8..0 | x 15..16.8
+05:32:52       CYL r=3 | area=80.111 | z -17..0 | x -18..-15
+05:32:52       CYL r=3 | area=80.111 | z -17..0 | x -18..-15
+05:32:52       CYL r=3 | area=80.111 | z -17..0 | x 15..18
+05:32:52       CYL r=3 | area=80.111 | z -17..0 | x 15..18
+05:32:52       CYL r=6 | area=18.85 | z -17.5..-17 | x -6..6
+05:32:52       OTHER | area=25.547 | z -18..-17.5 | x -6..6
+05:32:52       PLANE n=(-1,0,0) | area=20.16 | z -16.8..0 | x 15..15
+05:32:52       PLANE n=(-1,0,0) | area=403.2 | z -16.8..0 | x 16.8..16.8
+05:32:52       PLANE n=(-1,0,0) | area=408 | z -17..0 | x -18..-18
+05:32:52       PLANE n=(0,-1,0) | area=676.907 | z -17..15 | x -15..15
+05:32:52       PLANE n=(0,0,-1) | area=68.589 | z -18..-18 | x -5.5..5.5
+05:32:52       PLANE n=(0,0,-1) | area=959.177 | z -17..-17 | x -18..18
+05:32:52       PLANE n=(0,0,1) | area=928.48 | z -16.8..-16.8 | x -16.8..16.8
+05:32:52       PLANE n=(0,1,0) | area=6 | z -17..-16.8 | x -15..15
+05:32:52       PLANE n=(0,1,0) | area=668.444 | z -16.8..15 | x -15..15
+05:32:52       PLANE n=(1,0,0) | area=20.16 | z -16.8..0 | x -15..-15
+05:32:52       PLANE n=(1,0,0) | area=403.2 | z -16.8..0 | x -16.8..-16.8
+05:32:52       PLANE n=(1,0,0) | area=408 | z -17..0 | x 18..18
+05:32:52       SPH r=3.2 | area=24.127 | z -18..-16.8 | x -3.2..3.2
+05:32:54    renders 78-early-bottom.png, 78-early-isometric.png
+05:33:28    shell-early volume 4802.429163 mm3 (against 5804.703141 with the shell last)
+05:33:28    FINDING: shelling early does NOT go red. It silently ruins the neck:
+05:33:28      - inner floor lands at z=-16.8 (1.2 above the ORIGINAL bottom z=-18), then the recess
+05:33:28        cuts the outside down to z=-17, leaving a floor 0.200 mm thick;
+05:33:28      - the socket sphere face is down to area 24.127 mm2 (from 91.483) and its box stops at
+05:33:28        z=-16.8: the cavity has broken through the floor, so the socket is a hole, not a cup.
+05:33:28 ABOUT TO: undo the reorder and check the part is back to the published state
+05:33:33    order now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Boss rim chamfer']
+05:33:33    Parts(1) Head: volume=5804.703141 mm3
+05:34:28 === ACCEPTANCE CHECKS on the finished part (version 'head v1 - face, neck socket, shell') ===
+05:34:28    Parts (1)                     'Head', partId JHD                                   PASS
+05:34:28    36.000 across                 tight box x -18.000000..18.000000                    PASS
+05:34:28    36.000 tall                   tight box z -18.000000..18.000000                    PASS
+05:34:28    (box y is -16.500..15.000 = 31.500 because the eyes stand 1.5 proud; the head body itself is 30 deep)
+05:34:28    top lands at 150              arithmetic on the plan's stations, not an assembly measurement:
+05:34:28                                  head centre z=+48, so top = 48+18 = 66; ground z=-84; 66-(-84) = 150  PASS
+05:34:28    underside recessed            boss face plane z=-18.000 (area 68.589 after the chamfer);
+05:34:28                                  recessed underside plane z=-17.000 (area 959.177)
+05:34:28                                  z-step = 1.000 mm                                    PASS (non-zero)
+05:34:28    socket mouth Ø5.803           boss face area before the chamfer 86.652979 -> Ø 5.8026   PASS
+05:34:28    cavity 109.48 mm3             volume fell 33449.256539 -> 33339.774522 = 109.482017    PASS
+05:34:28                                  (expectation was logged BEFORE the measurement, at 05:06)
+05:34:28    shell 1.200 at three places   floor      outer z=-17.000  inner z=-15.800   -> 1.200
+05:34:28                                  front wall outer y=-15.000  inner y=-13.800   -> 1.200
+05:34:28                                  NEXT TO A CUT: mouth floor y=-13.500, wall behind it y=-12.300 -> 1.200
+05:34:28                                  (also: sides x=18.000/16.800; top arc r18/r16.8; corner rounds r3/r1.8;
+05:34:28                                   behind each eye y=-16.500/-15.300; around the socket sphere r3.2/r4.4)  PASS
+05:34:28    profile tangent throughout    'Head profile' carries 2 TANGENT constraints (arc-to-left-line,
+05:34:28                                  arc-to-right-line) and is fully defined; in the solid the top surface is
+05:34:28                                  CYL r=18.000 about the y axis through z=0 and the sides are PLANE x=+/-18.000,
+05:34:28                                  which is the tangency condition exactly. Renders 76-final-front/right/
+05:34:28                                  isometric show no crease.                            PASS
+05:34:28    thinnest wall anywhere        1.200 mm, and it is 1.200 in every place the shell sets it (list above).
+05:34:28                                  Nothing measured thinner. The tightest MATERIAL section that is not a shell
+05:34:28                                  wall is the socket collar: 2.599 mm of rim at z=-18 between the mouth
+05:34:28                                  (r 2.9013) and the chamfered boss edge (r 5.500).
+05:34:28    NOT A WALL BUT WORTH SAYING   the shell leaves a 0.400 mm wide, 1.000 mm deep annular slot inside the boss,
+05:34:28                                  between the dome over the socket (r 4.400) and the boss's inner wall
+05:34:28                                  (CYL r 4.800, z -16.800..-15.800). A 0.4 mm slot will not print.
+05:34:28    head volume                   5804.703141 mm3 solid (34358.772253 before any of tonight's work,
+05:34:28                                  33339.774522 solid-with-socket, so the shell removes 27535 mm3 = 83%)
+05:35:03 ABOUT TO: open the version link in my own page and check it loads
+05:35:12    version link title='head-run3 | Part Studio 1' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/v/e8ac2fd35a4b025bb57a0708/e/e6f35e31754f2ac17c4d11ca
+05:35:13 ABOUT TO: go back to the live workspace link
+05:35:22    workspace link title='head-run3 | Part Studio 1' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f2ac17c4d11ca
+05:35:22    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Boss rim chamfer']
+05:37:01 
+05:37:01 ABOUT TO: answer the brief's question 'does Tangent hold the chain when you drag it'.
+05:37:01    Opening 'Head profile' for edit, going Front, then trying to drag the top arc sideways.
+05:37:10    status text on screen: []
+05:37:35    RESULT: every curve in 'Head profile' draws BLACK - the sketch is fully defined, so the
+05:37:35    drag moved nothing at all (80-a-profile-open.png, 80-b-after-drag.png). There is no
+05:37:35    freedom left for a drag to test. Tangency is held by two real TANGENT constraints, not
+05:37:35    by eye, and the R18 and 18 dimensions are the only driving numbers in the profile.
+05:37:35 ABOUT TO: cancel the sketch edit (red X) so the workspace matches the published version
+05:37:38    tree: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Boss circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Boss rim chamfer']
+05:37:38    Parts(1) Head: volume=5804.703141 mm3
+05:40:39 === CLOSE ===
+05:40:39    Version published: 'head v1 - face, neck socket, shell' id=e8ac2fd35a4b025bb57a0708
+05:40:39    Version link:   https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/v/e8ac2fd35a4b025bb57a0708/e/e6f35e31754f2ac17c4d11ca
+05:40:39    Workspace link: https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f2ac17c4d11ca
+05:40:39    Both opened in my own page and confirmed loading (79-a, 79-b).
+05:40:39    Workspace re-read after the order experiment was undone: same 21 tree rows, 5804.703141 mm3.
+05:40:39    The document also carried an older version 'Start' (190288824e6271f9cd23f763, 04:20 UTC) that
+05:40:39    predates both agents; the takeover brief said there was no version.
+05:40:39    build-notes.md written to .docs/experiments/runs/2026-08-12-run3/head/.
+05:40:39    Nothing was committed to git - nobody asked for that.
+05:40:39    Pages: I created and used exactly one, HEAD2_RUN3_9C2F41. The predecessor's HEAD_RUN3_7Q4XZ was
+05:40:39    never touched. No page was closed, the context and browser were left open, 9223 only.
