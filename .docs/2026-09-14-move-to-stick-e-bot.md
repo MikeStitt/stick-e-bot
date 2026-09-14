@@ -99,11 +99,44 @@ new repository — it comes out with the file.
   completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
 - **`tools/check_spelling.py`** carries `sponge` in its dictionary or its docstring.
 
+## Phase 3.5 — re-root, and prove the new root before trusting it
+
+**Start a Claude Code session whose working directory is `stick-e-bot`, and do everything after
+this from there.** `sponge` becomes read-only archive at that moment.
+
+This is a phase rather than a footnote because a session rooted in the wrong repository reads the
+wrong contract, and nothing in the injected text says which one arrived. Phase 4 is the largest
+piece of work left; finding a broken root during it costs more than finding one now.
+
+**The version string is the test.** `sponge`'s constitution is 5.1.0 and this one is 5.2.0, so the
+`**Version**` line in the injected text says which repository the session is reading, with no
+ambiguity and nothing to set up.
+
+What the first request in the new session checks:
+
+- **The contract arrived, at 5.2.0**, along with `prose-style.md`, `plan-activation.md` and
+  `CLAUDE.md`.
+- **`active-plan.md`'s import resolved.** A broken `@` import is silent, so read the plan's own
+  text back rather than assuming it arrived.
+- **`/context` lists the files**, which is cheaper than a compaction and catches one that quietly
+  did not load.
+- **The four project skills are listed.** A skill directory registers at session start, so a fresh
+  session should have them without `/reload-skills`.
+- **`uv sync` and `ninja check` are green from this root**, and `ninja check` now has four gates.
+
+If any of those fails, fix it before Phase 4 rather than working around it.
+
 ## Phase 4 — draft9p4 to a finished reference model, over REST
 
 Tutorials 9 to 14 are unbuilt: the hinge is part way, and `u limb`, `l limb`, `gripper` and the two
 assembly tutorials have not started. The joints come from `stickbot-draft9p1p6`, the rest from
 draft9p1p1's construction, exactly as draft9p4's own declaration says.
+
+**draft9p4's own plan does not govern this work, and a new one is owed.**
+[`experiments/runs/2026-09-08-draft9p4/plan.md`](experiments/runs/2026-09-08-draft9p4/plan.md) is a
+guide-draft plan: it claims *Steps reproduce*, it forbids REST from building the model, and it ends
+in fourteen written pages. Phase 4 does none of that. So `active-plan.md` points at a plan written
+for this work, and the draft9p4 plan is agreed deactivated rather than quietly contradicted.
 
 **Two conditions, both from the draft9p1p6 precedent:**
 
