@@ -11,7 +11,7 @@ what moves, what does not, what stops the same accident happening again, and in 
 | Tracked PNG under `.docs/experiments/runs/` — interim capture, never published | 1,235 MB |
 | Tracked PNG under `instructions/` — nine guide drafts, one of them live | 416 MB |
 | Everything else tracked — prose, plans, logs, reference JSON, tools | 28 MB |
-| `.git` | 1.5 GB |
+| `.git`, of which 1.4 GB is the Git LFS object cache and 129 MB is the pack | 1.5 GB |
 
 - **PNG is 1,651 MB of the 1,679 MB tracked, across 12,977 files.** Everything else is rounding.
 - **The largest file ever committed is 2.12 MB**, `c1-raw.json`. GitHub warns at 50 MB and blocks
@@ -20,9 +20,20 @@ what moves, what does not, what stops the same accident happening again, and in 
 - **`instructions/stickbot-draft9p4/` is 80.12 MB of frames and 0.53 MB of everything else** — 20
   source files and 22 toolbar close-ups.
 
-**Git LFS is not needed and would make this worse.** LFS solves one enormous file. The problem here
-is count, not size: it would add a bandwidth quota, a second thing to install, and a clone that
-cannot check out without it.
+**The old repository already uses Git LFS, and this file said otherwise until 2026-09-14.** Its
+`.gitattributes` routes `*.png` and `*.mp4` through LFS and 12,989 tracked files are LFS-managed,
+which is why the pack is only 129 MB while `.git` is 1.5 GB. LFS was doing its job; the repository
+is large because 12,977 screenshots were committed, not because they were stored badly.
+
+**The new repository needs nothing today, and inherits no rule.** It carries 22 toolbar close-ups
+totaling 0.13 MB, and its largest file of any kind is 2.12 MB against GitHub's 50 MB warning and
+100 MB block. The old `.gitattributes` is deliberately not carried, because a routing rule that
+arrives by inheritance is a decision nobody made.
+
+**The decision is owed when draft9p5 starts publishing frames**, at roughly 130 KB each and perhaps
+800 a draft. Two things have to be established first, neither of them from memory: what GitHub
+Pages does with an LFS-tracked image, and what the account's LFS storage and bandwidth allowance
+is. A guide served from Pages whose figures are pointer files is worse than a large pack.
 
 ## Settled decisions
 
@@ -42,7 +53,7 @@ cannot check out without it.
   rests on. This is the whole of what went wrong: 1,235 MB arrived because capture and publication
   shared a tree.
 
-## Phase 1 — the gate, before the first commit
+## Phase 1 — the gate, before the first commit — **done 2026-09-14**
 
 - **`.gitignore` denies images by default.** Ignore `*.png` and `*.jpg`/`*.jpeg` anywhere, then
   un-ignore exactly `instructions/*/source/images/`. Ignore `instructions/*/build/` and
@@ -59,7 +70,7 @@ it would hide from `git status` — three weeks before the bill came due. Nobody
 the rule down is the thing that failed, so the gate is a check that runs rather than a sentence
 somebody is meant to remember.
 
-## Phase 2 — carry the text
+## Phase 2 — carry the text — **done 2026-09-14**
 
 `git init` in `/Users/mikestitt/projects/first/2027/stick-e-bot`, the remote, the first commit.
 
@@ -129,3 +140,28 @@ the audits diff against. The frames it publishes are the only frames that reach 
 - **Which Onshape plan this account is on.** If it is an Education or team license rather than
   Free, then no draft has ever been built under the constraint students face, and
   `before-you-start.rst` describes a plan nobody here has used.
+
+## What Phases 1 and 2 actually did, 2026-09-14
+
+`68efa74` is the first commit of `stick-e-bot`: 1,479 files, 27 MB, `.git` 11 MB.
+
+- **The ignore rules were proven before anything was copied.** A probe file at
+  `instructions/stickbot-draft9p4/source/images/toolbar/` came back tracked; the same name under a
+  `capture/` directory and at the repository root came back ignored.
+- **`tools/check_images.py` is the fourth gate**, wired into `ninja check`. It refuses a tracked
+  raster image or video outside `instructions/*/source/images/`, tracked Sphinx output, and any
+  file over 5 MB — so it catches what `.gitignore` cannot, which is `git add -f`.
+- **The carry list was derived from `git ls-files`, not written by hand**, and the first derivation
+  was wrong: a rule dropping any path containing `/build/` swallowed all 20 files of
+  `.docs/build/`, the build specification. Checking a list of must-have paths against the derived
+  list is what caught it.
+- **`instructions/robot-guide/` is not an archived draft and carries in full.** It holds
+  `make_plans.py`, `make_brief_sheets.py`, `make_target.py` and the two plan SVGs — the design
+  source, named by seven live documents. Only its committed `build/` was dropped.
+- **`build.ninja` lost the targets for the six guides that did not carry**, and the comment saying
+  `robot-guide`'s `build/` is committed, which is no longer true.
+- **`ninja check` is green on all four gates, watched.** It first failed on `check_images.py`'s own
+  docstring, which said *totaling*.
+
+Still open from Phase 3: `CLAUDE.md` and `README.md` name the old repository, and `sponge` appears
+in 12 carried files.
