@@ -17,6 +17,7 @@ page and the blade's own limb is down it, which is how the frames sit as well.
 """
 import base64
 import math
+import os
 import types
 import pathlib
 import sys
@@ -24,9 +25,11 @@ import sys
 HERE = pathlib.Path(__file__).parent
 ROOT = HERE.parents[2]
 IMAGES = HERE / "source" / "images"
-FRAMES = pathlib.Path(
-    "/private/tmp/claude-501/-Users-mikestitt-projects-first-2027-sponge/"
-    "c7e95b50-7b3c-4747-a656-ece9f33b51c4/scratchpad/hinge-sweep")
+# Rendered frames of the joint, read rather than written. They are capture, so
+# they live in a session scratchpad and never in this tree; the session that made
+# them is gone. Set HINGE_FRAMES to a directory holding them, or the two figures
+# that use them will fail with a clear missing-file error.
+FRAMES = pathlib.Path(os.environ.get("HINGE_FRAMES", "/nonexistent/hinge-frames"))
 
 sys.path.insert(0, str(ROOT / "instructions" / "robot-guide"))
 import make_plans as mp  # noqa: E402

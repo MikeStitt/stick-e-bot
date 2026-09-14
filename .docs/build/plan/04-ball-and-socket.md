@@ -4,7 +4,7 @@ Starts from an assembly holding two floating parts. Ends with a Part Studio hold
 and the socket, and a mate connector on each.
 
 **This tutorial has been published once and is being retaken, not written fresh.**
-[`ball-and-socket.rst`](../../../instructions/robot-guide4/source/ball-and-socket.rst) is the
+`robot-guide4`'s `ball-and-socket.rst`, in the `sponge` archive, is the
 existing page. Three things stale it, and they are why the retake is a full one rather than a
 patch.
 

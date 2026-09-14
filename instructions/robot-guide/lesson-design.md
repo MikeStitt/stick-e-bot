@@ -3,7 +3,7 @@
 The instructor's half of the session. Paired with
 [`source/index.rst`](source/index.rst), which is what the students follow.
 
-Read with [`../../.parts/lesson-design.md`](../../.parts/lesson-design.md).
+Read with the [`lesson-design`](../../.claude/skills/lesson-design/SKILL.md) skill.
 
 ## What this session is for
 

@@ -16,10 +16,6 @@ LIMIT = 100
 # Written by agents and tools, not by hand. Not prose, and not a gate.
 SKIP_PREFIXES = (".docs/experiments/build-log/", ".docs/experiments/runs/", ".docs/experiments/inspect/")
 
-# Another repository's constitution, copied in to diff against. It is wrapped
-# the way its own repo wraps it, and re-wrapping it would corrupt the baseline.
-SKIP_FILES = ("old-constitution.md",)
-
 
 def tracked_markdown() -> list[str]:
     out = subprocess.run(
@@ -29,7 +25,7 @@ def tracked_markdown() -> list[str]:
         check=True,
     ).stdout
     return [
-        p for p in out.splitlines() if not p.startswith(SKIP_PREFIXES) and p not in SKIP_FILES
+        p for p in out.splitlines() if not p.startswith(SKIP_PREFIXES)
     ]
 
 

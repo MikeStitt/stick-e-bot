@@ -46,7 +46,7 @@ printed instances and a LEGO bar in someone's hands.
 it. Where the boundary falls is not fixed and does not need to be.
 
 **Depth is not uniform, and a leaf is whatever the build plan declares a leaf.** In
-[`ball-and-socket.rst`](../../instructions/robot-guide4/source/ball-and-socket.rst),
+`robot-guide4`'s `ball-and-socket.rst`, which is in the `sponge` archive,
 `stud.profile_sketch` runs from `bs-04` to `bs-11` — an arc, three lines and three dimensions —
 while `stud.revolve` is one click and one figure. Both are leaves. A leaf that later needs its
 parts named separately gains children and stops being a leaf.

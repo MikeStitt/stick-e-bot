@@ -50,7 +50,7 @@ Done and verified:
   by status code. Nine parts, classified from their bounding boxes and colored.
 - **The student guide covers the whole taught path** — four session pages, 38 documented steps, 38
   annotated screenshots taken from the live UI. See
-  [`experiments/spongebob-guide/`](experiments/spongebob-guide/README.md).
+  `experiments/spongebob-guide/`, which is in the `sponge` archive.
 - The build and capture pipeline is committed, not living in a scratchpad.
 - The GUI vocabulary in [`taught-path.md`](experiments/taught-path.md) is read from the live UI,
   not recalled — including the correction that the extrude flip is an arrow button, not the

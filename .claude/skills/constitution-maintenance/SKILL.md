@@ -49,6 +49,35 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.2.0 (2026-09-14)** — MINOR: a new Quality Gate, **Capture is out**, and the Archive section
+  gains the second archive. The repository moved to `stick-e-bot`; `sponge` stays on disk holding
+  what was left behind.
+
+  _Why:_ the old repository committed 12,977 screenshots totaling 1,651 MB, because a take wrote
+  its interim capture into the same tree it published from. The rule against it was written down on
+  2026-08-23 in a scratch file, with the exact `.gitignore` it needed and the 1.2 GB it would hide,
+  and nobody acted on it for three weeks. Writing a rule down is what failed, so this one arrives
+  as a gate that runs rather than a sentence to remember. Interim capture now goes to the session
+  scratchpad and a frame reaches git only by being placed on a page.
+  [`../../../.docs/2026-09-14-move-to-stick-e-bot.md`](../../../.docs/2026-09-14-move-to-stick-e-bot.md)
+  holds what was measured and what moved.
+
+  No rule is removed or redefined, which is why this is a MINOR.
+
+  _Companion changes, same commit._ `README.md` describes the new layout. `check_spelling.py` and
+  `check_wrap.py` drop the exclusions for `spongebob-guide/` and `old-constitution.md`, neither of
+  which exists here. `.docs/reviews/hinge/make_figures.py` no longer hardcodes a dead session
+  scratchpad; it reads `HINGE_FRAMES`. Eleven links broken by the carry were repointed or, where
+  repointing would have changed what a sentence claims, turned into named references to the
+  `sponge` archive.
+
+  _Config companion, exercised._ `tools/check_images.py` is the gate, wired into `ninja check` as a
+  fourth target. It was run against two deliberately planted violations: a PNG force-added outside
+  a guide's `source/images/`, and a 5.7 MB file. It refused both, naming each and its reason, and
+  went green once both were untracked. `.gitignore` was exercised separately, before any file was
+  copied: a probe under `instructions/*/source/images/` came back tracked while the same name under
+  a `capture/` directory and at the repository root came back ignored.
+
 - **5.1.0 (2026-09-14)** — MINOR: the contract moves into `.claude/`, and a new Working Rule
   requires the active-plan pointer. `constitution.md` becomes `.claude/rules/constitution.md` and
   `prose-style.md` becomes `.claude/rules/parts/prose-style.md`; the other four parts become skills

@@ -22,11 +22,6 @@ EXCLUDE = [
     ":!.docs/experiments/build-log",
     ":!.docs/experiments/runs",
     ":!.docs/experiments/inspect",
-    # Retired. The sponge guide is kept as the experiment it was, text and all.
-    ":!.docs/experiments/spongebob-guide",
-    # Another repository's constitution, copied in to diff against. Correcting
-    # its spelling would corrupt the baseline it exists to be.
-    ":!old-constitution.md",
 ]
 
 

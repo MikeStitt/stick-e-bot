@@ -1,17 +1,22 @@
-# _TODO_l in Onshape
+# stick-e-bot — a CAD course in Onshape
 
-TODO Describe this class
+An eight-hour introduction to Onshape, taught by building one thing: a printable stick figure robot
+about 150 mm tall, with a ball-and-socket neck and hips and a fifteen degree ratcheting hinge at
+the elbows and knees. A student finishes with a robot they modeled themselves, printed, and can
+pose.
 
 ## Repository layout
 
 ```
 CLAUDE.md                  The agreement to follow the Constitution, for AI assistants.
 README.md                  This file.
-build.ninja                `ninja check` — wrap, spelling and reading level in one command.
+build.ninja                `ninja check` — wrap, spelling, reading level and capture, in one
+                           command. `ninja guides` builds the Sphinx sites.
 
 instructions/              What a student or a teacher is handed.
-  robot-guide/             Session 1: a Sphinx page written by hand, source and built site.
-    source/index.rst       The steps themselves. Built and corrected across two test runs.
+  robot-guide/             The design source. make_plans.py renders every plan drawing from the
+                           numbers, so a dimension is changed in one place.
+  stickbot-draft9p4/       The guide in progress: fourteen tutorial pages and their frames.
 docs/                      Background for those same people: how things work, what things are.
 tools/                     The check scripts, and the browser and API machinery.
 
@@ -26,30 +31,37 @@ tools/                     The check scripts, and the browser and API machinery.
   modeling-practice/       The design-intent standard every reference model must meet.
   constitution-maintenance/  How the Constitution is amended, and its changelog.
 .docs/                     For the people building the class, and for agents. Working notes,
-                           and the working list. See .docs/README.md.
-  experiments/             What we tried and what it taught: build briefs and logs, test
-                           reports, the superseded first session, the retired sponge guide.
-
-guide/                     Retired. The sponge walkthrough and the pipeline that generated
-                           it from the live Onshape UI. It still owns the browser and API
-                           tooling. Now at .docs/experiments/spongebob-guide/.
+                           design decisions, and the build specification under .docs/build/.
+  experiments/runs/        One folder per draft: its plan, its notes, its logs, its register.
 ```
 
+## Images
+
+**A frame reaches git only by being placed on a guide page.** `.gitignore` denies raster images and
+video everywhere and un-ignores exactly `instructions/*/source/images/`; a take writes its interim
+capture to the session scratchpad, which is outside this tree. `tools/check_images.py` is the
+*Capture is out* Quality Gate and checks that it happened, so a file added with `git add -f` is
+caught too.
+
+The repository this one replaces committed 12,977 screenshots totaling 1,651 MB because capture and
+publication shared a directory. It is at `../sponge` and keeps that history;
+[`.docs/2026-09-14-move-to-stick-e-bot.md`](.docs/2026-09-14-move-to-stick-e-bot.md) records what
+moved and what did not.
 
 ## Getting set up
 
 ```sh
 uv sync                            # the environment, from uv.lock
 uv run playwright install chromium # separate step; uv sync does not do it
-ninja check                        # wrap, spelling, reading level
+ninja check                        # wrap, spelling, reading level, capture
 ```
 
 Every Python command in this repo is `uv run python …`.
 
 ## Reference models
 
-The instructor-side Onshape documents each session starts and ends from. Cite a **named version**,
-never the live workspace; a workspace moves under the class.
+The Onshape documents a session starts and ends from. Cite a **named version**, never the live
+workspace; a workspace moves under the class.
 
 | Document             | Purpose                                  | Link   |
 | -------------------- | ---------------------------------------- | ------ |
@@ -58,9 +70,11 @@ never the live workspace; a workspace moves under the class.
 | Session 3 start      | Recovery point: end-of-session-2 state   | _TODO_ |
 | Session 4 start      | Recovery point: end-of-session-3 state   | _TODO_ |
 
-These are placeholders. No links have been created yet — do not cite one until it exists and you
-have opened it as a student would.
-
+These are placeholders, and there is a known obstacle in front of them. On 2026-09-14 a second
+Onshape account was given the document and workspace id of `stickbot-draft9p4` and was refused:
+*document does not exist or you don't have permission to access it*. So a link here will not work
+until the document is deliberately shared, and no link goes in until it has been opened by an
+account without ownership rights.
 
 ## Contributing
 

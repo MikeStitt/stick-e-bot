@@ -220,7 +220,7 @@ side interference survives.
 ## Open question — what this does to the capture
 
 If stickbot's build order wins, the guide's
-[ball and socket page](../instructions/robot-guide4/source/ball-and-socket.rst) teaches a build
+ball and socket page, `robot-guide4`'s, teaches a build
 the model no longer performs: the page builds a limb stub and sketches the collar on its top
 face, and stickbot has neither. Every frame under that page's `images/ball_and_socket/` shows the
 old path. Three ways it could go:

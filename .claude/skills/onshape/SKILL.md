@@ -39,8 +39,10 @@ clause of that sentence means feature by feature.
   computed string `#name = value`, so its row already reads what a name would have said and more.
   The dialog's pencil stays hidden however it is hovered, the row's menu offers no *Rename*, and
   `F2` does nothing. A page MUST NOT tell a reader to name a variable. Driven in
-  `stickbot-draft9p3-check` on 2026-09-09; the frames are in
-  [`.docs/experiments/runs/2026-09-08-draft9p4/capture/variable-title/`](../../../.docs/experiments/runs/2026-09-08-draft9p4/capture/variable-title/).
+  `stickbot-draft9p3-check` on 2026-09-09. What each frame showed is written out in
+  [draft9p4's plan](../../../.docs/experiments/runs/2026-09-08-draft9p4/plan.md), § *The variable
+  naming rule*; the frames themselves stayed in the `sponge` repository with the rest of the
+  capture.
 - **A measurement becomes a variable only when the build plan asks for it.** The Variables table
   in [`.docs/robot-build-plan.md`](../../../.docs/robot-build-plan.md) is the whole ask: a number is
   a variable when it has a row there, and is not one otherwise. A session plan, a build brief or a

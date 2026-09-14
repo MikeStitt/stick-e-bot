@@ -130,13 +130,18 @@ instructions closer to a final product.
 ## Archive — read only to answer "why is it like this"
 
 `.docs/experiments/` almost entirely. `build-and-verify.md` says on its first line that it is
-superseded by `takes.md`. `build-briefs/` governs subagent runs we no longer do.
-`session-1-layout-and-torso/` and `spongebob-guide/` are retired. `.docs/README.md` reads like an
-index but is not one — it is a working to-do list, and its state-of-play is stuck at run 2 and
-run 3.
+superseded by `takes.md`. `build-briefs/` governs subagent runs we no longer do. `.docs/README.md`
+reads like an index but is not one — it is a working to-do list, and its state-of-play is stuck at
+run 2 and run 3.
 
 Paths in an archived record point at where a file lived when the record was written. They are not
 updated when a file moves.
+
+**Two archives, and the older one is a different repository.** `sponge` holds everything this one
+left behind on 2026-09-14: 12,977 frames, six superseded guide drafts, its own git history, and
+`session-1-layout-and-torso/` and `spongebob-guide/`, which were already retired. A record here
+that names a file this repository does not have is pointing into `sponge`, and that is where to go
+looking.
 
 
 ### Where developmental draft (aka run) products live
@@ -174,6 +179,7 @@ Before any session material is called done:
 | Recovery point  | A published, named Onshape version exists for the next session to start from                                                                                          |
 | Prose style     | Written to [`parts/prose-style.md`](parts/prose-style.md)                                                                                                           |
 | Spelling        | `ninja check` is clean: US spellings, with `tools/dictionary.txt` for compounds                                                                                       |
+| Capture is out  | `ninja check` is clean: no tracked image outside `instructions/*/source/images/`, no tracked build output, no tracked file over 5 MB                                   |
 | Reading level   | We are currently tracking which text is above reading level. Before we are done with our final version we will adjudicate what to do with each reading level failure. |
 
 - **"I wrote the steps" is not "the steps work."** Following your own instructions from a blank
@@ -272,5 +278,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.1.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.2.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course
