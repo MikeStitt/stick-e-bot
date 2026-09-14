@@ -99,6 +99,21 @@ new repository — it comes out with the file.
   completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
 - **`tools/check_spelling.py`** carries `sponge` in its dictionary or its docstring.
 
+## The active plan, settled 2026-09-14
+
+**draft9p4's plan is deactivated by agreement, and this file is the active plan.**
+`.claude/rules/active-plan.md` imports
+[`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md).
+
+Phase 4 gets its own plan when it starts, because building a reference model over REST is a
+different job from this move. Until then this file governs.
+
+**The pointer carried verbatim and kept naming the old plan.** `active-plan.md` came across with
+the rest of `.claude/rules/` and went on importing draft9p4's plan, so the first session opened in
+`stick-e-bot` correctly read that plan and correctly concluded it was active. The file is one line
+and it is easy to forget precisely because nothing about it looks like state. A repository that
+copies its contract copies its plan pointer with it.
+
 ## Phase 3.5 — re-root, and prove the new root before trusting it
 
 **Start a Claude Code session whose working directory is `stick-e-bot`, and do everything after
@@ -116,8 +131,8 @@ What the first request in the new session checks:
 
 - **The contract arrived, at 5.2.0**, along with `prose-style.md`, `plan-activation.md` and
   `CLAUDE.md`.
-- **`active-plan.md`'s import resolved.** A broken `@` import is silent, so read the plan's own
-  text back rather than assuming it arrived.
+- **`active-plan.md` names this file, and its import resolved.** A broken `@` import is silent, so
+  read the plan's own text back rather than assuming it arrived.
 - **`/context` lists the files**, which is cheaper than a compaction and catches one that quietly
   did not load.
 - **The four project skills are listed.** A skill directory registers at session start, so a fresh
