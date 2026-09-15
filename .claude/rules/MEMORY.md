@@ -32,9 +32,6 @@ filename.
   means spec, investigation, and what happened last time.
 - [Derive, don't maintain](../../memory/derive-dont-maintain.md) — never store a count or list that
   grep or Python can produce; it goes stale and lies.
-- [Limbs are cylinders `#torsoH / 4` across](../../memory/limbs-are-twelve-mm-cylinders.md) — joints
-  fit inside the limb, never the limb grown to fit a joint. **The body still says Ø12 mm, which was
-  true before the design went to 2x; see the review plan.**
 - [Design intent is not sacred](../../memory/design-intent-is-not-sacred.md) — no design source
   outranks another; a constraint causing disproportionate work is itself the suspect.
 - [Write for students who will succeed](../../memory/write-for-students-who-will-succeed.md) —

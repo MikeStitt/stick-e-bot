@@ -32,5 +32,6 @@ caught it on its own.
 
 **How to apply:** the same cycle governs directing a subagent as governs doing the work by
 hand. Writing a brief or a launch prompt is Do; it needs its own Read and Think first, and its
-own "did it work" after. See [[limbs-are-twelve-mm-cylinders]] for the specific decision that
-was missed, and [[derive-dont-maintain]] for what not to produce along the way.
+own "did it work" after. The decision that was missed is the settled limb diameter, now in
+`.docs/robot-build-plan.md` § *Stage 5 — Limbs*; see [[derive-dont-maintain]] for what not to
+produce along the way.

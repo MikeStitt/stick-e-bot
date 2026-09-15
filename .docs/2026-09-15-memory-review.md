@@ -48,9 +48,27 @@ rather than patching, and one of those turns on a question only Mike can answer.
   something to decide inside a memory: if it does, this memory is simply wrong and goes; if it does
   not, it needs rewriting around the new mechanism.
 
+## Deleted 2026-09-15
+
+- **`limbs-are-twelve-mm-cylinders`** — deleted rather than corrected, because everything in it is
+  already in [`robot-build-plan.md`](robot-build-plan.md) § *Stage 5 — Limbs*, said correctly.
+  That section opens: *"Every limb is now a `#limbD` cylinder — Ø12 at the 48 mm robot and Ø24 at
+  this one — and joints are sized to fit inside it, never the limb grown to fit a joint, so the
+  four sections below do not exist. The four routes were teaching tools, not sections, and the
+  route is what gives way, not the diameter."* Each of the four rows is marked *no home*, and
+  lines 346 to 352 carry the reasoning — the 12 mm x 11.6 mm paddle standing 2.5 mm proud, and the
+  joint having been *scaled off the torso instead of off the nozzle*.
+
+  The memory was a second copy that went stale while the original stayed true, which is what
+  [[one-fact-one-home]] and [[derive-dont-maintain]] exist to prevent. It was wrong twice: the
+  value, and its own closing claim that the decision *lives in no single file*. Nothing was lost.
+  The habit it ended on is the fourth Read sub-step of [[read-think-plan-do]], and that memory's
+  link to it now points at Stage 5 instead.
+
 ## Edit — a stated value is wrong
 
-- **`limbs-are-twelve-mm-cylinders`** — the relation is right and the number is not. `#limbD` is
+- **`limbs-are-twelve-mm-cylinders`** — *superseded by the deletion above.* The relation is right
+  and the number is not. `#limbD` is
   `#torsoH / 4`, which the memory states correctly, but `#torsoH` is `96 mm`, so the limb is
   `24 mm` across and not `12 mm`. The design went to 2x and the memory did not. Its name, its
   index line, and the clevis inequality it quotes are all at the old scale. This is the one with
