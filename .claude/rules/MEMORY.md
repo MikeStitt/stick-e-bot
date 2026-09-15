@@ -38,10 +38,8 @@ filename.
   advice, not warnings; say what to do and what you will see when it works.
 - [Every feature gets its name](../../memory/every-feature-gets-its-name.md) — name it in the dialog
   title before you fill the dialog; a shot per click and per field.
-- [Trust the user or read the docs](../../memory/trust-mike-or-read-the-docs.md) —
+- [Trust the user or read the docs](../../memory/trust-the-user-or-read-the-docs.md) —
   `.docs/onshape-gui-howto.md` first, then the user (Mike); testing every dialog is not a plan.
-- [One guide is the end state](../../memory/one-guide-is-the-end-state.md) — robot-guide 1–3 are
-  archival; never back-port into them.
 - [Capture while you experiment](../../memory/capture-while-you-experiment.md) — take named frames
   on the first pass; a debugging screenshot is not a frame.
 - [CLAUDE.md is harness, not contract](../../memory/claude-md-is-harness-not-contract.md) — plumbing

@@ -160,6 +160,11 @@ the build plan that copies information forward and makes new CAD and instruction
 We are not overwriting drafts when we make a new run, we are keeping both in the tree so that we
 can see the differences, improvements, and degradations as we are moving forward.
 
+**Write and fix only the live draft.** A superseded draft is a record of what the instructions were
+on the day it was made, so a defect in one is history and not a bug. Do not back-port a style
+change, a keystroke convention or a toolbar close-up into an older draft, and do not offer to. The
+end state is one guide.
+
 
 
 
@@ -286,5 +291,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.3.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.4.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

@@ -12,15 +12,14 @@ Whether a hook is enough to make a memory get read is being tried, not assumed.
 
 **Nobody is named in a rule any more.** A role reference and a dated attribution alike now read
 *the user (Mike)*, so the contract does not hardcode who is at the other end. Eighteen lines across
-eleven memories changed. `trust-mike-or-read-the-docs` keeps its filename and its `name:`, because
-those are its identity and two `[[links]]` resolve through them; only its prose and its index title
-changed.
+eleven memories changed. `trust-mike-or-read-the-docs` became
+`trust-the-user-or-read-the-docs` on 2026-09-15; its `name:`, its filename and both `[[links]]`
+moved together.
 
-**Two copies still exist and will drift.** The harness's own store is still at
-`~/.claude/projects/-Users-mikestitt-projects-first-2027-stick-e-bot/memory/`, holding the versions
-as they were before this move, and the memory tool writes there rather than to `memory/`. Emptying
-it is a deletion of the user's data and is not done here. `sponge`'s store is frozen with that
-repository.
+**The harness store is emptied.** It held the pre-move copies and would have drifted, so on
+2026-09-15 its 29 bodies were deleted and its `MEMORY.md` replaced by a pointer saying the
+memories live in the repository and that a new one belongs there, not beside it. `sponge`'s store
+still holds all 30 files unchanged and is the backup.
 
 **What changed under them.** The contract moved to `.claude/rules/` and `.claude/skills/` and is at
 5.2.0; `.parts/` no longer exists. `CLAUDE.md` no longer instructs a re-read. A new gate, *Capture
@@ -31,9 +30,20 @@ source rather than an old guide.
 **Nothing is deleted.** Every memory still carries a fact or a rule that holds. Two need rewriting
 rather than patching, and one of those turns on a question only Mike can answer.
 
+## Deleted 2026-09-15, second pass
+
+- **`one-guide-is-the-end-state`** — the opposite finding to the limb memory, and it landed the
+  same way. That one was a stale duplicate of the design source; this one was the **only** copy of
+  a real rule. Nothing in the Constitution said not to edit a superseded draft: the Archive section
+  covers `.docs/experiments/`, and § *Where developmental draft products live* said drafts are kept
+  side by side to show the differences and stopped there. So the rule moved into that section as
+  **Write and fix only the live draft** at 5.4.0, and the memory went, its facts being what had
+  gone stale.
+
 ## Rewrite
 
-- **`one-guide-is-the-end-state`** — every fact in it is now wrong. It says `robot-guide` through
+- **`one-guide-is-the-end-state`** — *superseded by the deletion above.* Every fact in it is now
+  wrong. It says `robot-guide` through
   `robot-guide3` are archival and `robot-guide4` is live. `robot-guide4` stayed in the archive,
   `instructions/robot-guide/` is the design source and not a guide at all, and the live guide is
   `stickbot-draft9p4`, which is about to stop being a guide and become the reference model. The
@@ -105,10 +115,12 @@ rather than patching, and one of those turns on a question only Mike can answer.
   *Rename*, `F2` does nothing, and a page must not tell a reader to name one. The memory
   over-generalizes without the exception.
 
-- **`agent-browser-borrows-its-session`** — accurate, and its rare case is live right now: the
-  borrow reports no session because 9222 itself is signed out. It tells you how to recognize that
-  case and does not name the way out of it, which is
-  `uv run --project . python -u tools/browser.py --signin`.
+- **`agent-browser-borrows-its-session`** — *done 2026-09-15.* Cut back to the failure mode, which
+  is the only part no file carries: `.docs/browser-access.md` describes the borrow, the session
+  cookie and what a restart costs, and never mentions 401 once. What is left is the rule — a 401
+  from 9223 means restart the agent browser, not ask for a sign-in — the one exception that does
+  need a person, and the way out of it. Its `type:` becomes `feedback`, which is what it always
+  was.
 
 ## Edit — a link that points at nothing
 

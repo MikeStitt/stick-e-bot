@@ -49,6 +49,29 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.4.0 (2026-09-15)** — MINOR: **Write and fix only the live draft** joins § *Where
+  developmental draft products live*. A superseded draft is a record of what the instructions were
+  on the day it was made, so a defect in one is history rather than a bug.
+
+  _Why:_ the rule existed only in a memory, `one-guide-is-the-end-state`, whose own facts had gone
+  stale — it named `robot-guide4` as the live guide, and `robot-guide4` stayed in the `sponge`
+  archive. Checking it the way `limbs-are-twelve-mm-cylinders` was checked found the opposite
+  answer: that one was a stale duplicate of the design source and was deleted, while this one was
+  the only copy of a real rule that no file carried. The section it now sits in already said drafts
+  are kept side by side to show the differences, and stopped short of saying not to edit the old
+  ones.
+
+  _Companion changes, same commit._ `one-guide-is-the-end-state` is deleted, the rule having a home.
+  `trust-mike-or-read-the-docs` becomes `trust-the-user-or-read-the-docs`, finishing what 5.3.0
+  started; its `name:`, its filename and both `[[links]]` moved together.
+  `agent-browser-borrows-its-session` is cut back to the failure mode that no file carries — a 401
+  from 9223 means restart the agent browser, not ask for a sign-in — and points at
+  `.docs/browser-access.md` for the mechanics it used to restate. Its `type:` becomes `feedback`,
+  which is what it always was.
+
+  _Config companion, exercised._ None. No check enforces either rule; `ninja check` was run and is
+  green.
+
 - **5.3.0 (2026-09-15)** — MINOR: the memories become part of the contract. `MEMORY.md` joins
   `.claude/rules/`, the Parts table gains a row for it, and a new obligation says to operate per the
   memories. The bodies move to `memory/` at the repository root.
@@ -69,8 +92,8 @@ checklist for any change to `constitution.md` or a part.
 
   _Companion changes, same commit._ The memories no longer name one person: a role reference and a
   dated attribution alike now read *the user (Mike)*, so the contract does not hardcode who is at
-  the other end. `trust-mike-or-read-the-docs` keeps its filename and `name:`, because those are its
-  identity and two `[[links]]` resolve through them.
+  the other end. `trust-mike-or-read-the-docs` kept its filename and `name:` at this version,
+  because those were its identity and two `[[links]]` resolved through them; 5.4.0 renames it.
 
   _Config companion, exercised._ The 29 bodies and the index become tracked Markdown, so
   `check_wrap.py`, `check_spelling.py` and `check_reading_level.py` pick them up from `git ls-files`

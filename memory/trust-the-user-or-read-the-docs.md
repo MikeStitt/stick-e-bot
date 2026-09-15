@@ -1,5 +1,5 @@
 ---
-name: trust-mike-or-read-the-docs
+name: trust-the-user-or-read-the-docs
 description:
   "when Onshape's behavior is unknown, read .docs/onshape-gui-howto.md first, then the user (Mike)
   or the online docs; enumerating and testing every dialog is not a plan."
