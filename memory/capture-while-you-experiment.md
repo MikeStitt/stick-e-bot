@@ -13,8 +13,8 @@ happens for debugging is a place a named frame belongs — `gui.frame(page, path
 the expensive part (driving the browser into the right state) has already been paid for.
 
 **Why:** on 2026-08-20 tutorial 1 was built with 17 scratchpad screenshots and **zero** frames.
-The screenshots were named `dim1.png`, `state.png`, `extrude3.png` — framed for reading, not for a
-page — and they are discarded with the scratchpad. Attempting the planned shots would have caught
+The screenshots were named `dim1.png`, `state.png`, `extrude3.png` — framed for reading, not for use
+on a page. Attempting the planned shots would have caught
 two plan defects at the moment they happened: the *version dialog* shot is unreachable when the
 version is published by a REST call, and the *insert into all, off* shot does not exist because
 the control arrives already ticked.
