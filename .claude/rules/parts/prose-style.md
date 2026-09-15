@@ -47,9 +47,9 @@ doing one job.
 
 ## Where RFC 2119 applies
 
-**Only where obligations are being set**: `constitution.md`, `.parts/`, and requirements
-documents. There, MUST, MUST NOT, SHOULD, SHOULD NOT and MAY carry their RFC 2119 meanings, and
-capitalization marks them as binding rather than conversational.
+**Only where obligations are being set**: `constitution.md`, `parts/`, the skills, and
+requirements documents. There, MUST, MUST NOT, SHOULD, SHOULD NOT and MAY carry their RFC 2119
+meanings, and capitalization marks them as binding rather than conversational.
 
 **Nowhere else.** Student steps say "press Enter", not "you MUST press Enter". Working notes,
 reports and READMEs describe what is; they set no obligations, so they need no obligation

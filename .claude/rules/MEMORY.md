@@ -42,8 +42,6 @@ filename.
   `.docs/onshape-gui-howto.md` first, then the user (Mike); testing every dialog is not a plan.
 - [Capture while you experiment](../../memory/capture-while-you-experiment.md) — take named frames
   on the first pass; a debugging screenshot is not a frame.
-- [CLAUDE.md is harness, not contract](../../memory/claude-md-is-harness-not-contract.md) — plumbing
-  for /clear and /compact; not in scope for the prose standard.
 - [Say when you carry on](../../memory/say-when-you-carry-on.md) — in an unattended run only: finish
   the ask, then name the next thing before starting it.
 - [Conversation mode is not a task](../../memory/conversation-mode-is-not-a-task.md) — while the

@@ -27,9 +27,10 @@ Amending the constitution is itself governed work; treat the rules below as the
 checklist for any change to `constitution.md` or a part.
 
 1. **Edit the right home.** Behavioral rules and the always-read core live in
-   `constitution.md`; per-work-type detail lives in `.parts/`. Change a rule in
-   exactly one place — never duplicate it into the agent-doc pointer
-   (`CLAUDE.md`).
+   `.claude/rules/constitution.md`; per-work-type detail lives in
+   `.claude/rules/parts/` and in the skills. Change a rule in exactly one place —
+   never duplicate it into the agent-doc pointer (`CLAUDE.md`), which says so
+   itself.
 2. **Bump the version.** Apply the semantic rule from Governance: MAJOR for
    principle removals or incompatible redefinitions, MINOR for new principles or
    material expansions, PATCH for wording clarifications and typo fixes. Update
@@ -48,6 +49,23 @@ checklist for any change to `constitution.md` or a part.
    watch it catch what the new rule is meant to catch.
 
 ## Changelog
+
+- **5.5.1 (2026-09-15)** — PATCH: two live rules stopped naming `.parts/`, which 5.1.0 retired.
+  Maintenance step 1 now points at `.claude/rules/constitution.md`, `.claude/rules/parts/` and the
+  skills. [`../../rules/parts/prose-style.md`](../../rules/parts/prose-style.md) § *Where RFC 2119
+  applies* does the same, and gains the skills, which it had omitted while the Constitution's
+  Governance section listed them.
+
+  Changelog entries below still name `.parts/` and are left alone: a record points at where a file
+  lived when it was written, which the Constitution's Archive section states.
+
+  _Companion changes, same commit._ `CLAUDE.md`'s first line gains a full stop. The memory
+  `claude-md-is-harness-not-contract` is deleted: it said the file exists to make the agent re-read
+  the Constitution and is therefore outside the prose standard, and neither half is true any more —
+  the re-read instruction went at 5.1.0, and the three-line file meets the standard.
+
+  _Config companion, exercised._ None; no check enforces a path inside prose. `ninja check` was run
+  and is green.
 
 - **5.5.0 (2026-09-15)** — MINOR: the opening line binds an actor rather than a place.
   *authoritative for work in this repository* becomes *authoritative for work by you or any agent*.

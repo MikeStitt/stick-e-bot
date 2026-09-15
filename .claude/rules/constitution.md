@@ -291,5 +291,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.5.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.5.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course
