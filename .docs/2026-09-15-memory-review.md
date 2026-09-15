@@ -1,10 +1,26 @@
 # The memories, reviewed against the move
 
-Twenty-nine memories were copied byte-identical from the `sponge` project into `stick-e-bot`'s, at
-`~/.claude/projects/-Users-mikestitt-projects-first-2027-stick-e-bot/memory/`. Nothing was edited
-in the copy. This file says what to do to each one and why.
+Twenty-nine memories, moved into the repository on 2026-09-15 so they travel with it. This file
+says what to do to each one and why. The verdicts below are still owed; the move happened first.
 
-The two sets will drift from here. `sponge`'s is frozen along with the repository.
+**Where they are.** The bodies are in [`memory/`](../memory/) at the repository root, one file per
+memory. The index is [`.claude/rules/MEMORY.md`](../.claude/rules/MEMORY.md), which is injected on
+every request and carries a one-line hook and a pointer per memory. The bodies are not injected: a
+hook is what decides whether a body is worth reading. All 29 come to 12,232 tokens against a
+contract of about 12,600, so injecting them would roughly double what every request carries.
+Whether a hook is enough to make a memory get read is being tried, not assumed.
+
+**Nobody is named in a rule any more.** A role reference and a dated attribution alike now read
+*the user (Mike)*, so the contract does not hardcode who is at the other end. Eighteen lines across
+eleven memories changed. `trust-mike-or-read-the-docs` keeps its filename and its `name:`, because
+those are its identity and two `[[links]]` resolve through them; only its prose and its index title
+changed.
+
+**Two copies still exist and will drift.** The harness's own store is still at
+`~/.claude/projects/-Users-mikestitt-projects-first-2027-stick-e-bot/memory/`, holding the versions
+as they were before this move, and the memory tool writes there rather than to `memory/`. Emptying
+it is a deletion of the user's data and is not done here. `sponge`'s store is frozen with that
+repository.
 
 **What changed under them.** The contract moved to `.claude/rules/` and `.claude/skills/` and is at
 5.2.0; `.parts/` no longer exists. `CLAUDE.md` no longer instructs a re-read. A new gate, *Capture

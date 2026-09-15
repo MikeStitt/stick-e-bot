@@ -237,6 +237,7 @@ A step is not done because it was written — it is done when it has been **perf
 
 | Work type                             | Read                                             | How it arrives |
 | ------------------------------------- | ------------------------------------------------ | -------------- |
+| Every task                            | [`MEMORY.md`](MEMORY.md), then the memories it names | index with this file, bodies you read |
 | Writing anything at all               | [`parts/prose-style.md`](parts/prose-style.md)   | with this file, on every request |
 | Executing a plan                      | [`parts/plan-activation.md`](parts/plan-activation.md) | with this file, on every request |
 | Writing or revising a session plan    | the `lesson-design` skill                        | you invoke it |
@@ -248,6 +249,12 @@ A step is not done because it was written — it is done when it has been **perf
 **Invoke a skill before the work it governs begins, not after.** A part that is not loaded is a part
 that is not followed, and a skill loads only when it is invoked. The invocation is a tool call in
 the transcript, so whether it happened is a question with an answer.
+
+**Operate per the memories.** [`MEMORY.md`](MEMORY.md) arrives with this file and names each memory
+in one line; read the bodies a line makes relevant to the work in hand, before starting that work.
+A memory records what was already learned here — a settled number, a habit that cost a run, a tool
+that behaves unlike its documentation — so work that ignores one repeats it. They are findings, not
+obligations: where a memory and this file disagree, this file wins and the memory is the defect.
 
 `.claude/rules/` and `.claude/skills/` hold the contract and nothing else.
 
@@ -261,6 +268,7 @@ the transcript, so whether it happened is a question with an answer.
 | `docs/`         | those same people: background on how something works or what it is, not instructions |
 | `.docs/`        | the people building the class, and agents: design decisions, findings, state |
 | `.docs/experiments/` | the same readers, for things built to find something out, and for what they superseded |
+| `memory/`       | whoever is doing the work, when `MEMORY.md` says a memory bears on it |
 
 Per-session material lives under `instructions/`, each session holding its own session plan (clock,
 floor/ceiling, rubric) and the steps themselves. Read the shared part and the one session you are
@@ -278,5 +286,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.2.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.3.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

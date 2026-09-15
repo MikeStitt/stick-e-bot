@@ -49,6 +49,33 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.3.0 (2026-09-15)** — MINOR: the memories become part of the contract. `MEMORY.md` joins
+  `.claude/rules/`, the Parts table gains a row for it, and a new obligation says to operate per the
+  memories. The bodies move to `memory/` at the repository root.
+
+  _Why:_ they were in the harness's own store under `~/.claude/projects/<slug>/memory/`, keyed to
+  the working directory. They are project knowledge — settled numbers, habits that cost a run, tools
+  that behave unlike their documentation — so they belong with the project and have to survive it
+  being moved or cloned. Moving to `stick-e-bot` is what surfaced it: the store is keyed to the old
+  path and does not follow.
+
+  _Why the bodies are not injected._ All 29 come to 12,232 tokens against a 14,275-token contract,
+  so injecting them would roughly double what every request carries. The index is 1,283 tokens and
+  carries a one-line hook per memory, which is enough to decide whether a body is worth reading.
+  Whether that is enough in practice is being tried, not assumed.
+
+  Nothing is removed or redefined, which is why this is a MINOR. Where a memory and
+  `constitution.md` disagree, `constitution.md` wins.
+
+  _Companion changes, same commit._ The memories no longer name one person: a role reference and a
+  dated attribution alike now read *the user (Mike)*, so the contract does not hardcode who is at
+  the other end. `trust-mike-or-read-the-docs` keeps its filename and `name:`, because those are its
+  identity and two `[[links]]` resolve through them.
+
+  _Config companion, exercised._ The 29 bodies and the index become tracked Markdown, so
+  `check_wrap.py`, `check_spelling.py` and `check_reading_level.py` pick them up from `git ls-files`
+  with no change. All three were run over them.
+
 - **5.2.0 (2026-09-14)** — MINOR: a new Quality Gate, **Capture is out**, and the Archive section
   gains the second archive. The repository moved to `stick-e-bot`; `sponge` stays on disk holding
   what was left behind.
