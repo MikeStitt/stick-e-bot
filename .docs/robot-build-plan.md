@@ -1,6 +1,12 @@
 # The robot — build plan and course coverage
 
-A 150 mm articulated figure, modeled the way the Onshape courses teach it. This plan exists
+An articulated figure, about 300 mm tall, modeled the way the Onshape courses teach it. 
+
+The "about 300 mm" above is a target the stations were fitted to in an early version of the figure.
+There is no requirement for the exact height of the figure because driving the design to a specific
+height forces unneeded work. The program `make_plans.py` determines the sizes.
+
+This plan exists
 to answer one question: **how much of the official curriculum can one model actually carry,
 and what does it leave out?**
 
@@ -707,20 +713,6 @@ past 23 deg, by letting the stalk lean on a slope instead of a sharp edge.
 
 Open: boss diameter (Ø12 to match the drawn neck, or Ø10), how far each boss protrudes, and
 whether the hip boss moves the knee and ankle stations.
-
-### A height stack derived rather than forced — not adopted
-
-The 150 mm above is a target the stations were fitted to, and that is what put four joint
-centers exactly on the torso's own faces. Letting the parts declare their sizes instead gives:
-
-> **total = torso + head + 2 x legSeg + 2 x stand + foot plate + boss**
-> = 48 + 36 + 48 + 12 + 6 + 4 = **154 mm**, which is 48 x 77/24.
-
-Grip cancels out of the sum. Any torso divisible by 24 keeps every dimension whole.
-
-Both red flags dissolve under it, because the stand-off is *in* the stack rather than fighting
-it. It also shows the figure is short-legged — hips at 36% of height against a human's 47% —
-with `#limbCenter` as the lever. **Not adopted**; the sheets still draw the 150 stack.
 
 ### Spreading them across the robot
 
