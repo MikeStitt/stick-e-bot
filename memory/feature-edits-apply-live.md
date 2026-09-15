@@ -17,4 +17,4 @@ the plane standing on the face; the torso came back 72 mm across with no shoulde
 Two picking facts came with it: a sketch Onshape has already consumed is hidden, and a hidden
 sketch cannot be clicked; and a short line lying in a face needs the view zoomed in before a click
 lands on the line rather than on the face. See [[onshape-api-via-browser-session]] and
-[[bodydetails-beats-featurescript]] for reading the result back.
+[[onshape-bodydetails-beats-featurescript]] for reading the result back.

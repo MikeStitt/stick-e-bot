@@ -26,7 +26,8 @@ Two standing rules for any design/plan drawing in this repo:
 the count already lives in the BOM — it is pure maintenance for no information. Words like
 "tall"/"deep"/"wide" are doing the unit's job while saying nothing the geometry does not.
 
-**How to apply:** when generating sheets (see [[robot-plan-sheets-are-generated]]), keep
-quantities in the build plan's tables and out of the SVG. Also check that every dimension
+**How to apply:** when generating sheets — `instructions/robot-guide/make_plans.py` renders every
+one of them, and `ninja plan` runs it — keep quantities in the build plan's tables and out of the
+SVG. Also check that every dimension
 has extension lines aligned with the feature it measures — a dimension floating under a
 shape cannot be read against it.

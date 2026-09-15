@@ -23,7 +23,7 @@ a reader or subagent only from established, provable information.*
 
 **2. The Constitution states rules, not why.** Cut the argument for a rule; keep the rule.
 Researching or defending a rule's rationale is a separate task, done when asked. Applies to
-`constitution.md` and everything in `parts/`.
+everything in `.claude/**`.
 
 **3. No selling in instructions.** Do not rank a document's importance, quote what it cost to
 produce, or tell the reader it is the highest-value thing they will do. Say what it contains.

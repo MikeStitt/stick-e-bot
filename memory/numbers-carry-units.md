@@ -16,7 +16,8 @@ measures without hunting for it. Attach the unit to the value, with a space betw
 
 This applies to **conversation with the user (Mike), not only to committed files**. No check runs on
 chat output, so this memory is the only thing enforcing it there. The document half is enforced by
-the units rule in `.parts/prose-style.md`; see [[one-fact-one-home]] and do not restate it
+the units rule in `.claude/rules/parts/prose-style.md`; see [[one-fact-one-home]] and do not
+restate it
 elsewhere.
 
 What the rule covers:
