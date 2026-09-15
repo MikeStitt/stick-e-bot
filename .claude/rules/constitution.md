@@ -1,6 +1,6 @@
 # CAD Course Constitution
 
-This Constitution is **authoritative** for work in this repository. It supersedes ad-hoc
+This Constitution is **authoritative** for work by you or any agent. It supersedes ad-hoc
 conventions, verbal agreements, and any conflicting guidance in `CLAUDE.md`, `AGENTS.md`,
 `.github/copilot-instructions.md`, or sub-directory READMEs.
 
@@ -291,5 +291,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.4.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.5.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

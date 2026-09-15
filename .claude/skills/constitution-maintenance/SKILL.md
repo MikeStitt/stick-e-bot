@@ -49,6 +49,21 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.5.0 (2026-09-15)** — MINOR: the opening line binds an actor rather than a place.
+  *authoritative for work in this repository* becomes *authoritative for work by you or any agent*.
+
+  _Why:_ the contract had just been moved between repositories, and scoping it by directory says
+  nothing about the same agent working somewhere else. Scoping it by who is doing the work makes it
+  follow them. The list it supersedes is unchanged: ad-hoc conventions, verbal agreements, and
+  conflicting guidance in `CLAUDE.md`, `AGENTS.md`, `.github/copilot-instructions.md` or
+  sub-directory READMEs.
+
+  A material expansion rather than a redefinition, which is why this is a MINOR: nothing that was
+  bound before is unbound now, and the obligations themselves are untouched.
+
+  _Config companion, exercised._ None; no check enforces the scope line. `ninja check` was run and
+  is green.
+
 - **5.4.0 (2026-09-15)** — MINOR: **Write and fix only the live draft** joins § *Where
   developmental draft products live*. A superseded draft is a record of what the instructions were
   on the day it was made, so a defect in one is history rather than a bug.
