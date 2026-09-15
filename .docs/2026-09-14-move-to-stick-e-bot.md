@@ -114,7 +114,7 @@ the rest of `.claude/rules/` and went on importing draft9p4's plan, so the first
 and it is easy to forget precisely because nothing about it looks like state. A repository that
 copies its contract copies its plan pointer with it.
 
-## Phase 3.5 — re-root, and prove the new root before trusting it
+## Phase 3.5 — re-root, and prove the new root before trusting it — **done 2026-09-14**
 
 **Start a Claude Code session whose working directory is `stick-e-bot`, and do everything after
 this from there.** `sponge` becomes read-only archive at that moment.
@@ -140,6 +140,24 @@ What the first request in the new session checks:
 - **`uv sync` and `ninja check` are green from this root**, and `ninja check` now has four gates.
 
 If any of those fails, fix it before Phase 4 rather than working around it.
+
+**What the first request checked, 2026-09-14.** Four of the five closed and nothing failed, so
+Phase 4 is not blocked on this phase.
+
+- **The contract arrived at 5.2.0**, with `prose-style.md`, `plan-activation.md` and `CLAUDE.md`,
+  and the four project skills were listed without `/reload-skills`.
+- **`ninja check` exited 0 on all four gates, watched**: wrap, codespell, reading level, and the
+  tracked-image check. `uv sync` resolved 42 packages and audited 40, installing nothing.
+- **The reading-level gate listed 37 paragraphs above grade 8**, across
+  `instructions/stickbot-draft9p4/source/` and `instructions/robot-guide/source/`, the worst of them
+  grade 8.9. The gate says in its own output that this is not a failure, and the Constitution's
+  *Reading level* gate is what adjudicates them.
+- **`/context` was not run.** It is a slash command the session cannot call for itself, so it is
+  Mike's to perform. It is the one item of this phase still open.
+- **A pointer edited inside a session does not reach the injected text until the next request.**
+  `active-plan.md` was repointed at this file mid-session, and the injected copy went on carrying
+  draft9p4's plan, so this plan's text was read back with `cat` rather than out of the injection.
+  The import path resolves and the file is on disk, which is what the check asked for.
 
 ## Phase 4 — draft9p4 to a finished reference model, over REST
 
