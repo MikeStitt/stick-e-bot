@@ -1,5 +1,9 @@
 """Draw whether the relief slits reach inside the mouth, looking down the socket axis.
 
+Status: superseded. The same pre-doubling comparison as socket-wrap.py, sizing 'a' being
+stickbot-for-bot-review at ball 6.0. Kept as the record of the decision, not as a description of
+the robot.
+
 Writes slit-reach.html beside itself. Every number and every path point is computed
 from the inputs of a sizing, so changing a number here redraws the picture rather
 than needing the drawing edited to match.

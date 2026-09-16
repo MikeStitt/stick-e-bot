@@ -1,5 +1,9 @@
 """What the sharp rim does to the hold as it wears.
 
+Status: superseded. The same cone-and-valley detent make_figures.py reviews, at its own
+snapshot: BUMP_R 9.109, VALLEY_D 1.2, TOOTH 0.6. The current joint has no bore through the ear and
+no rim to wear, so nothing here describes a surface the robot still has.
+
 It drew the land as well, until the slot's relief was dropped and the ear's inner face became
 one plane; that half of the file went with it, and so did ``source/images/seat.svg``.
 

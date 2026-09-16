@@ -1,5 +1,11 @@
 """The figures for the hinge review, drawn from the numbers that build the hinge.
 
+Status: superseded. The detent of 45 degree cones dropping into bores through the ear, as
+built in stickbot-draft9p1p2 and stickbot-draft9p1p4, printed, and measured on 2026-09-04 at
+210 N.mm against the 454 N.mm it was drawn for. That measurement is why the joint is a ring of
+wedges now. Frozen on purpose and not maintained against the design source: repointing it at
+make_plans would leave this review's prose contradicting its own figures.
+
     uv run --project . python .docs/reviews/hinge/make_figures.py
 
 Every length here is the joint as this review found it, frozen in `J` below. It used to be read

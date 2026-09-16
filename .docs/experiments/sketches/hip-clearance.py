@@ -1,5 +1,10 @@
 import math
 
+# Status: superseded. The socket at WALL 3.0 and COLLAR_L 9.0, which is where the numbers
+# stood before draft9p1p4 settled #wall to #torsoH * 3 / 160 (1.8) and #collar to #ball / 2 +
+# #wall. The ball and the stalk are unchanged; the wall and the collar are not. Kept as the
+# record of the clearance argument, not as a description of the robot.
+
 # The joint, from build-briefs/ball-and-socket.md. The mouth is the dimension, drawn at 96%
 # of the ball, and #grip -- how deep the ball's center sits below the socket's face -- is
 # whatever puts the cavity sphere through a mouth that size. So tightening #fit lifts the

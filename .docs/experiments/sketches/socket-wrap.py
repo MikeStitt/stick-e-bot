@@ -1,5 +1,9 @@
 """Draw how far the socket wraps around the ball, for three sizings of the joint.
 
+Status: superseded. This is the argument for doubling the robot, made before it was
+doubled: its sizing 'a' is stickbot-for-bot-review at ball 6.0, and its wall follows the ball
+where the settled rule does not. Kept as the record of that decision.
+
 Writes socket-wrap.html beside itself. Every number and every path point is computed
 from the four inputs of a sizing — ball, stalk, fit, grip — so changing a number here
 redraws the picture rather than needing the drawing edited to match.

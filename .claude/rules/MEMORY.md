@@ -64,3 +64,5 @@ filename.
   the missing evidence in plain words, and update the record when a result closes it.
 - [Test the technique, not a guess](../../memory/test-the-technique-not-a-guess.md) — before writing
   that a method failed, prove the run performed it in the order it specifies.
+- [Deciding is never done](../../memory/deciding-is-never-done.md) — label a drawing controlling,
+  illustrative or superseded, and name the version; no artifact is simply right.

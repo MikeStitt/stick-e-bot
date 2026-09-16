@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Generate the two plan sheets and render them to PNG.
 
+Status: controlling. This is the design source. Every robot dimension is decided here and
+nowhere else, and the brief sheets, the plan sheets and the Variable Studio all follow from it.
+
 Sheet 1 (plan-assembly) — the parts assembled, named, with the overall dimensions.
 Sheet 2 (plan-parts)    — the eight unique parts, each named, every joint portion labeled,
                           and two section details that define the joints themselves.

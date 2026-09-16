@@ -1,4 +1,8 @@
 """Pictures for the one question in changes.md that words did not answer: why, of the
+
+Status: superseded. Despite the file name these are teeth, not the settled wedge ring:
+TOOTH_PROUD 1.2, BUMP_R 8.813, GAP 0.6, a third snapshot again distinct from make_figures.py's J.
+Read it for the beam argument, which still holds, and not for a dimension.
 thirteen teeth inside the slot, only one place along the beam is touching.
 
 A place along the beam is not a tooth. The ring puts two teeth the same distance along
