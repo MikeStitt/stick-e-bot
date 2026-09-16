@@ -167,6 +167,10 @@ Phase 4 is not blocked on this phase.
 
 ## Phase 4 — draft9p4 to a finished reference model, over REST
 
+**Its plan is written**, at
+[`2026-09-16-draft9p4-reference-model.md`](2026-09-16-draft9p4-reference-model.md). It carries what
+draft9p4 actually holds, measured over REST on 2026-09-16, and the archive-rename test.
+
 Tutorials 9 to 14 are unbuilt: the hinge is part way, and `u limb`, `l limb`, `gripper` and the two
 assembly tutorials have not started. The joints come from `stickbot-draft9p1p6`, the rest from
 draft9p1p1's construction, exactly as draft9p4's own declaration says.
