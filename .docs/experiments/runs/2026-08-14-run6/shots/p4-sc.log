@@ -1,0 +1,998 @@
+21:45:38 url https://cad.onshape.com/documents/99c49282225f3a7392b2d56b/w/d5349dd92de148b5944abf88/e/da5a7f06c1ff110098bdafb9
+21:45:38 rows ['Default geometry', 'Origin', 'Top', 'Front', 'Right', '', 'Parts (0)']
+21:45:39 parts []
+21:45:54 about to click the Top plane in the feature tree at (140, 209)
+21:45:55 clicked the Top plane in the feature tree -> 03-b-done-the-top-plane-in-the-feature-tree.png
+21:45:56 about to click the Sketch button at (155, 58)
+21:45:57 clicked the Sketch button -> 05-b-done-the-sketch-button.png
+21:46:23 about to click the little arrow beside the circle tool at (331, 58)
+21:46:24 clicked the little arrow beside the circle tool -> 08-b-done-the-little-arrow-beside-the-circle-tool.png
+21:46:25 about to click Center point circle at (381, 94)
+21:46:26 clicked Center point circle -> 10-b-done-center-point-circle.png
+21:46:28 about to click the origin at (922, 521)
+21:46:29 clicked the origin -> 12-b-done-the-origin.png
+21:46:30 about to click a point out on the circle at (1060, 521)
+21:46:31 clicked a point out on the circle -> 13-b-done-a-point-out-on-the-circle.png
+21:46:53 about to click the circle at (922, 388)
+21:46:54 clicked the circle -> 16-b-done-the-circle.png
+21:46:55 about to click where the dimension sits at (1180, 340)
+21:46:56 clicked where the dimension sits -> 17-b-done-where-the-dimension-sits.png
+21:46:58 the box reads '76.26115 mm'
+21:46:59 the limb's outside: 76.26115 mm -> 12
+21:47:16 about to click the green tick at (424, 93)
+21:47:17 clicked the green tick -> 20-b-done-the-green-tick.png
+21:47:20 about to click the Sketch 1 row, to rename it at (140, 287)
+21:47:20 clicked the Sketch 1 row, to rename it -> 21-b-done-the-sketch-1-row-to-rename-it.png
+21:47:20 about to click Rename in the context menu at (263, 311)
+21:47:21 clicked Rename in the context menu -> 22-b-done-rename-in-the-context-menu.png
+21:47:23 renamed 'Sketch 1' to 'Limb circle'
+21:47:57 about to click the View menu at (1563, 232)
+21:47:58 clicked the View menu -> 25-b-done-the-view-menu.png
+21:47:59 about to click Isometric at (1455, 258)
+21:48:00 clicked Isometric -> 26-b-done-isometric.png
+21:48:01 about to click the View menu at (1563, 232)
+21:48:02 clicked the View menu -> 27-b-done-the-view-menu.png
+21:48:03 about to click Zoom to fit at (1459, 393)
+21:48:04 clicked Zoom to fit -> 28-b-done-zoom-to-fit.png
+21:48:06 about to click the Extrude tool at (219, 58)
+21:48:07 clicked the Extrude tool -> 30-b-done-the-extrude-tool.png
+21:48:33 about to click the red X, to close Extrude for now at (452, 93)
+21:48:33 clicked the red X, to close Extrude for now -> 32-b-done-the-red-x-to-close-extrude-for-now.png
+21:48:35 about to click the Top plane row, for its menu at (140, 209)
+21:48:36 clicked the Top plane row, for its menu -> 33-b-done-the-top-plane-row-for-its-menu.png
+21:48:37 about to click Hide all planes at (244, 345)
+21:48:38 clicked Hide all planes -> 34-b-done-hide-all-planes.png
+21:48:39 about to click the View menu at (1563, 232)
+21:48:40 clicked the View menu -> 35-b-done-the-view-menu.png
+21:48:41 about to click Zoom to fit at (1459, 393)
+21:48:42 clicked Zoom to fit -> 36-b-done-zoom-to-fit.png
+21:49:11 about to click the Extrude tool at (219, 58)
+21:49:12 clicked the Extrude tool -> 39-b-done-the-extrude-tool.png
+21:49:14 about to click inside the limb circle at (960, 560)
+21:49:15 clicked inside the limb circle -> 41-b-done-inside-the-limb-circle.png
+21:49:40 about to click the depth field, reading '25 mm' at (359, 259)
+21:49:41 clicked the depth field, reading '25 mm' -> 43-b-done-the-depth-field-reading-25-mm.png
+21:49:43 how long the round stock is: 25 mm -> 25.85 mm
+21:50:12 about to click the View menu at (1563, 232)
+21:50:13 clicked the View menu -> 45-b-done-the-view-menu.png
+21:50:14 about to click Trimetric at (1455, 302)
+21:50:15 clicked Trimetric -> 46-b-done-trimetric.png
+21:50:17 about to click the View menu at (1563, 232)
+21:50:17 clicked the View menu -> 47-b-done-the-view-menu.png
+21:50:18 about to click Zoom to fit at (1459, 393)
+21:50:19 clicked Zoom to fit -> 48-b-done-zoom-to-fit.png
+21:50:43 about to click the flip arrow beside Blind at (452, 231)
+21:50:44 clicked the flip arrow beside Blind -> 51-b-done-the-flip-arrow-beside-blind.png
+21:50:45 about to click the View menu at (1563, 232)
+21:50:46 clicked the View menu -> 52-b-done-the-view-menu.png
+21:50:47 about to click Zoom to fit at (1459, 393)
+21:50:48 clicked Zoom to fit -> 53-b-done-zoom-to-fit.png
+21:51:10 about to click the Starting offset checkbox at (277, 313)
+21:51:11 clicked the Starting offset checkbox -> 56-b-done-the-starting-offset-checkbox.png
+21:51:43 typed 4.15 into the starting offset's own depth
+21:51:44 about to click the View menu at (1563, 232)
+21:51:45 clicked the View menu -> 58-b-done-the-view-menu.png
+21:51:46 about to click Zoom to fit at (1459, 393)
+21:51:47 clicked Zoom to fit -> 59-b-done-zoom-to-fit.png
+21:52:18 about to click the green tick at (424, 93)
+21:52:19 clicked the green tick -> 61-b-done-the-green-tick.png
+21:52:23 CYLINDER area= 974.5220  x -6.0000..6.0000  y -6.0000..6.0000  z -21.7000..4.1500  r=6.0000
+21:52:23 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z -21.7000..-21.7000
+21:52:23 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z 4.1500..4.1500
+21:52:23 part box  x -6.0000..6.0000  y -6.0000..6.0000  z -21.7000..4.1500
+21:52:44 reopening the extrude at ['Extrude 1', 140, 313]
+21:52:47 about to click the flip arrow beside the starting offset's depth at (452, 369)
+21:52:48 clicked the flip arrow beside the starting offset's depth -> 64-b-done-the-flip-arrow-beside-the-starting-offset-s-dept.png
+21:52:49 about to click the green tick at (424, 93)
+21:52:50 clicked the green tick -> 66-b-done-the-green-tick.png
+21:52:54 CYLINDER area= 974.5220  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-4.1500  r=6.0000
+21:52:54 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-30.0000
+21:52:54 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z -4.1500..-4.1500
+21:53:09 about to click the Extrude 1 row, to rename it at (140, 313)
+21:53:10 clicked the Extrude 1 row, to rename it -> 67-b-done-the-extrude-1-row-to-rename-it.png
+21:53:10 about to click Rename in the context menu at (261, 337)
+21:53:11 clicked Rename in the context menu -> 68-b-done-rename-in-the-context-menu.png
+21:53:13 renamed 'Extrude 1' to 'Limb stock'
+21:53:13 about to click the View menu at (1563, 232)
+21:53:14 clicked the View menu -> 70-b-done-the-view-menu.png
+21:53:15 about to click Isometric at (1455, 258)
+21:53:15 clicked Isometric -> 71-b-done-isometric.png
+21:53:17 about to click the View menu at (1563, 232)
+21:53:18 clicked the View menu -> 72-b-done-the-view-menu.png
+21:53:19 about to click Zoom to fit at (1459, 393)
+21:53:20 clicked Zoom to fit -> 73-b-done-zoom-to-fit.png
+21:53:44 about to click the flat top of the stock at (922, 300)
+21:53:45 clicked the flat top of the stock -> 76-b-done-the-flat-top-of-the-stock.png
+21:53:46 about to click the Sketch button at (155, 58)
+21:53:47 clicked the Sketch button -> 77-b-done-the-sketch-button.png
+21:54:19 about to click the little arrow beside the circle tool at (331, 58)
+21:54:20 clicked the little arrow beside the circle tool -> 79-b-done-the-little-arrow-beside-the-circle-tool.png
+21:54:21 about to click Center point circle at (381, 94)
+21:54:21 clicked Center point circle -> 81-b-done-center-point-circle.png
+21:54:23 about to click the origin at (922, 522)
+21:54:24 clicked the origin -> 83-b-done-the-origin.png
+21:54:25 about to click a point out on the circle at (1039, 522)
+21:54:26 clicked a point out on the circle -> 84-b-done-a-point-out-on-the-circle.png
+21:54:29 about to click the collar circle at (922, 405)
+21:54:30 clicked the collar circle -> 86-b-done-the-collar-circle.png
+21:54:31 about to click where the dimension sits at (1200, 360)
+21:54:32 clicked where the dimension sits -> 87-b-done-where-the-dimension-sits.png
+21:54:33 the box reads '9.38528 mm'
+21:54:35 the collar's outside: 9.38528 mm -> 9.4
+21:54:58 about to click the green tick at (424, 93)
+21:54:59 clicked the green tick -> 89-b-done-the-green-tick.png
+21:55:02 about to click the Sketch 1 row, to rename it at (140, 339)
+21:55:03 clicked the Sketch 1 row, to rename it -> 90-b-done-the-sketch-1-row-to-rename-it.png
+21:55:03 about to click Rename in the context menu at (263, 363)
+21:55:04 clicked Rename in the context menu -> 91-b-done-rename-in-the-context-menu.png
+21:55:05 renamed 'Sketch 1' to 'Collar circle'
+21:55:05 about to click the View menu at (1563, 232)
+21:55:06 clicked the View menu -> 93-b-done-the-view-menu.png
+21:55:07 about to click Isometric at (1455, 258)
+21:55:08 clicked Isometric -> 94-b-done-isometric.png
+21:55:09 about to click the View menu at (1563, 232)
+21:55:10 clicked the View menu -> 95-b-done-the-view-menu.png
+21:55:11 about to click Zoom to fit at (1459, 393)
+21:55:12 clicked Zoom to fit -> 96-b-done-zoom-to-fit.png
+21:55:39 about to click the Extrude tool at (219, 58)
+21:55:40 clicked the Extrude tool -> 98-b-done-the-extrude-tool.png
+21:55:42 about to click inside the collar circle at (922, 300)
+21:55:43 clicked inside the collar circle -> 101-b-done-inside-the-collar-circle.png
+21:55:45 about to click Add at (313, 148)
+21:55:46 clicked Add -> 102-b-done-add.png
+21:55:47 about to click the depth field, reading '25 mm' at (359, 259)
+21:55:48 clicked the depth field, reading '25 mm' -> 103-b-done-the-depth-field-reading-25-mm.png
+21:55:50 how far the collar stands proud: 25 mm -> 5.5 mm
+21:56:13 about to click the green tick at (424, 93)
+21:56:14 clicked the green tick -> 105-b-done-the-green-tick.png
+21:56:18 about to click the Extrude 1 row, to rename it at (140, 365)
+21:56:19 clicked the Extrude 1 row, to rename it -> 106-b-done-the-extrude-1-row-to-rename-it.png
+21:56:19 about to click Rename in the context menu at (261, 389)
+21:56:19 clicked Rename in the context menu -> 107-b-done-rename-in-the-context-menu.png
+21:56:21 renamed 'Extrude 1' to 'Collar blank'
+21:56:21 CYLINDER area= 974.5220  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-4.1500  r=6.0000
+21:56:21 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-30.0000
+21:56:21 PLANE    area=  43.6996  x -6.0000..6.0000  y -6.0000..6.0000  z -4.1500..-4.1500
+21:56:21 CYLINDER area= 162.4203  x -4.7000..4.7000  y -4.7000..4.7000  z -4.1500..1.3500  r=4.7000
+21:56:21 PLANE    area=  69.3978  x -4.7000..4.7000  y -4.7000..4.7000  z 1.3500..1.3500
+21:56:59 about to click the Front plane in the feature tree at (140, 235)
+21:56:59 clicked the Front plane in the feature tree -> 110-b-done-the-front-plane-in-the-feature-tree.png
+21:57:00 about to click the Sketch button at (155, 58)
+21:57:01 clicked the Sketch button -> 111-b-done-the-sketch-button.png
+21:57:37 about to click the little arrow beside the circle tool at (331, 58)
+21:57:38 clicked the little arrow beside the circle tool -> 113-b-done-the-little-arrow-beside-the-circle-tool.png
+21:57:39 about to click Center point circle at (381, 94)
+21:57:39 clicked Center point circle -> 114-b-done-center-point-circle.png
+21:57:41 about to click the origin at (817, 256)
+21:57:42 clicked the origin -> 116-b-done-the-origin.png
+21:57:43 about to click a point out on the cavity circle at (896, 256)
+21:57:44 clicked a point out on the cavity circle -> 117-b-done-a-point-out-on-the-cavity-circle.png
+21:57:47 about to click the cavity circle at (896, 256)
+21:57:48 clicked the cavity circle -> 119-b-done-the-cavity-circle.png
+21:57:49 about to click where the dimension sits at (1130, 180)
+21:57:50 clicked where the dimension sits -> 120-b-done-where-the-dimension-sits.png
+21:57:51 the box reads '6.36598 mm'
+21:57:53 the cavity: 6.36598 mm -> 6.4
+21:58:18 about to click the Line tool at (202, 58)
+21:58:19 clicked the Line tool -> 122-b-done-the-line-tool.png
+21:58:21 about to click the top of the cavity circle at (817, 177)
+21:58:21 clicked the top of the cavity circle -> 124-b-done-the-top-of-the-cavity-circle.png
+21:58:23 about to click the bottom of the cavity circle at (817, 335)
+21:58:24 clicked the bottom of the cavity circle -> 126-b-done-the-bottom-of-the-cavity-circle.png
+21:58:52 about to click the green tick at (424, 93)
+21:58:53 clicked the green tick -> 128-b-done-the-green-tick.png
+21:58:55 about to click the Sketch 1 row, to rename it at (140, 391)
+21:58:56 clicked the Sketch 1 row, to rename it -> 129-b-done-the-sketch-1-row-to-rename-it.png
+21:58:56 about to click Rename in the context menu at (263, 415)
+21:58:57 clicked Rename in the context menu -> 130-b-done-rename-in-the-context-menu.png
+21:58:59 renamed 'Sketch 1' to 'Cavity profile'
+21:58:59 about to click the Revolve tool at (253, 58)
+21:59:00 clicked the Revolve tool -> 132-b-done-the-revolve-tool.png
+21:59:02 about to click Remove at (366, 148)
+21:59:03 clicked Remove -> 134-b-done-remove.png
+21:59:05 about to click the right half of the cavity circle at (850, 200)
+21:59:06 clicked the right half of the cavity circle -> 136-b-done-the-right-half-of-the-cavity-circle.png
+21:59:33 about to click the Revolve axis field at (343, 231)
+21:59:34 clicked the Revolve axis field -> 138-b-done-the-revolve-axis-field.png
+21:59:35 about to click the axis line at (817, 195)
+21:59:36 clicked the axis line -> 140-b-done-the-axis-line.png
+21:59:38 merge with all at [[310, 308]]
+21:59:38 about to click the Merge with all box at (298, 308)
+21:59:39 clicked the Merge with all box -> 142-b-done-the-merge-with-all-box.png
+22:00:06 about to click the green tick at (424, 93)
+22:00:07 clicked the green tick -> 144-b-done-the-green-tick.png
+22:00:11 about to click the Revolve 1 row, to rename it at (140, 417)
+22:00:11 clicked the Revolve 1 row, to rename it -> 145-b-done-the-revolve-1-row-to-rename-it.png
+22:00:12 about to click Rename in the context menu at (261, 441)
+22:00:12 clicked Rename in the context menu -> 146-b-done-rename-in-the-context-menu.png
+22:00:14 renamed 'Revolve 1' to 'Cavity from ball'
+22:00:14 CYLINDER area= 974.5220  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-4.1500  r=6.0000
+22:00:14 PLANE    area= 113.0973  x -6.0000..6.0000  y -6.0000..6.0000  z -30.0000..-30.0000
+22:00:14 PLANE    area=  43.6996  x -6.0000..6.0000  y -6.0000..6.0000  z -4.1500..-4.1500
+22:00:14 CYLINDER area= 162.4203  x -4.7000..4.7000  y -4.7000..4.7000  z -4.1500..1.3500  r=4.7000
+22:00:14 PLANE    area=  42.9534  x -4.7000..4.7000  y -4.7000..4.7000  z 1.3500..1.3500
+22:00:33 SPHERE  r=3.2000  centre (-0.0000, 0.0000, 0.0000)  area=91.4832
+22:00:33 volume now 3195.7719 mm3
+22:00:33 stock 2923.5661 + collar 381.6878 = 3305.2539, so the cavity took 109.4820
+22:01:22 about to click the View menu at (1563, 232)
+22:01:22 clicked the View menu -> 149-b-done-the-view-menu.png
+22:01:23 about to click Isometric at (1455, 258)
+22:01:24 clicked Isometric -> 150-b-done-isometric.png
+22:01:26 about to click the View menu at (1563, 232)
+22:01:27 clicked the View menu -> 151-b-done-the-view-menu.png
+22:01:28 about to click Zoom to fit at (1459, 393)
+22:01:28 clicked Zoom to fit -> 152-b-done-zoom-to-fit.png
+22:01:57 about to click the collar's rim ring at (825, 200)
+22:01:58 clicked the collar's rim ring -> 156-b-done-the-collar-s-rim-ring.png
+22:01:59 about to click the Sketch tool at (155, 58)
+22:02:00 clicked the Sketch tool -> 158-b-done-the-sketch-tool.png
+22:02:33 about to click the rectangle group's arrow at (279, 58)
+22:02:34 clicked the rectangle group's arrow -> 160-b-done-the-rectangle-group-s-arrow.png
+22:02:35 about to click Center point rectangle at (336, 130)
+22:02:36 clicked Center point rectangle -> 162-b-done-center-point-rectangle.png
+22:02:38 about to click the origin, as the rectangle's centre at (922, 522)
+22:02:39 clicked the origin, as the rectangle's centre -> 164-b-done-the-origin-as-the-rectangle-s-centre.png
+22:02:39 about to click a corner, out past the collar at (932, 680)
+22:02:40 clicked a corner, out past the collar -> 165-b-done-a-corner-out-past-the-collar.png
+22:03:13 about to click the rectangle's top edge at (922, 366)
+22:03:13 clicked the rectangle's top edge -> 167-b-done-the-rectangle-s-top-edge.png
+22:03:14 about to click where the width dimension sits at (1060, 320)
+22:03:15 clicked where the width dimension sits -> 168-b-done-where-the-width-dimension-sits.png
+22:03:17 slit width: 0.74553 mm -> 0.8
+22:03:18 about to click the rectangle's left edge at (913, 600)
+22:03:18 clicked the rectangle's left edge -> 170-b-done-the-rectangle-s-left-edge.png
+22:03:19 about to click where the length dimension sits at (760, 600)
+22:03:20 clicked where the length dimension sits -> 171-b-done-where-the-length-dimension-sits.png
+22:03:22 slit length: 13.17897 mm -> 12
+22:03:50 about to click the green tick at (424, 93)
+22:03:51 clicked the green tick -> 174-b-done-the-green-tick.png
+22:03:54 about to click the Sketch 1 row, to rename it at (140, 443)
+22:03:55 clicked the Sketch 1 row, to rename it -> 175-b-done-the-sketch-1-row-to-rename-it.png
+22:03:55 about to click Rename in the context menu at (263, 467)
+22:03:56 clicked Rename in the context menu -> 176-b-done-rename-in-the-context-menu.png
+22:03:57 renamed 'Sketch 1' to 'Slit profile'
+22:03:58 about to click the Extrude tool at (219, 58)
+22:03:59 clicked the Extrude tool -> 178-b-done-the-extrude-tool.png
+22:04:01 about to click Remove at (366, 148)
+22:04:01 clicked Remove -> 179-b-done-remove.png
+22:04:03 about to click the slit rectangle at (922, 430)
+22:04:04 clicked the slit rectangle -> 181-b-done-the-slit-rectangle.png
+22:04:26 about to click the depth field, reading '25 mm' at (359, 259)
+22:04:27 clicked the depth field, reading '25 mm' -> 183-b-done-the-depth-field-reading-25-mm.png
+22:04:29 how deep the slits run: 25 mm -> 5.5 mm
+22:04:31 about to click the View menu at (1563, 232)
+22:04:32 clicked the View menu -> 185-b-done-the-view-menu.png
+22:04:33 about to click Trimetric at (1455, 302)
+22:04:34 clicked Trimetric -> 186-b-done-trimetric.png
+22:05:01 about to click the green tick at (424, 93)
+22:05:02 clicked the green tick -> 188-b-done-the-green-tick.png
+22:05:05 about to click the Extrude 1 row, to rename it at (140, 469)
+22:05:06 clicked the Extrude 1 row, to rename it -> 189-b-done-the-extrude-1-row-to-rename-it.png
+22:05:06 about to click Rename in the context menu at (261, 493)
+22:05:07 clicked Rename in the context menu -> 190-b-done-rename-in-the-context-menu.png
+22:05:08 renamed 'Extrude 1' to 'Slit pair'
+22:05:09 wall  area= 27.3724  x 0.4000..0.4000  y -4.6829..4.6829  z -4.1500..1.3500
+22:05:09 wall  area= 27.3724  x -0.4000..-0.4000  y -4.6829..4.6829  z -4.1500..1.3500
+22:05:31 about to click the tool search box at (1348, 58)
+22:05:32 clicked the tool search box -> 193-b-done-the-tool-search-box.png
+22:05:33 about to click the circular pattern result in the search panel at (1120, 159)
+22:05:34 clicked the circular pattern result in the search panel -> 195-b-done-the-circular-pattern-result-in-the-search-panel.png
+22:05:39 about to click the arrow on the pattern type dropdown at (430, 121)
+22:05:40 clicked the arrow on the pattern type dropdown -> 198-b-done-the-arrow-on-the-pattern-type-dropdown.png
+22:05:41 about to click Feature pattern at (305, 178)
+22:05:42 clicked Feature pattern -> 200-b-done-feature-pattern.png
+22:06:06 about to click the Slit pair row, as the feature to pattern at (140, 469)
+22:06:07 clicked the Slit pair row, as the feature to pattern -> 202-b-done-the-slit-pair-row-as-the-feature-to-pattern.png
+22:06:35 about to click the Axis of pattern field at (343, 203)
+22:06:36 clicked the Axis of pattern field -> 204-b-done-the-axis-of-pattern-field.png
+22:06:37 about to click the limb's round side at (850, 650)
+22:06:38 clicked the limb's round side -> 206-b-done-the-limb-s-round-side.png
+22:07:05 about to click the angle field, reading '360 deg' at (363, 252)
+22:07:06 clicked the angle field, reading '360 deg' -> 208-b-done-the-angle-field-reading-360-deg.png
+22:07:08 how far round the second pair sits: 360 deg -> 90 deg
+22:07:09 about to click the instance count field, reading '4' at (387, 278)
+22:07:10 clicked the instance count field, reading '4' -> 209-b-done-the-instance-count-field-reading-4.png
+22:07:12 how many copies, the original included: 4 -> 2
+22:07:13 reapply features at [[318, 359]]
+22:07:13 about to click the Reapply features box at (306, 359)
+22:07:14 clicked the Reapply features box -> 210-b-done-the-reapply-features-box.png
+22:07:41 about to click the green tick at (424, 93)
+22:07:42 clicked the green tick -> 212-b-done-the-green-tick.png
+22:07:45 about to click the Circular pattern 1 row, to rename it at (140, 495)
+22:07:46 clicked the Circular pattern 1 row, to rename it -> 213-b-done-the-circular-pattern-1-row-to-rename-it.png
+22:07:46 about to click Rename in the context menu at (261, 519)
+22:07:47 clicked Rename in the context menu -> 214-b-done-rename-in-the-context-menu.png
+22:07:49 renamed 'Circular pattern 1' to 'Second slit pair'
+22:07:49 wall  area= 13.2928  x 0.4000..0.4000  y -4.6829..-0.4000  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x -0.4000..-0.4000  y -4.6829..-0.4000  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x 0.4000..0.4000  y 0.4000..4.6829  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x -0.4000..-0.4000  y 0.4000..4.6829  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x -4.6829..-0.4000  y -0.4000..-0.4000  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x -4.6829..-0.4000  y 0.4000..0.4000  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x 0.4000..4.6829  y 0.4000..0.4000  z -4.1500..1.3500
+22:07:49 wall  area= 13.2928  x 0.4000..4.6829  y -0.4000..-0.4000  z -4.1500..1.3500
+22:09:34 about to click the Front plane in the feature tree at (140, 235)
+22:09:35 clicked the Front plane in the feature tree -> 217-b-done-the-front-plane-in-the-feature-tree.png
+22:09:36 about to click the Sketch button at (155, 58)
+22:09:37 clicked the Sketch button -> 218-b-done-the-sketch-button.png
+22:09:42 about to click the View menu at (1563, 232)
+22:09:43 clicked the View menu -> 219-b-done-the-view-menu.png
+22:09:44 about to click Zoom to fit at (1459, 393)
+22:09:45 clicked Zoom to fit -> 220-b-done-zoom-to-fit.png
+22:11:37 about to click the little arrow beside the circle tool at (331, 58)
+22:11:38 clicked the little arrow beside the circle tool -> 224-b-done-the-little-arrow-beside-the-circle-tool.png
+22:11:39 about to click Center point circle at (381, 94)
+22:11:40 clicked Center point circle -> 225-b-done-center-point-circle.png
+22:11:42 about to click roughly where the hinge axis goes at (940, 700)
+22:11:42 clicked roughly where the hinge axis goes -> 227-b-done-roughly-where-the-hinge-axis-goes.png
+22:11:43 about to click a point out on the circle at (1070, 700)
+22:11:44 clicked a point out on the circle -> 228-b-done-a-point-out-on-the-circle.png
+22:12:27 about to click the origin at (922, 141)
+22:12:28 clicked the origin -> 230-b-done-the-origin.png
+22:12:29 about to click the circle's middle, added to the selection at (940, 700)
+22:12:29 clicked the circle's middle, added to the selection -> 231-b-done-the-circle-s-middle-added-to-the-selection.png
+22:13:02 about to click the round end circle at (922, 570)
+22:13:03 clicked the round end circle -> 235-b-done-the-round-end-circle.png
+22:13:04 about to click where the dimension sits at (1200, 520)
+22:13:05 clicked where the dimension sits -> 236-b-done-where-the-dimension-sits.png
+22:13:06 the box reads '10.74569 mm'
+22:13:08 the round end, the limb's own diameter: 10.74569 mm -> 12
+22:13:09 about to click the origin at (922, 141)
+22:13:10 clicked the origin -> 237-b-done-the-origin.png
+22:13:11 about to click the hinge axis at (922, 700)
+22:13:12 clicked the hinge axis -> 238-b-done-the-hinge-axis.png
+22:13:13 about to click where the 24 sits at (1330, 420)
+22:13:14 clicked where the 24 sits -> 239-b-done-where-the-24-sits.png
+22:13:15 the box reads None
+22:13:48 about to click the origin at (922, 141)
+22:13:49 clicked the origin -> 241-b-done-the-origin.png
+22:13:51 about to click the circle's middle at (922, 765)
+22:13:51 clicked the circle's middle -> 243-b-done-the-circle-s-middle.png
+22:13:52 about to click where the 24 sits at (1330, 420)
+22:13:53 clicked where the 24 sits -> 244-b-done-where-the-24-sits.png
+22:13:55 the box reads '25.75784 mm'
+22:13:56 how far the hinge axis sits below the socket ball: 25.75784 mm -> 24
+22:14:28 about to click the rectangle group's arrow at (279, 58)
+22:14:29 clicked the rectangle group's arrow -> 246-b-done-the-rectangle-group-s-arrow.png
+22:14:30 about to click Center point rectangle at (336, 130)
+22:14:31 clicked Center point rectangle -> 247-b-done-center-point-rectangle.png
+22:14:32 about to click the rectangle's middle at (940, 820)
+22:14:33 clicked the rectangle's middle -> 249-b-done-the-rectangle-s-middle.png
+22:14:34 about to click a corner, well outside the limb at (1180, 915)
+22:14:35 clicked a corner, well outside the limb -> 250-b-done-a-corner-well-outside-the-limb.png
+22:15:12 about to click the rectangle's middle at (940, 820)
+22:15:13 clicked the rectangle's middle -> 252-b-done-the-rectangle-s-middle.png
+22:15:14 about to click the origin, added to the selection at (922, 141)
+22:15:15 clicked the origin, added to the selection -> 253-b-done-the-origin-added-to-the-selection.png
+22:15:50 about to click the rectangle's bottom edge at (1000, 913)
+22:15:51 clicked the rectangle's bottom edge -> 256-b-done-the-rectangle-s-bottom-edge.png
+22:15:52 about to click where the width sits at (1300, 940)
+22:15:53 clicked where the width sits -> 257-b-done-where-the-width-sits.png
+22:15:56 the rectangle's width: 19.8382 mm -> 20
+22:15:56 about to click the rectangle's left edge at (682, 820)
+22:15:57 clicked the rectangle's left edge -> 259-b-done-the-rectangle-s-left-edge.png
+22:15:57 about to click where the height sits at (560, 820)
+22:15:58 clicked where the height sits -> 260-b-done-where-the-height-sits.png
+22:16:01 the rectangle's height: 7.85263 mm -> 8
+22:16:37 about to click the rectangle's top left corner at (682, 724)
+22:16:38 clicked the rectangle's top left corner -> 262-b-done-the-rectangle-s-top-left-corner.png
+22:16:39 about to click the circle's middle, added to the selection at (922, 721)
+22:16:40 clicked the circle's middle, added to the selection -> 263-b-done-the-circle-s-middle-added-to-the-selection.png
+22:19:45 about to click the green tick at (424, 93)
+22:19:46 clicked the green tick -> 266-b-done-the-green-tick.png
+22:19:48 about to click the Sketch 1 row, to rename it at (140, 521)
+22:19:49 clicked the Sketch 1 row, to rename it -> 267-b-done-the-sketch-1-row-to-rename-it.png
+22:19:49 about to click Rename in the context menu at (263, 545)
+22:19:50 clicked Rename in the context menu -> 268-b-done-rename-in-the-context-menu.png
+22:19:52 renamed 'Sketch 1' to 'Round end profile'
+22:19:52 about to click the Extrude tool at (219, 58)
+22:19:53 clicked the Extrude tool -> 270-b-done-the-extrude-tool.png
+22:19:55 about to click Remove at (366, 148)
+22:19:56 clicked Remove -> 271-b-done-remove.png
+22:19:58 about to click the corner region at (720, 800)
+22:19:59 clicked the corner region -> 273-b-done-the-corner-region.png
+22:20:32 about to click the end condition list, which reads Blind at (343, 231)
+22:20:33 clicked the end condition list, which reads Blind -> 275-b-done-the-end-condition-list-which-reads-blind.png
+22:20:54 about to click Through all at (343, 392)
+22:20:55 clicked Through all -> 277-b-done-through-all.png
+22:20:57 symmetric sits at [[300, 314]]
+22:20:57 about to click the Symmetric box at (288, 314)
+22:20:57 clicked the Symmetric box -> 278-b-done-the-symmetric-box.png
+22:21:20 about to click the green tick at (424, 93)
+22:21:21 clicked the green tick -> 280-b-done-the-green-tick.png
+22:21:24 about to click the Extrude 1 row, to rename it at (140, 547)
+22:21:25 clicked the Extrude 1 row, to rename it -> 281-b-done-the-extrude-1-row-to-rename-it.png
+22:21:25 about to click Rename in the context menu at (273, 571)
+22:21:25 clicked Rename in the context menu -> 282-b-done-rename-in-the-context-menu.png
+22:21:27 renamed 'Extrude 1' to 'Fork round end'
+22:21:30 part volume 3050.1692 mm3
+22:22:12 CYLINDER   r6.0000  x  -6.0000..  6.0000  y  -6.0000..  6.0000  z -30.0000..-24.0000  area  144.0000
+22:24:05 about to click the Right plane in the feature list at (140, 261)
+22:24:06 clicked the Right plane in the feature list -> 285-b-done-the-right-plane-in-the-feature-list.png
+22:24:07 about to click the Sketch tool at (155, 58)
+22:24:08 clicked the Sketch tool -> 286-b-done-the-sketch-tool.png
+22:25:02 about to click the view menu at (1563, 232)
+22:25:03 clicked the view menu -> 289-b-done-the-view-menu.png
+22:25:04 about to click Zoom to fit at (1459, 393)
+22:25:05 clicked Zoom to fit -> 290-b-done-zoom-to-fit.png
+22:26:58 about to click the rectangle group's arrow at (279, 58)
+22:26:59 clicked the rectangle group's arrow -> 294-b-done-the-rectangle-group-s-arrow.png
+22:27:00 about to click Center point rectangle at (336, 130)
+22:27:01 clicked Center point rectangle -> 295-b-done-center-point-rectangle.png
+22:27:03 about to click the slot's middle at (922, 590)
+22:27:04 clicked the slot's middle -> 297-b-done-the-slot-s-middle.png
+22:27:04 about to click a corner, out past the tip at (975, 755)
+22:27:05 clicked a corner, out past the tip -> 298-b-done-a-corner-out-past-the-tip.png
+22:27:35 about to click the slot's middle at (922, 590)
+22:27:36 clicked the slot's middle -> 300-b-done-the-slot-s-middle.png
+22:27:37 about to click the origin, added to the selection at (922, 207)
+22:27:38 clicked the origin, added to the selection -> 301-b-done-the-origin-added-to-the-selection.png
+22:28:15 about to click the slot's bottom edge at (940, 755)
+22:28:16 clicked the slot's bottom edge -> 304-b-done-the-slot-s-bottom-edge.png
+22:28:16 about to click where the width sits at (1150, 800)
+22:28:17 clicked where the width sits -> 305-b-done-where-the-width-sits.png
+22:28:20 the slot's width: 6.52717 mm -> 5.6
+22:28:55 about to click the slot's left edge at (877, 500)
+22:28:56 clicked the slot's left edge -> 307-b-done-the-slot-s-left-edge.png
+22:28:56 about to click where the length sits at (700, 500)
+22:28:57 clicked where the length sits -> 308-b-done-where-the-length-sits.png
+22:30:27 about to click the slot's left edge, clear of the constraint marks at (877, 440)
+22:30:28 clicked the slot's left edge, clear of the constraint marks -> 312-b-done-the-slot-s-left-edge-clear-of-the-constraint-mar.png
+22:30:29 about to click where the length sits at (700, 440)
+22:30:30 clicked where the length sits -> 314-b-done-where-the-length-sits.png
+22:30:33 the slot's length: 17.53231 mm -> 21
+22:31:07 about to click the origin at (922, 207)
+22:31:08 clicked the origin -> 316-b-done-the-origin.png
+22:31:09 about to click the slot's top edge at (900, 364)
+22:31:10 clicked the slot's top edge -> 317-b-done-the-slot-s-top-edge.png
+22:31:11 about to click where the depth sits at (1250, 290)
+22:31:12 clicked where the depth sits -> 319-b-done-where-the-depth-sits.png
+22:31:15 how far below the ball's middle the slot stops: 9.85517 mm -> 13
+22:31:43 about to click the green tick at (424, 93)
+22:31:44 clicked the green tick -> 321-b-done-the-green-tick.png
+22:31:46 about to click the Sketch 1 row, to rename it at (140, 573)
+22:31:47 clicked the Sketch 1 row, to rename it -> 322-b-done-the-sketch-1-row-to-rename-it.png
+22:31:47 about to click Rename in the context menu at (263, 597)
+22:31:48 clicked Rename in the context menu -> 323-b-done-rename-in-the-context-menu.png
+22:31:50 renamed 'Sketch 1' to 'Slot profile'
+22:31:50 about to click the Extrude tool at (219, 58)
+22:31:51 clicked the Extrude tool -> 325-b-done-the-extrude-tool.png
+22:31:53 about to click Remove at (366, 148)
+22:31:54 clicked Remove -> 326-b-done-remove.png
+22:31:56 about to click the slot region at (940, 470)
+22:31:57 clicked the slot region -> 328-b-done-the-slot-region.png
+22:31:58 about to click the end condition list at (343, 231)
+22:31:59 clicked the end condition list -> 329-b-done-the-end-condition-list.png
+22:32:00 about to click Through all at (343, 392)
+22:32:01 clicked Through all -> 330-b-done-through-all.png
+22:32:03 about to click the Symmetric box at (288, 322)
+22:32:03 clicked the Symmetric box -> 331-b-done-the-symmetric-box.png
+22:32:38 about to click the red X, to start the cut over at (452, 93)
+22:32:39 clicked the red X, to start the cut over -> 333-b-done-the-red-x-to-start-the-cut-over.png
+22:32:41 about to click the Extrude tool at (219, 58)
+22:32:42 clicked the Extrude tool -> 334-b-done-the-extrude-tool.png
+22:32:44 about to click Remove at (366, 148)
+22:32:45 clicked Remove -> 335-b-done-remove.png
+22:32:47 about to click the slot region at (922, 725)
+22:32:48 clicked the slot region -> 337-b-done-the-slot-region.png
+22:33:09 about to click the end condition list, which reads Blind at (343, 231)
+22:33:10 clicked the end condition list, which reads Blind -> 339-b-done-the-end-condition-list-which-reads-blind.png
+22:33:11 about to click Through all at (343, 392)
+22:33:12 clicked Through all -> 340-b-done-through-all.png
+22:33:14 symmetric sits at [[300, 314]]
+22:33:14 about to click the Symmetric box at (288, 314)
+22:33:15 clicked the Symmetric box -> 341-b-done-the-symmetric-box.png
+22:33:40 about to click the green tick at (424, 93)
+22:33:41 clicked the green tick -> 343-b-done-the-green-tick.png
+22:33:44 about to click the Extrude 1 row, to rename it at (140, 599)
+22:33:45 clicked the Extrude 1 row, to rename it -> 344-b-done-the-extrude-1-row-to-rename-it.png
+22:33:45 about to click Rename in the context menu at (261, 623)
+22:33:46 clicked Rename in the context menu -> 345-b-done-rename-in-the-context-menu.png
+22:33:47 renamed 'Extrude 1' to 'Fork slot'
+22:33:49 CYLINDER  r6.000 x -5.3066.. 5.3066  y -6.0000..-2.8000  z -30.0000..-26.8000  area  27.2138
+22:33:49 CYLINDER  r6.000 x -5.3066.. 5.3066  y  2.8000.. 6.0000  z -30.0000..-26.8000  area  27.2138
+22:33:49 PLANE             x -5.3066.. 5.3066  y  2.8000.. 2.8000  z -30.0000..-13.0000  area 170.6737
+22:33:49 PLANE             x -6.0000.. 6.0000  y -2.8000.. 2.8000  z -13.0000..-13.0000  area  64.6743
+22:33:49 PLANE             x -5.3066.. 5.3066  y -2.8000..-2.8000  z -30.0000..-13.0000  area 170.6737
+22:33:50 part volume 2025.6282 mm3
+22:35:12 about to click the Front plane in the feature list at (140, 235)
+22:35:12 clicked the Front plane in the feature list -> 348-b-done-the-front-plane-in-the-feature-list.png
+22:35:14 about to click the Sketch tool at (155, 58)
+22:35:15 clicked the Sketch tool -> 349-b-done-the-sketch-tool.png
+22:35:52 about to click the circle group's arrow at (331, 58)
+22:35:53 clicked the circle group's arrow -> 351-b-done-the-circle-group-s-arrow.png
+22:35:54 about to click Center point circle at (381, 94)
+22:35:55 clicked Center point circle -> 352-b-done-center-point-circle.png
+22:35:57 about to click the stub's middle at (856, 596)
+22:35:58 clicked the stub's middle -> 354-b-done-the-stub-s-middle.png
+22:35:58 about to click a point on the rim at (896, 596)
+22:35:59 clicked a point on the rim -> 355-b-done-a-point-on-the-rim.png
+22:36:33 about to click the origin at (856, 206)
+22:36:34 clicked the origin -> 357-b-done-the-origin.png
+22:36:35 about to click the stub circle's middle at (856, 596)
+22:36:36 clicked the stub circle's middle -> 358-b-done-the-stub-circle-s-middle.png
+22:36:37 about to click where the height sits at (670, 400)
+22:36:38 clicked where the height sits -> 359-b-done-where-the-height-sits.png
+22:36:40 how far the hinge axis sits below the ball's middle: 0.4 mm -> 24
+22:39:10 about to click the Origin row in the feature list at (100, 183)
+22:39:11 clicked the Origin row in the feature list -> 363-b-done-the-origin-row-in-the-feature-list.png
+22:39:12 about to click the stub circle's middle at (856, 596)
+22:39:13 clicked the stub circle's middle -> 364-b-done-the-stub-circle-s-middle.png
+22:39:14 about to click where the height sits at (670, 400)
+22:39:14 clicked where the height sits -> 366-b-done-where-the-height-sits.png
+22:39:51 about to click the Part 1 row in the parts list at (140, 696)
+22:39:52 clicked the Part 1 row in the parts list -> 367-b-done-the-part-1-row-in-the-parts-list.png
+22:39:53 Hide sits at [[256, 787]]
+22:39:53 about to click Hide at (256, 787)
+22:39:54 clicked Hide -> 368-b-done-hide.png
+22:40:19 about to click the origin at (855, 206)
+22:40:20 clicked the origin -> 370-b-done-the-origin.png
+22:40:21 about to click the stub circle's middle at (855, 595)
+22:40:22 clicked the stub circle's middle -> 371-b-done-the-stub-circle-s-middle.png
+22:40:22 about to click where the height sits at (670, 400)
+22:40:23 clicked where the height sits -> 372-b-done-where-the-height-sits.png
+22:40:26 how far the hinge axis sits below the ball's middle: 24.09683 mm -> 24
+22:40:48 about to click the stub circle's rim at (855, 554)
+22:40:49 clicked the stub circle's rim -> 374-b-done-the-stub-circle-s-rim.png
+22:40:50 about to click where the diameter sits at (1030, 480)
+22:40:51 clicked where the diameter sits -> 375-b-done-where-the-diameter-sits.png
+22:40:53 the stub's diameter: 5.11433 mm -> 2
+22:40:54 about to click the Part 1 row in the parts list at (140, 696)
+22:40:55 clicked the Part 1 row in the parts list -> 377-b-done-the-part-1-row-in-the-parts-list.png
+22:40:56 about to click Show at (256, 787)
+22:40:57 clicked Show -> 378-b-done-show.png
+22:41:41 about to click the green tick at (424, 93)
+22:41:42 clicked the green tick -> 380-b-done-the-green-tick.png
+22:41:44 about to click the Sketch 1 row, to rename it at (140, 625)
+22:41:45 clicked the Sketch 1 row, to rename it -> 381-b-done-the-sketch-1-row-to-rename-it.png
+22:41:45 about to click Rename in the context menu at (263, 223)
+22:41:46 clicked Rename in the context menu -> 382-b-done-rename-in-the-context-menu.png
+22:41:48 renamed 'Sketch 1' to 'Stub circle'
+22:41:48 about to click the Part 1 row in the parts list at (140, 696)
+22:41:49 clicked the Part 1 row in the parts list -> 384-b-done-the-part-1-row-in-the-parts-list.png
+22:41:50 about to click Hide at (256, 565)
+22:41:51 clicked Hide -> 385-b-done-hide.png
+22:41:53 about to click the Extrude tool at (219, 58)
+22:41:54 clicked the Extrude tool -> 386-b-done-the-extrude-tool.png
+22:41:56 about to click Add at (313, 148)
+22:41:57 clicked Add -> 387-b-done-add.png
+22:41:59 about to click the stub circle at (855, 595)
+22:42:00 clicked the stub circle -> 389-b-done-the-stub-circle.png
+22:42:36 about to click the Starting offset box at (277, 313)
+22:42:37 clicked the Starting offset box -> 391-b-done-the-starting-offset-box.png
+22:43:06 about to click the Symmetric box at (256, 395)
+22:43:07 clicked the Symmetric box -> 393-b-done-the-symmetric-box.png
+22:43:08 about to click the Merge with all box at (298, 449)
+22:43:09 clicked the Merge with all box -> 394-b-done-the-merge-with-all-box.png
+22:48:19 about to click the Extrude 1 row at (140, 630)
+22:48:20 clicked the Extrude 1 row -> 397-b-done-the-extrude-1-row.png
+22:48:21 about to click Delete at (261, 904)
+22:48:22 clicked Delete -> 398-b-done-delete.png
+22:52:36 about to click the Part 1 row in the parts list at (140, 696)
+22:52:37 clicked the Part 1 row in the parts list -> 399-b-done-the-part-1-row-in-the-parts-list.png
+22:52:38 about to click Show at (256, 543)
+22:52:39 clicked Show -> 400-b-done-show.png
+22:53:01 about to click the view menu at (1563, 232)
+22:53:02 clicked the view menu -> 402-b-done-the-view-menu.png
+22:53:03 about to click Trimetric at (1455, 302)
+22:53:04 clicked Trimetric -> 403-b-done-trimetric.png
+22:53:06 about to click the view menu at (1563, 232)
+22:53:07 clicked the view menu -> 404-b-done-the-view-menu.png
+22:53:08 about to click Zoom to fit at (1459, 393)
+22:53:09 clicked Zoom to fit -> 405-b-done-zoom-to-fit.png
+23:03:02 about to click the Stub circle row at (140, 617)
+23:03:03 clicked the Stub circle row -> 409-b-done-the-stub-circle-row.png
+23:03:04 about to click Delete at (269, 599)
+23:03:05 clicked Delete -> 410-b-done-delete.png
+23:03:08 about to click the ear's inside wall at (1050, 650)
+23:03:09 clicked the ear's inside wall -> 411-b-done-the-ear-s-inside-wall.png
+23:03:10 about to click the Sketch tool at (155, 58)
+23:03:11 clicked the Sketch tool -> 412-b-done-the-sketch-tool.png
+23:24:01 about to click the round end's arc at (923, 815)
+23:24:01 clicked the round end's arc -> 416-b-done-the-round-end-s-arc.png
+23:24:44 about to click the circle group's arrow at (331, 58)
+23:24:45 clicked the circle group's arrow -> 418-b-done-the-circle-group-s-arrow.png
+23:24:46 about to click Center point circle at (381, 94)
+23:24:47 clicked Center point circle -> 419-b-done-center-point-circle.png
+23:24:48 about to click the stub's middle, near the hinge axis at (923, 607)
+23:24:49 clicked the stub's middle, near the hinge axis -> 420-b-done-the-stub-s-middle-near-the-hinge-axis.png
+23:24:50 about to click a point on the rim at (963, 607)
+23:24:51 clicked a point on the rim -> 421-b-done-a-point-on-the-rim.png
+23:24:52 about to click the stub circle's middle at (923, 607)
+23:24:53 clicked the stub circle's middle -> 422-b-done-the-stub-circle-s-middle.png
+23:24:54 about to click the round end's arc, added to the selection at (830, 782)
+23:24:55 clicked the round end's arc, added to the selection -> 423-b-done-the-round-end-s-arc-added-to-the-selection.png
+23:25:28 about to click the stub circle's rim at (923, 648)
+23:25:29 clicked the stub circle's rim -> 426-b-done-the-stub-circle-s-rim.png
+23:25:30 about to click where the diameter sits at (1150, 700)
+23:25:30 clicked where the diameter sits -> 427-b-done-where-the-diameter-sits.png
+23:25:33 the stub's diameter: 2.37974 mm -> 2
+23:26:16 about to click the green tick at (424, 93)
+23:26:17 clicked the green tick -> 429-b-done-the-green-tick.png
+23:26:20 about to click the Sketch 1 row, to rename it at (140, 625)
+23:26:21 clicked the Sketch 1 row, to rename it -> 430-b-done-the-sketch-1-row-to-rename-it.png
+23:26:21 about to click Rename in the context menu at (263, 223)
+23:26:22 clicked Rename in the context menu -> 431-b-done-rename-in-the-context-menu.png
+23:26:23 renamed 'Sketch 1' to 'Stub circle'
+23:26:24 about to click the Extrude tool at (219, 58)
+23:26:25 clicked the Extrude tool -> 433-b-done-the-extrude-tool.png
+23:26:27 about to click Add at (313, 148)
+23:26:27 clicked Add -> 434-b-done-add.png
+23:26:29 about to click the stub circle at (923, 607)
+23:26:30 clicked the stub circle -> 436-b-done-the-stub-circle.png
+23:27:12 about to click the Stub circle row in the feature list at (140, 604)
+23:27:13 clicked the Stub circle row in the feature list -> 437-b-done-the-stub-circle-row-in-the-feature-list.png
+23:28:15 about to click the green tick at (424, 93)
+23:28:16 clicked the green tick -> 440-b-done-the-green-tick.png
+23:28:19 about to click the Extrude 1 row, to rename it at (140, 630)
+23:28:20 clicked the Extrude 1 row, to rename it -> 441-b-done-the-extrude-1-row-to-rename-it.png
+23:28:20 about to click Rename in the context menu at (261, 654)
+23:28:20 clicked Rename in the context menu -> 442-b-done-rename-in-the-context-menu.png
+23:28:22 renamed 'Extrude 1' to 'Ear stub'
+23:28:24 CYLINDER  r1.0000 x -1.0000.. 1.0000  y  2.0000.. 2.8000  z -25.0000..-23.0000  area   5.0265
+23:28:24 part volume 2028.1415 mm3
+23:29:03 about to click the view menu at (1563, 232)
+23:29:04 clicked the view menu -> 444-b-done-the-view-menu.png
+23:29:05 about to click Trimetric at (1455, 302)
+23:29:06 clicked Trimetric -> 445-b-done-trimetric.png
+23:29:08 about to click the view menu at (1563, 232)
+23:29:09 clicked the view menu -> 446-b-done-the-view-menu.png
+23:29:10 about to click Zoom to fit at (1459, 393)
+23:29:11 clicked Zoom to fit -> 447-b-done-zoom-to-fit.png
+23:29:47 about to click the ear's inside wall at (1050, 650)
+23:29:48 clicked the ear's inside wall -> 449-b-done-the-ear-s-inside-wall.png
+23:29:49 about to click the Sketch tool at (155, 58)
+23:29:50 clicked the Sketch tool -> 450-b-done-the-sketch-tool.png
+23:33:31 about to click the view menu at (1563, 232)
+23:33:32 clicked the view menu -> 452-b-done-the-view-menu.png
+23:33:33 about to click Trimetric at (1455, 302)
+23:33:34 clicked Trimetric -> 453-b-done-trimetric.png
+23:33:36 about to click the view menu at (1563, 232)
+23:33:37 clicked the view menu -> 454-b-done-the-view-menu.png
+23:33:38 about to click Zoom to fit at (1459, 393)
+23:33:39 clicked Zoom to fit -> 455-b-done-zoom-to-fit.png
+23:34:10 about to click the view menu at (1563, 232)
+23:34:11 clicked the view menu -> 457-b-done-the-view-menu.png
+23:34:13 about to click Zoom to fit at (1459, 393)
+23:34:13 clicked Zoom to fit -> 458-b-done-zoom-to-fit.png
+23:37:22 about to click the round end's arc at (833, 816)
+23:37:23 clicked the round end's arc -> 465-b-done-the-round-end-s-arc.png
+23:39:22 about to click the round end's curve at (748, 779)
+23:39:23 clicked the round end's curve -> 473-b-done-the-round-end-s-curve.png
+23:40:05 about to click the circle tool at (306, 58)
+23:40:06 clicked the circle tool -> 476-b-done-the-circle-tool.png
+23:40:06 about to click where the tooth's middle goes at (880, 560)
+23:40:07 clicked where the tooth's middle goes -> 477-b-done-where-the-tooth-s-middle-goes.png
+23:40:08 about to click how big the tooth is, roughly at (898, 560)
+23:40:09 clicked how big the tooth is, roughly -> 478-b-done-how-big-the-tooth-is-roughly.png
+23:40:33 about to click the tooth circle's middle at (880, 559)
+23:40:34 clicked the tooth circle's middle -> 480-b-done-the-tooth-circle-s-middle.png
+23:40:35 about to click the hinge axis point, added to the selection at (833, 684)
+23:40:36 clicked the hinge axis point, added to the selection -> 481-b-done-the-hinge-axis-point-added-to-the-selection.png
+23:41:06 about to click the tooth circle's middle at (833, 550)
+23:41:07 clicked the tooth circle's middle -> 484-b-done-the-tooth-circle-s-middle.png
+23:41:07 about to click the hinge axis point at (833, 684)
+23:41:08 clicked the hinge axis point -> 485-b-done-the-hinge-axis-point.png
+23:41:09 about to click where the dimension sits at (980, 620)
+23:41:10 clicked where the dimension sits -> 486-b-done-where-the-dimension-sits.png
+23:41:13 how far the tooth stands out from the hinge axis: 6.21052 mm -> 4.8
+23:41:45 about to click the tooth circle's edge at (817, 597)
+23:41:46 clicked the tooth circle's edge -> 489-b-done-the-tooth-circle-s-edge.png
+23:41:46 about to click where the dimension sits at (700, 500)
+23:41:47 clicked where the dimension sits -> 490-b-done-where-the-dimension-sits.png
+23:41:50 how big the tooth is: 1.67752 mm -> 0.8
+23:42:15 about to click the green tick at (424, 93)
+23:42:16 clicked the green tick -> 492-b-done-the-green-tick.png
+23:42:19 about to click the Sketch 1 row, to rename it at (140, 630)
+23:42:20 clicked the Sketch 1 row, to rename it -> 493-b-done-the-sketch-1-row-to-rename-it.png
+23:42:20 about to click Rename in the context menu at (263, 228)
+23:42:21 clicked Rename in the context menu -> 494-b-done-rename-in-the-context-menu.png
+23:42:22 renamed 'Sketch 1' to 'Tooth circle'
+23:42:54 about to click the extrude tool at (219, 58)
+23:42:55 clicked the extrude tool -> 497-b-done-the-extrude-tool.png
+23:42:57 about to click the Tooth circle row in the feature list at (140, 604)
+23:42:59 clicked the Tooth circle row in the feature list -> 499-b-done-the-tooth-circle-row-in-the-feature-list.png
+23:43:00 about to click Add at (313, 148)
+23:43:01 clicked Add -> 501-b-done-add.png
+23:43:34 about to click the green tick at (424, 93)
+23:43:35 clicked the green tick -> 503-b-done-the-green-tick.png
+23:43:38 about to click the Extrude 1 row, to rename it at (140, 630)
+23:43:39 clicked the Extrude 1 row, to rename it -> 504-b-done-the-extrude-1-row-to-rename-it.png
+23:43:39 about to click Rename in the context menu at (261, 654)
+23:43:40 clicked Rename in the context menu -> 505-b-done-rename-in-the-context-menu.png
+23:43:42 renamed 'Extrude 1' to 'Ear tooth'
+23:43:44 CYLINDER  r0.4000 x -0.4000.. 0.4000  y  2.2000.. 2.8000  z -19.6000..-18.8000  area   1.5080
+23:43:44 part volume 2028.4430 mm3
+23:45:35 about to click the view menu at (1563, 232)
+23:45:36 clicked the view menu -> 508-b-done-the-view-menu.png
+23:45:37 about to click Zoom to fit at (1459, 393)
+23:45:38 clicked Zoom to fit -> 509-b-done-zoom-to-fit.png
+23:46:08 about to click the view menu at (1563, 232)
+23:46:09 clicked the view menu -> 511-b-done-the-view-menu.png
+23:46:10 about to click Zoom to fit at (1459, 393)
+23:46:11 clicked Zoom to fit -> 512-b-done-zoom-to-fit.png
+23:48:37 about to click the tool search box at (1348, 58)
+23:48:38 clicked the tool search box -> 517-b-done-the-tool-search-box.png
+23:48:40 about to click the Fillet result in the search panel at (1098, 160)
+23:48:41 clicked the Fillet result in the search panel -> 519-b-done-the-fillet-result-in-the-search-panel.png
+23:48:43 about to click the tooth's end face at (937, 656)
+23:48:44 clicked the tooth's end face -> 522-b-done-the-tooth-s-end-face.png
+23:49:09 about to click the radius field, reading '3 mm' at (361, 286)
+23:49:10 clicked the radius field, reading '3 mm' -> 524-b-done-the-radius-field-reading-3-mm.png
+23:49:13 how round the crown is: 3 mm -> 0.4 mm
+23:49:15 about to click the green tick at (424, 93)
+23:49:16 clicked the green tick -> 526-b-done-the-green-tick.png
+23:49:19 about to click the Fillet 1 row, to rename it at (140, 630)
+23:49:19 clicked the Fillet 1 row, to rename it -> 527-b-done-the-fillet-1-row-to-rename-it.png
+23:49:19 about to click Rename in the context menu at (261, 654)
+23:49:20 clicked Rename in the context menu -> 528-b-done-rename-in-the-context-menu.png
+23:49:22 renamed 'Fillet 1' to 'Tooth crown'
+23:49:24 part volume 2028.3760 mm3
+23:50:02 about to click the tool search box at (1348, 58)
+23:50:03 clicked the tool search box -> 531-b-done-the-tool-search-box.png
+23:50:04 about to click the Circular pattern result in the search panel at (1120, 159)
+23:50:05 clicked the Circular pattern result in the search panel -> 533-b-done-the-circular-pattern-result-in-the-search-panel.png
+23:50:35 about to click the pattern kind, which reads Part pattern at (343, 121)
+23:50:36 clicked the pattern kind, which reads Part pattern -> 536-b-done-the-pattern-kind-which-reads-part-pattern.png
+23:50:37 feature pattern at [[305, 178]]
+23:50:52 about to click Feature pattern at (305, 178)
+23:50:52 clicked Feature pattern -> 538-b-done-feature-pattern.png
+23:50:54 about to click the Ear tooth row at (140, 578)
+23:50:55 clicked the Ear tooth row -> 540-b-done-the-ear-tooth-row.png
+23:50:56 about to click the Tooth crown row, added at (140, 604)
+23:50:57 clicked the Tooth crown row, added -> 541-b-done-the-tooth-crown-row-added.png
+23:51:53 about to click the stub's round side, as the axis at (903, 872)
+23:51:54 clicked the stub's round side, as the axis -> 544-b-done-the-stub-s-round-side-as-the-axis.png
+23:51:56 about to click the instance count field, reading '4' at (387, 308)
+23:51:57 clicked the instance count field, reading '4' -> 546-b-done-the-instance-count-field-reading-4.png
+23:51:59 how many teeth: 4 -> 24
+23:52:37 about to click the x beside Ear stub at (447, 172)
+23:52:38 clicked the x beside Ear stub -> 548-b-done-the-x-beside-ear-stub.png
+23:53:04 about to click the Axis of pattern box at (343, 227)
+23:53:05 clicked the Axis of pattern box -> 550-b-done-the-axis-of-pattern-box.png
+23:53:06 about to click the stub's round side, as the axis at (903, 872)
+23:53:08 clicked the stub's round side, as the axis -> 551-b-done-the-stub-s-round-side-as-the-axis.png
+23:53:42 about to click the green tick at (424, 93)
+23:53:43 clicked the green tick -> 553-b-done-the-green-tick.png
+23:53:47 about to click the Circular pattern 1 row, to rename it at (140, 630)
+23:53:48 clicked the Circular pattern 1 row, to rename it -> 554-b-done-the-circular-pattern-1-row-to-rename-it.png
+23:53:48 about to click Rename in the context menu at (261, 654)
+23:53:49 clicked Rename in the context menu -> 555-b-done-rename-in-the-context-menu.png
+23:53:51 renamed 'Circular pattern 1' to 'Tooth ring'
+23:53:53 faces of radius 0.4: 48
+23:53:53 part volume 2033.7712 mm3
+23:54:25 about to click the tool search box at (1348, 58)
+23:54:26 clicked the tool search box -> 557-b-done-the-tool-search-box.png
+23:54:27 about to click the Mirror result in the search panel at (1120, 159)
+23:54:29 clicked the Mirror result in the search panel -> 559-b-done-the-mirror-result-in-the-search-panel.png
+23:54:32 row Default geometry       at 140,6
+23:54:32 row Origin                 at 140,32
+23:54:32 row Top                    at 140,58
+23:54:32 row Front                  at 140,84
+23:54:32 row Right                  at 140,110
+23:54:32 row Limb circle            at 140,136
+23:54:32 row Limb stock             at 140,162
+23:54:32 row Collar circle          at 140,188
+23:54:32 row Collar blank           at 140,214
+23:54:32 row Cavity profile         at 140,240
+23:54:32 row Cavity from ball       at 140,266
+23:54:32 row Slit profile           at 140,292
+23:54:32 row Slit pair              at 140,318
+23:54:32 row Second slit pair       at 140,344
+23:54:32 row Round end profile      at 140,370
+23:54:32 row Fork round end         at 140,396
+23:54:32 row Slot profile           at 140,422
+23:54:32 row Fork slot              at 140,448
+23:54:32 row Stub circle            at 140,474
+23:54:32 row Ear stub               at 140,500
+23:54:32 row Tooth circle           at 140,526
+23:54:32 row Ear tooth              at 140,552
+23:54:32 row Tooth crown            at 140,578
+23:54:32 row Tooth ring             at 140,604
+23:54:32 row Mirror 1               at 140,630
+23:54:32 row                        at 140,656
+23:54:32 row Parts (1)              at 140,670
+23:54:32 row Part 1                 at 140,696
+23:55:07 about to click the mirror kind, which reads Part mirror at (343, 121)
+23:55:08 clicked the mirror kind, which reads Part mirror -> 562-b-done-the-mirror-kind-which-reads-part-mirror.png
+23:55:10 about to click Feature mirror at (302, 178)
+23:55:11 clicked Feature mirror -> 563-b-done-feature-mirror.png
+23:55:12 about to click the Ear stub row at (140, 500)
+23:55:14 clicked the Ear stub row -> 565-b-done-the-ear-stub-row.png
+23:55:15 about to click the Ear tooth row at (140, 552)
+23:55:16 clicked the Ear tooth row -> 566-b-done-the-ear-tooth-row.png
+23:55:17 about to click the Tooth crown row at (140, 578)
+23:55:18 clicked the Tooth crown row -> 567-b-done-the-tooth-crown-row.png
+23:55:19 about to click the Tooth ring row at (140, 604)
+23:55:20 clicked the Tooth ring row -> 568-b-done-the-tooth-ring-row.png
+23:55:57 about to click the Front plane row at (140, 235)
+23:55:58 clicked the Front plane row -> 570-b-done-the-front-plane-row.png
+23:56:33 about to click the Front plane row at (140, 235)
+23:56:34 clicked the Front plane row -> 572-b-done-the-front-plane-row.png
+23:57:04 about to click the Mirror plane box at (343, 275)
+23:57:05 clicked the Mirror plane box -> 574-b-done-the-mirror-plane-box.png
+23:57:06 about to click the Front plane row at (140, 235)
+23:57:07 clicked the Front plane row -> 575-b-done-the-front-plane-row.png
+23:57:45 about to click the green tick at (424, 93)
+23:57:49 clicked the green tick -> 577-b-done-the-green-tick.png
+23:57:54 about to click the Mirror 1 row, to rename it at (140, 630)
+23:57:55 clicked the Mirror 1 row, to rename it -> 578-b-done-the-mirror-1-row-to-rename-it.png
+23:57:55 about to click Rename in the context menu at (261, 654)
+23:57:56 clicked Rename in the context menu -> 579-b-done-rename-in-the-context-menu.png
+23:57:57 renamed 'Mirror 1' to 'Second ear'
+23:57:59 faces of radius 0.4: 96   faces of radius 1.0: 2
+23:57:59 part volume 2041.9142 mm3
+23:58:46 about to click the Part 1 row, to rename it at (140, 696)
+23:58:47 clicked the Part 1 row, to rename it -> 581-b-done-the-part-1-row-to-rename-it.png
+23:58:47 about to click Rename in the context menu at (256, 364)
+23:58:48 clicked Rename in the context menu -> 582-b-done-rename-in-the-context-menu.png
+23:58:50 renamed 'Part 1' to 'limb-socket-clevis'
+23:59:14 CYLINDER  r=0.4       x48
+23:59:14     x   -5.200..  -4.400  y   -2.800..  -2.600  z   -24.400..  -23.600  area     0.503
+23:59:14     x   -5.200..  -4.400  y    2.600..   2.800  z   -24.400..  -23.600  area     0.503
+23:59:14     x   -5.036..  -4.236  y   -2.800..  -2.600  z   -25.642..  -24.842  area     0.503
+23:59:14     x   -5.036..  -4.236  y   -2.800..  -2.600  z   -23.158..  -22.358  area     0.503
+23:59:14     x   -5.036..  -4.236  y    2.600..   2.800  z   -25.642..  -24.842  area     0.503
+23:59:14     x   -5.036..  -4.236  y    2.600..   2.800  z   -23.158..  -22.358  area     0.503
+23:59:14 CYLINDER  r=1.0       x2
+23:59:14     x   -1.000..   1.000  y   -2.800..  -2.000  z   -25.000..  -23.000  area     5.027
+23:59:14     x   -1.000..   1.000  y    2.000..   2.800  z   -25.000..  -23.000  area     5.027
+23:59:14 CYLINDER  r=4.7       x4
+23:59:14     x   -4.683..  -0.400  y   -4.683..  -0.400  z    -4.150..    1.350  area    36.200
+23:59:14     x   -4.683..  -0.400  y    0.400..   4.683  z    -4.150..    1.350  area    36.200
+23:59:14     x    0.400..   4.683  y   -4.683..  -0.400  z    -4.150..    1.350  area    36.200
+23:59:14     x    0.400..   4.683  y    0.400..   4.683  z    -4.150..    1.350  area    36.200
+23:59:14 CYLINDER  r=6.0       x3
+23:59:14     x   -6.000..   6.000  y   -6.000..   6.000  z   -30.000..   -4.150  area   747.509
+23:59:14     x   -5.307..   5.307  y   -6.000..  -2.800  z   -30.000..  -26.800  area    27.214
+23:59:14     x   -5.307..   5.307  y    2.800..   6.000  z   -30.000..  -26.800  area    27.214
+23:59:14 PLANE     r=None      x18
+23:59:14     x   -6.000..   6.000  y   -6.000..   6.000  z    -4.150..   -4.150  area    58.081
+23:59:14     x   -6.000..   6.000  y   -2.800..   2.800  z   -13.000..  -13.000  area    64.674
+23:59:14     x   -5.307..   5.307  y   -2.800..  -2.800  z   -30.000..  -13.000  area   155.468
+23:59:14     x   -5.307..   5.307  y    2.800..   2.800  z   -30.000..  -13.000  area   155.468
+23:59:14     x   -4.683..  -0.400  y   -4.683..  -0.400  z     1.350..    1.350  area     9.297
+23:59:14     x   -4.683..  -0.400  y   -0.400..  -0.400  z    -4.150..    1.350  area    13.293
+23:59:14 SPHERE    r=0.4       x48
+23:59:14     x   -5.200..  -4.400  y   -2.600..  -2.200  z   -24.400..  -23.600  area     1.005
+23:59:14     x   -5.200..  -4.400  y    2.200..   2.600  z   -24.400..  -23.600  area     1.005
+23:59:14     x   -5.036..  -4.236  y   -2.600..  -2.200  z   -25.642..  -24.842  area     1.005
+23:59:14     x   -5.036..  -4.236  y   -2.600..  -2.200  z   -23.158..  -22.358  area     1.005
+23:59:14     x   -5.036..  -4.236  y    2.200..   2.600  z   -25.642..  -24.842  area     1.005
+23:59:14     x   -5.036..  -4.236  y    2.200..   2.600  z   -23.158..  -22.358  area     1.005
+23:59:14 SPHERE    r=3.2       x4
+23:59:14     x   -3.175..  -0.400  y   -3.175..  -0.400  z    -3.150..    1.350  area    17.892
+23:59:14     x   -3.175..  -0.400  y    0.400..   3.175  z    -3.150..    1.350  area    17.892
+23:59:14     x    0.400..   3.175  y   -3.175..  -0.400  z    -3.150..    1.350  area    17.892
+23:59:14     x    0.400..   3.175  y    0.400..   3.175  z    -3.150..    1.350  area    17.892
+00:00:46 about to click the Cavity from ball row at (140, 266)
+00:00:47 clicked the Cavity from ball row -> 585-b-done-the-cavity-from-ball-row.png
+00:00:48 roll back at []
+00:01:24 about to click Roll to here at (217, 517)
+00:01:25 clicked Roll to here -> 587-b-done-roll-to-here.png
+00:01:29 volume with the tree rolled here: 3195.7719 mm3
+00:01:56 about to click the Collar blank row at (140, 214)
+00:01:57 clicked the Collar blank row -> 589-b-done-the-collar-blank-row.png
+00:01:58 about to click Roll to here at (261, 465)
+00:01:59 clicked Roll to here -> 590-b-done-roll-to-here.png
+00:02:03 volume before the cavity: 3305.2539 mm3
+00:02:03 the cavity took out 109.4820 mm3
+00:02:03 about to click the Second ear row at (140, 656)
+00:02:04 clicked the Second ear row -> 591-b-done-the-second-ear-row.png
+00:02:29 about to click the Second ear row at (140, 656)
+00:02:29 clicked the Second ear row -> 592-b-done-the-second-ear-row.png
+00:02:31 item Main                         at 446,23
+00:02:31 item Coach Mike Experiments       at 574,20
+00:02:31 item Assembly 1                   at 350,984
+00:02:51 row Default geometry       at 140,6
+00:02:51 row Origin                 at 140,32
+00:02:51 row Top                    at 140,58
+00:02:51 row Front                  at 140,84
+00:02:51 row Right                  at 140,110
+00:02:51 row Limb circle            at 140,136
+00:02:51 row Limb stock             at 140,162
+00:02:51 row Collar circle          at 140,188
+00:02:51 row Collar blank           at 140,214
+00:02:51 row                        at 140,240
+00:02:51 row Cavity profile         at 140,266
+00:02:51 row Cavity from ball       at 140,292
+00:02:51 row Slit profile           at 140,318
+00:02:51 row Slit pair              at 140,344
+00:02:51 row Second slit pair       at 140,370
+00:02:51 row Round end profile      at 140,396
+00:02:51 row Fork round end         at 140,422
+00:02:51 row Slot profile           at 140,448
+00:02:51 row Fork slot              at 140,474
+00:02:51 row Stub circle            at 140,500
+00:02:51 row Ear stub               at 140,526
+00:02:51 row Tooth circle           at 140,552
+00:02:51 row Ear tooth              at 140,578
+00:02:51 row Tooth crown            at 140,604
+00:02:51 row Tooth ring             at 140,630
+00:02:51 row Second ear             at 140,656
+00:02:51 row Parts (1)              at 140,669
+00:02:51 row limb-socket-clevis     at 140,695
+00:03:17 about to click the rollback bar at (140, 240)
+00:03:18 clicked the rollback bar -> 595-b-done-the-rollback-bar.png
+00:03:20 item Assembly 1                   at 350,984
+00:03:20 item Roll to end                  at 195,264
+00:03:37 about to click Roll to end at (195, 264)
+00:03:39 clicked Roll to end -> 597-b-done-roll-to-end.png
+00:03:45 part volume 2041.9142 mm3
+00:06:48 top level: dict
+00:06:48 keys: ['btType', 'facetPoints', 'bodiesInfo', 'documentId', 'elementId', 'outputSeparateFaceNodes', 'fullElementId', 'displayData', 'errorEnum', 'bodies', 'outputFaceAppearances', 'combineCompositePartConstituents']
+00:06:48 first item: {"btType": "BTExportTessellatedFacesBody-1321", "faces": [{"btType": "BTExportTessellatedFacesFace-1192", "facets": [{"btType": "BTExportTessellatedFacesFacet-1417", "normals": [], "indices": [], "vertices": [{"btType": "BTVector3d-389", "y": 0.002199999988079071, "x": 2.0057740190981832e-18, "z": -0.019200000911951065}, {"btType": "BTVector3d-389", "y": 0.00220152223482728, "x": 3.0384494493773673e-06, "z": -0.019234729930758476}, {"btType": "BTVector3d-389", "y": 0.00220152223482728, "x": 6.053774541214807e-06, "z": -0.01923433318734169}], "textureCoordinates": [], "normal": {"btType": "BTVe
+00:08:03 points walked: 411060
+00:08:03 furthest from the axis: r 6.0000 at x 5.796 y -1.553 z -4.150
+00:08:43 edge points on the collar's top face: 288
+00:08:43 nearest the axis 2.9013, furthest 4.7000  ->  mouth 5.8026 across
+00:09:21 about to click the Main label beside the document name at (446, 23)
+00:09:22 clicked the Main label beside the document name -> 599-b-done-the-main-label-beside-the-document-name.png
+00:09:58 icon at y=58 -> ['Sketch', 'Features (24)', 'Top']
+00:09:59 icon at y=96 -> ['Sketch', 'Features (24)', 'Top']
+00:10:00 icon at y=130 -> ['Sketch', 'Features (24)', 'Top']
+00:10:01 icon at y=162 -> ['Sketch', 'Features (24)', 'Top']
+00:10:02 icon at y=198 -> ['Sketch', 'Features (24)', 'Top']
+00:10:04 icon at y=233 -> ['Sketch', 'Features (24)', 'Top']
+00:10:05 icon at y=268 -> ['Sketch', 'Features (24)', 'Top']
+00:10:28 about to click the document menu at (155, 20)
+00:10:29 clicked the document menu -> 601-b-done-the-document-menu.png
+00:10:30 item Rename document              at 252,59
+00:10:30 item Move to…                     at 252,86
+00:10:30 item Document details…            at 252,113
+00:10:30 item Restore deleted workspaces…  at 252,140
+00:10:30 item Copy workspace…              at 252,182
+00:10:30 item Update workspace…            at 252,209
+00:10:30 item Workspace units…             at 252,236
+00:10:30 item Workspace properties…        at 252,263
+00:10:30 item Print…                       at 252,305
+00:10:30 item Close document               at 252,347
+00:10:30 item Sketch                       at 165,58
+00:10:30 item Features (24)                at 90,129
+00:10:30 item Top                          at 158,57
+00:10:30 item Front                        at 158,83
+00:10:30 item Right                        at 158,109
+00:10:30 item Limb circle                  at 148,135
+00:10:30 item Limb stock                   at 148,161
+00:10:30 item Collar circle                at 148,187
+00:10:30 item Collar blank                 at 148,213
+00:10:30 item Cavity profile               at 148,239
+00:10:30 item Cavity from ball             at 148,265
+00:10:30 item Slit profile                 at 148,291
+00:10:30 item Slit pair                    at 148,317
+00:10:30 item Second slit pair             at 148,343
+00:10:30 item Round end profile            at 148,369
+00:10:30 item Fork round end               at 148,395
+00:10:30 item Slot profile                 at 148,421
+00:10:30 item Fork slot                    at 148,447
+00:10:30 item Stub circle                  at 148,473
+00:10:30 item Ear stub                     at 148,499
+00:10:55 about to click the fourth icon down the left rail at (20, 162)
+00:10:56 clicked the fourth icon down the left rail -> 603-b-done-the-fourth-icon-down-the-left-rail.png
+00:11:23 about to click the notes panel's close button at (405, 59)
+00:11:24 clicked the notes panel's close button -> 605-b-done-the-notes-panel-s-close-button.png
+00:11:26 about to click the top icon on the left rail at (20, 58)
+00:11:26 clicked the top icon on the left rail -> 606-b-done-the-top-icon-on-the-left-rail.png
+00:12:11 about to click the create-version button at (297, 59)
+00:12:11 clicked the create-version button -> 608-b-done-the-create-version-button.png
+00:12:42 about to click Create at (912, 322)
+00:12:43 clicked Create -> 610-b-done-create.png
+00:13:47 Start                                    47528ae65b07cc27a8256bd8
+00:13:47 limb-socket-clevis-run6-2026-08-15       6f362f52291d44e89d84e193
+00:20:36 wrote /private/tmp/claude-501/-Users-mikestitt-projects-first-2027-sponge/c7e95b50-7b3c-4747-a656-ece9f33b51c4/scratchpad/r61/sc-features.json, 20 features
+00:25:00 about to click the view menu at (1563, 232)
+00:25:01 clicked the view menu -> 612-b-done-the-view-menu.png
+00:25:01 about to click Isometric at (1455, 302)
+00:25:02 clicked Isometric -> 613-b-done-isometric.png
+00:25:03 about to click the view menu at (1563, 232)
+00:25:04 clicked the view menu -> 614-b-done-the-view-menu.png
+00:25:05 about to click Zoom to fit at (1459, 393)
+00:25:06 clicked Zoom to fit -> 615-b-done-zoom-to-fit.png
+00:25:10 about to click the view menu at (1563, 232)
+00:25:11 clicked the view menu -> 618-b-done-the-view-menu.png
+00:25:11 about to click Isometric at (1455, 302)
+00:25:12 clicked Isometric -> 619-b-done-isometric.png
+00:25:14 about to click the view menu at (1563, 232)
+00:25:14 clicked the view menu -> 620-b-done-the-view-menu.png
+00:25:15 about to click Zoom to fit at (1459, 393)
+00:25:16 clicked Zoom to fit -> 621-b-done-zoom-to-fit.png

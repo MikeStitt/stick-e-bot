@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stickbot"
+version = "0.1.0"
+description = "An Onshape CAD course: the text, the design source, and the tooling that checks it"
+requires-python = ">=3.12"
+dependencies = [
+    "playwright>=1.44",
+    "pillow>=10.3",
+    "sphinx>=7.3",
+    "sphinx-rtd-theme>=2.0",
+    "numpy>=2.5.2",
+]
+
+# The four gates. `ninja check` calls these names, so no rule in build.ninja
+# names a file path and nothing depends on the working directory.
+[project.scripts]
+stickbot-check-wrap = "stickbot.check_wrap:main"
+stickbot-check-spelling = "stickbot.check_spelling:main"
+stickbot-check-reading-level = "stickbot.check_reading_level:main"
+stickbot-check-images = "stickbot.check_images:main"
+stickbot-check-imports = "stickbot.check_imports:main"
+
+[dependency-groups]
+dev = [
+    "codespell>=2.3",
+    "textstat>=0.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# The spelling gate's compound list travels with the module that reads it.
+[tool.setuptools.package-data]
+stickbot = ["dictionary.txt"]

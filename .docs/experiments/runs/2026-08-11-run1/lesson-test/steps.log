@@ -1,0 +1,106 @@
+09:20:17  setup  starting lesson test run, log created
+09:21:10  setup  about to: open a new tab on cad.onshape.com/documents
+09:22:46  setup  about to: click Create on documents page to make document lesson-test-4
+09:24:21  units  about to: click the hamburger menu left of the document name
+09:24:46  units  about to: choose Workspace units...
+09:25:10  units  about to: set Length default unit to Millimeter
+09:25:42  units  about to: click the green check to close Workspace units
+09:25:45  units  result: dialog closed, Length=Millimeter decimals 0.1
+09:25:56  step 1.1  about to: click Front in the Default geometry folder
+09:26:16  step 1.2-1.3  about to: click Sketch, then move pointer over graphics and press n
+09:26:47  step 2.1-2.4  about to: press r, click origin, click a corner, Escape
+09:27:19  step 2.5-2.8  about to: press d, dimension bottom edge 36 and left edge 48, Escape
+09:27:46  step 2.7  about to: click left edge and place 48 dimension (edit box from 36 still open)
+09:28:11  step 2.8  about to: press Escape once to put the Dimension tool down (edit box still open)
+09:28:46  step 2.8  result: FINDING - Escape after Tab discarded the typed 48; dimension reverted to as-drawn 34.8
+09:28:46  step 2.8  about to: double-click the 34.8 dimension, type 48, press Enter to commit
+09:29:20  step 3  about to: zoom in on the torso top edge with the scroll wheel
+09:30:14  step 3.1-3.3  about to: press g, draw a small corner rectangle above the torso right of centreline, Escape
+09:30:52  step 3.4  about to: press d, dimension neck 6 wide and 6 tall, then Escape (following the text literally again)
+09:31:47  step 3.4  result: FINDING REPRODUCED - Escape discarded typed 6; neck height stayed 5.9 (near-invisible error)
+09:31:47  step 3.4  about to: double-click 5.9 and retype 6 with Enter
+09:32:16  step 3.5  about to: click neck left edge, shift-click vertical line through origin, press i
+09:33:17  step 3.5  result: FINDING - i did not apply Coincident; rectangle did not move, a toolbar icon armed instead
+09:33:58  step 3.5  about to: with Coincident armed, click neck left edge then centreline (deviation from written order)
+09:34:28  step 3.6  about to: Escape to drop armed Coincident, then literal select+select+i on neck bottom / torso top
+09:35:20  step 3.6  result: i APPLIED here (both picks were sketch lines). Neck black/fully defined. Contrast with 3.5.
+09:35:20  step 4  about to: zoom out to make room for the 36x36 head
+09:35:52  step 4.1  about to: press g, draw a bigger rectangle above the neck, Escape
+09:36:20  step 4.2  about to: press d, dimension head 36 wide and 36 tall (committing with Enter - DEVIATION, Tab+Escape loses the value)
+09:37:14  step 4.3  about to: click head bottom edge, shift-click neck top edge, press i
+09:37:47  step 4.4  about to: select head left+right edges + vertical line through origin, press shift+q for Symmetric
+09:39:05  step 4.5  result: sketch fully defined - 0 underdefined-blue pixels (RGB 9,9,207) in geometry region
+09:39:05  step 4.5  about to: click the green check to finish Sketch 1
+09:39:32  step 5.1  about to: click inside the torso rectangle fill and read the Area readout
+09:39:53  step 5.1  result: VERIFIED Area: 1728.0 mm2
+09:39:53  step 5.2  about to: press shift+e for Extrude
+09:40:22  step 5.3-5.4  about to: set Depth 24 (select-all over the pre-filled 25 mm), Tab, tick Symmetric
+09:40:44  step 5.5  about to: green check to accept Extrude 1
+09:41:15  step 6  about to: right-click Sketch 1 in the Features list, looking for Show
+09:41:42  step 6  result: VERIFIED right-click Sketch 1 -> Show exists and works; sketch reappeared over the solid
+09:42:08  step 7.1  about to: zoom in on the neck, then click inside the neck half-rectangle fill
+09:42:56  step 7.2  about to: press shift+w for Revolve (neck region selected, Area 36.0)
+09:43:23  step 7.3  about to: click the neck left edge at mid-height for Revolve axis; expect field to read Edge of Sketch 1
+09:43:56  step 7.3  result: FINDING - clicking the edge emptied the region field; focus was still on Faces-and-sketch-regions. Lesson never says to click into the Revolve axis field first.
+09:43:56  step 7.3  about to: re-pick the neck region, then click into the Revolve axis field, then pick the edge
+09:45:01  step 7.3  result: VERIFIED field reads "Edge of Sketch 1" on the first click once the axis field is focused; operation auto-switched to Add
+09:45:01  step 7.6  about to: accept Revolve 1
+09:45:30  step 8.1  about to: zoom out and click inside the head rectangle, expecting Area 1296.0
+09:46:13  step 8.1  result: VERIFIED Area 1296.0 mm2
+09:46:13  step 8.2  about to: shift+e, depth 30, Tab, tick Symmetric, set Add
+09:46:56  step 8.4  about to: accept Extrude 2 (head)
+09:47:28  step 9.1  about to: right-click Sketch 1 -> Hide
+09:48:47  step 9.1-9.2  about to: click Hide, then rename Extrude 1/Revolve 1/Extrude 2 to Torso/Neck/Head
+09:49:25  step 9.3  about to: rename Part 1 to Robot in the Parts list
+09:50:13  check  about to: click empty background then switch to Isometric via the view menu
+09:50:45  check  result: FINDING - clicking "empty background" in the flat view selected the Front plane (planes fill the view)
+09:51:21  check  about to: deselect, then click the torso front face and read its area
+09:53:19  check  result: VERIFIED 1728.0 / 1152.0 / 1296.0 all exact; Parts (1) named Robot
+09:53:19  change-one-number  about to: look for the 48 to double-click (sketch is hidden after step 9.1)
+09:53:51  change-one-number  result: FINDING - after step 9.1 the 48 is invisible; needed right-click Sketch 1 -> Show dimensions first
+09:55:03  change-one-number  result: 48->60 worked, neck+head rode up. Needed TWO double-clicks (first enters sketch edit) and Show dimensions beforehand.
+09:55:03  change-one-number  about to: undo with Cmd+Z and close the sketch
+09:55:32  part two  about to: close sketch edit, then start a new sketch on the head front face
+09:56:08  p2 face-sketch  about to: click Sketch, then click the head front face, then press n
+09:57:11  p2 eyes  about to: zoom in on the head, then press c and draw four circles
+09:58:33  p2 eyes 2  about to: click small circle, shift-click big circle, press shift+o for Concentric (left pair)
+09:59:42  p2 eyes 3  about to: Equal on the two big circles, then Equal on the two small ones (press e)
+10:01:02  p2 eyes 4  about to: select both eye centre points + vertical line through origin, press shift+q
+10:02:28  p2 eyes 5  about to: press d, dimension big circle 10 and small circle 4 (committing with Enter)
+10:03:42  p2 eyes 6  about to: dimension eye centre to vertical line = 8
+10:04:56  p2 eyes 7  result: all four circles black, 4 dimensions (Ø10, Ø4, 8, 10) exactly as written
+10:04:56  p2 eyes 7  about to: green check to finish Sketch 2
+10:05:50  p2 eyes 8  about to: click inside the LEFT ring (between eye circle and pupil) and read the area
+10:06:24  p2 eyes 8  result: VERIFIED ring region selects, Area 66.0 mm2 (annulus, not disc)
+10:06:24  p2 eyes 8  about to: shift-click the right ring, then shift+e depth 3 Add
+10:08:09  p2 eyes 9  about to: right-click Sketch 2 -> Show
+10:08:44  p2 eyes 10  about to: Show sketch 2, click the two pupil discs, read area
+10:09:52  p2 eyes 10-11  about to: accept pupil extrude, then right-click Sketch 2 -> Hide
+10:11:02  p2 eyes  result: VERIFIED rings 3mm + pupils 5mm, pupils stand 2mm proud, Parts (1). Whole eye idea works.
+10:11:02  p2 mouth  about to: new sketch on head front face, then find the Slot tool on the sketch toolbar
+10:12:21  p2 mouth 2  result: FINDING - Slot is NOT in the rectangle dropdown (Corner/Center point/Aligned only)
+10:13:16  p2 mouth 2  result: Slot is in the OFFSET dropdown (with Offset, o). Found via Search tools. Tooltip: "Create a slot around continuous sketch entities."
+10:14:48  p2 mouth 2  about to: click Slot, then click start point, end point, move out for width
+10:15:53  p2 mouth 2  result: FINDING - Slot armed but click-start/click-end/move-out drew NOTHING. Trying line-then-Slot.
+10:17:09  p2 mouth 2  result: FINDING - Slot needs a LINE drawn and selected first; then it offsets a slot around it, width follows the mouse
+10:17:54  p2 mouth 3  about to: click slot centre line, shift-click vertical line, press shift+m for Midpoint
+10:18:41  p2 mouth 3  result: FINDING - error banner "Midpoint constraint requires a point and a line or arc." Step 3 as written is impossible.
+10:19:27  p2 mouth 4  about to: press d, dimension slot centreline 20 long, then 9 above head bottom edge
+10:21:52  p2 mouth 5  about to: close Sketch 3 and click inside the slot region to extrude Remove
+10:24:37  p2 mouth 5  result: mouth cut correctly, Remove went the right way with no flip needed
+10:24:37  p2 panel 1  about to: new sketch on the torso front face
+10:26:00  p2 panel 2  about to: press g, draw rectangle, then Symmetric about vertical and horizontal lines
+10:28:25  p2 panel 3  about to: dimension panel 24 wide and 20 tall
+10:30:02  p2 panel 4  about to: close sketch, select panel region, extrude Remove depth 1
+10:31:30  p2 panel 5  about to: new sketch on the recess bottom face, draw one circle, dimension 4
+10:32:56  p2 panel 5  result: FINDING - "place it near the top-left" leaves the circle underdefined; lesson gives no locating dimensions. Adding 6 and 5 myself.
+10:34:20  p2 panel 6  about to: close sketch, select hole region, extrude Remove depth 1
+10:35:17  p2 panel 7  about to: accept hole extrude, then find Linear pattern with the feature selected
+10:37:26  p2 panel 7  result: FINDING - Linear pattern opens on "Part pattern" and drops the pre-selected feature; needs Feature pattern + a Direction edge
+10:42:35  p2 panel 7  result: pattern works but needs Feature pattern + Direction edge + spacing values the lesson never gives
+10:42:35  p2 text  about to: accept pattern, then new sketch on torso front face below the panel for Text
+10:44:25  p2 text 2  about to: drag a text box across the chest below the panel and type a name
+10:46:18  p2 text 3  about to: close sketch, select the three letter regions, extrude Remove 0.5
+10:48:40  p2 text 3  result: FINDING - letter regions are far too thin to click; used the whole Sketch 6 as the extrude entity instead
+10:51:18  final check  about to: measure torso side face (expect 1152.0) and head side face (expect 1080.0)
+10:52:28  final check  result: VERIFIED torso side 1152.0, head side 1080.0. Model complete, Parts (1) = Robot.

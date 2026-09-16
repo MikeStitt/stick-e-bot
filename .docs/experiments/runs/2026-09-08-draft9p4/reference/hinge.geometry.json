@@ -1,0 +1,703 @@
+{
+ "did": "500752af84dc92deea53f9e4",
+ "eid": "62fca6aa5a67b51adcb2318c",
+ "sketches": {
+  "blade profile": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      -10.4494,
+      5.9
+     ],
+     "id": "M3By8OBqroWV",
+     "radius": 12.0,
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -10.4494,
+      -20.0
+     ],
+     "id": "YPFCMVDy6vHO",
+     "startPoint": [
+      -10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      -20.0
+     ],
+     "id": "6j0lFV2g9LeD",
+     "startPoint": [
+      -10.4494,
+      -20.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      5.9
+     ],
+     "id": "8akQ6GrNamgI",
+     "startPoint": [
+      10.4494,
+      -20.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "blade rod outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      10.4494,
+      -5.9
+     ],
+     "id": "AQl2Yi883JNg",
+     "radius": 12.0,
+     "startPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "id": "Vpv5IZymfgfz",
+     "startPoint": [
+      -10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      -5.9
+     ],
+     "id": "nhUMWf9T0OEJ",
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      -10.4494,
+      5.9
+     ],
+     "id": "VMG7VSbGeEHh.trimOffspring",
+     "radius": 12.0,
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "arc"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "blade wedge outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "7NXMw0xPDeLe",
+     "radius": 10.4494,
+     "type": "circle"
+    },
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "GOoXZAciqIm9",
+     "radius": 6.0,
+     "type": "circle"
+    },
+    {
+     "endPoint": [
+      0.0,
+      10.4494
+     ],
+     "id": "nINEsHu3Pqce",
+     "isConstruction": true,
+     "startPoint": [
+      0.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      1.0481,
+      10.3967
+     ],
+     "id": "5I6KzfH0JL6A",
+     "startPoint": [
+      -0.0,
+      -0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -1.0481,
+      10.3967
+     ],
+     "id": "xn4tEeHPxzA4",
+     "startPoint": [
+      0.0,
+      -0.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "ear wedge outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "FE5nO17CCnSa",
+     "radius": 10.4494,
+     "type": "circle"
+    },
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "XlttG4HdGn22",
+     "radius": 6.0,
+     "type": "circle"
+    },
+    {
+     "endPoint": [
+      0.0,
+      10.4494
+     ],
+     "id": "tlWOGlqadxbz",
+     "isConstruction": true,
+     "startPoint": [
+      0.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      2.3961,
+      10.171
+     ],
+     "id": "RSEWpAhQHNOW",
+     "startPoint": [
+      0.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.318,
+      10.4446
+     ],
+     "id": "DlTCtEZyBAvU",
+     "startPoint": [
+      0.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "fork arm outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      10.4494,
+      -5.9
+     ],
+     "id": "TzUR9StchmoW",
+     "radius": 12.0,
+     "startPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      -10.4494,
+      -5.9
+     ],
+     "id": "nNtOXlJUJo6F",
+     "startPoint": [
+      -10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      -5.9
+     ],
+     "id": "Y7dSX6Y93Ess",
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      -10.4494,
+      5.9
+     ],
+     "id": "RH9V5OVLFn1S.trimOffspring",
+     "radius": 12.0,
+     "startPoint": [
+      10.4494,
+      5.9
+     ],
+     "type": "arc"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "fork blade top cut outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "alvdzbtQYKWV",
+     "radius": 12.0,
+     "type": "circle"
+    },
+    {
+     "endPoint": [
+      14.0,
+      5.9
+     ],
+     "id": "JXKIfBtlj2aa.bottom",
+     "startPoint": [
+      -14.0,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      14.0,
+      -14.0
+     ],
+     "id": "JXKIfBtlj2aa.top",
+     "startPoint": [
+      -14.0,
+      -14.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -14.0,
+      -14.0
+     ],
+     "id": "JXKIfBtlj2aa.left",
+     "startPoint": [
+      -14.0,
+      5.9
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      14.0,
+      -14.0
+     ],
+     "id": "JXKIfBtlj2aa.right",
+     "startPoint": [
+      14.0,
+      5.9
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "fork outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "N3tcp9RaEBMA",
+     "radius": 12.0,
+     "type": "circle"
+    },
+    {
+     "endPoint": [
+      10.4494,
+      5.9
+     ],
+     "id": "ZnZcrI8gycq2",
+     "startPoint": [
+      -10.4494,
+      5.9
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "pocket axle sketch": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "c3MkjrlKjpmO",
+     "radius": 2.05,
+     "type": "circle"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "relief slit outline": {
+   "entities": [
+    {
+     "endPoint": [
+      0.8,
+      -20.0
+     ],
+     "id": "KqllGrRou3Uk.bottom",
+     "startPoint": [
+      -0.8,
+      -20.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      3.5844,
+      13.0
+     ],
+     "id": "KqllGrRou3Uk.top",
+     "startPoint": [
+      -3.5844,
+      13.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.8,
+      -20.0
+     ],
+     "id": "3X3q7BQUxFK5",
+     "startPoint": [
+      3.5844,
+      13.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -0.8,
+      -20.0
+     ],
+     "id": "je2dRTUDYkvB",
+     "startPoint": [
+      -3.5844,
+      13.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.0,
+      -20.0
+     ],
+     "id": "UjWRxmchWFn4",
+     "isConstruction": true,
+     "startPoint": [
+      0.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     1,
+     0,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     0,
+     1,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "stub axle outline": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "t5P4V0SGaQlc",
+     "radius": 2.0,
+     "type": "circle"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "vid": "80c22eb7b8b0342ac03f8a6d"
+}

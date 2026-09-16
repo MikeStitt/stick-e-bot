@@ -1,0 +1,405 @@
+{
+ "did": "db263a6925572ace7fe54b13",
+ "wid": "3c32fae8dbfa8d410d486323",
+ "aid": "850c5c3f0005e18b578f3705",
+ "url": "https://cad.onshape.com/documents/db263a6925572ace7fe54b13/w/3c32fae8dbfa8d410d486323/e/850c5c3f0005e18b578f3705",
+ "plan": [
+  [
+   "Torso",
+   "torso",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    0,
+    0,
+    0.0
+   ]
+  ],
+  [
+   "Head",
+   "head",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    0,
+    0,
+    45.65
+   ]
+  ],
+  [
+   "Thigh R",
+   "limb-socket-clevis",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    12,
+    0,
+    -29.0
+   ]
+  ],
+  [
+   "Thigh L",
+   "limb-socket-clevis",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    -12,
+    0,
+    -29.0
+   ]
+  ],
+  [
+   "Shin R",
+   "limb-blade-ball",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    12,
+    0,
+    -53.0
+   ]
+  ],
+  [
+   "Shin L",
+   "limb-blade-ball",
+   [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    -12,
+    0,
+    -53.0
+   ]
+  ],
+  [
+   "Foot R",
+   "foot",
+   [
+    [
+     6.123233995736766e-17,
+     1.0,
+     0
+    ],
+    [
+     -1.0,
+     6.123233995736766e-17,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    12,
+    0,
+    -77.0
+   ]
+  ],
+  [
+   "Foot L",
+   "foot",
+   [
+    [
+     6.123233995736766e-17,
+     1.0,
+     0
+    ],
+    [
+     -1.0,
+     6.123233995736766e-17,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   [
+    -12,
+    0,
+    -77.0
+   ]
+  ],
+  [
+   "Upper arm R",
+   "limb-socket-clevis",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     -1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    23,
+    0,
+    24.0
+   ]
+  ],
+  [
+   "Upper arm L",
+   "limb-socket-clevis",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     -1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    -23,
+    0,
+    24.0
+   ]
+  ],
+  [
+   "Forearm R",
+   "limb-blade-ball",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     -1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    47,
+    0,
+    24.0
+   ]
+  ],
+  [
+   "Forearm L",
+   "limb-blade-ball",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     -1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    -47,
+    0,
+    24.0
+   ]
+  ],
+  [
+   "Hand R",
+   "hand",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     -1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    71,
+    0,
+    24.0
+   ]
+  ],
+  [
+   "Hand L",
+   "hand",
+   [
+    [
+     6.123233995736766e-17,
+     0,
+     1.0
+    ],
+    [
+     0,
+     1,
+     0
+    ],
+    [
+     -1.0,
+     0,
+     6.123233995736766e-17
+    ]
+   ],
+   [
+    -71,
+    0,
+    24.0
+   ]
+  ]
+ ],
+ "aid_mated": "fba8912604c126ad16dda0a5",
+ "instances": {
+  "Torso": "MjZHodZ6EApr9J1K6",
+  "Head": "MOfAADWMcpyyeZNoO",
+  "Thigh R": "MCyRZGiEQpeVV4fQp",
+  "Thigh L": "MddSBQNhcurGviR27",
+  "Shin R": "MeK3Gg7EtGJk3emMb",
+  "Shin L": "MVEg85cYnUR9DznuW",
+  "Foot R": "McMxh9NuPMC1S4CxA",
+  "Foot L": "M1wWlHMHSsBjWbuO5",
+  "Upper arm R": "MBI5xaCw/Cdi79m0C",
+  "Upper arm L": "MIbXgdpUYp3uIbuA+",
+  "Forearm R": "MZTL474KatIvEtZWi",
+  "Forearm L": "MREAyPLfpWkRDyq9F",
+  "Hand R": "MJVCjd/gjh7nJPUWI",
+  "Hand L": "M0d7boH62VaMkhyYY"
+ },
+ "url_mated": "https://cad.onshape.com/documents/db263a6925572ace7fe54b13/w/3c32fae8dbfa8d410d486323/e/fba8912604c126ad16dda0a5",
+ "mates": {
+  "Neck": "MZEYnwPltRwTGYLSt",
+  "Shoulder R": "MYdYZGB+pq/hMZXL1",
+  "Shoulder L": "Me72gheAC8wxnjECz",
+  "Hip R": "MUrR+8159Fu8wVRXd",
+  "Hip L": "MhRh1YfROiJqPxMmy",
+  "Elbow R": "MFTMQeFy93nxR+5Xh",
+  "Elbow L": "MvxDNr+JPdqUgU7Qy",
+  "Knee R": "MIvgJmTdWDHluO4Z2",
+  "Knee L": "M5Udx4q1eKhMqPO1f",
+  "Wrist R": "MIxNS50q0rvbUIrOZ",
+  "Wrist L": "MLlY944D+ZXJPByv5",
+  "Ankle R": "MXKesIlrjc4T+gPxc",
+  "Ankle L": "Mh77HMnPgpY/63Dhq"
+ }
+}

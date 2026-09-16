@@ -1,0 +1,1277 @@
+17:50:29 url https://cad.onshape.com/documents/d0d75cf75bd29b2e576093e4/w/bc3ec990d4d5a135182c2dc7/e/ef77897fabbaa144d9f2176a
+17:50:29 rows ['Default geometry', 'Origin', 'Top', 'Front', 'Right', '', 'Parts (0)']
+17:50:29 parts []
+17:52:14 about to click the Front plane in the feature tree at (140, 235)
+17:52:15 clicked the Front plane in the feature tree -> 03-b-done-the-front-plane-in-the-feature-tree.png
+17:52:16 about to click the Sketch button at (155, 58)
+17:52:17 clicked the Sketch button -> 05-b-done-the-sketch-button.png
+17:54:10 ['INPUT', None, None, 0, 0, 0, 0]
+17:54:10 ['INPUT', None, None, 0, 0, 0, 0]
+17:54:10 ['INPUT', None, None, 0, 0, 0, 0]
+17:54:10 ['INPUT', 'Filter by name or type', None, 158, 99, 158, 30]
+17:54:10 ['INPUT', None, None, 0, 0, 0, 0]
+17:54:10 ['INPUT', None, None, 246, 176, 0, 13]
+17:54:10 ['INPUT', None, None, 246, 203, 0, 13]
+17:54:10 ['INPUT', None, None, 246, 230, 0, 13]
+17:54:10 ['INPUT', None, None, 246, 258, 0, 13]
+17:55:10 about to click the tool search box at (1130, 58)
+17:55:11 clicked the tool search box -> 07-b-done-the-tool-search-box.png
+17:55:13 about to click the Center point arc result at (441, 162)
+17:55:14 clicked the Center point arc result -> 09-b-done-the-center-point-arc-result.png
+17:55:15 about to click the origin, as the arc's centre at (922, 522)
+17:55:16 clicked the origin, as the arc's centre -> 10-b-done-the-origin-as-the-arc-s-centre.png
+17:55:17 about to click where the arc starts, out to the right at (1048, 535)
+17:55:18 clicked where the arc starts, out to the right -> 11-b-done-where-the-arc-starts-out-to-the-right.png
+17:55:20 about to click where the arc ends, out to the left at (796, 505)
+17:55:21 clicked where the arc ends, out to the left -> 12-b-done-where-the-arc-ends-out-to-the-left.png
+17:56:27 about to click the tool search box at (1130, 58)
+17:56:28 clicked the tool search box -> 14-b-done-the-tool-search-box.png
+17:56:29 about to click the Center point arc result in the search panel at (1120, 159)
+17:56:30 clicked the Center point arc result in the search panel -> 16-b-done-the-center-point-arc-result-in-the-search-panel.png
+17:56:32 about to click the origin, as the arc's centre at (922, 522)
+17:56:33 clicked the origin, as the arc's centre -> 18-b-done-the-origin-as-the-arc-s-centre.png
+17:56:34 about to click where the arc starts, out to the right at (1048, 535)
+17:56:35 clicked where the arc starts, out to the right -> 19-b-done-where-the-arc-starts-out-to-the-right.png
+17:56:37 about to click where the arc ends, out to the left at (796, 505)
+17:56:37 clicked where the arc ends, out to the left -> 20-b-done-where-the-arc-ends-out-to-the-left.png
+17:57:32 about to click the line tool at (199, 58)
+17:57:33 clicked the line tool -> 23-b-done-the-line-tool.png
+17:57:34 about to click the arc's left end, where the side starts at (797, 504)
+17:57:35 clicked the arc's left end, where the side starts -> 24-b-done-the-arc-s-left-end-where-the-side-starts.png
+17:57:35 about to click the bottom left corner at (797, 660)
+17:57:36 clicked the bottom left corner -> 25-b-done-the-bottom-left-corner.png
+17:57:37 about to click the bottom right corner at (1048, 660)
+17:57:38 clicked the bottom right corner -> 26-b-done-the-bottom-right-corner.png
+17:57:38 about to click the arc's right end, where the chain closes at (1048, 532)
+17:57:39 clicked the arc's right end, where the chain closes -> 27-b-done-the-arc-s-right-end-where-the-chain-closes.png
+17:58:53 about to click the top of the dome, to select the arc at (922, 394)
+17:58:54 clicked the top of the dome, to select the arc -> 29-b-done-the-top-of-the-dome-to-select-the-arc.png
+17:58:55 about to click the left side, added to the selection at (797, 580)
+17:58:55 clicked the left side, added to the selection -> 30-b-done-the-left-side-added-to-the-selection.png
+17:59:40 about to click the top of the dome, to select the arc at (900, 396)
+17:59:41 clicked the top of the dome, to select the arc -> 33-b-done-the-top-of-the-dome-to-select-the-arc.png
+17:59:42 about to click the right side, added to the selection at (1048, 595)
+17:59:43 clicked the right side, added to the selection -> 34-b-done-the-right-side-added-to-the-selection.png
+18:00:34 about to click the dome, to dimension its radius at (900, 396)
+18:00:35 clicked the dome, to dimension its radius -> 37-b-done-the-dome-to-dimension-its-radius.png
+18:00:35 about to click where the radius dimension sits at (1150, 330)
+18:00:36 clicked where the radius dimension sits -> 38-b-done-where-the-radius-dimension-sits.png
+18:00:39 the dome radius: 34.57507 mm -> 18
+18:01:26 about to click the left side, to dimension its length at (858, 558)
+18:01:27 clicked the left side, to dimension its length -> 41-b-done-the-left-side-to-dimension-its-length.png
+18:01:28 about to click where the length dimension sits at (720, 558)
+18:01:29 clicked where the length dimension sits -> 42-b-done-where-the-length-dimension-sits.png
+18:01:32 the side length: 19.70339 mm -> 18
+18:02:24 about to click the right side at (988, 555)
+18:02:24 clicked the right side -> 45-b-done-the-right-side.png
+18:03:15 about to click the green tick, which keeps the sketch at (423, 93)
+18:03:16 clicked the green tick, which keeps the sketch -> 48-b-done-the-green-tick-which-keeps-the-sketch.png
+18:03:18 about to click the Sketch 1 row, to rename it at (140, 287)
+18:03:19 clicked the Sketch 1 row, to rename it -> 49-b-done-the-sketch-1-row-to-rename-it.png
+18:03:19 about to click Rename in the context menu at (263, 311)
+18:03:20 clicked Rename in the context menu -> 50-b-done-rename-in-the-context-menu.png
+18:03:22 renamed 'Sketch 1' to 'Head profile'
+18:03:53 about to click the Head profile row, as what to extrude at (140, 287)
+18:03:53 clicked the Head profile row, as what to extrude -> 53-b-done-the-head-profile-row-as-what-to-extrude.png
+18:03:54 about to click the Extrude button at (219, 58)
+18:03:56 clicked the Extrude button -> 55-b-done-the-extrude-button.png
+18:04:44 about to click the Symmetric tick box at (257, 341)
+18:04:45 clicked the Symmetric tick box -> 57-b-done-the-symmetric-tick-box.png
+18:04:50 about to click the green tick, which keeps the body at (423, 93)
+18:04:51 clicked the green tick, which keeps the body -> 59-b-done-the-green-tick-which-keeps-the-body.png
+18:04:54 about to click the Extrude 1 row, to rename it at (140, 313)
+18:04:55 clicked the Extrude 1 row, to rename it -> 60-b-done-the-extrude-1-row-to-rename-it.png
+18:04:55 about to click Rename in the context menu at (261, 337)
+18:04:56 clicked Rename in the context menu -> 61-b-done-rename-in-the-context-menu.png
+18:04:57 renamed 'Extrude 1' to 'Head body'
+18:04:57 about to click the Part 1 row, to rename it at (140, 696)
+18:04:58 clicked the Part 1 row, to rename it -> 63-b-done-the-part-1-row-to-rename-it.png
+18:04:58 about to click Rename in the context menu at (256, 364)
+18:04:59 clicked Rename in the context menu -> 64-b-done-rename-in-the-context-menu.png
+18:05:01 renamed 'Part 1' to 'Head'
+18:05:02 Head       {'lowX': -18.0, 'lowY': -15.0, 'lowZ': -18.0, 'highX': 18.0, 'highY': 15.0, 'highZ': 18.0}
+18:05:45 about to click the Top plane row, for its menu at (140, 209)
+18:05:46 clicked the Top plane row, for its menu -> 67-b-done-the-top-plane-row-for-its-menu.png
+18:05:47 about to click Hide all planes at (244, 345)
+18:05:48 clicked Hide all planes -> 68-b-done-hide-all-planes.png
+18:05:49 about to click the view menu at (1563, 232)
+18:05:50 clicked the view menu -> 69-b-done-the-view-menu.png
+18:05:51 about to click Isometric at (1455, 258)
+18:05:52 clicked Isometric -> 70-b-done-isometric.png
+18:05:53 about to click the view menu at (1563, 232)
+18:05:54 clicked the view menu -> 71-b-done-the-view-menu.png
+18:05:55 about to click Zoom to fit at (1459, 393)
+18:05:56 clicked Zoom to fit -> 72-b-done-zoom-to-fit.png
+18:08:30 about to click the tool search box at (1348, 58)
+18:08:31 clicked the tool search box -> 75-b-done-the-tool-search-box.png
+18:08:32 about to click the Fillet result in the search panel at (1098, 160)
+18:08:33 clicked the Fillet result in the search panel -> 77-b-done-the-fillet-result-in-the-search-panel.png
+18:08:36 about to click the front outline's arc at (809, 393)
+18:08:37 clicked the front outline's arc -> 80-b-done-the-front-outline-s-arc.png
+18:09:36 about to click the x on the entities chip, to start again at (446, 172)
+18:09:37 clicked the x on the entities chip, to start again -> 82-b-done-the-x-on-the-entities-chip-to-start-again.png
+18:09:38 about to click into the entities field at (355, 163)
+18:09:39 clicked into the entities field -> 83-b-done-into-the-entities-field.png
+18:09:41 about to click the front outline's left side at (638, 590)
+18:09:42 clicked the front outline's left side -> 85-b-done-the-front-outline-s-left-side.png
+18:10:46 about to click the view cube's right arrow, to turn the head at (1580, 166)
+18:10:47 clicked the view cube's right arrow, to turn the head -> 87-b-done-the-view-cube-s-right-arrow-to-turn-the-head.png
+18:10:49 about to click the view cube's right arrow again at (1580, 166)
+18:10:50 clicked the view cube's right arrow again -> 88-b-done-the-view-cube-s-right-arrow-again.png
+18:11:45 about to click the view menu at (1563, 232)
+18:11:46 clicked the view menu -> 90-b-done-the-view-menu.png
+18:11:47 about to click Isometric at (1455, 258)
+18:11:48 clicked Isometric -> 91-b-done-isometric.png
+18:11:51 about to click the back outline's right side at (1266, 620)
+18:11:52 clicked the back outline's right side -> 93-b-done-the-back-outline-s-right-side.png
+18:12:38 about to click the x on the face chip, which was a near miss at (446, 196)
+18:12:39 clicked the x on the face chip, which was a near miss -> 95-b-done-the-x-on-the-face-chip-which-was-a-near-miss.png
+18:13:16 about to click the back outline's right side at (1276, 640)
+18:13:17 clicked the back outline's right side -> 100-b-done-the-back-outline-s-right-side.png
+18:13:22 about to click the green tick, which keeps the rounds at (423, 93)
+18:13:23 clicked the green tick, which keeps the rounds -> 103-b-done-the-green-tick-which-keeps-the-rounds.png
+18:13:26 about to click the Fillet 1 row, to rename it at (140, 339)
+18:13:27 clicked the Fillet 1 row, to rename it -> 104-b-done-the-fillet-1-row-to-rename-it.png
+18:13:27 about to click Rename in the context menu at (261, 363)
+18:13:28 clicked Rename in the context menu -> 105-b-done-rename-in-the-context-menu.png
+18:13:29 renamed 'Fillet 1' to 'Outline rounds'
+18:13:30 Head       {'lowX': -18.0, 'lowY': -15.0, 'lowZ': -18.0, 'highX': 18.0, 'highY': 15.0, 'highZ': 18.0}
+18:14:07 PLANE    area= 536.4000  at (18.0, -15.0, -9.0)
+18:14:07 CYLINDER area=1685.1503  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+18:14:07 PLANE    area= 536.4000  at (-18.0, -15.0, -9.0)
+18:14:07 PLANE    area=1079.9914  at (0, -15.0, -18.0)
+18:14:07 PLANE    area=1147.6989  at (0, -15.0, 0.0)
+18:14:07 PLANE    area=1147.6989  at (0, 15.0, 0.0)
+18:14:07 CYLINDER area=   2.8274  r=  0.1000  at (17.9, 14.9, -9.0)  axis (0.000, 0.000, 1.000)
+18:14:07 TORUS    area=   8.8647  minor= 0.1000  at (0, 14.9, 0.0)  axis (0.000, -1.000, 0.000)
+18:14:07 CYLINDER area=   2.8274  r=  0.1000  at (-17.9, 14.9, -9.0)  axis (0.000, 0.000, -1.000)
+18:14:07 CYLINDER area=   2.8274  r=  0.1000  at (-17.9, -14.9, 0.0)  axis (0.000, 0.000, 1.000)
+18:14:07 TORUS    area=   8.8647  minor= 0.1000  at (0, -14.9, 0.0)  axis (0.000, -1.000, 0.000)
+18:14:07 CYLINDER area=   2.8274  r=  0.1000  at (17.9, -14.9, 0.0)  axis (0.000, 0.000, -1.000)
+18:14:07 volume 34707.7434 mm3
+18:15:22 opened Outline rounds for editing
+18:15:22 about to click the Radius field, reading '0.1 mm' at (361, 310)
+18:15:23 clicked the Radius field, reading '0.1 mm' -> 108-b-done-the-radius-field-reading-0-1-mm.png
+18:15:25 the fillet radius: 0.1 mm -> 3 mm
+18:15:26 about to click the green tick at (423, 93)
+18:15:27 clicked the green tick -> 110-b-done-the-green-tick.png
+18:15:30 CYLINDER r=18.0 minor=0
+18:15:30 CYLINDER r=3.0 minor=0
+18:15:30 TORUS    r=0 minor=3.0
+18:15:30 CYLINDER r=3.0 minor=0
+18:15:30 CYLINDER r=3.0 minor=0
+18:15:30 TORUS    r=0 minor=3.0
+18:15:30 CYLINDER r=3.0 minor=0
+18:16:02 about to click the head's front face at (750, 600)
+18:16:03 clicked the head's front face -> 113-b-done-the-head-s-front-face.png
+18:16:04 about to click the Sketch button at (155, 58)
+18:16:05 clicked the Sketch button -> 114-b-done-the-sketch-button.png
+18:16:55 about to click the tool search box at (1130, 58)
+18:16:56 clicked the tool search box -> 116-b-done-the-tool-search-box.png
+18:16:58 about to click the Ellipse result in the search panel at (1120, 159)
+18:16:59 clicked the Ellipse result in the search panel -> 118-b-done-the-ellipse-result-in-the-search-panel.png
+18:17:00 about to click where the eye's centre goes at (1043, 409)
+18:17:01 clicked where the eye's centre goes -> 120-b-done-where-the-eye-s-centre-goes.png
+18:17:02 about to click the end of the long axis at (1119, 409)
+18:17:03 clicked the end of the long axis -> 122-b-done-the-end-of-the-long-axis.png
+18:17:04 about to click the end of the short axis at (1043, 356)
+18:17:05 clicked the end of the short axis -> 124-b-done-the-end-of-the-short-axis.png
+18:17:43 about to click the ellipse at the end of its long axis at (1119, 408)
+18:17:44 clicked the ellipse at the end of its long axis -> 126-b-done-the-ellipse-at-the-end-of-its-long-axis.png
+18:17:44 about to click where the dimension sits at (1230, 330)
+18:17:45 clicked where the dimension sits -> 127-b-done-where-the-dimension-sits.png
+18:17:47 the box reads '7.01393 mm'
+18:18:19 the eye's short way across: 7.01393 mm -> 7
+18:18:21 about to click the ellipse at the top of its short axis at (1043, 355)
+18:18:22 clicked the ellipse at the top of its short axis -> 130-b-done-the-ellipse-at-the-top-of-its-short-axis.png
+18:18:22 about to click where the second dimension sits at (1150, 250)
+18:18:23 clicked where the second dimension sits -> 131-b-done-where-the-second-dimension-sits.png
+18:18:25 the second box reads '10.03774 mm'
+18:18:54 the eye's long way across: 10.03774 mm -> 10
+18:18:56 about to click the sketch origin at (922, 500)
+18:18:57 clicked the sketch origin -> 134-b-done-the-sketch-origin.png
+18:18:58 about to click the eye's centre at (1043, 408)
+18:18:59 clicked the eye's centre -> 135-b-done-the-eye-s-centre.png
+18:18:59 about to click below both, which asks for the across-ways distance at (980, 700)
+18:19:00 clicked below both, which asks for the across-ways distance -> 136-b-done-below-both-which-asks-for-the-across-ways-distan.png
+18:19:01 the box reads '7.97338 mm'
+18:19:27 the eye's distance out from the middle: 7.97338 mm -> 8
+18:19:29 about to click the sketch origin at (922, 500)
+18:19:30 clicked the sketch origin -> 139-b-done-the-sketch-origin.png
+18:19:30 about to click the eye's centre at (1043, 408)
+18:19:31 clicked the eye's centre -> 140-b-done-the-eye-s-centre.png
+18:19:32 about to click out to the right of both, which asks for the up-and-down distance at (1300, 450)
+18:19:33 clicked out to the right of both, which asks for the up-and-down distance -> 141-b-done-out-to-the-right-of-both-which-asks-for-the-up-a.png
+18:19:34 the box reads '6.07636 mm'
+18:19:57 the eye's height above the centre line: 6.07636 mm -> 6
+18:19:58 about to click the green tick, which keeps the sketch at (423, 93)
+18:19:59 clicked the green tick, which keeps the sketch -> 144-b-done-the-green-tick-which-keeps-the-sketch.png
+18:20:02 about to click the Sketch 1 row, to rename it at (140, 365)
+18:20:03 clicked the Sketch 1 row, to rename it -> 145-b-done-the-sketch-1-row-to-rename-it.png
+18:20:03 about to click Rename in the context menu at (263, 389)
+18:20:03 clicked Rename in the context menu -> 146-b-done-rename-in-the-context-menu.png
+18:20:05 renamed 'Sketch 1' to 'Eye profile'
+18:24:24 about to click the Eye profile row, so the extrude starts with it at (140, 365)
+18:24:25 clicked the Eye profile row, so the extrude starts with it -> 149-b-done-the-eye-profile-row-so-the-extrude-starts-with-i.png
+18:24:26 about to click Extrude on the toolbar at (219, 58)
+18:24:27 clicked Extrude on the toolbar -> 150-b-done-extrude-on-the-toolbar.png
+18:24:29 about to click Add, so this extrude puts material on at (313, 148)
+18:24:30 clicked Add, so this extrude puts material on -> 152-b-done-add-so-this-extrude-puts-material-on.png
+18:24:31 Depth field: [359, 259, '25 mm']
+18:24:31 Merge scope field: None
+18:24:59 about to click the Depth field, reading '25 mm' at (359, 259)
+18:25:00 clicked the Depth field, reading '25 mm' -> 154-b-done-the-depth-field-reading-25-mm.png
+18:25:02 how far the eye stands proud: 25 mm -> 1.5 mm
+18:25:02 about to click the View menu at (1563, 232)
+18:25:03 clicked the View menu -> 156-b-done-the-view-menu.png
+18:25:04 about to click Isometric at (1455, 258)
+18:25:05 clicked Isometric -> 157-b-done-isometric.png
+18:25:37 about to click the green tick, which keeps the extrude at (423, 93)
+18:25:38 clicked the green tick, which keeps the extrude -> 159-b-done-the-green-tick-which-keeps-the-extrude.png
+18:25:41 about to click the Extrude 1 row, to rename it at (140, 391)
+18:25:42 clicked the Extrude 1 row, to rename it -> 160-b-done-the-extrude-1-row-to-rename-it.png
+18:25:42 about to click Rename in the context menu at (261, 415)
+18:25:43 clicked Rename in the context menu -> 161-b-done-rename-in-the-context-menu.png
+18:25:44 renamed 'Extrude 1' to 'Eye'
+18:25:52 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+18:25:52 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+18:25:52 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+18:25:52 PLANE    area=1072.2743  at (0, -15.0, -18.0)
+18:25:52 PLANE    area= 838.4510  at (0, -15.0, 0.0)
+18:25:52 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+18:25:52 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+18:25:52 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+18:25:52 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+18:25:52 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+18:25:52 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+18:25:52 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+18:25:52 SWEEP    area=  40.3678
+18:25:52 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+18:25:52 volume 34441.0282 mm3
+18:26:23 about to click the Mirror tool at (740, 58)
+18:26:24 clicked the Mirror tool -> 164-b-done-the-mirror-tool.png
+18:26:50 about to click the mirror-kind dropdown at (430, 121)
+18:26:51 clicked the mirror-kind dropdown -> 166-b-done-the-mirror-kind-dropdown.png
+18:26:52 part mirror at [[291, 152]]
+18:26:52 face mirror at [[293, 204]]
+18:26:52 feature mirror at [[302, 178]]
+18:27:09 about to click Feature mirror at (302, 178)
+18:27:10 clicked Feature mirror -> 168-b-done-feature-mirror.png
+18:27:11 tree rows: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Eye profile', 'Eye', 'Mirror 1', '', 'Parts (1)', 'Head']
+18:27:11 about to click the Eye feature in the tree at (140, 391)
+18:27:12 clicked the Eye feature in the tree -> 170-b-done-the-eye-feature-in-the-tree.png
+18:27:40 about to click the Mirror plane box, so the next click fills it at (343, 203)
+18:27:41 clicked the Mirror plane box, so the next click fills it -> 172-b-done-the-mirror-plane-box-so-the-next-click-fills-it.png
+18:27:42 about to click the Right plane in the tree at (140, 261)
+18:27:43 clicked the Right plane in the tree -> 173-b-done-the-right-plane-in-the-tree.png
+18:27:45 about to click the green tick, which keeps the mirror at (423, 93)
+18:27:46 clicked the green tick, which keeps the mirror -> 175-b-done-the-green-tick-which-keeps-the-mirror.png
+18:27:49 about to click the Mirror 1 row, to rename it at (140, 417)
+18:27:50 clicked the Mirror 1 row, to rename it -> 176-b-done-the-mirror-1-row-to-rename-it.png
+18:27:50 about to click Rename in the context menu at (261, 441)
+18:27:51 clicked Rename in the context menu -> 177-b-done-rename-in-the-context-menu.png
+18:27:52 renamed 'Mirror 1' to 'Second eye'
+18:27:58 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+18:27:58 SWEEP    area=  40.3678
+18:27:58 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+18:27:58 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+18:27:58 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+18:27:58 PLANE    area=1072.2743  at (0, -15.0, -18.0)
+18:27:58 PLANE    area= 783.4732  at (0, -15.0, 0.0)
+18:27:58 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+18:27:58 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+18:27:58 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+18:27:58 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+18:27:58 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+18:27:58 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+18:27:58 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+18:27:58 SWEEP    area=  40.3678
+18:27:58 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+18:27:58 volume 34523.2842 mm3
+18:28:25 about to click the Front face of the view cube at (1487, 178)
+18:28:26 clicked the Front face of the view cube -> 180-b-done-the-front-face-of-the-view-cube.png
+18:28:29 about to click the View menu at (1563, 232)
+18:28:30 clicked the View menu -> 181-b-done-the-view-menu.png
+18:28:30 about to click Zoom to fit at (1459, 393)
+18:28:31 clicked Zoom to fit -> 182-b-done-zoom-to-fit.png
+18:29:12 about to click Sketch on the toolbar at (155, 58)
+18:29:13 clicked Sketch on the toolbar -> 184-b-done-sketch-on-the-toolbar.png
+18:29:15 about to click the flat front face of the head at (922, 750)
+18:29:16 clicked the flat front face of the head -> 186-b-done-the-flat-front-face-of-the-head.png
+18:29:18 plane field: None
+18:29:43 about to click the tool search box at (1130, 58)
+18:29:44 clicked the tool search box -> 188-b-done-the-tool-search-box.png
+18:29:45 about to click the Slot result in the search panel at (1120, 159)
+18:29:46 clicked the Slot result in the search panel -> 190-b-done-the-slot-result-in-the-search-panel.png
+18:29:48 about to click the left end of the mouth's centre line at (736, 663)
+18:29:49 clicked the left end of the mouth's centre line -> 192-b-done-the-left-end-of-the-mouth-s-centre-line.png
+18:29:50 about to click the right end of the mouth's centre line at (1112, 663)
+18:29:51 clicked the right end of the mouth's centre line -> 193-b-done-the-right-end-of-the-mouth-s-centre-line.png
+18:29:52 about to click out to the side, which sets how wide the mouth is at (924, 640)
+18:29:53 clicked out to the side, which sets how wide the mouth is -> 194-b-done-out-to-the-side-which-sets-how-wide-the-mouth-is.png
+18:30:52 about to click the tool search box at (1130, 58)
+18:30:53 clicked the tool search box -> 196-b-done-the-tool-search-box.png
+18:30:55 about to click the Slot result in the search panel at (1120, 159)
+18:30:55 clicked the Slot result in the search panel -> 198-b-done-the-slot-result-in-the-search-panel.png
+18:31:47 about to click the line tool on the sketch toolbar at (199, 58)
+18:31:48 clicked the line tool on the sketch toolbar -> 202-b-done-the-line-tool-on-the-sketch-toolbar.png
+18:32:41 about to click the slot tool on the sketch toolbar at (776, 58)
+18:32:42 clicked the slot tool on the sketch toolbar -> 204-b-done-the-slot-tool-on-the-sketch-toolbar.png
+18:33:53 about to click the little arrow beside the slot tool at (801, 58)
+18:33:54 clicked the little arrow beside the slot tool -> 208-b-done-the-little-arrow-beside-the-slot-tool.png
+18:34:27 about to click Slot in the flyout at (797, 129)
+18:34:28 clicked Slot in the flyout -> 210-b-done-slot-in-the-flyout.png
+18:34:29 about to click the left end of the mouth's centre line at (736, 663)
+18:34:30 clicked the left end of the mouth's centre line -> 211-b-done-the-left-end-of-the-mouth-s-centre-line.png
+18:34:31 about to click the right end of the mouth's centre line at (1112, 663)
+18:34:32 clicked the right end of the mouth's centre line -> 213-b-done-the-right-end-of-the-mouth-s-centre-line.png
+18:35:19 about to click the little arrow beside the rectangle tool at (279, 58)
+18:35:20 clicked the little arrow beside the rectangle tool -> 215-b-done-the-little-arrow-beside-the-rectangle-tool.png
+18:35:21 corner rectangle at [[338, 94]]
+18:35:21 center point rectangle at [[338, 130]]
+18:35:21 centre point rectangle at []
+18:35:42 about to click Center point rectangle in the flyout at (338, 130)
+18:35:43 clicked Center point rectangle in the flyout -> 217-b-done-center-point-rectangle-in-the-flyout.png
+18:35:44 about to click the middle of the mouth, on the sketch's up-and-down line at (922, 663)
+18:35:45 clicked the middle of the mouth, on the sketch's up-and-down line -> 218-b-done-the-middle-of-the-mouth-on-the-sketch-s-up-and-d.png
+18:35:46 about to click a corner, roughly 20 across and 4 tall at (1158, 616)
+18:35:47 clicked a corner, roughly 20 across and 4 tall -> 220-b-done-a-corner-roughly-20-across-and-4-tall.png
+18:36:28 about to click the top edge of the mouth at (800, 617)
+18:36:29 clicked the top edge of the mouth -> 222-b-done-the-top-edge-of-the-mouth.png
+18:36:29 about to click above it, where the dimension sits at (800, 560)
+18:36:30 clicked above it, where the dimension sits -> 223-b-done-above-it-where-the-dimension-sits.png
+18:36:33 how wide the mouth is: 19.91476 mm -> 20
+18:37:04 about to click the left edge of the mouth at (686, 662)
+18:37:04 clicked the left edge of the mouth -> 225-b-done-the-left-edge-of-the-mouth.png
+18:37:05 about to click out to the left, where the dimension sits at (600, 662)
+18:37:06 clicked out to the left, where the dimension sits -> 226-b-done-out-to-the-left-where-the-dimension-sits.png
+18:37:09 how tall the mouth is: 3.99151 mm -> 4
+18:37:35 about to click the sketch origin at (922, 522)
+18:37:35 clicked the sketch origin -> 228-b-done-the-sketch-origin.png
+18:37:36 about to click the middle of the mouth at (922, 662)
+18:37:37 clicked the middle of the mouth -> 229-b-done-the-middle-of-the-mouth.png
+18:37:38 about to click out to the right, which asks for the up-and-down distance at (1250, 590)
+18:37:39 clicked out to the right, which asks for the up-and-down distance -> 230-b-done-out-to-the-right-which-asks-for-the-up-and-down-.png
+18:37:41 how far the mouth sits below the middle: 5.92357 mm -> 6
+18:38:14 about to click the sketch fillet tool at (672, 58)
+18:38:15 clicked the sketch fillet tool -> 232-b-done-the-sketch-fillet-tool.png
+18:38:16 about to click the top-left corner of the mouth at (686, 617)
+18:38:17 clicked the top-left corner of the mouth -> 233-b-done-the-top-left-corner-of-the-mouth.png
+18:38:18 radius field: None
+18:38:59 radius field: None
+18:40:12 about to click the slot tool at (776, 58)
+18:40:13 clicked the slot tool -> 237-b-done-the-slot-tool.png
+18:41:42 about to click the line tool at (202, 58)
+18:41:43 clicked the line tool -> 242-b-done-the-line-tool.png
+18:41:44 about to click the left end of the mouth at (736, 663)
+18:41:45 clicked the left end of the mouth -> 243-b-done-the-left-end-of-the-mouth.png
+18:41:46 about to click the right end of the mouth at (1112, 663)
+18:41:47 clicked the right end of the mouth -> 244-b-done-the-right-end-of-the-mouth.png
+18:42:20 about to click the slot tool at (776, 58)
+18:42:21 clicked the slot tool -> 246-b-done-the-slot-tool.png
+18:42:22 about to click the centre line at (900, 662)
+18:42:23 clicked the centre line -> 247-b-done-the-centre-line.png
+18:43:43 about to click the top side of the mouth at (900, 428)
+18:43:44 clicked the top side of the mouth -> 251-b-done-the-top-side-of-the-mouth.png
+18:43:44 about to click the bottom side of the mouth at (900, 898)
+18:43:45 clicked the bottom side of the mouth -> 252-b-done-the-bottom-side-of-the-mouth.png
+18:43:46 about to click off to the left, where the dimension sits at (620, 760)
+18:43:47 clicked off to the left, where the dimension sits -> 253-b-done-off-to-the-left-where-the-dimension-sits.png
+18:43:50 how wide the mouth opens: 20 mm -> 4
+18:44:32 about to click the round end on the right of the mouth at (1339, 662)
+18:44:33 clicked the round end on the right of the mouth -> 256-b-done-the-round-end-on-the-right-of-the-mouth.png
+18:44:33 about to click where the radius dimension sits at (1420, 760)
+18:44:34 clicked where the radius dimension sits -> 257-b-done-where-the-radius-dimension-sits.png
+18:44:35 the box reads None
+18:48:24 about to click the slot tool at (776, 58)
+18:48:25 clicked the slot tool -> 264-b-done-the-slot-tool.png
+18:48:26 about to click the centre line at (900, 662)
+18:48:27 clicked the centre line -> 265-b-done-the-centre-line.png
+18:50:03 about to click the top side of the mouth at (900, 428)
+18:50:04 clicked the top side of the mouth -> 270-b-done-the-top-side-of-the-mouth.png
+18:50:04 about to click the bottom side of the mouth at (900, 898)
+18:50:05 clicked the bottom side of the mouth -> 271-b-done-the-bottom-side-of-the-mouth.png
+18:50:06 about to click off to the left, where the dimension sits at (620, 760)
+18:50:07 clicked off to the left, where the dimension sits -> 272-b-done-off-to-the-left-where-the-dimension-sits.png
+18:50:08 the new dimension reads '20 mm'
+18:50:11 after Enter the box reads None
+18:50:59 about to click the slot tool at (776, 58)
+18:51:00 clicked the slot tool -> 274-b-done-the-slot-tool.png
+18:51:01 about to click the centre line at (900, 662)
+18:51:02 clicked the centre line -> 275-b-done-the-centre-line.png
+18:51:57 about to click the top side of the mouth at (900, 427)
+18:51:57 clicked the top side of the mouth -> 278-b-done-the-top-side-of-the-mouth.png
+18:51:58 about to click the bottom side of the mouth at (900, 897)
+18:51:59 clicked the bottom side of the mouth -> 279-b-done-the-bottom-side-of-the-mouth.png
+18:52:00 about to click off to the left, where the dimension sits at (620, 760)
+18:52:01 clicked off to the left, where the dimension sits -> 280-b-done-off-to-the-left-where-the-dimension-sits.png
+18:52:03 the mouth's width: 20 mm -> 12
+18:52:07 about to click the top side of the mouth at (900, 520)
+18:52:08 clicked the top side of the mouth -> 283-b-done-the-top-side-of-the-mouth.png
+18:52:09 about to click the bottom side of the mouth at (900, 804)
+18:52:10 clicked the bottom side of the mouth -> 284-b-done-the-bottom-side-of-the-mouth.png
+18:52:10 about to click off to the left, where the dimension sits at (620, 760)
+18:52:11 clicked off to the left, where the dimension sits -> 285-b-done-off-to-the-left-where-the-dimension-sits.png
+19:12:19 about to click the little arrow beside the rectangle tool at (279, 58)
+19:12:20 clicked the little arrow beside the rectangle tool -> 292-b-done-the-little-arrow-beside-the-rectangle-tool.png
+19:12:21 about to click Center point rectangle at (338, 130)
+19:12:22 clicked Center point rectangle -> 293-b-done-center-point-rectangle.png
+19:12:23 about to click the middle of the mouth, on the sketch's up-and-down line at (922, 664)
+19:12:24 clicked the middle of the mouth, on the sketch's up-and-down line -> 294-b-done-the-middle-of-the-mouth-on-the-sketch-s-up-and-d.png
+19:12:24 about to click a corner, roughly 16 across and 4 tall at (1111, 617)
+19:12:25 clicked a corner, roughly 16 across and 4 tall -> 295-b-done-a-corner-roughly-16-across-and-4-tall.png
+19:12:28 about to click the top edge at (800, 617)
+19:12:29 clicked the top edge -> 297-b-done-the-top-edge.png
+19:12:30 about to click above it, where the dimension sits at (800, 560)
+19:12:31 clicked above it, where the dimension sits -> 298-b-done-above-it-where-the-dimension-sits.png
+19:13:21 about to click the x on the old message at (967, 100)
+19:13:22 clicked the x on the old message -> 299-b-done-the-x-on-the-old-message.png
+19:13:28 about to click the top edge of the mouth at (800, 617)
+19:13:29 clicked the top edge of the mouth -> 301-b-done-the-top-edge-of-the-mouth.png
+19:13:30 about to click above it, where the dimension sits at (800, 560)
+19:13:31 clicked above it, where the dimension sits -> 302-b-done-above-it-where-the-dimension-sits.png
+19:13:33 the box reads '21.95336 mm'
+19:14:23 about to click the red x, which throws the dimension away at (963, 557)
+19:14:24 clicked the red x, which throws the dimension away -> 304-b-done-the-red-x-which-throws-the-dimension-away.png
+19:14:27 about to click the mouth's top edge at (950, 617)
+19:14:28 clicked the mouth's top edge -> 306-b-done-the-mouth-s-top-edge.png
+19:14:29 about to click below the mouth, where the dimension sits at (950, 780)
+19:14:30 clicked below the mouth, where the dimension sits -> 307-b-done-below-the-mouth-where-the-dimension-sits.png
+19:14:31 the box reads '15.98255 mm'
+19:14:57 how long the mouth's straight part is: 15.98255 mm -> 16
+19:14:58 about to click the left edge of the straight part at (733, 664)
+19:14:59 clicked the left edge of the straight part -> 309-b-done-the-left-edge-of-the-straight-part.png
+19:15:00 about to click out to the left, where the dimension sits at (620, 664)
+19:15:01 clicked out to the left, where the dimension sits -> 310-b-done-out-to-the-left-where-the-dimension-sits.png
+19:15:02 the box reads '3.9745 mm'
+19:15:04 how far the mouth opens: 3.9745 mm -> 4
+19:15:31 about to click the sketch origin at (922, 522)
+19:15:32 clicked the sketch origin -> 312-b-done-the-sketch-origin.png
+19:15:32 about to click the middle of the mouth at (922, 664)
+19:15:33 clicked the middle of the mouth -> 313-b-done-the-middle-of-the-mouth.png
+19:15:34 about to click out to the right, which asks for the up-and-down distance at (1250, 590)
+19:15:35 clicked out to the right, which asks for the up-and-down distance -> 314-b-done-out-to-the-right-which-asks-for-the-up-and-down-.png
+19:15:37 the box reads '5.95336 mm'
+19:15:38 how far the mouth sits below the middle: 5.95336 mm -> 6
+19:17:01 about to click the circle tool at (306, 58)
+19:17:02 clicked the circle tool -> 318-b-done-the-circle-tool.png
+19:17:04 about to click the middle of the left end at (733, 664)
+19:17:05 clicked the middle of the left end -> 320-b-done-the-middle-of-the-left-end.png
+19:17:05 about to click a point out on the left circle at (780, 664)
+19:17:06 clicked a point out on the left circle -> 321-b-done-a-point-out-on-the-left-circle.png
+19:17:08 about to click the middle of the right end at (1112, 664)
+19:17:09 clicked the middle of the right end -> 323-b-done-the-middle-of-the-right-end.png
+19:17:09 about to click a point out on the right circle at (1159, 664)
+19:17:10 clicked a point out on the right circle -> 324-b-done-a-point-out-on-the-right-circle.png
+19:17:50 about to click the little arrow beside the ellipse tool at (331, 58)
+19:17:51 clicked the little arrow beside the ellipse tool -> 326-b-done-the-little-arrow-beside-the-ellipse-tool.png
+19:17:52 circle at []
+19:17:52 center point circle at [[381, 94]]
+19:17:52 3 point circle at [[389, 129]]
+19:17:52 ellipse at [[389, 162]]
+19:18:20 about to click Center point circle at (381, 94)
+19:18:21 clicked Center point circle -> 328-b-done-center-point-circle.png
+19:18:22 about to click the middle of the left end at (733, 664)
+19:18:23 clicked the middle of the left end -> 330-b-done-the-middle-of-the-left-end.png
+19:18:24 about to click a point out on the left circle at (780, 664)
+19:18:25 clicked a point out on the left circle -> 331-b-done-a-point-out-on-the-left-circle.png
+19:18:26 about to click the middle of the right end at (1112, 664)
+19:18:27 clicked the middle of the right end -> 333-b-done-the-middle-of-the-right-end.png
+19:18:28 about to click a point out on the right circle at (1159, 664)
+19:18:29 clicked a point out on the right circle -> 334-b-done-a-point-out-on-the-right-circle.png
+19:19:16 about to click the left end's circle at (686, 664)
+19:19:17 clicked the left end's circle -> 337-b-done-the-left-end-s-circle.png
+19:19:18 about to click where the left dimension sits at (600, 580)
+19:19:19 clicked where the left dimension sits -> 338-b-done-where-the-left-dimension-sits.png
+19:19:21 the left box reads '3.97627 mm'
+19:19:22 the left end of the mouth: 3.97627 mm -> 4
+19:19:24 about to click the right end's circle at (1159, 664)
+19:19:25 clicked the right end's circle -> 340-b-done-the-right-end-s-circle.png
+19:19:26 about to click where the right dimension sits at (1250, 760)
+19:19:27 clicked where the right dimension sits -> 341-b-done-where-the-right-dimension-sits.png
+19:19:28 the right box reads '4.02592 mm'
+19:19:30 the right end of the mouth: 4.02592 mm -> 4
+19:23:45 status text on screen: [['Show constraints', 319, 203]]
+19:24:43 about to click the left end's short edge at (733, 630)
+19:24:44 clicked the left end's short edge -> 347-b-done-the-left-end-s-short-edge.png
+19:24:44 about to click the middle of the left end's circle at (733, 664)
+19:24:45 clicked the middle of the left end's circle -> 349-b-done-the-middle-of-the-left-end-s-circle.png
+19:24:48 about to click the right end's short edge at (1112, 630)
+19:24:49 clicked the right end's short edge -> 352-b-done-the-right-end-s-short-edge.png
+19:24:50 about to click the middle of the right end's circle at (1112, 664)
+19:24:51 clicked the middle of the right end's circle -> 354-b-done-the-middle-of-the-right-end-s-circle.png
+19:25:35 about to click the little arrow at the end of the sketch toolbar at (1032, 58)
+19:25:36 clicked the little arrow at the end of the sketch toolbar -> 358-b-done-the-little-arrow-at-the-end-of-the-sketch-toolba.png
+19:25:37 show-constraints                             at (309, 203)
+19:25:37 show-overdefined-constraints                 at (294, 258)
+19:26:06 about to click the left end's short edge at (733, 630)
+19:26:06 clicked the left end's short edge -> 360-b-done-the-left-end-s-short-edge.png
+19:26:07 about to click the middle of the left end's circle at (733, 664)
+19:26:08 clicked the middle of the left end's circle -> 361-b-done-the-middle-of-the-left-end-s-circle.png
+19:26:11 about to click the right end's short edge at (1112, 630)
+19:26:12 clicked the right end's short edge -> 363-b-done-the-right-end-s-short-edge.png
+19:26:12 about to click the middle of the right end's circle at (1112, 664)
+19:26:13 clicked the middle of the right end's circle -> 364-b-done-the-middle-of-the-right-end-s-circle.png
+19:27:45 about to click the origin at (922, 522)
+19:27:45 clicked the origin -> 370-b-done-the-origin.png
+19:27:46 about to click the middle of the mouth at (922, 664)
+19:27:47 clicked the middle of the mouth -> 372-b-done-the-middle-of-the-mouth.png
+19:28:16 about to click the green tick that accepts the sketch at (424, 93)
+19:28:17 clicked the green tick that accepts the sketch -> 375-b-done-the-green-tick-that-accepts-the-sketch.png
+19:28:20 Default geometry         at (140, 157)
+19:28:20 Origin                   at (140, 183)
+19:28:20 Top                      at (140, 209)
+19:28:20 Front                    at (140, 235)
+19:28:20 Right                    at (140, 261)
+19:28:20 Head profile             at (140, 287)
+19:28:20 Head body                at (140, 313)
+19:28:20 Outline rounds           at (140, 339)
+19:28:20 Eye profile              at (140, 365)
+19:28:20 Eye                      at (140, 391)
+19:28:20 Second eye               at (140, 417)
+19:28:20 Sketch 1                 at (140, 443)
+19:28:20                          at (140, 469)
+19:28:20 Parts (1)                at (140, 670)
+19:28:20 Head                     at (140, 696)
+19:28:36 about to click the Sketch 1 row, to rename it at (140, 443)
+19:28:37 clicked the Sketch 1 row, to rename it -> 377-b-done-the-sketch-1-row-to-rename-it.png
+19:28:37 about to click Rename in the context menu at (263, 467)
+19:28:38 clicked Rename in the context menu -> 378-b-done-rename-in-the-context-menu.png
+19:28:39 renamed 'Sketch 1' to 'Mouth profile'
+19:29:04 about to click the Extrude tool at (219, 58)
+19:29:05 clicked the Extrude tool -> 381-b-done-the-extrude-tool.png
+19:29:07 about to click the long middle of the mouth at (850, 690)
+19:29:08 clicked the long middle of the mouth -> 384-b-done-the-long-middle-of-the-mouth.png
+19:29:10 about to click the rounded left end at (700, 664)
+19:29:11 clicked the rounded left end -> 386-b-done-the-rounded-left-end.png
+19:29:12 about to click the rounded right end at (1145, 664)
+19:29:13 clicked the rounded right end -> 388-b-done-the-rounded-right-end.png
+19:29:44 about to click Remove at (366, 148)
+19:29:44 clicked Remove -> 390-b-done-remove.png
+19:29:46 about to click the depth field, reading '25 mm' at (359, 307)
+19:29:47 clicked the depth field, reading '25 mm' -> 392-b-done-the-depth-field-reading-25-mm.png
+19:29:49 how deep the mouth is cut: 25 mm -> 1.5 mm
+19:30:27 about to click the green tick that accepts the cut at (424, 93)
+19:30:28 clicked the green tick that accepts the cut -> 394-b-done-the-green-tick-that-accepts-the-cut.png
+19:30:31 about to click the Extrude 1 row, to rename it at (140, 469)
+19:30:32 clicked the Extrude 1 row, to rename it -> 396-b-done-the-extrude-1-row-to-rename-it.png
+19:30:32 about to click Rename in the context menu at (279, 493)
+19:30:33 clicked Rename in the context menu -> 397-b-done-rename-in-the-context-menu.png
+19:30:34 renamed 'Extrude 1' to 'Mouth'
+19:31:51 about to click the Direction tick box, which turns the cut around at (277, 334)
+19:31:51 clicked the Direction tick box, which turns the cut around -> 402-b-done-the-direction-tick-box-which-turns-the-cut-aroun.png
+19:31:54 about to click the green tick at (424, 93)
+19:31:54 clicked the green tick -> 404-b-done-the-green-tick.png
+19:32:43 about to click the Direction tick box, to put it back the way it was at (277, 334)
+19:32:44 clicked the Direction tick box, to put it back the way it was -> 407-b-done-the-direction-tick-box-to-put-it-back-the-way-it.png
+19:32:46 about to click the arrow that turns the cut around at (452, 279)
+19:32:47 clicked the arrow that turns the cut around -> 408-b-done-the-arrow-that-turns-the-cut-around.png
+19:33:33 about to click the arrow, to point the cut back into the head at (452, 279)
+19:33:34 clicked the arrow, to point the cut back into the head -> 410-b-done-the-arrow-to-point-the-cut-back-into-the-head.png
+19:33:37 about to click the left end's inner half at (755, 664)
+19:33:38 clicked the left end's inner half -> 412-b-done-the-left-end-s-inner-half.png
+19:33:40 about to click the right end's inner half at (1090, 664)
+19:33:41 clicked the right end's inner half -> 414-b-done-the-right-end-s-inner-half.png
+19:34:10 about to click the green tick at (424, 93)
+19:34:11 clicked the green tick -> 416-b-done-the-green-tick.png
+19:34:15 about to click the View menu at (1563, 232)
+19:34:16 clicked the View menu -> 418-b-done-the-view-menu.png
+19:34:17 about to click Isometric at (1455, 258)
+19:34:18 clicked Isometric -> 419-b-done-isometric.png
+19:34:34 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+19:34:34 SWEEP    area=  40.3678
+19:34:34 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+19:34:34 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+19:34:34 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+19:34:34 PLANE    area=1072.2743  at (0, -15.0, -18.0)
+19:34:34 PLANE    area= 706.9068  at (0, -15.0, 0.0)
+19:34:34 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+19:34:34 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+19:34:34 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+19:34:34 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+19:34:34 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+19:34:34 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+19:34:34 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+19:34:34 SWEEP    area=  40.3678
+19:34:34 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+19:34:34 PLANE    area=  24.0000  at (0, -13.5, -4.0)
+19:34:34 CYLINDER area=   9.4248  r=  2.0000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+19:34:34 PLANE    area=  24.0000  at (0, -13.5, -8.0)
+19:34:34 CYLINDER area=   9.4248  r=  2.0000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+19:34:34 PLANE    area=  76.5664  at (0, -13.5, -6.0)
+19:34:34 volume 34408.4346 mm3
+19:36:23 about to click the View menu at (1563, 232)
+19:36:24 clicked the View menu -> 421-b-done-the-view-menu.png
+19:36:25 bottom       at []
+19:36:25 isometric    at [[1455, 258]]
+19:36:25 trimetric    at [[1455, 302]]
+19:36:25 top          at [[158, 208]]
+19:36:25 back         at []
+19:36:25 left         at []
+19:37:01 about to click the arrow under the view cube at (1510, 235)
+19:37:02 clicked the arrow under the view cube -> 423-b-done-the-arrow-under-the-view-cube.png
+19:37:04 about to click the arrow under the view cube at (1510, 235)
+19:37:05 clicked the arrow under the view cube -> 425-b-done-the-arrow-under-the-view-cube.png
+19:37:39 about to click the arrow above the view cube at (1510, 96)
+19:37:40 clicked the arrow above the view cube -> 427-b-done-the-arrow-above-the-view-cube.png
+19:37:42 about to click the arrow above the view cube at (1510, 96)
+19:37:43 clicked the arrow above the view cube -> 429-b-done-the-arrow-above-the-view-cube.png
+19:37:45 about to click the arrow above the view cube at (1510, 96)
+19:37:46 clicked the arrow above the view cube -> 431-b-done-the-arrow-above-the-view-cube.png
+19:37:48 about to click the arrow above the view cube at (1510, 96)
+19:37:49 clicked the arrow above the view cube -> 433-b-done-the-arrow-above-the-view-cube.png
+19:38:19 about to click the arrow above the view cube at (1510, 96)
+19:38:20 clicked the arrow above the view cube -> 435-b-done-the-arrow-above-the-view-cube.png
+19:38:22 about to click the arrow above the view cube at (1510, 96)
+19:38:23 clicked the arrow above the view cube -> 437-b-done-the-arrow-above-the-view-cube.png
+19:39:02 about to click the Sketch tool at (155, 58)
+19:39:03 clicked the Sketch tool -> 439-b-done-the-sketch-tool.png
+19:39:05 about to click the underside at (930, 790)
+19:39:06 clicked the underside -> 442-b-done-the-underside.png
+19:39:39 about to click the Bottom face of the view cube at (1500, 196)
+19:39:40 clicked the Bottom face of the view cube -> 444-b-done-the-bottom-face-of-the-view-cube.png
+19:39:42 about to click the View menu at (1563, 232)
+19:39:43 clicked the View menu -> 445-b-done-the-view-menu.png
+19:39:44 about to click Zoom to fit at (1459, 393)
+19:39:45 clicked Zoom to fit -> 446-b-done-zoom-to-fit.png
+19:40:24 about to click the little arrow beside the circle tool at (331, 58)
+19:40:25 clicked the little arrow beside the circle tool -> 448-b-done-the-little-arrow-beside-the-circle-tool.png
+19:40:26 about to click Center point circle at (381, 94)
+19:40:27 clicked Center point circle -> 449-b-done-center-point-circle.png
+19:40:29 about to click the origin at (922, 543)
+19:40:30 clicked the origin -> 451-b-done-the-origin.png
+19:40:30 about to click a point out on the circle at (1049, 543)
+19:40:31 clicked a point out on the circle -> 452-b-done-a-point-out-on-the-circle.png
+19:41:15 about to click the circle at (922, 417)
+19:41:16 clicked the circle -> 455-b-done-the-circle.png
+19:41:17 about to click where the dimension sits at (1150, 380)
+19:41:17 clicked where the dimension sits -> 456-b-done-where-the-dimension-sits.png
+19:41:19 the box reads '9.36033 mm'
+19:41:20 the collar's outside: 9.36033 mm -> 9.4
+19:41:50 about to click the green tick at (424, 93)
+19:41:51 clicked the green tick -> 458-b-done-the-green-tick.png
+19:41:53 about to click the Sketch 1 row, to rename it at (140, 495)
+19:41:54 clicked the Sketch 1 row, to rename it -> 459-b-done-the-sketch-1-row-to-rename-it.png
+19:41:54 about to click Rename in the context menu at (263, 519)
+19:41:55 clicked Rename in the context menu -> 460-b-done-rename-in-the-context-menu.png
+19:41:57 renamed 'Sketch 1' to 'Collar circle'
+19:42:25 about to click the Extrude tool at (219, 58)
+19:42:26 clicked the Extrude tool -> 463-b-done-the-extrude-tool.png
+19:42:28 about to click inside the collar circle at (960, 580)
+19:42:29 clicked inside the collar circle -> 466-b-done-inside-the-collar-circle.png
+19:42:30 about to click Add at (313, 148)
+19:42:31 clicked Add -> 467-b-done-add.png
+19:42:32 about to click the depth field, reading '25 mm' at (359, 259)
+19:42:33 clicked the depth field, reading '25 mm' -> 468-b-done-the-depth-field-reading-25-mm.png
+19:42:35 how far the collar stands proud: 25 mm -> 5.5 mm
+19:43:09 about to click the green tick at (424, 93)
+19:43:10 clicked the green tick -> 470-b-done-the-green-tick.png
+19:43:13 about to click the Extrude 1 row, to rename it at (140, 521)
+19:43:14 clicked the Extrude 1 row, to rename it -> 471-b-done-the-extrude-1-row-to-rename-it.png
+19:43:14 about to click Rename in the context menu at (261, 545)
+19:43:15 clicked Rename in the context menu -> 472-b-done-rename-in-the-context-menu.png
+19:43:17 renamed 'Extrude 1' to 'Collar blank'
+19:43:17 about to click the arrow under the view cube at (1510, 235)
+19:43:18 clicked the arrow under the view cube -> 474-b-done-the-arrow-under-the-view-cube.png
+19:43:19 about to click the arrow under the view cube at (1510, 235)
+19:43:20 clicked the arrow under the view cube -> 475-b-done-the-arrow-under-the-view-cube.png
+19:43:22 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+19:43:22 SWEEP    area=  40.3678
+19:43:22 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+19:43:22 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+19:43:22 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+19:43:22 PLANE    area=1002.8766  at (0, -15.0, -18.0)
+19:43:22 PLANE    area= 706.9068  at (0, -15.0, 0.0)
+19:43:22 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+19:43:22 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+19:43:22 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+19:43:22 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+19:43:22 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+19:43:22 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+19:43:22 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+19:43:22 SWEEP    area=  40.3678
+19:43:22 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+19:43:22 PLANE    area=  24.0000  at (0, -13.5, -4.0)
+19:43:22 CYLINDER area=   9.4248  r=  2.0000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+19:43:22 PLANE    area=  24.0000  at (0, -13.5, -8.0)
+19:43:22 CYLINDER area=   9.4248  r=  2.0000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+19:43:22 PLANE    area=  76.5664  at (0, -13.5, -6.0)
+19:43:22 CYLINDER area= 162.4203  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+19:43:22 PLANE    area=  69.3978  at (0, 0, -23.5)
+19:43:23 volume 34790.1224 mm3
+19:43:49 about to click the tool search box at (1348, 58)
+19:43:50 clicked the tool search box -> 478-b-done-the-tool-search-box.png
+19:44:23 about to click Derived in the search results at (1149, 789)
+19:44:23 clicked Derived in the search results -> 480-b-done-derived-in-the-search-results.png
+19:44:56 about to click the tool search box at (1348, 58)
+19:44:57 clicked the tool search box -> 482-b-done-the-tool-search-box.png
+19:44:58 about to click the derived result in the search panel at (1160, 789)
+19:44:59 clicked the derived result in the search panel -> 484-b-done-the-derived-result-in-the-search-panel.png
+19:45:37 about to click the little arrow on the reference-geometry group at (1104, 58)
+19:45:38 clicked the little arrow on the reference-geometry group -> 487-b-done-the-little-arrow-on-the-reference-geometry-group.png
+19:45:40 derived at [[1160, 789]]
+19:46:01 about to click Derived at (1160, 789)
+19:46:02 clicked Derived -> 489-b-done-derived.png
+19:46:40 about to click Select Part Studio at (355, 148)
+19:46:41 clicked Select Part Studio -> 493-b-done-select-part-studio.png
+19:47:15 about to click Other documents at (691, 124)
+19:47:16 clicked Other documents -> 495-b-done-other-documents.png
+19:47:57 about to click the search box at (618, 161)
+19:47:58 clicked the search box -> 498-b-done-the-search-box.png
+19:49:17 about to click Select Part Studio at (355, 148)
+19:49:18 clicked Select Part Studio -> 500-b-done-select-part-studio.png
+19:49:21 about to click Other documents at (691, 124)
+19:49:22 clicked Other documents -> 501-b-done-other-documents.png
+19:49:24 about to click the search box at (618, 161)
+19:49:25 clicked the search box -> 502-b-done-the-search-box.png
+20:08:00 delete at [[279, 753]]
+20:15:15 about to click Delete at (279, 753)
+20:15:16 clicked Delete -> 506-b-done-delete.png
+20:15:18 Default geometry         at (140, 157)
+20:15:18 Origin                   at (140, 183)
+20:15:18 Top                      at (140, 209)
+20:15:18 Front                    at (140, 235)
+20:15:18 Right                    at (140, 261)
+20:15:18 Head profile             at (140, 287)
+20:15:18 Head body                at (140, 313)
+20:15:18 Outline rounds           at (140, 339)
+20:15:18 Eye profile              at (140, 365)
+20:15:18 Eye                      at (140, 391)
+20:15:18 Second eye               at (140, 417)
+20:15:18 Mouth profile            at (140, 443)
+20:15:18 Mouth                    at (140, 469)
+20:15:18 Collar circle            at (140, 495)
+20:15:18 Collar blank             at (140, 521)
+20:15:18                          at (140, 547)
+20:15:18 Parts (1)                at (140, 670)
+20:15:18 Head                     at (140, 696)
+20:24:40 about to click the view cube's Front face at (1487, 178)
+20:24:41 clicked the view cube's Front face -> 508-b-done-the-view-cube-s-front-face.png
+20:24:43 about to click the View menu at (1563, 232)
+20:24:44 clicked the View menu -> 509-b-done-the-view-menu.png
+20:24:45 about to click Zoom to fit at (1459, 393)
+20:24:46 clicked Zoom to fit -> 510-b-done-zoom-to-fit.png
+20:25:27 about to click the Sketch tool at (155, 58)
+20:25:28 clicked the Sketch tool -> 512-b-done-the-sketch-tool.png
+20:25:29 about to click the Front plane in the tree at (140, 235)
+20:25:30 clicked the Front plane in the tree -> 513-b-done-the-front-plane-in-the-tree.png
+20:26:18 about to click the arrow above the view cube at (1510, 96)
+20:26:19 clicked the arrow above the view cube -> 516-b-done-the-arrow-above-the-view-cube.png
+20:26:21 about to click the arrow above the view cube at (1510, 96)
+20:26:22 clicked the arrow above the view cube -> 518-b-done-the-arrow-above-the-view-cube.png
+20:27:02 about to click the cube's Front face at (1509, 190)
+20:27:03 clicked the cube's Front face -> 520-b-done-the-cube-s-front-face.png
+20:27:05 about to click the View menu at (1563, 232)
+20:27:06 clicked the View menu -> 521-b-done-the-view-menu.png
+20:27:07 about to click Zoom to fit at (1459, 393)
+20:27:08 clicked Zoom to fit -> 522-b-done-zoom-to-fit.png
+20:30:24 about to click the little arrow beside the circle tool at (331, 58)
+20:30:25 clicked the little arrow beside the circle tool -> 527-b-done-the-little-arrow-beside-the-circle-tool.png
+20:30:26 about to click Center point circle at (381, 94)
+20:30:27 clicked Center point circle -> 528-b-done-center-point-circle.png
+20:30:29 about to click the cavity's middle, on the neck axis at (922, 811)
+20:30:30 clicked the cavity's middle, on the neck axis -> 530-b-done-the-cavity-s-middle-on-the-neck-axis.png
+20:30:31 about to click a point out on the cavity circle at (1015, 811)
+20:30:31 clicked a point out on the cavity circle -> 531-b-done-a-point-out-on-the-cavity-circle.png
+20:31:15 about to click the cavity circle at (1015, 811)
+20:31:16 clicked the cavity circle -> 534-b-done-the-cavity-circle.png
+20:31:16 about to click where the dimension sits at (1230, 900)
+20:31:17 clicked where the dimension sits -> 535-b-done-where-the-dimension-sits.png
+20:31:19 the box reads '6.36185 mm'
+20:31:20 the cavity: 6.36185 mm -> 6.4
+20:31:56 about to click the origin at (922, 165)
+20:31:57 clicked the origin -> 538-b-done-the-origin.png
+20:31:58 about to click the cavity's middle at (922, 811)
+20:31:59 clicked the cavity's middle -> 540-b-done-the-cavity-s-middle.png
+20:32:00 about to click where the dimension sits at (1420, 480)
+20:32:01 clicked where the dimension sits -> 541-b-done-where-the-dimension-sits.png
+20:32:03 the box reads '22.36209 mm'
+20:32:04 how far the cavity sits below the head's middle: 22.36209 mm -> 22.15
+20:32:54 about to click the Line tool at (202, 58)
+20:32:55 clicked the Line tool -> 543-b-done-the-line-tool.png
+20:32:57 about to click the top of the cavity circle at (922, 718)
+20:32:58 clicked the top of the cavity circle -> 545-b-done-the-top-of-the-cavity-circle.png
+20:33:00 about to click the bottom of the cavity circle at (922, 904)
+20:33:00 clicked the bottom of the cavity circle -> 547-b-done-the-bottom-of-the-cavity-circle.png
+20:33:35 about to click the green tick at (424, 93)
+20:33:36 clicked the green tick -> 549-b-done-the-green-tick.png
+20:33:39 about to click the Sketch 1 row, to rename it at (140, 547)
+20:33:39 clicked the Sketch 1 row, to rename it -> 550-b-done-the-sketch-1-row-to-rename-it.png
+20:33:39 about to click Rename in the context menu at (263, 571)
+20:33:40 clicked Rename in the context menu -> 551-b-done-rename-in-the-context-menu.png
+20:33:42 renamed 'Sketch 1' to 'Cavity profile'
+20:34:09 about to click the Revolve tool at (253, 58)
+20:34:10 clicked the Revolve tool -> 554-b-done-the-revolve-tool.png
+20:34:49 about to click Remove at (366, 148)
+20:34:50 clicked Remove -> 556-b-done-remove.png
+20:34:53 about to click the right half of the cavity circle at (960, 811)
+20:34:53 clicked the right half of the cavity circle -> 558-b-done-the-right-half-of-the-cavity-circle.png
+20:35:36 hide at [[254, 787]]
+20:36:00 about to click Hide at (254, 787)
+20:36:01 clicked Hide -> 561-b-done-hide.png
+20:36:03 about to click the regions field at (355, 182)
+20:36:04 clicked the regions field -> 563-b-done-the-regions-field.png
+20:36:06 about to click the right half of the cavity circle at (960, 811)
+20:36:07 clicked the right half of the cavity circle -> 565-b-done-the-right-half-of-the-cavity-circle.png
+20:36:45 about to click the Revolve axis field at (343, 231)
+20:36:46 clicked the Revolve axis field -> 567-b-done-the-revolve-axis-field.png
+20:36:47 about to click the axis line at (922, 800)
+20:36:48 clicked the axis line -> 569-b-done-the-axis-line.png
+20:40:34 about to click Merge with all at (257, 308)
+20:40:35 clicked Merge with all -> 571-b-done-merge-with-all.png
+20:40:37 about to click the green tick at (424, 93)
+20:40:37 clicked the green tick -> 573-b-done-the-green-tick.png
+20:41:09 about to click the Revolve 1 row, to rename it at (140, 573)
+20:41:09 clicked the Revolve 1 row, to rename it -> 575-b-done-the-revolve-1-row-to-rename-it.png
+20:41:09 about to click Rename in the context menu at (261, 597)
+20:41:10 clicked Rename in the context menu -> 576-b-done-rename-in-the-context-menu.png
+20:41:12 renamed 'Revolve 1' to 'Cavity from ball'
+20:41:13 show at [[254, 565]]
+20:41:30 about to click Show at (254, 565)
+20:41:31 clicked Show -> 579-b-done-show.png
+20:41:33 about to click the View menu at (1563, 232)
+20:41:34 clicked the View menu -> 580-b-done-the-view-menu.png
+20:41:34 about to click Isometric at (1455, 258)
+20:41:35 clicked Isometric -> 581-b-done-isometric.png
+20:41:37 about to click the View menu at (1563, 232)
+20:41:38 clicked the View menu -> 582-b-done-the-view-menu.png
+20:41:39 about to click Zoom to fit at (1459, 393)
+20:41:40 clicked Zoom to fit -> 583-b-done-zoom-to-fit.png
+20:41:47 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+20:41:47 SWEEP    area=  40.3678
+20:41:47 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+20:41:47 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+20:41:47 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+20:41:47 PLANE    area=1002.8766  at (0, -15.0, -18.0)
+20:41:47 PLANE    area= 706.9068  at (0, -15.0, 0.0)
+20:41:47 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+20:41:47 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+20:41:47 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+20:41:47 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+20:41:47 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+20:41:47 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+20:41:47 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+20:41:47 SWEEP    area=  40.3678
+20:41:47 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+20:41:47 PLANE    area=  24.0000  at (0, -13.5, -4.0)
+20:41:47 CYLINDER area=   9.4248  r=  2.0000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+20:41:47 PLANE    area=  24.0000  at (0, -13.5, -8.0)
+20:41:47 CYLINDER area=   9.4248  r=  2.0000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+20:41:47 PLANE    area=  76.5664  at (0, -13.5, -6.0)
+20:41:47 CYLINDER area= 162.4203  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+20:41:47 PLANE    area=  42.9534  at (0, 0, -23.5)
+20:41:47 SPHERE   area=  91.4832  r=  3.2000  at (-0.0, 0, -22.15)
+20:41:47 volume 34680.6404 mm3
+20:43:09 about to click the Front face of the view cube at (1489, 178)
+20:43:10 clicked the Front face of the view cube -> 585-b-done-the-front-face-of-the-view-cube.png
+20:43:13 about to click the tilt arrow below the cube at (1510, 235)
+20:43:13 clicked the tilt arrow below the cube -> 587-b-done-the-tilt-arrow-below-the-cube.png
+20:43:15 about to click the tilt arrow below the cube again at (1510, 235)
+20:43:16 clicked the tilt arrow below the cube again -> 588-b-done-the-tilt-arrow-below-the-cube-again.png
+20:43:50 about to click the tilt arrow below the cube at (1510, 235)
+20:43:51 clicked the tilt arrow below the cube -> 590-b-done-the-tilt-arrow-below-the-cube.png
+20:43:53 about to click the tilt arrow below the cube again at (1510, 235)
+20:43:53 clicked the tilt arrow below the cube again -> 591-b-done-the-tilt-arrow-below-the-cube-again.png
+20:43:55 about to click the View menu at (1563, 232)
+20:43:56 clicked the View menu -> 592-b-done-the-view-menu.png
+20:43:57 about to click Zoom to fit at (1459, 393)
+20:43:58 clicked Zoom to fit -> 593-b-done-zoom-to-fit.png
+20:44:41 about to click the Top face of the view cube at (1509, 150)
+20:44:42 clicked the Top face of the view cube -> 595-b-done-the-top-face-of-the-view-cube.png
+20:44:44 about to click the tilt arrow above the cube at (1510, 96)
+20:44:44 clicked the tilt arrow above the cube -> 597-b-done-the-tilt-arrow-above-the-cube.png
+20:44:46 about to click the tilt arrow above the cube at (1510, 96)
+20:44:47 clicked the tilt arrow above the cube -> 599-b-done-the-tilt-arrow-above-the-cube.png
+20:44:48 about to click the tilt arrow above the cube at (1510, 96)
+20:44:49 clicked the tilt arrow above the cube -> 601-b-done-the-tilt-arrow-above-the-cube.png
+20:44:51 about to click the tilt arrow above the cube at (1510, 96)
+20:44:52 clicked the tilt arrow above the cube -> 603-b-done-the-tilt-arrow-above-the-cube.png
+20:45:54 about to click the Front face of the view cube at (1509, 192)
+20:45:55 clicked the Front face of the view cube -> 605-b-done-the-front-face-of-the-view-cube.png
+20:46:48 about to click the Front face of the view cube at (1509, 192)
+20:46:49 clicked the Front face of the view cube -> 609-b-done-the-front-face-of-the-view-cube.png
+20:46:53 about to click the View menu at (1563, 232)
+20:46:54 clicked the View menu -> 610-b-done-the-view-menu.png
+20:46:55 about to click Zoom to fit at (1459, 393)
+20:46:56 clicked Zoom to fit -> 611-b-done-zoom-to-fit.png
+20:48:14 about to click the collar's rim face at (1027, 502)
+20:48:15 clicked the collar's rim face -> 614-b-done-the-collar-s-rim-face.png
+20:48:17 about to click the Sketch tool at (155, 58)
+20:48:17 clicked the Sketch tool -> 616-b-done-the-sketch-tool.png
+20:48:46 about to click the rectangle group's arrow at (279, 58)
+20:48:47 clicked the rectangle group's arrow -> 618-b-done-the-rectangle-group-s-arrow.png
+20:49:20 about to click Center point rectangle at (336, 130)
+20:49:21 clicked Center point rectangle -> 620-b-done-center-point-rectangle.png
+20:49:23 about to click the origin, as the rectangle's centre at (922, 502)
+20:49:24 clicked the origin, as the rectangle's centre -> 622-b-done-the-origin-as-the-rectangle-s-centre.png
+20:49:24 about to click a corner, out past the collar at (938, 664)
+20:49:25 clicked a corner, out past the collar -> 623-b-done-a-corner-out-past-the-collar.png
+20:50:04 about to click the rectangle's top edge at (922, 341)
+20:50:05 clicked the rectangle's top edge -> 625-b-done-the-rectangle-s-top-edge.png
+20:50:06 about to click where the width dimension sits at (1050, 300)
+20:50:07 clicked where the width dimension sits -> 626-b-done-where-the-width-dimension-sits.png
+20:50:09 slit width: 1.1469 mm -> 0.8
+20:50:09 about to click the rectangle's left edge at (906, 500)
+20:50:10 clicked the rectangle's left edge -> 628-b-done-the-rectangle-s-left-edge.png
+20:50:11 about to click where the length dimension sits at (760, 500)
+20:50:12 clicked where the length dimension sits -> 629-b-done-where-the-length-dimension-sits.png
+20:50:14 slit length: 8.29792 mm -> 12
+20:51:19 about to click the green tick at (424, 93)
+20:51:20 clicked the green tick -> 634-b-done-the-green-tick.png
+20:51:23 about to click the Sketch 1 row, to rename it at (140, 599)
+20:51:24 clicked the Sketch 1 row, to rename it -> 635-b-done-the-sketch-1-row-to-rename-it.png
+20:51:24 about to click Rename in the context menu at (263, 197)
+20:51:25 clicked Rename in the context menu -> 636-b-done-rename-in-the-context-menu.png
+20:51:26 renamed 'Sketch 1' to 'Slit profile'
+20:51:46 about to click the Extrude tool at (219, 58)
+20:51:47 clicked the Extrude tool -> 639-b-done-the-extrude-tool.png
+20:51:49 about to click Remove at (366, 148)
+20:51:50 clicked Remove -> 640-b-done-remove.png
+20:51:52 about to click the slit rectangle at (923, 400)
+20:51:53 clicked the slit rectangle -> 642-b-done-the-slit-rectangle.png
+20:52:36 about to click the View menu at (1563, 232)
+20:52:37 clicked the View menu -> 645-b-done-the-view-menu.png
+20:52:38 about to click Trimetric at (1455, 302)
+20:52:39 clicked Trimetric -> 646-b-done-trimetric.png
+20:53:15 about to click the green tick at (424, 93)
+20:53:16 clicked the green tick -> 648-b-done-the-green-tick.png
+20:53:19 about to click the Extrude 1 row, to rename it at (140, 625)
+20:53:20 clicked the Extrude 1 row, to rename it -> 649-b-done-the-extrude-1-row-to-rename-it.png
+20:53:20 about to click Rename in the context menu at (261, 649)
+20:53:20 clicked Rename in the context menu -> 650-b-done-rename-in-the-context-menu.png
+20:53:22 renamed 'Extrude 1' to 'Slit pair'
+20:53:23 CYLINDER area=  76.8048  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+20:53:23 PLANE    area=  20.0349  at (0, 0, -23.5)
+20:53:23 SPHERE   area=  40.6023  r=  3.2000  at (-0.0, 0, -22.15)
+20:53:23 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+20:53:23 SWEEP    area=  40.3678
+20:53:23 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+20:53:23 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+20:53:23 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+20:53:23 PLANE    area=1010.3875  at (0, -15.0, -18.0)
+20:53:23 PLANE    area= 706.9068  at (0, -15.0, 0.0)
+20:53:23 PLANE    area= 893.4292  at (0, 15.0, 0.0)
+20:53:23 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+20:53:23 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+20:53:23 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+20:53:23 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+20:53:23 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+20:53:23 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+20:53:23 SWEEP    area=  40.3678
+20:53:23 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+20:53:23 PLANE    area=  24.0000  at (0, -13.5, -4.0)
+20:53:23 CYLINDER area=   9.4248  r=  2.0000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+20:53:23 PLANE    area=  24.0000  at (0, -13.5, -8.0)
+20:53:23 CYLINDER area=   9.4248  r=  2.0000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+20:53:23 PLANE    area=  76.5664  at (0, -13.5, -6.0)
+20:53:23 CYLINDER area=  76.8048  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+20:53:23 PLANE    area=  20.0349  at (0, 0, -23.5)
+20:53:23 SPHERE   area=  40.6023  r=  3.2000  at (-0.0, 0, -22.15)
+20:53:23 PLANE    area=  27.3724  at (-0.4, -0.0, -18.0)
+20:53:23 PLANE    area=  27.3724  at (0.4, -0.0, -18.0)
+20:53:23 volume 34658.8149 mm3
+20:54:25 {"btType": "BTExportModelFace-1363", "faceProperties": null, "appearancePropertyNodeId": "", "box": {"btType": "BTBoundingBox-1052", "minCorner": {"btType": "BTVector3d-389", "y": -0.004682947789587238, "x": 0.0003999999999999992, "z": -0.0235}, "maxCorner": {"btType": "BTVector3d-389", "y": 0.004682947789587238, "x": 0.0047, "z": -0.018}}, "area": 7.680484110363404e-05, "orientation": true, "cosmeticThreadMetadata": null, "loops": [{"btType": "BTExportModelLoop-1182", "isOuter": true, "isInner": false, "coedges": [{"btType": "BTExportModelCoedge-1342", "edgeId": "Jdx", "orientation": false}, {"btType": "BTExportModelCoedge-1342", "edgeId": "JdV", "orientation": false}, {"btType": "BTExportModelCoedge-1342", "edgeId": "Jd1", "orientation": false}, {"btType": "BTExportModelCoedge-1342", "edgeId": "Jdd", "orientation": true}]}], "id": "JdS"}
+20:54:40 CYLINDER area=  76.8048  x    0.400..   4.700  y   -4.683..   4.683  z  -23.500.. -18.000
+20:54:40 PLANE    area=  20.0349  x    0.400..   4.700  y   -4.683..   4.683  z  -23.500.. -23.500
+20:54:40 SPHERE   area=  40.6023  x    0.400..   3.200  y   -3.175..   3.175  z  -23.500.. -18.975
+20:54:40 PLANE    area=  54.9779  x  -13.000..  -3.000  y  -16.500.. -16.500  z    2.500..   9.500
+20:54:40 SWEEP    area=  40.3678  x  -13.000..  -3.000  y  -16.500.. -15.000  z    2.500..   9.500
+20:54:40 PLANE    area= 432.0000  x   18.000..  18.000  y  -12.000..  12.000  z  -18.000..   0.000
+20:54:40 CYLINDER area=1357.1680  x  -18.000..  18.000  y  -12.000..  12.000  z   -0.000..  18.000
+20:54:40 PLANE    area= 432.0000  x  -18.000.. -18.000  y  -12.000..  12.000  z  -18.000..  -0.000
+20:54:40 PLANE    area=1010.3875  x  -18.000..  18.000  y  -15.000..  15.000  z  -18.000.. -18.000
+20:54:40 PLANE    area= 706.9068  x  -15.000..  15.000  y  -15.000.. -15.000  z  -18.000..  15.000
+20:54:40 PLANE    area= 893.4292  x  -15.000..  15.000  y   15.000..  15.000  z  -18.000..  15.000
+20:54:40 CYLINDER area=  84.8230  x   15.000..  18.000  y   12.000..  15.000  z  -18.000..   0.000
+20:54:40 TORUS    area= 250.3404  x  -18.000..  18.000  y   12.000..  15.000  z   -0.000..  18.000
+20:54:40 CYLINDER area=  84.8230  x  -18.000.. -15.000  y   12.000..  15.000  z  -18.000..  -0.000
+20:54:40 CYLINDER area=  84.8230  x  -18.000.. -15.000  y  -15.000.. -12.000  z  -18.000..  -0.000
+20:54:40 TORUS    area= 250.3404  x  -18.000..  18.000  y  -15.000.. -12.000  z   -0.000..  18.000
+20:54:40 CYLINDER area=  84.8230  x   15.000..  18.000  y  -15.000.. -12.000  z  -18.000..   0.000
+20:54:40 SWEEP    area=  40.3678  x    3.000..  13.000  y  -16.500.. -15.000  z    2.500..   9.500
+20:54:40 PLANE    area=  54.9779  x    3.000..  13.000  y  -16.500.. -16.500  z    2.500..   9.500
+20:54:40 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -4.000..  -4.000
+20:54:40 CYLINDER area=   9.4248  x  -10.000..  -8.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+20:54:40 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -8.000..  -8.000
+20:54:40 CYLINDER area=   9.4248  x    8.000..  10.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+20:54:40 PLANE    area=  76.5664  x  -10.000..  10.000  y  -13.500.. -13.500  z   -8.000..  -4.000
+20:54:40 CYLINDER area=  76.8048  x   -4.700..  -0.400  y   -4.683..   4.683  z  -23.500.. -18.000
+20:54:40 PLANE    area=  20.0349  x   -4.700..  -0.400  y   -4.683..   4.683  z  -23.500.. -23.500
+20:54:40 SPHERE   area=  40.6023  x   -3.200..  -0.400  y   -3.175..   3.175  z  -23.500.. -18.975
+20:54:40 PLANE    area=  27.3724  x   -0.400..  -0.400  y   -4.683..   4.683  z  -23.500.. -18.000
+20:54:40 PLANE    area=  27.3724  x    0.400..   0.400  y   -4.683..   4.683  z  -23.500.. -18.000
+20:54:40 part box  x -18.000..18.000  y -16.500..15.000  z -23.500..18.000
+20:55:21 about to click the tool search box at (1348, 58)
+20:55:22 clicked the tool search box -> 653-b-done-the-tool-search-box.png
+20:55:24 about to click the Circular pattern result in the search panel at (1120, 159)
+20:55:25 clicked the Circular pattern result in the search panel -> 655-b-done-the-circular-pattern-result-in-the-search-panel.png
+20:56:13 about to click the pattern type dropdown at (343, 121)
+20:56:14 clicked the pattern type dropdown -> 658-b-done-the-pattern-type-dropdown.png
+20:56:15 feature pattern at []
+20:56:49 []
+20:57:44 about to click the pattern type arrow at (430, 121)
+20:57:45 clicked the pattern type arrow -> 661-b-done-the-pattern-type-arrow.png
+20:57:46 feature pattern at [[305, 178]]
+21:02:24 about to click Feature pattern at (305, 178)
+21:02:25 clicked Feature pattern -> 663-b-done-feature-pattern.png
+21:02:26 Slit pair row at [['Slit pair', 140, 604]]
+21:03:00 about to click the Slit pair row, as the feature to pattern at (140, 604)
+21:03:01 clicked the Slit pair row, as the feature to pattern -> 665-b-done-the-slit-pair-row-as-the-feature-to-pattern.png
+21:22:57 [[158, 99, "text", ""]]
+21:24:19 about to click the angle field, reading '360 deg' at (363, 234)
+21:24:20 clicked the angle field, reading '360 deg' -> 668-b-done-the-angle-field-reading-360-deg.png
+21:24:22 angle: 360 deg -> 90 deg
+21:24:22 about to click the instance count field, reading '4' at (387, 260)
+21:24:23 clicked the instance count field, reading '4' -> 669-b-done-the-instance-count-field-reading-4.png
+21:24:25 instance count: 4 -> 2
+21:24:25 about to click the Reapply features box at (306, 341)
+21:24:26 clicked the Reapply features box -> 670-b-done-the-reapply-features-box.png
+21:27:28 about to click the Front face of the view cube at (1494, 180)
+21:27:29 clicked the Front face of the view cube -> 672-b-done-the-front-face-of-the-view-cube.png
+21:27:33 about to click the View menu at (1563, 232)
+21:27:34 clicked the View menu -> 673-b-done-the-view-menu.png
+21:27:35 about to click Zoom to fit at (1459, 393)
+21:27:36 clicked Zoom to fit -> 674-b-done-zoom-to-fit.png
+21:28:13 about to click the Axis of pattern field at (343, 203)
+21:28:14 clicked the Axis of pattern field -> 676-b-done-the-axis-of-pattern-field.png
+21:28:15 about to click the collar's outer rim edge at (796, 543)
+21:28:16 clicked the collar's outer rim edge -> 678-b-done-the-collar-s-outer-rim-edge.png
+21:28:49 about to click the green tick at (424, 93)
+21:28:50 clicked the green tick -> 680-b-done-the-green-tick.png
+21:28:54 about to click the Circular pattern 1 row, to rename it at (140, 630)
+21:28:55 clicked the Circular pattern 1 row, to rename it -> 681-b-done-the-circular-pattern-1-row-to-rename-it.png
+21:28:55 about to click Rename in the context menu at (289, 654)
+21:28:56 clicked Rename in the context menu -> 682-b-done-rename-in-the-context-menu.png
+21:28:57 renamed 'Circular pattern 1' to 'Second slit pair'
+21:29:06 CYLINDER area=  36.1998  x    0.400..   4.683  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=   9.2966  x    0.400..   4.683  y   -4.683..  -0.400  z  -23.500.. -23.500
+21:29:06 SPHERE   area=  17.8924  x    0.400..   3.175  y   -3.175..  -0.400  z  -23.500.. -19.000
+21:29:06 CYLINDER area=  36.1998  x   -4.683..  -0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=   9.2966  x   -4.683..  -0.400  y   -4.683..  -0.400  z  -23.500.. -23.500
+21:29:06 SPHERE   area=  17.8924  x   -3.175..  -0.400  y   -3.175..  -0.400  z  -23.500.. -19.000
+21:29:06 PLANE    area=  13.2928  x   -0.400..  -0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x    0.400..   0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:29:06 CYLINDER area=  36.1998  x    0.400..   4.683  y    0.400..   4.683  z  -23.500.. -18.000
+21:29:06 PLANE    area=   9.2966  x    0.400..   4.683  y    0.400..   4.683  z  -23.500.. -23.500
+21:29:06 SPHERE   area=  17.8924  x    0.400..   3.175  y    0.400..   3.175  z  -23.500.. -19.000
+21:29:06 PLANE    area=  54.9779  x  -13.000..  -3.000  y  -16.500.. -16.500  z    2.500..   9.500
+21:29:06 SWEEP    area=  40.3678  x  -13.000..  -3.000  y  -16.500.. -15.000  z    2.500..   9.500
+21:29:06 PLANE    area= 432.0000  x   18.000..  18.000  y  -12.000..  12.000  z  -18.000..   0.000
+21:29:06 CYLINDER area=1357.1680  x  -18.000..  18.000  y  -12.000..  12.000  z   -0.000..  18.000
+21:29:06 PLANE    area= 432.0000  x  -18.000.. -18.000  y  -12.000..  12.000  z  -18.000..  -0.000
+21:29:06 PLANE    area=1017.2584  x  -18.000..  18.000  y  -15.000..  15.000  z  -18.000.. -18.000
+21:29:06 PLANE    area= 706.9068  x  -15.000..  15.000  y  -15.000.. -15.000  z  -18.000..  15.000
+21:29:06 PLANE    area= 893.4292  x  -15.000..  15.000  y   15.000..  15.000  z  -18.000..  15.000
+21:29:06 CYLINDER area=  84.8230  x   15.000..  18.000  y   12.000..  15.000  z  -18.000..   0.000
+21:29:06 TORUS    area= 250.3404  x  -18.000..  18.000  y   12.000..  15.000  z   -0.000..  18.000
+21:29:06 CYLINDER area=  84.8230  x  -18.000.. -15.000  y   12.000..  15.000  z  -18.000..  -0.000
+21:29:06 CYLINDER area=  84.8230  x  -18.000.. -15.000  y  -15.000.. -12.000  z  -18.000..  -0.000
+21:29:06 TORUS    area= 250.3404  x  -18.000..  18.000  y  -15.000.. -12.000  z   -0.000..  18.000
+21:29:06 CYLINDER area=  84.8230  x   15.000..  18.000  y  -15.000.. -12.000  z  -18.000..   0.000
+21:29:06 SWEEP    area=  40.3678  x    3.000..  13.000  y  -16.500.. -15.000  z    2.500..   9.500
+21:29:06 PLANE    area=  54.9779  x    3.000..  13.000  y  -16.500.. -16.500  z    2.500..   9.500
+21:29:06 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -4.000..  -4.000
+21:29:06 CYLINDER area=   9.4248  x  -10.000..  -8.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+21:29:06 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -8.000..  -8.000
+21:29:06 CYLINDER area=   9.4248  x    8.000..  10.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+21:29:06 PLANE    area=  76.5664  x  -10.000..  10.000  y  -13.500.. -13.500  z   -8.000..  -4.000
+21:29:06 CYLINDER area=  36.1998  x   -4.683..  -0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:29:06 PLANE    area=   9.2966  x   -4.683..  -0.400  y    0.400..   4.683  z  -23.500.. -23.500
+21:29:06 SPHERE   area=  17.8924  x   -3.175..  -0.400  y    0.400..   3.175  z  -23.500.. -19.000
+21:29:06 PLANE    area=  13.2928  x   -0.400..  -0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x    0.400..   0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x    0.400..   4.683  y   -0.400..  -0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x    0.400..   4.683  y    0.400..   0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x   -4.683..  -0.400  y    0.400..   0.400  z  -23.500.. -18.000
+21:29:06 PLANE    area=  13.2928  x   -4.683..  -0.400  y   -0.400..  -0.400  z  -23.500.. -18.000
+21:29:06 part box  x -18.000..18.000  y -16.500..15.000  z -23.500..18.000
+21:29:46 about to click the View menu at (1563, 232)
+21:29:47 clicked the View menu -> 686-b-done-the-view-menu.png
+21:29:48 about to click Zoom to fit at (1459, 393)
+21:29:49 clicked Zoom to fit -> 687-b-done-zoom-to-fit.png
+21:30:22 about to click the tool search box at (1348, 58)
+21:30:23 clicked the tool search box -> 689-b-done-the-tool-search-box.png
+21:30:25 about to click the Shell result in the search panel at (1120, 159)
+21:30:26 clicked the Shell result in the search panel -> 691-b-done-the-shell-result-in-the-search-panel.png
+21:30:30 about to click the back face at (922, 600)
+21:30:31 clicked the back face -> 695-b-done-the-back-face.png
+21:31:03 about to click the shell thickness field, reading '2.5 mm' at (388, 202)
+21:31:04 clicked the shell thickness field, reading '2.5 mm' -> 697-b-done-the-shell-thickness-field-reading-2-5-mm.png
+21:31:06 shell thickness: 2.5 mm -> 1.2 mm
+21:31:39 about to click the green tick at (424, 93)
+21:31:40 clicked the green tick -> 699-b-done-the-green-tick.png
+21:31:44 about to click the Shell 1 row, to rename it at (140, 630)
+21:31:45 clicked the Shell 1 row, to rename it -> 700-b-done-the-shell-1-row-to-rename-it.png
+21:31:45 about to click Rename in the context menu at (261, 654)
+21:31:46 clicked Rename in the context menu -> 701-b-done-rename-in-the-context-menu.png
+21:31:47 renamed 'Shell 1' to 'Head shell'
+21:31:54 CYLINDER area=  36.1998  x    0.400..   4.683  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=   9.2966  x    0.400..   4.683  y   -4.683..  -0.400  z  -23.500.. -23.500
+21:31:54 SPHERE   area=  17.8924  x    0.400..   3.175  y   -3.175..  -0.400  z  -23.500.. -19.000
+21:31:54 CYLINDER area=  36.1998  x   -4.683..  -0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=   9.2966  x   -4.683..  -0.400  y   -4.683..  -0.400  z  -23.500.. -23.500
+21:31:54 SPHERE   area=  17.8924  x   -3.175..  -0.400  y   -3.175..  -0.400  z  -23.500.. -19.000
+21:31:54 PLANE    area=  13.2928  x   -0.400..  -0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x    0.400..   0.400  y   -4.683..  -0.400  z  -23.500.. -18.000
+21:31:54 CYLINDER area=  36.1998  x    0.400..   4.683  y    0.400..   4.683  z  -23.500.. -18.000
+21:31:54 PLANE    area=   9.2966  x    0.400..   4.683  y    0.400..   4.683  z  -23.500.. -23.500
+21:31:54 SPHERE   area=  17.8924  x    0.400..   3.175  y    0.400..   3.175  z  -23.500.. -19.000
+21:31:54 PLANE    area=  54.9779  x  -13.000..  -3.000  y  -16.500.. -16.500  z    2.500..   9.500
+21:31:54 SWEEP    area=  40.3678  x  -13.000..  -3.000  y  -16.500.. -15.000  z    2.500..   9.500
+21:31:54 PLANE    area= 432.0000  x   18.000..  18.000  y  -12.000..  12.000  z  -18.000..   0.000
+21:31:54 CYLINDER area=1357.1680  x  -18.000..  18.000  y  -12.000..  12.000  z   -0.000..  18.000
+21:31:54 PLANE    area= 432.0000  x  -18.000.. -18.000  y  -12.000..  12.000  z  -18.000..  -0.000
+21:31:54 PLANE    area=1017.2584  x  -18.000..  18.000  y  -15.000..  15.000  z  -18.000.. -18.000
+21:31:54 PLANE    area= 706.9068  x  -15.000..  15.000  y  -15.000.. -15.000  z  -18.000..  15.000
+21:31:54 PLANE    area=  36.0000  x  -15.000..  15.000  y   15.000..  15.000  z  -18.000.. -16.800
+21:31:54 CYLINDER area=  84.8230  x   15.000..  18.000  y   12.000..  15.000  z  -18.000..   0.000
+21:31:54 TORUS    area= 250.3404  x  -18.000..  18.000  y   12.000..  15.000  z   -0.000..  18.000
+21:31:54 CYLINDER area=  84.8230  x  -18.000.. -15.000  y   12.000..  15.000  z  -18.000..  -0.000
+21:31:54 CYLINDER area=  84.8230  x  -18.000.. -15.000  y  -15.000.. -12.000  z  -18.000..  -0.000
+21:31:54 TORUS    area= 250.3404  x  -18.000..  18.000  y  -15.000.. -12.000  z   -0.000..  18.000
+21:31:54 CYLINDER area=  84.8230  x   15.000..  18.000  y  -15.000.. -12.000  z  -18.000..   0.000
+21:31:54 SWEEP    area=  40.3678  x    3.000..  13.000  y  -16.500.. -15.000  z    2.500..   9.500
+21:31:54 PLANE    area=  54.9779  x    3.000..  13.000  y  -16.500.. -16.500  z    2.500..   9.500
+21:31:54 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -4.000..  -4.000
+21:31:54 CYLINDER area=   9.4248  x  -10.000..  -8.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+21:31:54 PLANE    area=  24.0000  x   -8.000..   8.000  y  -15.000.. -13.500  z   -8.000..  -8.000
+21:31:54 CYLINDER area=   9.4248  x    8.000..  10.000  y  -15.000.. -13.500  z   -8.000..  -4.000
+21:31:54 PLANE    area=  76.5664  x  -10.000..  10.000  y  -13.500.. -13.500  z   -8.000..  -4.000
+21:31:54 CYLINDER area=  36.1998  x   -4.683..  -0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:31:54 PLANE    area=   9.2966  x   -4.683..  -0.400  y    0.400..   4.683  z  -23.500.. -23.500
+21:31:54 SPHERE   area=  17.8924  x   -3.175..  -0.400  y    0.400..   3.175  z  -23.500.. -19.000
+21:31:54 PLANE    area=  13.2928  x   -0.400..  -0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x    0.400..   0.400  y    0.400..   4.683  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x    0.400..   4.683  y   -0.400..  -0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x    0.400..   4.683  y    0.400..   0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x   -4.683..  -0.400  y    0.400..   0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=  13.2928  x   -4.683..  -0.400  y   -0.400..  -0.400  z  -23.500.. -18.000
+21:31:54 PLANE    area=  20.1600  x   15.000..  15.000  y   13.800..  15.000  z  -16.800..   0.000
+21:31:54 CYLINDER area=  56.5487  x  -15.000..  15.000  y   13.800..  15.000  z   -0.000..  15.000
+21:31:54 PLANE    area=  20.1600  x  -15.000.. -15.000  y   13.800..  15.000  z  -16.800..   0.000
+21:31:54 CYLINDER area=   5.8349  x    1.600..   3.113  y   -3.113..  -1.600  z  -19.483.. -16.800
+21:31:54 SPHERE   area=   1.9710  x    1.600..   3.113  y   -3.113..  -1.600  z  -19.483.. -18.376
+21:31:54 CYLINDER area=   5.8349  x   -3.113..  -1.600  y   -3.113..  -1.600  z  -19.483.. -16.800
+21:31:54 SPHERE   area=   1.9710  x   -3.113..  -1.600  y   -3.113..  -1.600  z  -19.483.. -18.376
+21:31:54 PLANE    area=   3.0863  x   -1.600..  -1.600  y   -3.113..  -1.600  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x    1.600..   1.600  y   -3.113..  -1.600  z  -19.483.. -16.800
+21:31:54 CYLINDER area=   5.8349  x    1.600..   3.113  y    1.600..   3.113  z  -19.483.. -16.800
+21:31:54 SPHERE   area=   1.9710  x    1.600..   3.113  y    1.600..   3.113  z  -19.483.. -18.376
+21:31:54 PLANE    area=  27.2076  x  -12.163..  -3.821  y  -15.300.. -15.300  z    3.337..   8.637
+21:31:54 OTHER    area=  29.0580  x  -12.163..  -3.821  y  -15.300.. -13.800  z    3.337..   8.637
+21:31:54 PLANE    area= 403.2000  x   16.800..  16.800  y  -12.000..  12.000  z  -16.800..   0.000
+21:31:54 CYLINDER area=1266.6902  x  -16.800..  16.800  y  -12.000..  12.000  z   -0.000..  16.800
+21:31:54 PLANE    area= 403.2000  x  -16.800.. -16.800  y  -12.000..  12.000  z  -16.800..  -0.000
+21:31:54 PLANE    area= 955.0409  x  -16.800..  16.800  y  -13.800..  15.000  z  -16.800.. -16.800
+21:31:54 PLANE    area= 668.4441  x  -15.000..  15.000  y  -13.800.. -13.800  z  -16.800..  15.000
+21:31:54 CYLINDER area=  47.5009  x   15.000..  16.800  y   12.000..  13.800  z  -16.800..   0.000
+21:31:54 TORUS    area= 143.4184  x  -16.800..  16.800  y   12.000..  13.800  z   -0.000..  16.800
+21:31:54 CYLINDER area=  47.5009  x  -16.800.. -15.000  y   12.000..  13.800  z  -16.800..   0.000
+21:31:54 CYLINDER area=  47.5009  x  -16.800.. -15.000  y  -13.800.. -12.000  z  -16.800..  -0.000
+21:31:54 TORUS    area= 143.4184  x  -16.800..  16.800  y  -13.800.. -12.000  z   -0.000..  16.800
+21:31:54 CYLINDER area=  47.5009  x   15.000..  16.800  y  -13.800.. -12.000  z  -16.800..   0.000
+21:31:54 OTHER    area=  29.0580  x    3.821..  12.163  y  -15.300.. -13.800  z    3.337..   8.637
+21:31:54 PLANE    area=  27.2076  x    3.821..  12.163  y  -15.300.. -15.300  z    3.337..   8.637
+21:31:54 PLANE    area=  24.0000  x   -8.000..   8.000  y  -13.800.. -12.300  z   -2.800..  -2.800
+21:31:54 CYLINDER area=  15.0796  x  -11.200..  -8.000  y  -13.800.. -12.300  z   -9.200..  -2.800
+21:31:54 PLANE    area=  24.0000  x   -8.000..   8.000  y  -13.800.. -12.300  z   -9.200..  -9.200
+21:31:54 CYLINDER area=  15.0796  x    8.000..  11.200  y  -13.800.. -12.300  z   -9.200..  -2.800
+21:31:54 PLANE    area= 134.5699  x  -11.200..  11.200  y  -12.300.. -12.300  z   -9.200..  -2.800
+21:31:54 CYLINDER area=   5.8349  x   -3.113..  -1.600  y    1.600..   3.113  z  -19.483.. -16.800
+21:31:54 SPHERE   area=   1.9710  x   -3.113..  -1.600  y    1.600..   3.113  z  -19.483.. -18.376
+21:31:54 PLANE    area=   3.0863  x   -1.600..  -1.600  y    1.600..   3.113  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x    1.600..   1.600  y    1.600..   3.113  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x    1.600..   3.113  y   -1.600..  -1.600  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x    1.600..   3.113  y    1.600..   1.600  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x   -3.113..  -1.600  y    1.600..   1.600  z  -19.483.. -16.800
+21:31:54 PLANE    area=   3.0863  x   -3.113..  -1.600  y   -1.600..  -1.600  z  -19.483.. -16.800
+21:31:54 part box  x -18.000..18.000  y -16.500..15.000  z -23.500..18.000
+21:32:15 CYLINDER area=  36.1998  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 PLANE    area=   9.2966  at (0, 0, -23.5)
+21:32:15 SPHERE   area=  17.8924  r=  3.2000  at (-0.0, 0, -22.15)
+21:32:15 CYLINDER area=  36.1998  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 PLANE    area=   9.2966  at (0, 0, -23.5)
+21:32:15 SPHERE   area=  17.8924  r=  3.2000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=  13.2928  at (-0.4, -0.0, -18.0)
+21:32:15 PLANE    area=  13.2928  at (0.4, -0.0, -18.0)
+21:32:15 CYLINDER area=  36.1998  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 PLANE    area=   9.2966  at (0, 0, -23.5)
+21:32:15 SPHERE   area=  17.8924  r=  3.2000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=  54.9779  at (-8.0, -16.5, 6.0)
+21:32:15 SWEEP    area=  40.3678
+21:32:15 PLANE    area= 432.0000  at (18.0, -15.0, -9.0)
+21:32:15 CYLINDER area=1357.1680  r= 18.0000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+21:32:15 PLANE    area= 432.0000  at (-18.0, -15.0, -9.0)
+21:32:15 PLANE    area=1017.2584  at (0, -15.0, -18.0)
+21:32:15 PLANE    area= 706.9068  at (0, -15.0, 0.0)
+21:32:15 PLANE    area=  36.0000  at (0, 15.0, 0.0)
+21:32:15 CYLINDER area=  84.8230  r=  3.0000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+21:32:15 TORUS    area= 250.3404  minor= 3.0000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+21:32:15 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+21:32:15 CYLINDER area=  84.8230  r=  3.0000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+21:32:15 TORUS    area= 250.3404  minor= 3.0000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+21:32:15 CYLINDER area=  84.8230  r=  3.0000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+21:32:15 SWEEP    area=  40.3678
+21:32:15 PLANE    area=  54.9779  at (8.0, -16.5, 6.0)
+21:32:15 PLANE    area=  24.0000  at (0, -13.5, -4.0)
+21:32:15 CYLINDER area=   9.4248  r=  2.0000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+21:32:15 PLANE    area=  24.0000  at (0, -13.5, -8.0)
+21:32:15 CYLINDER area=   9.4248  r=  2.0000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+21:32:15 PLANE    area=  76.5664  at (0, -13.5, -6.0)
+21:32:15 CYLINDER area=  36.1998  r=  4.7000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 PLANE    area=   9.2966  at (0, 0, -23.5)
+21:32:15 SPHERE   area=  17.8924  r=  3.2000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=  13.2928  at (-0.4, -0.0, -18.0)
+21:32:15 PLANE    area=  13.2928  at (0.4, -0.0, -18.0)
+21:32:15 PLANE    area=  13.2928  at (-0.0, -0.4, -18.0)
+21:32:15 PLANE    area=  13.2928  at (-0.0, 0.4, -18.0)
+21:32:15 PLANE    area=  13.2928  at (-0.0, 0.4, -18.0)
+21:32:15 PLANE    area=  13.2928  at (-0.0, -0.4, -18.0)
+21:32:15 PLANE    area=  20.1600  at (15.0, 15.0, 0.0)
+21:32:15 CYLINDER area=  56.5487  r= 15.0000  at (0, 15.0, 0.0)  axis (0.000, -1.000, 0.000)
+21:32:15 PLANE    area=  20.1600  at (-15.0, 15.0, 0.0)
+21:32:15 CYLINDER area=   5.8349  r=  3.5000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 SPHERE   area=   1.9710  r=  4.4000  at (-0.0, 0, -22.15)
+21:32:15 CYLINDER area=   5.8349  r=  3.5000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 SPHERE   area=   1.9710  r=  4.4000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=   3.0863  at (-1.6, -0.0, -18.0)
+21:32:15 PLANE    area=   3.0863  at (1.6, -0.0, -18.0)
+21:32:15 CYLINDER area=   5.8349  r=  3.5000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 SPHERE   area=   1.9710  r=  4.4000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=  27.2076  at (-8.0, -15.3, 6.0)
+21:32:15 OTHER    area=  29.0580
+21:32:15 PLANE    area= 403.2000  at (16.8, -15.0, -9.0)
+21:32:15 CYLINDER area=1266.6902  r= 16.8000  at (0, -15.0, 0.0)  axis (0.000, 1.000, 0.000)
+21:32:15 PLANE    area= 403.2000  at (-16.8, -15.0, -9.0)
+21:32:15 PLANE    area= 955.0409  at (0, -15.0, -16.8)
+21:32:15 PLANE    area= 668.4441  at (0, -13.8, 0.0)
+21:32:15 CYLINDER area=  47.5009  r=  1.8000  at (15.0, 12.0, -9.0)  axis (0.000, 0.000, 1.000)
+21:32:15 TORUS    area= 143.4184  minor= 1.8000  at (0, 12.0, 0.0)  axis (0.000, -1.000, 0.000)
+21:32:15 CYLINDER area=  47.5009  r=  1.8000  at (-15.0, 12.0, -9.0)  axis (0.000, 0.000, -1.000)
+21:32:15 CYLINDER area=  47.5009  r=  1.8000  at (-15.0, -12.0, 0.0)  axis (0.000, 0.000, 1.000)
+21:32:15 TORUS    area= 143.4184  minor= 1.8000  at (0, -12.0, 0.0)  axis (0.000, -1.000, 0.000)
+21:32:15 CYLINDER area=  47.5009  r=  1.8000  at (15.0, -12.0, 0.0)  axis (0.000, 0.000, -1.000)
+21:32:15 OTHER    area=  29.0580
+21:32:15 PLANE    area=  27.2076  at (8.0, -15.3, 6.0)
+21:32:15 PLANE    area=  24.0000  at (0.0, -13.5, -2.8)
+21:32:15 CYLINDER area=  15.0796  r=  3.2000  at (-8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+21:32:15 PLANE    area=  24.0000  at (-0.0, -13.5, -9.2)
+21:32:15 CYLINDER area=  15.0796  r=  3.2000  at (8.0, -13.5, -6.0)  axis (0.000, -1.000, 0.000)
+21:32:15 PLANE    area= 134.5699  at (0, -12.3, -6.0)
+21:32:15 CYLINDER area=   5.8349  r=  3.5000  at (0, -0.0, -23.5)  axis (0.000, 0.000, 1.000)
+21:32:15 SPHERE   area=   1.9710  r=  4.4000  at (-0.0, 0, -22.15)
+21:32:15 PLANE    area=   3.0863  at (-1.6, -0.0, -18.0)
+21:32:15 PLANE    area=   3.0863  at (1.6, -0.0, -18.0)
+21:32:15 PLANE    area=   3.0863  at (-0.0, -1.6, -18.0)
+21:32:15 PLANE    area=   3.0863  at (-0.0, 1.6, -18.0)
+21:32:15 PLANE    area=   3.0863  at (-0.0, 1.6, -18.0)
+21:32:15 PLANE    area=   3.0863  at (-0.0, -1.6, -18.0)
+21:32:16 volume 6019.0314 mm3
+21:33:44 about to click the View menu at (1563, 232)
+21:33:44 clicked the View menu -> 704-b-done-the-view-menu.png
+21:33:45 about to click Isometric at (1455, 258)
+21:33:46 clicked Isometric -> 705-b-done-isometric.png
+21:33:48 about to click the View menu at (1563, 232)
+21:33:49 clicked the View menu -> 706-b-done-the-view-menu.png
+21:33:50 about to click Zoom to fit at (1459, 393)
+21:33:50 clicked Zoom to fit -> 707-b-done-zoom-to-fit.png

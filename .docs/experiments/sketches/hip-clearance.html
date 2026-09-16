@@ -1,0 +1,166 @@
+<title>The hip joint reaches its limit without touching anything</title>
+<style>
+:root {
+  --ground:#EDECE8; --surface:#FDFDFC; --ink:#191B1D; --muted:#62676B; --line:#D6D3CC;
+  --fixed:#B3AFA4; --fixed-ink:#8E897C; --moving:#8DA3B0; --moving-ink:#5C7383;
+  --stud:#3F4F59; --dim:#A93B26; --good:#2C6B50;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:#121416; --surface:#1B1E21; --ink:#E8E6E1; --muted:#969BA0; --line:#2C3033;
+    --fixed:#5F5B53; --fixed-ink:#8A8478; --moving:#4C6273; --moving-ink:#8BA6B8;
+    --stud:#9DB2BE; --dim:#DE7259; --good:#5FA582;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:#121416; --surface:#1B1E21; --ink:#E8E6E1; --muted:#969BA0; --line:#2C3033;
+  --fixed:#5F5B53; --fixed-ink:#8A8478; --moving:#4C6273; --moving-ink:#8BA6B8;
+  --stud:#9DB2BE; --dim:#DE7259; --good:#5FA582;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0; background:var(--ground); color:var(--ink);
+  font:400 16px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.num { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-variant-numeric:tabular-nums; }
+.wrap { max-width:1000px; margin:0 auto; padding:48px 24px 72px; display:flex; flex-direction:column; gap:38px; }
+header { display:flex; flex-direction:column; gap:14px; max-width:64ch; }
+.eyebrow { font-size:11px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+h1 { margin:0; font-size:clamp(26px,3.4vw,38px); line-height:1.12; letter-spacing:-.022em; font-weight:650; text-wrap:balance; }
+header p { margin:0; color:var(--muted); font-size:16.5px; }
+header p strong { color:var(--ink); font-weight:600; }
+.main { display:grid; grid-template-columns:minmax(240px,320px) 1fr; gap:32px; align-items:start; }
+@media (max-width:720px) { .main { grid-template-columns:1fr; } }
+figure { margin:0; background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:18px; }
+figure svg { width:100%; height:auto; display:block; }
+.side { display:flex; flex-direction:column; gap:22px; }
+.side h3 { margin:0 0 8px; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+.side p { margin:0 0 10px; font-size:15px; max-width:62ch; }
+.side p:last-child { margin-bottom:0; }
+.verdict { display:flex; align-items:baseline; gap:10px; }
+.verdict .num { font-size:30px; font-weight:600; letter-spacing:-.02em; color:var(--good); }
+.verdict span.lbl { font-size:12.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); }
+.eq {
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:13.5px; line-height:1.9;
+  background:var(--surface); border:1px solid var(--line); border-left:2px solid var(--dim);
+  padding:14px 16px; overflow-x:auto; white-space:pre; border-radius:2px;
+}
+.legend { list-style:none; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:7px 18px; font-size:12.5px; color:var(--muted); }
+.legend li { display:flex; align-items:center; gap:7px; }
+.sw { width:20px; height:10px; flex:none; border-radius:1px; }
+.sw-fixed { background:var(--fixed); border:1px solid var(--fixed-ink); opacity:.75; }
+.sw-thigh { background:var(--moving); border:1px solid var(--moving-ink); opacity:.7; }
+.sw-tilt { height:0; border-top:2px dashed var(--moving-ink); }
+.sw-stud { background:var(--stud); }
+.sw-sweep { height:0; border-top:2px dotted var(--moving-ink); opacity:.7; }
+/* drawing */
+.fixed { fill:var(--fixed); opacity:.55; }
+.edge { fill:none; stroke:var(--fixed-ink); stroke-width:1.2; }
+.thigh { fill:var(--moving); fill-opacity:.5; stroke:var(--moving-ink); stroke-width:1.3; }
+.thigh-tilt { fill:none; stroke:var(--moving-ink); stroke-width:1.2; stroke-dasharray:5 3; opacity:.85; }
+.stud { fill:var(--stud); stroke:var(--stud); stroke-width:1; }
+.sweep { fill:none; stroke:var(--moving-ink); stroke-width:.8; stroke-dasharray:2 4; opacity:.5; }
+.swing { fill:none; stroke:var(--dim); stroke-width:1.2; }
+.axis { stroke:var(--muted); stroke-width:.8; stroke-dasharray:9 3 2 3; opacity:.6; }
+.datum { stroke:var(--dim); stroke-width:.9; stroke-dasharray:6 3; opacity:.75; }
+.node { fill:var(--dim); }
+.dim line { stroke:var(--dim); stroke-width:1.2; }
+.dim text, text.tick { fill:var(--dim); }
+.dim text { font-size:15px; font-weight:600; }
+text.tick { font-size:10.5px; letter-spacing:.06em; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; opacity:.85; }
+.tablewrap { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+caption { text-align:left; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; padding-bottom:10px; }
+th, td { text-align:left; padding:8px 14px 8px 0; border-bottom:1px solid var(--line); vertical-align:baseline; }
+th { font-weight:600; font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); }
+td.n { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-variant-numeric:tabular-nums; text-align:right; padding-right:22px; }
+tbody tr:last-child td { border-bottom:none; }
+footer { font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Hip joint &middot; section on the ball center &middot; &Oslash;6 stalk, 10 mm to the torso&rsquo;s underside</span>
+    <h1>The hip reaches its full travel without touching the torso.</h1>
+    <p>The thigh swings until the stalk meets the socket&rsquo;s mouth, at
+    <span class="num">41.76&deg;</span> either way. Nothing outside the socket gets in the way:
+    at that limit the collar&rsquo;s rim is still <span class="num">2.554</span> mm below the
+    torso. <strong>The travel is set by the joint&rsquo;s own internals, which is what the design
+    intends.</strong> No pedestal, no longer stalk, no change.</p>
+  </header>
+
+  <div class="main">
+    <figure>
+      <svg viewBox="-24 0 368 430" role="img" aria-labelledby="ta"><rect class="fixed" x="0.00" y="22.00" width="320.00" height="128.00"/><rect class="edge" x="0.00" y="22.00" width="320.00" height="128.00"/><path class="thigh-tilt" d="M -28.83 297.34 L 40.44 219.77 L 58.34 235.75 L 116.67 170.43 L 136.00 187.69 L 133.81 189.02 L 131.68 190.45 L 129.64 192.00 L 127.68 193.65 L 125.81 195.40 L 124.04 197.25 L 122.36 199.19 L 120.79 201.21 L 119.33 203.32 L 117.98 205.50 L 116.75 207.74 L 115.64 210.05 L 114.65 212.42 L 113.79 214.83 L 113.05 217.28 L 112.45 219.77 L 111.97 222.29 L 111.64 224.83 L 111.43 227.39 L 111.36 229.95 L 111.42 232.51 L 111.62 235.06 L 111.96 237.60 L 112.43 240.12 L 113.02 242.62 L 113.75 245.07 L 114.61 247.49 L 115.60 249.85 L 116.70 252.16 L 117.93 254.41 L 119.27 256.59 L 120.73 258.70 L 122.30 260.73 L 123.97 262.67 L 125.74 264.52 L 127.60 266.28 L 129.56 267.94 L 131.60 269.49 L 133.72 270.93 L 135.91 272.26 L 138.17 273.47 L 140.49 274.55 L 142.86 275.52 L 145.28 276.36 L 147.74 277.07 L 150.24 277.65 L 152.76 278.10 L 155.31 278.41 L 157.86 278.59 L 160.42 278.64 L 162.98 278.55 L 165.54 278.32 L 168.07 277.97 L 170.59 277.47 L 173.07 276.85 L 175.52 276.10 L 177.93 275.22 L 180.28 274.21 L 182.58 273.08 L 184.82 271.83 L 186.99 270.46 L 189.08 268.99 L 191.10 267.40 L 193.02 265.71 L 194.86 263.92 L 196.60 262.04 L 198.23 260.07 L 199.76 258.01 L 201.18 255.88 L 202.49 253.68 L 203.68 251.41 L 204.74 249.08 L 224.08 266.34 L 165.75 331.66 L 183.65 347.65 L 114.38 425.22 Z"/><path class="thigh" d="M 64.00 406.00 L 64.00 302.00 L 88.00 302.00 L 88.00 214.43 L 113.92 214.43 L 113.16 216.88 L 112.54 219.36 L 112.04 221.88 L 111.68 224.41 L 111.45 226.96 L 111.36 229.52 L 111.40 232.09 L 111.58 234.64 L 111.89 237.19 L 112.34 239.71 L 112.92 242.21 L 113.62 244.67 L 114.46 247.09 L 115.42 249.46 L 116.51 251.79 L 117.72 254.05 L 119.04 256.24 L 120.48 258.36 L 122.03 260.40 L 123.68 262.36 L 125.44 264.23 L 127.29 266.00 L 129.23 267.67 L 131.26 269.24 L 133.36 270.70 L 135.54 272.04 L 137.79 273.27 L 140.10 274.38 L 142.47 275.37 L 144.88 276.23 L 147.33 276.96 L 149.83 277.56 L 152.34 278.03 L 154.88 278.37 L 157.44 278.57 L 160.00 278.64 L 162.56 278.57 L 165.12 278.37 L 167.66 278.03 L 170.17 277.56 L 172.67 276.96 L 175.12 276.23 L 177.53 275.37 L 179.90 274.38 L 182.21 273.27 L 184.46 272.04 L 186.64 270.70 L 188.74 269.24 L 190.77 267.67 L 192.71 266.00 L 194.56 264.23 L 196.32 262.36 L 197.97 260.40 L 199.52 258.36 L 200.96 256.24 L 202.28 254.05 L 203.49 251.79 L 204.58 249.46 L 205.54 247.09 L 206.38 244.67 L 207.08 242.21 L 207.66 239.71 L 208.11 237.19 L 208.42 234.64 L 208.60 232.09 L 208.64 229.52 L 208.55 226.96 L 208.32 224.41 L 207.96 221.88 L 207.46 219.36 L 206.84 216.88 L 206.08 214.43 L 232.00 214.43 L 232.00 302.00 L 256.00 302.00 L 256.00 406.00 Z"/><path class="stud" d="M 136.00 150.00 L 136.00 188.43 L 132.47 190.68 L 129.15 193.23 L 126.06 196.06 L 123.23 199.15 L 120.68 202.47 L 118.43 206.00 L 116.50 209.71 L 114.89 213.58 L 113.64 217.58 L 112.73 221.66 L 112.18 225.82 L 112.00 230.00 L 112.18 234.18 L 112.73 238.34 L 113.64 242.42 L 114.89 246.42 L 116.50 250.29 L 118.43 254.00 L 120.68 257.53 L 123.23 260.85 L 126.06 263.94 L 129.15 266.77 L 132.47 269.32 L 136.00 271.57 L 139.71 273.50 L 143.58 275.11 L 147.58 276.36 L 151.66 277.27 L 155.82 277.82 L 160.00 278.00 L 164.18 277.82 L 168.34 277.27 L 172.42 276.36 L 176.42 275.11 L 180.29 273.50 L 184.00 271.57 L 187.53 269.32 L 190.85 266.77 L 193.94 263.94 L 196.77 260.85 L 199.32 257.53 L 201.57 254.00 L 203.50 250.29 L 205.11 246.42 L 206.36 242.42 L 207.27 238.34 L 207.82 234.18 L 208.00 230.00 L 207.82 225.82 L 207.27 221.66 L 206.36 217.58 L 205.11 213.58 L 203.50 209.71 L 201.57 206.00 L 199.32 202.47 L 196.77 199.15 L 193.94 196.06 L 190.85 193.23 L 187.53 190.68 L 184.00 188.43 L 184.00 150.00 Z"/><circle class="sweep" cx="160.00" cy="230.00" r="73.66"/><line class="axis" x1="160.00" y1="134.00" x2="160.00" y2="406.00"/><line class="datum" x1="0.00" y1="170.43" x2="320.00" y2="170.43"/><text class="tick" x="318.00" y="165.43" text-anchor="end">rim at 41.8°</text><circle class="node" cx="116.67" cy="170.43" r="3.2"/>
+      <g class="dim">
+        <line x1="116.67" y1="150.00" x2="116.67" y2="170.43"/>
+        <line x1="111.67" y1="150.00" x2="121.67" y2="150.00"/>
+        <line x1="111.67" y1="170.43" x2="121.67" y2="170.43"/>
+        <text class="num" x="107.67" y="164.21" text-anchor="end">2.554</text>
+      </g><line class="axis" x1="124.80" y1="230.00" x2="195.20" y2="230.00"/><text class="tick" x="233.60" y="177.00">stalk 10</text><path class="swing" d="M 160.00 374.00 A 144.00 144.00 0 0 1 64.09 337.41"/><text class="tick" x="96.00" y="367.60" text-anchor="middle">41.76&deg;</text></svg>
+      <ul class="legend">
+        <li><span class="sw sw-fixed"></span>torso &mdash; fixed</li>
+        <li><span class="sw sw-thigh"></span>thigh, hanging straight</li>
+        <li><span class="sw sw-tilt"></span>thigh at the limit</li>
+        <li><span class="sw sw-stud"></span>ball and stalk</li>
+        <li><span class="sw sw-sweep"></span>sphere the rim sweeps</li>
+      </ul>
+    </figure>
+
+    <div class="side">
+      <div>
+        <div class="verdict"><span class="num">&plusmn;41.76&deg;</span><span class="lbl">both axes, unobstructed</span></div>
+      </div>
+      <div>
+        <h3>What limits it</h3>
+        <p>Two things touch inside the socket, and neither is the torso. The stalk runs into the
+        mouth&rsquo;s edge, and how soon it gets there is set by <span class="num">#grip</span> &mdash;
+        the 1.9465 mm the ball center sits inside the collar&rsquo;s face. The mouth is held at 96%
+        of the ball whatever the fit is, so retention is fixed and the swing is what a tighter fit
+        buys: at <span class="num">#fit</span> 0.8 this drawing showed 28.0&deg;.</p>
+      </div>
+      <div>
+        <h3>The 2.554 is air, not interference</h3>
+        <p>The stud belongs to the torso and the collar belongs to the thigh. They are printed as
+        separate objects and snapped together, so the gap between them is not a feature any slicer
+        ever sees. At a 0.4 mm nozzle it is 6.4 extrusion widths of nothing.</p>
+        <p>It is recorded here only as the proof that the collar clears &mdash; not as a number to
+        improve.</p>
+      </div>
+      <div>
+        <h3>The arithmetic</h3>
+        <div class="eq">&theta;max = arccos(stalkR / cavR) &minus; arcsin(grip / cavR)
+     = arccos(3 / 6.08) &minus; arcsin(1.94648 / 6.08)
+     = 60.434&deg; &minus; 18.672&deg;  =  41.763&deg;
+
+rim high = 1.94648&middot;cos&theta; + 9&middot;sin&theta;  = 7.446
+rim out  = 9&middot;cos&theta; &minus; 1.94648&middot;sin&theta;  = 5.417
+air      = 10 &minus; 7.446          = 2.554</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tablewrap">
+    <table>
+      <caption>Numbers in the drawing, ball center at the origin</caption>
+      <thead><tr><th>Feature</th><th>Value</th><th>Where it comes from</th></tr></thead>
+      <tbody>
+        <tr><td>ball diameter</td><td class="n">12.000</td><td>joint design</td></tr>
+        <tr><td>cavity radius</td><td class="n">6.080</td><td>ball radius + <span class="num">#fit</span> 0.08</td></tr>
+        <tr><td>stalk radius</td><td class="n">3.000</td><td>joint design</td></tr>
+        <tr><td>collar outer radius</td><td class="n">9.000</td><td>ball radius 6 + <span class="num">#wall</span> 3, with the fit left out</td></tr>
+        <tr><td>mouth radius</td><td class="n">5.760</td><td>96% of the ball, on the radius &mdash; the dimension the rest follows</td></tr>
+        <tr><td><span class="num">#grip</span></td><td class="n">1.946</td><td>&radic;(cavity&sup2; &minus; mouth&sup2;) &mdash; derived, not typed</td></tr>
+        <tr><td>rim sweep radius</td><td class="n">9.208</td><td>&radic;(9&sup2; + 1.94648&sup2;)</td></tr>
+        <tr><td>travel limit</td><td class="n">41.763&deg;</td><td>stalk against the mouth</td></tr>
+        <tr><td>ball below the torso</td><td class="n">10.000</td><td>chosen so the swept rim, at 9.208, always clears</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>Drawn from the joint&rsquo;s own numbers, not measured off a model. Redrawn for draft9p1,
+  where <span class="num">#fit</span> went to 0.08 and <span class="num">#grip</span> stopped being
+  typed &mdash; the swing is 41.76&deg; here against the 31.86&deg; the same drawing showed at
+  <span class="num">#fit</span> 0.8, and 37.09&deg; at half the robot&rsquo;s size.</footer>
+</div>

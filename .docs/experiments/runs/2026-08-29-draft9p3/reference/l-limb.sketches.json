@@ -1,0 +1,33 @@
+{
+ "sketches": [
+  {
+   "sketch": "limb section",
+   "featureId": "FFguzeinT4UmfeC_1",
+   "featuresUsed": [
+    "limb"
+   ],
+   "geomEntities": [
+    {
+     "id": "yhUXVF07MGLA",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012
+    },
+    {
+     "id": "yhUXVF07MGLA.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  }
+ ]
+}

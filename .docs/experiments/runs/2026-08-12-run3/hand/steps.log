@@ -1,0 +1,971 @@
+00:16:10  ABOUT TO: create my own page and stamp it HAND_RUN3_UK3WMB
+00:16:10  RESULT: page created and stamped. total pages in ctx = 12
+00:16:10  ABOUT TO: goto onshape documents list
+00:16:16  RESULT: sessioninfo status=200 body[:200]={
+  "jsonType" : "BTUserOAuth2SummaryInfo",
+  "oauth2Scopes" : 0,
+  "roles" : [ "USER" ],
+  "companyPlan" : true,
+  "clientId" : null,
+  "role" : 5,
+  "planGroup" : "EDU Educator",
+  "source" : 1,
+  "
+00:16:16  RESULT: url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392 title=Spires Robotics | Documents
+00:16:29  ABOUT TO: click visible Create button
+00:16:29  RESULT: Create button bbox={'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+00:16:30  ABOUT TO: click Document... by coordinate (65, 100.5)
+00:16:33  RESULT: dialog visible=1
+00:16:33  RESULT: name field now = 'hand-run3'
+00:16:41  RESULT: url after create = https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19df
+00:16:59  ABOUT TO: open document hamburger menu at (155,20)
+00:17:01  RESULT: 'Workspace units' matches = 1
+00:17:01     [0] visible=True bbox={'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27}
+00:17:13  ABOUT TO: reopen doc menu and click 'Workspace units...'
+00:17:59  menu currently open? False
+00:18:01  after opening: True
+00:18:01  ABOUT TO: click Workspace units... at (252,236)
+00:18:03  RESULT: visible dialogs = 2
+00:18:03  RESULT: visible selects = 22
+00:18:03     select[0] value='2: inch' bbox={'x': 257, 'y': 166.59375, 'width': 209, 'height': 26} opts=['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard']
+00:18:03     select[1] value='3: 3' bbox={'x': 475, 'y': 166.59375, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:18:03     select[2] value='1: inchPerSecondSquared' bbox={'x': 257, 'y': 225.59375, 'width': 209, 'height': 26} opts=['Foot per second squared', 'Inch per second squared', 'Meter per second squared', 'Millimeter per second squared']
+00:18:03     select[3] value='3: 3' bbox={'x': 475, 'y': 225.59375, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:18:03     select[4] value='0: degree' bbox={'x': 257, 'y': 321.1875, 'width': 209, 'height': 26} opts=['Degree', 'Radian']
+00:18:03     select[5] value='3: 3' bbox={'x': 475, 'y': 321.1875, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:18:03     select[6] value='0: degreePerSecond' bbox={'x': 257, 'y': 380.1875, 'width': 209, 'height': 26} opts=['Degree per second', 'Radian per second', 'Revolutions per minute']
+00:18:03     select[7] value='3: 3' bbox={'x': 475, 'y': 380.1875, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+00:18:03     select[8] value='3: pound' bbox={'x': 257, 'y': 475.78125, 'width': 209, 'height': 26} opts=['Gram', 'Kilogram', 'Ounce', 'Pound']
+00:18:03     select[9] value='3: 3' bbox={'x': 475, 'y': 475.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567']
+00:18:03     select[10] value='5: poundPerCubicInch' bbox={'x': 257, 'y': 534.78125, 'width': 209, 'height': 26} opts=['Gram per cubic centimeter', 'Gram per liter', 'Gram per milliliter', 'Kilogram per cubic meter', 'Pound per cubic foot', 'Pound per cubic inch']
+00:18:03     select[11] value='3: 3' bbox={'x': 475, 'y': 534.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:18:03     select[12] value='2: poundForce' bbox={'x': 257, 'y': 593.78125, 'width': 209, 'height': 26} opts=['Kilonewton', 'Newton', 'Pound-force']
+00:18:03     select[13] value='3: 3' bbox={'x': 475, 'y': 593.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:18:03     select[14] value='0: hertz' bbox={'x': 257, 'y': 652.78125, 'width': 209, 'height': 26} opts=['Hertz']
+00:18:03     select[15] value='3: 3' bbox={'x': 475, 'y': 652.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:18:03     select[16] value='1: inchPound' bbox={'x': 257, 'y': 711.78125, 'width': 209, 'height': 26} opts=['Foot-pound', 'Inch-pound', 'Newton-meter', 'Newton-millimeter']
+00:18:03     select[17] value='3: 3' bbox={'x': 475, 'y': 711.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567']
+00:18:03     select[18] value='5: poundPerSquareInch' bbox={'x': 257, 'y': 770.78125, 'width': 209, 'height': 26} opts=['Gigapascal', 'Kilopascal', 'Kilopound per square inch', 'Megapascal', 'Pascal', 'Pound per square inch']
+00:18:03     select[19] value='3: 3' bbox={'x': 475, 'y': 770.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:18:03     select[20] value='0: footPoundForce' bbox={'x': 257, 'y': 829.78125, 'width': 209, 'height': 26} opts=['Foot-pound force', 'Joule']
+00:18:03     select[21] value='3: 3' bbox={'x': 475, 'y': 829.78125, 'width': 99, 'height': 26} opts=['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678']
+00:18:17  selects visible = 22 ; [0]='2: inch' [1]='3: 3'
+00:18:17  ABOUT TO: set length unit Millimeter and decimals 0.12345
+00:18:18  RESULT: [0]='4: millimeter' [1]='5: 5'
+00:18:38  ABOUT TO: accept Workspace units with the green tick at (543,93)
+00:18:39  RESULT: units dialog accepted (screenshot 05-b)
+00:18:39  ABOUT TO: click Sketch button at (155,58), then pick Right plane in the tree
+00:18:43  RESULT: sketch opened on Right (see 06-b)
+00:19:21  ABOUT TO: click empty canvas then press 'n' (view normal to)
+00:19:24  RESULT: pressed n, screenshot 06-x taken -- check the view cube
+00:19:51  ABOUT TO: right-click a plane and choose 'Hide all planes'
+00:19:53  RESULT: 'Hide all planes' matches=1
+00:19:53     [0] vis=True bbox={'x': 1036, 'y': 472, 'width': 151, 'height': 18}
+00:20:04  ABOUT TO: right-click plane -> Hide all planes (one call, flyouts do not survive)
+00:20:07  ABOUT TO: press Escape to clear selection, then 'n' for normal-to-sketch-plane
+00:20:10  RESULT: screenshot 06-x-view-normal-to-right2.png
+00:20:40  ABOUT TO: draw outer circle, centre snapped on the vertical (Z) axis at (922,700)
+00:20:46  RESULT: outer circle drawn (07-a)
+00:20:46  ABOUT TO: draw inner circle at a separate centre (960,690) r~40px
+00:20:52  RESULT: two circles drawn (07-b)
+00:21:15  ABOUT TO: select both circles and apply Concentric (shift+o)
+00:21:21  RESULT: concentric applied -- see 08-b
+00:21:45  ABOUT TO: dimension the OUTER circle diameter
+00:21:49  RESULT: visible inputs = 2
+00:21:49     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:21:49     input[1] value='59.61249 mm' bbox={'x': 692, 'y': 431.5, 'width': 100, 'height': 26}
+00:21:49  RESULT: PREFILLED dimension value = '59.61249 mm'  (calibration: 108 px radius)
+00:21:49  RESULT: read back before Enter = '10'
+00:21:51  RESULT: outer diameter dimensioned; screenshot 09-b
+00:22:23  ABOUT TO: zoom in 22 wheel notches centred on the origin (922,522)
+00:22:29  RESULT: zoomed; screenshot 09-x-zoomed.png
+00:22:59  ABOUT TO: dimension origin (924,526) to clip centre (924,632) = 7 mm
+00:23:04  RESULT: PREFILLED = '8.2093 mm'
+00:23:04  RESULT: read back = '7'
+00:23:06  RESULT: 7 mm dimension placed; see 10-b
+00:23:31  ABOUT TO: dimension the BORE circle to 3.3 (decision: 3.3, not 3.4 -- see notes)
+00:23:35  RESULT: PREFILLED = '3.72093 mm'
+00:23:35  RESULT: read back = '3.3'
+00:23:37  RESULT: bore dimensioned; see 11-b
+00:24:32  ABOUT TO: zoom 12 more notches centred on the clip centre (924,616)
+00:24:35  RESULT: zoomed; see 11-x-zoomed2.png
+00:25:05  ABOUT TO: draw the two mouth lines (upper y=584, lower y=652), x 924 -> 1092
+00:25:15  RESULT: two mouth lines drawn; see 12-b
+00:25:40  ABOUT TO: draw the UPPER mouth line (y=584); the first attempt never armed the tool
+00:25:46  RESULT: see 12-b-done-mouth-lines-drawn2.png
+00:26:25  ABOUT TO: dimension clip centre -> upper mouth line = 1.3
+00:26:35  RESULT: PREFILLED (expect ~1.31) = '1.34707 mm'
+00:26:35  RESULT: read back = '1.3'
+00:26:38  ABOUT TO: dimension mouth gap between the two lines = 2.6
+00:26:45  RESULT: PREFILLED (expect ~2.6) = '2.59832 mm'
+00:26:45  RESULT: read back = '2.6'
+00:26:47  RESULT: mouth dimensions placed; see 13-b
+00:27:24  ABOUT TO: identify the sketch toolbar buttons by data-command-id / title
+00:27:53  ABOUT TO: hover the scissors icon at (725,58) to read its tooltip
+00:27:55  ABOUT TO: click it to arm the trim tool
+00:27:56  ABOUT TO: trim the OUTER arc between the two mouth lines, clicking at (1053,618)
+00:28:02  RESULT: see 14-b-done-trim-outer-arc.png
+00:28:55  ABOUT TO: trim bore arc between the two mouth lines -- click (967,618)
+00:28:58  RESULT: 15-b-done-trim-bore-arc.png
+00:28:58  ABOUT TO: trim upper line stub inside the bore -- click (937,584)
+00:29:05  RESULT: 16-b-done-trim-upper-in.png
+00:29:05  ABOUT TO: trim upper line stub outside the outer circle -- click (1070,584)
+00:29:07  RESULT: 17-b-done-trim-upper-out.png
+00:29:07  ABOUT TO: trim lower line stub inside the bore -- click (937,652)
+00:29:09  RESULT: 18-b-done-trim-lower-in.png
+00:29:09  ABOUT TO: trim lower line stub outside the outer circle -- click (1070,652)
+00:29:13  RESULT: 19-b-done-trim-lower-out.png
+00:29:48  ABOUT TO: re-arm Trim with 'm' and remove the surviving lower-line stub at (1075,652)
+00:29:54  RESULT: see 19-b-done-trim-lower-out2.png
+00:30:23  ABOUT TO: accept Sketch 1 with the green tick at (423,93)
+00:30:26  RESULT: sketch accepted
+00:30:26  IDS d=1bb0da3ec390097ada708b8c w=496593f76caf867c13606b66 e=8bcb46f7c9535c9d0daf19df
+00:30:26  features status=200
+00:30:26     feature None : None
+00:30:26     featureStates=[{"key": "Origin", "value": {"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}}, {"key": "Top", "value": {"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}}, {"key": "Front", "value": {"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}}, {"key": "Right",
+00:31:04  ABOUT TO: select the C region at (850,618)
+00:31:07  ABOUT TO: open Search tools and run Extrude
+00:31:12  RESULT: extrude dialog -- see 21-b
+00:31:12     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:31:12     input[1] value='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:31:12     input[2] value='25 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:31:39  ABOUT TO: set Depth 6 (clip thickness = #ballD = #torsoH/8; brief gives no number)
+00:31:39  RESULT: depth read back = '6'
+00:31:39  ABOUT TO: click the 'Symmetric' LABEL at (296,341)
+00:31:41  RESULT: see 22-a (crop and look at the checkbox)
+00:32:03  ABOUT TO: accept Extrude 1 (green tick 423,93)
+00:32:05  RESULT: studio boundingboxes status=404 body={
+  "message" : "Not found.",
+  "moreInfoUrl" : "",
+  "status" : 404,
+  "code" : 0
+}
+00:32:05  RESULT: parts status=200 body=[ {
+  "name" : "Part 1",
+  "state" : "IN_PROGRESS",
+  "revision" : null,
+  "description" : null,
+  "partNumber" : null,
+  "elementId" : "8bcb46f7c9535c9d0daf19df",
+  "partId" : "JHD",
+  "bodyType" : "solid",
+  "microversionId" : "f36eeecd6bbe0c39b93046d3",
+  "partQuery" : "query=qCompressed(1.0,\"&1bf$eJx1kE9zgjAQxb9Meu0IAuoRQrD4B3DDSPXCBBI1aoVCnIKfviAzvXQ87u5v3763b46JNndRtWuTajrismZfmTzemZLFzWWK2dpa/z+J21JQbYxC8Od+YK9Sl0QkcEmAd3SGikoe5Y1da9vAo06YIXFTUrX9lsMQ+SuogYg7JzRDJ1mrohqaU4SB2LEfBt2gKEX1POlzR0c+tzWqae8W8nCDH/o+XhQhLx+zdPQjKxGW3fXvPs5TiCO6JDH+SEkQ+/GOClRfhMpPgwGf0xzB2eLjI22WC0/2XsEAEyyYw
+00:32:46  ABOUT TO: measure the clip body (bounding box + volume) via read-only featurescript
+00:32:46  RESULT:
+BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+BODY x[-76.2 .. 76.2] y[0 .. 0] z[-76.2 .. 76.2] vol=0
+BODY x[-76.2 .. 76.2] y[-76.2 .. 76.2] z[0 .. 0] vol=0
+BODY x[0 .. 0] y[-76.2 .. 76.2] z[-76.2 .. 76.2] vol=0
+BODY x[0 .. 0] y[-5 .. 4.828043081829325] z[-12 .. -2] vol=0
+BODY x[0 .. 0] y[-1.65 .. 1.016120071645079] z[-8.65 .. -5.3500000000000005] vol=0
+BODY x[0 .. 0] y[1.016120071645079 .. 4.828043081829325] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[1.0161200716450793 .. 4.828043081829325] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=0
+BODY x[-3 .. 3] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=365.5563269662983
+
+00:33:19  ABOUT TO: rename Sketch 1 -> Clip profile, Extrude 1 -> Clip, Part 1 -> Hand
+00:33:24  RENAMED 'Sketch 1' -> 'Clip profile' (box read back 'Clip profile')
+00:33:26  RENAME FAILED: no visible 'Rename' item for 'Extrude 1'
+00:33:30  RENAMED 'Part 1' -> 'Hand' (box read back 'Hand')
+00:33:31  RESULT: see 23-b-done-renamed.png
+00:33:43  ABOUT TO: retry rename Extrude 1 -> Clip
+00:33:45  RENAME FAILED: no visible 'Rename' item for 'Extrude 1'
+00:34:12  ABOUT TO: clear the tree selection by clicking empty tree space, then rename Extrude 1
+00:34:15  RENAME FAILED: no visible 'Rename' item for 'Extrude 1'
+00:34:34  ABOUT TO: right-click 'Extrude 1' at (93,313) and list every context-menu item
+00:34:37     ['Right', 85, 251, 145]
+00:34:37     ['Clip profile', 40, 274, 200]
+00:34:37     ['Clip profile', 66, 277, 164]
+00:34:37     ['Extrude 1', 40, 300, 200]
+00:34:37     ['Extrude 1', 66, 303, 164]
+00:34:37     ['Parts (1)', 40, 657, 200]
+00:34:37     ['Parts (1)', 63, 660, 167]
+00:34:37     ['Hand', 40, 683, 200]
+00:34:37     ['Hand', 85, 686, 145]
+00:34:37     ['Add selection to folder…', 104, 326, 193]
+00:34:37     ['Add selection to folder…', 139, 328, 150]
+00:34:37     ['Section view…', 104, 349, 193]
+00:34:37     ['Section view…', 139, 351, 150]
+00:34:37     ['Suppress', 104, 371, 193]
+00:34:37     ['Suppress', 139, 373, 150]
+00:34:37     ['Dynamic suppressionAdd expression…', 104, 393, 193]
+00:34:37     ['Dynamic suppression', 139, 395, 113]
+00:34:37     ['Clear selection', 104, 416, 193]
+00:34:37     ['Clear selection', 139, 418, 150]
+00:34:37     ['Edit sketch appearance…', 104, 439, 193]
+00:34:37     ['Edit sketch appearance…', 139, 441, 150]
+00:34:37     ['Add appearance to feature…', 104, 461, 193]
+00:34:37     ['Add appearance to feature…', 139, 463, 150]
+00:34:37     ['Delete', 104, 484, 193]
+00:34:37     ['Delete', 139, 486, 150]
+00:35:07  ABOUT TO: use the context menu's own 'Clear selection', then rename Extrude 1
+00:35:07  Extrude 1 row at [148, 312, 164]
+00:35:10  after clear, Extrude 1 row at [148, 312, 164]
+00:35:14  read back = 'Clip'
+00:35:15  RESULT: renamed Extrude 1 -> Clip
+00:35:43  ABOUT TO: new sketch on the Top plane for the socket collar
+00:35:44  Top row at [158, 208, 145]
+00:35:47  ABOUT TO: press n for view normal to Top
+00:35:49  RESULT: see 24-b (check the view cube reads Top)
+00:36:19  NOTE: 'n' gave the Bottom view, not Top -- mirrored. Harmless for a circle on the origin.
+00:36:19  ABOUT TO: draw the collar circle centred on the origin (923,600)
+00:36:25  ABOUT TO: dimension it to 9.4
+00:36:30  RESULT: PREFILLED = '9.83756 mm'
+00:36:30  RESULT: read back = '9.4'
+00:37:03  ABOUT TO: accept the collar sketch
+00:37:06  ABOUT TO: select the collar region at (923,470) and run Extrude
+00:37:13     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:37:13     input[1] value='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:37:13     input[2] value='25 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:37:41  FINDING: clicking the circle's CURVE put Extrude into Surface mode with 'Edge of Sketch 1'
+00:37:41  ABOUT TO: click the 'Solid' tab (280,120), drop the edge with its x (447,200)
+00:37:43  ABOUT TO: pick the collar REGION at (923,505) -- inside the circle, clear of the clip
+00:37:47     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:37:47     input[1] value='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:37:47     input[2] value='25 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:38:24  ABOUT TO: set Depth 1.35 (collar top at z=+1.35)
+00:38:24  RESULT: depth = '1.35'
+00:38:24  ABOUT TO: tick 'Second end position' (label at 346,395) and set it 4.15
+00:38:25     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:38:25     input[1] value='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:38:25     input[2] value='1.35 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:38:25     input[3] value='' bbox={'x': 266, 'y': 408.5625, 'width': 1, 'height': 1}
+00:38:25     input[4] value='25 mm' bbox={'x': 307.609375, 'y': 436.5625, 'width': 132.390625, 'height': 26}
+00:38:55  ABOUT TO: set the second end position depth to 4.15 (collar foot at z=-4.15)
+00:38:55  RESULT: second depth = '4.15'
+00:38:55  FINDING: ticking 'Second end position' flipped the operation back from Add to New
+00:38:55  ABOUT TO: click 'Add' at (313,149)
+00:38:57     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:38:57     input[1] value='' bbox={'x': 246, 'y': 218, 'width': 1, 'height': 1}
+00:38:57     input[2] value='1.35 mm' bbox={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26}
+00:38:57     input[3] value='' bbox={'x': 266, 'y': 408.5625, 'width': 1, 'height': 1}
+00:38:57     input[4] value='4.15 mm' bbox={'x': 307.609375, 'y': 436.5625, 'width': 132.390625, 'height': 26}
+00:39:28  ABOUT TO: click into 'Merge scope' (356,536), then pick the part 'Hand' in the tree
+00:39:29  Hand part row at [158, 695, 145]
+00:39:56  ABOUT TO: accept the collar extrude
+00:39:59  ABOUT TO: measure -- expect one body, x[-4.7..4.7] y[-5..4.828] z[-12..1.35]
+00:39:59  RESULT:
+BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+BODY x[-76.2 .. 76.2] y[0 .. 0] z[-76.2 .. 76.2] vol=0
+BODY x[-76.2 .. 76.2] y[-76.2 .. 76.2] z[0 .. 0] vol=0
+BODY x[0 .. 0] y[-76.2 .. 76.2] z[-76.2 .. 76.2] vol=0
+BODY x[0 .. 0] y[-5 .. 4.828043081829325] z[-12 .. -2] vol=0
+BODY x[0 .. 0] y[-1.65 .. 1.016120071645079] z[-8.65 .. -5.3500000000000005] vol=0
+BODY x[0 .. 0] y[1.016120071645079 .. 4.828043081829325] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[1.0161200716450793 .. 4.828043081829325] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=0
+BODY x[-3 .. 3] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=365.5563269662983
+BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[-1.3499999999999996 .. 4.15] vol=381.6877994478918
+
+00:39:59  ABOUT TO: rename the collar sketch and extrude
+00:40:04  RENAMED 'Sketch 1' -> 'Collar profile' (box read back 'Collar profile')
+00:40:06  RENAME FAILED: no visible 'Rename' item for 'Extrude 1'
+00:40:40  FINDING: the collar came out z -1.35 .. +4.15 -- the primary direction ran -Z. Flipping it.
+00:40:40  Extrude 1 row at [148, 364, 164]
+00:40:43  ABOUT TO: click the direction flip arrow beside the Blind dropdown at (452,231)
+00:41:34  ABOUT TO: accept the flipped collar extrude
+00:41:41  RESULT bodies:
+BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+BODY x[-76.2 .. 76.2] y[0 .. 0] z[-76.2 .. 76.2] vol=0
+BODY x[-76.2 .. 76.2] y[-76.2 .. 76.2] z[0 .. 0] vol=0
+BODY x[0 .. 0] y[-76.2 .. 76.2] z[-76.2 .. 76.2] vol=0
+BODY x[0 .. 0] y[-5 .. 4.828043081829325] z[-12 .. -2] vol=0
+BODY x[0 .. 0] y[-1.65 .. 1.016120071645079] z[-8.65 .. -5.3500000000000005] vol=0
+BODY x[0 .. 0] y[1.016120071645079 .. 4.828043081829325] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[1.0161200716450793 .. 4.828043081829325] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-5.7 .. -5.7] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[-8.3 .. -8.3] vol=0
+BODY x[0 .. 0] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=0
+BODY x[-3 .. 3] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=365.5563269662983
+BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+
+00:41:41  PARTS: [('Hand', 'JHD')]
+00:42:27  FINDING: 'Second end position' has its OWN Opposite-direction arrow; flipping the
+00:42:27    primary alone sent both ends the same way (+1.35 .. +4.15), which does not touch the
+00:42:27    clip, so Add errored. Flipping the second end as well.
+00:42:30  ABOUT TO: click the SECOND end position flip arrow at (452,421)
+00:43:04  ABOUT TO: accept the collar extrude (second attempt at the direction)
+00:43:08  RESULT solids only:
+00:43:08     BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=672.9888836874084
+00:43:08  PARTS: [('Hand', 'JHD')]
+00:43:43  RENAMED 'Extrude 1' -> 'Socket collar' (box read back 'Socket collar')
+00:43:43  ABOUT TO: search for a Sphere primitive (the ball is a tool to be consumed)
+00:43:49     input[0] value='Sphere' bbox={'x': 1006, 'y': 92, 'width': 588, 'height': 30}
+00:43:49     input[1] value='on' bbox={'x': 1445.21875, 'y': 180.640625, 'width': 11, 'height': 11}
+00:43:49     input[2] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:44:27  FINDING: 'Sphere' returns 'No items match your search' -- no sphere primitive here.
+00:44:27  ABOUT TO: close search, start a sketch on Front for the ball profile
+00:44:30  Front row at [158, 234, 145]
+00:44:35  RESULT: see 33-a (check the view cube)
+00:45:20  ABOUT TO: hide the Hand part so the ball profile can be drawn without snapping to it
+00:45:24  RESULT: part hidden
+00:45:24  ABOUT TO: open the arc flyout caret (383,58) and list its items
+00:45:25     ['3 point arca', 431, 94]
+00:45:25     ['3 point arc', 433, 94]
+00:45:25     ['Tangent arc', 431, 129]
+00:45:25     ['Center point arc', 431, 162]
+00:45:25     ['Elliptical arc', 431, 195]
+00:45:25     ['Conic', 431, 228]
+00:45:25     ['Features (9)', 140, 129]
+00:45:25     ['Default geometry', 140, 157]
+00:45:25     ['Origin', 140, 183]
+00:45:25     ['Top', 140, 209]
+00:45:25     ['Front', 140, 235]
+00:45:25     ['Right', 140, 261]
+00:45:25     ['Clip profile', 140, 287]
+00:45:25     ['Sketch 1', 356, 94]
+00:45:25     ['Sketch plane', 343, 123]
+00:45:25     ['Front plane', 336, 144]
+00:45:25     ['Disable imprinting', 343, 176]
+00:45:25     ['Show constraints', 356, 203]
+00:45:25     ['Show expressions', 356, 230]
+00:45:25     ['Show errors', 356, 258]
+00:45:25     ['Final', 356, 284]
+00:45:59  ABOUT TO: arc flyout -> 'Center point arc', then draw the ball arc (same call)
+00:46:08  RESULT: see 34-b-done-ball-arc.png
+00:46:51  ABOUT TO: open the arc flyout, verify it is open, click 'Center point arc' by locator
+00:46:52     'Center point arc' matches=1 visible=[0]
+00:46:52     bbox={'x': 373, 'y': 151.5, 'width': 136, 'height': 20}
+00:47:41  ABOUT TO: close the ball profile with a line on the vertical axis (the revolve axis)
+00:47:47  ABOUT TO: dimension the arc radius = 3
+00:47:52  FATAL: no dim box for the arc
+00:48:38     input[0] value='' bbox={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+00:48:38     input[1] value='2.98867 mm' bbox={'x': 1142, 'y': 281.5, 'width': 100, 'height': 26}
+00:48:38  ABOUT TO: set the ball arc radius to 3
+00:48:38  RESULT: read back = '3'
+00:49:13  ABOUT TO: accept the ball profile sketch
+00:49:16  ABOUT TO: select the half-disc region at (880,390) and run Revolve
+00:49:22     ['Solid', 281, 121]
+00:49:22     ['Surface', 358, 121]
+00:49:22     ['Thin', 433, 121]
+00:49:22     ['New', 269, 149]
+00:49:22     ['Add', 313, 149]
+00:49:22     ['Remove', 366, 149]
+00:49:22     ['Intersect', 432, 149]
+00:49:22     ['Faces and sketch regions to revolve', 356, 179]
+00:49:22     ['Face of Sketch 1', 349, 200]
+00:49:22     ['Revolve axis', 356, 231]
+00:49:22     ['Full revolve', 343, 263]
+00:49:22     ['Final', 356, 287]
+00:49:46  ABOUT TO: click into the empty 'Revolve axis' field, then pick the profile's axis line
+00:49:49  ABOUT TO: make sure the operation is New (a revolve can arrive on Add)
+00:50:22  ABOUT TO: accept Revolve 1 (the wrist ball, a tool to be consumed)
+00:50:25     BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=672.9888836874084
+00:50:25     BODY x[-3.0000000000000004 .. 3.0000000000000004] y[-3.0000000000000004 .. 3.0000000000000004] z[-3.0000000000000004 .. 3.0000000000000004] vol=113.09733552923261
+00:50:25  PARTS: [('Hand', 'JHD'), ('Part 2', 'JOD')]
+00:50:30  RENAMED 'Sketch 1' -> 'Wrist ball profile' (box read back 'Wrist ball profile')
+00:50:33  RENAME FAILED: no visible 'Rename' item for 'Revolve 1'
+00:50:38  RENAMED 'Part 2' -> 'Wrist ball' (box read back 'Wrist ball')
+00:51:04  Revolve 1 at [148, 416, 164]
+00:51:11  read back 'Wrist ball'
+00:51:12  ABOUT TO: show the Hand part again
+00:51:17  Show clicked: True
+00:51:49  ABOUT TO: open Boolean via Search tools
+00:51:54     ['Union', 278, 121]
+00:51:54     ['Subtract', 348, 121]
+00:51:54     ['Intersect', 427, 121]
+00:51:54     ['Tools', 356, 154]
+00:51:54     ['Keep tools', 343, 186]
+00:51:54     ['Final', 356, 210]
+00:52:13  ABOUT TO: click 'Subtract' at (348,121)
+00:52:15     ['Union', 277, 121]
+00:52:15     ['Subtract', 348, 121]
+00:52:15     ['Intersect', 427, 121]
+00:52:15     ['Tools', 356, 154]
+00:52:15     ['Targets', 356, 185]
+00:52:15     ['Offset', 343, 217]
+00:52:15     ['Keep tools', 343, 244]
+00:52:15     ['Final', 356, 268]
+00:54:48  ABOUT TO: Tools = Wrist ball (Parts list row)
+00:54:51  ABOUT TO: Targets = Hand (Parts list row)
+00:54:54     ['Union', 277, 121]
+00:54:54     ['Subtract', 348, 121]
+00:54:54     ['Intersect', 427, 121]
+00:54:54     ['Tools', 356, 152]
+00:54:54     ['Wrist ball', 349, 173]
+00:54:54     ['Hand', 349, 197]
+00:54:54     ['Targets', 356, 228]
+00:54:54     ['Offset', 343, 260]
+00:54:54     ['Keep tools', 343, 287]
+00:54:54     ['Final', 356, 311]
+00:55:13  ABOUT TO: remove 'Hand' from Tools with its x at (447,197)
+00:55:14     after-remove ['Union', 277, 121]
+00:55:14     after-remove ['Subtract', 348, 121]
+00:55:14     after-remove ['Intersect', 427, 121]
+00:55:14     after-remove ['Tools', 356, 151]
+00:55:14     after-remove ['Wrist ball', 349, 172]
+00:55:14     after-remove ['Targets', 356, 203]
+00:55:14     after-remove ['Offset', 343, 235]
+00:55:14     after-remove ['Keep tools', 343, 262]
+00:55:14     after-remove ['Final', 356, 286]
+00:55:14     after-remove ['Cannot resolve entities.', 533, 203]
+00:55:14  ABOUT TO: click Targets field then pick Hand in Parts list
+00:55:17     after-target ['Union', 277, 121]
+00:55:17     after-target ['Subtract', 348, 121]
+00:55:17     after-target ['Intersect', 427, 121]
+00:55:17     after-target ['Tools', 356, 151]
+00:55:17     after-target ['Wrist ball', 349, 172]
+00:55:17     after-target ['Targets', 356, 200]
+00:55:17     after-target ['Hand', 349, 221]
+00:55:17     after-target ['Offset', 343, 253]
+00:55:17     after-target ['Keep tools', 343, 280]
+00:55:17     after-target ['Final', 356, 304]
+00:55:30  ABOUT TO: tick Offset (checkbox left of label, ~(256,253))
+00:55:32     ['Union', 277, 121]
+00:55:32     ['Subtract', 348, 121]
+00:55:32     ['Intersect', 427, 121]
+00:55:32     ['Tools', 356, 151]
+00:55:32     ['Wrist ball', 349, 172]
+00:55:32     ['Targets', 356, 200]
+00:55:32     ['Hand', 349, 221]
+00:55:32     ['Offset', 343, 253]
+00:55:32     ['Offset all', 343, 280]
+00:55:32     ['Faces to offset', 356, 312]
+00:55:32     ['Offset distance', 343, 343]
+00:55:32     ['Reapply fillet', 343, 369]
+00:55:32     ['Keep tools', 343, 397]
+00:55:32     ['Final', 356, 421]
+00:55:32     INPUT '5 mm' at (387,342)
+00:55:46  ABOUT TO: tick 'Offset all' at (256,280)
+00:55:48     ['Union', 277, 121]
+00:55:48     ['Subtract', 348, 121]
+00:55:48     ['Intersect', 427, 121]
+00:55:48     ['Tools', 356, 151]
+00:55:48     ['Wrist ball', 349, 172]
+00:55:48     ['Targets', 356, 200]
+00:55:48     ['Hand', 349, 221]
+00:55:48     ['Offset', 343, 253]
+00:55:48     ['Offset all', 343, 280]
+00:55:48     ['Offset distance', 343, 307]
+00:55:48     ['Reapply fillet', 343, 333]
+00:55:48     ['Keep tools', 343, 361]
+00:55:48     ['Final', 356, 385]
+00:55:48  ABOUT TO: set Offset distance -> 0.2 mm (box at 387,306)
+00:55:51     INPUT '0.2 mm' at (387,306)
+00:56:13  ABOUT TO: accept Boolean 1 (subtract the ball with 0.2 offset)
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+00:56:17     BODY x[-76.2 .. 76.2] y[0 .. 0] z[-76.2 .. 76.2] vol=0
+00:56:17     BODY x[-76.2 .. 76.2] y[-76.2 .. 76.2] z[0 .. 0] vol=0
+00:56:17     BODY x[0 .. 0] y[-76.2 .. 76.2] z[-76.2 .. 76.2] vol=0
+00:56:17     BODY x[0 .. 0] y[-5 .. 4.828043081829325] z[-12 .. -2] vol=0
+00:56:17     BODY x[0 .. 0] y[-1.65 .. 1.016120071645079] z[-8.65 .. -5.3500000000000005] vol=0
+00:56:17     BODY x[0 .. 0] y[1.016120071645079 .. 4.828043081829325] z[-8.3 .. -8.3] vol=0
+00:56:17     BODY x[0 .. 0] y[1.0161200716450793 .. 4.828043081829325] z[-5.7 .. -5.7] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[-7 .. -7] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[-5.7 .. -5.7] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[-8.3 .. -8.3] vol=0
+00:56:17     BODY x[0 .. 0] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. -1.9999999999999991] vol=0
+00:56:17     BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=563.506866803988
+00:56:17     BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+00:56:17     BODY x[-4.7 .. 4.7] y[-4.7 .. 4.7] z[0 .. 0] vol=0
+00:56:17     BODY x[1.8369701987210302e-16 .. 3.0000000000000004] y[0 .. 0] z[-3.0000000000000004 .. 3.0000000000000004] vol=0
+00:56:17     BODY x[1.83697019872103e-16 .. 1.83697019872103e-16] y[0 .. 0] z[-3.0000000000000004 .. 3.0000000000000004] vol=0
+00:56:17     BODY x[0 .. 0] y[0 .. 0] z[0 .. 0] vol=0
+00:56:17     BODY x[1.83697019872103e-16 .. 3.0000000000000004] y[0 .. 0] z[-3.0000000000000004 .. 3.0000000000000004] vol=0
+00:56:17  PARTS: ['Hand']
+00:56:22  RENAMED 'Boolean 1' -> 'Wrist socket' (box read back 'Wrist socket')
+03:33:35  RESUME: contexts=1 pages=17
+03:33:35     page name='BALLSOCK_POLL' url=https://cad.onshape.com/signin
+03:33:35     page name='HEAD_RUN3_7Q4XZ' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6
+03:33:35     page name='LIMBBB_RUN3_cfca2a' url=https://cad.onshape.com/documents/8844e1331199cc35de25a417/w/b5995fc863d4643895b80f15/e/e7
+03:33:35     page name='HINGE_RUN3' url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/88
+03:33:35     page name='LESSON_RUN3' url=https://cad.onshape.com/signin
+03:33:35     page name='BALLSOCK_RUN3' url=https://cad-usw2.onshape.com/signin
+03:33:35     page name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876
+03:33:35     page name='ORCH_VERIFY_HINGE_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876
+03:33:35     page name='FOOT_RUN3_NVS79W' url=https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1c5780e11aac4ea9/e/f0
+03:33:35     page name='HAND_RUN3_UK3WMB' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8b
+03:33:35     page name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+03:33:35     page name='BALLSOCK_RUN3_B2' url=https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/72
+03:33:35     page name='' url=about:blank
+03:33:35     page name='LIMBSC_RUN3_9f4a1c' url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2
+03:33:35     page name='ORCH_INVENTORY_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876
+03:33:35     page name='LESSON_RUN3_MSTITT_A' url=https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be1961c300552cd9d/e/c7
+03:33:35     page name='TORSO_RUN3_OA4SRWBU' url=https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bc
+03:33:35  RESUME: pages carrying HAND_RUN3_UK3WMB = 1
+03:33:51  VERIFY: url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19df
+03:33:51  VERIFY: viewport={'w': 1600, 'h': 1000}
+03:33:51     FEATURE newSketch        Clip profile
+03:33:51     FEATURE extrude          Clip
+03:33:51     FEATURE newSketch        Collar profile
+03:33:51     FEATURE extrude          Socket collar
+03:33:51     FEATURE newSketch        Wrist ball profile
+03:33:51     FEATURE revolve          Wrist ball
+03:33:51     FEATURE booleanBodies    Wrist socket
+03:33:51     PART Hand id=JHD
+03:33:52     SOLID BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=563.5068668039881
+03:34:18     edges=32
+03:34:18     LINE  x[-3..3] y[4.828043081829325..4.828043081829325] z[-5.7..-5.7]
+03:34:18     LINE  x[-3..3] y[4.828043081829324..4.828043081829324] z[-8.300000000000002..-8.300000000000002]
+03:34:18     LINE  x[-3..3] y[1.0161200716450793..1.0161200716450793] z[-5.7..-5.7]
+03:34:18     LINE  x[-3..3] y[1.016120071645079..1.016120071645079] z[-8.3..-8.3]
+03:34:18     CIRCLE d=3.3 c=(-3,-4.3368086899420177e-16,-7) axis=(1,0,0)
+03:34:18     CIRCLE d=3.3 c=(3,-4.3368086899420177e-16,-7) axis=(1,0,0)
+03:34:18     LINE  x[-3..-3] y[1.016120071645079..4.828043081829324] z[-8.300000000000002..-8.3]
+03:34:18     LINE  x[3..3] y[1.016120071645079..4.828043081829324] z[-8.300000000000002..-8.3]
+03:34:18     LINE  x[-3..-3] y[1.0161200716450793..4.828043081829325] z[-5.7..-5.7]
+03:34:18     LINE  x[3..3] y[1.0161200716450793..4.828043081829325] z[-5.7..-5.7]
+03:34:18     CIRCLE d=9.4 c=(0,2.87791997799628e-16,1.3499999999999996) axis=(0,0,1)
+03:34:18     LINE  x[-3..-3] y[-3.618010503025108..3.618010503025109] z[-4.15..-4.15]
+03:34:18     LINE  x[3..3] y[-3.618010503025108..3.618010503025109] z[-4.15..-4.15]
+03:34:18     CIRCLE d=10 c=(-3,1.1275702593849246e-14,-6.999999999999999) axis=(1,0,0)
+03:34:18     CIRCLE d=10 c=(-3,1.1275702593849246e-14,-6.999999999999999) axis=(1,0,0)
+03:34:18     CIRCLE d=10 c=(3,1.1275702593849246e-14,-6.999999999999999) axis=(1,0,0)
+03:34:18     CIRCLE d=10 c=(3,1.1275702593849246e-14,-6.999999999999999) axis=(1,0,0)
+03:34:18     LINE  x[-2.2830900113661534..2.2830900113661534] y[4.108223460329306..4.108223460329306] z[-4.15..-4.15]
+03:34:18     LINE  x[-2.283090011366194..2.283090011366194] y[-4.108223460329284..-4.108223460329284] z[-4.15..-4.15]
+03:34:18     CIRCLE d=9.4 c=(0,2.87791997799628e-16,-4.15) axis=(0,0,1)
+03:34:18     CIRCLE d=9.4 c=(0,2.87791997799628e-16,-4.15) axis=(0,0,1)
+03:34:18     OTHER { curveType : OTHER }
+03:34:18     OTHER { curveType : OTHER }
+03:34:18     OTHER { curveType : OTHER }
+03:34:18     OTHER { curveType : OTHER }
+03:34:18     LINE  x[-3..-3] y[3.618010503025109..3.618010503025109] z[-4.15..-3.548913214652508]
+03:34:18     LINE  x[-3..-3] y[-3.618010503025108..-3.618010503025108] z[-4.15..-3.548913214652531]
+03:34:18     LINE  x[3..3] y[3.618010503025109..3.618010503025109] z[-4.15..-3.548913214652508]
+03:34:18     LINE  x[3..3] y[-3.618010503025108..-3.618010503025108] z[-4.15..-3.548913214652531]
+03:34:18     CIRCLE d=9.4 c=(0,2.87791997799628e-16,-4.15) axis=(0,0,1)
+03:34:18     CIRCLE d=9.4 c=(0,2.87791997799628e-16,-4.15) axis=(0,0,1)
+03:34:18     CIRCLE d=5.802585630561605 c=(1.8369701987210302e-16,0,1.3499999999999996) axis=(0,0,1)
+03:35:08  ABOUT TO: click 'Click here to reconnect.' (session timed out banner)
+03:35:08     banner visible=True count=1
+03:35:14     window.name after reconnect = 'HAND_RUN3_UK3WMB'
+03:35:42  ABOUT TO: Search tools -> Mirror
+03:35:46     first 'Mirror' hit visible=False bb=None
+03:35:49     ['Part mirror', 343, 122]
+03:35:49     ['New', 269, 149]
+03:35:49     ['Add', 313, 149]
+03:35:49     ['Remove', 366, 149]
+03:35:49     ['Intersect', 432, 149]
+03:35:49     ['Entities to mirror', 356, 182]
+03:35:49     ['Mirror plane', 356, 213]
+03:35:49     ['Final', 356, 242]
+03:36:10  ABOUT TO: Entities to mirror = Hand
+03:36:12     after-entity ['Part mirror', 343, 122]
+03:36:12     after-entity ['New', 269, 149]
+03:36:12     after-entity ['Add', 313, 149]
+03:36:12     after-entity ['Remove', 366, 149]
+03:36:12     after-entity ['Intersect', 432, 149]
+03:36:12     after-entity ['Entities to mirror', 356, 179]
+03:36:12     after-entity ['Hand', 349, 200]
+03:36:12     after-entity ['Mirror plane', 356, 231]
+03:36:12     after-entity ['Final', 356, 260]
+03:36:12  ABOUT TO: Mirror plane = Right (tree row)
+03:36:15     after-plane ['Part mirror', 343, 122]
+03:36:15     after-plane ['New', 269, 149]
+03:36:15     after-plane ['Add', 313, 149]
+03:36:15     after-plane ['Remove', 366, 149]
+03:36:15     after-plane ['Intersect', 432, 149]
+03:36:15     after-plane ['Entities to mirror', 356, 179]
+03:36:15     after-plane ['Hand', 349, 200]
+03:36:15     after-plane ['Mirror plane', 356, 231]
+03:36:15     after-plane ['Final', 356, 260]
+03:36:15     after-plane ['Right', 261, 261]
+03:36:40  ABOUT TO: focus 'Mirror plane' field at (342,231) then click Right in tree
+03:36:43     ['Part mirror', 343, 122]
+03:36:43     ['New', 268, 149]
+03:36:43     ['Add', 312, 149]
+03:36:43     ['Remove', 366, 149]
+03:36:43     ['Intersect', 432, 149]
+03:36:43     ['Entities to mirror', 356, 179]
+03:36:43     ['Hand', 349, 200]
+03:36:43     ['Mirror plane', 343, 228]
+03:36:43     ['Right plane', 336, 249]
+03:36:43     ['Merge with all', 343, 281]
+03:36:43     ['Merge scope', 356, 309]
+03:36:43     ['Final', 356, 359]
+03:36:43     ['Right', 261, 261]
+03:37:06  ABOUT TO: accept Mirror 1 (scratch symmetry check, Add + merge into Hand)
+03:37:10     WITH-MIRROR BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=563.506866803988
+03:37:10     PARTS with mirror: ['Hand']
+03:37:23  ABOUT TO: right-click 'Mirror 1' tree row -> Delete
+03:37:26     Delete item visible=False bb=None
+03:38:20  ABOUT TO: right-click 'Mirror 1' then click Delete at (163,653)
+03:38:26     FEATURE Clip profile
+03:38:26     FEATURE Clip
+03:38:26     FEATURE Collar profile
+03:38:26     FEATURE Socket collar
+03:38:26     FEATURE Wrist ball profile
+03:38:26     FEATURE Wrist ball
+03:38:26     FEATURE Wrist socket
+03:38:26     FINAL BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=563.506866803988
+03:38:27     PARTS: ['Hand']
+03:38:46     faces=14
+03:38:46     CYL    r=1.65 axis=(-1,-0,-0) o=(3,-4.3368086899420177e-16,-7) area=44.237868068439965
+03:38:46     PLANE  n=(0,0,1) o=(0,2.9220815767372015,-8.3) area=22.87153806110547
+03:38:46     PLANE  n=(-0,-0,-1) o=(0,2.922081576737202,-5.7) area=22.871538061105472
+03:38:46     PLANE  n=(-1,-0,-0) o=(-3,-0.08597845908533226,-7.774456607326254) area=48.837472749601815
+03:38:46     PLANE  n=(1,0,0) o=(3,-0.08597845908533226,-7.774456607326254) area=48.8374727496018
+03:38:46     CYL    r=4.7 axis=(-0,-0,-1) o=(0,2.87791997799628e-16,1.3499999999999996) area=161.3667628941142
+03:38:46     CYL    r=5 axis=(-1,-0,-0) o=(3,1.1275702593849246e-14,-6.999999999999999) area=10.841902090644757
+03:38:46     CYL    r=5 axis=(-1,-0,-0) o=(3,1.1275702593849246e-14,-6.999999999999999) area=105.08968169833847
+03:38:46     PLANE  n=(-0,-0,-1) o=(-3.8551,4.3368086899420177e-16,-4.15) area=8.552282085408319
+03:38:46     PLANE  n=(-0,-0,-1) o=(3.8551,4.3368086899420177e-16,-4.15) area=8.552282085408322
+03:38:46     PLANE  n=(-0,-0,-1) o=(0,4.405887059783665,-4.15) area=1.8254173079439393
+03:38:46     PLANE  n=(-0,-0,-1) o=(0,-4.405887059783654,-4.15) area=1.8254173079440412
+03:38:46     PLANE  n=(0,0,1) o=(0,0,1.3499999999999996) area=42.95342555620643
+03:39:11     FACE 13 kind=SPHERE area=91.48317807253478 x[-3.2000000000000006..3.2000000000000006] y[-3.2000000000000006..3.2000000000000006] z[-3.2000000000000006..1.3499999999999996]
+03:39:11          def=radius 0.0032000000000000006 meter
+03:39:11     basis origin (1.83697019872103e-19 meter, 0 meter, 0 meter)
+03:39:11     x-Axis (-1, -0, -0)
+03:39:11     z-Axis (-0, -0, 1)
+03:39:37  RENDER isometric -> 44-x-hand-isometric.png (92685 bytes)
+03:39:38  RENDER front -> 44-x-hand-front.png (51709 bytes)
+03:39:39  RENDER right -> 44-x-hand-right.png (57187 bytes)
+03:39:40  RENDER top -> 44-x-hand-top.png (155525 bytes)
+03:39:41  RENDER bottom -> 44-x-hand-bottom.png (67433 bytes)
+03:40:26     rail y=58 tooltip='Versions and history'
+03:40:27     rail y=94 tooltip='Create version…'
+03:40:29     rail y=128 tooltip='Comments'
+03:40:30     rail y=163 tooltip='Document notes'
+03:40:31     rail y=198 tooltip='Performance errors detected'
+03:40:32     rail y=233 tooltip='AI Advisor'
+03:40:33     rail y=268 tooltip='Action items'
+03:40:45  ABOUT TO: left rail -> Create version... (20,94)
+03:40:51     visible inputs=2
+03:40:51     INPUT 0 value='V1' at {'x': 381.328125, 'y': 83.5, 'width': 300, 'height': 34}
+03:40:51     INPUT 1 value='' at {'x': 79, 'y': 84, 'width': 158, 'height': 30}
+03:41:04  ABOUT TO: name the version 'hand-run3-v1'
+03:41:06     Create buttons=2
+03:41:06     BTN 'Create' {'x': 882.1875, 'y': 305, 'width': 64.234375, 'height': 33.5}
+03:41:06     BTN 'Create version and edit properties' {'x': 955.171875, 'y': 305, 'width': 230.96875, 'height': 33.5}
+03:41:10     VERSION Start            id=cb6fb76d217b2f94aff77c7b created=2026-08-13T04:16:33.980+00:00
+03:41:21     attempt 0: 2 versions
+03:41:21     VERSION Start            id=cb6fb76d217b2f94aff77c7b created=2026-08-13T04:16:33.980+00:00
+03:41:21     VERSION hand-run3-v1     id=a41a7b94671210b304484ab0 created=2026-08-13T07:41:09.710+00:00
+03:41:44     version parts HTTP 200 -> ['Hand']
+03:41:44  ABOUT TO: open the version link in my own page: https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/v/a41a7b94671210b304484ab0/e/8bcb46f7c9535c9d0daf19df
+03:41:58     version page title='hand-run3 | Part Studio 1' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/v/a41a7b94671210b304484ab0/e/8bcb46f7c9535c9d0daf19df
+03:42:16  ABOUT TO: open the live workspace link https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19df
+03:42:29     workspace page title='hand-run3 | Part Studio 1' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19df
+03:42:29     LIVE BODY x[-4.7 .. 4.7] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.3499999999999996] vol=563.506866803988
+03:44:59  ABOUT TO: Sketch button (155,58) then the Top plane in the tree (95,209)
+03:45:05  ABOUT TO: press n (view normal to Top), then f (zoom to fit)
+03:45:09     view cube reads: see 47-a
+03:45:29  ABOUT TO: wheel-zoom 24 notches centred on the part at (923,522)
+03:46:04  ABOUT TO: arm the corner-rectangle tool at (254,58) and draw in clear space
+03:46:43  ABOUT TO: dimension slot length (top edge) = 3.5
+03:46:56     RESULT: PREFILLED = '6.26477 mm'
+03:46:57     RESULT: slot length (top edge) set to 3.5
+03:47:20  ABOUT TO: dimension origin -> slot inner end = 2.5
+03:47:33     RESULT: PREFILLED = '12.9722 mm'
+03:47:34     RESULT: origin -> slot inner end set to 2.5
+03:48:05  ABOUT TO: dimension X axis -> slot top edge = 0.4
+03:48:23     RESULT: PREFILLED = '1.25924 mm'
+03:48:24     RESULT: X axis -> slot top edge set to 0.4
+03:48:58  ABOUT TO: dimension X axis -> slot bottom edge = 0.4
+03:49:15     RESULT: no edit box appeared for X axis -> slot bottom edge
+03:49:52  ABOUT TO: dimension slot width (right edge length) = 0.8
+03:49:56     RESULT: PREFILLED = '1.39075 mm'
+03:49:58     RESULT: slot width (right edge length) set to 0.8
+03:50:19  ABOUT TO: accept the slot sketch (green tick 423,93)
+03:50:27  RENAMED 'Sketch 1' -> 'Slit profile' (box read back 'Slit profile')
+03:50:52  ABOUT TO: select 'Slit profile' in the tree, then Search tools -> Extrude
+03:51:01     ['Sketch profile', 293, 124]
+03:51:01     ['Select sketch…', 356, 148]
+03:51:01     ['Selections', 356, 180]
+03:51:01     ['Lock profile faces', 356, 211]
+03:51:01     ['Merge tangent segments', 343, 239]
+03:51:01     ['Angle', 343, 265]
+03:51:01     ['Angle reference', 356, 296]
+03:51:01     ['Default corner type', 302, 326]
+03:51:01     ['Miter', 399, 327]
+03:51:01     ['Corner overrides', 356, 360]
+03:51:01     ['Limit frame ends', 356, 392]
+03:51:01     ['Final', 356, 416]
+03:51:01     INPUT '0 deg' at (363,265)
+03:51:01     INPUT '' at (358,314)
+03:51:23  ABOUT TO: cancel the wrong dialog (red X 451,93) -- Search tools was at the wrong x
+03:51:25  ABOUT TO: select 'Slit profile' then Search tools at (1350,58) -> Extrude
+03:51:32     ['Solid', 281, 121]
+03:51:32     ['Surface', 358, 121]
+03:51:32     ['Thin', 433, 121]
+03:51:32     ['New', 268, 149]
+03:51:32     ['Add', 312, 149]
+03:51:32     ['Remove', 366, 149]
+03:51:32     ['Intersect', 432, 149]
+03:51:32     ['Faces and sketch regions to extrude', 356, 179]
+03:51:32     ['Faces of Slit profile', 349, 200]
+03:51:32     ['Blind', 343, 232]
+03:51:32     ['Depth', 343, 259]
+03:51:32     ['Direction', 356, 286]
+03:51:32     ['Starting offset', 356, 313]
+03:51:32     ['Symmetric', 343, 340]
+03:51:32     ['Draft', 273, 368]
+03:51:32     ['Second end position', 356, 395]
+03:51:32     ['Merge with all', 343, 422]
+03:51:32     ['Merge scope', 356, 451]
+03:51:32     ['Hand', 349, 472]
+03:51:32     ['Final', 356, 501]
+03:51:32     INPUT '' at (246,218)
+03:51:32     INPUT '25 mm' at (358,259)
+03:51:52  ABOUT TO: click Remove (366,149), set Depth 5.5, tick Starting offset
+03:51:55     after-remove-depth ['Solid', 281, 121]
+03:51:55     after-remove-depth ['Surface', 358, 121]
+03:51:55     after-remove-depth ['Thin', 433, 121]
+03:51:55     after-remove-depth ['New', 268, 149]
+03:51:55     after-remove-depth ['Add', 312, 149]
+03:51:55     after-remove-depth ['Remove', 365, 149]
+03:51:55     after-remove-depth ['Intersect', 432, 149]
+03:51:55     after-remove-depth ['Faces and sketch regions to extrude', 356, 179]
+03:51:55     after-remove-depth ['Faces of Slit profile', 349, 200]
+03:51:55     after-remove-depth ['Blind', 343, 232]
+03:51:55     after-remove-depth ['Depth', 343, 259]
+03:51:55     after-remove-depth ['Direction', 356, 286]
+03:51:55     after-remove-depth ['Starting offset', 356, 313]
+03:51:55     after-remove-depth ['Symmetric', 343, 340]
+03:51:55     after-remove-depth ['Draft', 273, 368]
+03:51:55     after-remove-depth ['Second end position', 356, 395]
+03:51:55     after-remove-depth ['Merge with all', 343, 422]
+03:51:55     after-remove-depth ['Merge scope', 356, 451]
+03:51:55     after-remove-depth ['Hand', 349, 472]
+03:51:55     after-remove-depth ['Final', 356, 501]
+03:51:55     after-remove-depth ['Depth: 5.5 mm', 457, 259]
+03:51:55     after-remove-depth INPUT '5.5 mm' at (358,259)
+03:51:55  ABOUT TO: tick 'Starting offset' (checkbox ~ (256,313))
+03:51:57     after-startoffset ['Solid', 281, 121]
+03:51:57     after-startoffset ['Surface', 358, 121]
+03:51:57     after-startoffset ['Thin', 433, 121]
+03:51:57     after-startoffset ['New', 268, 149]
+03:51:57     after-startoffset ['Add', 312, 149]
+03:51:57     after-startoffset ['Remove', 365, 149]
+03:51:57     after-startoffset ['Intersect', 432, 149]
+03:51:57     after-startoffset ['Faces and sketch regions to extrude', 356, 179]
+03:51:57     after-startoffset ['Faces of Slit profile', 349, 200]
+03:51:57     after-startoffset ['Blind', 343, 232]
+03:51:57     after-startoffset ['Depth', 343, 259]
+03:51:57     after-startoffset ['Direction', 356, 286]
+03:51:57     after-startoffset ['Starting offset', 356, 313]
+03:51:57     after-startoffset ['Symmetric', 343, 340]
+03:51:57     after-startoffset ['Draft', 273, 368]
+03:51:57     after-startoffset ['Second end position', 356, 395]
+03:51:57     after-startoffset ['Merge with all', 343, 422]
+03:51:57     after-startoffset ['Merge scope', 356, 451]
+03:51:57     after-startoffset ['Hand', 349, 472]
+03:51:57     after-startoffset ['Final', 356, 501]
+03:51:57     after-startoffset INPUT '5.5 mm' at (358,259)
+03:52:25  ABOUT TO: tick the 'Starting offset' CHECKBOX at (277,313) -- (256,313) is the caret
+03:52:28     INPUT '5.5 mm' at (358,259)
+03:52:28     INPUT '25 mm' at (373,367)
+03:52:28  ABOUT TO: set the starting-offset depth to 1.35
+03:52:58  ABOUT TO: accept the Remove extrude (one relief slit)
+03:53:02     AFTER-1-SLIT BODY x[-4.7 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=555.242378010559
+03:53:06  RENAMED 'Extrude 1' -> 'Relief slit' (box read back 'Relief slit')
+03:53:54  ABOUT TO: view dropdown (1560,232) -> Isometric, then zoom to fit
+03:53:57     Isometric item visible=True bb={'x': 1430.375, 'y': 249, 'width': 49.59375, 'height': 18}
+03:54:32  ABOUT TO: right-click the Top plane row -> Hide all planes, then zoom to fit
+03:54:34     'Hide all planes' visible=True bb={'x': 141, 'y': 246.484375, 'width': 150, 'height': 18}
+03:55:02  ABOUT TO: Search tools -> Circular pattern
+03:55:11     ['Part pattern', 343, 122]
+03:55:11     ['New', 269, 149]
+03:55:11     ['Add', 313, 149]
+03:55:11     ['Remove', 366, 149]
+03:55:11     ['Intersect', 432, 149]
+03:55:11     ['Entities to pattern', 356, 182]
+03:55:11     ['Axis of pattern', 356, 213]
+03:55:11     ['Angle', 343, 244]
+03:55:11     ['Instance count', 343, 270]
+03:55:11     ['Equal spacing', 343, 297]
+03:55:11     ['Centered', 343, 324]
+03:55:11     ['Skip instances', 356, 351]
+03:55:11     ['Final', 356, 376]
+03:55:24  ABOUT TO: change the pattern-type dropdown to 'Feature pattern'
+03:55:26     'Feature pattern' visible=True bb={'x': 257, 'y': 168.1875, 'width': 96.109375, 'height': 20}
+03:55:28     after-type ['Feature pattern', 343, 122]
+03:55:28     after-type ['Features to pattern', 356, 154]
+03:55:28     after-type ['Axis of pattern', 356, 185]
+03:55:28     after-type ['Angle', 343, 216]
+03:55:28     after-type ['Instance count', 343, 242]
+03:55:28     after-type ['Equal spacing', 343, 269]
+03:55:28     after-type ['Centered', 343, 296]
+03:55:28     after-type ['Reapply features', 343, 323]
+03:55:28     after-type ['Skip instances', 356, 351]
+03:55:28     after-type ['Final', 356, 375]
+03:55:42  ABOUT TO: Features to pattern = Relief slit (tree row 100,495)
+03:55:44     after-feature ['Feature pattern', 343, 122]
+03:55:44     after-feature ['Features to pattern', 356, 151]
+03:55:44     after-feature ['Relief slit', 349, 172]
+03:55:44     after-feature ['Axis of pattern', 356, 203]
+03:55:44     after-feature ['Angle', 343, 234]
+03:55:44     after-feature ['Instance count', 343, 260]
+03:55:44     after-feature ['Equal spacing', 343, 287]
+03:55:44     after-feature ['Centered', 343, 314]
+03:55:44     after-feature ['Reapply features', 343, 341]
+03:55:44     after-feature ['Skip instances', 356, 369]
+03:55:44     after-feature ['Final', 356, 393]
+03:55:44  ABOUT TO: Axis of pattern = the collar's cylindrical face, clicked at (770,400)
+03:55:49     after-axis ['Feature pattern', 343, 122]
+03:55:49     after-axis ['Features to pattern', 356, 151]
+03:55:49     after-axis ['Relief slit', 349, 172]
+03:55:49     after-axis ['Axis of pattern', 343, 200]
+03:55:49     after-axis ['Face of Socket collar', 336, 221]
+03:55:49     after-axis ['Angle', 343, 252]
+03:55:49     after-axis ['Instance count', 343, 278]
+03:55:49     after-axis ['Equal spacing', 343, 305]
+03:55:49     after-axis ['Centered', 343, 332]
+03:55:49     after-axis ['Reapply features', 343, 359]
+03:55:49     after-axis ['Skip instances', 356, 387]
+03:55:49     after-axis ['Final', 356, 411]
+03:56:05     INPUT 2 '360 deg' at (363,252)
+03:56:05     INPUT 3 '4' at (386,278)
+03:56:05  ABOUT TO: tick 'Equal spacing' checkbox at (277,305)
+03:56:08     AFTER INPUT 2 '360 deg' at (363,252)
+03:56:08     AFTER INPUT 3 '4' at (386,278)
+03:56:36  ABOUT TO: click the 'Equal spacing' checkbox square at (256,305)
+03:57:12  ABOUT TO: accept Circular pattern 1 (four relief slits)
+03:57:15     AFTER-4-SLITS BODY x[-4.7 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=555.2423780105592
+03:57:16     PARTS: ['Hand']
+03:57:20  RENAMED 'Circular pattern 1' -> 'Relief slits x4' (box read back 'Relief slits x4')
+03:57:23     FEATURE Clip profile
+03:57:23     FEATURE Clip
+03:57:23     FEATURE Collar profile
+03:57:23     FEATURE Socket collar
+03:57:23     FEATURE Wrist ball profile
+03:57:23     FEATURE Wrist ball
+03:57:23     FEATURE Wrist socket
+03:57:23     FEATURE Slit profile
+03:57:23     FEATURE Relief slit
+03:57:23     FEATURE Relief slits x4
+03:57:54     STATE FqWXju6nCYV7T8W_1 = ERROR
+03:57:54     LAST FEATURE json: {"type": 134, "typeName": "BTMFeature", "message": {"featureType": "circularPattern", "featureId": "FqWXju6nCYV7T8W_1", "name": "Relief slits x4", "parameters": [{"type": 145, "typeName": "BTMParameterEnum", "message": {"enumName": "PatternType", "value": "FEATURE", "namespace": "", "parameterId": "patternType", "libraryRelationType": "DEFAULT", "parameterName": "", "hasUserCode": false, "nodeId": "SLPXggk1WiqL353D"}}, {"type": 145, "typeName": "BTMParameterEnum", "message": {"enumName": "NewBodyOperationType", "value": "NEW", "namespace": "", "parameterId": "operationType", "libraryRelationType": "DEFAULT", "parameterName": "", "hasUserCode": false, "nodeId": "vS8eOFF5PgKiblVW"}}, {"type": 148, "typeName": "BTMParameterQueryList", "message": {"queries": [], "filter": {"type": 110, "typeName": "BTAndFilter", "message": {"operand1": {"type": 110, "typeName": "BTAndFilter", "message": {"operand1": {"type": 167, "typeName": "BTOrFilter", "message": {"operand1": {"type": 124, "typeName": "BTEntityTypeFilter", "message": {"entityType": "BODY"}}, "operand2": {"type": 110, "typeName": "BTAndFilter", "message": {"operand1": {"type": 112, "typeName": "BTBodyTypeFilter", "message": {"bodyType": "MATE_CONNECTOR"}}, "operand2": {"type": 3810, "typeName": "BTInContextObjectFilter", "message": {"isInContext": false}}}}}}, "operand2": {"type": 1026, "typeName": "BTAllowMeshGeometryFilter", "message": {"allowsMeshGeometry": true}}}}, "operand2": {"type": 184, "typeName": "BTSketchObjectFilte
+03:57:56     SCREEN 'Relief slits x4 [Circular pattern] did not regenerate properly: Could not create all instances as entered. Try selecting "Reapply features" option.'
+03:57:56     SCREEN 'Relief slits x4 [Circular pattern] did not regenerate properly: Could not create all instances as entered. Try selecting "Reapply features" option.'
+03:58:15  ABOUT TO: double-click 'Relief slits x4' to edit it
+03:58:18     ['Feature pattern', 343, 122]
+03:58:18     ['Features to pattern', 356, 151]
+03:58:18     ['Relief slit', 349, 172]
+03:58:18     ['Axis of pattern', 343, 200]
+03:58:18     ['Face of Socket collar', 336, 221]
+03:58:18     ['Angle', 343, 252]
+03:58:18     ['Instance count', 343, 278]
+03:58:18     ['Equal spacing', 343, 305]
+03:58:18     ['Centered', 343, 332]
+03:58:18     ['Reapply features', 343, 359]
+03:58:18     ['Skip instances', 356, 387]
+03:58:18     ['Final', 356, 411]
+03:58:18  ABOUT TO: tick 'Reapply features' checkbox at (256,359)
+03:58:47  ABOUT TO: accept the pattern with 'Reapply features' ticked
+03:58:51     AFTER-REAPPLY BODY x[-4.682947789587239 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=530.4489103248033
+03:58:52     NON-OK feature states: []
+03:58:52     PARTS: ['Hand']
+03:59:18     FS notice: {"type": 227, "typeName": "BTNotice", "message": {"level": "INFO", "type": "SEMANTIC", "message": "Variable sph set but not used", "stackTrace": [{"type": 226, "typeName": "BTLocationInfo", "message": {"document": "8bcb46f7c9535c9d0daf19df", "version": "86c8b7a2b7de59b224503aa0", "topLevel": "", "pa
+03:59:18     FACES=40
+03:59:18     CYL r=1.65 axis(-1,0,0) x1
+03:59:18     CYL r=4.7 axis(0,0,-1) x4
+03:59:18     CYL r=5 axis(-1,0,0) x2
+03:59:18     PLANAR faces=32
+03:59:18     EDGES=106
+03:59:18     ARC d=10 c=(-3,0,-7) x2
+03:59:18     ARC d=10 c=(3,0,-7) x2
+03:59:18     ARC d=3.3 c=(-3,0,-7) x1
+03:59:18     ARC d=3.3 c=(3,0,-7) x1
+03:59:18     ARC d=3.9949969 c=(-2.5,0,0) x1
+03:59:18     ARC d=3.9949969 c=(0,-2.5,0) x1
+03:59:18     ARC d=3.9949969 c=(0,2.5,0) x1
+03:59:18     ARC d=3.9949969 c=(2.5,0,0) x1
+03:59:18     ARC d=5.8025856 c=(0,0,1.35) x4
+03:59:18     ARC d=6.3498031 c=(-0.4,0,0) x2
+03:59:18     ARC d=6.3498031 c=(0,-0.4,0) x2
+03:59:18     ARC d=6.3498031 c=(0,0.4,0) x2
+03:59:18     ARC d=6.3498031 c=(0.4,0,0) x2
+03:59:18     ARC d=9.4 c=(0,0,-4.15) x8
+03:59:18     ARC d=9.4 c=(0,0,1.35) x4
+03:59:50     SIDEWALL n=(-1,0,0) z[-12 .. -3.5489] x1
+03:59:50     SIDEWALL n=(-1,0,0) z[-4.15 .. -1.957] x1
+03:59:50     SIDEWALL n=(-1,0,0) z[-4.15 .. 1.35] x2
+03:59:50     SIDEWALL n=(0,-1,0) z[-4.15 .. -1.957] x1
+03:59:50     SIDEWALL n=(0,-1,0) z[-4.15 .. 1.35] x2
+03:59:50     SIDEWALL n=(0,1,0) z[-4.15 .. -1.957] x1
+03:59:50     SIDEWALL n=(0,1,0) z[-4.15 .. 1.35] x2
+03:59:50     SIDEWALL n=(1,0,0) z[-12 .. -3.5489] x1
+03:59:50     SIDEWALL n=(1,0,0) z[-4.15 .. -1.957] x1
+03:59:50     SIDEWALL n=(1,0,0) z[-4.15 .. 1.35] x2
+03:59:50     ZPLANE z=-4.15 n=-1 area=0.6783 x4
+03:59:50     ZPLANE z=-4.15 n=-1 area=3.5984 x4
+03:59:50     ZPLANE z=-4.15 n=1 area=0.4 x2
+03:59:50     ZPLANE z=-4.15 n=1 area=1.2866 x2
+03:59:50     ZPLANE z=-5.7 n=-1 area=22.8715 x1
+03:59:50     ZPLANE z=-8.3 n=1 area=22.8715 x1
+03:59:50     ZPLANE z=1.35 n=1 area=9.2966 x4
+04:00:50  ABOUT TO: Search tools -> Mirror (scratch symmetry check on the final geometry)
+04:00:56     opened ['Part mirror', 343, 122]
+04:00:56     opened ['New', 269, 149]
+04:00:56     opened ['Add', 313, 149]
+04:00:56     opened ['Remove', 366, 149]
+04:00:56     opened ['Intersect', 432, 149]
+04:00:56     opened ['Entities to mirror', 356, 182]
+04:00:56     opened ['Mirror plane', 356, 213]
+04:00:56     opened ['Final', 356, 242]
+04:00:56  ABOUT TO: Entities to mirror = Hand (Parts list)
+04:00:59     after-entity ['Part mirror', 343, 122]
+04:00:59     after-entity ['New', 269, 149]
+04:00:59     after-entity ['Add', 313, 149]
+04:00:59     after-entity ['Remove', 366, 149]
+04:00:59     after-entity ['Intersect', 432, 149]
+04:00:59     after-entity ['Entities to mirror', 356, 179]
+04:00:59     after-entity ['Hand', 349, 200]
+04:00:59     after-entity ['Mirror plane', 356, 231]
+04:00:59     after-entity ['Final', 356, 260]
+04:00:59  ABOUT TO: Mirror plane = Right (tree row)
+04:01:03     after-plane ['Part mirror', 343, 122]
+04:01:03     after-plane ['New', 268, 149]
+04:01:03     after-plane ['Add', 312, 149]
+04:01:03     after-plane ['Remove', 366, 149]
+04:01:03     after-plane ['Intersect', 432, 149]
+04:01:03     after-plane ['Entities to mirror', 356, 179]
+04:01:03     after-plane ['Hand', 349, 200]
+04:01:03     after-plane ['Mirror plane', 343, 228]
+04:01:03     after-plane ['Right plane', 336, 249]
+04:01:03     after-plane ['Merge with all', 343, 281]
+04:01:03     after-plane ['Merge scope', 356, 309]
+04:01:03     after-plane ['Final', 356, 359]
+04:01:03     after-plane ['Right (Hidden)', 286, 261]
+04:01:43  ABOUT TO: accept the scratch Mirror (Add, merged into Hand)
+04:01:48     WITH-MIRROR BODY x[-4.682947789587239 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=530.4489103248033
+04:01:48     PARTS with mirror: ['Hand']
+04:01:48  ABOUT TO: delete the scratch Mirror (right-click row at (100,547) -> Delete)
+04:01:52     Delete item at [211, 731]
+04:01:56     FEATURES: ['Clip profile', 'Clip', 'Collar profile', 'Socket collar', 'Wrist ball profile', 'Wrist ball', 'Wrist socket', 'Slit profile', 'Relief slit', 'Relief slits x4']
+04:01:56     FINAL BODY x[-4.682947789587239 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=530.4489103248033
+04:02:15     partId=JHD
+04:02:16  RENDER isometric -> 62-x-hand-isometric.png
+04:02:17  RENDER front -> 62-x-hand-front.png
+04:02:18  RENDER right -> 62-x-hand-right.png
+04:02:19  RENDER top -> 62-x-hand-top.png
+04:02:20  RENDER bottom -> 62-x-hand-bottom.png
+04:03:00  ABOUT TO: left rail (20,94) Create version... -> hand-run3-v2
+04:03:12     VERSION Start            id=cb6fb76d217b2f94aff77c7b
+04:03:12     VERSION hand-run3-v1     id=a41a7b94671210b304484ab0
+04:03:12     VERSION hand-run3-v2     id=2f5fcbb9c62198049febf318
+04:03:27     v2 parts HTTP 200 -> ['Hand']
+04:03:27  ABOUT TO: open the v2 version link in my own page
+04:03:41     version page url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/v/2f5fcbb9c62198049febf318/e/8bcb46f7c9535c9d0daf19df title='hand-run3 | Part Studio 1'
+04:03:41  ABOUT TO: return to the live workspace link
+04:03:54     workspace page url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19df
+04:03:54     LIVE BODY x[-4.682947789587239 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=530.4489103248034
+04:08:29     features HTTP 429 keys=[] -- retrying
+04:08:33     features HTTP 429 keys=[] -- retrying
+04:08:37     features HTTP 429 keys=[] -- retrying
+04:08:41  FINAL: features=[] non-OK=[]
+04:08:42  FINAL: parts=['Hand']
+04:08:42  FINAL: BODY x[-4.682947789587239 .. 4.682947789587239] y[-4.9999999999999885 .. 4.828043081829325] z[-12 .. 1.35] vol=530.4489103248033
+04:08:42  FINAL: build-notes.md written; versions hand-run3-v1 a41a7b94671210b304484ab0 and hand-run3-v2 2f5fcbb9c62198049febf318 published.
+04:08:42  DONE.

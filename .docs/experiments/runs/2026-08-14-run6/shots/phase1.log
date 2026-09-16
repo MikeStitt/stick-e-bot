@@ -1,0 +1,23 @@
+06:19:59 Create button box: {'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+06:20:09 about to click Document... in the Create menu at (65, 100)
+06:20:10 clicked Document... in the Create menu -> 02-b-done-document-in-the-create-menu.png
+06:21:02 name field reads: 'ball-socket-run6'
+06:21:30 about to click Create, in the New document dialog at (978, 542)
+06:21:36 clicked Create, in the New document dialog -> 06-b-done-create-in-the-new-document-dialog.png
+06:21:36 url: https://cad.onshape.com/documents/491fe2055ca07871a9595795/w/5c5bad37130f0600b0dd7362/e/3ccd175be27c45f0552b4336
+06:23:25 selects: 22
+06:23:25   [0] value='2: inch' box={'x': 257, 'y': 166.59375, 'width': 209, 'height': 26}
+06:23:25   [1] value='3: 3' box={'x': 475, 'y': 166.59375, 'width': 99, 'height': 26}
+06:23:25   [2] value='1: inchPerSecondSquared' box={'x': 257, 'y': 225.59375, 'width': 209, 'height': 26}
+06:23:25   [3] value='3: 3' box={'x': 475, 'y': 225.59375, 'width': 99, 'height': 26}
+06:23:39 length unit now '4: millimeter', decimals '5: 5'
+06:23:39 about to click the green check on Workspace units at (541, 93)
+06:23:40 clicked the green check on Workspace units -> 10-b-done-the-green-check-on-workspace-units.png
+06:24:35 MADE hinge-run6 -> 17ece80eb53c332dd3c185ef
+06:24:59 MADE torso-run6 -> a0aeea9c9b4061e021977e57
+06:25:23 MADE head-run6 -> d0d75cf75bd29b2e576093e4
+06:25:47 MADE limb-socket-clevis-run6 -> 99c49282225f3a7392b2d56b
+06:26:11 MADE limb-blade-ball-run6 -> 80a7c10c524313e8e741ebfd
+06:26:34 MADE hand-run6 -> 8887c2fc2657197fce7057c5
+06:26:58 MADE foot-run6 -> f0fe0b1c973c187888d9386a
+06:27:22 MADE lesson-run6 -> 3862c2b969b83ea9de2b6430

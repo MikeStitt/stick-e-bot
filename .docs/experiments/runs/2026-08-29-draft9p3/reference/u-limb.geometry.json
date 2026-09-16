@@ -1,0 +1,42 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "656816292447e8797ff0402d",
+ "sketches": {
+  "limb section": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      -0.0
+     ],
+     "id": "E1gBDLlmZMNr",
+     "radius": 12.0,
+     "type": "circle"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     -9.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     -1,
+     0
+    ]
+   }
+  }
+ },
+ "wid": "a1af16872d25103815f1c32a"
+}

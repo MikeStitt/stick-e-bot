@@ -1,0 +1,360 @@
+14:12:48 about to: check python + playwright + CDP 9223 reachable
+14:15:31 about to: create my own page, stamp it HINGE_RUN2, go to Onshape documents list
+14:15:38 result: page created, stamped. title="Spires Robotics | Documents" url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+14:16:00 about to: click Create > Document... and create document named hinge-run2
+14:16:14 result: document created: url=https://cad.onshape.com/documents/2348323d25181f7cb2a9aa9b/w/c212ee7b57e375bad9ac812c/e/e4c380b1b66226462df485f2 title="hinge-run2 | Part Studio 1"
+14:16:47 about to: open hamburger menu next to document name to reach Workspace units
+14:17:09 about to: open Workspace units dialog and inspect its controls
+14:17:35 about to: open doc menu and click Workspace units... in one go
+14:18:02 about to: set Length default unit = Millimeter, Display decimals = 0.12345, then accept with green check
+14:18:22 about to: accept Workspace units with the green ok-button
+14:18:28 result: reopened units dialog: length=4: millimeter decimals=5: 5
+14:19:38 about to: open a sketch on the Front plane and calibrate screen->model with a throwaway circle
+14:19:45 result: ERROR Cannot read properties of undefined (reading 'slice')
+14:20:33 about to: undo throwaway circle, press n to view normal to the sketch plane
+14:20:37 result: pressed n; screenshot taken
+14:21:21 about to: draw circle centred on origin, dimension it, read pre-filled value to calibrate mm/px
+14:22:19 about to: commit circle diameter 11.62 mm with Enter, then zoom in and re-calibrate
+14:23:16 about to: cancel throwaway dimension, delete throwaway circle, zoom in further, recalibrate
+14:24:12 about to: remove throwaway calibration circle; dump sketch toolbar command-ids
+14:24:31 about to: open the constraint dropdown to read every constraint name and shortcut
+14:25:15 about to: draw corner rectangle above the X axis, then make its bottom edge coincident with the X axis
+14:25:23 result: rectangle drawn; coincident applied between bottom edge and X axis
+14:26:32 about to: test: hover then click the rectangle bottom edge, screenshot to confirm the pick landed
+14:27:16 about to: clear selection, pick rectangle bottom edge + circle centre point, apply Coincident
+14:27:56 about to: make left then right rectangle edge Tangent to the round-end circle
+14:28:45 about to: dimension origin-to-top-edge = 6.11 mm (the set-back d), fully defining the fork profile
+14:29:22 about to: accept Sketch 1 with the green tick, then rename it to "Fork profile"
+14:29:28 result: features now: ["Sketch 1 [newSketch]"]
+14:30:03 about to: escape any armed tool, inspect the sketch, then accept it with the green tick at (423,93)
+14:30:29 about to: right-click Sketch 1 in the feature tree to find the Rename item
+14:30:52 about to: rename feature "Sketch 1" to "Fork profile"
+14:30:58 result: features now: ["Fork profile"]
+14:31:18 about to: select the Fork profile sketch and open the Extrude dialog; dump its parameter rows
+14:31:53 about to: tick Symmetric, set Depth = 6 mm (the fork span), keep operation New, accept
+14:32:00 result: features: ["Fork profile","Extrude 1"]
+14:33:33 about to: rename feature "Extrude 1" to "Clevis fork blank"
+14:33:39 result: features now: ["Fork profile","Clevis fork blank"]
+14:33:56 about to: open a new sketch on Top, orient normal to it, calibrate
+14:34:03 result: sketch open on Top, normal-to applied
+14:34:52 about to: zoom in, draw Ø12 limb-section circle on the origin, dimension it to 12 mm
+14:35:48 about to: add a 30x30 centre-point rectangle around the Ø12 circle (the trim tool region)
+14:36:33 about to: dimension the trim square height to 30 mm, then accept the sketch
+14:36:42 result: features: ["Fork profile","Clevis fork blank","Sketch 1"]
+14:37:07 about to: rename feature "Sketch 1" to "Limb section"
+14:37:12 result: features now: ["Fork profile","Clevis fork blank","Limb section"]
+14:37:36 about to: extrude-remove the square-minus-circle region symmetric 40 mm, trimming the fork ends back to the Ø12 limb surface
+14:38:18 about to: set Remove + Symmetric + depth 40 on the trim extrude, check merge scope, accept
+14:38:51 about to: accept the open feature dialog (green tick)
+14:38:59 result: features: ["Fork profile","Clevis fork blank","Limb section","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK"]
+14:39:00 about to: rename feature "Extrude 1" to "Trim fork to limb"
+14:39:07 result: features now: ["Fork profile","Clevis fork blank","Limb section","Extrude 1"]
+14:39:16 about to: rename feature "Extrude 1" to "Trim fork to limb"
+14:39:16 result: ERROR row not found: Extrude 1
+14:39:51 about to: create an offset plane 6.11 mm from Top
+14:40:29 about to: set plane offset distance to 6.11 mm and accept, then look from the Front to see which side it landed
+14:40:38 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Plane 1"]
+14:40:57 about to: rename feature "Plane 1" to "Clevis rod base"
+14:41:03 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Plane 1"]
+14:41:03 about to: open a new sketch on Clevis rod base, orient normal to it, calibrate
+14:41:04 result: ERROR plane row not found: Clevis rod base
+14:41:46 about to: rename feature "Plane 1" to "Clevis rod base"
+14:41:53 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base"]
+14:42:02 about to: open a new sketch on Clevis rod base, orient normal to it, calibrate
+14:42:10 result: sketch open on Clevis rod base, normal-to applied
+14:42:42 about to: draw a circle on the sketch origin (921,473) and dimension it Ø12 mm
+14:42:53 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Sketch 1"]
+14:43:10 about to: rename feature "Sketch 1" to "Clevis rod circle"
+14:43:16 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle"]
+14:43:43 about to: extrude "Clevis rod circle" as Add, depth 14 mm, symmetric=false, flip=false
+14:44:06 about to: accept the open feature dialog (green tick)
+14:44:11 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+14:44:46 about to: rename feature "Extrude 1" to "Clevis limb"
+14:44:52 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb"]
+14:44:53 about to: extrude "Fork profile" as Remove, depth 3.6 mm, symmetric=true, flip=false
+14:45:18 about to: accept the open feature dialog (green tick)
+14:45:24 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+14:45:24 about to: rename feature "Extrude 1" to "Clevis slot"
+14:45:31 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot"]
+14:45:49 about to: render JHD from views isometric/front/right/bottom via shadedviews
+14:45:53 result: renders written for 15-clevis
+14:46:16 about to: open a new sketch on Front, orient normal to it, calibrate
+14:46:24 result: sketch open on Front, normal-to applied
+14:47:04 about to: pan the view by (0,-360) px with a middle-drag
+14:47:54 about to: draw the blade round-end circle on the origin and dimension it Ø11.62
+14:48:40 about to: draw the blade body rectangle below the axis and constrain it: top edge through the origin, sides tangent to the round end
+14:49:18 about to: make both blade side edges Tangent to the round-end circle
+14:50:07 about to: select both blade side edges and read the parallel-distance readout to check the width is 11.62
+14:50:54 about to: retry: right blade edge Tangent to the round-end circle, then re-read the width
+14:51:37 about to: dimension origin-to-blade-bottom-edge = 6.11 mm, then accept the blade profile sketch
+14:52:16 about to: accept the open feature dialog (green tick)
+14:52:21 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Sketch 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+14:52:23 about to: rename feature "Sketch 1" to "Blade profile"
+14:52:29 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile"]
+14:52:30 about to: extrude "Blade profile" as New, depth 3 mm, symmetric=true, flip=false
+14:52:46 about to: accept the open feature dialog (green tick)
+14:52:51 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+14:52:52 about to: rename feature "Extrude 1" to "Blade blank"
+14:52:59 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank"]
+14:53:32 about to: create an offset plane 6.11 mm from Top (flip=true)
+14:53:45 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Plane 1"]
+14:54:09 about to: rename feature "Plane 1" to "Blade rod base"
+14:54:16 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base"]
+14:54:17 about to: open a new sketch on Blade rod base, orient normal to it, calibrate
+14:54:24 result: sketch open on Blade rod base, normal-to applied
+14:54:44 about to: draw a circle on the sketch origin (921,473) and dimension it Ø12 mm
+14:54:56 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Sketch 1"]
+14:54:57 about to: rename feature "Sketch 1" to "Blade rod circle"
+14:55:03 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle"]
+14:55:13 about to: extrude "Blade rod circle" as Add, depth 14 mm, symmetric=false, flip=true
+14:55:37 about to: accept the open feature dialog (green tick)
+14:55:43 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+14:55:44 about to: rename feature "Extrude 1" to "Blade limb"
+14:55:51 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb"]
+14:56:12 about to: create an offset plane 1.8 mm from Front (flip=false)
+14:56:24 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Plane 1"]
+14:56:51 about to: rename feature "Plane 1" to "Ear inner face"
+14:56:57 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face"]
+14:56:58 about to: open a new sketch on Ear inner face, orient normal to it, calibrate
+14:57:05 result: sketch open on Ear inner face, normal-to applied
+14:57:31 about to: draw a circle on the sketch origin (921,859) and dimension it Ø2 mm
+14:57:44 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Sketch 1"]
+14:57:45 about to: rename feature "Sketch 1" to "Stub circle"
+14:57:50 result: ERROR inline rename editor not found
+14:58:33 about to: clear the feature-tree filter box and report the current state
+14:59:04 about to: right-click "Sketch 1" in the feature tree and choose "Delete"
+14:59:10 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face"]
+14:59:43 about to: open a new sketch on Ear inner face, orient normal to it, calibrate
+14:59:50 result: sketch open on Ear inner face, normal-to applied
+15:00:00 about to: draw circle at origin (921,859), rim at +(200,-100); dimension Ø2 mm with the label at +(409,-459)
+15:00:13 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Sketch 1"]
+15:00:43 about to: rename feature "Sketch 1" to "Stub circle"
+15:00:49 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle"]
+15:00:52 about to: extrude "Stub circle" as Add, depth 0.8 mm, symmetric=false, flip=false
+15:01:36 about to: click into the Merge scope field and pick Part 1
+15:01:53 about to: accept the open feature dialog (green tick)
+15:01:57 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:01:58 about to: render JHD from views isometric/right via shadedviews
+15:02:00 result: renders written for 24-stubcheck
+15:02:47 about to: right-click "Extrude 1" in the feature tree and choose "Delete"
+15:02:53 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle"]
+15:02:54 about to: right-click "Stub circle" in the feature tree and choose "Delete"
+15:02:59 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face"]
+15:03:26 about to: open a new sketch on Ear inner face, orient normal to it, calibrate
+15:03:33 result: sketch open on Ear inner face, normal-to applied
+15:03:34 about to: draw circle at origin (921,859), rim at +(200,-100); dimension Ø2 mm with the label at +(409,-459)
+15:03:48 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Sketch 1"]
+15:03:59 about to: rename feature "Sketch 1" to "Stub circle"
+15:04:06 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle"]
+15:04:07 about to: extrude "Stub circle" as Add, depth 0.8 mm, symmetric=false, flip=false
+15:04:14 about to: click into the Merge scope field and pick Part 1
+15:04:52 about to: focus Merge scope then pick the target body in the graphics area at (900,620)
+15:05:04 about to: accept the open feature dialog (green tick)
+15:05:09 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","INFO","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:05:11 about to: render JHD from views isometric/right via shadedviews
+15:05:13 result: renders written for 26-stubcheck
+15:06:00 about to: right-click "Extrude 1" in the feature tree and choose "Suppress"
+15:06:05 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Extrude 1"]
+15:06:37 about to: right-click "Extrude 1" in the feature tree and choose "Unsuppress"
+15:06:42 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Extrude 1"]
+15:07:07 about to: edit "Extrude 1" and flip its extrude direction
+15:07:35 about to: rename feature "Extrude 1" to "Stub"
+15:07:37 result: ERROR Rename item not found in context menu
+15:07:47 about to: rename feature "Extrude 1" to "Stub"
+15:07:49 result: ERROR Rename item not found in context menu
+15:08:29 about to: rename feature "Extrude 1" to "Stub"
+15:08:32 result: ERROR Rename item not found in context menu
+15:09:07 about to: choose Hide all planes from the open context menu, then clear the selection
+15:09:14 about to: rename feature "Extrude 1" to "Stub"
+15:09:21 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub"]
+15:10:10 about to: open Mirror with "Stub" preselected
+15:10:50 about to: switch Mirror to Feature mirror, pick the Stub feature and the Front plane
+15:11:21 about to: open the Mirror type dropdown and choose Feature mirror
+15:12:01 about to: fill the Mirror dialog: features=Stub, plane=Front, Reapply features ticked
+15:12:29 about to: accept the open feature dialog (green tick)
+15:12:33 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Mirror 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:12:36 about to: rename feature "Mirror 1" to "Stub on other ear"
+15:12:47 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear"]
+15:13:08 about to: create an offset plane 1.5 mm from Front (flip=false)
+15:13:20 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Plane 1"]
+15:13:21 about to: rename feature "Plane 1" to "Blade face"
+15:13:29 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face"]
+15:13:30 about to: open a new sketch on Blade face, orient normal to it, calibrate
+15:13:37 result: sketch open on Blade face, normal-to applied
+15:14:14 about to: set the open sketch's plane to Blade face
+15:14:43 about to: draw circle at origin (921,859), rim at +(200,-100); dimension Ø2.2 mm with the label at +(409,-459)
+15:14:56 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Sketch 1"]
+15:14:57 about to: rename feature "Sketch 1" to "Pocket circle"
+15:15:04 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle"]
+15:15:15 about to: extrude "Pocket circle" as Remove, depth 1.0 mm, symmetric=false, flip=true
+15:16:10 about to: pick "Pocket circle" into the extrude entities field, then zoom out so the blade limb is clickable
+15:16:46 about to: focus Merge scope then pick the target body in the graphics area at (912,890)
+15:16:59 about to: accept the open feature dialog (green tick)
+15:17:03 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","INFO","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:17:18 about to: edit "Extrude 1" and flip its extrude direction
+15:17:41 about to: rename feature "Extrude 1" to "Pocket"
+15:17:44 result: ERROR Rename item not found in context menu
+15:17:45 about to: open Mirror with "Pocket" preselected
+15:17:45 result: ERROR feature row not found: Pocket
+15:17:46 about to: open the Mirror type dropdown and choose Feature mirror
+15:17:51 result: ERROR Feature mirror item not visible
+15:18:37 about to: rename feature "Extrude 1" to "Pocket"
+15:18:45 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket"]
+15:18:58 about to: open Mirror with "Pocket" preselected
+15:19:07 about to: open the Mirror type dropdown and choose Feature mirror
+15:19:13 about to: fill the Mirror dialog: features=Pocket, plane=Front, Reapply features ticked
+15:19:32 about to: clear the feature-tree filter box and report the current state
+15:20:13 about to: cancel the stray sketch dialog with the red X
+15:20:18 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Mirror 1"]
+15:20:19 about to: right-click "Mirror 1" in the feature tree and choose "Delete"
+15:20:25 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket"]
+15:20:52 about to: open Mirror with "Pocket" preselected
+15:21:01 about to: open the Mirror type dropdown and choose Feature mirror
+15:21:05 about to: fill the Mirror dialog: features=Pocket, plane=Front, Reapply features ticked
+15:21:37 about to: accept the open feature dialog (green tick)
+15:21:41 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Mirror 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:21:43 about to: rename feature "Mirror 1" to "Pocket on other face"
+15:21:52 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face"]
+15:22:31 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+15:22:59 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+15:23:12 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+15:23:30 about to: rename feature "Part 1" to "Clevis"
+15:23:38 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face"]
+15:23:39 about to: rename feature "Part 2" to "Blade"
+15:23:43 result: ERROR Rename item not found in context menu
+15:23:56 about to: rename feature "Part 2" to "Blade"
+15:23:59 result: ERROR Rename item not found in context menu
+15:24:51 about to: rename part "Part 2" to "Blade" (clearing the selection in the graphics area first)
+15:24:54 result: ERROR Rename not in menu
+15:25:32 about to: right-click a plane in the graphics area and choose Hide all planes
+15:25:34 result: ERROR Hide all planes not offered
+15:25:35 about to: rename part "Part 2" to "Blade" (clearing the selection in the graphics area first)
+15:25:39 result: ERROR Rename not in menu
+15:26:40 about to: rename Part 2 -> Blade: click Clevis, then Part 2, then right-click Part 2
+15:26:43 result: ERROR Rename not in menu
+15:27:09 about to: rename part "Part 2" to "Blade" (clearing the selection in the graphics area first)
+15:27:13 result: ERROR Rename not in menu
+15:28:01 about to: zoom out so the construction planes shrink, click truly empty space to clear, then rename Part 2
+15:28:27 about to: render JHD from views isometric/front/right/bottom via shadedviews
+15:28:31 result: renders written for 40-clevis-s1
+15:28:32 about to: render JVD from views isometric/front/right/top via shadedviews
+15:28:35 result: renders written for 41-blade-s1
+15:29:31 CHECKPOINT stage 1 complete: 2 parts (Clevis, Blade); min distance 0.10000 mm; ear inner faces y=+/-1.8, blade faces +/-1.5 (gap 0.300 each side); stub ends +/-1.0; pocket floors +/-0.5 (web 1.000); stub volume 2.51327 mm3 x2; pocket volume 3.80133 mm3 x2
+15:29:42 about to: open a new sketch on Ear inner face, orient normal to it, calibrate
+15:29:49 result: sketch open on Ear inner face, normal-to applied
+15:30:36 about to: zoom 39 ticks centred on (921,522)
+15:31:34 about to: draw the detent bump circle above the hinge axis and dimension it Ø0.9
+15:32:23 about to: constrain the bump centre vertically above the origin, then dimension the band radius 5.05
+15:32:34 result: ERROR distance dimension pick failed
+15:33:18 about to: dimension origin-to-bump-centre = 5.05 mm (mid of the r4.60-5.50 band)
+15:33:49 about to: accept the open feature dialog (green tick)
+15:33:53 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Sketch 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:33:55 about to: rename feature "Sketch 1" to "Detent bump circle"
+15:34:03 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle"]
+15:34:04 about to: extrude "Detent bump circle" as Add, depth 0.6 mm, symmetric=false, flip=true
+15:34:34 about to: pick "Detent bump circle" into the extrude entities field, then zoom out so the blade limb is clickable
+15:35:08 about to: focus Merge scope then pick the target body in the graphics area at (920,250)
+15:35:12 about to: accept the open feature dialog (green tick)
+15:35:16 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Extrude 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:36:02 about to: rename feature "Extrude 1" to "Detent bump"
+15:36:11 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump"]
+15:36:12 about to: orient the camera normal to Right
+15:36:46 about to: click the view-cube control at (1580,166)
+15:37:51 about to: right-click "Blade" in the feature tree and choose "Hide"
+15:37:57 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump"]
+15:37:58 about to: open the view dropdown and choose Isometric
+15:38:40 about to: deselect, hide all planes, zoom onto the fork so the stub is pickable
+15:39:22 about to: click the view-cube control at (1530,178)
+15:40:18 about to: open Circular pattern with "Detent bump" preselected
+15:40:53 about to: switch the pattern type dropdown to Feature pattern
+15:41:32 about to: fill circular pattern: features=Detent bump, axis picked at (873,758), 24 instances over 360 deg
+15:42:07 about to: accept the open feature dialog (green tick)
+15:42:13 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump","Circular pattern 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:43:01 about to: rename feature "Circular pattern 1" to "Detent bumps x24"
+15:43:10 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump","Detent bumps x24n 1"]
+15:43:11 about to: open Mirror with "Detent bump" preselected
+15:43:20 about to: open the Mirror type dropdown and choose Feature mirror
+15:43:25 about to: Feature mirror of "Detent bump" + "Detent bumps x24" about the Front plane, Reapply features ticked
+15:43:27 result: ERROR row not found Detent bumps x24
+15:43:40 about to: cancel the stray sketch dialog with the red X
+15:43:44 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump","Detent bumps x24n 1"]
+15:43:58 about to: rename feature "Detent bumps x24n 1" to "Detent bumps x24"
+15:44:06 result: features now: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump","Detent bumps x24"]
+15:44:23 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+15:44:24 about to: clear the feature-tree filter box and report the current state
+15:45:01 about to: open Mirror with "Detent bump" preselected
+15:45:10 about to: open the Mirror type dropdown and choose Feature mirror
+15:45:15 about to: Feature mirror of "Detent bump" + "Detent bumps x24" about the Front plane, Reapply features ticked
+15:45:53 about to: accept the open feature dialog (green tick)
+15:45:57 result: features: ["Fork profile","Clevis fork blank","Limb section","Trim fork to limb","Clevis rod base","Clevis rod circle","Clevis limb","Clevis slot","Blade profile","Blade blank","Blade rod base","Blade rod circle","Blade limb","Ear inner face","Stub circle","Stub","Stub on other ear","Blade face","Pocket circle","Pocket","Pocket on other face","Detent bump circle","Detent bump","Detent bumps x24","Mirror 1"] states: ["OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+15:46:00 about to: rename feature "Mirror 1" to "Detent bumps on other ear"
+15:46:08 result: features now: []
+15:46:32 about to: right-click "Blade" in the feature tree and choose "Show"
+15:46:38 result: features: []
+15:46:39 about to: open a new sketch on Blade face, orient normal to it, calibrate
+15:46:46 result: sketch open on Blade face, normal-to applied
+15:47:41 about to: draw the detent valley circle Ø1.0 at r 5.05 on the blade face
+15:47:55 result: ERROR distance dimension pick failed
+15:48:42 about to: dimension the distance between (725,718) and (725,758) = 5.05 mm
+15:49:17 about to: accept the open feature dialog (green tick)
+15:49:21 result: features: [] states: []
+15:49:22 about to: rename feature "Sketch 1" to "Detent valley circle"
+15:49:30 result: features now: []
+15:49:31 about to: extrude "Detent valley circle" as Remove, depth 0.45 mm, symmetric=false, flip=true
+15:49:41 about to: pick "Detent valley circle" into the extrude entities field, then zoom out so the blade limb is clickable
+15:50:13 about to: focus Merge scope then pick the target body in the graphics area at (795,900)
+15:50:18 about to: accept the open feature dialog (green tick)
+15:50:22 result: features: [] states: []
+15:50:36 about to: edit "Extrude 1" and flip its extrude direction
+15:51:09 about to: rename feature "Extrude 1" to "Detent valley"
+15:51:17 result: features now: []
+15:51:18 about to: right-click "Blade" in the feature tree and choose "Hide"
+15:51:24 result: features: []
+15:51:25 about to: click the view-cube control at (1530,178)
+15:51:56 about to: click the view-cube control at (1580,166)
+15:52:40 about to: click the view-cube right arrow 5 times
+15:53:21 about to: open Circular pattern with "Detent valley" preselected
+15:53:32 about to: switch the pattern type dropdown to Feature pattern
+15:53:37 about to: fill circular pattern: features=Detent valley, axis picked at (893,522), 24 instances over 360 deg
+15:54:26 about to: re-pick the pattern axis at (891,500)
+15:55:27 about to: zoom 25 ticks at (900,522)
+15:56:02 about to: re-pick the pattern axis at (900,530)
+15:56:39 about to: accept the open feature dialog (green tick)
+15:56:43 result: features: [] states: []
+15:56:46 about to: rename feature "Circular pattern 1" to "Detent valleys x24"
+15:56:54 result: features now: []
+15:57:09 about to: clear the feature-tree filter box and report the current state
+15:58:22 about to: rename feature "Detent valleys x24n 1" to "Detent valleys x24"
+15:58:30 result: features now: []
+15:59:49 about to: open Mirror with "Detent valley" preselected
+15:59:58 about to: open the Mirror type dropdown and choose Feature mirror
+16:00:03 about to: Feature mirror of "Detent valley" + "Detent valleys x24" about the Front plane, Reapply features ticked
+16:00:42 about to: accept the open feature dialog
+16:01:28 about to: rename feature "Mirror 1" to "Detent valleys on other face"
+16:01:37 result: features now: []
+16:01:43 about to: right-click "Blade" in the feature tree and choose "Show"
+16:01:49 result: features: []
+16:02:00 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+16:02:17 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+16:02:36 about to: evaluate a FeatureScript snippet against the part studio (read-only measurement)
+16:02:56 about to: render JHD from views isometric/bottom/right via shadedviews
+16:02:58 result: renders written for 60-clevis
+16:03:07 about to: render JVD from views isometric/top/front via shadedviews
+16:03:10 result: renders written for 61-blade
+16:04:05 about to: render ALL from views isometric/right via shadedviews
+16:04:06 result: renders written for 62-both
+16:04:38 about to: open the document menu and look for Create version
+16:05:01 about to: open the Versions and history panel from the left rail
+16:05:24 about to: right-click the Main workspace row and choose Create version
+16:05:58 about to: click Create version in the Versions and history panel header
+16:06:33 about to: click Create version... and name the version
+16:06:53 about to: name the version "stage-2-detents" and create it
+16:06:59 result: version created; url=https://cad.onshape.com/documents/2348323d25181f7cb2a9aa9b/w/c212ee7b57e375bad9ac812c/e/e4c380b1b66226462df485f2
+16:07:14 about to: read the version list back over REST
+16:07:35 about to: open the published version link and confirm it renders
+16:07:50 result: opened https://cad.onshape.com/documents/2348323d25181f7cb2a9aa9b/v/474270a65596f317b77999cd/e/e4c380b1b66226462df485f2 title="hinge-run2 | Part Studio 1"
+16:08:31 about to: open the live workspace link and confirm it renders
+16:08:45 result: opened https://cad.onshape.com/documents/2348323d25181f7cb2a9aa9b/w/c212ee7b57e375bad9ac812c/e/e4c380b1b66226462df485f2 title="hinge-run2 | Part Studio 1"
+16:14:15 about to: render ALL from views front via shadedviews
+16:14:16 result: renders written for 62-both
+16:15:08 CHECKPOINT stage 2 complete and written up. Version stage-2-detents id 474270a65596f317b77999cd published; build-notes.md written; min part distance 0.05000 mm; 48 detent bumps + 48 valleys.

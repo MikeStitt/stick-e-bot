@@ -1,0 +1,103 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "88de5da8c7611f141a1a92a9",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#limbD = 24 mm",
+  "add blade",
+  "limb section",
+  "limb",
+  "mate for ball stud",
+  "add ball stud",
+  "move ball stud",
+  "combine parts",
+  "elbow end",
+  "wrist end"
+ ],
+ "features": {
+  "#limbD = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "limb section",
+    "limb"
+   ]
+  },
+  "add blade": {
+   "upstream": [],
+   "downstream": [
+    "combine parts",
+    "elbow end",
+    "wrist end"
+   ]
+  },
+  "limb section": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "#limbD = 24 mm"
+   ],
+   "downstream": [
+    "limb"
+   ]
+  },
+  "limb": {
+   "upstream": [
+    "#limbD = 24 mm",
+    "limb section"
+   ],
+   "downstream": [
+    "mate for ball stud",
+    "combine parts"
+   ]
+  },
+  "mate for ball stud": {
+   "upstream": [
+    "limb"
+   ],
+   "downstream": [
+    "move ball stud"
+   ]
+  },
+  "add ball stud": {
+   "upstream": [],
+   "downstream": [
+    "move ball stud",
+    "combine parts",
+    "wrist end"
+   ]
+  },
+  "move ball stud": {
+   "upstream": [
+    "mate for ball stud",
+    "add ball stud"
+   ],
+   "downstream": []
+  },
+  "combine parts": {
+   "upstream": [
+    "add blade",
+    "limb",
+    "add ball stud"
+   ],
+   "downstream": []
+  },
+  "elbow end": {
+   "upstream": [
+    "add blade"
+   ],
+   "downstream": []
+  },
+  "wrist end": {
+   "upstream": [
+    "add blade",
+    "add ball stud"
+   ],
+   "downstream": []
+  }
+ }
+}

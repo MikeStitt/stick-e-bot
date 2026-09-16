@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-90 -36 180 58" width="1152" height="371" font-family="ui-monospace, Menlo, monospace"><style>
+  .part  { fill:#dfe7ec; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .ghost { fill:#eef2f5; stroke:#8ea0ad; stroke-width:0.7; stroke-linejoin:round; }
+  .void  { fill:#ffffff; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .mate  { fill:#f6f9fa; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .hid   { fill:none; stroke:#5b6b78; stroke-width:0.4; stroke-dasharray:2 1.4; }
+  .dim   { stroke:#b8156e; stroke-width:0.35; fill:none; }
+  .dimt  { fill:#b8156e; font-size:4.2px; font-weight:700; }
+  .name  { fill:#12303c; font-size:5px; font-weight:700; letter-spacing:0.06em; }
+  .call  { fill:#43525e; font-size:3.4px; }
+  .lead  { stroke:#8ea0ad; stroke-width:0.3; fill:none; }
+  .lbl   { fill:#43525e; font-size:4.6px; font-weight:700; letter-spacing:0.12em; }
+  .note  { fill:#6b7a88; font-size:3.6px; }
+  .warn  { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .ctr   { stroke:#7f8f9c; stroke-width:0.3; stroke-dasharray:6 2 1 2; }
+  .stn   { stroke:#0b6e86; stroke-width:0.25; stroke-dasharray:3 2; }
+  .gnd   { stroke:#0b6e86; stroke-width:0.8; }
+  .tooth { stroke:#1d262e; stroke-width:0.5; fill:none; }
+  .det * { vector-effect: non-scaling-stroke; }
+  .fig * { vector-effect: non-scaling-stroke; }
+  .fig .call { font-size:6.83655px; }
+  .fig .note { font-size:7.2387px; }
+  .fig .name { font-size:10.0537px; }
+  .fig .dimt { font-size:8.44515px; }
+  .fig .lbl { font-size:9.24945px; }
+  .fig .warn { font-size:7.2387px; }
+
+  .rod   { fill:#f3e6d8; stroke:#1d262e; stroke-width:0.9; stroke-linejoin:round; }
+  .bad   { fill:#b8156e; font-size:3.6px; font-weight:700; }
+  .good  { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+  .head  { fill:#12303c; font-size:5.4px; font-weight:700; letter-spacing:0.04em; }
+  .sub   { fill:#43525e; font-size:3.8px; }
+  .arrow { stroke:#b8156e; stroke-width:0.7; fill:none; }
+  .conn  { stroke:#0b6e86; stroke-width:0.8; fill:none; }
+  .connd { fill:#0b6e86; font-size:3.6px; font-weight:700; }
+</style><rect class="part" x="-12" y="-8" width="6.85" height="16"/><rect class="part" x="5.15" y="-8" width="6.85" height="16"/><rect class="void" x="-12" y="-2.2" width="6.85" height="4.4"/><rect class="void" x="5.15" y="-2.2" width="6.85" height="4.4"/><rect class="mate" x="-5" y="-8" width="10" height="16"/><rect class="void" x="-2" y="-8" width="4" height="16"/><rect class="mate" x="-6.3" y="-2" width="1.3" height="4"/><rect class="mate" x="5" y="-2" width="1.3" height="4"/><path class="ctr" d="M -15,0 H 15"/><path class="lead" d="M -3.5,-8 L -18,-20"/><text class="call" x="-19" y="-18.8" text-anchor="end">one leaf, 3 mm of a 10 mm tongue</text><path class="lead" d="M -5.65,-2 L -18,-13"/><text class="call" x="-19" y="-11.8" text-anchor="end">the axle, &#216;4 mm</text><path class="lead" d="M -5.075,8 L -18,15"/><text class="call" x="-19" y="16.2" text-anchor="end">the gap it crosses, 0.15 mm</text><path class="lead" d="M 5.65,-2 L 18,-20"/><text class="call" x="19" y="-18.8" text-anchor="start">1.15 mm of it is in the bore</text><path class="lead" d="M 9.15,0 L 18,-13"/><text class="call" x="19" y="-11.8" text-anchor="start">5.7 mm of bore is behind it</text><path class="lead" d="M 8.575,8 L 18,15"/><text class="call" x="19" y="16.2" text-anchor="start">the ear, 6.85 mm thick</text><text class="head" x="0" y="-30" text-anchor="middle">the axle in its bore, seen across the pin</text></svg>

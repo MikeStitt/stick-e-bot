@@ -1,0 +1,332 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "4e48e81a06c8d40b2a38b871",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "torso outline",
+  "torso block",
+  "#hip_half = 24 mm",
+  "#shoulder_half = 36 mm",
+  "#shoulder_drop = 8 mm",
+  "#shoulder_len = 26 mm",
+  "#boss_len = 16 mm",
+  "#boss_d = 16 mm",
+  "#tilt = 53 deg",
+  "#yaw = 30 deg",
+  "pivot lines",
+  "plane for shoulder",
+  "torso shoulder profile",
+  "shoulder",
+  "connector on torso shoulder",
+  "mirror shoulder",
+  "trim shoulder pattern",
+  "trim shoulder cut",
+  "hip connector location",
+  "hip connector on torso",
+  "neck connector location",
+  "neck connector on torso",
+  "copy ball stud",
+  "move neck stud",
+  "copy for hip",
+  "copy for shoulder",
+  "duplicate shoulder and hip",
+  "add neck to body",
+  "neck connector",
+  "left shoulder connector",
+  "r shoulder connector",
+  "l hip connector",
+  "r hip connector"
+ ],
+ "features": {
+  "torso outline": {
+   "upstream": [
+    "Origin",
+    "Front"
+   ],
+   "downstream": [
+    "torso block"
+   ]
+  },
+  "torso block": {
+   "upstream": [
+    "torso outline"
+   ],
+   "downstream": [
+    "mirror shoulder",
+    "trim shoulder cut",
+    "hip connector location",
+    "neck connector location",
+    "add neck to body",
+    "neck connector",
+    "left shoulder connector",
+    "r shoulder connector",
+    "l hip connector",
+    "r hip connector"
+   ]
+  },
+  "#hip_half = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "hip connector location"
+   ]
+  },
+  "#shoulder_half = 36 mm": {
+   "upstream": [],
+   "downstream": [
+    "pivot lines"
+   ]
+  },
+  "#shoulder_drop = 8 mm": {
+   "upstream": [],
+   "downstream": [
+    "pivot lines"
+   ]
+  },
+  "#shoulder_len = 26 mm": {
+   "upstream": [],
+   "downstream": [
+    "#boss_len = 16 mm"
+   ]
+  },
+  "#boss_len = 16 mm": {
+   "upstream": [
+    "#shoulder_len = 26 mm"
+   ],
+   "downstream": [
+    "torso shoulder profile"
+   ]
+  },
+  "#boss_d = 16 mm": {
+   "upstream": [],
+   "downstream": [
+    "torso shoulder profile",
+    "trim shoulder pattern"
+   ]
+  },
+  "#tilt = 53 deg": {
+   "upstream": [],
+   "downstream": [
+    "torso shoulder profile"
+   ]
+  },
+  "#yaw = 30 deg": {
+   "upstream": [],
+   "downstream": [
+    "plane for shoulder"
+   ]
+  },
+  "pivot lines": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "#shoulder_half = 36 mm",
+    "#shoulder_drop = 8 mm"
+   ],
+   "downstream": [
+    "plane for shoulder",
+    "torso shoulder profile"
+   ]
+  },
+  "plane for shoulder": {
+   "upstream": [
+    "Front",
+    "#yaw = 30 deg",
+    "pivot lines"
+   ],
+   "downstream": [
+    "torso shoulder profile"
+   ]
+  },
+  "torso shoulder profile": {
+   "upstream": [
+    "#boss_len = 16 mm",
+    "#boss_d = 16 mm",
+    "#tilt = 53 deg",
+    "pivot lines",
+    "plane for shoulder"
+   ],
+   "downstream": [
+    "shoulder"
+   ]
+  },
+  "shoulder": {
+   "upstream": [
+    "torso shoulder profile"
+   ],
+   "downstream": [
+    "connector on torso shoulder",
+    "mirror shoulder"
+   ]
+  },
+  "connector on torso shoulder": {
+   "upstream": [
+    "shoulder"
+   ],
+   "downstream": [
+    "copy for shoulder"
+   ]
+  },
+  "mirror shoulder": {
+   "upstream": [
+    "Right",
+    "torso block",
+    "shoulder"
+   ],
+   "downstream": []
+  },
+  "trim shoulder pattern": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#boss_d = 16 mm"
+   ],
+   "downstream": [
+    "trim shoulder cut"
+   ]
+  },
+  "trim shoulder cut": {
+   "upstream": [
+    "torso block",
+    "trim shoulder pattern"
+   ],
+   "downstream": []
+  },
+  "hip connector location": {
+   "upstream": [
+    "Origin",
+    "torso block",
+    "#hip_half = 24 mm"
+   ],
+   "downstream": [
+    "hip connector on torso"
+   ]
+  },
+  "hip connector on torso": {
+   "upstream": [
+    "hip connector location"
+   ],
+   "downstream": [
+    "copy for hip"
+   ]
+  },
+  "neck connector location": {
+   "upstream": [
+    "Origin",
+    "torso block"
+   ],
+   "downstream": [
+    "neck connector on torso"
+   ]
+  },
+  "neck connector on torso": {
+   "upstream": [
+    "neck connector location"
+   ],
+   "downstream": [
+    "move neck stud"
+   ]
+  },
+  "copy ball stud": {
+   "upstream": [],
+   "downstream": [
+    "move neck stud",
+    "copy for hip",
+    "copy for shoulder",
+    "add neck to body",
+    "neck connector"
+   ]
+  },
+  "move neck stud": {
+   "upstream": [
+    "neck connector on torso",
+    "copy ball stud"
+   ],
+   "downstream": []
+  },
+  "copy for hip": {
+   "upstream": [
+    "hip connector on torso",
+    "copy ball stud"
+   ],
+   "downstream": [
+    "duplicate shoulder and hip",
+    "add neck to body",
+    "l hip connector"
+   ]
+  },
+  "copy for shoulder": {
+   "upstream": [
+    "connector on torso shoulder",
+    "copy ball stud"
+   ],
+   "downstream": [
+    "duplicate shoulder and hip",
+    "add neck to body",
+    "left shoulder connector"
+   ]
+  },
+  "duplicate shoulder and hip": {
+   "upstream": [
+    "Right",
+    "copy for hip",
+    "copy for shoulder"
+   ],
+   "downstream": [
+    "add neck to body",
+    "r shoulder connector",
+    "r hip connector"
+   ]
+  },
+  "add neck to body": {
+   "upstream": [
+    "torso block",
+    "copy ball stud",
+    "copy for hip",
+    "copy for shoulder",
+    "duplicate shoulder and hip"
+   ],
+   "downstream": []
+  },
+  "neck connector": {
+   "upstream": [
+    "torso block",
+    "copy ball stud"
+   ],
+   "downstream": []
+  },
+  "left shoulder connector": {
+   "upstream": [
+    "torso block",
+    "copy for shoulder"
+   ],
+   "downstream": []
+  },
+  "r shoulder connector": {
+   "upstream": [
+    "torso block",
+    "duplicate shoulder and hip"
+   ],
+   "downstream": []
+  },
+  "l hip connector": {
+   "upstream": [
+    "torso block",
+    "copy for hip"
+   ],
+   "downstream": []
+  },
+  "r hip connector": {
+   "upstream": [
+    "torso block",
+    "duplicate shoulder and hip"
+   ],
+   "downstream": []
+  }
+ }
+}

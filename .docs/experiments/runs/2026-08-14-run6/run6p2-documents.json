@@ -1,0 +1,248 @@
+{
+ "created": "2026-08-15",
+ "documents": {
+  "ball-socket-run6p2": {
+   "copied_from": {
+    "did": "de2c0d9bdbb02b3a345eada1",
+    "document": "ball-socket-run61"
+   },
+   "did": "1df3d1ad853b645af8fdf3ec",
+   "elements": {
+    "Assembly 1": {
+     "id": "064523fcbb33fcc1cfd59c1d",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "6e1581c2734a7234c8f6f811",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "a3df132532aa65285f651922",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "ball-socket-run6p2",
+   "version": {
+    "name": "ball-socket-run6p2-2026-08-15",
+    "vid": "d7a2a03e71a0a743efa70d18"
+   },
+   "wid": "0b1ad1a481bb3f91ff794f8e"
+  },
+  "foot-run6p2": {
+   "copied_from": {
+    "did": "f0fe0b1c973c187888d9386a",
+    "document": "foot-run6"
+   },
+   "did": "1b213610593cf1eabfbae1c5",
+   "elements": {
+    "Assembly 1": {
+     "id": "11e07e85feea141aa08af866",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "ebcddbb604d9d21daeec382e",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "13dc4a8d67a300c68aa99fff",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "foot-run6p2",
+   "version": {
+    "name": "foot-run6p2-mates-2026-08-15",
+    "vid": "20e7cd6612109e47b56117fe"
+   },
+   "wid": "9e85d3c55ddf44b1c4f47295"
+  },
+  "hand-run6p2": {
+   "copied_from": {
+    "did": "8887c2fc2657197fce7057c5",
+    "document": "hand-run6"
+   },
+   "did": "687ba12f3c03ad636149de3c",
+   "elements": {
+    "Assembly 1": {
+     "id": "0a7180879d094633306d256c",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "c725cfafbd182d084d7c2954",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "177e2575a194158fb5722fcc",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "hand-run6p2",
+   "version": {
+    "name": "hand-run6p2-mates-2026-08-15",
+    "vid": "4d02473fb645a915c1e2374c"
+   },
+   "wid": "57f3bbf1b64d1db245baade8"
+  },
+  "head-run6p2": {
+   "copied_from": {
+    "did": "d0d75cf75bd29b2e576093e4",
+    "document": "head-run6"
+   },
+   "did": "36548bf3cc01ccd6d995e836",
+   "elements": {
+    "Assembly 1": {
+     "id": "bc14d21cc5b5c75b7b8a067a",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "3cfc5840ffdc5adfc39eaf5c",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "5171bf18d621b74aa575cbc7",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "head-run6p2",
+   "version": {
+    "name": "head-run6p2-mates-2026-08-15",
+    "vid": "5be66e49cbbd47b81e642d04"
+   },
+   "wid": "947a8c7cde9dd5347a3e4b05"
+  },
+  "hinge-run6p2": {
+   "copied_from": {
+    "did": "aca8691bb83295fdde2015db",
+    "document": "hinge-run61"
+   },
+   "did": "8992e7671fc940bc71c76470",
+   "elements": {
+    "Assembly 1": {
+     "id": "b54294225bf5673c53738e7d",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "be7cfccf6330e4655a86d9d7",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "e3cecf409a60a33a04fc87b2",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "hinge-run6p2",
+   "version": {
+    "name": "hinge-run6p2-2026-08-15",
+    "vid": "6edc0ba33b249cf239ae4b08"
+   },
+   "wid": "182646b07fa1fee5a7111270"
+  },
+  "lesson-run6p2": {
+   "created": "Created empty through the GUI, in millimeters at five decimals.",
+   "did": "44e680c797993a1e48b675b6",
+   "elements": {
+    "Assembly 1": {
+     "id": "b01957cd5e2b54550d905ef1",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "35c479d5b7d75fea598c5c6c",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "77fb1a843f57ea6459284f48",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "lesson-run6p2",
+   "version": {
+    "name": "robot-run6p2-2026-08-15",
+    "vid": "058dd63ee387e60a85040d70"
+   },
+   "wid": "d92b6b655c66edc3105901ca"
+  },
+  "limb-blade-ball-run6p2": {
+   "copied_from": {
+    "did": "80a7c10c524313e8e741ebfd",
+    "document": "limb-blade-ball-run6"
+   },
+   "did": "b9521f3376e6ce4bd8fb6918",
+   "elements": {
+    "Assembly 1": {
+     "id": "a10a507eb2277b49fc9d8451",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "8efac2750ffbd75d0eb07459",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "2a1fee39417cadb88f6e55c9",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "limb-blade-ball-run6p2",
+   "version": {
+    "name": "limb-blade-ball-run6p2-named-2026-08-15",
+    "vid": "cf8fa83d195bcc64303de3b0"
+   },
+   "wid": "a2fd0717e1e6f047dbe23500"
+  },
+  "limb-socket-clevis-run6p2": {
+   "copied_from": {
+    "did": "99c49282225f3a7392b2d56b",
+    "document": "limb-socket-clevis-run6"
+   },
+   "did": "d389d4bcac551466cd085dc6",
+   "elements": {
+    "Assembly 1": {
+     "id": "42c06b13747b2d2aecba2633",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "30a2cb51baa0089ef0e67ae2",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "7d0d7380b5863d696c550dda",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "limb-socket-clevis-run6p2",
+   "version": {
+    "name": "limb-socket-clevis-run6p2-2026-08-15-2",
+    "vid": "4f8e16bacf66609e7f5d0129"
+   },
+   "wid": "75c4b792f2532132583d76a2"
+  },
+  "torso-run6p2": {
+   "copied_from": {
+    "did": "a0aeea9c9b4061e021977e57",
+    "document": "torso-run6"
+   },
+   "did": "af426b86c07e7073904f3cc8",
+   "elements": {
+    "Assembly 1": {
+     "id": "ea724f126626ac18065b06e6",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "720b6ada57078006def1eac2",
+     "type": "BILLOFMATERIALS"
+    },
+    "Part Studio 1": {
+     "id": "c98b651bcb90ee28636fb646",
+     "type": "PARTSTUDIO"
+    }
+   },
+   "name": "torso-run6p2",
+   "version": {
+    "name": "torso-run6p2-2026-08-15",
+    "vid": "9c8d9298e7fc0ef0f005b0c9"
+   },
+   "wid": "38ab90e5deef0fe4051a2040"
+  }
+ },
+ "folder": "Coach Mike Experiments",
+ "how": "Copied through the GUI on 9223 with Copy workspace, into Coach Mike Experiments.",
+ "why": "plan.md phase 7a: the prefix of each tree is already recorded, so it is kept rather than re-performed."
+}

@@ -1,0 +1,917 @@
+15:26:05 on torso-run6
+15:26:05 tree rows: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Sketch 1', 'Extrude 1', '', 'Parts (1)', 'Part 1']
+15:26:06 features from the api: 2
+15:27:19 about to click the view menu at (1563, 232)
+15:27:20 clicked the view menu -> 02-b-done-the-view-menu.png
+15:27:20 about to click Isometric at (1455, 258)
+15:27:20 clicked Isometric -> 03-b-done-isometric.png
+15:27:22 about to click the view menu at (1563, 232)
+15:27:23 clicked the view menu -> 04-b-done-the-view-menu.png
+15:27:23 about to click Zoom to fit at (1459, 393)
+15:27:23 clicked Zoom to fit -> 05-b-done-zoom-to-fit.png
+15:27:26 volume mm3: []
+15:27:26 bbox: {'lowX': -0.018000000000000002, 'lowY': -0.012, 'lowZ': -0.024, 'highX': 0.01800000000000001, 'highY': 0.012, 'highZ': 0.024000000000000004}
+15:29:37 about to click the Extrude 1 row at (140, 313)
+15:29:37 clicked the Extrude 1 row -> 07-b-done-the-extrude-1-row.png
+15:29:37 about to click Delete on Extrude 1 at (261, 587)
+15:29:38 clicked Delete on Extrude 1 -> 08-b-done-delete-on-extrude-1.png
+15:29:40 about to click the Sketch 1 row at (140, 287)
+15:29:41 clicked the Sketch 1 row -> 09-b-done-the-sketch-1-row.png
+15:29:41 about to click Delete on Sketch 1 at (263, 651)
+15:29:42 clicked Delete on Sketch 1 -> 10-b-done-delete-on-sketch-1.png
+15:29:43 tree now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', '', 'Parts (0)']
+15:30:26 about to select the Front plane in the feature tree at (140, 235)
+15:30:27 selected the Front plane in the feature tree -> 12-a-select-the-front-plane-in-the-feature-tree.png
+15:30:27 about to click the sketch button at (155, 58)
+15:30:28 clicked the sketch button -> 13-b-done-the-sketch-button.png
+15:30:31 about to click the arrow beside the rectangle tool at (279, 58)
+15:30:32 clicked the arrow beside the rectangle tool -> 15-b-done-the-arrow-beside-the-rectangle-tool.png
+15:30:32 about to click center point rectangle in the dropdown at (338, 130)
+15:30:33 clicked center point rectangle in the dropdown -> 17-b-done-center-point-rectangle-in-the-dropdown.png
+15:30:33 about to select the origin for the rectangle's centre at (923, 524)
+15:30:34 selected the origin for the rectangle's centre -> 18-a-select-the-origin-for-the-rectangle-s-centre.png
+15:30:34 about to click a corner up and to the right at (1040, 420)
+15:30:35 clicked a corner up and to the right -> 19-b-done-a-corner-up-and-to-the-right.png
+15:31:18 about to press n to look straight at the sketch plane
+15:31:19 pressed n to look straight at the sketch plane -> 21-b-done-look-straight-at-the-sketch-plane.png
+15:31:19 about to click the view menu at (1563, 232)
+15:31:20 clicked the view menu -> 22-b-done-the-view-menu.png
+15:31:20 about to click Zoom to fit at (1459, 393)
+15:31:21 clicked Zoom to fit -> 23-b-done-zoom-to-fit.png
+15:32:18 about to select the rectangle's top edge at (1050, 181)
+15:32:19 selected the rectangle's top edge -> 26-a-select-the-rectangle-s-top-edge.png
+15:32:19 about to click where the width dimension sits at (1050, 130)
+15:32:20 clicked where the width dimension sits -> 27-b-done-where-the-width-dimension-sits.png
+15:32:21 torso width: 97.14132 mm -> 36
+15:32:21 about to select the rectangle's right edge at (1194, 680)
+15:32:23 selected the rectangle's right edge -> 29-a-select-the-rectangle-s-right-edge.png
+15:32:23 about to click where the height dimension sits at (1300, 680)
+15:32:24 clicked where the height dimension sits -> 30-b-done-where-the-height-dimension-sits.png
+15:33:11 about to select the rectangle's right edge at (1023, 600)
+15:33:12 selected the rectangle's right edge -> 31-a-select-the-rectangle-s-right-edge.png
+15:33:12 about to click where the height dimension sits at (1150, 600)
+15:33:13 clicked where the height dimension sits -> 32-b-done-where-the-height-dimension-sits.png
+15:33:15 torso height: 45.46222 mm -> 48
+15:33:16 about to click empty space, to see the result on its own at (600, 940)
+15:33:16 clicked empty space, to see the result on its own -> 33-b-done-empty-space-to-see-the-result-on-its-own.png
+15:33:57 about to click the green tick closing the sketch at (423, 93)
+15:33:58 clicked the green tick closing the sketch -> 35-b-done-the-green-tick-closing-the-sketch.png
+15:34:00 about to click the Sketch 1 row, to rename it at (140, 287)
+15:34:01 clicked the Sketch 1 row, to rename it -> 36-b-done-the-sketch-1-row-to-rename-it.png
+15:34:01 about to click Rename in the context menu at (263, 311)
+15:34:02 clicked Rename in the context menu -> 37-b-done-rename-in-the-context-menu.png
+15:34:03 renamed 'Sketch 1' to 'Torso outline'
+15:34:03 about to select inside the outline, picking the region to extrude at (960, 440)
+15:34:04 selected inside the outline, picking the region to extrude -> 39-a-select-inside-the-outline-picking-the-region-to-extrude.png
+15:34:04 about to click the extrude button at (219, 58)
+15:34:06 clicked the extrude button -> 40-b-done-the-extrude-button.png
+15:34:47 about to click the symmetric tick box, so the torso straddles the origin at (257, 341)
+15:34:48 clicked the symmetric tick box, so the torso straddles the origin -> 43-b-done-the-symmetric-tick-box-so-the-torso-straddles-th.png
+15:34:49 about to click the view menu at (1563, 232)
+15:34:49 clicked the view menu -> 45-b-done-the-view-menu.png
+15:34:49 about to click Isometric at (1455, 258)
+15:34:50 clicked Isometric -> 46-b-done-isometric.png
+15:34:52 about to click the green tick making the torso at (423, 93)
+15:34:53 clicked the green tick making the torso -> 48-b-done-the-green-tick-making-the-torso.png
+15:34:55 about to click the Extrude 1 row, to rename it at (140, 313)
+15:34:56 clicked the Extrude 1 row, to rename it -> 49-b-done-the-extrude-1-row-to-rename-it.png
+15:34:56 about to click Rename in the context menu at (261, 337)
+15:34:56 clicked Rename in the context menu -> 50-b-done-rename-in-the-context-menu.png
+15:34:58 renamed 'Extrude 1' to 'Torso block'
+15:34:58 about to click the Part 1 row, to rename it at (140, 696)
+15:34:59 clicked the Part 1 row, to rename it -> 52-b-done-the-part-1-row-to-rename-it.png
+15:34:59 about to click Rename in the context menu at (256, 364)
+15:35:00 clicked Rename in the context menu -> 53-b-done-rename-in-the-context-menu.png
+15:35:01 renamed 'Part 1' to 'Torso'
+15:36:09 about to select the Front plane in the feature tree at (140, 235)
+15:36:10 selected the Front plane in the feature tree -> 56-a-select-the-front-plane-in-the-feature-tree.png
+15:36:10 about to click the sketch button at (155, 58)
+15:36:11 clicked the sketch button -> 57-b-done-the-sketch-button.png
+15:36:13 about to press n to look straight at the sketch plane
+15:36:14 pressed n to look straight at the sketch plane -> 58-b-done-look-straight-at-the-sketch-plane.png
+15:36:14 about to click the view menu at (1563, 232)
+15:36:15 clicked the view menu -> 59-b-done-the-view-menu.png
+15:36:15 about to click Zoom to fit at (1459, 393)
+15:36:16 clicked Zoom to fit -> 60-b-done-zoom-to-fit.png
+15:37:09 about to click the view menu at (1563, 232)
+15:37:10 clicked the view menu -> 62-b-done-the-view-menu.png
+15:37:10 about to click zoom to window at (1474, 415)
+15:37:11 clicked zoom to window -> 63-b-done-zoom-to-window.png
+15:38:27 about to click the view menu at (1563, 232)
+15:38:28 clicked the view menu -> 65-b-done-the-view-menu.png
+15:38:28 about to click Zoom to fit at (1459, 393)
+15:38:29 clicked Zoom to fit -> 66-b-done-zoom-to-fit.png
+15:38:30 about to click the view menu at (1563, 232)
+15:38:31 clicked the view menu -> 67-b-done-the-view-menu.png
+15:38:31 about to click zoom to window at (1474, 415)
+15:38:32 clicked zoom to window -> 68-b-done-zoom-to-window.png
+15:39:24 about to click the circle tool at (306, 58)
+15:39:25 clicked the circle tool -> 70-b-done-the-circle-tool.png
+15:39:25 about to select where the hip ball's centre goes at (1057, 873)
+15:39:27 selected where the hip ball's centre goes -> 71-a-select-where-the-hip-ball-s-centre-goes.png
+15:39:27 about to click a point out from it, setting the radius at (1132, 873)
+15:39:27 clicked a point out from it, setting the radius -> 72-b-done-a-point-out-from-it-setting-the-radius.png
+15:39:29 about to select the circle's edge at (1132, 873)
+15:39:30 selected the circle's edge -> 74-a-select-the-circle-s-edge.png
+15:39:30 about to click where the diameter dimension sits at (1200, 940)
+15:39:31 clicked where the diameter dimension sits -> 75-b-done-where-the-diameter-dimension-sits.png
+15:39:33 the hip ball diameter: 6.023 mm -> 6
+15:39:58 about to select the hip ball's centre at (1057, 873)
+15:39:59 selected the hip ball's centre -> 77-a-select-the-hip-ball-s-centre.png
+15:39:59 about to select the vertical axis at (758, 850)
+15:40:01 selected the vertical axis -> 78-a-select-the-vertical-axis.png
+15:40:01 about to click where the sideways dimension sits at (900, 960)
+15:40:02 clicked where the sideways dimension sits -> 79-b-done-where-the-sideways-dimension-sits.png
+15:40:03 the hip's half spacing: 12.02338 mm -> 12
+15:40:03 about to select the hip ball's centre at (1057, 873)
+15:40:04 selected the hip ball's centre -> 81-a-select-the-hip-ball-s-centre.png
+15:40:04 about to select the horizontal axis at (1300, 151)
+15:40:06 selected the horizontal axis -> 82-a-select-the-horizontal-axis.png
+15:40:06 about to click where the drop dimension sits at (1330, 500)
+15:40:07 clicked where the drop dimension sits -> 83-b-done-where-the-drop-dimension-sits.png
+15:40:08 the hip station: 28.97954 mm -> 29
+15:40:09 about to click empty space, to see the result on its own at (600, 400)
+15:40:10 clicked empty space, to see the result on its own -> 84-b-done-empty-space-to-see-the-result-on-its-own.png
+15:41:29 about to click empty space, to start with nothing picked at (600, 200)
+15:41:30 clicked empty space, to start with nothing picked -> 86-b-done-empty-space-to-start-with-nothing-picked.png
+15:41:30 about to click the corner rectangle tool at (253, 58)
+15:41:31 clicked the corner rectangle tool -> 87-b-done-the-corner-rectangle-tool.png
+15:41:31 about to select the ball's centre, for the stalk's lower corner at (1057, 873)
+15:41:32 selected the ball's centre, for the stalk's lower corner -> 88-a-select-the-ball-s-centre-for-the-stalk-s-lower-corner.png
+15:41:32 about to click the stalk's far corner, up and to the right at (1094, 746)
+15:41:33 clicked the stalk's far corner, up and to the right -> 89-b-done-the-stalk-s-far-corner-up-and-to-the-right.png
+15:41:34 about to select the stalk's top edge at (1075, 746)
+15:41:36 selected the stalk's top edge -> 91-a-select-the-stalk-s-top-edge.png
+15:41:36 about to click where the width dimension sits at (1075, 700)
+15:41:37 clicked where the width dimension sits -> 92-b-done-where-the-width-dimension-sits.png
+15:41:38 the stalk half width: 3.01811 mm -> 1.5
+15:44:07 about to click the corner rectangle tool at (253, 58)
+15:44:08 clicked the corner rectangle tool -> 96-b-done-the-corner-rectangle-tool.png
+15:44:58 about to select the stalk's top edge at (820, 790)
+15:44:59 selected the stalk's top edge -> 98-a-select-the-stalk-s-top-edge.png
+15:44:59 about to click where the width dimension sits at (930, 755)
+15:45:00 clicked where the width dimension sits -> 99-b-done-where-the-width-dimension-sits.png
+15:45:01 the stalk half width: 4.01534 mm -> 1.5
+15:45:41 about to select the stalk's left edge at (770, 880)
+15:45:42 selected the stalk's left edge -> 101-a-select-the-stalk-s-left-edge.png
+15:45:42 about to click where the height dimension sits at (680, 880)
+15:45:43 clicked where the height dimension sits -> 102-b-done-where-the-height-dimension-sits.png
+15:46:23 about to click empty space, to start with nothing picked at (600, 850)
+15:46:24 clicked empty space, to start with nothing picked -> 103-b-done-empty-space-to-start-with-nothing-picked.png
+15:46:24 about to select the stalk's left edge at (772, 930)
+15:46:25 selected the stalk's left edge -> 104-a-select-the-stalk-s-left-edge.png
+15:46:25 about to click where the height dimension sits at (660, 930)
+15:46:26 clicked where the height dimension sits -> 105-b-done-where-the-height-dimension-sits.png
+15:46:28 the stalk height: 8.83374 mm -> 5
+15:51:32 about to click empty space, to start with nothing picked at (600, 900)
+15:51:33 clicked empty space, to start with nothing picked -> 109-b-done-empty-space-to-start-with-nothing-picked.png
+15:52:19 about to click empty space, to start with nothing picked at (600, 900)
+15:52:20 clicked empty space, to start with nothing picked -> 111-b-done-empty-space-to-start-with-nothing-picked.png
+15:52:20 about to select the stalk's bottom left corner at (782, 828)
+15:52:21 selected the stalk's bottom left corner -> 112-a-select-the-stalk-s-bottom-left-corner.png
+15:53:13 about to click empty space, so the sketch shows its own colour at (600, 900)
+15:53:14 clicked empty space, so the sketch shows its own colour -> 114-b-done-empty-space-so-the-sketch-shows-its-own-colour.png
+15:54:15 about to click the green tick, which keeps the sketch at (423, 93)
+15:54:16 clicked the green tick, which keeps the sketch -> 116-b-done-the-green-tick-which-keeps-the-sketch.png
+15:54:17 about to click the Sketch 1 row, to rename it at (140, 339)
+15:54:18 clicked the Sketch 1 row, to rename it -> 117-b-done-the-sketch-1-row-to-rename-it.png
+15:54:18 about to click Rename in the context menu at (263, 363)
+15:54:19 clicked Rename in the context menu -> 118-b-done-rename-in-the-context-menu.png
+15:54:21 renamed 'Sketch 1' to 'Hip stud profile'
+15:55:22 about to click the Revolve tool at (253, 58)
+15:55:23 clicked the Revolve tool -> 121-b-done-the-revolve-tool.png
+15:56:00 about to select the ball's half outside the stalk at (1062, 750)
+15:56:02 selected the ball's half outside the stalk -> 123-a-select-the-ball-s-half-outside-the-stalk.png
+15:56:02 about to select the stalk's half inside the ball at (1069, 672)
+15:56:03 selected the stalk's half inside the ball -> 124-a-select-the-stalk-s-half-inside-the-ball.png
+15:56:03 about to select the stalk's half above the ball at (1069, 608)
+15:56:04 selected the stalk's half above the ball -> 125-a-select-the-stalk-s-half-above-the-ball.png
+15:57:19 about to click the red X, which throws the revolve away at (451, 93)
+15:57:20 clicked the red X, which throws the revolve away -> 127-b-done-the-red-x-which-throws-the-revolve-away.png
+15:58:02 about to click the line tool at (200, 58)
+15:58:03 clicked the line tool -> 129-b-done-the-line-tool.png
+15:58:44 about to click the green tick, which keeps the sketch at (423, 93)
+15:58:45 clicked the green tick, which keeps the sketch -> 133-b-done-the-green-tick-which-keeps-the-sketch.png
+15:58:47 about to click the Revolve tool at (253, 58)
+15:58:48 clicked the Revolve tool -> 134-b-done-the-revolve-tool.png
+15:58:49 about to select the ball's half outside the stalk at (1062, 750)
+15:58:51 selected the ball's half outside the stalk -> 135-a-select-the-ball-s-half-outside-the-stalk.png
+15:58:51 about to select the stalk's half inside the ball at (1069, 672)
+15:58:52 selected the stalk's half inside the ball -> 136-a-select-the-stalk-s-half-inside-the-ball.png
+15:58:52 about to select the stalk's half above the ball at (1069, 608)
+15:58:53 selected the stalk's half above the ball -> 137-a-select-the-stalk-s-half-above-the-ball.png
+15:59:29 about to click the Revolve axis box, so the next click fills it at (343, 279)
+15:59:30 clicked the Revolve axis box, so the next click fills it -> 139-b-done-the-revolve-axis-box-so-the-next-click-fills-it.png
+15:59:30 about to select the axis line under the ball at (1051, 745)
+15:59:31 selected the axis line under the ball -> 140-a-select-the-axis-line-under-the-ball.png
+16:00:14 about to click New, so the stud is its own part for now at (269, 148)
+16:00:15 clicked New, so the stud is its own part for now -> 142-b-done-new-so-the-stud-is-its-own-part-for-now.png
+16:01:01 about to click the green tick, which keeps the revolve at (423, 93)
+16:01:01 clicked the green tick, which keeps the revolve -> 144-b-done-the-green-tick-which-keeps-the-revolve.png
+16:01:03 about to click the Revolve 1 row, to rename it at (140, 365)
+16:01:04 clicked the Revolve 1 row, to rename it -> 145-b-done-the-revolve-1-row-to-rename-it.png
+16:01:04 about to click Rename in the context menu at (267, 389)
+16:01:05 clicked Rename in the context menu -> 146-b-done-rename-in-the-context-menu.png
+16:01:07 renamed 'Revolve 1' to 'Revolve hip stud'
+16:01:07 about to click the Part 2 row, to rename it at (140, 722)
+16:01:08 clicked the Part 2 row, to rename it -> 148-b-done-the-part-2-row-to-rename-it.png
+16:01:08 about to click Rename in the context menu at (256, 346)
+16:01:09 clicked Rename in the context menu -> 149-b-done-rename-in-the-context-menu.png
+16:01:10 renamed 'Part 2' to 'Hip stud'
+16:02:08 Torso      {'lowX': -18.0, 'lowY': -12.0, 'lowZ': -24.0, 'highX': 18.0, 'highY': 12.0, 'highZ': 24.0}
+16:02:08 Hip stud   {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:02:46 about to click the view menu at (1563, 232)
+16:02:47 clicked the view menu -> 152-b-done-the-view-menu.png
+16:02:47 about to click Isometric at (1455, 258)
+16:02:48 clicked Isometric -> 153-b-done-isometric.png
+16:02:49 about to click the view menu at (1563, 232)
+16:02:50 clicked the view menu -> 154-b-done-the-view-menu.png
+16:02:50 about to click Zoom to fit at (1459, 393)
+16:02:51 clicked Zoom to fit -> 155-b-done-zoom-to-fit.png
+16:03:56 about to click the Default geometry row at (140, 157)
+16:03:57 clicked the Default geometry row -> 157-b-done-the-default-geometry-row.png
+16:04:46 about to click the Front plane row at (140, 235)
+16:04:47 clicked the Front plane row -> 158-b-done-the-front-plane-row.png
+16:04:47 about to click Hide all planes at (244, 371)
+16:04:48 clicked Hide all planes -> 159-b-done-hide-all-planes.png
+16:04:49 about to click the view menu at (1563, 232)
+16:04:50 clicked the view menu -> 160-b-done-the-view-menu.png
+16:04:50 about to click Zoom to fit at (1459, 393)
+16:04:50 clicked Zoom to fit -> 161-b-done-zoom-to-fit.png
+16:06:10 about to click the Hip stud part, in the parts list at (140, 722)
+16:06:11 clicked the Hip stud part, in the parts list -> 165-b-done-the-hip-stud-part-in-the-parts-list.png
+16:06:12 about to click the Mirror plane box at (343, 213)
+16:06:13 clicked the Mirror plane box -> 167-b-done-the-mirror-plane-box.png
+16:06:13 about to click the Right plane, which is the plane down the robot's middle at (140, 261)
+16:06:14 clicked the Right plane, which is the plane down the robot's middle -> 168-b-done-the-right-plane-which-is-the-plane-down-the-robo.png
+16:06:56 about to click the Mirror plane box, so the next click fills it at (343, 231)
+16:06:57 clicked the Mirror plane box, so the next click fills it -> 170-b-done-the-mirror-plane-box-so-the-next-click-fills-it.png
+16:06:58 about to click the Right plane in the feature tree at (140, 261)
+16:06:59 clicked the Right plane in the feature tree -> 171-b-done-the-right-plane-in-the-feature-tree.png
+16:07:42 about to click New at (269, 148)
+16:07:43 clicked New -> 173-b-done-new.png
+16:07:45 about to click the green tick, which keeps the mirror at (423, 93)
+16:07:46 clicked the green tick, which keeps the mirror -> 175-b-done-the-green-tick-which-keeps-the-mirror.png
+16:07:48 about to click the Mirror 1 row, to rename it at (140, 391)
+16:07:49 clicked the Mirror 1 row, to rename it -> 176-b-done-the-mirror-1-row-to-rename-it.png
+16:07:49 about to click Rename in the context menu at (261, 415)
+16:07:50 clicked Rename in the context menu -> 177-b-done-rename-in-the-context-menu.png
+16:07:51 renamed 'Mirror 1' to 'Mirror hip stud'
+16:08:34 about to click the Part 3 row, to rename it at (140, 748)
+16:08:35 clicked the Part 3 row, to rename it -> 180-b-done-the-part-3-row-to-rename-it.png
+16:08:35 about to click Rename in the context menu at (256, 372)
+16:08:36 clicked Rename in the context menu -> 181-b-done-rename-in-the-context-menu.png
+16:08:37 renamed 'Part 3' to 'Hip stud mirrored'
+16:08:38 Torso              {'lowX': -18.0, 'lowY': -12.0, 'lowZ': -24.0, 'highX': 18.0, 'highY': 12.0, 'highZ': 24.0}
+16:08:38 Hip stud           {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:08:38 Hip stud mirrored  {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:09:13 about to click the Sketch tool at (155, 58)
+16:09:14 clicked the Sketch tool -> 184-b-done-the-sketch-tool.png
+16:09:15 about to click the Front plane, in the feature tree at (140, 235)
+16:09:16 clicked the Front plane, in the feature tree -> 185-b-done-the-front-plane-in-the-feature-tree.png
+16:09:21 about to click the view menu at (1563, 232)
+16:09:22 clicked the view menu -> 186-b-done-the-view-menu.png
+16:09:22 about to click Zoom to fit at (1459, 393)
+16:09:23 clicked Zoom to fit -> 187-b-done-zoom-to-fit.png
+16:11:07 about to click the circle tool at (306, 58)
+16:11:08 clicked the circle tool -> 190-b-done-the-circle-tool.png
+16:12:04 about to select the circle's edge at (955, 389)
+16:12:05 selected the circle's edge -> 193-a-select-the-circle-s-edge.png
+16:12:05 about to click where the diameter should sit at (1060, 330)
+16:12:06 clicked where the diameter should sit -> 194-b-done-where-the-diameter-should-sit.png
+16:12:07 the neck ball diameter: 5.98524 mm -> 6
+16:12:34 about to select the ball's centre at (923, 421)
+16:12:36 selected the ball's centre -> 196-a-select-the-ball-s-centre.png
+16:12:36 about to select the origin at (923, 861)
+16:12:37 selected the origin -> 197-a-select-the-origin.png
+16:12:37 about to click where the height should sit at (1030, 640)
+16:12:38 clicked where the height should sit -> 198-b-done-where-the-height-should-sit.png
+16:12:40 the neck ball height: 29.122 mm -> 29
+16:14:11 the neck ball height: 29.122 mm -> 29
+16:15:02 about to click the corner rectangle tool at (253, 58)
+16:15:02 clicked the corner rectangle tool -> 203-b-done-the-corner-rectangle-tool.png
+16:16:49 about to select the stalk's bottom edge at (1130, 700)
+16:16:50 selected the stalk's bottom edge -> 206-a-select-the-stalk-s-bottom-edge.png
+16:16:50 about to click where the width should sit at (1150, 790)
+16:16:51 clicked where the width should sit -> 207-b-done-where-the-width-should-sit.png
+16:16:53 the stalk half width: 4.60402 mm -> 1.5
+16:17:33 about to select the stalk's right edge at (1139, 630)
+16:17:34 selected the stalk's right edge -> 209-a-select-the-stalk-s-right-edge.png
+16:17:34 about to click where the height should sit at (1250, 600)
+16:17:35 clicked where the height should sit -> 210-b-done-where-the-height-should-sit.png
+16:17:37 the stalk height: 15.78523 mm -> 5
+16:18:20 about to click empty space, to start with nothing picked at (600, 300)
+16:18:21 clicked empty space, to start with nothing picked -> 212-b-done-empty-space-to-start-with-nothing-picked.png
+16:18:21 about to select the stalk's top left corner at (1116, 622)
+16:18:23 selected the stalk's top left corner -> 213-a-select-the-stalk-s-top-left-corner.png
+16:18:26 about to click empty space, so the sketch shows its own colour at (600, 300)
+16:18:27 clicked empty space, so the sketch shows its own colour -> 215-b-done-empty-space-so-the-sketch-shows-its-own-colour.png
+16:19:11 about to click the line tool at (200, 58)
+16:19:12 clicked the line tool -> 217-b-done-the-line-tool.png
+16:19:58 about to click the view menu at (1563, 232)
+16:19:59 clicked the view menu -> 221-b-done-the-view-menu.png
+16:19:59 about to click Zoom to window at (1474, 415)
+16:20:00 clicked Zoom to window -> 222-b-done-zoom-to-window.png
+16:20:49 about to click the green tick, which keeps the sketch at (423, 93)
+16:20:50 clicked the green tick, which keeps the sketch -> 224-b-done-the-green-tick-which-keeps-the-sketch.png
+16:20:51 about to click the Sketch 1 row, to rename it at (140, 417)
+16:20:52 clicked the Sketch 1 row, to rename it -> 225-b-done-the-sketch-1-row-to-rename-it.png
+16:20:52 about to click Rename in the context menu at (263, 441)
+16:20:53 clicked Rename in the context menu -> 226-b-done-rename-in-the-context-menu.png
+16:20:55 renamed 'Sketch 1' to 'Neck stud profile'
+16:20:55 about to click the Revolve tool at (253, 58)
+16:20:56 clicked the Revolve tool -> 228-b-done-the-revolve-tool.png
+16:20:57 about to select the ball's half outside the stalk at (1050, 500)
+16:20:58 selected the ball's half outside the stalk -> 229-a-select-the-ball-s-half-outside-the-stalk.png
+16:20:58 about to select the stalk's half inside the ball at (960, 550)
+16:21:00 selected the stalk's half inside the ball -> 230-a-select-the-stalk-s-half-inside-the-ball.png
+16:21:00 about to select the stalk's half below the ball at (960, 720)
+16:21:01 selected the stalk's half below the ball -> 231-a-select-the-stalk-s-half-below-the-ball.png
+16:21:41 about to click the Revolve axis box, so the next click fills it at (343, 279)
+16:21:42 clicked the Revolve axis box, so the next click fills it -> 233-b-done-the-revolve-axis-box-so-the-next-click-fills-it.png
+16:21:42 about to select the axis line above the ball at (915, 350)
+16:21:44 selected the axis line above the ball -> 234-a-select-the-axis-line-above-the-ball.png
+16:21:45 about to click New, so the stud is its own part at (269, 148)
+16:21:46 clicked New, so the stud is its own part -> 236-b-done-new-so-the-stud-is-its-own-part.png
+16:21:47 about to click the green tick, which keeps the revolve at (423, 93)
+16:21:48 clicked the green tick, which keeps the revolve -> 237-b-done-the-green-tick-which-keeps-the-revolve.png
+16:21:50 about to click the Revolve 1 row, to rename it at (140, 443)
+16:21:51 clicked the Revolve 1 row, to rename it -> 238-b-done-the-revolve-1-row-to-rename-it.png
+16:21:51 about to click Rename in the context menu at (271, 467)
+16:21:52 clicked Rename in the context menu -> 239-b-done-rename-in-the-context-menu.png
+16:21:53 renamed 'Revolve 1' to 'Revolve neck stud'
+16:21:53 about to click the Part 4 row, to rename it at (140, 774)
+16:21:54 clicked the Part 4 row, to rename it -> 241-b-done-the-part-4-row-to-rename-it.png
+16:21:54 about to click Rename in the context menu at (256, 398)
+16:21:55 clicked Rename in the context menu -> 242-b-done-rename-in-the-context-menu.png
+16:21:57 renamed 'Part 4' to 'Neck stud'
+16:22:23 about to click the view menu at (1563, 232)
+16:22:24 clicked the view menu -> 245-b-done-the-view-menu.png
+16:22:24 about to click Isometric at (1455, 258)
+16:22:25 clicked Isometric -> 246-b-done-isometric.png
+16:22:26 about to click the view menu at (1563, 232)
+16:22:27 clicked the view menu -> 247-b-done-the-view-menu.png
+16:22:27 about to click Zoom to fit at (1459, 393)
+16:22:28 clicked Zoom to fit -> 248-b-done-zoom-to-fit.png
+16:22:30 Torso              {'lowX': -18.0, 'lowY': -12.0, 'lowZ': -24.0, 'highX': 18.0, 'highY': 12.0, 'highZ': 24.0}
+16:22:30 Hip stud           {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:22:31 Hip stud mirrored  {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:22:31 Neck stud          {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+16:24:59 about to click the Sketch tool at (155, 58)
+16:25:00 clicked the Sketch tool -> 250-b-done-the-sketch-tool.png
+16:25:01 about to click the Front plane, in the feature tree at (140, 235)
+16:25:02 clicked the Front plane, in the feature tree -> 251-b-done-the-front-plane-in-the-feature-tree.png
+16:25:06 about to click the view menu at (1563, 232)
+16:25:07 clicked the view menu -> 252-b-done-the-view-menu.png
+16:25:07 about to click Zoom to fit at (1459, 393)
+16:25:08 clicked Zoom to fit -> 253-b-done-zoom-to-fit.png
+16:25:54 about to click the view menu at (1563, 232)
+16:25:55 clicked the view menu -> 255-b-done-the-view-menu.png
+16:25:55 about to click Zoom to window at (1474, 415)
+16:25:56 clicked Zoom to window -> 256-b-done-zoom-to-window.png
+16:26:43 about to click the line tool at (200, 58)
+16:26:44 clicked the line tool -> 258-b-done-the-line-tool.png
+16:27:42 about to select the boss's back edge at (425, 620)
+16:27:43 selected the boss's back edge -> 267-a-select-the-boss-s-back-edge.png
+16:27:43 about to click where the boss radius should sit at (330, 570)
+16:27:44 clicked where the boss radius should sit -> 268-b-done-where-the-boss-radius-should-sit.png
+16:27:46 the boss half width: 3.99742 mm -> 4
+16:27:46 about to select the boss's long edge at (750, 456)
+16:27:47 selected the boss's long edge -> 270-a-select-the-boss-s-long-edge.png
+16:27:47 about to click where the boss length should sit at (750, 380)
+16:27:48 clicked where the boss length should sit -> 271-b-done-where-the-boss-length-should-sit.png
+16:27:49 the boss length: 8.00979 mm -> 8
+16:28:31 about to select the stalk's long edge at (1120, 603)
+16:28:33 selected the stalk's long edge -> 273-a-select-the-stalk-s-long-edge.png
+16:28:33 about to click where the stalk length should sit at (1050, 780)
+16:28:34 clicked where the stalk length should sit -> 274-b-done-where-the-stalk-length-should-sit.png
+16:28:35 the stalk length: 4.99981 mm -> 5
+16:28:35 about to select the stalk's end edge at (1193, 630)
+16:28:37 selected the stalk's end edge -> 276-a-select-the-stalk-s-end-edge.png
+16:28:37 about to click where the stalk radius should sit at (1350, 650)
+16:28:37 clicked where the stalk radius should sit -> 277-b-done-where-the-stalk-radius-should-sit.png
+16:28:39 the stalk half width: 1.51345 mm -> 1.5
+16:29:25 about to click the circle tool at (306, 58)
+16:29:26 clicked the circle tool -> 279-b-done-the-circle-tool.png
+16:29:31 about to select the ball's edge at (1318, 567)
+16:29:32 selected the ball's edge -> 281-a-select-the-ball-s-edge.png
+16:29:32 about to click where the diameter should sit at (1430, 480)
+16:29:33 clicked where the diameter should sit -> 282-b-done-where-the-diameter-should-sit.png
+16:29:35 the shoulder ball diameter: 5.96707 mm -> 6
+16:30:22 about to click the line tool at (200, 58)
+16:30:23 clicked the line tool -> 284-b-done-the-line-tool.png
+16:31:19 about to click the green tick, which keeps the sketch at (423, 93)
+16:31:20 clicked the green tick, which keeps the sketch -> 288-b-done-the-green-tick-which-keeps-the-sketch.png
+16:31:21 about to click the Sketch 1 row, to rename it at (140, 469)
+16:31:22 clicked the Sketch 1 row, to rename it -> 289-b-done-the-sketch-1-row-to-rename-it.png
+16:31:22 about to click Rename in the context menu at (263, 493)
+16:31:23 clicked Rename in the context menu -> 290-b-done-rename-in-the-context-menu.png
+16:31:25 renamed 'Sketch 1' to 'Shoulder stud profile'
+16:31:25 about to click the Revolve tool at (253, 58)
+16:31:26 clicked the Revolve tool -> 292-b-done-the-revolve-tool.png
+16:31:28 about to select the boss and the near part of the stalk at (650, 570)
+16:31:29 selected the boss and the near part of the stalk -> 293-a-select-the-boss-and-the-near-part-of-the-stalk.png
+16:31:29 about to select the stalk's half inside the ball at (1120, 650)
+16:31:30 selected the stalk's half inside the ball -> 294-a-select-the-stalk-s-half-inside-the-ball.png
+16:31:30 about to select the ball's half outside the stalk at (1250, 550)
+16:31:32 selected the ball's half outside the stalk -> 295-a-select-the-ball-s-half-outside-the-stalk.png
+16:31:32 about to click the Revolve axis box at (343, 279)
+16:31:32 clicked the Revolve axis box -> 296-b-done-the-revolve-axis-box.png
+16:31:32 about to select the axis line through the ball at (1300, 692)
+16:31:34 selected the axis line through the ball -> 297-a-select-the-axis-line-through-the-ball.png
+16:32:25 about to click the red X, which throws the revolve away at (451, 93)
+16:32:26 clicked the red X, which throws the revolve away -> 299-b-done-the-red-x-which-throws-the-revolve-away.png
+16:32:28 about to click the Torso part row at (140, 696)
+16:32:29 clicked the Torso part row -> 300-b-done-the-torso-part-row.png
+16:32:29 about to click Hide at (255, 521)
+16:32:30 clicked Hide -> 301-b-done-hide.png
+16:33:13 about to click the Revolve tool at (253, 58)
+16:33:13 clicked the Revolve tool -> 303-b-done-the-revolve-tool.png
+16:33:15 about to select the boss and the near part of the stalk at (650, 570)
+16:33:16 selected the boss and the near part of the stalk -> 304-a-select-the-boss-and-the-near-part-of-the-stalk.png
+16:33:16 about to select the stalk's half inside the ball at (1120, 650)
+16:33:17 selected the stalk's half inside the ball -> 305-a-select-the-stalk-s-half-inside-the-ball.png
+16:33:17 about to select the ball's half outside the stalk at (1250, 550)
+16:33:19 selected the ball's half outside the stalk -> 306-a-select-the-ball-s-half-outside-the-stalk.png
+16:33:19 about to click the Revolve axis box at (343, 279)
+16:33:20 clicked the Revolve axis box -> 307-b-done-the-revolve-axis-box.png
+16:33:20 about to select the axis line through the ball at (1300, 692)
+16:33:21 selected the axis line through the ball -> 308-a-select-the-axis-line-through-the-ball.png
+16:34:03 about to click the green tick, which keeps the revolve at (423, 93)
+16:34:04 clicked the green tick, which keeps the revolve -> 310-b-done-the-green-tick-which-keeps-the-revolve.png
+16:34:06 about to click the Revolve 1 row, to rename it at (140, 495)
+16:34:07 clicked the Revolve 1 row, to rename it -> 311-b-done-the-revolve-1-row-to-rename-it.png
+16:34:07 about to click Rename in the context menu at (282, 519)
+16:34:08 clicked Rename in the context menu -> 312-b-done-rename-in-the-context-menu.png
+16:34:10 renamed 'Revolve 1' to 'Revolve shoulder stud'
+16:34:10 about to click the Part 5 row, to rename it at (140, 800)
+16:34:11 clicked the Part 5 row, to rename it -> 314-b-done-the-part-5-row-to-rename-it.png
+16:34:11 about to click Rename in the context menu at (256, 424)
+16:34:11 clicked Rename in the context menu -> 315-b-done-rename-in-the-context-menu.png
+16:34:13 renamed 'Part 5' to 'Shoulder stud'
+16:34:45 about to click the tool search box at (1350, 58)
+16:34:46 clicked the tool search box -> 318-b-done-the-tool-search-box.png
+16:35:26 about to click Transform at (1109, 159)
+16:35:27 clicked Transform -> 320-b-done-transform.png
+16:38:34 about to click the transform-kind dropdown at (344, 157)
+16:38:35 clicked the transform-kind dropdown -> 322-b-done-the-transform-kind-dropdown.png
+16:39:48 about to click Rotate at (277, 292)
+16:39:49 clicked Rotate -> 324-b-done-rotate.png
+16:40:28 about to click the entities box at (355, 126)
+16:40:29 clicked the entities box -> 326-b-done-the-entities-box.png
+16:40:29 about to click the Shoulder stud row in the parts list at (126, 800)
+16:40:30 clicked the Shoulder stud row in the parts list -> 327-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:41:08 about to click the Axis box at (343, 208)
+16:41:09 clicked the Axis box -> 329-b-done-the-axis-box.png
+16:41:09 about to click the Front plane, whose normal points along y at (98, 235)
+16:41:10 clicked the Front plane, whose normal points along y -> 330-b-done-the-front-plane-whose-normal-points-along-y.png
+16:42:15 about to click the red X, which puts the rotation aside for now at (451, 93)
+16:42:16 clicked the red X, which puts the rotation aside for now -> 332-b-done-the-red-x-which-puts-the-rotation-aside-for-now.png
+16:42:17 about to click the Sketch tool at (155, 58)
+16:42:18 clicked the Sketch tool -> 333-b-done-the-sketch-tool.png
+16:42:20 about to click the Right plane, the one down the robot's middle at (98, 261)
+16:42:21 clicked the Right plane, the one down the robot's middle -> 334-b-done-the-right-plane-the-one-down-the-robot-s-middle.png
+16:43:06 pressing n, which turns the view to face the sketch
+16:44:39 about to click the line tool at (200, 58)
+16:44:40 clicked the line tool -> 338-b-done-the-line-tool.png
+16:44:44 about to click the line tool again at (200, 58)
+16:44:45 clicked the line tool again -> 341-b-done-the-line-tool-again.png
+16:45:49 about to click the green tick, which keeps the sketch at (423, 93)
+16:45:50 clicked the green tick, which keeps the sketch -> 343-b-done-the-green-tick-which-keeps-the-sketch.png
+16:45:52 about to click the Sketch 1 row, to rename it at (140, 521)
+16:45:53 clicked the Sketch 1 row, to rename it -> 344-b-done-the-sketch-1-row-to-rename-it.png
+16:45:53 about to click Rename in the context menu at (263, 545)
+16:45:54 clicked Rename in the context menu -> 345-b-done-rename-in-the-context-menu.png
+16:45:56 renamed 'Sketch 1' to 'Shoulder pivot lines'
+16:46:30 about to click the tool search box at (1350, 58)
+16:46:31 clicked the tool search box -> 348-b-done-the-tool-search-box.png
+16:46:32 about to click Transform at (1109, 159)
+16:46:33 clicked Transform -> 349-b-done-transform.png
+16:46:35 about to click the entities box at (355, 126)
+16:46:36 clicked the entities box -> 350-b-done-the-entities-box.png
+16:46:36 about to click the Shoulder stud row in the parts list at (126, 800)
+16:46:37 clicked the Shoulder stud row in the parts list -> 351-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:46:38 about to click the transform-kind dropdown at (344, 175)
+16:46:39 clicked the transform-kind dropdown -> 352-b-done-the-transform-kind-dropdown.png
+16:47:31 about to click Rotate at (277, 310)
+16:47:32 clicked Rotate -> 354-b-done-rotate.png
+16:47:33 about to click the Axis box at (343, 208)
+16:47:34 clicked the Axis box -> 355-b-done-the-axis-box.png
+16:47:34 about to select the y pivot line at (1250, 691)
+16:47:35 selected the y pivot line -> 356-a-select-the-y-pivot-line.png
+16:48:16 about to click the Angle box at (400, 258)
+16:48:17 clicked the Angle box -> 358-b-done-the-angle-box.png
+16:49:33 about to click the green tick, which keeps the rotation at (423, 93)
+16:49:34 clicked the green tick, which keeps the rotation -> 361-b-done-the-green-tick-which-keeps-the-rotation.png
+16:49:36 about to click the Transform 1 row, to rename it at (140, 547)
+16:49:37 clicked the Transform 1 row, to rename it -> 362-b-done-the-transform-1-row-to-rename-it.png
+16:49:37 about to click Rename in the context menu at (279, 571)
+16:49:38 clicked Rename in the context menu -> 363-b-done-rename-in-the-context-menu.png
+16:49:39 renamed 'Transform 1' to 'Tip shoulder 53 deg'
+16:49:40 Torso              {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+16:49:40 Hip stud           {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:49:40 Hip stud mirrored  {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:49:41 Neck stud          {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+16:49:41 Shoulder stud      {'lowX': -3.1945, 'lowY': -4.0, 'lowZ': -13.3823, 'highX': 10.8236, 'highY': 4.0, 'highZ': 2.4073}
+16:50:45 about to click the Shoulder pivot lines row at (140, 521)
+16:50:45 clicked the Shoulder pivot lines row -> 366-b-done-the-shoulder-pivot-lines-row.png
+16:50:45 about to click Show at (289, 658)
+16:50:46 clicked Show -> 367-b-done-show.png
+16:50:48 about to click the view menu at (1563, 232)
+16:50:48 clicked the view menu -> 368-b-done-the-view-menu.png
+16:50:49 about to click Isometric at (1455, 258)
+16:50:50 clicked Isometric -> 369-b-done-isometric.png
+16:50:52 about to click the view menu at (1563, 232)
+16:50:52 clicked the view menu -> 370-b-done-the-view-menu.png
+16:50:53 about to click Zoom to fit at (1459, 393)
+16:50:54 clicked Zoom to fit -> 371-b-done-zoom-to-fit.png
+16:52:22 about to click the tool search box at (1350, 58)
+16:52:22 clicked the tool search box -> 374-b-done-the-tool-search-box.png
+16:52:24 about to click Transform at (1109, 159)
+16:52:25 clicked Transform -> 375-b-done-transform.png
+16:52:27 about to click the entities box at (355, 126)
+16:52:27 clicked the entities box -> 376-b-done-the-entities-box.png
+16:52:27 about to click the Shoulder stud row in the parts list at (126, 800)
+16:52:28 clicked the Shoulder stud row in the parts list -> 377-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:52:29 about to click the transform-kind dropdown at (344, 175)
+16:52:30 clicked the transform-kind dropdown -> 378-b-done-the-transform-kind-dropdown.png
+16:52:31 about to click Rotate at (277, 310)
+16:52:32 clicked Rotate -> 379-b-done-rotate.png
+16:52:33 about to click the Axis box at (343, 208)
+16:52:34 clicked the Axis box -> 380-b-done-the-axis-box.png
+16:52:34 about to select the z pivot line at (911, 490)
+16:52:35 selected the z pivot line -> 381-a-select-the-z-pivot-line.png
+16:53:13 about to click the Angle box at (400, 258)
+16:53:14 clicked the Angle box -> 383-b-done-the-angle-box.png
+16:53:17 about to click the green tick, which keeps the swing at (423, 93)
+16:53:18 clicked the green tick, which keeps the swing -> 385-b-done-the-green-tick-which-keeps-the-swing.png
+16:53:20 about to click the Transform 1 row, to rename it at (140, 573)
+16:53:21 clicked the Transform 1 row, to rename it -> 386-b-done-the-transform-1-row-to-rename-it.png
+16:53:21 about to click Rename in the context menu at (279, 597)
+16:53:22 clicked Rename in the context menu -> 387-b-done-rename-in-the-context-menu.png
+16:53:24 renamed 'Transform 1' to 'Swing shoulder 30 deg forward'
+16:53:24 Torso              {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+16:53:24 Hip stud           {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:53:25 Hip stud mirrored  {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:53:25 Neck stud          {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+16:53:25 Shoulder stud      {'lowX': -3.4138, 'lowY': -6.9118, 'lowZ': -13.3823, 'highX': 9.7754, 'highY': 3.8146, 'highZ': 2.4073}
+16:53:53 about to click the tool search box at (1350, 58)
+16:53:54 clicked the tool search box -> 389-b-done-the-tool-search-box.png
+16:53:55 about to click Transform at (1109, 159)
+16:53:56 clicked Transform -> 390-b-done-transform.png
+16:53:58 about to click the entities box at (355, 126)
+16:53:58 clicked the entities box -> 391-b-done-the-entities-box.png
+16:53:58 about to click the Shoulder stud row in the parts list at (126, 800)
+16:53:59 clicked the Shoulder stud row in the parts list -> 392-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:54:00 about to click the transform-kind dropdown at (344, 175)
+16:54:01 clicked the transform-kind dropdown -> 393-b-done-the-transform-kind-dropdown.png
+16:54:02 about to click Translate by XYZ at (309, 258)
+16:54:03 clicked Translate by XYZ -> 394-b-done-translate-by-xyz.png
+16:54:44 about to click the X box at (400, 204)
+16:54:45 clicked the X box -> 396-b-done-the-x-box.png
+16:54:46 about to click the Z box at (400, 256)
+16:54:47 clicked the Z box -> 397-b-done-the-z-box.png
+16:54:50 about to click the green tick, which keeps the move at (423, 93)
+16:54:51 clicked the green tick, which keeps the move -> 400-b-done-the-green-tick-which-keeps-the-move.png
+16:54:53 about to click the Transform 1 row, to rename it at (140, 599)
+16:54:54 clicked the Transform 1 row, to rename it -> 401-b-done-the-transform-1-row-to-rename-it.png
+16:54:54 about to click Rename in the context menu at (251, 623)
+16:54:55 clicked Rename in the context menu -> 402-b-done-rename-in-the-context-menu.png
+16:54:57 renamed 'Transform 1' to 'Move shoulder to its station'
+16:54:57 Torso              {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+16:54:57 Hip stud           {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:54:57 Hip stud mirrored  {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:54:57 Neck stud          {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+16:54:58 Shoulder stud      {'lowX': 14.5862, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': 27.7754, 'highY': 3.8146, 'highZ': 22.4073}
+16:55:27 about to click the Mirror tool at (740, 58)
+16:55:28 clicked the Mirror tool -> 404-b-done-the-mirror-tool.png
+16:55:30 about to click Part mirror at (300, 121)
+16:55:31 clicked Part mirror -> 405-b-done-part-mirror.png
+16:55:32 about to click the entities box at (355, 182)
+16:55:32 clicked the entities box -> 406-b-done-the-entities-box.png
+16:55:32 about to click the Shoulder stud row in the parts list at (126, 800)
+16:55:33 clicked the Shoulder stud row in the parts list -> 407-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:56:12 about to click the mirror-kind dropdown at (430, 121)
+16:56:13 clicked the mirror-kind dropdown -> 409-b-done-the-mirror-kind-dropdown.png
+16:56:49 about to click Part mirror at (291, 152)
+16:56:50 clicked Part mirror -> 411-b-done-part-mirror.png
+16:56:51 about to click the entities box at (355, 182)
+16:56:52 clicked the entities box -> 413-b-done-the-entities-box.png
+16:56:52 about to click the Shoulder stud row in the parts list at (126, 800)
+16:56:53 clicked the Shoulder stud row in the parts list -> 414-b-done-the-shoulder-stud-row-in-the-parts-list.png
+16:57:33 about to click the Mirror plane box at (343, 231)
+16:57:34 clicked the Mirror plane box -> 416-b-done-the-mirror-plane-box.png
+16:57:34 about to click the Right plane at (98, 261)
+16:57:36 clicked the Right plane -> 417-b-done-the-right-plane.png
+16:57:37 about to click New, so the copy stays its own part at (269, 148)
+16:57:38 clicked New, so the copy stays its own part -> 419-b-done-new-so-the-copy-stays-its-own-part.png
+16:57:39 about to click the green tick, which keeps the mirror at (423, 93)
+16:57:40 clicked the green tick, which keeps the mirror -> 420-b-done-the-green-tick-which-keeps-the-mirror.png
+16:57:43 about to click the Mirror 1 row, to rename it at (140, 625)
+16:57:44 clicked the Mirror 1 row, to rename it -> 421-b-done-the-mirror-1-row-to-rename-it.png
+16:57:44 about to click Rename in the context menu at (261, 649)
+16:57:44 clicked Rename in the context menu -> 422-b-done-rename-in-the-context-menu.png
+16:57:46 renamed 'Mirror 1' to 'Mirror shoulder stud'
+16:57:46 about to click the Part 6 row, to rename it at (140, 826)
+16:57:47 clicked the Part 6 row, to rename it -> 424-b-done-the-part-6-row-to-rename-it.png
+16:57:47 about to click Rename in the context menu at (256, 450)
+16:57:48 clicked Rename in the context menu -> 425-b-done-rename-in-the-context-menu.png
+16:57:49 renamed 'Part 6' to 'Shoulder stud mirrored'
+16:57:50 Torso                    {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+16:57:50 Hip stud                 {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+16:57:50 Hip stud mirrored        {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+16:57:50 Neck stud                {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+16:57:50 Shoulder stud            {'lowX': 14.5862, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': 27.7754, 'highY': 3.8146, 'highZ': 22.4073}
+16:57:50 Shoulder stud mirrored   {'lowX': -27.7754, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': -14.5862, 'highY': 3.8146, 'highZ': 22.4073}
+16:59:59 double-clicking the Shoulder stud profile row to edit it
+17:02:12 about to click the red X, which leaves the sketch as it was at (451, 93)
+17:02:13 clicked the red X, which leaves the sketch as it was -> 428-b-done-the-red-x-which-leaves-the-sketch-as-it-was.png
+17:02:15 about to click the view menu at (1563, 232)
+17:02:16 clicked the view menu -> 429-b-done-the-view-menu.png
+17:02:17 about to click Isometric at (1455, 258)
+17:02:18 clicked Isometric -> 430-b-done-isometric.png
+17:02:19 about to click the view menu at (1563, 232)
+17:02:20 clicked the view menu -> 431-b-done-the-view-menu.png
+17:02:21 about to click Zoom to fit at (1459, 393)
+17:02:22 clicked Zoom to fit -> 432-b-done-zoom-to-fit.png
+17:03:05 about to click the Extrude tool at (219, 58)
+17:03:06 clicked the Extrude tool -> 434-b-done-the-extrude-tool.png
+17:03:08 about to select the flat back of the mirrored boss at (778, 268)
+17:03:09 selected the flat back of the mirrored boss -> 435-a-select-the-flat-back-of-the-mirrored-boss.png
+17:03:09 about to select the flat back of the other boss at (1065, 440)
+17:03:11 selected the flat back of the other boss -> 436-a-select-the-flat-back-of-the-other-boss.png
+17:03:57 about to click the Depth box at (390, 261)
+17:03:58 clicked the Depth box -> 438-b-done-the-depth-box.png
+17:04:43 about to click the green tick, which keeps the extension at (423, 93)
+17:04:44 clicked the green tick, which keeps the extension -> 441-b-done-the-green-tick-which-keeps-the-extension.png
+17:04:46 about to click the Extrude 1 row, to rename it at (140, 630)
+17:04:47 clicked the Extrude 1 row, to rename it -> 442-b-done-the-extrude-1-row-to-rename-it.png
+17:04:47 about to click Rename in the context menu at (261, 654)
+17:04:48 clicked Rename in the context menu -> 443-b-done-rename-in-the-context-menu.png
+17:04:50 renamed 'Extrude 1' to 'Boss into torso, mirrored side'
+17:04:50 about to click the Extrude tool at (219, 58)
+17:04:51 clicked the Extrude tool -> 445-b-done-the-extrude-tool.png
+17:04:53 about to select the flat back of the other boss at (1066, 442)
+17:04:54 selected the flat back of the other boss -> 446-a-select-the-flat-back-of-the-other-boss.png
+17:05:38 about to click the red X, to start the extrude again at (451, 93)
+17:05:39 clicked the red X, to start the extrude again -> 448-b-done-the-red-x-to-start-the-extrude-again.png
+17:06:30 about to click the view menu at (1563, 232)
+17:06:31 clicked the view menu -> 450-b-done-the-view-menu.png
+17:07:12 about to click the Top face of the view cube at (1512, 142)
+17:07:13 clicked the Top face of the view cube -> 452-b-done-the-top-face-of-the-view-cube.png
+17:08:15 about to click the Extrude tool at (219, 58)
+17:08:16 clicked the Extrude tool -> 454-b-done-the-extrude-tool.png
+17:08:18 about to select the flat back of the other boss at (1336, 520)
+17:08:19 selected the flat back of the other boss -> 455-a-select-the-flat-back-of-the-other-boss.png
+17:09:02 about to click the Depth box at (390, 261)
+17:09:03 clicked the Depth box -> 457-b-done-the-depth-box.png
+17:09:06 about to click the green tick, which keeps the extension at (423, 93)
+17:09:06 clicked the green tick, which keeps the extension -> 459-b-done-the-green-tick-which-keeps-the-extension.png
+17:09:09 about to click the Extrude 1 row, to rename it at (140, 630)
+17:09:10 clicked the Extrude 1 row, to rename it -> 460-b-done-the-extrude-1-row-to-rename-it.png
+17:09:10 about to click Rename in the context menu at (261, 654)
+17:09:11 clicked Rename in the context menu -> 461-b-done-rename-in-the-context-menu.png
+17:09:12 renamed 'Extrude 1' to 'Boss into torso'
+17:09:13 Torso                    {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+17:09:13 Hip stud                 {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+17:09:13 Hip stud mirrored        {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+17:09:13 Neck stud                {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+17:09:14 Shoulder stud            {'lowX': 9.3744, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': 27.7754, 'highY': 6.8237, 'highZ': 30.3936}
+17:09:14 Shoulder stud mirrored   {'lowX': -27.7754, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': -9.3744, 'highY': 6.8237, 'highZ': 30.3936}
+17:10:33 about to click the Sketch tool at (155, 58)
+17:10:34 clicked the Sketch tool -> 463-b-done-the-sketch-tool.png
+17:10:35 about to click the Top plane at (140, 136)
+17:10:36 clicked the Top plane -> 464-b-done-the-top-plane.png
+17:11:27 tree rows now: ['', 'Boss into torso', 'Boss into torso, mirrored side', 'Default geometry', 'Front', 'Hip stud']
+17:11:27 about to click the Top plane at (140, 209)
+17:11:28 clicked the Top plane -> 466-b-done-the-top-plane.png
+17:12:18 about to click the centre-point rectangle tool at (253, 58)
+17:12:19 clicked the centre-point rectangle tool -> 468-b-done-the-centre-point-rectangle-tool.png
+17:13:15 about to select the rectangle's top edge at (900, 400)
+17:13:16 selected the rectangle's top edge -> 471-a-select-the-rectangle-s-top-edge.png
+17:13:19 the width across: 23.90862 mm -> 80
+17:13:20 about to select the rectangle's left edge at (645, 520)
+17:13:21 selected the rectangle's left edge -> 473-a-select-the-rectangle-s-left-edge.png
+17:15:50 about to select the rectangle's left edge at (401, 600)
+17:15:52 selected the rectangle's left edge -> 476-a-select-the-rectangle-s-left-edge.png
+17:15:54 the depth front to back: 35.30878 mm -> 40
+17:16:22 about to click the green tick, which keeps the sketch at (423, 93)
+17:16:23 clicked the green tick, which keeps the sketch -> 478-b-done-the-green-tick-which-keeps-the-sketch.png
+17:16:25 about to click the Sketch 1 row, to rename it at (140, 630)
+17:16:26 clicked the Sketch 1 row, to rename it -> 479-b-done-the-sketch-1-row-to-rename-it.png
+17:16:26 about to click Rename in the context menu at (263, 228)
+17:16:27 clicked Rename in the context menu -> 480-b-done-rename-in-the-context-menu.png
+17:16:29 renamed 'Sketch 1' to 'Top face cut outline'
+17:16:53 about to click the Extrude tool at (219, 58)
+17:16:54 clicked the Extrude tool -> 483-b-done-the-extrude-tool.png
+17:16:56 about to select the rectangle, out where nothing else is at (500, 350)
+17:16:57 selected the rectangle, out where nothing else is -> 484-a-select-the-rectangle-out-where-nothing-else-is.png
+17:16:59 about to click Remove at (366, 148)
+17:17:00 clicked Remove -> 485-b-done-remove.png
+17:17:42 about to click the Starting offset tick box at (277, 313)
+17:17:43 clicked the Starting offset tick box -> 487-b-done-the-starting-offset-tick-box.png
+17:18:36 about to click the merge scope box at (355, 508)
+17:18:37 clicked the merge scope box -> 489-b-done-the-merge-scope-box.png
+17:18:37 about to click the Shoulder stud row at (140, 800)
+17:18:38 clicked the Shoulder stud row -> 490-b-done-the-shoulder-stud-row.png
+17:18:38 about to click the Shoulder stud mirrored row at (140, 826)
+17:18:39 clicked the Shoulder stud mirrored row -> 491-b-done-the-shoulder-stud-mirrored-row.png
+17:19:54 about to click the merge scope box at (355, 508)
+17:19:55 clicked the merge scope box -> 493-b-done-the-merge-scope-box.png
+17:19:56 about to click the Shoulder stud mirrored row at (140, 800)
+17:19:57 clicked the Shoulder stud mirrored row -> 494-b-done-the-shoulder-stud-mirrored-row.png
+17:19:58 about to click the arrow that rolls the view down to the front at (1509, 235)
+17:19:59 clicked the arrow that rolls the view down to the front -> 495-b-done-the-arrow-that-rolls-the-view-down-to-the-front.png
+17:20:48 about to click the Direction tick box, which turns the cut around at (277, 286)
+17:20:49 clicked the Direction tick box, which turns the cut around -> 497-b-done-the-direction-tick-box-which-turns-the-cut-aroun.png
+17:21:56 about to click the Direction tick box again, to put it back at (277, 286)
+17:21:57 clicked the Direction tick box again, to put it back -> 499-b-done-the-direction-tick-box-again-to-put-it-back.png
+17:21:59 about to click the flip arrow beside Blind at (452, 230)
+17:22:00 clicked the flip arrow beside Blind -> 500-b-done-the-flip-arrow-beside-blind.png
+17:22:46 about to click the green tick, which keeps the cut at (423, 93)
+17:22:47 clicked the green tick, which keeps the cut -> 502-b-done-the-green-tick-which-keeps-the-cut.png
+17:22:50 about to click the Extrude 1 row, to rename it at (140, 630)
+17:22:51 clicked the Extrude 1 row, to rename it -> 503-b-done-the-extrude-1-row-to-rename-it.png
+17:22:51 about to click Rename in the context menu at (278, 654)
+17:22:52 clicked Rename in the context menu -> 504-b-done-rename-in-the-context-menu.png
+17:22:54 renamed 'Extrude 1' to 'Cut bosses flush with the top face'
+17:22:54 Torso                    {'lowX': 0, 'lowY': 0, 'lowZ': 0, 'highX': 0, 'highY': 0, 'highZ': 0}
+17:22:55 Hip stud                 {'lowX': 9.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': 15.0, 'highY': 3.0, 'highZ': -24.0}
+17:22:55 Hip stud mirrored        {'lowX': -15.0, 'lowY': -3.0, 'lowZ': -32.0, 'highX': -9.0, 'highY': 3.0, 'highZ': -24.0}
+17:22:55 Neck stud                {'lowX': -3.0, 'lowY': -3.0, 'lowZ': 24.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 32.0}
+17:22:55 Shoulder stud            {'lowX': 10.6132, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': 27.7754, 'highY': 5.7816, 'highZ': 24.0}
+17:22:55 Shoulder stud mirrored   {'lowX': -27.7754, 'lowY': -6.9118, 'lowZ': 6.6177, 'highX': -10.6132, 'highY': 5.7816, 'highZ': 24.0}
+17:23:44 about to click the Torso part row at (140, 696)
+17:23:45 clicked the Torso part row -> 506-b-done-the-torso-part-row.png
+17:23:45 about to click Show at (255, 543)
+17:23:46 clicked Show -> 507-b-done-show.png
+17:23:48 about to click the view menu at (1563, 232)
+17:23:49 clicked the view menu -> 508-b-done-the-view-menu.png
+17:23:49 about to click Isometric at (1455, 258)
+17:23:50 clicked Isometric -> 509-b-done-isometric.png
+17:23:52 about to click the view menu at (1563, 232)
+17:23:53 clicked the view menu -> 510-b-done-the-view-menu.png
+17:23:53 about to click Zoom to fit at (1459, 393)
+17:23:54 clicked Zoom to fit -> 511-b-done-zoom-to-fit.png
+17:24:39 about to click the tool search box at (1350, 58)
+17:24:40 clicked the tool search box -> 513-b-done-the-tool-search-box.png
+17:25:23 about to click Boolean at (1109, 159)
+17:25:24 clicked Boolean -> 515-b-done-boolean.png
+17:25:26 about to click the Torso row at (140, 696)
+17:25:26 clicked the Torso row -> 517-b-done-the-torso-row.png
+17:25:27 about to click the Hip stud row at (140, 722)
+17:25:28 clicked the Hip stud row -> 518-b-done-the-hip-stud-row.png
+17:25:29 about to click the Hip stud mirrored row at (140, 748)
+17:25:29 clicked the Hip stud mirrored row -> 519-b-done-the-hip-stud-mirrored-row.png
+17:25:30 about to click the Neck stud row at (140, 774)
+17:25:31 clicked the Neck stud row -> 520-b-done-the-neck-stud-row.png
+17:25:32 about to click the Shoulder stud row at (140, 800)
+17:25:32 clicked the Shoulder stud row -> 521-b-done-the-shoulder-stud-row.png
+17:25:33 about to click the Shoulder stud mirrored row at (140, 826)
+17:25:34 clicked the Shoulder stud mirrored row -> 522-b-done-the-shoulder-stud-mirrored-row.png
+17:26:24 about to click the Keep tools tick box, to turn it off at (257, 325)
+17:26:25 clicked the Keep tools tick box, to turn it off -> 524-b-done-the-keep-tools-tick-box-to-turn-it-off.png
+17:26:27 about to click the green tick, which keeps the union at (423, 93)
+17:26:28 clicked the green tick, which keeps the union -> 526-b-done-the-green-tick-which-keeps-the-union.png
+17:26:31 about to click the Boolean 1 row, to rename it at (140, 630)
+17:26:32 clicked the Boolean 1 row, to rename it -> 527-b-done-the-boolean-1-row-to-rename-it.png
+17:26:32 about to click Rename in the context menu at (251, 654)
+17:26:32 clicked Rename in the context menu -> 528-b-done-rename-in-the-context-menu.png
+17:26:34 renamed 'Boolean 1' to 'Union the torso and its studs'
+17:26:34 parts now: ['Torso']
+17:26:35 Torso                    {'lowX': -27.7754, 'lowY': -12.0, 'lowZ': -32.0, 'highX': 27.7754, 'highY': 12.0, 'highZ': 32.0}
+17:28:23 about to click Create version in the left rail at (20, 95)
+17:28:24 clicked Create version in the left rail -> 530-b-done-create-version-in-the-left-rail.png
+17:28:27 version name box reads 'torso-run6-2026-08-14'
+17:28:27 buttons [['Create', 914, 322], ['Cancel', 1228, 322]]
+17:28:27 about to click Create at (914, 322)
+17:28:28 clicked Create -> 532-b-done-create.png
+17:28:32 version 'Start' id=0755f5e0621ec5df977f3848
+17:28:33 version 'torso-run6-2026-08-14' id=dc7ea4a9e4a9350ee83aa287
+17:30:06 double-clicking the Top face cut outline row to edit it
+17:33:55 about to click the x on the Sketch plane chip, to clear Top plane at (420, 144)
+17:33:56 clicked the x on the Sketch plane chip, to clear Top plane -> 535-b-done-the-x-on-the-sketch-plane-chip-to-clear-top-plan.png
+17:33:58 about to click the torso's top face, in a clear spot at (900, 370)
+17:33:59 clicked the torso's top face, in a clear spot -> 537-b-done-the-torso-s-top-face-in-a-clear-spot.png
+17:34:52 about to click the green tick, which keeps the sketch on its new plane at (423, 93)
+17:34:53 clicked the green tick, which keeps the sketch on its new plane -> 539-b-done-the-green-tick-which-keeps-the-sketch-on-its-new.png
+17:34:57 rows: ['', 'Boss into torso', 'Boss into torso, mirrored side', 'Cut bosses flush with the top face', 'Default geometry', 'Front', 'Hip stud profile', 'Mirror hip stud', 'Mirror shoulder stud', 'Move shoulder to its station', 'Neck stud profile', 'Origin', 'Parts (1)', 'Revolve hip stud', 'Revolve neck stud', 'Revolve shoulder stud', 'Right', 'Shoulder pivot lines', 'Shoulder stud profile', 'Swing shoulder 30 deg forward', 'Tip shoulder 53 deg', 'Top', 'Top face cut outline', 'Torso', 'Torso block', 'Torso outline', 'Union the torso and its studs']
+17:34:57 double-clicking 'Cut bosses flush with the top face' to edit it
+17:36:01 'Cut bosses flush with the top face' sits at (140, 590)
+17:36:01 double-clicking 'Cut bosses flush with the top face' to edit it
+17:36:56 about to click the Starting offset tick box, to turn it off at (277, 313)
+17:36:57 clicked the Starting offset tick box, to turn it off -> 544-b-done-the-starting-offset-tick-box-to-turn-it-off.png
+17:37:37 about to click the green tick, which keeps the cut at (423, 93)
+17:37:38 clicked the green tick, which keeps the cut -> 546-b-done-the-green-tick-which-keeps-the-cut.png
+17:37:43 parts now: ['Torso']
+17:37:43 Torso                    {'lowX': -27.7754, 'lowY': -12.0, 'lowZ': -32.0, 'highX': 27.7754, 'highY': 12.0, 'highZ': 32.0}
+17:38:26 about to click Create version in the left rail at (20, 95)
+17:38:27 clicked Create version in the left rail -> 548-b-done-create-version-in-the-left-rail.png
+17:38:30 version name box reads 'torso-run6-2026-08-14-2'
+17:38:30 about to click Create at (914, 322)
+17:38:31 clicked Create -> 549-b-done-create.png
+17:38:36 version 'Start' id=0755f5e0621ec5df977f3848
+17:38:36 version 'torso-run6-2026-08-14' id=dc7ea4a9e4a9350ee83aa287
+17:38:36 version 'torso-run6-2026-08-14-2' id=a802fa578af50f48eabadb06
+17:40:27 body JHD
+17:40:27   face types: {'PLANE': 8, 'CYLINDER': 7, 'SPHERE': 5}
+17:40:50 {
+ "btType": "BTExportModelFace-1363",
+ "faceProperties": null,
+ "appearancePropertyNodeId": "",
+ "box": {
+  "btType": "BTBoundingBox-1052",
+  "minCorner": {
+   "btType": "BTVector3d-389",
+   "y": -0.012,
+   "x": -0.018000000000000006,
+   "z": -0.024000000000000004
+  },
+  "maxCorner": {
+   "btType": "BTVector3d-389",
+   "y": 0.012,
+   "x": 0.018000000000000002,
+   "z": -0.024
+  }
+ },
+ "area": 0.000849862833058846,
+ "orientation": true,
+ "surface": {
+  "btType": "BTPlaneDescription-692",
+  "isOrientedWithFace": true,
+  "origin": {
+   "btType": "BTVector3d-389",
+   "y": -0.012,
+   "x": 0,
+   "z": -0.024
+  },
+  "type": "PLANE",
+  "normal": {
+   "btType": "BTVector3d-389",
+   "y": 0,
+   "x": 0,
+   "z": -1
+  }
+ },
+ "cosmeticThreadMetadata": null,
+ "loops": [
+  {
+   "btType": "BTExportModelLoop-1182",
+   "isOuter": false,
+   "isInner": true,
+   "coedges": [
+    {
+     "btType": "BTExportModelCoedge-1342",
+     "edgeId": "JfF",
+     "orientation": true
+    }
+   ]
+  },
+  {
+   "btType": "BTExportModelLoop-1182",
+   "isOuter": true,
+   "isInner": false,
+   "coedges": [
+    {
+     "btType": "BTExportModelCoedge-1342",
+     "edgeId": "JHZ",
+     "orientation": false
+    },
+    {
+     "btType": "BTExportModelCoedge-1342",
+     "edgeId": "JHJ",
+     "orientation": false
+    },
+    {
+     "btType": "BTExportModelCoedge-1342",
+     "edgeId": "JHd",
+     "orientation": true
+    },
+    {
+     "btType": "BTExportModelCoedge-1342",
+     "edgeId": "JHN",
+     "orientation": true
+    }
+   ]
+  },
+  {
+   "btType": "BTExportModelLoop-1182",
+   "isOuter": false,
+   "isInner": true,
+   "coedges": [
+ 
+17:41:16 z= -24.0000 nz=-1 area=  849.8628 mm2  x -18.0000.. 18.0000  y -12.0000.. 12.0000
+17:41:16 z=  24.0000 nz=-1 area=  878.3647 mm2  x -20.1660.. 20.1660  y -12.0000.. 12.0000
+17:41:55 cyl  r=4.0000 at ( -25.5572,   -4.3632,    8.4198) axis (0.5212, 0.3009, 0.7986)
+17:41:55 ball r=3.0000 at ( -24.7754,   -3.9118,    9.6177)  area=105.5213
+17:41:55 cyl  r=1.5000 at ( -25.5572,   -4.3632,    8.4198) axis (0.5212, 0.3009, 0.7986)
+17:41:55 cyl  r=4.0000 at (  25.5572,   -4.3632,    8.4198) axis (-0.5212, 0.3009, 0.7986)
+17:41:55 ball r=3.0000 at (  24.7754,   -3.9118,    9.6177)  area=105.5213
+17:41:55 cyl  r=1.5000 at (  25.5572,   -4.3632,    8.4198) axis (-0.5212, 0.3009, 0.7986)
+17:41:55 ball r=3.0000 at (  12.0000,    0.0000,  -29.0000)  area=105.5213
+17:41:55 cyl  r=1.5000 at (  12.0000,    0.0000,  -30.5000) axis (0.0000, 0.0000, 1.0000)
+17:41:55 ball r=3.0000 at ( -12.0000,    0.0000,  -29.0000)  area=105.5213
+17:41:55 cyl  r=1.5000 at ( -12.0000,    0.0000,  -30.5000) axis (0.0000, 0.0000, 1.0000)
+17:41:55 cyl  r=1.5000 at (   0.0000,    0.0000,   30.5000) axis (0.0000, 0.0000, -1.0000)
+17:41:55 ball r=3.0000 at (  -0.0000,    0.0000,   29.0000)  area=105.5213
+17:41:55 volume 42890.0333 mm3

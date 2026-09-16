@@ -1,0 +1,278 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "1562dee65e364ec088dda0ec",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#headW = 72 mm",
+  "#headD = 60 mm",
+  "#eyeX = 12 mm",
+  "#eyeUp = 8 mm",
+  "#eyeRx = 8 mm",
+  "#eyeRy = 4 mm",
+  "#face = 3 mm",
+  "#mouthW = 40 mm",
+  "#mouthH = 10 mm",
+  "#mouthDn = 13 mm",
+  "#chamfer = 6 mm",
+  "#round = 12 mm",
+  "head profile",
+  "head body",
+  "upper rounds",
+  "lower head chamfer",
+  "eye profile",
+  "eye",
+  "second eye",
+  "mouth profile",
+  "mouth",
+  "socket mount point",
+  "get socket",
+  "drop socket to neck",
+  "add socket to head",
+  "head mate"
+ ],
+ "features": {
+  "#headW = 72 mm": {
+   "upstream": [],
+   "downstream": [
+    "#eyeX = 12 mm",
+    "#eyeUp = 8 mm",
+    "#eyeRx = 8 mm",
+    "#eyeRy = 4 mm",
+    "#face = 3 mm",
+    "#mouthW = 40 mm",
+    "#mouthH = 10 mm",
+    "#mouthDn = 13 mm",
+    "#chamfer = 6 mm",
+    "#round = 12 mm",
+    "head profile"
+   ]
+  },
+  "#headD = 60 mm": {
+   "upstream": [],
+   "downstream": [
+    "head body",
+    "eye",
+    "second eye",
+    "mouth"
+   ]
+  },
+  "#eyeX = 12 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "eye profile"
+   ]
+  },
+  "#eyeUp = 8 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "eye profile"
+   ]
+  },
+  "#eyeRx = 8 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "eye profile"
+   ]
+  },
+  "#eyeRy = 4 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "eye profile"
+   ]
+  },
+  "#face = 3 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "eye",
+    "second eye",
+    "mouth"
+   ]
+  },
+  "#mouthW = 40 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "mouth profile"
+   ]
+  },
+  "#mouthH = 10 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "mouth profile"
+   ]
+  },
+  "#mouthDn = 13 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "mouth profile"
+   ]
+  },
+  "#chamfer = 6 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "lower head chamfer"
+   ]
+  },
+  "#round = 12 mm": {
+   "upstream": [
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "upper rounds"
+   ]
+  },
+  "head profile": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#headW = 72 mm"
+   ],
+   "downstream": [
+    "head body"
+   ]
+  },
+  "head body": {
+   "upstream": [
+    "#headD = 60 mm",
+    "head profile"
+   ],
+   "downstream": [
+    "upper rounds",
+    "lower head chamfer",
+    "eye",
+    "mouth",
+    "socket mount point",
+    "add socket to head",
+    "head mate"
+   ]
+  },
+  "upper rounds": {
+   "upstream": [
+    "#round = 12 mm",
+    "head body"
+   ],
+   "downstream": []
+  },
+  "lower head chamfer": {
+   "upstream": [
+    "#chamfer = 6 mm",
+    "head body"
+   ],
+   "downstream": []
+  },
+  "eye profile": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "#eyeX = 12 mm",
+    "#eyeUp = 8 mm",
+    "#eyeRx = 8 mm",
+    "#eyeRy = 4 mm"
+   ],
+   "downstream": [
+    "eye"
+   ]
+  },
+  "eye": {
+   "upstream": [
+    "#headD = 60 mm",
+    "#face = 3 mm",
+    "head body",
+    "eye profile"
+   ],
+   "downstream": [
+    "second eye"
+   ]
+  },
+  "second eye": {
+   "upstream": [
+    "Right",
+    "#headD = 60 mm",
+    "#face = 3 mm",
+    "eye"
+   ],
+   "downstream": []
+  },
+  "mouth profile": {
+   "upstream": [
+    "Origin",
+    "Front",
+    "Right",
+    "#mouthW = 40 mm",
+    "#mouthH = 10 mm",
+    "#mouthDn = 13 mm"
+   ],
+   "downstream": [
+    "mouth"
+   ]
+  },
+  "mouth": {
+   "upstream": [
+    "#headD = 60 mm",
+    "#face = 3 mm",
+    "head body",
+    "mouth profile"
+   ],
+   "downstream": []
+  },
+  "socket mount point": {
+   "upstream": [
+    "head body"
+   ],
+   "downstream": [
+    "drop socket to neck"
+   ]
+  },
+  "get socket": {
+   "upstream": [],
+   "downstream": [
+    "drop socket to neck",
+    "add socket to head",
+    "head mate"
+   ]
+  },
+  "drop socket to neck": {
+   "upstream": [
+    "socket mount point",
+    "get socket"
+   ],
+   "downstream": []
+  },
+  "add socket to head": {
+   "upstream": [
+    "head body",
+    "get socket"
+   ],
+   "downstream": []
+  },
+  "head mate": {
+   "upstream": [
+    "head body",
+    "get socket"
+   ],
+   "downstream": []
+  }
+ }
+}

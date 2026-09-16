@@ -1,0 +1,365 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "cd2278317279029435f010de",
+ "instances": [
+  {
+   "id": "MicdAsPPazkgsAPsK",
+   "name": "torso <1>",
+   "elementId": "4e48e81a06c8d40b2a38b871"
+  },
+  {
+   "id": "MdT1T2R0g27vrdRZ8",
+   "name": "head <1>",
+   "elementId": "1562dee65e364ec088dda0ec"
+  },
+  {
+   "id": "MT02GdrCbR4W9pnuh",
+   "name": "u limb <1>",
+   "elementId": "656816292447e8797ff0402d"
+  },
+  {
+   "id": "Mt5ktLcgt8669LYL3",
+   "name": "l limb <1>",
+   "elementId": "88de5da8c7611f141a1a92a9"
+  },
+  {
+   "id": "MscmD98w1C8nySSL+",
+   "name": "Gripper <1>",
+   "elementId": "32166c7b3d22572c0e7dd0c3"
+  },
+  {
+   "id": "M2UshSps5YAaBoRj/",
+   "name": "Gripper <2>",
+   "elementId": "32166c7b3d22572c0e7dd0c3"
+  },
+  {
+   "id": "MdmWcu4YI0lcwBczq",
+   "name": "l limb <2>",
+   "elementId": "88de5da8c7611f141a1a92a9"
+  },
+  {
+   "id": "M8wqH3uNyW4kjR0NX",
+   "name": "u limb <2>",
+   "elementId": "656816292447e8797ff0402d"
+  },
+  {
+   "id": "MH9d9aI7vak3l3gqO",
+   "name": "l limb <3>",
+   "elementId": "88de5da8c7611f141a1a92a9"
+  },
+  {
+   "id": "M4IIRq6HRqc3fVC+0",
+   "name": "u limb <3>",
+   "elementId": "656816292447e8797ff0402d"
+  },
+  {
+   "id": "MEt9lbumyQEBoRhKN",
+   "name": "Foot <1>",
+   "elementId": "c01ac56602d81451da6a5db5"
+  },
+  {
+   "id": "M44GoXros1KNYQ3cy",
+   "name": "Foot <2>",
+   "elementId": "c01ac56602d81451da6a5db5"
+  },
+  {
+   "id": "MGQjblQAdDshG6QGY",
+   "name": "l limb <4>",
+   "elementId": "88de5da8c7611f141a1a92a9"
+  },
+  {
+   "id": "MvGDUVb31SxYd7Mwx",
+   "name": "u limb <4>",
+   "elementId": "656816292447e8797ff0402d"
+  }
+ ],
+ "mates": [
+  {
+   "name": "head to neck",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "head <1>"
+     ],
+     "connectorFeatureId": "FT0tr3ZUupnTazh_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "torso <1>"
+     ],
+     "connectorFeatureId": "F2RQmx94Qr3s6ua_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left shoulder",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "u limb <1>"
+     ],
+     "connectorFeatureId": "Fosvw8h4L67nwUU_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "torso <1>"
+     ],
+     "connectorFeatureId": "FFJpC2VHu34WZfs_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left elbow",
+   "mateType": "REVOLUTE",
+   "picks": [
+    {
+     "instance": [
+      "l limb <1>"
+     ],
+     "connectorFeatureId": "FT6q2sVvHv8Orw7_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "u limb <1>"
+     ],
+     "connectorFeatureId": "FW4Vq3C25scRO63_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left wrist",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "Gripper <1>"
+     ],
+     "connectorFeatureId": "FXQnCl71BBzEV6t_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "l limb <1>"
+     ],
+     "connectorFeatureId": "FqkB807Tntbxd5B_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right elbow",
+   "mateType": "REVOLUTE",
+   "picks": [
+    {
+     "instance": [
+      "l limb <2>"
+     ],
+     "connectorFeatureId": "FT6q2sVvHv8Orw7_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "u limb <2>"
+     ],
+     "connectorFeatureId": "FW4Vq3C25scRO63_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right wrist",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "Gripper <2>"
+     ],
+     "connectorFeatureId": "FXQnCl71BBzEV6t_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "l limb <2>"
+     ],
+     "connectorFeatureId": "FqkB807Tntbxd5B_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right shoulder",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "u limb <2>"
+     ],
+     "connectorFeatureId": "Fosvw8h4L67nwUU_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "torso <1>"
+     ],
+     "connectorFeatureId": "FvaDq8a8VQiq0pM_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left knee",
+   "mateType": "REVOLUTE",
+   "picks": [
+    {
+     "instance": [
+      "l limb <3>"
+     ],
+     "connectorFeatureId": "FT6q2sVvHv8Orw7_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "u limb <3>"
+     ],
+     "connectorFeatureId": "FW4Vq3C25scRO63_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left ankle",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "Foot <1>"
+     ],
+     "connectorFeatureId": "FjddoTaG9dOQAHL_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "l limb <3>"
+     ],
+     "connectorFeatureId": "FqkB807Tntbxd5B_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "left hip",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "u limb <3>"
+     ],
+     "connectorFeatureId": "Fosvw8h4L67nwUU_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "torso <1>"
+     ],
+     "connectorFeatureId": "FKmNGIn8evydID6_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right knee",
+   "mateType": "REVOLUTE",
+   "picks": [
+    {
+     "instance": [
+      "l limb <4>"
+     ],
+     "connectorFeatureId": "FT6q2sVvHv8Orw7_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "u limb <4>"
+     ],
+     "connectorFeatureId": "FW4Vq3C25scRO63_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right ankle",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "Foot <2>"
+     ],
+     "connectorFeatureId": "FjddoTaG9dOQAHL_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "l limb <4>"
+     ],
+     "connectorFeatureId": "FqkB807Tntbxd5B_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  },
+  {
+   "name": "right hip",
+   "mateType": "BALL",
+   "picks": [
+    {
+     "instance": [
+      "u limb <4>"
+     ],
+     "connectorFeatureId": "Fosvw8h4L67nwUU_2",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    },
+    {
+     "instance": [
+      "torso <1>"
+     ],
+     "connectorFeatureId": "FasTqIkS2Um5LmA_1",
+     "queryType": "BTMPartStudioMateConnectorQuery"
+    }
+   ],
+   "offsetEnabled": false,
+   "limitsEnabled": false
+  }
+ ],
+ "note": "Mate connectors are named by their Part Studio feature id. The names are in each tab's own record; the id-to-name map needs /api/partstudios/.../features, which is rate limited until about 12:30 on Sat 29 Aug."
+}

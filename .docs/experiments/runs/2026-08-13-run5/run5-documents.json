@@ -1,0 +1,244 @@
+{
+  "documents": {
+    "hinge": {
+      "name": "hinge-run5",
+      "did": "07d039782c8f77f2415276d4",
+      "wid": "5813e969a0433a8ed2b1f43b",
+      "elements": {
+        "Part Studio 1": {
+          "id": "6703ecdceee32d98908036e1",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "a16776c2f431c81c78a81bbe",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "ffe868744c4066fa87b05371",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "62a872a81be583b5a834ab81",
+        "run4_wid": "5c5537487dc30262ffc3a148",
+        "name": "hinge-run4"
+      }
+    },
+    "ball-socket": {
+      "name": "ball-socket-run5",
+      "did": "71f1fef5c9aa1b1d2154e838",
+      "wid": "2bd16b051cfe9b31c90d3b39",
+      "elements": {
+        "Part Studio 1": {
+          "id": "ec8c3a645b64ea2e6e623b5f",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "c61a08b527bd155758e64391",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "1b9e39362d0fe61981f2d782",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "b35ba30bf1c1f52ae737dc85",
+        "run4_wid": "c7824bb08c0926e1a24b728f",
+        "name": "ball-socket-run4"
+      }
+    },
+    "torso": {
+      "name": "torso-run5",
+      "did": "206f64ca84078adfa732cafa",
+      "wid": "418938fe2c6e953de1f5b9c2",
+      "elements": {
+        "Part Studio 1": {
+          "id": "e60771705729bcb7e1f5a72f",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "cb5bdec82fb78d35c18304b8",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "f2f4db22115694e3a8475566",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "575eeaa61605e4e98cf83c98",
+        "run4_wid": "f011204ed4175bdc6976db17",
+        "name": "torso-run4"
+      },
+      "versions": {
+        "run 5": "cdb81ee18dd39a39459084eb"
+      }
+    },
+    "head": {
+      "name": "head-run5",
+      "did": "92cbe5356b68e79b1fa2de82",
+      "wid": "9fa868aa94c34eae6d48455b",
+      "elements": {
+        "Part Studio 1": {
+          "id": "374227cc36f4d555dbc4cfca",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "bd46e755296d623230d56a7d",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "0a099469a549e560fff1d29f",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "87941467ffcb5614f8e5cd9c",
+        "run4_wid": "7f18b654613b6e67b8d64688",
+        "name": "head-run4"
+      },
+      "versions": {
+        "run 5": "0f8c98cf8711856e8920395d",
+        "run 5.1": "399f05f6c0b0d7ec577fe4d0"
+      }
+    },
+    "hand": {
+      "name": "hand-run5",
+      "did": "e0ad3f5011419cdd89355a83",
+      "wid": "b9184cfa5a7c50bd77c4c398",
+      "elements": {
+        "Part Studio 1": {
+          "id": "6e1dd11ab78aaf20a7b04a25",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "910464845f56b403c251ee0c",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "05a464384dda83ef253c02cf",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "8376230696a463f1a8eefa0e",
+        "run4_wid": "5694af49ef22d033f70465fa",
+        "name": "hand-run4"
+      },
+      "versions": {
+        "run 5": "cb6595886adb02dbf13d0b1d"
+      }
+    },
+    "foot": {
+      "name": "foot-run5",
+      "did": "f1e10c9011cc7e097e626b0e",
+      "wid": "971193fcfb57b0cdd59f7340",
+      "elements": {
+        "Part Studio 1": {
+          "id": "13f9b306ab6bc18ccc9b2c5d",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "ebe56563b5d32d950c4ff80a",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "70d22fee8e9d74edc2471cbe",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "88e4785754c8b39b144f2ff6",
+        "run4_wid": "68067293dd9bdb4a17bdac26",
+        "name": "foot-run4"
+      },
+      "versions": {
+        "run 5": "b32ec7b3b77c3dfcb5b4b543",
+        "run 5.1": "2eb1c5a2408e27fca4436e24"
+      }
+    },
+    "limb-blade-ball": {
+      "name": "limb-blade-ball-run5",
+      "did": "a430364619418afe61e7ff6f",
+      "wid": "67cd7d8da8187223e61fe43f",
+      "elements": {
+        "Part Studio 1": {
+          "id": "3b0afd71762a41aba6fcc8ec",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "edca4ea0a883c18fa17fffae",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "edd210c4d16285dd52161db4",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "96d4bd047e40887aa2d57801",
+        "run4_wid": "4d1dc6a2fa13f79ecc0a4872",
+        "name": "limb-blade-ball-run4"
+      },
+      "versions": {
+        "run 5": "17256fe4d71d13c0d2d1bce7"
+      }
+    },
+    "limb-socket-clevis": {
+      "name": "limb-socket-clevis-run5",
+      "did": "ea99eeb6f9aa9e24a0139ddb",
+      "wid": "98159bfc4504fc94e036ef20",
+      "elements": {
+        "Part Studio 1": {
+          "id": "d2f73f3c4c16fabaf01927bb",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "aa33229752f77ac19e34e6b6",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "e6562a665a2128b9f929ccfa",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "4bc4d4861b3a7bbe8b92061a",
+        "run4_wid": "47e186bef90f5702f0593e03",
+        "name": "limb-socket-clevis-run4"
+      },
+      "versions": {
+        "run 5": "940001b89dceed0f4c8fb73a"
+      }
+    },
+    "lesson": {
+      "name": "lesson-run5",
+      "did": "a999c3039f292ccb278ac94a",
+      "wid": "1110d41029a137a8e1b6cb79",
+      "elements": {
+        "Part Studio 1": {
+          "id": "242af3703f19839583fd4e08",
+          "type": "PARTSTUDIO"
+        },
+        "Assembly 1": {
+          "id": "f09a5c881ece9a882e0f6b39",
+          "type": "ASSEMBLY"
+        },
+        "BOM : Assembly 1": {
+          "id": "70f3e41f2e1293726a1e366f",
+          "type": "BILLOFMATERIALS"
+        }
+      },
+      "from": {
+        "run4_did": "5ef020ed135f2610f5f937b3",
+        "run4_wid": "bbdb1f90cec38a903999e13b",
+        "name": "lesson-run4"
+      },
+      "versions": {
+        "run 5 assembled": "8ccbeb5e531a4633db7a4588",
+        "run 5.1 assembled": "e2a99fa2be54ceaaf31c29d5"
+      }
+    }
+  }
+}

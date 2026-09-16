@@ -1,0 +1,13 @@
+21:31:15 about to press Control+m to ctrl-m, which opens Mate connector
+21:31:17 pressed Control+m to ctrl-m, which opens Mate connector -> 01-b-done-ctrl-m-which-opens-mate-connector.png
+21:31:21 about to click the Origin entity field, to arm it at (355, 154)
+21:31:21 clicked the Origin entity field, to arm it -> 02-b-done-the-origin-entity-field-to-arm-it.png
+21:31:24 about to click the Origin, which the connector starts from at (140, 183)
+21:31:25 clicked the Origin, which the connector starts from -> 03-b-done-the-origin-which-the-connector-starts-from.png
+21:31:28 about to click the green tick, which keeps the connector at (424, 93)
+21:31:29 clicked the green tick, which keeps the connector -> 05-b-done-the-green-tick-which-keeps-the-connector.png
+21:31:34 about to click the Mate connector 1 row, to rename it at (140, 391)
+21:31:34 clicked the Mate connector 1 row, to rename it -> 06-b-done-the-mate-connector-1-row-to-rename-it.png
+21:31:34 about to click Rename in the context menu at (251, 415)
+21:31:35 clicked Rename in the context menu -> 07-b-done-rename-in-the-context-menu.png
+21:31:37 renamed 'Mate connector 1' to 'Socket'

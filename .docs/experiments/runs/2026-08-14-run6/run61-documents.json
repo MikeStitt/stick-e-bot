@@ -1,0 +1,50 @@
+{
+ "created": "2026-08-14",
+ "how": "Created empty through the GUI on port 9223. Nothing was copied from run 6.",
+ "workspace_units": {
+  "length": "millimeter",
+  "display_decimals": "0.12345"
+ },
+ "documents": {
+  "ball-socket": {
+   "name": "ball-socket-run61",
+   "did": "de2c0d9bdbb02b3a345eada1",
+   "wid": "e73b85313fe2496ae852837b",
+   "partstudio": "b6db2491eeffbc3a865fff4f",
+   "elements": {
+    "Part Studio 1": {
+     "id": "b6db2491eeffbc3a865fff4f",
+     "type": "PARTSTUDIO"
+    },
+    "Assembly 1": {
+     "id": "849dfe1a4bcf0e08642494a3",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "5adf693825a2ec02c3ba6874",
+     "type": "BILLOFMATERIALS"
+    }
+   }
+  },
+  "hinge": {
+   "name": "hinge-run61",
+   "did": "aca8691bb83295fdde2015db",
+   "wid": "51cea5ef558233bb62482046",
+   "partstudio": "08688d842246482d3d09959a",
+   "elements": {
+    "Part Studio 1": {
+     "id": "08688d842246482d3d09959a",
+     "type": "PARTSTUDIO"
+    },
+    "Assembly 1": {
+     "id": "6337952c85dcc4efbe0dbee2",
+     "type": "ASSEMBLY"
+    },
+    "BOM : Assembly 1": {
+     "id": "032f7d8fdb7de7172da4f8c4",
+     "type": "BILLOFMATERIALS"
+    }
+   }
+  }
+ }
+}

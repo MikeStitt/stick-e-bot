@@ -1,0 +1,55 @@
+{"document": "stickbot-draft9p4-check", "driving": "fix_body"}
+{"attempt": 1, "frame": "assembly.fix_body-01", "kind": "tree", "shows": "the assembly tree with torso <1> and head <1> both opened and neither marked fixed, because nothing is fixed yet", "step": "cad.assembly.fix_body"}
+{"attempt": 1, "frame": "assembly.fix_body-02", "kind": "pick", "shows": "the menu on torso <1> with Fix about a third of the way down", "step": "cad.assembly.fix_body"}
+{"attempt": 1, "creates": "none", "deviation": "take failed: nothing in the tree reads as fixed after Fix was clicked", "features_added": [], "features_gone": [], "keys": [], "measured": {}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.fix_body", "unmet": []}
+{"document": "stickbot-draft9p4-check", "driving": "fix_body"}
+{"attempt": 2, "frame": "assembly.fix_body-01", "kind": "tree", "shows": "the assembly tree with torso <1> and head <1> both opened and neither marked fixed, because nothing is fixed yet", "step": "cad.assembly.fix_body"}
+{"attempt": 2, "frame": "assembly.fix_body-02", "kind": "pick", "shows": "the menu on torso <1> with Fix about a third of the way down", "step": "cad.assembly.fix_body"}
+{"attempt": 2, "frame": "assembly.fix_body-03", "kind": "accepted", "shows": "the whole window after Fix, with the torso unmoved and the mark on its row the only thing that changed", "step": "cad.assembly.fix_body"}
+{"attempt": 2, "frame": "assembly.fix_body-04", "kind": "accepted", "shows": "the mark on torso <1> close up, and no mark on head <1>, which is the whole signal that the torso is the ground", "step": "cad.assembly.fix_body"}
+{"attempt": 2, "creates": "none", "deviation": null, "features_added": [], "features_gone": [], "keys": [], "measured": {"fixed": "torso <1>"}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.fix_body", "unmet": []}
+{"attempt": 2, "frames": 4, "verdict": "cad.assembly.fix_body", "why": "last attempt; no earlier one promoted"}
+{"document": "stickbot-draft9p4-check", "driving": "fix_body"}
+{"attempt": 3, "frame": "assembly.fix_body-01", "kind": "tree", "shows": "the assembly tree with torso <1> and head <1> both opened and neither marked fixed, because nothing is fixed yet", "step": "cad.assembly.fix_body"}
+{"attempt": 3, "frame": "assembly.fix_body-02", "kind": "pick", "shows": "the menu on torso <1> with Fix about a third of the way down", "step": "cad.assembly.fix_body"}
+{"attempt": 3, "frame": "assembly.fix_body-03", "kind": "accepted", "shows": "the whole window after Fix, with the torso unmoved and the mark on its row the only thing that changed", "step": "cad.assembly.fix_body"}
+{"attempt": 3, "frame": "assembly.fix_body-04", "kind": "accepted", "shows": "the mark on torso <1> close up, and no mark on head <1>, which is the whole signal that the torso is the ground", "step": "cad.assembly.fix_body"}
+{"attempt": 3, "creates": "none", "deviation": null, "features_added": [], "features_gone": [], "keys": [], "measured": {"fixed": "torso <1>"}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.fix_body", "unmet": []}
+{"attempt": 3, "frames": 4, "verdict": "cad.assembly.fix_body", "why": "last attempt; no earlier one promoted"}
+{"document": "stickbot-draft9p4-check", "driving": "mate_head"}
+{"attempt": 1, "frame": "assembly.mate_head-01", "kind": "arrived", "shows": "both parts opened in the tree, so head mate sits under head <1> and neck under torso <1>", "step": "cad.assembly.mate_head"}
+{"attempt": 1, "creates": "head to neck", "deviation": "take failed: no toolbar button whose title starts 'Ball'", "features_added": [], "features_gone": [], "keys": [], "measured": {}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.mate_head", "unmet": []}
+{"document": "stickbot-draft9p4-check", "driving": "mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-01", "kind": "arrived", "shows": "both parts opened in the tree, so head mate sits under head <1> and neck under torso <1>", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-02", "kind": "pick", "shows": "the Ball mate button on the assembly toolbar", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-03", "kind": "field", "shows": "the mate dialog renamed head to neck with both connector boxes empty, and head mate waiting in the tree beside it", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-04", "kind": "pick", "shows": "the head mate row under head <1> close up; the part that moves is picked first", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-05", "kind": "field", "shows": "the dialog holding head mate of head <1> and nothing moved yet, with neck waiting under torso <1> in the tree", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-06", "kind": "pick", "shows": "the neck row under torso <1> close up; this is where the head goes", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-07", "kind": "accepted", "shows": "the head lifted out of where tutorial 3 left it and sitting on the neck stud, the moment the second connector is picked", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "frame": "assembly.mate_head-08", "kind": "accepted", "shows": "the torso with the head on top of it, the robot's first joint, and Mate features reading 1", "step": "cad.assembly.mate_head"}
+{"attempt": 2, "creates": "head to neck", "deviation": null, "features_added": ["head to neck"], "features_gone": [], "keys": [{"key": "f", "why": "zoom to fit, so the robot is square in the window now the head has moved"}], "measured": {"head_x_mm": -0.0, "head_y_mm": 0.0, "head_z_mm": 104.0, "mates": 1}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.mate_head", "unmet": []}
+{"attempt": 2, "frames": 8, "verdict": "cad.assembly.mate_head", "why": "last attempt; no earlier one promoted"}
+{"document": "stickbot-draft9p4-check", "driving": "drag_head"}
+{"attempt": 1, "frame": "assembly.drag_head-01", "kind": "hero", "shows": "the head sitting square on the neck stud, the rest the joint returns to when it is let go", "step": "cad.assembly.drag_head"}
+{"attempt": 1, "frame": "assembly.drag_head-02", "kind": "accepted", "shows": "the head turned on its ball, position 1 of three; the torso has not moved, because it is fixed", "step": "cad.assembly.drag_head"}
+{"attempt": 1, "frame": "assembly.drag_head-03", "kind": "accepted", "shows": "the head turned on its ball, position 2 of three; the torso has not moved, because it is fixed", "step": "cad.assembly.drag_head"}
+{"attempt": 1, "frame": "assembly.drag_head-04", "kind": "accepted", "shows": "the head turned on its ball, position 3 of three; the torso has not moved, because it is fixed", "step": "cad.assembly.drag_head"}
+{"attempt": 1, "frame": "assembly.drag_head-05", "kind": "accepted", "shows": "the head back where it started, square on the stud again, so the version is published on the rest pose", "step": "cad.assembly.drag_head"}
+{"attempt": 1, "creates": "none", "deviation": null, "features_added": [], "features_gone": [], "keys": [{"key": "Shift+1", "why": "look from the front, where a turned head reads as turned"}], "measured": {"pulls": "-18.16,1.19,100.25; -3.88,-32.91,89.9; -3.09,-10.71,102.63", "rest_x_mm": -0.0, "rest_y_mm": 0.0, "rest_z_mm": 104.0}, "opens_a_tab": null, "renames": null, "step": "cad.assembly.drag_head", "unmet": []}
+{"attempt": 1, "frames": 5, "verdict": "cad.assembly.drag_head", "why": "last attempt; no earlier one promoted"}
+{"document": "stickbot-draft9p4-check", "driving": "version"}
+{"attempt": 1, "frame": "version-01", "kind": "field", "shows": "the Create version dialog with tutorial 7 - the head is mated to the torso typed into the Name box", "step": "cad.version"}
+{"attempt": 1, "frame": "version-02", "kind": "version", "shows": "the Versions and history panel listing Main with tutorial 7 - the head is mated to the torso at the top", "step": "cad.version"}
+{"attempt": 1, "creates": "none", "deviation": null, "features_added": [], "features_gone": [], "keys": [], "measured": {"versions": "Start,tutorial 1 - variables and torso,tutorial 2 - the head,tutorial 3 - the assembly,tutorial 4 - the ball and socket,tutorial 5 - the head gains its socket,tutorial 6 - the torso gains shoulders and studs,tutorial 7 - the head is mated to the torso"}, "opens_a_tab": null, "renames": null, "step": "cad.version", "unmet": []}
+{"attempt": 1, "frames": 2, "verdict": "cad.version", "why": "last attempt; no earlier one promoted"}
+{"document": "stickbot-draft9p4-check", "driving": "wrong_order"}
+{"after": {"M57kNeyp9NgH0omB/": [-0.0, 0.0, -14.0], "M86lSGeMTeoWcvsbs": [0, 0, 90.0]}, "before": {"M57kNeyp9NgH0omB/": [0, 0, 0], "M86lSGeMTeoWcvsbs": [0, 0, 90.0]}, "moved": ["M57kNeyp9NgH0omB/"], "probe": "cad.assembly.mate_head", "question": "whether the first pick has to be the part that moves"}
+{"document": "stickbot-draft9p4-check", "driving": "wrong_order_fixed"}
+{"after": {"M57kNeyp9NgH0omB/": [-0.0, 0.0, -14.0], "M86lSGeMTeoWcvsbs": [0, 0, 90.0]}, "before": {"M57kNeyp9NgH0omB/": [-0.0, 0.0, -14.0], "M86lSGeMTeoWcvsbs": [0, 0, 90.0]}, "moved": [], "probe": "cad.assembly.mate_head", "question": "what the reversed order does once the torso is fixed"}
+{"document": "stickbot-draft9p4-check", "driving": "restore"}
+{"document": "stickbot-draft9p4-check", "driving": "wrong_order_fixed"}
+{"after": {"M57kNeyp9NgH0omB/": [0, 0, 0], "M86lSGeMTeoWcvsbs": [0.0, -0.0, 104.0]}, "before": {"M57kNeyp9NgH0omB/": [0, 0, 0], "M86lSGeMTeoWcvsbs": [0, 0, 90.0]}, "moved": ["M86lSGeMTeoWcvsbs"], "probe": "cad.assembly.mate_head", "question": "what the reversed order does once the torso is fixed"}
+{"document": "stickbot-draft9p4-check", "driving": "graphics_pick"}
+{"at_mm": [20.0, -24.0, 0.0], "dialog": ["Ball 1", "Ball", "Mate connectors", "head mate of head <1>", "\u00d7", "Mate connector of torso <1>", "\u00d7", "Limits", "Simulation connection", "Solve"], "picked": "the torso's front face", "probe": "cad.assembly.mate_head", "question": "what a pick in the graphics area fills the box with"}
+{"document": "stickbot-draft9p4-check", "driving": "restore"}

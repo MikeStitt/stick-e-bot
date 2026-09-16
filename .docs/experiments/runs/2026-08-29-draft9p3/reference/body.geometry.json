@@ -1,0 +1,331 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "4e48e81a06c8d40b2a38b871",
+ "sketches": {
+  "hip connector location": {
+   "entities": [],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     -1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     -48.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     -1,
+     0
+    ]
+   }
+  },
+  "neck connector location": {
+   "entities": [],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     48.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "pivot lines": {
+   "entities": [
+    {
+     "endPoint": [
+      36.0,
+      40.0
+     ],
+     "id": "NabY0atkLQe6",
+     "isConstruction": true,
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "torso outline": {
+   "entities": [
+    {
+     "endPoint": [
+      -36.0,
+      48.0
+     ],
+     "id": "PQJHs6Bkk7gQ.bottom",
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      -48.0
+     ],
+     "id": "PQJHs6Bkk7gQ.top",
+     "startPoint": [
+      36.0,
+      -48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      36.0,
+      -48.0
+     ],
+     "id": "PQJHs6Bkk7gQ.left",
+     "startPoint": [
+      36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      -48.0
+     ],
+     "id": "PQJHs6Bkk7gQ.right",
+     "startPoint": [
+      -36.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "torso shoulder profile": {
+   "entities": [
+    {
+     "endPoint": [
+      -31.1769,
+      40.0
+     ],
+     "id": "8y19yq7idiPp.0",
+     "isConstruction": true,
+     "startPoint": [
+      -31.1769,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -40.806,
+      27.2218
+     ],
+     "id": "sMsol6pJhLL4.first",
+     "startPoint": [
+      -21.5479,
+      52.7782
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -47.195,
+      32.0364
+     ],
+     "id": "sMsol6pJhLL4.second",
+     "startPoint": [
+      -40.806,
+      27.2218
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -27.937,
+      57.5927
+     ],
+     "id": "sMsol6pJhLL4.third",
+     "startPoint": [
+      -47.195,
+      32.0364
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -21.5479,
+      52.7782
+     ],
+     "id": "sMsol6pJhLL4.fourth",
+     "startPoint": [
+      -27.937,
+      57.5927
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0.5,
+     0.866025,
+     0
+    ],
+    "origin": [
+     9.0,
+     15.5885,
+     0.0
+    ],
+    "x": [
+     -0.866025,
+     0.5,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "trim shoulder pattern": {
+   "entities": [
+    {
+     "endPoint": [
+      -68.0,
+      64.0
+     ],
+     "id": "9TuTMDxMmjAs.bottom",
+     "startPoint": [
+      68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -68.0,
+      48.0
+     ],
+     "id": "9TuTMDxMmjAs.top",
+     "startPoint": [
+      68.0,
+      48.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      68.0,
+      48.0
+     ],
+     "id": "9TuTMDxMmjAs.left",
+     "startPoint": [
+      68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -68.0,
+      48.0
+     ],
+     "id": "9TuTMDxMmjAs.right",
+     "startPoint": [
+      -68.0,
+      64.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "wid": "a1af16872d25103815f1c32a"
+}

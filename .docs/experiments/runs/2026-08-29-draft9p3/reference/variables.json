@@ -1,0 +1,71 @@
+{
+ "table": null,
+ "variables": [
+  {
+   "name": "torsoH",
+   "type": "LENGTH",
+   "expression": "96 mm",
+   "description": ""
+  },
+  {
+   "name": "torsoW",
+   "type": "LENGTH",
+   "expression": "72 mm",
+   "description": ""
+  },
+  {
+   "name": "torsoD",
+   "type": "LENGTH",
+   "expression": "48 mm",
+   "description": ""
+  },
+  {
+   "name": "limbCenter",
+   "type": "LENGTH",
+   "expression": "48 mm",
+   "description": ""
+  },
+  {
+   "name": "ball",
+   "type": "LENGTH",
+   "expression": "#torsoH / 8",
+   "description": ""
+  },
+  {
+   "name": "limbD",
+   "type": "LENGTH",
+   "expression": "#torsoH / 4",
+   "description": ""
+  },
+  {
+   "name": "wall",
+   "type": "LENGTH",
+   "expression": "#torsoH / 32",
+   "description": ""
+  },
+  {
+   "name": "stand",
+   "type": "LENGTH",
+   "expression": "#ball * 5 / 6",
+   "description": ""
+  },
+  {
+   "name": "collar",
+   "type": "LENGTH",
+   "expression": "#ball / 2 + #wall",
+   "description": ""
+  },
+  {
+   "name": "fit",
+   "type": "LENGTH",
+   "expression": "0.08 mm",
+   "description": ""
+  },
+  {
+   "name": "grip",
+   "type": "LENGTH",
+   "expression": "sqrt((#ball / 2 + #fit) ^ 2 - (0.48 * #ball) ^ 2)",
+   "description": ""
+  }
+ ]
+}

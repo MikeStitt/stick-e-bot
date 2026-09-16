@@ -1,0 +1,339 @@
+{
+ "did": "50b2d87357670c07c2fbcb89",
+ "eid": "45e967b1779a75776404e8e0",
+ "sketches": {
+  "collar profile": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "id": "oPjGZuqHv33U",
+     "radius": 9.0,
+     "type": "circle"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "slit profile": {
+   "entities": [
+    {
+     "endPoint": [
+      12.0,
+      -0.8
+     ],
+     "id": "x6eWTN0UqL61.bottom",
+     "startPoint": [
+      5.0,
+      -0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      12.0,
+      0.8
+     ],
+     "id": "x6eWTN0UqL61.top",
+     "startPoint": [
+      5.0,
+      0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      5.0,
+      0.8
+     ],
+     "id": "x6eWTN0UqL61.left",
+     "startPoint": [
+      5.0,
+      -0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      12.0,
+      0.8
+     ],
+     "id": "x6eWTN0UqL61.right",
+     "startPoint": [
+      12.0,
+      -0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -0.8,
+      12.0
+     ],
+     "id": "TXTVwAzQhRdQ.0.1.0",
+     "startPoint": [
+      -0.8,
+      5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.8,
+      12.0
+     ],
+     "id": "TXTVwAzQhRdQ.1.1.0",
+     "startPoint": [
+      0.8,
+      5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -0.8,
+      5.0
+     ],
+     "id": "TXTVwAzQhRdQ.2.1.0",
+     "startPoint": [
+      0.8,
+      5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -0.8,
+      12.0
+     ],
+     "id": "TXTVwAzQhRdQ.3.1.0",
+     "startPoint": [
+      0.8,
+      12.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -12.0,
+      -0.8
+     ],
+     "id": "TXTVwAzQhRdQ.0.2.0",
+     "startPoint": [
+      -5.0,
+      -0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -12.0,
+      0.8
+     ],
+     "id": "TXTVwAzQhRdQ.1.2.0",
+     "startPoint": [
+      -5.0,
+      0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -5.0,
+      -0.8
+     ],
+     "id": "TXTVwAzQhRdQ.2.2.0",
+     "startPoint": [
+      -5.0,
+      0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -12.0,
+      -0.8
+     ],
+     "id": "TXTVwAzQhRdQ.3.2.0",
+     "startPoint": [
+      -12.0,
+      0.8
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.8,
+      -12.0
+     ],
+     "id": "TXTVwAzQhRdQ.0.3.0",
+     "startPoint": [
+      0.8,
+      -5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -0.8,
+      -12.0
+     ],
+     "id": "TXTVwAzQhRdQ.1.3.0",
+     "startPoint": [
+      -0.8,
+      -5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.8,
+      -5.0
+     ],
+     "id": "TXTVwAzQhRdQ.2.3.0",
+     "startPoint": [
+      -0.8,
+      -5.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.8,
+      -12.0
+     ],
+     "id": "TXTVwAzQhRdQ.3.3.0",
+     "startPoint": [
+      -0.8,
+      -12.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     0,
+     1
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     1.9465
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ]
+   }
+  },
+  "stud profile": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      3.0,
+      5.1962
+     ],
+     "id": "O7aOh6M3Wd5G",
+     "radius": 6.0,
+     "startPoint": [
+      0.0,
+      -6.0
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      3.0,
+      10.0
+     ],
+     "id": "KZVxazPYeF3P",
+     "startPoint": [
+      3.0,
+      5.1962
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.0,
+      10.0
+     ],
+     "id": "XWIuFumOv1PY",
+     "startPoint": [
+      3.0,
+      10.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      0.0,
+      -6.0
+     ],
+     "id": "shyhaARXENVT",
+     "startPoint": [
+      0.0,
+      10.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "wid": "a49825ea9aa838bdfae7b78d"
+}

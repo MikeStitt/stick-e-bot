@@ -1,0 +1,179 @@
+14:09:16  about to: create my own page and stamp it LESSON_RUN2
+14:09:23  result: page created, url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392 title=Spires Robotics | Documents
+14:09:38  about to: Create > Document... and name it lesson-run2
+14:09:51  result: url=https://cad.onshape.com/documents/ca8494ebddc1d41126fd580e/w/f6903596615c3e3f89b25587/e/67cd64530e81afd24476f8ba
+14:10:09  about to: [Before you start 1-2] click the hamburger menu left of the document name
+14:10:10  result: screenshot of menu taken
+14:10:27  about to: [Before you start 2] choose Workspace units...
+14:10:29  result: dialog screenshot
+14:10:54  about to: [Before you start 3-4] set Length default unit=Millimeter, its Display decimals=0.1
+14:10:55  about to: [Before you start 5] click the green tick
+14:10:57  result: units dialog accepted
+14:11:14  === PART ONE START ===
+14:11:14  about to: [Step 1.1] click Front in the Features list (Default geometry already expanded)
+14:11:14  about to: [Step 1.2] click Sketch on the toolbar
+14:11:17  about to: [Step 1.3] move pointer over graphics area and press n once
+14:11:20  result: sketch open, normal view
+14:11:49  about to: [Step 2.1-2.4] press r, click origin, click a corner, Escape
+14:11:53  result: rectangle drawn
+14:12:20  about to: [Step 2.5-2.6] press d, click bottom edge, place label below, type 36, Enter
+14:12:25  result: 36 typed and Entered
+14:12:41  about to: [Step 2.7] click left edge, place label to the left, type 48, Enter
+14:12:44  about to: [Step 2.8] Escape to put the Dimension tool down
+14:12:45  result: torso dimensioned
+14:13:07  about to: [Step 3 preamble] zoom in on the top edge of the torso
+14:13:10  result: zoomed
+14:13:33  about to: zoom in further on the torso top edge
+14:14:02  about to: [Step 3.1-3.3] press g, draw small rect above torso right of centreline, Escape
+14:14:06  result: neck rectangle drawn
+14:14:28  about to: [Step 3.4] press d, dimension neck 6 wide (Enter)
+14:14:33  result: width dimension attempted
+14:15:00  about to: dismiss error, zoom in on the neck rectangle (it is ~50 px and glyph-covered)
+14:15:24  about to: [Step 3.4 retry] click neck bottom edge only, screenshot to confirm the pick
+14:15:46  about to: place the neck-width label in clear space, type 6, Enter
+14:16:16  about to: [Step 3.4] dimension neck 6 tall (Enter), then Escape
+14:16:44  about to: [Step 3.5] click neck left edge, shift-click vertical line through origin, press i
+14:17:22  about to: [Step 3.5 retry] clear selection, click neck left edge, shift-click the vertical origin line ABOVE the torso, press i
+14:18:15  about to: reselect neck left edge + vertical origin line, then use the Coincident toolbar button to see the error
+14:18:48  about to: [Step 3.6] click neck bottom edge, shift-click torso top edge, press i (keyboard, as written)
+14:19:19  about to: zoom out so a 36 mm head will fit on screen (lesson does not mention this)
+14:19:47  about to: [Step 4.1] press g and draw a bigger rectangle above the neck
+14:20:21  about to: [Step 4.2] press d, dimension head 36 wide then 36 tall, Enter each, Escape
+14:20:44  about to: dimension head 36 tall, Enter, Escape
+14:21:14  about to: [Step 4.3] click head bottom edge, then zoom in to separate it from the neck top edge
+14:21:45  about to: zoom further into the head/neck junction to pick the neck top edge
+14:22:10  about to: shift-click the neck top edge and press i
+14:22:41  about to: zoom out to see the whole sketch before the Symmetric step
+14:23:07  about to: [Step 4.4] head left edge + right edge + vertical origin line, then shift+q Symmetric
+14:23:32  about to: [Step 4.5] click the green tick to finish Sketch 1
+14:23:35  result: sketch accepted
+14:23:52  about to: [Step 5.1] click inside the torso rectangle and read the Area
+14:24:37  about to: [Step 5.2] shift+e for Extrude
+14:25:02  about to: [Step 5.3] type 24 over the Depth, Tab; [5.4] tick Symmetric
+14:25:16  about to: [Step 5.4] tick Symmetric
+14:25:36  about to: [Step 5.5] green tick to accept Extrude 1
+14:25:38  about to: [Step 6] right-click Sketch 1 in the Features list and choose Show
+14:25:58  about to: choose Show on Sketch 1
+14:26:20  about to: [Step 7.1] zoom in on the neck
+14:26:46  about to: [Step 7.1] click inside the neck half-rectangle; [7.2] shift+w
+14:27:14  about to: [Step 7.3] click into the Revolve axis field; [7.4] click the neck left edge
+14:27:39  about to: [Step 7.6] green tick to accept Revolve 1
+14:27:42  about to: [Step 8] zoom out and click inside the head rectangle
+14:28:06  about to: [Step 8.1] click inside the head rectangle and read the Area
+14:28:30  about to: [Step 8.2] shift+e; depth 30; Tab; tick Symmetric
+14:28:58  about to: [Step 8.4] green tick to accept Extrude 2
+14:29:21  about to: [Step 9.1] right-click Sketch 1 -> Hide
+14:29:36  result: Sketch 1 hidden
+14:29:36  about to: [Step 9.2] rename Extrude 1 -> Torso
+14:30:26  about to: [Step 9.2] rename Extrude 1 -> Torso
+14:31:12  about to: right-click Extrude 1 row at (100,313)
+14:31:33  about to: right-click the Extrude 1 row
+14:32:02  result: row at y=313 renamed to Torso
+14:32:05  result: row at y=339 renamed to Neck
+14:32:09  result: row at y=365 renamed to Head
+14:32:35  about to: [Step 9.3] rename Part 1 -> Robot
+14:32:56  result: part renamed
+14:33:28  about to: right-click a plane -> Hide all planes (per the "Six things" preamble)
+14:33:51  result: all planes hidden
+14:33:51  about to: open the view menu and pick Isometric
+14:34:16  result: isometric
+14:34:47  about to: clear selection then click the torso-front face and read the area
+14:34:49  about to: clear selection then click the torso-side face and read the area
+14:34:51  about to: clear selection then click the head-front face and read the area
+14:34:52  about to: clear selection then click the head-side face and read the area
+14:35:53  about to: [Change one number 1] right-click Sketch 1 -> Show
+14:36:13  result: Sketch 1 shown
+14:36:13  about to: [Change one number 2] right-click Sketch 1 -> Show dimensions
+14:36:35  about to: [Change one number 3] double-click the 48
+14:36:55  about to: second double-click on the 48, type 60, Enter
+14:37:20  about to: undo the 60 with Cmd+Z (lesson does not say how to close the sketch dialog afterwards)
+14:37:47  about to: close the re-opened Sketch 1 with the green tick (the lesson does not say to)
+14:37:50  === PART ONE END ===
+14:38:15  === PART TWO START ===
+14:38:15  about to: [Part two 1] click Sketch, then click the flat front face of the head
+14:38:41  about to: [Part two 2] press n to look straight at the face
+14:39:22  about to: [Eyes 1] press c and draw four circles (two big, one small inside each), then Escape
+14:39:55  about to: [Eyes 2] left pair Concentric (shift+o)
+14:40:22  about to: [Eyes 2] right pair Concentric
+14:40:53  about to: [Eyes 3] Equal on the two big circles
+14:41:31  about to: [Eyes 3] Equal on the two small circles
+14:42:07  FINDING CHECK: is there a vertical line through the origin in this face sketch? planes were hidden earlier
+14:42:07  about to: right-click the Right plane row to try to Show it again
+14:42:38  about to: Show the Right plane so there IS a vertical line through the origin to click
+14:43:06  about to: [Eyes 4] centre point of one eye + centre of other + vertical line, then shift+q
+14:43:38  about to: [Eyes 5] press d, dimension one big circle 10
+14:44:34  about to: [Eyes 5] dimension one small circle 4
+14:45:06  about to: [Eyes 6] eye centre to the vertical line = 8
+14:45:36  about to: [Eyes 6] same eye centre to the head top edge = 10, then Escape
+14:46:16  about to: [Eyes 7] green tick; [Eyes 8] click inside the two rings
+14:46:42  about to: [Eyes 8] shift+e, depth 3, Add, green tick
+14:47:17  result: eye rings extruded 3 mm
+14:47:29  about to: [Eyes 9] right-click Sketch 2 -> Show
+14:47:59  result: Sketch 2 shown
+14:47:59  about to: [Eyes 10] click inside the two pupil discs
+14:48:27  about to: [Eyes 10] shift+e, depth 5, Add, tick
+14:48:59  note: the pupil region selection was lost between actions; cancelling and redoing in one go
+14:50:01  about to: [Eyes 10, retry] select both pupil discs and extrude in one action
+14:50:33  about to: pick the two pupil discs directly into the open Extrude dialog
+14:51:05  result: pupils extruded 5 mm
+14:51:37  about to: [Eyes 11] right-click Sketch 2 -> Hide
+14:51:40  about to: [Mouth 1] new sketch on the head front face
+14:52:17  about to: [Mouth 2] press l, draw a short horizontal line, Escape
+14:52:55  about to: [Mouth 3] open the Offset dropdown on the sketch toolbar
+14:53:50  about to: choose Slot, click the line, move out to set width, Escape
+14:54:34  about to: [Mouth 3 retry] Slot again; second click placed clear of the horizontal glyph
+14:55:15  about to: [Mouth 4] line endpoints + vertical line, shift+q Symmetric
+14:55:56  about to: [Mouth 5] press d, dimension the line 15 long
+14:56:39  about to: [Mouth 5] dimension the slot 5 wide (clicking the end arc)
+14:57:15  about to: type 5 into the slot dimension box (which is showing a RADIUS of 10 mm) and Enter, exactly as the lesson says
+14:57:45  RESULT: adding a slot-width dimension over-constrained the sketch -> "Sketch could not be solved." Undoing.
+14:58:17  about to: delete the redundant R10 dimension, then edit the slot tool's own Ø20 down to 5
+14:58:45  about to: double-click the slot tool's own Ø20 and set it to 5
+14:59:30  about to: [Mouth 5] press d, dimension the line 9 above the head bottom edge, Enter, Escape
+15:00:06  about to: [Mouth 6] green tick, then select the slot region and extrude Remove 2 mm
+15:00:48  note: clicking the middle of the mouth grabbed the slot centre LINE and Extrude went to Surface mode; cancelling
+15:02:04  about to: shift+e on the slot region; set Remove and depth 2
+15:02:41  result: mouth cut 2 mm
+15:03:11  about to: [Panel 1] new sketch on the torso front face
+15:03:45  about to: Show the Top plane so a "horizontal line through the origin" exists to click; then zoom out
+15:04:33  about to: [Panel 2] press g and draw a rectangle on the torso front
+15:05:07  about to: [Panel 2] left+right edges Symmetric about the vertical line
+15:05:51  about to: [Panel 2] top+bottom edges Symmetric about the horizontal line
+15:06:32  about to: [Panel 3] dimension the panel 24 wide and 20 tall
+15:07:09  about to: dimension the panel 20 tall, Enter, Escape, green tick
+15:07:53  about to: [Panel 3-4] accept sketch, select the panel region, extrude Remove 1 mm
+15:08:29  result: chest panel recess cut 1 mm
+15:08:29  about to: [Panel 5] new sketch on the bottom face of the recess
+15:09:10  about to: [Panel 5] press c, draw one small circle in the recess, Escape
+15:09:15  about to: dimension the circle 4 across
+15:09:50  about to: [Panel 5] hole centre 6 from the panel left edge
+15:10:33  about to: [Panel 5] hole centre 5 from the panel top edge, Enter, Escape, green tick
+15:11:16  about to: [Panel 6] accept sketch, select the circle, extrude Remove 1 mm
+15:11:54  about to: pick the hole region into the open Extrude dialog
+15:12:23  result: one panel hole cut 1 mm (feature is named Extrude 5)
+15:12:59  about to: [Panel 7] open Linear pattern
+15:13:52  about to: switch the pattern type from Part pattern to Feature pattern
+15:14:40  about to: pick Extrude 5 from the Features list
+15:15:14  about to: click into Direction, then click a horizontal edge of the panel; set count 3 distance 6
+15:16:04  about to: set Distance 6 and Instance count 3
+15:16:36  about to: tick Second direction and pick a vertical edge of the panel
+15:17:11  about to: pick a vertical panel edge for the second direction, count 2, distance 10
+15:17:56  result: linear pattern accepted - six holes
+15:18:20  about to: zoom out so the area below the chest panel is visible
+15:18:53  about to: [Lettering 1] new sketch on the torso front face, below the panel
+15:19:29  about to: [Lettering 2] choose Text and drag a box across the chest
+15:20:03  about to: type a name into the Text dialog and accept it
+15:20:55  about to: type the name into the editable text box (the first textarea is a disabled preview)
+15:21:52  about to: [Lettering 3] green tick, then click Sketch 6 in the Features list and extrude Remove 0.5
+15:22:39  result: lettering cut 0.5 mm
+15:23:09  === PART TWO END ===
+15:23:09  about to: [Final check] go Isometric and measure the torso and head side faces
+15:23:47  about to: hide all planes so there is real background, then measure
+15:24:25  about to: clear selection then click the torso-side face
+15:24:26  about to: clear selection then click the head-side face
+15:27:39  about to: find the Versions and history panel in the left rail
+15:27:59  about to: Create version...
+15:28:21  result: version published
+15:31:48  about to: open the published version link to check it resolves
+15:32:03  result: version link opened, url=https://cad.onshape.com/documents/ca8494ebddc1d41126fd580e/v/24dafb83c2f7814714e20c7e/e/67cd64530e81afd24476f8ba
+15:34:39  result: build-notes.md written; run complete

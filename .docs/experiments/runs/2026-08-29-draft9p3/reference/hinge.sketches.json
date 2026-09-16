@@ -1,0 +1,586 @@
+{
+ "sketches": [
+  {
+   "sketch": "blade bump outline",
+   "featureId": "FLx3xPUyUPbgfWM_1",
+   "featuresUsed": [
+    "blade bump"
+   ],
+   "geomEntities": [
+    {
+     "id": "AKA4tHki3lFn",
+     "entityType": "circle",
+     "center": [
+      -2.783477709039437e-20,
+      0,
+      0.009600000000000001
+     ],
+     "radius": 0.0008000000000000004
+    },
+    {
+     "id": "AKA4tHki3lFn.center",
+     "entityType": "point",
+     "point": [
+      -2.783477709039437e-20,
+      0,
+      0.009600000000000001
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "pocket axle sketch",
+   "featureId": "F2OsEPF9HdnPyEs_2",
+   "featuresUsed": [
+    "pocket axle on fork"
+   ],
+   "geomEntities": [
+    {
+     "id": "50VR4CLlqD2g",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.0022
+    },
+    {
+     "id": "50VR4CLlqD2g.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "ear valley outline",
+   "featureId": "F9sX6qxZJjp9zYJ_2",
+   "featuresUsed": [
+    "ear valley"
+   ],
+   "geomEntities": [
+    {
+     "id": "2plER7bKtEdH",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0.009600000000000001
+     ],
+     "radius": 0.001
+    },
+    {
+     "id": "2plER7bKtEdH.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0.009600000000000001
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "fork outline",
+   "featureId": "FDnR7d1yBCZtEvA_1",
+   "featuresUsed": [
+    "fork blank"
+   ],
+   "geomEntities": [
+    {
+     "id": "yeljRx3v20u5",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012
+    },
+    {
+     "id": "yeljRx3v20u5.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    },
+    {
+     "id": "KcO4uclmtQQo.start",
+     "entityType": "point",
+     "point": [
+      -0.01061319932913728,
+      0.0056,
+      0
+     ]
+    },
+    {
+     "id": "KcO4uclmtQQo.end",
+     "entityType": "point",
+     "point": [
+      0.01061319932913728,
+      0.0056,
+      0
+     ]
+    },
+    {
+     "id": "KcO4uclmtQQo",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.01061319932913728,
+      0.0056,
+      0
+     ],
+     "endPoint": [
+      0.01061319932913728,
+      0.0056,
+      0
+     ],
+     "endPointIds": [
+      "KcO4uclmtQQo.start",
+      "KcO4uclmtQQo.end"
+     ]
+    }
+   ]
+  },
+  {
+   "sketch": "fork arm outline",
+   "featureId": "F72ypXTa4rKOlJd_2",
+   "featuresUsed": [
+    "fork arm"
+   ],
+   "geomEntities": [
+    {
+     "id": "Rj0USU6WA3Lc",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012
+    },
+    {
+     "id": "Rj0USU6WA3Lc.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "blade rod outline",
+   "featureId": "FVXTzUIjYzkiXtX_1",
+   "featuresUsed": [
+    "blade arm"
+   ],
+   "geomEntities": [
+    {
+     "id": "hjFtRb8eCJRa",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012
+    },
+    {
+     "id": "hjFtRb8eCJRa.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  },
+  {
+   "sketch": "blade profile",
+   "featureId": "FvGzPT6cRfKdds8_0",
+   "featuresUsed": [
+    "blade blank"
+   ],
+   "geomEntities": [
+    {
+     "id": "bnKv3MvZuafn",
+     "entityType": "arc",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012,
+     "clockwise": false,
+     "startPoint": [
+      0.010908712114635715,
+      0,
+      0.004999999999999998
+     ],
+     "endPoint": [
+      -0.010908712114635715,
+      0,
+      0.0049999999999999975
+     ],
+     "endPointIds": [
+      "bnKv3MvZuafn.start",
+      "bnKv3MvZuafn.end"
+     ]
+    },
+    {
+     "id": "bnKv3MvZuafn.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    },
+    {
+     "id": "bnKv3MvZuafn.start",
+     "entityType": "point",
+     "point": [
+      0.010908712114635715,
+      0,
+      0.004999999999999998
+     ]
+    },
+    {
+     "id": "bnKv3MvZuafn.end",
+     "entityType": "point",
+     "point": [
+      -0.010908712114635715,
+      0,
+      0.004999999999999999
+     ]
+    },
+    {
+     "id": "dOPRxXNTB6eO.start",
+     "entityType": "point",
+     "point": [
+      -0.010908712114635717,
+      0,
+      0.0049999999999999975
+     ]
+    },
+    {
+     "id": "dOPRxXNTB6eO.end",
+     "entityType": "point",
+     "point": [
+      -0.010908712114635713,
+      0,
+      -0.02
+     ]
+    },
+    {
+     "id": "dOPRxXNTB6eO",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.010908712114635717,
+      0,
+      0.0049999999999999975
+     ],
+     "endPoint": [
+      -0.010908712114635713,
+      0,
+      -0.02
+     ],
+     "endPointIds": [
+      "dOPRxXNTB6eO.start",
+      "dOPRxXNTB6eO.end"
+     ]
+    },
+    {
+     "id": "vevNAOtOKM4v.start",
+     "entityType": "point",
+     "point": [
+      -0.010908712114635713,
+      0,
+      -0.02
+     ]
+    },
+    {
+     "id": "vevNAOtOKM4v.end",
+     "entityType": "point",
+     "point": [
+      0.010908712114635713,
+      0,
+      -0.02
+     ]
+    },
+    {
+     "id": "vevNAOtOKM4v",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.010908712114635713,
+      0,
+      -0.02
+     ],
+     "endPoint": [
+      0.010908712114635713,
+      0,
+      -0.02
+     ],
+     "endPointIds": [
+      "vevNAOtOKM4v.start",
+      "vevNAOtOKM4v.end"
+     ]
+    },
+    {
+     "id": "GeJK1vty9VTL.start",
+     "entityType": "point",
+     "point": [
+      0.010908712114635713,
+      0,
+      -0.02
+     ]
+    },
+    {
+     "id": "GeJK1vty9VTL.end",
+     "entityType": "point",
+     "point": [
+      0.010908712114635717,
+      0,
+      0.004999999999999997
+     ]
+    },
+    {
+     "id": "GeJK1vty9VTL",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.010908712114635713,
+      0,
+      -0.02
+     ],
+     "endPoint": [
+      0.010908712114635717,
+      0,
+      0.004999999999999997
+     ],
+     "endPointIds": [
+      "GeJK1vty9VTL.start",
+      "GeJK1vty9VTL.end"
+     ]
+    }
+   ]
+  },
+  {
+   "sketch": "fork blade top cut outline",
+   "featureId": "FFWdVwUDZVPUd01_2",
+   "featuresUsed": [
+    "trim fork to arm"
+   ],
+   "geomEntities": [
+    {
+     "id": "3aIK5JDsx9HO",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.012
+    },
+    {
+     "id": "3aIK5JDsx9HO.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    },
+    {
+     "id": "xnSlirIpO3aI.bottom.start",
+     "entityType": "point",
+     "point": [
+      -0.014,
+      0,
+      0.0056
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.bottom.end",
+     "entityType": "point",
+     "point": [
+      0.014,
+      0,
+      0.0056
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.bottom",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.014,
+      0,
+      0.0056
+     ],
+     "endPoint": [
+      0.014,
+      0,
+      0.0056
+     ],
+     "endPointIds": [
+      "xnSlirIpO3aI.bottom.start",
+      "xnSlirIpO3aI.bottom.end"
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.top.start",
+     "entityType": "point",
+     "point": [
+      -0.014,
+      0,
+      -0.014
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.top.end",
+     "entityType": "point",
+     "point": [
+      0.014,
+      0,
+      -0.014
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.top",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.014,
+      0,
+      -0.014
+     ],
+     "endPoint": [
+      0.014,
+      0,
+      -0.014
+     ],
+     "endPointIds": [
+      "xnSlirIpO3aI.top.start",
+      "xnSlirIpO3aI.top.end"
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.left.start",
+     "entityType": "point",
+     "point": [
+      -0.014,
+      0,
+      0.0056
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.left.end",
+     "entityType": "point",
+     "point": [
+      -0.014,
+      0,
+      -0.014000000000000002
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.left",
+     "entityType": "lineSegment",
+     "startPoint": [
+      -0.014,
+      0,
+      0.0056
+     ],
+     "endPoint": [
+      -0.014,
+      0,
+      -0.014000000000000002
+     ],
+     "endPointIds": [
+      "xnSlirIpO3aI.left.start",
+      "xnSlirIpO3aI.left.end"
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.right.start",
+     "entityType": "point",
+     "point": [
+      0.014,
+      0,
+      0.0056
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.right.end",
+     "entityType": "point",
+     "point": [
+      0.014,
+      0,
+      -0.014000000000000002
+     ]
+    },
+    {
+     "id": "xnSlirIpO3aI.right",
+     "entityType": "lineSegment",
+     "startPoint": [
+      0.014,
+      0,
+      0.0056
+     ],
+     "endPoint": [
+      0.014,
+      0,
+      -0.014000000000000002
+     ],
+     "endPointIds": [
+      "xnSlirIpO3aI.right.start",
+      "xnSlirIpO3aI.right.end"
+     ]
+    }
+   ]
+  },
+  {
+   "sketch": "stub axle outline",
+   "featureId": "FLkci7hkgAe22Mz_1",
+   "featuresUsed": [
+    "stub axle"
+   ],
+   "geomEntities": [
+    {
+     "id": "R3SH3dx2srzE",
+     "entityType": "circle",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "radius": 0.002
+    },
+    {
+     "id": "R3SH3dx2srzE.center",
+     "entityType": "point",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "isConstruction": true
+    }
+   ]
+  }
+ ]
+}

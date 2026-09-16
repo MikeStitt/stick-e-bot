@@ -1,0 +1,459 @@
+00:16:45  ABOUT TO: census every page's window.name before stamping
+00:16:45  RESULT: 12 pages open; 0 already carry TORSO_RUN3_OA4SRWBU
+00:16:45  ABOUT TO: create my own page and stamp it TORSO_RUN3_OA4SRWBU
+00:16:45  RESULT: page created and stamped
+00:16:45  ABOUT TO: re-census and assert exactly one match
+00:16:45  RESULT: 13 pages now; 1 carry TORSO_RUN3_OA4SRWBU
+00:16:45  ABOUT TO: check Onshape session via /api/users/sessioninfo
+00:16:50  RESULT: sessioninfo status=200 bodylen=934 hasRoles=True
+00:17:05  ABOUT TO: click the visible Create button on the documents page
+00:17:05  RESULT: Create button at {'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+00:17:06  ABOUT TO: click 'Document...' by coordinate under the Create button
+00:17:08  ABOUT TO: type the document name torso-run3 into the dialog
+00:17:09  RESULT: name field reads 'torso-run3'
+00:17:09  ABOUT TO: click the dialog's Create button
+00:17:16  RESULT: url is now https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef5562d74c6ef3
+00:17:33  ABOUT TO: open the document hamburger menu at (155,20)
+00:17:34  ABOUT TO: find 'Workspace units' in the menu
+00:17:34  RESULT: Workspace units at {'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27}
+00:17:54  RESULT: 22 visible <select> elements in the units dialog
+00:17:54    select[0] bbox={'x': 257, 'y': 166.59375, 'width': 209, 'height': 26} value='2: inch'
+00:17:54    select[1] bbox={'x': 475, 'y': 166.59375, 'width': 99, 'height': 26} value='3: 3'
+00:17:54    select[2] bbox={'x': 257, 'y': 225.59375, 'width': 209, 'height': 26} value='1: inchPerSecondSquared'
+00:17:54    select[3] bbox={'x': 475, 'y': 225.59375, 'width': 99, 'height': 26} value='3: 3'
+00:17:54  ABOUT TO: set Length default unit = Millimeter, Display decimals = 0.12345
+00:17:55  RESULT: select[0]='4: millimeter' select[1]='5: 5'
+00:17:55  ABOUT TO: click the green tick at (543,93)
+00:18:18  ABOUT TO: click Sketch at (155,58)
+00:18:20  ABOUT TO: click 'Top' in the feature tree to fill the empty sketch-plane field
+00:18:21  ABOUT TO: press n to orient normal to the sketch plane
+00:18:49  ABOUT TO: open the rectangle flyout caret at (278,58) and pick Center point rectangle
+00:18:50  RESULT: 'Center point rectangle' at {'x': 269, 'y': 119.75, 'width': 137.65625, 'height': 20}
+00:18:51  ABOUT TO: draw the rectangle from the origin (873,522) out to (1030,430)
+00:19:24  ABOUT TO: dimension the bottom edge (torso width across X) to 36
+00:19:29  RESULT: width-36 dimension box pre-filled ''
+00:19:29  RESULT: width-36 box now reads '36'
+00:19:30  ABOUT TO: dimension the left edge (torso depth along Y) to 24
+00:19:34  RESULT: depth-24 dimension box pre-filled '36d'
+00:19:34  RESULT: depth-24 box now reads '24'
+00:20:05  ABOUT TO: escape the in-progress dimension and clear the feature-tree filter box
+00:20:06  RESULT: filter box now ''
+00:20:06  ABOUT TO: enumerate every visible input and its bounding box, to find the real dimension box location
+00:20:06    input[0] bb={'x': 79, 'y': 84, 'width': 158, 'height': 30} val='' ph='Filter by name or type'
+00:20:41  ABOUT TO: dimension the bottom edge (X, torso width) to 36 mm
+00:21:07  ABOUT TO: escape twice and click empty canvas to clear any armed tool / ghost preview
+00:21:09  RESULT: screenshot 10-x-state-cleared.png taken
+00:21:32  ABOUT TO: click the stray 270-degree angular dimension label to select it
+00:21:33  ABOUT TO: press Delete to remove it
+00:21:35  RESULT: screenshot taken
+00:21:52  ABOUT TO: enumerate toolbar elements carrying a data-command-id
+00:22:29  ABOUT TO: dimension the bottom edge (X, torso width) to 36 mm
+00:22:36  RESULT: 09 dimension box pre-filled '87.33924 mm'
+00:22:37  RESULT: 09 box now reads '36'
+00:22:38  ABOUT TO: dimension the left edge (Y, torso depth) to 24 mm
+00:22:45  NOTE: 10 first attempt gave 0 canvas inputs; re-arming and retrying
+00:23:16  ABOUT TO: dimension the left edge (Y, torso depth) to 24 mm; rectangle now x 808..938, y 481..561
+00:23:21  RESULT: 11 dimension box pre-filled '21.37143 mm'
+00:23:22  RESULT: 11 box now reads '24'
+00:23:51  ABOUT TO: accept Sketch 1 with the green tick at (424,93)
+00:23:53  ABOUT TO: select the sketch region in the graphics area at the origin
+00:23:54  ABOUT TO: open Extrude through the Search tools box
+00:24:20  ABOUT TO: escape the stray flyout, re-select the sketch region, open Search tools at (1325,58)
+00:24:28  RESULT: extrude dialog screenshot taken
+00:24:52  ABOUT TO: pick the sketch region into the empty 'Faces and sketch regions to extrude' field
+00:24:55  ABOUT TO: tick the Symmetric label
+00:24:56  ABOUT TO: set Depth to 48 via the dialog's own numeric input
+00:24:56  RESULT: 3 candidate depth inputs
+00:24:56    input[0] bb={'x': 79, 'y': 84, 'width': 158, 'height': 30} val=''
+00:24:56    input[1] bb={'x': 246, 'y': 218, 'width': 1, 'height': 1} val=''
+00:24:56    input[2] bb={'x': 307.609375, 'y': 246, 'width': 102.390625, 'height': 26} val='25 mm'
+00:24:57  RESULT: depth box reads '48'
+00:25:19  ABOUT TO: accept Extrude 1 with the green tick (twice, per the how-to)
+00:25:23  ABOUT TO: read the bounding box of the bare torso through read-only REST
+00:25:24  RESULT: boundingboxes status=200
+00:25:24  RESULT: /parts status=200
+00:26:32  ABOUT TO: start a new sketch on the Front plane for the shoulder ball stud
+00:26:38  RESULT: sketch on Front created, n pressed — check the view cube in the screenshot
+00:27:08  ABOUT TO: zoom in on the torso's top-right corner (938,435) with the wheel
+00:27:12  RESULT: zoomed; screenshot taken for recalibration
+00:28:07  ABOUT TO: open the arc flyout at (383,58) and pick Center point arc
+00:28:08  RESULT: 'Center point arc' at {'x': 373, 'y': 151.5, 'width': 136, 'height': 20}
+00:28:09  ABOUT TO: draw the ball arc centre=(1001, 441) start=(1040, 441) end=(968, 422)
+00:28:12  RESULT: arc drawn
+00:28:37  ABOUT TO: arm the Line tool at (202,58) and chain stalk-top, root and axis lines
+00:28:45  RESULT: profile lines drawn
+00:29:28  ABOUT TO: select the arc centre point (1001,439)
+00:29:30  ABOUT TO: ctrl-click the revolve axis line at (1020,439)
+00:29:37  ABOUT TO: apply the Coincident constraint with i
+00:29:38  RESULT: coincident attempted; check screenshot
+00:30:23  ABOUT TO: dim 1 - ball arc radius = 3
+00:30:30  RESULT: 19 dimension box pre-filled '3.03441 mm'
+00:30:30  RESULT: 19 box now reads '3'
+00:30:32  ABOUT TO: dim 2 - stalk half-width, stalk-top line to the revolve axis line = 1.5
+00:30:39  RESULT: 20 dimension box pre-filled '178.887601 deg'
+00:30:39  RESULT: 20 box now reads '1.5'
+00:30:42  ABOUT TO: dim 3 - stand-off, arc centre point to the root line = 5
+00:30:50  NOTE: 21 first attempt gave 0 canvas inputs; re-arming and retrying
+00:31:21  ABOUT TO: dismiss the warning and undo the stray 1.5 degree angular dimension
+00:31:25  RESULT: one undo done
+00:31:45  ABOUT TO: undo once more to remove the angular dimension entirely
+00:31:47  RESULT: second undo done
+00:32:25  ABOUT TO: dim A - root line length (the stalk half-width) = 1.5
+00:32:31  NOTE: 22 first attempt gave 0 canvas inputs; re-arming and retrying
+00:33:06  ABOUT TO: dismiss the warning and zoom in 14 more notches on the stud at (990,430)
+00:33:10  RESULT: zoomed further; recalibrate from this screenshot
+00:33:55  ABOUT TO: zoom out 7 notches at the ball centre so the sketch X axis comes back on screen
+00:33:59  RESULT: screenshot for recalibration
+00:34:37  ABOUT TO: dim A - stalk half-width: root/stalk corner point to the revolve axis line = 1.5
+00:34:48  RESULT: 23 dimension box pre-filled '1.34279 mm'
+00:34:48  RESULT: 23 box now reads '1.5'
+00:34:50  ABOUT TO: dim B - root corner point to the vertical Z axis = 18
+00:34:59  RESULT: 24 dimension box pre-filled '18.12866 mm'
+00:34:59  RESULT: 24 box now reads '18'
+00:35:15  ABOUT TO: dim C - root corner point to the horizontal X axis = 24 (the shoulder station)
+00:35:23  RESULT: 25 dimension box pre-filled '24.24239 mm'
+00:35:23  RESULT: 25 box now reads '24'
+00:35:25  ABOUT TO: dim D - ball centre point to the horizontal X axis = 24, putting it on the revolve axis
+00:35:32  RESULT: 26 dimension box pre-filled '24.00339 mm'
+00:35:33  RESULT: 26 box now reads '24'
+00:35:59  ABOUT TO: dim E - the stand-off: root corner point to the ball centre point = 5
+00:36:12  RESULT: 27 dimension box pre-filled '4.92308 mm'
+00:36:12  RESULT: 27 box now reads '5'
+00:36:51  ABOUT TO: select the stalk-top line at (940,428) and press h for a Horizontal constraint
+00:36:56  RESULT: horizontal constraint attempted
+00:37:25  ABOUT TO: tick 'Show constraints' in the sketch dialog to see what the profile already has
+00:37:27  RESULT: constraints shown
+00:37:57  ABOUT TO: select the stalk-top line at (940, 428) and click the Horizontal constraint button
+00:38:00  RESULT: horizontal applied to stalk-top (check screenshot)
+00:38:00  ABOUT TO: select the revolve-axis line at (1040, 451) and click the Horizontal constraint button
+00:38:05  RESULT: horizontal applied to revolve-axis (check screenshot)
+00:38:33  ABOUT TO: clear the selection and look at the profile's colour
+00:38:36  RESULT: screenshot taken
+00:39:07  ABOUT TO: click empty canvas to deselect, then crop the profile to judge its colour
+00:39:08  RESULT: crop saved
+00:39:52  ABOUT TO: accept Sketch 2 (green tick)
+00:39:54  ABOUT TO: select the stud profile region at (980,440)
+00:39:57  ABOUT TO: open Revolve through the Search tools box
+00:40:02  RESULT: revolve dialog open
+00:40:27  ABOUT TO: remove the stray 'Face of Extrude 1' from the revolve regions list
+00:40:29  ABOUT TO: click into the empty red 'Revolve axis' field, then pick the profile's axis line
+00:40:33  RESULT: axis picked (check the field is filled, not red)
+00:41:01  ABOUT TO: click New (the dialog had flipped itself to Add with merge scope Part 1)
+00:41:03  ABOUT TO: accept Revolve 1
+00:41:07  RESULT: /parts status=200
+00:41:31  ABOUT TO: select Part 2 (the shoulder stud) in the Parts list
+00:41:32  ABOUT TO: open Mirror through the Search tools box
+00:41:38  RESULT: mirror dialog open
+00:42:07  ABOUT TO: click into the empty red 'Mirror plane' field, then pick Right in the feature tree
+00:42:10  ABOUT TO: accept Mirror 1
+00:42:15  RESULT: /parts status=200
+00:42:52  RESULT: /parts status=200 -> [('JHD', 'Part 1')]
+00:43:20  ABOUT TO: select Mirror 1 in the feature tree and delete it
+00:43:24  RESULT: /parts status=200 -> [('JJD', 'Part 1')]
+00:43:54  ABOUT TO: undo the delete that took Extrude 1 with it
+00:43:57  RESULT: /parts status=200 -> [('JHD', 'Part 1')]
+00:44:22  ABOUT TO: double-click Mirror 1 in the tree to reopen it for edit
+00:44:24  RESULT: mirror edit dialog screenshot taken
+00:44:56  ABOUT TO: click New in Mirror 1, then screenshot before accepting
+00:44:58  RESULT: cropped dialog saved
+00:45:21  ABOUT TO: accept Mirror 1 with New set
+00:45:26  RESULT: /parts status=200 -> [('JHD', 'Part 1'), ('JKD', 'Part 2'), ('JLD', 'Part 3')]
+00:46:12  ABOUT TO: zoom out 11 notches at the canvas centre so the whole torso is in view
+00:46:15  ABOUT TO: start a new sketch on the Front plane for the hip ball stud
+00:46:21  RESULT: sketch 3 created; recalibrate from this screenshot
+00:46:55  ABOUT TO: press n again to try for a true Front view (the first press gave Back)
+00:46:58  RESULT: view cube crop saved
+00:47:18  ABOUT TO: middle-drag pan upward so the torso's bottom face and the hip station are in view
+00:47:21  RESULT: panned; recalibrate from this screenshot
+00:47:52  ABOUT TO: zoom in 9 notches at (720,580) so the hip corner and both sketch axes are on screen
+00:47:56  RESULT: screenshot for recalibration
+00:48:32  ABOUT TO: draw the hip ball arc (centre 828,876) with Center point arc
+00:48:53  ABOUT TO: click the arc caret at (383,58) and screenshot the flyout
+00:48:56  RESULT: flyout crop saved
+00:49:21  ABOUT TO: pick 'Center point arc' from the already-open flyout at (425,163)
+00:49:22  ABOUT TO: draw the hip ball arc, centre (828,876)
+00:49:28  ABOUT TO: chain the stalk, root and revolve-axis lines
+00:49:35  RESULT: hip profile drawn
+00:52:55  ABOUT TO: hip dim 1 - ball arc radius = 3
+00:53:02  RESULT: 34 dimension box pre-filled '2.9727 mm'
+00:53:03  RESULT: 34 box now reads '3'
+00:53:04  ABOUT TO: hip dim 2 - stalk half-width, corner point to revolve-axis line = 1.5
+00:53:10  RESULT: 35 dimension box pre-filled '1.50083 mm'
+00:53:11  RESULT: 35 box now reads '1.5'
+00:53:13  ABOUT TO: hip dim 3 - root corner to the Z axis = 12
+00:53:22  RESULT: 36 dimension box pre-filled '12.005 mm'
+00:53:22  RESULT: 36 box now reads '12'
+00:53:43  ABOUT TO: hip dim 4 - root corner to the X axis = 24 (the torso bottom face)
+00:53:53  RESULT: 37 dimension box pre-filled '23.91986 mm'
+00:53:53  RESULT: 37 box now reads '24'
+00:53:55  ABOUT TO: hip dim 5 - stand-off, root corner to ball centre = 5
+00:54:01  RESULT: 38 dimension box pre-filled '5.05882 mm'
+00:54:02  RESULT: 38 box now reads '5'
+00:54:42  ABOUT TO: open the constraint flyout caret at (1032,58)
+00:54:45  RESULT: constraint flyout crop saved
+00:55:23  ABOUT TO: Vertical on the hip revolve-axis line
+00:55:28  ABOUT TO: Horizontal on the hip root line
+00:55:34  RESULT: two constraints attempted
+00:56:23  ABOUT TO: Coincident - hip ball centre onto the revolve-axis line
+00:56:30  RESULT: coincident attempted
+03:33:54  RESUME: census of window.name across all pages
+03:34:22  RESUME: census of window.name across all pages
+03:34:22    page name='BALLSOCK_POLL' url=https://cad.onshape.com/signin
+03:34:22    page name='HEAD_RUN3_7Q4XZ' url=https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7ebf1862e98cdfb525/e/e6f35e31754f2ac17c4d11
+03:34:22    page name='LIMBBB_RUN3_cfca2a' url=https://cad.onshape.com/documents/8844e1331199cc35de25a417/w/b5995fc863d4643895b80f15/e/e70b20b1b40fabbcf35f29
+03:34:22    page name='HINGE_RUN3' url=https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8792662ff0ddcc35/e/8857827e482b914b279a55
+03:34:22    page name='LESSON_RUN3' url=https://cad.onshape.com/signin
+03:34:22    page name='BALLSOCK_RUN3' url=https://cad-usw2.onshape.com/signin
+03:34:22    page name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:34:22    page name='ORCH_VERIFY_HINGE_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:34:22    page name='FOOT_RUN3_NVS79W' url=https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1c5780e11aac4ea9/e/f0566c848741fdf66f4763
+03:34:22    page name='HAND_RUN3_UK3WMB' url=https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76caf867c13606b66/e/8bcb46f7c9535c9d0daf19
+03:34:22    page name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+03:34:22    page name='BALLSOCK_RUN3_B2' url=https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1c
+03:34:22    page name='' url=about:blank
+03:34:22    page name='LIMBSC_RUN3_9f4a1c' url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d62d7664be66
+03:34:22    page name='ORCH_INVENTORY_7x2' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+03:34:22    page name='LESSON_RUN3_MSTITT_A' url=https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be1961c300552cd9d/e/c797d0e3a7e5a614806a22
+03:34:22    page name='TORSO_RUN3_OA4SRWBU' url=https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef5562d74c6e
+03:34:22  RESUME: exactly one page carries TORSO_RUN3_OA4SRWBU
+03:34:22  RESUME: url = https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef5562d74c6ef3
+03:34:22  RESUME: sessioninfo status=200 roles=True
+03:34:22  RESUME: features status=200 (6) ['Sketch 1', 'Extrude 1', 'Sketch 2', 'Revolve 1', 'Mirror 1', 'Sketch 3']
+03:34:22  RESUME: parts status=200 count=3
+03:34:22     part JHD name='Part 1'
+03:34:23        bbox mm x[-18.0000 18.0000] y[-12.0000 12.0000] z[-24.0000 24.0000]
+03:34:24        volume 41472.0000 mm3  centroid ['0.0000', '0.0000', '0.0000']
+03:34:24     part JKD name='Part 2'
+03:34:24        bbox mm x[17.9418 26.0000] y[-3.0971 3.0971] z[20.8059 27.0000]
+03:34:24        volume 137.8441 mm3  centroid ['0.0000', '0.0000', '0.0000']
+03:34:24     part JLD name='Part 3'
+03:34:24        bbox mm x[-26.0000 -17.9418] y[-3.0971 3.0971] z[20.8059 27.0000]
+03:34:24        volume 137.8441 mm3  centroid ['0.0000', '0.0000', '0.0000']
+03:35:26  RESUME: screenshot of the current editor state
+03:35:49  ABOUT TO: click 'Click here to reconnect.' (edit session timed out after the 2.5 h stall)
+03:36:04  RESULT: re-stamped window.name after the reload
+03:36:04  RESULT: exactly one page carries TORSO_RUN3_OA4SRWBU, url=https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a86ee713cade9beb/e/bcddfc5e93ef5562d74c6ef3
+03:36:34  sketches status=200 len=7405
+03:37:00  FINDING: read /api/partstudios/.../sketches?includeGeometry=true and got exact sketch coordinates.
+03:37:00    Sketch 3 (hip) is exact: arc c=(12,-29) r=3, stalk x=13.5, root z=-24, axis line x=12 from -24 to -32.
+03:37:00    Sketch 2 (shoulder) is NOT: the revolve-axis line runs (18,24) -> (25.99598,23.84474), tilted 1.1124 deg.
+03:37:00      It was never given a Horizontal constraint and the arc centre was never made coincident with it.
+03:37:00    That tilt explains both stud anomalies measured by REST:
+03:37:00      ball centre (23,24) sits 0.09695 mm off the tilted axis -> swept max radius 3.09695 -> bbox 6.1939 across, not 6.000
+03:37:00      root disc (r 1.498) is tilted -> its low corner reaches x 17.94191, so bbox length 8.0582, not 8.000
+03:37:00    Decision: this is a defect, not one of the three open questions. Fix Sketch 2 with Horizontal + Coincident.
+03:38:06  ABOUT TO: press 'f' over the canvas for zoom-to-fit
+03:38:08  RESULT: zoom-to-fit screenshot saved
+03:38:36  ABOUT TO: open Sketch 2 for edit (double-click the tree item)
+03:38:39  ABOUT TO: scroll-zoom 18 notches with the cursor on the right shoulder ball
+03:38:45  RESULT: Sketch 2 open and zoomed
+03:39:31  ABOUT TO: 12 more zoom notches centred on the shoulder stud
+03:39:37  RESULT: zoomed screenshot saved
+03:40:38  ABOUT TO: Horizontal between the axis line's two endpoints (this is the tilt fix)
+03:40:55  ABOUT TO: Horizontal between the root corner and the ball centre
+03:41:32  ABOUT TO: Control+z once to drop the second Horizontal that made the sketch unsolvable
+03:41:38  RESULT: undo done
+03:42:06  ABOUT TO: accept Sketch 2 (green check)
+03:42:11    SK2 arc c=(23.00000,24.00000) r=3.00000
+03:42:11    SK2 line (20.40192,25.50000)->(18.00000,25.50000)
+03:42:11    SK2 line (18.00000,25.50000)->(18.00000,24.00000)
+03:42:11    SK2 line (18.00000,24.00000)->(26.00000,24.00000)
+03:42:11    JHD Part 1   x[-18.0000 18.0000] y[-12.0000 12.0000] z[-24.0000 24.0000]
+03:42:11    JKD Part 2   x[18.0000 26.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:42:11    JLD Part 3   x[-26.0000 -18.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:42:20  RESULT: Sketch 2 fixed with ONE Horizontal constraint between the revolve-axis line's two endpoints.
+03:42:20    A second Horizontal (root corner to ball centre) made the sketch unsolvable - undone. One was enough:
+03:42:20    with the axis horizontal the sketch went fully black (fully defined) on its own.
+03:42:20    Sketch 2 now reads exactly: arc c=(23,24) r=3; lines (20.40192,25.5)-(18,25.5), (18,25.5)-(18,24), (18,24)-(26,24).
+03:42:20    Shoulder studs re-measured: x[18.0000 26.0000] y[-3.0000 3.0000] z[21.0000 27.0000] - 8.000 x 6.000 x 6.000.
+03:42:20    The 8.058 / 6.194 anomaly is gone. Ball centre (23, 0, 24), diameter 6.000.
+03:42:42  ABOUT TO: zoom-to-fit, then zoom in on the hip sketch
+03:43:04  ABOUT TO: zoom 16 notches on the hip sketch
+03:43:37  ABOUT TO: clear selection, then open the Revolve tool from the search box
+03:44:58  ABOUT TO: open Revolve (toolbar 253,58) with nothing selected
+03:45:21  ABOUT TO: pick the hip sketch region
+03:45:25  ABOUT TO: click the Revolve axis field, then pick the axis line
+03:46:19  ABOUT TO: click the region field, then pick the hip region
+03:46:43  ABOUT TO: click the Revolve axis field, then pick the sketch's revolve-axis line
+03:47:15  ABOUT TO: click New (Revolve 2 silently flipped itself to Add with merge scope Part 1)
+03:47:17  ABOUT TO: accept Revolve 2
+03:47:21    JHD Part 1   x[-18.0000 18.0000] y[-12.0000 12.0000] z[-24.0000 24.0000]
+03:47:22    JKD Part 2   x[18.0000 26.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:47:22    JLD Part 3   x[-26.0000 -18.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:47:22    JOD Part 4   x[9.0000 15.0000] y[-3.0000 3.0000] z[-32.0000 -24.0000]
+03:47:49  ABOUT TO: open Mirror (toolbar 741,58) with nothing selected
+03:48:14  ABOUT TO: put Part 4 (the hip stud) into 'Entities to mirror'
+03:48:35  ABOUT TO: set the Mirror plane to the Right plane
+03:49:10  ABOUT TO: click New (Mirror 2 flipped itself to Add with merge scope Part 1 - same trap)
+03:49:12  ABOUT TO: accept Mirror 2
+03:49:18    JHD Part 1   x[-18.0000 18.0000] y[-12.0000 12.0000] z[-24.0000 24.0000]
+03:49:18    JKD Part 2   x[18.0000 26.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:49:18    JLD Part 3   x[-26.0000 -18.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+03:49:19    JOD Part 4   x[9.0000 15.0000] y[-3.0000 3.0000] z[-32.0000 -24.0000]
+03:49:19    JPD Part 5   x[-15.0000 -9.0000] y[-3.0000 3.0000] z[-32.0000 -24.0000]
+03:49:58  ABOUT TO: select the Front plane and start Sketch 4
+03:50:38  ABOUT TO: 8 more zoom notches on the neck station
+03:51:18  ABOUT TO: open the arc flyout caret (381,58)
+03:51:38  ABOUT TO: draw the neck ball arc with Center point arc
+03:51:48  ABOUT TO: chain the three straight edges with the Line tool
+03:52:43  ABOUT TO: zoom out 3 notches so the sketch X axis is on screen
+03:53:22  ABOUT TO: neck dim 1 - ball arc radius = 3
+03:53:27  RESULT: 72 dimension box pre-filled '2.99497 mm'
+03:53:28  RESULT: 72 box now reads '3'
+03:53:31  ABOUT TO: neck dim 2 - stand-off, root corner to ball centre = 5
+03:53:43  NOTE: 73 first attempt gave 0 canvas inputs; re-arming and retrying
+03:54:24  RESULT: crop saved after the failed stand-off dimension
+03:55:07  NOTE: the view zoomed out on its own during the failed dimension - recalibrating
+03:56:13  ABOUT TO: neck dim - stalk corner to the X axis = 24
+03:56:27  RESULT: 79 dimension box pre-filled '24.1268 mm'
+03:56:27  RESULT: 79 box now reads '24'
+03:56:28  ABOUT TO: neck dim - stalk corner to the Z axis = 1.5
+03:56:44  RESULT: 80 dimension box pre-filled '1.58105 mm'
+03:56:45  RESULT: 80 box now reads '1.5'
+03:56:46  ABOUT TO: neck dim - stand-off, ball centre to the root line = 5
+03:56:56  RESULT: 81 dimension box pre-filled '1.5 mm'
+03:56:57  RESULT: 81 box now reads '5'
+03:57:23  ABOUT TO: Control+z twice to remove the mis-picked 5 mm dimension
+03:57:30  RESULT: two undos done
+03:58:00  ABOUT TO: accept Sketch 4 and read its geometry from REST
+03:58:04    SK4 arc c=(0.00000,29.11210) r=3.00000
+03:58:04    SK4 line (1.50000,26.51402)->(1.50000,24.00000)
+03:58:04    SK4 line (1.50000,24.00000)->(0.00000,24.00000)
+03:58:04    SK4 line (-0.00000,24.00000)->(0.00000,32.11210)
+03:58:41  ABOUT TO: reopen Sketch 4 and zoom right in on the neck stud
+03:59:51  ABOUT TO: stand-off dimension, stalk corner to ball centre, label placed to force a vertical distance
+03:59:57  RESULT: stand-off dimension pre-filled '5.1121 mm' (want ~5.1121 = the vertical gap)
+03:59:57  RESULT: box now reads '5'
+04:00:20  ABOUT TO: accept Sketch 4 again and verify its geometry
+04:00:24    SK4 arc c=(0.00000,29.00000) r=3.00000
+04:00:24    SK4 line (1.50000,26.40192)->(1.50000,24.00000)
+04:00:24    SK4 line (1.50000,24.00000)->(0.00000,24.00000)
+04:00:24    SK4 line (-0.00000,24.00000)->(0.00000,32.00000)
+04:00:55  ABOUT TO: open Revolve for the neck stud
+04:01:21  ABOUT TO: remove the stray 'Face of Extrude 1' from the revolve region list
+04:01:38  ABOUT TO: pick the neck revolve axis line
+04:02:03  ABOUT TO: click New (Revolve 3 flipped to Add again) then accept
+04:02:09    JHD Part 1   x[-18.0000 18.0000] y[-12.0000 12.0000] z[-24.0000 24.0000]
+04:02:09    JKD Part 2   x[18.0000 26.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+04:02:09    JLD Part 3   x[-26.0000 -18.0000] y[-3.0000 3.0000] z[21.0000 27.0000]
+04:02:09    JOD Part 4   x[9.0000 15.0000] y[-3.0000 3.0000] z[-32.0000 -24.0000]
+04:02:09    JPD Part 5   x[-15.0000 -9.0000] y[-3.0000 3.0000] z[-32.0000 -24.0000]
+04:02:10    JSD Part 6   x[-3.0000 3.0000] y[-3.0000 3.0000] z[24.0000 32.0000]
+04:02:32  ABOUT TO: select all six parts in the parts list, then open Boolean
+04:03:01  ABOUT TO: accept Boolean 1 (Union of all six parts)
+04:03:07  RESULT: part count after the Union = 1
+04:03:07    JHD Part 1   x[-26.0000 26.0000] y[-12.0000 12.0000] z[-32.0000 32.0000]
+04:03:07  RESULT: features = ['Sketch 1', 'Extrude 1', 'Sketch 2', 'Revolve 1', 'Mirror 1', 'Sketch 3', 'Revolve 2', 'Mirror 2', 'Sketch 4', 'Revolve 3', 'Boolean 1']
+04:03:34  ABOUT TO: right-click Sketch 1 to find the Rename item
+04:04:09  RESULT: renamed row y=286 to 'Torso footprint'
+04:04:13  RESULT: renamed row y=312 to 'Torso block'
+04:04:18  RESULT: renamed row y=338 to 'Shoulder stud profile'
+04:04:22  RESULT: renamed row y=364 to 'Shoulder stud right'
+04:04:26  RESULT: renamed row y=390 to 'Shoulder stud left'
+04:04:30  RESULT: renamed row y=416 to 'Hip stud profile'
+04:04:34  RESULT: renamed row y=442 to 'Hip stud right'
+04:04:38  RESULT: renamed row y=468 to 'Hip stud left'
+04:04:42  RESULT: renamed row y=494 to 'Neck stud profile'
+04:04:46  RESULT: renamed row y=520 to 'Neck stud'
+04:04:50  RESULT: renamed row y=546 to 'Fuse studs to torso'
+04:05:08  ABOUT TO: right-click the part in the parts list
+04:05:30  ABOUT TO: rename the part by double-clicking its name in the parts list
+04:05:50  ABOUT TO: slow double-click (two spaced clicks) on the part name
+04:06:35  ABOUT TO: dblclick the 'Part 1' text node in the parts list
+04:07:26  ABOUT TO: select the part row, then click its name span again after a pause (slow double-click)
+04:07:28  NOTE: slow double-click gave no box; trying a real dblclick on the span
+04:08:02  ABOUT TO: clear every selection, then right-click the part alone
+04:08:22  ABOUT TO: click Rename in the part's context menu
+04:08:24  RESULT: rename box reads 'Torso'
+04:08:26  RESULT: parts now = ['Torso']
+04:09:07  featurescript status=200
+04:09:57    sphere   dia=6.00000 mm  centre=(23.00000, 0.00000, 24.00000)  area=105.5213 mm2   full sphere would be 113.0973
+04:09:57    sphere   dia=6.00000 mm  centre=(-23.00000, 0.00000, 24.00000)  area=105.5213 mm2   full sphere would be 113.0973
+04:09:57    sphere   dia=6.00000 mm  centre=(12.00000, 0.00000, -29.00000)  area=105.5213 mm2   full sphere would be 113.0973
+04:09:57    sphere   dia=6.00000 mm  centre=(-12.00000, 0.00000, -29.00000)  area=105.5213 mm2   full sphere would be 113.0973
+04:09:57    sphere   dia=6.00000 mm  centre=(0.00000, 0.00000, 29.00000)  area=105.5213 mm2   full sphere would be 113.0973
+04:09:57    cylinder dia=3.00000 mm  centre=(22.00000, 0.00000, 24.00000)  area=22.6376 mm2
+04:09:57    cylinder dia=3.00000 mm  centre=(-22.00000, 0.00000, 24.00000)  area=22.6376 mm2
+04:09:57    cylinder dia=3.00000 mm  centre=(12.00000, 0.00000, -28.00000)  area=22.6376 mm2
+04:09:57    cylinder dia=3.00000 mm  centre=(-12.00000, 0.00000, -28.00000)  area=22.6376 mm2
+04:09:57    cylinder dia=3.00000 mm  centre=(0.00000, 0.00000, 28.00000)  area=22.6376 mm2
+04:09:57  RESULT: 5 spherical faces, 5 cylindrical faces
+04:09:57  RESULT: YZ-symmetry check on the ball centres
+04:09:57      ball at (23.00000, 0.00000, 24.00000) dia 6.00000 -> mirror twin at x=-23.00000: yes
+04:09:57      ball at (-23.00000, 0.00000, 24.00000) dia 6.00000 -> mirror twin at x=23.00000: yes
+04:09:57      ball at (12.00000, 0.00000, -29.00000) dia 6.00000 -> mirror twin at x=-12.00000: yes
+04:09:57      ball at (-12.00000, 0.00000, -29.00000) dia 6.00000 -> mirror twin at x=12.00000: yes
+04:09:57      ball at (0.00000, 0.00000, 29.00000) dia 6.00000 -> mirror twin at x=-0.00000: yes
+04:10:37    massprops -all-: volume=42115.10511 mm3  centroid=(0.000000, 0.000000, 0.000000) mm
+04:10:37    reference: torso block 36*24*48 = 41472 mm3; a Ø6 ball = 113.09734 mm3
+04:11:49  RESULT: the part has 25 faces
+04:11:49  RESULT: face multiset under x -> -x is identical: False
+04:11:49      first mismatch (17.332415, -0.0, 3.0, 0.0, 0.0, 24.0, 32.0) vs (17.332415, -26.0, -18.0, 0.0, 0.0, 24.0, 27.0)
+04:11:49  RESULT: total surface area = 76523.5857 mm2 (REST periphery said 8107.588)
+04:12:17  RESULT: the part has 18 faces
+04:12:17  RESULT: face multiset under x -> -x is identical: True
+04:12:17  RESULT: total surface area = 8107.5885 mm2 (REST periphery said 8107.588)
+04:12:59  RESULT: rendered front -> 103-x-render-front.png
+04:12:59  RESULT: rendered right -> 103-x-render-right.png
+04:13:00  RESULT: rendered top -> 103-x-render-top.png
+04:13:00  RESULT: rendered isometric -> 103-x-render-isometric.png
+04:13:01  RESULT: rendered trimetric -> 103-x-render-trimetric.png
+04:13:37  ABOUT TO: open the versions/history panel on the left rail
+04:14:26  ABOUT TO: click 'Create version…' in the versions panel
+04:15:02  RESULT: version name box reads 'torso-run3-v1-five-studs-unioned'
+04:15:02  ABOUT TO: click Create
+04:15:07    version 'Start' id=fb3bd4d352e0ba5f53f261fb created=2026-08-13T04:17:09.490+00:00
+04:15:07    version 'torso-run3-v1-five-studs-unioned' id=f29c9f2c3b454d8dcb7aa3b5 created=2026-08-13T08:15:02.850+00:00
+04:15:49    cylinder area=   22.6376  x[ 18.000  20.402] y[ -1.500   1.500] z[ 22.500  25.500]
+04:15:49    cylinder area=   22.6376  x[-20.402 -18.000] y[ -1.500   1.500] z[ 22.500  25.500]
+04:15:49    cylinder area=   22.6376  x[ -1.500   1.500] y[ -1.500   1.500] z[ 24.000  26.402]
+04:15:49    cylinder area=   22.6376  x[ 10.500  13.500] y[ -1.500   1.500] z[-26.402 -24.000]
+04:15:49    cylinder area=   22.6376  x[-13.500 -10.500] y[ -1.500   1.500] z[-26.402 -24.000]
+04:15:49    plane    area= 1728.0000  x[-18.000  18.000] y[ 12.000  12.000] z[-24.000  24.000]
+04:15:49    plane    area= 1728.0000  x[-18.000  18.000] y[-12.000 -12.000] z[-24.000  24.000]
+04:15:49    plane    area= 1148.4657  x[ 18.000  18.000] y[-12.000  12.000] z[-24.000  24.000]
+04:15:49    plane    area= 1148.4657  x[-18.000 -18.000] y[-12.000  12.000] z[-24.000  24.000]
+04:15:49    plane    area=  856.9314  x[-18.000  18.000] y[-12.000  12.000] z[ 24.000  24.000]
+04:15:49    plane    area=  849.8628  x[-18.000  18.000] y[-12.000  12.000] z[-24.000 -24.000]
+04:15:49    plane    area=    3.5343  x[ 18.000  18.000] y[ -1.500   1.500] z[ 24.000  25.500]
+04:15:49    plane    area=    3.5343  x[-18.000 -18.000] y[ -1.500   1.500] z[ 24.000  25.500]
+04:15:49    sphere   area=  105.5213  x[ 20.402  26.000] y[ -3.000   3.000] z[ 21.000  27.000]
+04:15:49    sphere   area=  105.5213  x[-26.000 -20.402] y[ -3.000   3.000] z[ 21.000  27.000]
+04:15:49    sphere   area=  105.5213  x[  9.000  15.000] y[ -3.000   3.000] z[-32.000 -26.402]
+04:15:49    sphere   area=  105.5213  x[-15.000  -9.000] y[ -3.000   3.000] z[-32.000 -26.402]
+04:15:49    sphere   area=  105.5213  x[ -3.000   3.000] y[ -3.000   3.000] z[ 26.402  32.000]
+04:15:49    reference: full side face 24*48 = 1152; a whole Ø3 root disc = 7.0686; half of it = 3.5343
+04:17:31  NOTE: /features returned 429 Too many requests - backing off 45 s before retrying
+04:18:18  features status=429
+04:18:42  NOTE: /features attempt 1 -> 429, backing off
+04:18:54  features status=200
+04:18:54    Torso footprint          newSketch              {}
+04:18:54    Torso block              extrude                {'bodyType': 'SOLID', 'operationType': 'NEW', 'endBound': 'BLIND', 'oppositeDirection': False, 'depth': 0.0, 'symmetric': True}
+04:18:54    Shoulder stud profile    newSketch              {}
+04:18:54    Shoulder stud right      revolve                {'bodyType': 'SOLID', 'operationType': 'NEW', 'endBound': 'BLIND', 'oppositeDirection': False, 'angle': 0.0, 'symmetric': False}
+04:18:54    Shoulder stud left       mirror                 {'patternType': 'PART', 'operationType': 'NEW'}
+04:18:54    Hip stud profile         newSketch              {}
+04:18:54    Hip stud right           revolve                {'bodyType': 'SOLID', 'operationType': 'NEW', 'endBound': 'BLIND', 'oppositeDirection': False, 'angle': 0.0, 'symmetric': False}
+04:18:54    Hip stud left            mirror                 {'patternType': 'PART', 'operationType': 'NEW'}
+04:18:54    Neck stud profile        newSketch              {}
+04:18:54    Neck stud                revolve                {'bodyType': 'SOLID', 'operationType': 'NEW', 'endBound': 'BLIND', 'oppositeDirection': False, 'angle': 0.0, 'symmetric': False}
+04:18:54    Fuse studs to torso      booleanBodies          {'operationType': 'UNION', 'oppositeDirection': False}
+04:19:20  ABOUT TO: close the versions panel, then run the brief's scratch YZ mirror check
+04:19:56  ABOUT TO: set the scratch mirror's plane to Right, keep it as Add so it unions onto itself
+04:20:06  RESULT: scratch mirror -> part count 1, names ['Torso']
+04:20:06  RESULT: volume after the scratch mirror = 42115.10511 mm3 (was 42115.10511)
+04:20:33  ABOUT TO: clear every selection, then select ONLY the scratch mirror row and delete it
+04:20:43  RESULT: features now (10) ['Torso footprint', 'Shoulder stud profile', 'Shoulder stud right', 'Shoulder stud left', 'Hip stud profile', 'Hip stud right', 'Hip stud left', 'Neck stud profile', 'Neck stud', 'Fuse studs to torso']
+04:20:43  RESULT: parts 5 ['Part 1', 'Part 2', 'Part 3', 'Part 4', 'Part 5']
+04:21:18  ABOUT TO: Control+z once - the Delete took 'Torso block' with it
+04:21:22  RESULT: features now (11) ['Torso footprint', 'Torso block', 'Shoulder stud profile', 'Shoulder stud right', 'Shoulder stud left', 'Hip stud profile', 'Hip stud right', 'Hip stud left', 'Neck stud profile', 'Neck stud', 'Fuse studs to torso']
+04:21:22  RESULT: parts 1 ['Torso']
+04:21:52    workspace                    parts=1 ['Torso']
+04:21:53       bbox x[-26.0000 26.0000] y[-12.0000 12.0000] z[-32.0000 32.0000]
+04:21:53       volume=42115.10511 mm3  periphery=8107.5885 mm2
+04:21:53    version f29c9f2c3b454d8dcb7aa3b5 parts=1 ['Torso']
+04:21:53       bbox x[-26.0000 26.0000] y[-12.0000 12.0000] z[-32.0000 32.0000]
+04:21:53       volume=42115.10511 mm3  periphery=8107.5885 mm2
+04:22:19  ABOUT TO: zoom to fit, then close in on the right shoulder to show the straddle
+04:22:52  ABOUT TO: clear the stuck face selection by clicking bare canvas outside the plane rectangle
+04:22:54  ABOUT TO: zoom in on the right shoulder for a close-up of the straddle

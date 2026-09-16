@@ -1,0 +1,678 @@
+00:24:46  ABOUT TO: connect over CDP 9223, census window.name on every page
+00:24:47  RESULT: 14 pages. census=[('https://cad.onshape.com/signin', 'BALLSOCK_POLL'), ('https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7eb', 'HEAD_RUN3_7Q4XZ'), ('https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8', 'HINGE_RUN3'), ('https://cad.onshape.com/signin', 'LESSON_RUN3'), ('https://cad-usw2.onshape.com/signin', 'BALLSOCK_RUN3'), ('https://cad.onshape.com/documents?resourceType=resourcecompanyowner&no', ''), ('https://cad.onshape.com/documents?resourceType=resourcecompanyowner&no', 'ORCH_VERIFY_HINGE_7x2'), ('https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1', 'FOOT_RUN3_NVS79W'), ('https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76', 'HAND_RUN3_UK3WMB'), ('https://cad.onshape.com/signin', 'BALLSOCK_RUN3'), ('https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e0587', 'BALLSOCK_RUN3_B2'), ('about:blank', ''), ('https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be', 'LESSON_RUN3_MSTITT_A'), ('https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a', 'TORSO_RUN3_OA4SRWBU')]
+00:24:47  ABOUT TO: create my own page and stamp it LIMBSC_RUN3_9f4a1c
+00:24:47  RESULT: stamped; pages carrying LIMBSC_RUN3_9f4a1c = 1
+00:24:47  ABOUT TO: GET /api/users/sessioninfo to prove sign-in state
+00:24:52  RESULT: sessioninfo status=200 roles_present=True bodylen=934
+00:24:52  RESULT: page url now https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876  title='Spires Robotics | Documents'
+00:25:18  ABOUT TO: check no document named limb-socket-clevis-run3 already exists
+00:25:20  RESULT: search status=200 names=[]
+00:25:20  ABOUT TO: click the visible Create button on the documents page
+00:25:27  RESULT: Create clicked, bbox={'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+00:25:27  ABOUT TO: click 'Document...' by coordinate under the Create button
+00:25:30  RESULT: dialog visible=True
+00:25:30  ABOUT TO: type document name limb-socket-clevis-run3
+00:25:30  RESULT: name field reads 'limb-socket-clevis-run3'
+00:25:37  RESULT: url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d62d7664be669f  title='limb-socket-clevis-run3 | Part Studio 1'
+00:25:37  RESULT: d=82547630224dea5fd5a9c17a w=8f6e261ecbb5303be2f84287 e=f2a096a499d62d7664be669f
+00:25:52  ABOUT TO: probe the Part Studio DOM for command-id toolbar hooks
+00:25:52  RESULT: 29 command-id elements
+00:25:56  ABOUT TO: probe the Part Studio DOM for command-id toolbar hooks
+00:25:56  RESULT: 29 command-id elements
+00:26:15  ABOUT TO: open the document hamburger menu and click 'Workspace units...'
+00:26:18  RESULT: units dialog screenshotted
+00:26:38  ABOUT TO: set Length default unit = Millimeter, Display decimals = 0.12345
+00:26:40  ABOUT TO: click the green tick to accept Workspace units
+00:26:42  RESULT: units dialog accepted
+00:27:28  ABOUT TO: open the Plane tool (command-id cPlane)
+00:27:29  RESULT: plane dialog opened, parameters dumped
+00:28:00  ABOUT TO: pick Top into the plane's Entities field, offset 4.15
+00:28:05  RESULT: entities='Entities | Top plane | ×' offset='4.15'
+00:28:05  ABOUT TO: accept the plane
+00:28:08  RESULT: plane accepted
+00:28:23  ABOUT TO: GET features to read the plane's id and state
+00:28:30  ABOUT TO: GET features to read the plane's id and state
+00:29:00  ABOUT TO: probe the dialog's accept control (data-automation=ok-button was absent)
+00:29:00  ABOUT TO: click the offset opposite-direction arrow beside Offset distance
+00:29:03  RESULT: flip clicked, screenshot taken
+00:30:15  ABOUT TO: accept Plane 1 (offset 4.15 from Top, arrow pointing -Z)
+00:30:17  RESULT: features now [('FXXFtVIbfkYpxAp_0', 'Plane 1')]
+00:30:17  ABOUT TO: rename Plane 1 to 'Limb top plane'
+00:30:22  RESULT: rename box read 'Limb top plane'
+00:30:23  RESULT: features now [('FXXFtVIbfkYpxAp_0', 'Limb top plane')]
+00:30:24  RESULT: evPlane on the new plane -> 200 {
+  "console" : "",
+  "notices" : [ {
+    "type" : 227,
+    "typeName" : "BTNotice",
+    "message" : {
+      "level" : "WARNING",
+      "type" : "SEMANTIC",
+      "message" : "Cannot use plane as map key because there is a variable or constant with that name.  Use (plane) or 'plane' to disambiguate.",
+      "stackTrace" : [ {
+        "type" : 226,
+        "typeName" : "BTLocationInfo",
+        "message" : {
+          "document" : "f2a096a499d62d7664be669f",
+          "version" : "7a3fc74d609988195c2abccf",
+          "topLevel" : "",
+          "parseNodeId" : "PAc4RRqZ+QCvcTH2Z",
+          "cha
+00:31:19  ABOUT TO: start a new sketch on 'Limb top plane'
+00:31:26  RESULT: sketch open on 'Sketch plane'; view normal pressed
+00:31:52  ABOUT TO: re-pick 'Limb top plane' into the empty Sketch plane field
+00:31:54  RESULT: sketchPlane field = 'Sketch plane | Limb top plane | ×'
+00:31:54  ABOUT TO: draw a circle on the sketch origin with the 'c' shortcut
+00:31:58  RESULT: circle drawn, screenshot taken
+00:32:22  ABOUT TO: dimension the circle diameter (d), read the pre-filled value, set 12
+00:32:26  RESULT: dimension box pre-filled with '66.26086 mm'
+00:32:27  RESULT: box now reads '12'
+00:32:28  RESULT: diameter committed, screenshot taken
+00:32:54  ABOUT TO: accept Sketch 1 and rename it 'Limb section'
+00:33:01  RESULT: rename box 'Limb section'; features=[('Limb top plane', 'FXXFtVIbfkYpxAp_0'), ('Limb section', 'FMh8QwQLHw0bcPs_0')]
+00:33:01  RESULT: featureStates=all OK
+00:33:17  ABOUT TO: select 'Limb section' in the tree and open Extrude
+00:33:22  RESULT: extrude dialog opened and dumped
+00:33:50  ABOUT TO: check operation is New, set Depth 13.74, accept the limb extrude
+00:33:50  RESULT: depth box reads '13.74'; entities='Faces and sketch regions to extrude | Faces of Limb section | ×'
+00:33:56  RESULT: parts=[('JID', 'Part 1')]
+00:33:56  RESULT: bounding box (m) = {
+  "lowX" : -0.006000000000000001,
+  "lowY" : -0.006000000000000001,
+  "lowZ" : -0.00415,
+  "highX" : 0.006000000000000001,
+  "highY" : 0.006000000000000001,
+  "highZ" : 0.009590000000000001
+}
+00:34:15  ABOUT TO: reopen Extrude 1 and flip its direction (it built +Z, needs -Z)
+00:34:26  RESULT: operationType = NEW
+00:34:26  RESULT: oppositeDirection = True
+00:34:26  RESULT: depth = 13.74 mm
+00:34:27  RESULT: bbox now {
+  "lowX" : -0.006000000000000001,
+  "lowY" : -0.006000000000000001,
+  "lowZ" : -0.01789,
+  "highX" : 0.006000000000000001,
+  "highY" : 0.006000000000000001,
+  "highZ" : -0.00415
+}
+00:34:45  ABOUT TO: rename Extrude 1 -> 'Limb body' and Part 1 -> 'Upper arm / thigh'
+00:34:49  RESULT: feature rename box read 'Limb body'
+00:34:53  RESULT: part rename box read 'Upper arm / thigh'
+00:34:54  RESULT: parts now [('JID', 'Upper arm / thigh')]
+00:34:54  RESULT: features ['Limb top plane', 'Limb section', 'Limb body']
+00:35:22  ABOUT TO: open a sketch on 'Limb top plane' for the collar circle, then zoom in
+00:35:25  RESULT: sketchPlane = 'Sketch plane | Limb top plane | ×'
+00:35:30  RESULT: sketch open and zoomed; screenshot taken
+00:36:09  ABOUT TO: draw the collar circle on the origin and dimension it 9.4 (NOTE: view cube reads 'Bottom' after n - mirrored in X, harmless for a centred circle)
+00:36:17  RESULT: dimension pre-filled '39.38192 mm'
+00:36:17  RESULT: box reads '9.4'
+00:36:20  RESULT: collar circle dimensioned
+00:36:45  ABOUT TO: accept the collar sketch, rename it, and open Extrude on it
+00:37:46  ABOUT TO: rename Sketch 1 -> 'Collar circle' (clearing the selection first)
+00:38:44  ABOUT TO: clear the selection through the context menu, then rename Sketch 1
+00:38:50  RESULT: features ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle']
+00:38:58  ABOUT TO: rename Sketch 1 -> 'Collar circle' (clearing the selection first)
+00:39:11  ABOUT TO: select 'Collar circle' and open Extrude
+00:39:17  RESULT: extrude dialog dumped
+00:39:42  ABOUT TO: set collar Depth 5.5, operation Add, scope 'Upper arm / thigh', accept
+00:39:42  CHECK: operation row = 'New | Add | Remove | Intersect', merge scope = 'Merge scope | Upper arm / thigh | ×'
+00:39:42  RESULT: depth box reads '5.5'
+00:39:48  RESULT: bbox mm {"Upper arm / thigh": {"lowX": -6.0, "lowY": -6.0, "lowZ": -17.89, "highX": 6.0, "highY": 6.0, "highZ": 1.35}}
+00:39:48  RESULT: total volume 1935.645190 mm^3
+00:40:16  ABOUT TO: rename Extrude 1 -> 'Socket collar'
+00:40:21  RESULT: 'Socket collar'
+00:40:21  ABOUT TO: open a sketch on the Front plane for the ball tool profile
+00:40:27  RESULT: sketchPlane = 'Sketch plane | Front plane | ×'
+00:40:30  RESULT: sketch open on Front; check the view cube in the screenshot
+00:40:56  ABOUT TO: zoom in about the origin marker for the ball profile sketch
+00:41:01  RESULT: zoomed
+00:41:50  ABOUT TO: draw a circle on the origin (ball tool profile) and dimension it 6
+00:41:58  RESULT: dimension pre-filled '5.90854 mm'
+00:41:58  RESULT: box reads '6'
+00:42:00  RESULT: ball circle dimensioned
+00:42:21  ABOUT TO: draw the closing line on the revolve axis, top quadrant to bottom quadrant
+00:42:26  RESULT: line drawn
+00:42:54  ABOUT TO: accept the ball profile sketch and rename it
+00:43:02  RESULT: 'Ball tool profile'
+00:43:02  ABOUT TO: hide the limb part so the sketch region can be picked (how-to sec.7)
+00:43:11  RESULT: part hidden
+00:43:11  ABOUT TO: open Revolve
+00:43:42  ABOUT TO: pick the half-disc region, then click into Revolve axis and pick the line
+00:43:44  RESULT: entities = 'Faces and sketch regions to revolve | Face of Ball tool profile | ×'
+00:43:46  RESULT: axis = 'Revolve axis | Edge of Ball tool profile | ×'
+00:43:50  RESULT: parts = [('JID', 'Upper arm / thigh'), ('JPD', 'Part 2')]
+00:44:02  ABOUT TO: rename Revolve 1 -> Ball tool, Part 2 -> Ball tool, and measure the sphere
+00:44:13  RESULT: Upper arm / thigh bbox_mm={} vol=1935.645190
+00:44:13  RESULT: Ball tool bbox_mm={'lowX': -3.0, 'lowY': -3.0, 'lowZ': -3.0, 'highX': 3.0, 'highY': 3.0, 'highZ': 3.0} vol=113.097336
+00:44:30  ABOUT TO: show the limb part again
+00:44:36  RESULT: part shown
+00:44:56  ABOUT TO: open Boolean (command-id booleanBodies)
+00:45:17  ABOUT TO: switch the Boolean to Subtract
+00:45:18  RESULT: Boolean switched to Subtract; parameters dumped
+00:45:42  ABOUT TO: fill Boolean Tools = Ball tool (the PART row, lowest match) 
+00:45:43  RESULT: tools = 'Tools | Ball tool | ×'
+00:45:45  RESULT: targets = 'Targets | Upper arm / thigh | ×'
+00:46:04  ABOUT TO: tick 'Offset' by clicking its label text
+00:46:05  RESULT: offset section dumped
+00:46:34  ABOUT TO: tick 'Offset all' and set Offset distance 0.2
+00:46:36  RESULT: offset distance box reads '0.2'
+00:46:36  ABOUT TO: accept the Boolean subtract
+00:46:42  RESULT: parts = [('JID', 'Upper arm / thigh')]
+00:46:42  RESULT: total volume 1826.163173 mm^3
+00:46:43  RESULT: non-OK featureStates = none
+00:47:12  ABOUT TO: rename Boolean 1 -> 'Socket cavity'
+00:47:17  RESULT: 'Socket cavity'
+00:47:17  ABOUT TO: open a sketch on 'Limb top plane' for the relief slit
+00:47:24  RESULT: sketchPlane = 'Sketch plane | Limb top plane | ×'
+00:47:26  RESULT: sketch open; view cube and scale to be read off the screenshot
+00:48:00  ABOUT TO: zoom x2 about the origin for the slit rectangle
+00:48:03  RESULT: zoomed
+00:48:29  ABOUT TO: draw the slit rectangle in clear space with the corner-rectangle tool (g)
+00:48:36  RESULT: rectangle drawn
+00:49:26  ABOUT TO: dimension the slit top edge to the X axis = 0.4
+00:49:34  RESULT: dimension pre='0.44113 mm' typed='0.4' committed
+00:49:50  ABOUT TO: dimension the slit bottom edge to the X axis = 0.4
+00:50:00  RESULT: dimension pre='0.33251 mm' typed='0.4' committed
+00:50:20  ABOUT TO: dimension the slit inner edge to the vertical axis = 2.5
+00:50:27  RESULT: dimension pre='2.608 mm' typed='2.5' committed
+00:50:44  ABOUT TO: dimension the slit outer edge to the vertical axis = 6.0
+00:50:53  RESULT: dimension pre='4.93871 mm' typed='6' committed
+00:51:26  ABOUT TO: accept the slit sketch, rename it, open Extrude on it
+00:51:35  RESULT: 'Slit profile'
+00:52:02  ABOUT TO: set slit Remove Depth 5.5, scope 'Upper arm / thigh', accept
+00:52:02  CHECK: merge scope reads 'Merge scope | Upper arm / thigh | ×'
+00:52:02  RESULT: depth box '5.5'
+00:52:09  RESULT: volume now 1810.782741 mm^3 (was 1826.163173; run3 measured one slit = 8.264489)
+00:52:10  RESULT: Socket collar.oppositeDirection = False
+00:52:10  RESULT: Socket collar.depth = 5.5 mm
+00:52:10  RESULT: Extrude 1.oppositeDirection = True
+00:52:10  RESULT: Extrude 1.depth = 5.5 mm
+00:52:33  ABOUT TO: reopen the slit extrude and flip it (it cut -Z into the limb, needs +Z)
+00:52:45  RESULT: stored oppositeDirection = False
+00:52:45  RESULT: volume 1817.898684; one slit removed 8.264489 mm^3 (run 3 measured 8.264489 on the same geometry)
+00:52:50  RESULT: 'Relief slit'
+00:53:15  ABOUT TO: open the view menu (cube icon, bottom right of the cube) for Isometric
+00:53:19  RESULT: isometric clicked = True
+00:53:29  ABOUT TO: Zoom to fit from the view menu
+00:53:32  RESULT: zoom to fit done
+00:53:50  ABOUT TO: hide all planes and sketches, then zoom to fit
+00:54:12  ABOUT TO: click Hide all planes, then zoom to fit
+00:54:18  RESULT: planes hidden, fitted
+00:54:45  ABOUT TO: open Circular pattern through the Search tools box
+00:54:52  RESULT: circular pattern dialog dumped
+00:55:09  ABOUT TO: switch the pattern type from Part pattern to Feature pattern
+00:55:58  ABOUT TO: open the pattern-type dropdown and pick Feature pattern
+00:56:16  RESULT: pattern type switched to Feature pattern
+03:38:13  ==============================================================================
+03:38:13  TAKEOVER by a second agent. Predecessor was killed by an API spend limit.
+03:38:13  ABOUT TO: census window.name on every page BEFORE stamping
+03:38:13  RESULT: 17 pages. census=[('https://cad.onshape.com/signin', 'BALLSOCK_POLL'), ('https://cad.onshape.com/documents/e4e890de0530e1c4df67aada/w/e4eb5c7eb', 'HEAD_RUN3_7Q4XZ'), ('https://cad.onshape.com/documents/8844e1331199cc35de25a417/w/b5995fc86', 'LIMBBB_RUN3_cfca2a'), ('https://cad.onshape.com/documents/2bb91052915f54a3e21ef499/w/20fb402b8', 'HINGE_RUN3'), ('https://cad.onshape.com/signin', 'LESSON_RUN3'), ('https://cad-usw2.onshape.com/signin', 'BALLSOCK_RUN3'), ('https://cad.onshape.com/documents?resourceType=resourcecompanyowner&no', ''), ('https://cad.onshape.com/documents?resourceType=resourcecompanyowner&no', 'ORCH_VERIFY_HINGE_7x2'), ('https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1', 'FOOT_RUN3_NVS79W'), ('https://cad.onshape.com/documents/1bb0da3ec390097ada708b8c/w/496593f76', 'HAND_RUN3_UK3WMB'), ('https://cad.onshape.com/signin', 'BALLSOCK_RUN3'), ('https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e0587', 'BALLSOCK_RUN3_B2'), ('about:blank', ''), ('https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ec', 'LIMBSC_RUN3_9f4a1c'), ('https://cad.onshape.com/documents?resourceType=resourcecompanyowner&no', 'ORCH_INVENTORY_7x2'), ('https://cad.onshape.com/documents/17723bb5b4f85b74849e355b/w/6da3ae6be', 'LESSON_RUN3_MSTITT_A'), ('https://cad.onshape.com/documents/dfd743765a001160f1f78751/w/0935e4f7a', 'TORSO_RUN3_OA4SRWBU')]
+03:38:13  ABOUT TO: create my own page and stamp it LIMBSC2_RUN3_c31d7e
+03:38:13  RESULT: stamped; pages carrying LIMBSC2_RUN3_c31d7e = 1
+03:38:13  ABOUT TO: navigate to the inherited document (workspace)
+03:38:22  RESULT: url=https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d62d7664be669f  title='limb-socket-clevis-run3 | Part Studio 1'
+03:38:22  RESULT: sessioninfo status=200 roles_present=True bodylen=837
+03:38:22  RESULT: features status=200
+03:38:22      'Limb top plane'                 FXXFtVIbfkYpxAp_0        OK
+03:38:22      'Limb section'                   FMh8QwQLHw0bcPs_0        OK
+03:38:22      'Limb body'                      FqoaMHveR3ybncs_0        OK
+03:38:22      'Collar circle'                  F4svc3tLAXODplg_1        OK
+03:38:22      'Socket collar'                  FIjLIXUizbgBGuW_1        OK
+03:38:22      'Ball tool profile'              FjhPYstZC8vz2T0_1        OK
+03:38:22      'Ball tool'                      FmuVOZ6r1CSyooA_1        OK
+03:38:22      'Socket cavity'                  FsMK6oOp5IzDC76_2        OK
+03:38:22      'Slit profile'                   FlurS1rEY6mFmzD_1        OK
+03:38:22      'Relief slit'                    Farg7oN0Eh4oGDJ_1        OK
+03:38:22      'Circular pattern 1'             FJPEqaOv29YugUQ_1        ERROR
+03:38:22  RESULT: parts status=200 [('JID', 'Upper arm / thigh')]
+03:38:23      part 'Upper arm / thigh' id=JID vol=1817.8986836163313
+03:38:23          bbox_mm={"lowX": -6.000000000000001, "lowY": -6.000000000000001, "lowZ": -17.89, "highX": 6.000000000000001, "highY": 6.000000000000001, "highZ": 1.3499999999999996}
+03:38:23  RESULT: screenshot 18-x-takeover-initial-state.png
+03:38:39  ABOUT TO: dump Circular pattern 1's stored parameters and its error message
+03:38:47  ABOUT TO: dump Circular pattern 1's stored parameters and its error message
+03:39:36  ABOUT TO: hover the red 'Circular pattern 1' row to read Onshape's own error text
+03:39:36  RESULT: row bbox={'x': 66, 'y': 536.5, 'width': 164, 'height': 19.984375}
+03:39:40  RESULT: tooltip-ish DOM text = ['Circular pattern 1 did not regenerate properly: Select features to pattern.']
+03:40:15  ABOUT TO: open the view menu (caret beside the view-cube icon) and click Zoom to fit
+03:40:17  RESULT: menu items = [['Isometric', 1403, 247, 181, 22], ['Isometric', 1403, 247, 181, 22], ['Isometric', 1403, 247, 181, 22], ['Isometric', 1403, 247, 181, 22], ['Isometric', 1403, 247, 181, 22], ['Zoom to fit', 1403, 382, 181, 22], ['Zoom to fit', 1403, 382, 181, 22], ['Zoom to fit', 1403, 382, 181, 22], ['Zoom to fit', 1403, 382, 181, 22], ['Zoom to fit', 1403, 382, 181, 22], ['Section view…', 1403, 563, 181, 22], ['Section view…', 1403, 563, 181, 22], ['Section view…', 1403, 563, 181, 22], ['Section view…', 1403, 563, 181, 22], ['Section view…', 1403, 563, 181, 22]]
+03:40:38  ABOUT TO: Zoom to fit, then double-click 'Circular pattern 1' to reopen it for edit
+03:40:42  RESULT: dialog rows = [
+{
+"id": "patternType",
+"txt": "Feature pattern",
+"x": 246,
+"y": 108,
+"w": 194,
+"h": 28
+},
+{
+"id": "patternType",
+"txt": "Feature pattern",
+"x": 246,
+"y": 108,
+"w": 194,
+"h": 25
+},
+{
+"id": "instanceFunction",
+"txt": "Features to pattern",
+"x": 249,
+"y": 141,
+"w": 214,
+"h": 26
+},
+{
+"id": "instanceFunction",
+"txt": "Features to pattern",
+"x": 249,
+"y": 141,
+"w": 214,
+"h": 26
+},
+{
+"id": "axis",
+"txt": "Axis of pattern",
+"x": 249,
+"y": 172,
+"w": 214,
+"h": 26
+},
+{
+"id": "axis",
+"txt": "Axis of pattern",
+"x": 249,
+"y": 172,
+"w": 214,
+"h": 26
+},
+{
+"id": "angle",
+"txt": "Angle",
+"x": 246,
+"y": 203,
+"w": 194,
+"h": 26
+},
+{
+"id": "angle",
+"txt": "Angle",
+"x": 246,
+"y": 203,
+"w": 194,
+"h": 26
+},
+{
+"id": "instanceCount",
+"txt": "Instance count",
+"x": 246,
+"y": 229,
+"w": 194,
+"h": 26
+},
+{
+"id": "instanceCount",
+"txt": "Instance count",
+"x": 246,
+"y": 229,
+"w": 194,
+"h": 26
+},
+{
+"id": "oppositeDirection",
+"txt": "",
+"x": 440,
+"y": 229,
+"w": 26,
+"h": 26
+},
+{
+"id": "oppositeDirection",
+"txt": "",
+"x": 440,
+"y": 229,
+"w": 26,
+"h": 26
+},
+{
+"id": "equalSpace",
+"txt": "Equal spacing",
+"x": 246,
+"y": 255,
+"w": 194,
+"h": 27
+},
+{
+"id": "equalSpace",
+"txt": "Equal spacing",
+"x": 246,
+"y": 255,
+"w": 194,
+"h": 27
+},
+{
+"id": "isCentered",
+"txt": "Centered",
+"x": 246,
+"y": 282,
+"w": 194,
+"h": 27
+},
+{
+"id": "isCentered",
+"txt": "Centered",
+"x": 246,
+"y": 282,
+"w": 194,
+"h": 27
+},
+{
+"id": "fullFeaturePattern",
+"txt": "Reapply features",
+"x": 246,
+"y": 310,
+"w": 194,
+"h": 27
+},
+{
+"id": "fullFeaturePattern",
+"txt": "Reapply features",
+"x": 246,
+"y": 310,
+"w": 194,
+"h": 27
+},
+{
+"id": "skipInstances",
+"txt": "Skip instances",
+"x": 266,
+"y": 337,
+"w": 175,
+"h": 27
+},
+{
+"id": "skipInstances",
+"txt": "Skip instances",
+"x": 266,
+"y": 337,
+"w": 175,
+"h": 27
+}
+]
+03:41:23  ABOUT TO: click into 'Features to pattern' then pick 'Relief slit' from the tree
+03:41:23  RESULT: 'Relief slit' row bbox={'x': 66, 'y': 510.5, 'width': 164, 'height': 19.984375} (panel is y 145..640, so it is clickable)
+03:41:24  RESULT: instanceFunction field = 'Features to pattern Relief slit ×'
+03:41:24  ABOUT TO: click into 'Axis of pattern', then zoom the model up for a face pick
+03:41:26  RESULT: axis field = 'Axis of pattern'
+03:41:33  RESULT: zoomed; screenshot 21-a-select-pattern-zoomed.png
+03:41:58  ABOUT TO: pick the limb's outer cylindrical face into 'Axis of pattern' (hover then click)
+03:42:03  RESULT: axis field = 'Axis of pattern'
+03:42:03  CHECK: angle='Angle' count='Instance count' equal='Equal spacing'
+03:42:46  FINDING: the canvas face-pick went into 'Features to pattern' (still focused) and added 'Limb body' — the feature that owns the face. Adding a row also pushed 'Axis of pattern' down 42 px, so my earlier click into it landed on the grown list instead.
+03:42:46  ABOUT TO: remove 'Limb body' from Features to pattern with its x
+03:42:47  RESULT: instanceFunction = 'Features to pattern Relief slit ×'
+03:42:47  RESULT: fresh row positions = {"patternType": [246, 108, 194, 28], "instanceFunction": [249, 141, 214, 44], "axis": [249, 190, 214, 26], "angle": [246, 221, 194, 26], "instanceCount": [246, 247, 194, 26], "oppositeDirection": [440, 247, 26, 26], "equalSpace": [246, 273, 194, 27], "isCentered": [246, 300, 194, 27], "fullFeaturePattern": [246, 328, 194, 27], "skipInstances": [266, 355, 175, 27]}
+03:42:47  ABOUT TO: click into 'Axis of pattern' at its CURRENT position [249, 190, 214, 26]
+03:42:48  RESULT: focus chain = ['axis', 'axis']
+03:42:48  ABOUT TO: hover then click the limb's outer cylindrical face at (930, 620)
+03:42:51  RESULT: axis = 'Axis of pattern Face of Limb body ×'
+03:42:51  RESULT: instanceFunction = 'Features to pattern Relief slit ×'
+03:43:10  ABOUT TO: read Angle / Instance count / Equal spacing back before accepting
+03:43:10  CHECK: inputs = {"patternType": {"value": "", "type": "search", "checked": false}, "angle": {"value": "360 deg", "type": "text", "checked": false}, "instanceCount": {"value": "4", "type": "text", "checked": false}, "equalSpace": {"value": "on", "type": "checkbox", "checked": true}, "isCentered": {"value": "on", "type": "checkbox", "checked": false}, "fullFeaturePattern": {"value": "on", "type": "checkbox", "checked": false}, "skipInstances": {"value": "on", "type": "checkbox", "checked": false}}
+03:43:10  CHECK: volume before accept = 1817.8986836163315
+03:43:11  ABOUT TO: accept Circular pattern 1 (green tick)
+03:43:14  RESULT: featureStates non-OK = []
+03:43:14  RESULT: volume after = 1793.1052162569429  delta = 24.793467359388615  (3 more slits at 8.264489 = 24.793467)
+03:43:46  ABOUT TO: rename 'Circular pattern 1' -> 'Relief slits x4'
+03:43:50  RESULT: renamed 'Circular pattern 1' -> box read 'Relief slits x4'
+03:43:50  RESULT: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4']
+03:46:01  CHECKPOINT 1 done: pattern repaired (4 equal slits, volume 1793.105216), renamed.
+03:46:01  ABOUT TO: open a new sketch on the Front plane for the clevis fork profile
+03:46:04  RESULT: 'Front' tree row bbox={'x': 85, 'y': 224.5, 'width': 145, 'height': 19.984375}
+03:46:06  RESULT: sketchPlane = 'Sketch plane Front plane ×'
+03:46:09  RESULT: 'Zoom to fit' bbox={'x': 1430.375, 'y': 384, 'width': 56.65625, 'height': 18}
+03:46:12  RESULT: sketch open on Front, view normal + zoom to fit; check the view cube in the shot
+03:47:08  CHECK: view cube reads 'Front', Z up and X right (24-a-select-front-sketch-open.png). Silhouette calibration: limb edges x 657..1189 px = 12.000 mm -> 44.33 px/mm; origin marker at (923, 157); collar top (z=+1.35) at y~95, collar foot (z=-4.15) at y~339, limb bottom (z=-17.89) at y~949 - all consistent.
+03:47:08  ABOUT TO: wheel out 9 notches about the origin marker so z=-30 fits on screen
+03:47:10  RESULT: zoomed out; screenshot 24-b-done-front-sketch-zoomed-out.png
+03:47:53  CHECK: calibration s=26.31 px/mm, origin=(923,157); z=-24 is y=788
+03:47:53  ABOUT TO: draw the fork's round-end circle centred on the hinge axis (0, -24)
+03:48:15  RESULT: circle drawn; screenshot 25-a-select-fork-circle-drawn.png
+03:48:52  ABOUT TO: dimension the round-end circle diameter = 11.62
+03:49:01  RESULT: round-end diameter: pre-filled '11.57581 mm' -> typed, box read '11.62'
+03:49:03  ABOUT TO: dimension circle centre to the sketch origin = 24 (the segment length)
+03:49:21  RESULT: hinge axis below the socket centre: pre-filled '24.0601 mm' -> typed, box read '24'
+03:50:27  CHECK: recalibrated from the dimensioned circle: centre (923,787.5), origin (923,157), 630.5 px = 24.000 mm -> s = 26.27 px/mm; circle 771..1076 px = 11.62 -> 26.25
+03:50:27  ABOUT TO: draw the fork's rectangle loosely above the circle (corner rectangle, g)
+03:50:32  RESULT: rectangle drawn
+03:50:32  ABOUT TO: test multi-select — click the left line, then shift+click the circle
+03:50:34  RESULT: multi-select test screenshot taken (26-x-multiselect-test.png)
+03:51:12  FINDING: shift+click DOES add to a sketch selection; the readout showed 'Min dist 0.37335 mm / Max dist 14.06291 / Center dist 6.18335' for line+circle.
+03:51:12  ABOUT TO: apply Tangent (t) to the selected left line + circle
+03:51:15  RESULT: left tangent applied (see 26-b-done-tangent-left.png)
+03:51:15  ABOUT TO: select the right line + circle and apply Tangent
+03:51:24  RESULT: right tangent applied (see 26-b-done-tangent-right.png)
+03:52:00  FINDING: the left Tangent translated the WHOLE rectangle ~0.4 mm right (width is free), so my next click at x=1085 fell inside the rectangle and picked nothing; the readout then showed only 'Diameter: 11.62000 mm'. Pixel coordinates go stale after every constraint.
+03:52:00  ABOUT TO: re-pick the right line (now at x~1095) + the circle, then Tangent
+03:52:04  CHECK: read the readout in 26-a-select-tangent-right2.png before the constraint
+03:52:28  CHECK: readout read 'Min dist 0.73130 / Max dist 14.33440 / Center dist 6.54130' — two entities really are selected. That readout is the reliable multi-select check.
+03:52:28  ABOUT TO: apply Tangent (t) to right line + circle
+03:52:29  RESULT: right tangent applied
+03:54:23  FINDING: pixel scan says the right Tangent did NOT apply — circle right edge at x=1076, rectangle right edge at x=1096 (0.76 mm apart, matching the pre-constraint Min dist 0.73130). The left Tangent did apply. Suspect the constraint tool stayed armed, so the second 't' toggled it off. Retrying with Escape first.
+03:54:23  ABOUT TO: Escape, re-select right line + circle, press t
+03:54:35  RESULT: blue rectangle edges at y=788 -> None  (tangent wants right edge ~1076)
+03:55:18  FINDING (repeatable): the sketch constraint tool STAYS ARMED after it is used, so a second bare 't' toggles it off instead of applying it. Press Escape first. With Escape the right Tangent took: both vertical lines are now black and the rectangle spans 771..1076 px, exactly the circle's width.
+03:55:18  ABOUT TO: select the fork's bottom line + the circle's centre point for a Coincident
+03:55:26  CHECK: readout cropped to scratchpad/limbsc2/readout.png
+03:55:56  CHECK: readout 'Min dist: 0.42466 mm' with no Max/Center dist — a point and a line, i.e. the circle's centre point and the fork's bottom line, exactly what Coincident needs.
+03:55:56  ABOUT TO: press i (coincident) on that selection
+03:55:58  RESULT: blue horizontal lines at x=850 -> y [644] (want the lower one at ~788)
+03:56:20  RESULT: after Coincident the bottom line went black; only the top line is still blue (y=644).
+03:56:20  ABOUT TO: dimension bottom line -> top line = 6.11 (the hinge set-back d)
+03:56:31  RESULT: set-back dimension pre-filled '5.46596 mm', box read '6.11'
+03:56:58  RESULT: the fork profile is FULLY DEFINED — every curve black (27-c-done-fork-profile-defined.png). Ø11.62 round end, centre 24.000 below the socket centre, rectangle tangent both sides, 6.11 tall, its top edge landing on the limb's bottom face.
+03:56:58  ABOUT TO: accept Sketch 1 and rename it 'Clevis fork profile'
+03:57:04  RESULT: renamed 'Sketch 1' -> box read 'Clevis fork profile'
+03:57:04  RESULT: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile']
+03:57:04  RESULT: non-OK = []
+03:57:28  ABOUT TO: select 'Clevis fork profile' in the tree and open Extrude
+03:57:28  RESULT: row bbox={'x': 66, 'y': 562.5, 'width': 164, 'height': 19.984375}
+03:57:29  RESULT: extrude toolbar hooks found = 1
+03:57:31      bodyType                 y= 108 x= 246 w= 220 inp=None txt='Solid Surface Thin'
+03:57:31      operationType            y= 136 x= 246 w= 220 inp=None txt='New Add Remove Intersect'
+03:57:31      entities                 y= 169 x= 249 w= 214 inp=None txt='Faces and sketch regions to extrude'
+03:57:31      endBound                 y= 200 x= 246 w= 194 inp={'v': '', 't': 'search', 'c': False} txt='Blind'
+03:57:31      oppositeDirection        y= 200 x= 440 w=  26 inp=None txt=''
+03:57:31      depth                    y= 228 x= 246 w= 194 inp={'v': '25 mm', 't': 'text', 'c': False} txt='Depth'
+03:57:31      hasExtrudeDirection      y= 254 x= 266 w= 175 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Direction'
+03:57:31      startOffset              y= 281 x= 266 w= 175 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Starting offset'
+03:57:31      symmetric                y= 309 x= 246 w= 194 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Symmetric'
+03:57:31      hasDraft                 y= 336 x= 246 w=  54 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Draft'
+03:57:31      hasSecondDirection       y= 363 x= 266 w= 175 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Second end position'
+03:58:15  FINDING: selecting a sketch in the tree and then opening Extrude does NOT preselect it — the dialog opened on New with an empty, red-titled 'Faces and sketch regions to extrude'. (The ball-and-socket run saw the opposite, so it is not stable.)
+03:58:15  ABOUT TO: click 'Clevis fork profile' in the tree into the active entities field
+03:58:20  RESULT: entities = 'Faces and sketch regions to extrude Faces of Clevis fork profile ×'
+03:58:20  ABOUT TO: switch the operation from New to Add
+03:58:21      bodyType                 y= 108 x= 246 inp=None txt='Solid Surface Thin'
+03:58:21      operationType            y= 136 x= 246 inp=None txt='New Add Remove Intersect'
+03:58:21      entities                 y= 169 x= 249 inp=None txt='Faces and sketch regions to extrude Faces of Clevis fork profile ×'
+03:58:21      endBound                 y= 218 x= 246 inp={'v': '', 't': 'search', 'c': False} txt='Blind'
+03:58:21      oppositeDirection        y= 218 x= 440 inp=None txt=''
+03:58:21      depth                    y= 246 x= 246 inp={'v': '25 mm', 't': 'text', 'c': False} txt='Depth'
+03:58:21      hasExtrudeDirection      y= 272 x= 266 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Direction'
+03:58:21      startOffset              y= 299 x= 266 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Starting offset'
+03:58:21      symmetric                y= 327 x= 246 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Symmetric'
+03:58:21      hasDraft                 y= 354 x= 246 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Draft'
+03:58:21      hasSecondDirection       y= 381 x= 266 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Second end position'
+03:58:21      defaultScope             y= 409 x= 246 inp={'v': 'on', 't': 'checkbox', 'c': False} txt='Merge with all'
+03:58:21      booleanScope             y= 441 x= 249 inp=None txt='Merge scope Upper arm / thigh ×'
+03:59:01  CHECK: volume before the fork extrude = 1793.1052162569426
+03:59:01  ABOUT TO: tick Symmetric (clicking the label text) and set Depth 6 (symmetric = total)
+03:59:02  CHECK: Symmetric checkbox now checked = {'v': 'on', 't': 'checkbox', 'c': True}
+03:59:02  CHECK: depth box reads '6'
+03:59:02  CHECK: operation row 'New Add Remove Intersect'; entities 'Faces and sketch regions to extrude Faces of Clevis fork profile ×'; merge-with-all {'v': 'on', 't': 'checkbox', 'c': False}; scope 'Merge scope Upper arm / thigh ×'
+03:59:03  ABOUT TO: accept the fork extrude
+03:59:07  RESULT: non-OK = []
+03:59:07  RESULT: volume 2537.23816357847  delta 744.1329473215274  (predicted +744.132947)
+03:59:07  RESULT: bbox mm = {"lowX": -6.000000000000001, "lowY": -6.000000000000001, "lowZ": -29.81, "highX": 6.000000000000001, "highY": 6.000000000000001, "highZ": 1.3499999999999996}
+03:59:50  FINDING: the fork blank's corners sit at (x ±5.81, y ±3) — radius 6.539 — yet the part's bounding box is still exactly 12.000 x 12.000. A bounding box CANNOT catch a corner standing proud of the O12 surface; only a radius can.
+03:59:50  ABOUT TO: rename Extrude 1 -> 'Clevis fork blank'
+03:59:54  RESULT: renamed 'Extrude 1' -> box read 'Clevis fork blank'
+03:59:54  ABOUT TO: reuse the 'Limb section' O12 sketch as an Intersect to trim the fork to the limb
+03:59:54  CHECK: volume before trim = 2537.23816357847
+03:59:57  RESULT: 'Limb section' row bbox={'x': 66, 'y': 302.5, 'width': 164, 'height': 19.984375}
+04:00:13  STATE: visible parameter rows = {"bodyType": [246, 108], "surfaceOperationType": [246, 136], "surfaceEntities": [249, 169], "endBound": [246, 218], "oppositeDirection": [440, 218], "depth": [246, 246], "hasExtrudeDirection": [266, 272], "startOffset": [266, 299], "symmetric": [246, 327], "hasSecondDirection": [266, 354]}
+04:00:13  STATE: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile', 'Clevis fork blank']
+04:00:13  STATE: volume = 2537.23816357847
+04:01:05  FINDING: 'Limb section' is a HIDDEN sketch (consumed by 'Limb body'). Clicking a hidden sketch in the tree into an Extrude puts 'Edges of <sketch>' in the field, not 'Faces of', and Onshape silently switches the whole extrude from Solid to SURFACE. The visible 'Clevis fork profile' gave 'Faces of' from the same click.
+04:01:05  ABOUT TO: cancel the surface extrude (red x) and Show the 'Limb section' sketch
+04:01:12  RESULT: context menu items = ['Rename', '', 'Edit…', 'Copy sketch', 'Show dimensions', '', 'Add selection to folder…', '', 'Show', 'Show all sketches', '', 'Create Drawing of Limb section…', 'Export as DXF/DWG…', '', 'Section view…', 'Suppress', 'Dynamic suppression', '', 'Add comment', '', 'Zoom to selection', 'View normal to', '', 'Clear selection', '', 'Show dependencies…', '', 'Roll to here', '', 'Edit sketch appearance…', '', 'Delete']
+04:01:14  RESULT: 'Limb section' shown
+04:01:36  ABOUT TO: open Extrude and pick the now-visible 'Limb section' regions for the O12 trim
+04:01:43  CHECK: bodyType='Solid Surface Thin' keys=['bodyType', 'booleanScope', 'defaultScope', 'depth', 'endBound', 'entities', 'hasDraft', 'hasExtrudeDirection', 'hasSecondDirection', 'operationType', 'oppositeDirection', 'startOffset', 'symmetric']
+04:01:43  CHECK: entities = 'Faces and sketch regions to extrude Faces of Limb section ×'
+04:01:44  CHECK: after Intersect click, keys=['bodyType', 'booleanScope', 'defaultScope', 'depth', 'endBound', 'entities', 'hasDraft', 'hasExtrudeDirection', 'hasSecondDirection', 'operationType', 'oppositeDirection', 'startOffset', 'symmetric']
+04:01:45  CHECK: entities='Faces and sketch regions to extrude Faces of Limb section ×' symmetric={'v': 'on', 't': 'checkbox', 'c': True} depth='60' merge-with-all={'v': 'on', 't': 'checkbox', 'c': False} scope='Merge scope Upper arm / thigh ×'
+04:02:16  CHECK: crop of the dialog shows Solid / INTERSECT underlined, 'Faces of Limb section', Depth 60, Symmetric ticked, 'Merge with all' unticked, Merge scope 'Upper arm / thigh'.
+04:02:17  ABOUT TO: accept the O12 trim. volume before = 2537.23816357847
+04:02:21  RESULT: non-OK = []
+04:02:22  RESULT: volume 2525.2471085032485  delta -11.991055075221539  (predicted -11.991080)
+04:03:07  FINDING: my rename helper cleared the selection by clicking (140,630) in the tree panel — fine for a short tree, but the tree has grown and that point is now a feature row, so the 'clear' click SELECTED a second feature and Rename vanished from the context menu. Clearing on empty graphics area instead.
+04:03:07  ABOUT TO: rename Extrude 1 -> 'Trim fork to limb'
+04:03:12  RESULT: renamed 'Extrude 1' -> box read 'Trim fork to limb'
+04:03:12  RESULT: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile', 'Clevis fork blank', 'Trim fork to limb']
+04:03:12  ABOUT TO: hide the 'Limb section' sketch again
+04:03:17  RESULT: 'Limb section' hidden again
+04:03:43  ABOUT TO: cut the clevis slot — the SAME 'Clevis fork profile' sketch, Remove, symmetric 3.6
+04:03:43  CHECK: volume before slot = 2525.2471085032485
+04:03:46  CHECK: entities = 'Faces and sketch regions to extrude Faces of Clevis fork profile ×'
+04:03:49  CHECK: entities='Faces and sketch regions to extrude Faces of Clevis fork profile ×' symmetric={'v': 'on', 't': 'checkbox', 'c': True} depth='3.6' merge-with-all={'v': 'on', 't': 'checkbox', 'c': False} scope='Merge scope Upper arm / thigh ×'
+04:04:14  CHECK: dialog crop shows Solid / REMOVE underlined, Faces of Clevis fork profile, Depth 3.6, Symmetric ticked, Merge scope 'Upper arm / thigh'.
+04:04:14  ABOUT TO: accept the clevis slot. volume before = 2525.2471085032485
+04:04:18  RESULT: non-OK = []
+04:04:18  RESULT: volume 2079.1022294640634  delta -446.14487903918507  (predicted -446.144872)
+04:04:23  RESULT: renamed 'Extrude 1' -> box read 'Clevis slot'
+04:04:23  RESULT: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile', 'Clevis fork blank', 'Trim fork to limb', 'Clevis slot']
+04:04:23  RESULT: bbox mm = {"lowX": -6.000000000000001, "lowY": -6.000000000000001, "lowZ": -29.81, "highX": 6.000000000000001, "highY": 6.000000000000001, "highZ": 1.3499999999999996}
+04:04:55  CHECKPOINT 2: fork blank +744.132947, O12 trim -11.991055, slot -446.144879; volume 2079.102229, bbox 12.000 x 12.000 x 31.160, every feature OK.
+04:04:55  ABOUT TO: create the ear inner plane, offset 1.8 from Front
+04:04:58  RESULT: plane dialog rows = {"entities": "Entities", "cplaneType": "Offset", "offset": "Offset distance", "oppositeDirection": "", "flipNormal": "Flip normal"}
+04:04:59  RESULT: entities = 'Entities Front plane ×'
+04:04:59  NOTE: no 'distance' row; rows = ['cplaneType', 'entities', 'flipNormal', 'offset', 'oppositeDirection']
+04:05:54  NOTE: the Plane dialog's offset field is data-parameter-id 'offset', not 'distance'.
+04:05:54  CHECK: offset box reads '1.8'
+04:05:56  ABOUT TO: accept the plane
+04:05:59  RESULT: features = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile', 'Clevis fork blank', 'Trim fork to limb', 'Clevis slot', 'Plane 1']
+04:06:02  RESULT: renamed 'Plane 1' -> box read 'Ear inner plane'
+04:06:27  ABOUT TO: open a sketch on 'Ear inner plane' for the stub circle
+04:06:29  RESULT: row bbox={'x': 66, 'y': 593.5, 'width': 164, 'height': 19.984375}
+04:06:30  RESULT: sketchPlane = 'Sketch plane Ear inner plane ×'
+04:06:34  RESULT: sketch open on the ear inner plane, view normal + zoom to fit
+04:07:18  CHECK: view cube reads 'Back' and the plane label is mirrored — n gave the BACK view, so X runs right-to-left. Harmless for a circle centred on the vertical axis; recorded because the how-to warns n is not deterministic.
+04:07:18  ABOUT TO: zoom in 24 notches about (923,635) so both the origin and z=-24 stay on screen
+04:07:22  RESULT: silhouette y range in the x 880..970 band = 157..855
+04:08:06  CHECK: calibration on this plane — origin marker (921,188), fork round end (z=-29.81) at y=855 -> 22.38 px/mm; limb edges 787..1057 px = 12.000 -> 22.5. Using 22.42.
+04:08:06  ABOUT TO: draw the stub circle on the hinge axis (0, -24) on the ear inner plane
+04:08:19  ABOUT TO: dimension the stub circle diameter = 2
+04:08:25  RESULT: stub diameter: pre-filled '1.96983 mm', box read '2'
+04:08:25  ABOUT TO: dimension the stub centre to the origin = 24
+04:08:36  RESULT: stub centre below the socket centre: pre-filled '24 mm', box read '24'
+04:09:18  FINDING: the stub circle's centre SNAPPED onto the fork round end's arc centre when I clicked there — the second dimension pre-filled exactly '24 mm', and adding it turned the whole sketch red with 'Sketch could not be solved.' It was already fully constrained.
+04:09:18  ABOUT TO: undo the redundant 24 dimension (Ctrl+Z)
+04:09:20  RESULT: undo done; screenshot 32-x-oversconstrained-undone.png
+04:10:03  RESULT: after Ctrl+Z the error banner is gone and every curve is black; both Ø2 and 24 labels are still on the sketch.
+04:10:03  ABOUT TO: accept the stub sketch and rename it 'Stub circle'
+04:10:41  STATE: /features status=429 body starts "{'message': 'Too many requests.', 'moreInfoUrl': '', 'status': 429, 'code': 0}"
+04:10:42  STATE: /parts status=200 [('JID', 'Upper arm / thigh')]
+04:10:42  STATE: volume = 2079.1022294640634
+04:11:35  FINDING: 'Ear inner plane' is a plane big enough to fill the whole canvas, so my 'click empty space to deselect' landed ON it and selected a second thing — which is exactly when Rename vanishes from the context menu. The context menu's own 'Clear selection' is the reliable clear; rename() now uses it.
+04:11:35  NOTE: GET /features started returning 429 'Too many requests.'; /parts and /massproperties still answer, so volumes and boxes carry the verification from here.
+04:11:35  ABOUT TO: rename Sketch 1 -> 'Stub circle'
+04:11:40  RESULT: renamed 'Sketch 1' -> box read 'Stub circle'
+04:11:40  ABOUT TO: extrude the stub, Add 0.8, scope 'Upper arm / thigh'
+04:11:40  CHECK: volume before stub = 2079.1022294640634
+04:11:43  CHECK: entities = 'Faces and sketch regions to extrude'
+04:11:45  CHECK: entities='Faces and sketch regions to extrude' depth='0.8' symmetric={'v': 'on', 't': 'checkbox', 'c': False} merge-with-all={'v': 'on', 't': 'checkbox', 'c': False} scope='Merge scope Upper arm / thigh ×'
+04:12:23  ABOUT TO: click into the entities field, then pick 'Stub circle' from the tree
+04:12:23  RESULT: 'Stub circle' row bbox = {'x': 66, 'y': 593.5, 'width': 164, 'height': 19.984375}
+04:12:26  CHECK: entities = 'Faces and sketch regions to extrude'
+04:12:26  CHECK: depth={'v': '0.8 mm', 't': 'text', 'c': False} scope='Merge scope Upper arm / thigh ×'
+04:13:21  FINDING: clicking the 'Stub circle' tree row into the extrude's entities field does NOTHING — twice, with the field focused. It worked for 'Clevis fork profile' and (once shown) 'Limb section'. The difference is that this sketch's only region sits INSIDE solid material. Falling back to the how-to's documented route: hide the part, pick the region in the graphics area.
+04:13:21  ABOUT TO: cancel the extrude and hide 'Upper arm / thigh'
+04:13:26  RESULT: Hide clicked = True
+04:13:45  ABOUT TO: open Extrude and pick the stub circle's region in the graphics area at (921,726)
+04:13:50  CHECK: entities = 'Faces and sketch regions to extrude Face of Stub circle ×'
+04:14:14  ABOUT TO: set the stub extrude to Add, depth 0.8
+04:14:16  CHECK: entities='Faces and sketch regions to extrude Face of Stub circle ×' depth='0.8' merge-with-all={'v': 'on', 't': 'checkbox', 'c': False} scope='Merge scope'
+04:14:16  ABOUT TO: merge scope is empty — clicking 'Upper arm / thigh' in the Parts list
+04:14:18  CHECK: scope now 'Merge scope Upper arm / thigh ×'
+04:14:36  NOTE: with the part hidden the merge scope did NOT auto-fill — it opened empty, which is the 'accepted and silently does nothing' trap. Filled it from the Parts list by hand.
+04:14:36  ABOUT TO: accept the stub. volume before = 2079.1022294640634
+04:14:40  RESULT: volume 2079.1022294640634 delta 0.0 (want +2.513274; ~0 means the stub was extruded into the ear instead of the slot)
+04:17:41  FINDING: the stub extrude added 0.000 mm3. It built without error and looked right in preview, because it grew INTO the ear's solid material and merged away. Volume is the only thing that caught it. Reopening the feature to flip its direction.
+04:17:42  ABOUT TO: double-click 'Extrude 1' at 96,629.4921875 to edit it
+04:17:45  CHECK: dialog rows = {"bodyType": {"h": 28, "inp": null, "txt": "Solid Surface Thin", "w": 220, "x": 246, "y": 108}, "booleanScope": {"h": 44, "inp": null, "txt": "Merge scope Upper arm / thigh \u00d7", "w": 214, "x": 249, "y": 441}, "defaultScope": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Merge with all", "w": 194, "x": 246, "y": 409}, "depth": {"h": 26, "inp": {"c": false, "t": "text", "v": "0.8 mm"}, "txt": "Depth", "w": 194, "x": 246, "y": 246}, "endBound": {"h": 28, "inp": {"c": false, "t": "search", "v": ""}, "txt": "Blind", "w": 194, "x": 246, "y": 218}, "entities": {"h": 44, "inp": null, "txt": "Faces and sketch regions to extrude Face of Stub circle \u00d7", "w": 214, "x": 249, "y": 169}, "hasDraft": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Draft", "w": 54, "x": 246, "y": 354}, "hasExtrudeDirection": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Direction", "w": 175, "x": 266, "y": 272}, "hasSecondDirection": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Second end position", "w": 175, "x": 266, "y": 381}, "operationType": {"h": 28, "inp": null, "txt": "New Add Remove Intersect", "w": 220, "x": 246, "y": 136}, "oppositeDirection": {"h": 28, "inp": null, "txt": "", "w": 26, "x": 440, "y": 218}, "startOffset": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Starting offset", "w": 175, "x": 266, "y": 299}, "symmetric": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Symmetric", "w": 194, "x": 246, "y": 327}}
+04:18:03  ABOUT TO: click the oppositeDirection arrow at 453,232. volume before = 2079.1022294640634
+04:18:08  RESULT: volume 2081.6155035869356 delta 2.5132741228721898 (want +2.513274)
+04:19:23  RESULT: the flip was the whole fix — volume rose 2.5132741228722 against a predicted 2.5132741228718 (pi/4 * 2.0^2 * 0.8). The stub is now a boss standing INTO the slot.
+04:19:23  ABOUT TO: rename 'Extrude 1' -> 'Stub'
+04:19:28  RESULT: renamed 'Extrude 1' -> box read 'Stub'
+04:19:28  RESULT: rename box read back 'Stub'
+04:19:32  RESULT: hide Ear inner plane = True
+04:19:35  RESULT: show part = True
+04:20:15  CHECK: mirror/pattern toolbar buttons = [{'id': 'circularPattern', 'x': 689, 'y': 58, 'w': 32}, {'id': 'mirror', 'x': 741, 'y': 58, 'w': 32}]
+04:20:15  ABOUT TO: open the Mirror tool
+04:20:17  CHECK: mirror dialog rows = {"entities": {"h": 26, "inp": null, "txt": "Entities to mirror", "w": 214, "x": 249, "y": 169}, "mirrorPlane": {"h": 26, "inp": null, "txt": "Mirror plane", "w": 214, "x": 249, "y": 200}, "operationType": {"h": 28, "inp": null, "txt": "New Add Remove Intersect", "w": 220, "x": 246, "y": 136}, "patternType": {"h": 28, "inp": {"c": false, "t": "search", "v": ""}, "txt": "Part mirror", "w": 194, "x": 246, "y": 108}}
+04:20:38  ABOUT TO: switch the mirror to 'Feature mirror'
+04:20:39  CHECK: mirror type options = [{'t': 'Part mirror', 'x': 343, 'y': 152, 'w': 192}, {'t': 'Feature mirror', 'x': 343, 'y': 178, 'w': 192}, {'t': 'Face mirror', 'x': 343, 'y': 204, 'w': 192}]
+04:20:40  CHECK: rows after switch = {"fullFeaturePattern": {"h": 27, "inp": {"c": false, "t": "checkbox", "v": "on"}, "txt": "Reapply features", "w": 194, "x": 246, "y": 203}, "instanceFunction": {"h": 26, "inp": null, "txt": "Features to mirror", "w": 214, "x": 249, "y": 141}, "mirrorPlane": {"h": 26, "inp": null, "txt": "Mirror plane", "w": 214, "x": 249, "y": 172}, "patternType": {"h": 28, "inp": {"c": false, "t": "search", "v": ""}, "txt": "Feature mirror", "w": 194, "x": 246, "y": 108}}
+04:21:01  ABOUT TO: click into 'Features to mirror', then pick the 'Stub' feature in the tree
+04:21:03  CHECK: features to mirror = 'Features to mirror Stub ×'
+04:21:03  ABOUT TO: scroll the feature tree to the top and pick 'Front' as the mirror plane
+04:21:05  CHECK: 'Front' tree row at 105,234.4921875
+04:21:06  CHECK: mirrorPlane = 'Mirror plane Front plane ×' features = 'Features to mirror Stub ×' reapply = {'v': 'on', 't': 'checkbox', 'c': False}
+04:21:24  ABOUT TO: tick 'Reapply features'
+04:21:25  CHECK: reapply = {'v': 'on', 't': 'checkbox', 'c': True} plane = 'Mirror plane Front plane ×' features = 'Features to mirror Stub ×'
+04:21:26  ABOUT TO: accept the mirror. volume before = 2081.615503586935
+04:21:29  RESULT: volume 2084.128777709807 delta 2.513274122871735 (want +2.513274)
+04:21:45  CHECK: tree feature names = []
+04:21:45  ABOUT TO: rename 'Mirror 1' -> 'Mirror stub'
+04:21:49  RESULT: renamed 'Mirror 1' -> box read 'Mirror stub'
+04:21:49  RESULT: rename box read back 'Mirror stub'
+04:28:53  CHECK: 19 features, all names = ['Limb top plane', 'Limb section', 'Limb body', 'Collar circle', 'Socket collar', 'Ball tool profile', 'Ball tool', 'Socket cavity', 'Slit profile', 'Relief slit', 'Relief slits x4', 'Clevis fork profile', 'Clevis fork blank', 'Trim fork to limb', 'Clevis slot', 'Ear inner plane', 'Stub circle', 'Stub', 'Mirror stub']
+04:28:53  CHECK: features not OK = []
+04:28:53  CHECK: parts status 200 -> [('JID', 'Upper arm / thigh')]
+04:28:53  CHECK: bbox_mm = {'lowX': -6.000000000000001, 'lowY': -6.000000000000001, 'lowZ': -29.81, 'highX': 6.000000000000001, 'highY': 6.000000000000001, 'highZ': 1.3499999999999996}
+04:28:53  CHECK: volume = 2084.1287777098073
+04:29:18  RESULT: rendered render-upper-arm-isometric.png
+04:29:19  RESULT: rendered render-upper-arm-front.png
+04:29:20  RESULT: rendered render-upper-arm-right.png
+04:29:21  RESULT: rendered render-upper-arm-bottom.png
+04:29:22  RESULT: rendered render-upper-arm-top.png
+04:31:22  CHECKPOINT 3: clevis complete. Stub +2.5132741228722 (predicted 2.5132741228718), Mirror stub +2.5132741228717. volume 2084.1287777098073, bbox 12.000 x 12.000 x 31.160, 19 features, all OK, one part 'Upper arm / thigh'.
+04:31:22  MEASUREMENT (FeatureScript evSurfaceDefinition / evCurveDefinition / evBox3d / evArea, read-only POST .../featurescript):
+04:31:22    - 36 faces. Socket cavity is a SPHERE r=3.1999999999999997 centred (0,0,0); its face runs z -3.2 .. +1.35, so the socket opens UP, away from the limb. Not upside down.
+04:31:22    - Socket mouth: four arcs r=2.9012928152808013 (dia 5.802585630561603) at z=+1.35 -> brief's 5.803. Four arcs, not one circle, because the slits cut it.
+04:31:22    - Cavity volume 109.482017 mm^3, measured as the volume the 'Socket cavity' Boolean removed (1935.645190 -> 1826.163173, from the predecessor's log). Closed form for a r=3.2 sphere truncated at z=1.35 is 109.4822. Brief says 109.48.
+04:31:22    - Collar: four cylinder faces r=4.700000000000001 (dia 9.400), each spanning z -4.15 .. +1.35 = 5.500 proud. Rim before the slits: 6.000 - 4.700 = 1.300.
+04:31:22    - Slits: four, walls at y=+-0.4 and x=+-0.4 (0.800 wide), each spanning the collar's whole z -4.15 .. +1.35. Their inner end wall is at radius 2.5, which is INSIDE the mouth radius 2.9013, so every slit opens into the ball bore (edges at r=1.9975 = sqrt(3.2^2-2.5^2) prove the break-through).
+04:31:22    - Hinge: fork round-end arcs r=5.8100000000000005 (dia 11.620) centred (0,+-3,-24) and (0,+-1.8,-24); stub cylinders r=1 (dia 2.000) on the axis y through (0,*,-24), each 0.800 long (y 1.0..1.8 and -1.0..-1.8).
+04:31:22    - Joint centres: ball centre (0,0,0) and hinge axis at z=-24 -> 24.000 apart, measured off the sphere's and the stub cylinders' own surface definitions.
+04:31:22    - Fork span: ear outer planes at y=+3 and y=-3 -> 6.000. Ears equal: outer faces 114.37000488706111 mm^2 both; inner faces 119.71008725891483 and 119.71008725891404.
+04:31:22    - Ear thickness 1.200 (inner plane y=+-1.8 to outer plane y=+-3.0).
+04:31:22  CHECK: no corner stands proud of O12 - evBox3d in 18 coordinate systems rotated 0..85 deg about Z all read 12.000000000000002 x 12.000000000000002 x 31.16. The axis-aligned box alone could NOT have caught it: the untrimmed fork corners sat at (x=+-5.81, y=+-3), radius 6.539, and an axis-aligned box still reads 12.000 x 12.000.
+04:31:22  CHECK: left rail icons = []
+04:32:14  ABOUT TO: click the left rail's create-version button and name the version 'run3-limb-socket-clevis'
+04:32:16  CHECK: version name box reads 'run3-limb-socket-clevis'
+04:32:36  ABOUT TO: click Create in the version dialog
+04:32:39  CHECK: version 'Start' id=230559980c026a79d8bbcff9 created=2026-08-13T04:25:30.681+00:00
+04:32:39  CHECK: version 'run3-limb-socket-clevis' id=761197dc9ca32c031b02ee56 created=2026-08-13T08:32:36.625+00:00
+04:32:58  CHECK: version parts status 200 -> [('JID', 'Upper arm / thigh')]
+04:32:59  CHECK: version volume = 2084.128777709807 mm^3
+04:32:59  CHECK: version bbox_mm = {'lowX': -6.000000000000001, 'lowY': -6.000000000000001, 'lowZ': -29.81, 'highX': 6.000000000000001, 'highY': 6.000000000000001, 'highZ': 1.3499999999999996}
+04:35:41  CHECK: my page url = https://cad.onshape.com/documents/82547630224dea5fd5a9c17a/w/8f6e261ecbb5303be2f84287/e/f2a096a499d62d7664be669f
+04:35:41  CHECK: my page window.name = 'LIMBSC2_RUN3_c31d7e'
+04:35:41  RESULT: published version 'run3-limb-socket-clevis' id 761197dc9ca32c031b02ee56; verified through REST at /d/{D}/v/{V}/e/{E}: one part 'Upper arm / thigh', volume 2084.128777709807 mm^3, bbox 12.000 x 12.000 x 31.160. I did not open the version link in a browser tab; the ids come from GET /documents/d/{D}/versions.
+04:40:55  FINAL: 19 features, non-OK = []
+04:40:55  FINAL: volume 2084.128777709807 mm^3; part visible; 'Ear inner plane' and 'Limb section' hidden; version run3-limb-socket-clevis published.
+04:40:55  FINAL: build-notes.md written to the run directory. Five shadedviews renders of the part alone written and looked at. Session complete; the page carrying LIMBSC2_RUN3_c31d7e is left open and signed in, and no page or context was closed.

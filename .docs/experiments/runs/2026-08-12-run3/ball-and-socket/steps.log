@@ -1,0 +1,949 @@
+22:41:54  ABOUT TO: create my own page and stamp it BALLSOCK_RUN3
+22:42:00  RESULT: page created, url=https://cad.onshape.com/signin title=Sign in, other pages=6
+22:42:42  ABOUT TO: retry navigating to cad.onshape.com/documents
+22:42:51  RESULT: url=https://cad.onshape.com/signin title=Sign in
+22:43:12  ABOUT TO: try regional host cad-usw2.onshape.com/documents
+22:43:21  RESULT: url=https://cad-usw2.onshape.com/signin title=Sign in
+22:45:45  PAGE 0 name='HINGE_RUN3' url=https://cad.onshape.com/signin
+22:45:45  PAGE 1 name='LESSON_RUN3' url=https://cad.onshape.com/signin
+22:45:45  PAGE 2 name='BALLSOCK_RUN3' url=https://cad-usw2.onshape.com/signin
+22:45:45  PAGE 3 name='' url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392
+22:45:45  PAGE 4 name='BALLSOCK_RUN3' url=https://cad.onshape.com/signin
+22:45:45  PAGE 5 name='' url=about:blank
+22:45:45  PAGE 6 name='LESSON_RUN3_MSTITT_A' url=https://cad.onshape.com/signin
+22:47:16  POLLER: session is back -- SIGNEDIN Mike Stitt
+22:47:28  BLOCKED: agent browser on 9223 has no Onshape session. /api/users/sessioninfo -> 204, /api/users/current -> 401 Unauthenticated. The only '/'-path cookie is on-session-id; the auth 'on' cookies are all path-scoped to /btwssm/<docid>. Cannot create a document. Launch instructions forbid port 9222, which is where tools/agent_browser.py borrows cookies from, so I cannot restore the session myself. Polling every 30s for up to 50 min.
+22:47:34  UNBLOCKED: the poller saw SIGNEDIN Mike Stitt at 22:47:16 -- the session was restored externally about 90 s after the blocker line above. Proceeding with the build.
+22:47:59  ABOUT TO: create a fresh page and stamp it BALLSOCK_RUN3_B2
+22:48:05  RESULT: url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a03e87981876cf8ea4392 title=Spires Robotics | Documents
+22:48:05  RESULT: sessioninfo 200 {
+  "jsonType" : "BTUserOAuth2SummaryInfo",
+  "oauth2Scopes" : 0,
+  "roles" : [ "USER" ],
+  "companyPlan" : true,
+  "cli
+22:48:07  RESULT: search 'ball-socket-run3' -> []
+22:48:20  ABOUT TO: click the visible Create button on the documents page
+22:48:20  RESULT: Create button box = {'x': 35, 'y': 49, 'width': 150, 'height': 33.5}
+22:48:22  ABOUT TO: click 'Document...' by coordinate at (65, 100)
+22:48:24  RESULT: visible dialogs = 1
+22:48:24  RESULT: name field now reads 'ball-socket-run3'
+22:48:24  ABOUT TO: click Create in the New document dialog
+22:48:33  RESULT: url=https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1cd0 title=ball-socket-run3 | Part Studio 1
+22:48:51  ABOUT TO: open the document menu (hamburger left of the document name)
+22:48:52  RESULT: menu entries matching /units/ = [['Workspace units…', 140, 222, 225, 27]]
+22:49:04  ABOUT TO: document menu -> Workspace units...
+22:49:08  RESULT: dialogs visible=0
+22:49:08    ctrl ['INPUT', 'text', '', 79, 84, 158]
+22:49:28  ABOUT TO: document menu -> Workspace units... (locator click, hover first)
+22:49:30  RESULT: item box {'x': 140, 'y': 222.1875, 'width': 224.640625, 'height': 27} visible=True
+22:49:33    ctrl ['BUTTON', 'submit', '', 43, 84, 30]
+22:49:33    ctrl ['INPUT', 'text', '', 79, 84, 158]
+22:49:33    ctrl ['BUTTON', 'submit', '', 140, 114, 30]
+22:49:33    ctrl ['BUTTON', 'submit', '', 170, 114, 30]
+22:49:33    ctrl ['BUTTON', 'submit', '', 200, 114, 30]
+22:49:33    ctrl ['BUTTON', 'submit', '', 1495, 940, 30]
+22:49:33    ctrl ['BUTTON', 'submit', '', 1530, 940, 30]
+22:49:33    ctrl ['BUTTON', 'submit', '', 1565, 940, 30]
+22:49:33    ctrl ['SELECT', 'select-one', '2: inch', 257, 167, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 167, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '1: inchPerSecondSquared', 257, 226, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 226, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '0: degree', 257, 321, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 321, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '0: degreePerSecond', 257, 380, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 380, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '3: pound', 257, 476, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 476, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '5: poundPerCubicInch', 257, 535, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 535, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '2: poundForce', 257, 594, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 594, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '0: hertz', 257, 653, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 653, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '1: inchPound', 257, 712, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 712, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '5: poundPerSquareInch', 257, 771, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 771, 99]
+22:49:33    ctrl ['SELECT', 'select-one', '0: footPoundForce', 257, 830, 209]
+22:49:33    ctrl ['SELECT', 'select-one', '3: 3', 475, 830, 99]
+22:49:51  RESULT: 22 visible selects (units dialog still open?)
+22:49:51  RESULT: length options = ['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard']
+22:49:51  RESULT: decimals options = ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456']
+22:49:51  ABOUT TO: set Length default unit = Millimeter and decimals = 0.12345
+22:49:52  RESULT: now reads ['Millimeter', '0.12345']
+22:50:05    bottom ctrl ['BUTTON', 'btn btn-secondary measure-button document-tabs-button', '', 1495, 940]
+22:50:05    bottom ctrl ['BUTTON', 'btn btn-secondary analysis-button document-tabs-button', '', 1530, 940]
+22:50:05    bottom ctrl ['BUTTON', 'btn btn-secondary document-tabs-button mass-properties', '', 1565, 940]
+22:50:24  ABOUT TO: click the green tick on the Workspace units panel at (543,93)
+22:50:27  RESULT: elements -> [('Part Studio 1', '728bf1bcb5566d41cc0e1cd0', 'millimeter'), ('Assembly 1', 'c3fb78919e96aeff4d4aa605', 'millimeter'), ('BOM : Assembly 1', '214a251a59faf159690aadba', None)]
+22:51:11  ABOUT TO: select the Front plane in the feature tree
+22:51:13  ABOUT TO: click the Sketch toolbar button
+22:51:54  ABOUT TO: re-select Front in the feature tree, then click Sketch at (155,58)
+22:51:58  ABOUT TO: press n (view normal to)
+22:52:01  RESULT: done
+22:52:22  ABOUT TO: click the tree entry Front (100,235) into the empty Sketch plane field
+22:52:25  ABOUT TO: press n and check the view cube
+22:52:55    tool ['', 'Navigates you to Action items page in a new window.', 1291, 20]
+22:52:55    tool ['', 'Navigates you to Onshape app store in a new window.', 1323, 20]
+22:52:55    tool ['', 'Navigates you to Onshape Learning Center in a new window.', 1355, 20]
+22:52:55    tool ['UNDO_A_CHANGE', '', 58, 58]
+22:52:55    tool ['REDO_A_CHANGE', '', 92, 58]
+22:52:55    tool ['extrude', '', 130, 58]
+22:52:55    tool ['revolve', '', 164, 58]
+22:52:55    tool ['LINESEGMENT', '', 202, 58]
+22:52:55    tool ['RECTANGLE_TWO_CORNERS', '', 254, 58]
+22:52:55    tool ['CIRCLE_CENTER_RADIUS', '', 306, 58]
+22:52:55    tool ['ARC_START_END_RADIUS', '', 358, 58]
+22:52:55    tool ['INSCRIBED_POLYGON', '', 410, 58]
+22:52:55    tool ['SPLINE', '', 462, 58]
+22:52:55    tool ['POINT', '', 514, 58]
+22:52:55    tool ['TEXT_RECTANGLE_TWO_CORNERS', '', 548, 58]
+22:52:55    tool ['USE', '', 582, 58]
+22:52:55    tool ['TOGGLE_CONSTRUCTION', '', 634, 58]
+22:52:55    tool ['FILLET', '', 672, 58]
+22:52:55    tool ['TRIM', '', 724, 58]
+22:52:55    tool ['OFFSET', '', 776, 58]
+22:52:55    tool ['SKETCHMIRROR', '', 828, 58]
+22:52:55    tool ['SKETCHLPATTERN', '', 862, 58]
+22:52:55    tool ['INSERT_DXFDWG', '', 914, 58]
+22:52:55    tool ['DIMENSION', '', 970, 58]
+22:52:55    tool ['COINCIDENT', '', 1008, 58]
+22:53:12  ABOUT TO: open the arc tool dropdown caret at (383,58)
+22:53:13    arcitem ['ARC_START_END_RADIUS', '3 point arca', 431, 94]
+22:53:13    arcitem ['ARC_TANGENT', 'Tangent arc', 431, 129]
+22:53:13    arcitem ['CENTER_ARC', 'Center point arc', 431, 162]
+22:53:13    arcitem ['ELLIPTICAL_ARC', 'Elliptical arc', 431, 195]
+22:53:42  ABOUT TO: arc dropdown -> Center point arc, then draw an arc centred on the origin
+22:53:50  RESULT: arc drawn (rough)
+22:54:25  ABOUT TO: open the arc dropdown and pick Center point arc (verified)
+22:54:27  RESULT: flyout items = []
+22:54:27  RESULT: flyout did not open; aborting
+22:54:52  RESULT: attempt 0 flyout=[]
+22:54:53  RESULT: attempt 1 flyout=[]
+22:54:55  RESULT: attempt 2 flyout=[]
+22:54:57  RESULT: attempt 3 flyout=[]
+22:55:21  RESULT: 'Center point arc' box = {'x': 373, 'y': 151.5, 'width': 136, 'height': 20}
+22:55:22  ABOUT TO: draw the arc: centre on origin, start 200 px below, sweep through +X
+22:55:28  RESULT: arc click sequence complete
+22:56:05  ABOUT TO: Escape to put the arc tool down, then arm Dimension (toolbar 970,58)
+22:56:07  ABOUT TO: click the arc at 45 deg below-right, then place the label
+22:56:11  RESULT: 2 visible inputs
+22:56:11     input 0 = ''
+22:56:11     input 1 = '55.03758 mm'
+22:56:22  ABOUT TO: fill the radius dimension with 3 and press Enter
+22:56:22  RESULT: box reads '3' before Enter
+22:56:48  ABOUT TO: zoom in 28 wheel notches at the origin (923,522)
+22:56:53  RESULT: zoomed
+22:58:27  ABOUT TO: arm the Line tool (LINESEGMENT, 202,58)
+22:58:29  RESULT: click targets = [(969, 500), (969, 376), (1015, 376), (1015, 186), (920, 186), (920, 585)]
+22:58:38  RESULT: line chain drawn
+22:59:29  ABOUT TO: dimension the stalk line to the origin = 1.5 mm (half of the 3 mm stalk)
+22:59:35  RESULT: dim stalk-halfwidth prefilled '2.58944 mm'
+22:59:36  RESULT: dim stalk-halfwidth box now reads '1.5', pressing Enter
+23:00:13  ABOUT TO: dimension base-bottom line to origin = 8 mm (top of the stalk)
+23:00:19  RESULT: dim base-bottom-z8 prefilled '8.44836 mm'
+23:00:20  RESULT: dim base-bottom-z8 box now reads '8', pressing Enter
+23:00:22  ABOUT TO: dimension base-top line to origin = 18 mm
+23:00:28  RESULT: dim base-top-z18 prefilled '18.90155 mm'
+23:00:28  RESULT: dim base-top-z18 box now reads '18', pressing Enter
+23:00:49  ABOUT TO: dimension base-outer line to origin = 5 mm (base is a Dia 10 stub)
+23:00:55  RESULT: dim base-halfwidth-5 prefilled '4.11074 mm'
+23:00:56  RESULT: dim base-halfwidth-5 box now reads '5', pressing Enter
+23:01:25  ABOUT TO: accept Sketch 1 with the green tick at (423,93)
+23:01:34  RESULT: /features status 200
+23:01:34     feature None  None
+23:01:34     featureStates = [{"key": "Origin", "value": {"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}}, {"key": "FjdA527AKD1WkmK_0", "value": {"type": 1688, "typeName": "BTFeatureState", "message": {"featureStatus": "OK", "inactive": false}}}, {"key": "Top", "value": {"type
+23:02:00  ABOUT TO: rename 'Sketch 1' -> 'Ball stud profile' (tree box {'x': 66, 'y': 276.5, 'width': 164, 'height': 19.984375})
+23:02:01  RESULT: rename Sketch 1 -- no edit box found; inputs=['']
+23:02:12  RESULT: screenshot taken
+23:02:34  ABOUT TO: close the reopened sketch with the green tick, then right-click the tree entry
+23:02:37  RESULT: tree entry box {'x': 66, 'y': 276.5, 'width': 164, 'height': 19.984375}
+23:02:40     menu ['Parts (0)', 63, 660]
+23:02:40     menu ['Rename', 132, 301]
+23:02:40     menu ['Edit…', 132, 324]
+23:02:40     menu ['Copy sketch', 132, 346]
+23:02:40     menu ['Show dimensions', 132, 368]
+23:02:40     menu ['Add selection to folder…', 132, 391]
+23:02:40     menu ['Hide', 132, 414]
+23:02:40     menu ['Create Drawing of Sketch 1…', 132, 437]
+23:02:40     menu ['Export as DXF/DWG…', 132, 459]
+23:02:40     menu ['Section view…', 132, 482]
+23:02:40     menu ['Suppress', 132, 504]
+23:02:40     menu ['Dynamic suppression', 132, 526]
+23:02:40     menu ['Add comment', 132, 549]
+23:02:40     menu ['Zoom to selection', 132, 572]
+23:02:40     menu ['View normal to', 132, 594]
+23:02:40     menu ['Clear selection', 132, 617]
+23:02:40     menu ['Show dependencies…', 132, 640]
+23:02:40     menu ['Edit sketch appearance…', 132, 663]
+23:02:40     menu ['Delete', 132, 686]
+23:03:00  ABOUT TO: rename 'Sketch 1' -> 'Ball stud profile'  (tree entry at 86,286)
+23:03:19  ABOUT TO: rename 'Sketch 1' -> 'Ball stud profile'  (tree entry at 86,286)
+23:03:23  RESULT: rename box reads 'Ball stud profile'
+23:03:24  RESULT: tree shows 'Ball stud profile' -> True
+23:03:45  RESULT: feature toolbar = []
+23:03:45  ABOUT TO: select the sketch region on the canvas, then open Revolve
+23:03:47  RESULT: revolve button at []
+23:04:22  ABOUT TO: reselect the profile region, then reach Revolve through the Search tools box
+23:04:29  RESULT: visible inputs = ['']
+23:04:57  ABOUT TO: click into the empty red Revolve axis field, then pick the profile's axis line
+23:05:00  RESULT: dialog text = ['Faces of Ball stud profile', '×', 'Edge of Ball stud profile', 'Full revolve']
+23:05:15  ABOUT TO: accept the Revolve with the green tick
+23:05:18  RESULT: parts 200 -> [ {
+  "name" : "Part 1",
+  "state" : "IN_PROGRESS",
+  "description" : null,
+  "revision" : null,
+  "partNumber" : null,
+  "elementId" : "728bf1bcb5566d41cc0e1cd0",
+  "partId" : "JHD",
+  "bodyType" : "solid",
+  "microversionId" : "8ea8aa9fc1251fd8c7344791",
+  "isFlattenedBody" : false,
+  "partQuery" : "query=qCompressed(1.0,\"&209$eJx1kctygkAQRX9msk05KK8lj9EgCmYGNLihBpnAqDwEIuLXB6QqmxTL7j59u/v2my6C
+23:05:18  RESULT: bbox 404 -> {
+  "message" : "Not found.",
+  "moreInfoUrl" : "",
+  "status" : 404,
+  "code" : 0
+}
+23:05:44  RESULT: parts = [('Part 1', 'JHD')]
+23:05:44  RESULT: bbox Part 1 (JHD) 200 -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:05:44  RESULT: volume Part 1 = 9.352249360524241e-07   (bracket [9.35129302405273e-07, 9.353205696995752e-07])
+23:06:05  ABOUT TO: rename 'Part 1' -> 'Ball stud'  (tree entry at 105,695)
+23:06:09  RESULT: rename box reads 'Ball stud'
+23:06:10  RESULT: tree shows 'Ball stud' -> True
+23:06:19  ABOUT TO: rename 'Revolve 1' -> 'Ball stud'  (tree entry at 86,312)
+23:06:24  RESULT: rename box reads 'Ball stud'
+23:06:25  RESULT: tree shows 'Ball stud' -> True
+23:07:08  ABOUT TO: click Sketch, then pick Top from the feature tree into the Sketch plane field
+23:07:11  RESULT: tree 'Top' at {'x': 85, 'y': 198.5, 'width': 145, 'height': 19.984375}
+23:07:14  ABOUT TO: press n to look normal to the Top plane
+23:07:49  ABOUT TO: tick 'Disable imprinting' so the ball's z=0 section does not split the region
+23:07:51  ABOUT TO: draw a circle centred on the origin with the CIRCLE_CENTER_RADIUS button
+23:07:57  ABOUT TO: dimension the circle to 12 mm diameter
+23:08:02  RESULT: dim limb-dia-12 prefilled '12.05204 mm'
+23:08:02  RESULT: dim limb-dia-12 box now reads '12', pressing Enter
+23:08:24  ABOUT TO: accept the Top-plane sketch
+23:08:27  ABOUT TO: rename 'Sketch 1' -> 'Limb stub profile'  (tree entry at 86,338)
+23:08:31  RESULT: rename box reads 'Limb stub profile'
+23:08:32  RESULT: tree shows 'Limb stub profile' -> True
+23:08:48  ABOUT TO: select 'Limb stub profile' in the tree, then open Extrude via Search tools
+23:08:55     dlg ['Solid', 'SPAN', 267, 110]
+23:08:55     dlg ['Surface', 'SPAN', 338, 110]
+23:08:55     dlg ['Thin', 'SPAN', 421, 110]
+23:08:55     dlg ['New', 'SPAN', 257, 138]
+23:08:55     dlg ['Add', 'SPAN', 302, 138]
+23:08:55     dlg ['Remove', 'SPAN', 345, 138]
+23:08:55     dlg ['Intersect', 'SPAN', 408, 138]
+23:08:55     dlg ['Faces and sketch regions to extrud', 'LABEL', 250, 170]
+23:08:55     dlg ['Blind', 'SPAN', 252, 202]
+23:08:55     dlg ['Depth', 'SPAN', 271, 234]
+23:08:55     dlg ['25 mm', 'INPUT', 308, 228]
+23:08:55     dlg ['Direction', 'SPAN', 286, 254]
+23:08:55     dlg ['Starting offset', 'SPAN', 286, 281]
+23:08:55     dlg ['Symmetric', 'SPAN', 266, 309]
+23:08:55     dlg ['Draft', 'SPAN', 266, 336]
+23:08:55     dlg ['Second end position', 'SPAN', 286, 363]
+23:09:32  ABOUT TO: click the sketch region in the annulus outside the Dia 10 base, at (1020,468)
+23:09:34  RESULT: dialog now = ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extrud', 'Face of Limb stub profile', '×', 'Blind', 'Depth', '25 mm', 'Direction', 'Starting offset', 'Symmetric', 'Draft', 'Second end position', 'Merge with all', 'Merge scope', 'Ball stud']
+23:10:05  ABOUT TO: click 'New' so this makes a separate part, not a merge into Ball stud
+23:10:07     mode ['New', 257, 138, '']
+23:10:07     mode ['Add', 302, 138, '']
+23:10:07     mode ['Remove', 345, 138, '']
+23:10:07     mode ['Intersect', 408, 138, '']
+23:10:07  ABOUT TO: set Depth to 10 mm
+23:10:07  RESULT: depth box currently '25 mm'
+23:10:08  RESULT: depth box now '10'
+23:10:24  RESULT: 'Starting offset' label at [['Starting offset', 286, 299]]
+23:10:24  ABOUT TO: tick the Starting offset checkbox (just left of its label)
+23:10:26     dlg ['Solid', 267, 110]
+23:10:26     dlg ['Surface', 338, 110]
+23:10:26     dlg ['Thin', 421, 110]
+23:10:26     dlg ['New', 257, 138]
+23:10:26     dlg ['Add', 302, 138]
+23:10:26     dlg ['Remove', 345, 138]
+23:10:26     dlg ['Intersect', 408, 138]
+23:10:26     dlg ['Faces and sketch regions to extr', 250, 170]
+23:10:26     dlg ['Face of Limb stub profile', 256, 188]
+23:10:26     dlg ['×', 437, 188]
+23:10:26     dlg ['Blind', 252, 220]
+23:10:26     dlg ['Depth', 271, 252]
+23:10:26     dlg ['10 mm', 308, 246]
+23:10:26     dlg ['Direction', 286, 272]
+23:10:26     dlg ['Starting offset', 286, 299]
+23:10:26     dlg ['Blind', 272, 329]
+23:10:26     dlg ['Depth', 271, 361]
+23:10:26     dlg ['25 mm', 308, 355]
+23:10:26     dlg ['Symmetric', 266, 381]
+23:10:26     dlg ['Draft', 266, 408]
+23:10:26     dlg ['Second end position', 286, 435]
+23:10:26     dlg ['Starting offset', 377, 300]
+23:10:43  RESULT: mm inputs = [(2, '10 mm', 246), (4, '25 mm', 355)]
+23:10:43  ABOUT TO: set the starting-offset distance to 4.15 mm (input at y=355)
+23:10:44  RESULT: starting offset box now '4.15'
+23:11:03  ABOUT TO: accept the Extrude, then check the new part's bounding box (z must be -4.15 .. -14.15)
+23:11:08  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:11:08  RESULT: bbox Part 2 -> {   "lowX" : -0.006,   "lowY" : -0.006,   "lowZ" : 0.00415,   "highX" : 0.006,   "highY" : 0.006,   "highZ" : 0.01415 }
+23:11:30  ABOUT TO: reopen Extrude 1 for edit (double-click in the tree)
+23:11:33  RESULT: dialog reopened, entries = ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extr', 'Face of Limb stub profile', '×', 'Blind', 'Depth', '10 mm', 'Direction', 'Starting offset', 'Blind', 'Depth', '4.15 mm', 'Symmetric', 'Draft', 'Second end position']
+23:11:33  ABOUT TO: tick the main 'Direction' flip at (277,279)
+23:11:38  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:11:52  RESULT: parts = [('Ball stud', 'JHD')]
+23:11:52     state Origin = OK
+23:11:52     state FjdA527AKD1WkmK_0 = OK
+23:11:52     state FEadhBVD17gpfhg_0 = OK
+23:11:52     state Top = OK
+23:11:52     state Front = OK
+23:11:52     state Right = OK
+23:11:52     state FHhKlwtH1DQiPCy_1 = OK
+23:11:52     state F3vnpw6cA35BYwa_1 = ERROR
+23:12:15  FEATURE Extrude 1
+23:12:15     domain = MODEL
+23:12:15     bodyType = SOLID
+23:12:15     operationType = NEW
+23:12:15     surfaceOperationType = NEW
+23:12:15     flatOperationType = REMOVE
+23:12:15     entities = None
+23:12:15     surfaceEntities = None
+23:12:15     wallShape = None
+23:12:15     midplane = False
+23:12:15     thickness1 = 5 mm
+23:12:15     flipWall = False
+23:12:15     thickness2 = 0 mm
+23:12:15     thickness = 5 mm
+23:12:15     endBound = BLIND
+23:12:15     oppositeDirection = False
+23:12:15     depth = 10 mm
+23:12:15     endBoundEntityFace = None
+23:12:15     endBoundEntityBody = None
+23:12:15     endBoundEntityVertex = None
+23:12:15     hasOffset = False
+23:12:15     offsetDistance = 25 mm
+23:12:15     offsetOppositeDirection = False
+23:12:15     hasExtrudeDirection = True
+23:12:15     extrudeDirection = None
+23:12:15     startOffset = True
+23:12:15     startOffsetBound = BLIND
+23:12:15     startOffsetDistance = 4.15 mm
+23:12:15     startOffsetOppositeDirection = False
+23:12:15     startOffsetEntity = None
+23:12:15     symmetric = False
+23:12:15     hasDraft = False
+23:12:15     draftAngle = 3 deg
+23:12:15     draftPullDirection = False
+23:12:15     hasSecondDirection = False
+23:12:15     secondDirectionBound = BLIND
+23:12:15     secondDirectionOppositeDirection = True
+23:12:15     secondDirectionDepth = 25 mm
+23:12:15     secondDirectionBoundEntityFace = None
+23:12:15     secondDirectionBoundEntityBody = None
+23:12:15     secondDirectionBoundEntityVertex = None
+23:12:15     hasSecondDirectionOffset = False
+23:12:15     secondDirectionOffsetDistance = 25 mm
+23:12:15     secondDirectionOffsetOppositeDirection = False
+23:12:15     hasSecondDirectionDraft = False
+23:12:15     secondDirectionDraftAngle = 3 deg
+23:12:15     secondDirectionDraftPullDirection = False
+23:12:15     defaultScope = False
+23:12:15     booleanScope = None
+23:12:15     defaultSurfaceScope = True
+23:12:15     booleanSurfaceScope = None
+23:12:15  RESULT: keys in features json = ['features', 'imports', 'featureStates', 'isComplete', 'rollbackIndex', 'defaultFeatures', 'serializationVersion', 'sourceMicroversion', 'rejectMicroversionSkew', 'microversionSkew', 'libraryVersion']
+23:12:15  RESULT: (ignore) featurespecs status 404
+23:12:44  ABOUT TO: reopen Extrude 1, untick 'Direction', then click the flip arrow beside Blind
+23:12:49  RESULT: unticked Direction; entries now ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extr', 'Face of Limb stub profile', '×', 'Blind', 'Depth', '10 mm', 'Direction', 'Starting offset', 'Blind', 'Depth', '4.15 mm', 'Symmetric', 'Draft', 'Second end position', 'Direction']
+23:12:49  ABOUT TO: click the flip control at (452, 220)
+23:12:55  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:12:55  RESULT: bbox Part 2 -> {   "lowX" : -0.006,   "lowY" : -0.006,   "lowZ" : -0.00585,   "highX" : 0.006,   "highY" : 0.006,   "highZ" : 0.00415 }
+23:13:18  RESULT: 'Blind' rows at [['Blind', 252, 220], ['Blind', 272, 329]]
+23:13:18  ABOUT TO: click the starting-offset flip control at (452,329)
+23:13:24  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:13:24  RESULT: bbox Part 2 -> {   "lowX" : -0.006,   "lowY" : -0.006,   "lowZ" : -0.00585,   "highX" : 0.006,   "highY" : 0.006,   "highZ" : 0.00415 }
+23:13:46     ctrl ['BUTTON', 'parameter-state-toggle is-button pe-auto', '', 415, 252, 20, 20]
+23:14:08  ABOUT TO: click the flip arrow on the starting-offset Depth row at (450,372)
+23:14:14  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:14:14  RESULT: bbox Part 2 -> {   "lowX" : -0.006,   "lowY" : -0.006,   "lowZ" : -0.01415,   "highX" : 0.006,   "highY" : 0.006,   "highZ" : -0.00415 }
+23:14:29  ABOUT TO: rename 'Part 2' -> 'Socket body'  (tree entry at 105,721)
+23:14:33  RESULT: rename box reads 'Socket body'
+23:14:34  RESULT: tree shows 'Socket body' -> True
+23:14:34  ABOUT TO: rename 'Extrude 1' -> 'Limb stub'  (tree entry at 86,364)
+23:14:38  RESULT: rename box reads 'Limb stub'
+23:14:40  RESULT: tree shows 'Limb stub' -> True
+23:15:08  ABOUT TO: new sketch, plane = Top, disable imprinting, Dia 9.4 circle on the origin
+23:15:28  RESULT: dim collar-dia-9-4 prefilled '8.96713 mm'
+23:15:29  RESULT: dim collar-dia-9-4 box now reads '9.4', pressing Enter
+23:16:05  ABOUT TO: accept the collar sketch and rename it
+23:16:08  ABOUT TO: rename 'Sketch 1' -> 'Collar profile'  (tree entry at 86,390)
+23:16:12  RESULT: rename box reads 'Collar profile'
+23:16:13  RESULT: tree shows 'Collar profile' -> True
+23:16:13  ABOUT TO: open Extrude and pick the collar region (annulus outside the Dia 6.4-ish ball section)
+23:16:21     dlg ['Solid', 267, 110]
+23:16:21     dlg ['Surface', 338, 110]
+23:16:21     dlg ['Thin', 421, 110]
+23:16:21     dlg ['New', 257, 138]
+23:16:21     dlg ['Add', 302, 138]
+23:16:21     dlg ['Remove', 345, 138]
+23:16:21     dlg ['Intersect', 408, 138]
+23:16:21     dlg ['Faces and sketch regions to extr', 250, 170]
+23:16:21     dlg ['Faces of Collar profile', 256, 188]
+23:16:21     dlg ['×', 437, 188]
+23:16:21     dlg ['Face of Limb stub', 256, 212]
+23:16:21     dlg ['×', 437, 212]
+23:16:21     dlg ['Blind', 252, 244]
+23:16:21     dlg ['Depth', 271, 276]
+23:16:21     dlg ['25 mm', 308, 270]
+23:16:21     dlg ['Direction', 286, 296]
+23:16:21     dlg ['Starting offset', 286, 323]
+23:16:21     dlg ['Symmetric', 266, 351]
+23:16:21     dlg ['Draft', 266, 378]
+23:16:21     dlg ['Second end position', 286, 405]
+23:16:42  ABOUT TO: remove 'Face of Limb stub' from the entity list with its x
+23:16:44  RESULT: entities now ['Faces and sketch regions to extr', 'Faces of Collar profile']
+23:16:44  ABOUT TO: switch the operation to Add
+23:16:46  RESULT: dialog now ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extr', 'Faces of Collar profile', '×', 'Blind', 'Depth', '25 mm', 'Direction', 'Starting offset', 'Symmetric', 'Draft', 'Second end position', 'Merge with all', 'Merge scope', 'Ball stud', '×']
+23:17:06  RESULT: merge-scope entry 'Ball stud' at [['Ball stud', 256, 460]]
+23:17:06  ABOUT TO: click the x beside the merge-scope 'Ball stud' at (437,460)
+23:17:08  RESULT: dialog now ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extr', 'Faces of Collar profile', '×', 'Blind', 'Depth', '25 mm', 'Direction', 'Starting offset', 'Symmetric', 'Draft', 'Second end position', 'Merge with all', 'Merge scope', 'No merge scope selected.']
+23:17:08  RESULT: Merge scope label at [['Merge scope', 250, 442]]
+23:17:09  ABOUT TO: click 'Socket body' in the Parts list at {'x': 85, 'y': 711.5, 'width': 145, 'height': 19.984375}
+23:17:11  RESULT: dialog now ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extr', 'Faces of Collar profile', '×', 'Blind', 'Depth', '25 mm', 'Direction', 'Starting offset', 'Symmetric', 'Draft', 'Second end position', 'Merge with all', 'Merge scope', 'Socket body', '×', 'Boolean resulted in no geometry ']
+23:17:32  ABOUT TO: set Depth = 1.35 (this direction runs +Z, up to the mating face)
+23:17:32  RESULT: mm inputs [(2, '25 mm', 246)]
+23:17:33  ABOUT TO: tick 'Second end position' and set it to 4.15 (down to the stub's top face)
+23:17:36  RESULT: mm inputs now [(2, '1.35 mm', 246), (4, '25 mm', 437)]
+23:17:37  RESULT: mm inputs after fill [(2, '1.35 mm', 246)]
+23:17:37  RESULT: dialog ['Solid', 'Surface', 'Thin', 'New', 'Add', 'Remove', 'Intersect', 'Faces and sketch regions to extrude', 'Faces of Collar profile', '×', 'Blind', 'Depth', '1.35 mm', 'Direction', 'Starting offset', 'Symmetric', 'Draft', 'Second end position', 'Blind', 'Depth', '4.15', 'Draft', 'Merge with all', 'Merge scope', 'Socket body', '×', 'Second end position']
+23:17:52  ABOUT TO: accept the collar extrude
+23:17:56  RESULT: parts = [('Ball stud', 'JHD'), ('Socket body', 'JKD')]
+23:17:56  RESULT: bbox Ball stud -> {   "lowX" : -0.005,   "lowY" : -0.005,   "lowZ" : -0.003,   "highX" : 0.005,   "highY" : 0.005,   "highZ" : 0.018000000000000002 }
+23:17:56  RESULT: volume Ball stud = 935.224936 mm3
+23:17:57  RESULT: bbox Socket body -> {   "lowX" : -0.006,   "lowY" : -0.006,   "lowZ" : -0.01415,   "highX" : 0.006,   "highY" : 0.006,   "highZ" : 0.0013499999999999996 }
+23:17:57  RESULT: volume Socket body = 1512.661155 mm3
+23:17:57  ABOUT TO: rename 'Extrude 1' -> 'Socket collar'  (tree entry at 86,416)
+23:18:01  RESULT: rename box reads 'Socket collar'
+23:18:02  RESULT: tree shows 'Socket collar' -> True
+23:18:22  ABOUT TO: clear the selection, then open Boolean via Search tools
+23:18:29     dlg ['Union', 262, 110]
+23:18:29     dlg ['Subtract', 325, 110]
+23:18:29     dlg ['Intersect', 403, 110]
+23:18:29     dlg ['Tools', 250, 142]
+23:18:29     dlg ['Keep tools', 266, 172]
+23:18:47  ABOUT TO: switch the Boolean to Subtract
+23:18:49     dlg ['Union', 262, 110]
+23:18:49     dlg ['Subtract', 324, 110]
+23:18:49     dlg ['Intersect', 403, 110]
+23:18:49     dlg ['Tools', 250, 142]
+23:18:49     dlg ['Targets', 250, 173]
+23:18:49     dlg ['Offset', 266, 203]
+23:18:49     dlg ['Keep tools', 266, 230]
+23:18:49  RESULT: target field label [['Targets', 250, 173]]
+23:18:51  ABOUT TO: pick 'Socket body' from the Parts list as the Target
+23:18:53  RESULT: dialog now ['Union', 'Subtract', 'Intersect', 'Tools', 'Targets', 'Socket body', '×', 'Offset', 'Keep tools']
+23:19:10  ABOUT TO: click into the Tools field (label at ['Tools', 250, 142]) then pick 'Ball stud'
+23:19:11  RESULT: 'Ball stud' parts-list entry at {'x': 85, 'y': 685.5, 'width': 145, 'height': 19.984375}
+23:19:13  RESULT: dialog now ['Union', 'Subtract', 'Intersect', 'Tools', 'Ball stud', '×', 'Targets', 'Socket body', '×', 'Offset', 'Keep tools']
+23:19:27  ABOUT TO: tick 'Offset' (label at ['Offset', 266, 239])
+23:19:29     dlg ['Union', 262, 110]
+23:19:29     dlg ['Subtract', 324, 110]
+23:19:29     dlg ['Intersect', 403, 110]
+23:19:29     dlg ['Tools', 250, 142]
+23:19:29     dlg ['Ball stud', 256, 160]
+23:19:29     dlg ['×', 437, 160]
+23:19:29     dlg ['Targets', 250, 191]
+23:19:29     dlg ['Socket body', 256, 209]
+23:19:29     dlg ['×', 437, 209]
+23:19:29     dlg ['Offset', 266, 239]
+23:19:29     dlg ['Offset all', 266, 266]
+23:19:29     dlg ['Faces to offset', 250, 300]
+23:19:29     dlg ['Offset distance', 251, 336]
+23:19:29     dlg ['5 mm', 335, 330]
+23:19:29     dlg ['Reapply fillet', 266, 356]
+23:19:29     dlg ['Keep tools', 266, 383]
+23:19:29     dlg ['Offset', 309, 240]
+23:19:53  RESULT: checkboxes before = []
+23:19:53  ABOUT TO: tick 'Offset all'
+23:19:55  RESULT: checkboxes after Offset all = []
+23:19:55  ABOUT TO: set Offset distance to 0.2 mm
+23:19:55  RESULT: offset distance box reads '0.2'
+23:19:55  ABOUT TO: tick 'Keep tools'
+23:19:57  RESULT: checkboxes final = []
+23:22:28  ABOUT TO: move mouse off the dialog and re-screenshot the Boolean panel
+23:22:29  RESULT: wrote 23-a-select-boolean-zoom2.png
+23:22:44  ABOUT TO: tick 'Keep tools' by clicking its label text
+23:22:44  RESULT: 'Keep tools' label box = {'x': 266, 'y': 346.9375, 'width': 66.25, 'height': 27.3125}
+23:22:47  RESULT: wrote 23-a-select-boolean-zoom3.png
+23:23:05  ABOUT TO: accept the Boolean (green check)
+23:23:40  RESULT: parts after Boolean = [('Ball stud', 'JHD'), ('Socket body', 'JKD')]
+23:23:55  RESULT: part count after Boolean = 2  [('Ball stud', 'JHD'), ('Socket body', 'JKD')]
+23:23:55  RESULT: Ball stud    volume = 935.224936 mm^3
+23:23:55  RESULT: Ball stud    bbox mm  x -5.0000..5.0000  y -5.0000..5.0000  z -3.0000..18.0000
+23:23:55  RESULT: Socket body  volume = 1403.179138 mm^3
+23:23:55  RESULT: Socket body  bbox mm  x -6.0000..6.0000  y -6.0000..6.0000  z -14.1500..1.3500
+23:23:55  RESULT: CAVITY VOLUME = 1512.661155 - 1403.179138 = 109.4820 mm^3   (brief wants 109.48; 27.78 = upside down)
+23:24:30  ABOUT TO: enumerate every face via FeatureScript (read-only)
+23:24:30  RAW: {"status": 401, "body": ""}
+23:24:47  PROBE: cookie names = ['_ga', 'ELOQUA', '_ga_Z5PJYT14TV', '_ga_DZZ0XQS0VB', '_ga_MHJTW9LF87', 'XSRF-TOKEN', '_ga_MHJTW9LF87']
+23:24:47  PROBE: url = https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1cd0
+23:24:47  PROBE: sessioninfo = {"status": 200, "body": "{\n  \"jsonType\" : \"BTUserOAuth2SummaryInfo\",\n  \"oauth2Scopes\" : 0,\n  \"roles\" : [ \"USER\" ],\n  \"companyPlan\" : true,\n  \"clientId\" : null,\n  \"role\" : 5,\n  \
+23:24:47  PROBE: cookies again = ['_ga', 'ELOQUA', '_ga_Z5PJYT14TV', '_ga_DZZ0XQS0VB', '_ga_MHJTW9LF87', 'XSRF-TOKEN']
+23:25:04  PROBE fs ['raw-token', 200, '{\n  "console" : "",\n  "notices" : [ ],\n  "result" : {\n    "type" : 772,\n    "typeName" : "BTFSValueNumber",\n    "message" : {\n      "value" : 42.0,\n      "typeTag" : ""\n    }\n  },\n  "serializationVers']
+23:25:04  PROBE fs ['dec-token', 200, '{\n  "console" : "",\n  "notices" : [ ],\n  "result" : {\n    "type" : 772,\n    "typeName" : "BTFSValueNumber",\n    "message" : {\n      "value" : 42.0,\n      "typeTag" : ""\n    }\n  },\n  "serializationVers']
+23:25:04  PROBE fs ['raw+accept-v1', 200, '{\n  "console" : "",\n  "notices" : [ ],\n  "result" : {\n    "type" : 772,\n    "typeName" : "BTFSValueNumber",\n    "message" : {\n      "value" : 42.0,\n      "typeTag" : ""\n    }\n  },\n  "serializationVers']
+23:25:04  PROBE fs ['tokenlen', 24, 'Hh2IiN2i/U1T']
+23:25:19  PROBE fs2 ['accept-json', 200, '{\n  "console" : "",\n  "notices" : [ ],\n  "result" : {\n    "type" : 772,\n    "typeName" : "BTFSValueNumber",\n    "message']
+23:25:19  PROBE fs2 ['no-token', 401, '']
+23:25:29  ABOUT TO: enumerate every face via FeatureScript (read-only)
+23:25:29  RAW: {"status": 401, "body": ""}
+23:25:49  ABOUT TO: enumerate every face via FeatureScript (read-only)
+23:25:49  FACE: PLANE normal=(0, -1, 0) origin=(0, 0, 0)  || box x -76.2..76.2  y 0..0  z -76.2..76.2
+23:25:49  FACE: PLANE normal=(0, 0, 1) origin=(0, 0, 0)  || box x -76.2..76.2  y -76.2..76.2  z 0..0
+23:25:49  FACE: PLANE normal=(1, 0, 0) origin=(0, 0, 0)  || box x 0..0  y -76.2..76.2  z -76.2..76.2
+23:25:49  FACE: PLANE normal=(0, -1, 0) origin=(2.5, 0, 7.437)  || box x 7.561697944959698e-18..5  y 0..0  z -3.0000000000000027..18.000000000000004
+23:25:49  FACE: SPHERE r=3.0000000000000004 centre=(-7.849857776617127e-17, 0, 4.3368086899420177e-16)  || box x -3.0000000000000004..3.0000000000000004  y -3.0000000000000004..3.0000000000000004  z -3..2.5980762113533165
+23:25:49  FACE: CYL r=1.5 axisdir=(-8.387396282244917e-18, -0, 1)  || box x -1.5..1.5000000000000002  y -1.5..1.5  z 2.5980762113533165..8
+23:25:49  FACE: PLANE normal=(8.387396282244917e-18, 0, -1) origin=(4.3368086899420177e-16, 0, 8)  || box x -5..5  y -5..5  z 8..8
+23:25:49  FACE: CYL r=5 axisdir=(-8.387396282244917e-18, -0, 1)  || box x -5..5  y -5..5  z 8..18.000000000000004
+23:25:49  FACE: PLANE normal=(-8.387396282244917e-18, 0, 1) origin=(4.3368086899420177e-16, 0, 18.000000000000004)  || box x -5..5  y -5..5  z 18.000000000000004..18.000000000000004
+23:25:49  FACE: PLANE normal=(0, 0, 1) origin=(0, 0, 0)  || box x -6..6  y -6..6  z 0..0
+23:25:49  FACE: CYL r=6 axisdir=(0, 0, 1)  || box x -6..6  y -6..6  z -14.149999999999999..-4.15
+23:25:49  FACE: PLANE normal=(-0, -0, -1) origin=(0, 0, -14.149999999999999)  || box x -6..6  y -6..6  z -14.149999999999999..-14.149999999999999
+23:25:49  FACE: PLANE normal=(0, 0, 1) origin=(0, 0, 0)  || box x -4.7..4.7  y -4.7..4.7  z 0..0
+23:25:49  FACE: CYL r=4.7 axisdir=(-0, -0, -1)  || box x -4.7..4.7  y -4.7..4.7  z -4.15..1.3499999999999996
+23:25:49  FACE: PLANE normal=(0, 0, 1) origin=(0, 0, -4.15)  || box x -6..6  y -6..6  z -4.15..-4.15
+23:25:49  FACE: SPHERE r=3.2000000000000006 centre=(-7.849857776617127e-17, 0, 4.3368086899420177e-16)  || box x -3.2000000000000006..3.2000000000000006  y -3.2000000000000006..3.2000000000000006  z -3.2..1.3499999999999996
+23:25:49  FACE: PLANE normal=(0, 0, 1) origin=(0, 0, 1.3499999999999996)  || box x -4.7..4.7  y -4.7..4.7  z 1.3499999999999996..1.3499999999999996
+23:26:10  ABOUT TO: enumerate every edge via FeatureScript (read-only)
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..76.2
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..-76.2
+23:26:10  EDGE: LINE len=152.4  || box z 76.2..76.2
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..76.2
+23:26:10  EDGE: LINE len=152.4  || box z 0..0
+23:26:10  EDGE: LINE len=152.4  || box z 0..0
+23:26:10  EDGE: LINE len=152.4  || box z 0..0
+23:26:10  EDGE: LINE len=152.4  || box z 0..0
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..76.2
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..-76.2
+23:26:10  EDGE: LINE len=152.4  || box z 76.2..76.2
+23:26:10  EDGE: LINE len=152.4  || box z -76.2..76.2
+23:26:10  EDGE: CIRCLE r=3.0000000000000004 centre=(0, 0, 0) len=7.853981633974484  || box z -3.0000000000000004..2.598076211353316
+23:26:10  EDGE: LINE len=5.401923788646684  || box z 2.598076211353316..8
+23:26:10  EDGE: LINE len=3.5  || box z 8..8
+23:26:10  EDGE: LINE len=10.000000000000002  || box z 8..18.000000000000004
+23:26:10  EDGE: LINE len=5  || box z 18.000000000000004..18.000000000000004
+23:26:10  EDGE: LINE len=21.000000000000004  || box z -3.000000000000001..18.000000000000004
+23:26:10  EDGE: CIRCLE r=3.0000000000000004 centre=(-7.849857776617127e-17, 0, 4.3368086899420177e-16) len=7.8539816339744855  || box z -3.0000000000000027..2.598076211353316
+23:26:10  EDGE: LINE len=5.401923788646684  || box z 2.598076211353316..8
+23:26:10  EDGE: LINE len=3.5  || box z 8..8
+23:26:10  EDGE: LINE len=10.000000000000002  || box z 8..18.000000000000004
+23:26:10  EDGE: LINE len=5  || box z 18.000000000000004..18.000000000000004
+23:26:10  EDGE: LINE len=21.000000000000004  || box z -3.0000000000000027..18.000000000000004
+23:26:10  EDGE: CIRCLE r=1.5 centre=(1.3674373626927446e-16, 0, 2.5980762113533165) len=9.42477796076938  || box z 2.5980762113533165..2.5980762113533165
+23:26:10  EDGE: CIRCLE r=1.5 centre=(9.143566076740889e-17, 0, 8) len=9.42477796076938  || box z 8..8
+23:26:10  EDGE: CIRCLE r=5 centre=(9.143566076740889e-17, 0, 8) len=31.415926535897935  || box z 8..8
+23:26:10  EDGE: CIRCLE r=5 centre=(7.561697944959698e-18, 0, 18.000000000000004) len=31.415926535897935  || box z 18.000000000000004..18.000000000000004
+23:26:10  EDGE: CIRCLE r=6 centre=(0, 0, 0) len=37.69911184307752  || box z 0..0
+23:26:10  EDGE: CIRCLE r=6 centre=(0, 3.67394039744206e-16, 0) len=37.69911184307752  || box z 0..0
+23:26:10  EDGE: CIRCLE r=6 centre=(0, 3.67394039744206e-16, -4.15) len=37.69911184307752  || box z -4.15..-4.15
+23:26:10  EDGE: CIRCLE r=6 centre=(0, 3.67394039744206e-16, -14.149999999999999) len=37.69911184307752  || box z -14.149999999999999..-14.149999999999999
+23:26:10  EDGE: CIRCLE r=4.7 centre=(0, 0, 0) len=29.530970943744055  || box z 0..0
+23:26:10  EDGE: CIRCLE r=4.7 centre=(0, 2.87791997799628e-16, 0) len=29.530970943744055  || box z 0..0
+23:26:10  EDGE: CIRCLE r=4.7 centre=(0, 2.87791997799628e-16, 1.3499999999999996) len=29.530970943744055  || box z 1.3499999999999996..1.3499999999999996
+23:26:10  EDGE: CIRCLE r=4.7 centre=(0, 2.87791997799628e-16, -4.15) len=29.530970943744055  || box z -4.15..-4.15
+23:26:10  EDGE: CIRCLE r=2.9012928152808026 centre=(-7.849857776617127e-17, 0, 1.3499999999999996) len=18.229360388798035  || box z 1.3499999999999996..1.3499999999999996
+23:27:21  ABOUT TO: rename feature 'Boolean 1' -> 'Socket cavity'
+23:27:21  ABOUT TO: rename 'Boolean 1' -> 'Socket cavity'  (tree entry at 86,442)
+23:27:25  RESULT: rename box reads 'Socket cavity'
+23:27:26  RESULT: tree shows 'Socket cavity' -> True
+23:27:26  RESULT: renamed Boolean 1 -> Socket cavity
+23:27:51  ABOUT TO: open Sketch, then pick the Top plane in the feature tree
+23:27:54  RESULT: 'Top' tree entry at {'x': 85, 'y': 198.5, 'width': 145, 'height': 19.984375}
+23:29:52  ABOUT TO: arm the corner-rectangle tool at (255,58)
+23:29:53  ABOUT TO: click rectangle corner 1 at (1104, 505)
+23:29:55  ABOUT TO: click rectangle corner 2 at (1214, 431)
+23:29:57  RESULT: rectangle drawn in clear space
+23:31:10  ABOUT TO: dim 1 -- slot width, left edge to right edge = 3.5
+23:31:16  RESULT: dim slit-width prefilled '6.05185 mm'
+23:31:16  RESULT: dim slit-width box now reads '3.5', pressing Enter
+23:31:19  ABOUT TO: dim 2 -- origin to left edge = 2.5 (this moves the slot into place)
+23:31:25  RESULT: dim slit-inner -- NO input box appeared (prefill unavailable)
+23:31:55  ABOUT TO: dim 2 (retry) -- origin point to the slot's left edge = 2.5
+23:32:01  RESULT: dim slit-inner prefilled '11.3726 mm'
+23:32:01  RESULT: dim slit-inner box now reads '2.5', pressing Enter
+23:32:26  ABOUT TO: dim 3 -- X axis to the slot's top edge = 0.4
+23:32:33  RESULT: dim slit-halfwidth-top prefilled '1.26124 mm'
+23:32:33  RESULT: dim slit-halfwidth-top box now reads '0.4', pressing Enter
+23:32:36  ABOUT TO: dim 4 -- X axis to the slot's bottom edge = 0.4
+23:32:42  RESULT: dim slit-halfwidth-bot -- NO input box appeared (prefill unavailable)
+23:33:08  RESULT: wrote 26-x-slot-clip.png  (screen x 940..1070, y 430..510)
+23:33:29  ABOUT TO: untick 'Show constraints' to declutter the picks
+23:33:30  ABOUT TO: zoom in on the slot with the wheel at (1000,470)
+23:33:33  RESULT: zoomed
+23:33:59  ABOUT TO: dim 4 (retry, zoomed in) -- slot bottom edge to the X axis = 0.4
+23:34:05  RESULT: dim slit-halfwidth-bot prefilled '1.09331 mm'
+23:34:05  RESULT: dim slit-halfwidth-bot box now reads '0.4', pressing Enter
+23:34:30  ABOUT TO: accept Sketch 1 (green check at 423,93)
+23:34:33  ABOUT TO: rename 'Sketch 1' -> 'Slit profile'
+23:34:33  ABOUT TO: rename 'Sketch 1' -> 'Slit profile'  (tree entry at 86,468)
+23:34:37  RESULT: rename box reads 'Slit profile'
+23:34:39  RESULT: tree shows 'Slit profile' -> True
+23:34:39  RESULT: slit sketch accepted and renamed
+23:35:04  ABOUT TO: open Extrude via the Search tools box
+23:35:10     dlg ['Solid', 267, 110]
+23:35:10     dlg ['Surface', 338, 110]
+23:35:10     dlg ['Thin', 421, 110]
+23:35:10     dlg ['New', 257, 138]
+23:35:10     dlg ['Add', 302, 138]
+23:35:10     dlg ['Remove', 345, 138]
+23:35:10     dlg ['Intersect', 408, 138]
+23:35:10     dlg ['Faces and sketch regions to extrude', 250, 170]
+23:35:10     dlg ['Faces of Slit profile', 256, 188]
+23:35:10     dlg ['×', 437, 188]
+23:35:10     dlg ['Blind', 252, 220]
+23:35:10     dlg ['Depth', 271, 252]
+23:35:10     dlg ['25 mm', 308, 246]
+23:35:10     dlg ['Direction', 286, 272]
+23:35:10     dlg ['Starting offset', 286, 299]
+23:35:10     dlg ['Symmetric', 266, 327]
+23:35:10     dlg ['Draft', 266, 354]
+23:35:10     dlg ['Second end position', 286, 381]
+23:35:42  ABOUT TO: switch the extrude to Remove
+23:35:44     dlg ['Solid', 267, 110]
+23:35:44     dlg ['Surface', 338, 110]
+23:35:44     dlg ['Thin', 421, 110]
+23:35:44     dlg ['New', 257, 138]
+23:35:44     dlg ['Add', 301, 138]
+23:35:44     dlg ['Remove', 343, 138]
+23:35:44     dlg ['Intersect', 408, 138]
+23:35:44     dlg ['Faces and sketch regions to extrude', 250, 170]
+23:35:44     dlg ['Faces of Slit profile', 256, 188]
+23:35:44     dlg ['×', 437, 188]
+23:35:44     dlg ['Blind', 252, 220]
+23:35:44     dlg ['Depth', 271, 252]
+23:35:44     dlg ['25 mm', 308, 246]
+23:35:44     dlg ['Direction', 286, 272]
+23:35:44     dlg ['Starting offset', 286, 299]
+23:35:44     dlg ['Symmetric', 266, 327]
+23:35:44     dlg ['Draft', 266, 354]
+23:35:44     dlg ['Second end position', 286, 381]
+23:35:44     dlg ['Merge with all', 266, 409]
+23:35:44     dlg ['Merge scope', 250, 442]
+23:36:08  ABOUT TO: set the extrude Depth to 5.5 mm
+23:36:08  RESULT: depth box currently '25 mm'
+23:36:09  RESULT: depth box now '5.5'
+23:36:09  ABOUT TO: tick 'Starting offset'
+23:36:11  RESULT: clicked 'Starting offset' label at {'x': 286, 'y': 299.3125, 'width': 87.84375, 'height': 27.3125}
+23:36:11     dlg ['Solid', 267, 110]
+23:36:11     dlg ['Surface', 338, 110]
+23:36:11     dlg ['Thin', 421, 110]
+23:36:11     dlg ['New', 257, 138]
+23:36:11     dlg ['Add', 301, 138]
+23:36:11     dlg ['Remove', 343, 138]
+23:36:11     dlg ['Intersect', 408, 138]
+23:36:11     dlg ['Faces and sketch regions to extrude', 250, 170]
+23:36:11     dlg ['Faces of Slit profile', 256, 188]
+23:36:11     dlg ['×', 437, 188]
+23:36:11     dlg ['Blind', 252, 220]
+23:36:11     dlg ['Depth', 271, 252]
+23:36:11     dlg ['5.5 mm', 308, 246]
+23:36:11     dlg ['Direction', 286, 272]
+23:36:11     dlg ['Starting offset', 286, 299]
+23:36:11     dlg ['Blind', 272, 329]
+23:36:11     dlg ['Depth', 271, 361]
+23:36:11     dlg ['25 mm', 308, 355]
+23:36:11     dlg ['Symmetric', 266, 381]
+23:36:11     dlg ['Draft', 266, 408]
+23:36:11     dlg ['Second end position', 286, 435]
+23:36:11     dlg ['Merge with all', 266, 463]
+23:36:11     dlg ['Merge scope', 250, 496]
+23:36:11     dlg ['Starting offset', 377, 300]
+23:36:27  ABOUT TO: set the starting-offset depth to 1.35 mm (row y=355)
+23:36:27  RESULT: offset-depth box at {'x': 307.609375, 'y': 354.625, 'width': 132.390625, 'height': 26} reads '25 mm'
+23:36:27  RESULT: offset-depth box now '1.35'
+23:36:27  RESULT: main depth box reads '5.5 mm'
+23:36:46  ABOUT TO: untick 'Merge with all' so the cut cannot reach the Ball stud
+23:36:48  RESULT: clicked 'Merge with all' at {'x': 266, 'y': 462.5625, 'width': 87.375, 'height': 27.3125}
+23:36:48  RESULT: 'Merge scope' label now at []
+23:36:48  ABOUT TO: pick 'Socket body' from the Parts list into Merge scope (entry at {'x': 85, 'y': 711.5, 'width': 145, 'height': 19.984375})
+23:36:50     dlg ['Solid', 267, 110]
+23:36:50     dlg ['Surface', 338, 110]
+23:36:50     dlg ['Thin', 421, 110]
+23:36:50     dlg ['New', 257, 138]
+23:36:50     dlg ['Add', 301, 138]
+23:36:50     dlg ['Remove', 343, 138]
+23:36:50     dlg ['Intersect', 408, 138]
+23:36:50     dlg ['Faces and sketch regions to extrude', 250, 170]
+23:36:50     dlg ['Faces of Slit profile', 256, 188]
+23:36:50     dlg ['×', 437, 188]
+23:36:50     dlg ['Blind', 252, 220]
+23:36:50     dlg ['Depth', 271, 252]
+23:36:50     dlg ['5.5 mm', 308, 246]
+23:36:50     dlg ['Direction', 286, 272]
+23:36:50     dlg ['Starting offset', 286, 299]
+23:36:50     dlg ['Blind', 272, 329]
+23:36:50     dlg ['Depth', 271, 361]
+23:36:50     dlg ['1.35 mm', 308, 355]
+23:36:50     dlg ['Symmetric', 266, 381]
+23:36:50     dlg ['Draft', 266, 408]
+23:36:50     dlg ['Second end position', 286, 435]
+23:36:50     dlg ['Merge with all', 266, 463]
+23:37:09  ABOUT TO: click 'Merge with all' again to put it back to unticked
+23:37:11     dlg ['Solid', 267, 110]
+23:37:11     dlg ['Surface', 338, 110]
+23:37:11     dlg ['Thin', 421, 110]
+23:37:11     dlg ['New', 257, 138]
+23:37:11     dlg ['Add', 301, 138]
+23:37:11     dlg ['Remove', 343, 138]
+23:37:11     dlg ['Intersect', 408, 138]
+23:37:11     dlg ['Faces and sketch regions to extrude', 250, 170]
+23:37:11     dlg ['Faces of Slit profile', 256, 188]
+23:37:11     dlg ['×', 437, 188]
+23:37:11     dlg ['Blind', 252, 220]
+23:37:11     dlg ['Depth', 271, 252]
+23:37:11     dlg ['5.5 mm', 308, 246]
+23:37:11     dlg ['Direction', 286, 272]
+23:37:11     dlg ['Starting offset', 286, 299]
+23:37:11     dlg ['Blind', 272, 329]
+23:37:11     dlg ['Depth', 271, 361]
+23:37:11     dlg ['1.35 mm', 308, 355]
+23:37:11     dlg ['Symmetric', 266, 381]
+23:37:11     dlg ['Draft', 266, 408]
+23:37:11     dlg ['Second end position', 286, 435]
+23:37:11     dlg ['Merge with all', 266, 463]
+23:37:11     dlg ['Merge scope', 250, 496]
+23:37:11     dlg ['Merge with all', 356, 463]
+23:37:12  RESULT: wrote 27-a-select-extrude-scope2.png
+23:37:33  ABOUT TO: click into the Merge scope field, then pick 'Socket body' from the Parts list
+23:37:34  RESULT: 'Socket body' parts-list entry at {'x': 85, 'y': 711.5, 'width': 145, 'height': 19.984375}
+23:37:38  RESULT: wrote 27-a-select-extrude-scope3.png
+23:38:02  ABOUT TO: accept the slit Extrude (green check)
+23:38:07  RESULT: parts = [('Ball stud', 'JHD'), ('Socket body', 'JKD')]
+23:38:07  RESULT: Ball stud    volume = 935.224936 mm^3
+23:38:07  RESULT: Socket body  volume = 1394.914649 mm^3
+23:38:07     SLIT WALL normal=(0, -1, 0)  x -76.2..76.2  z -76.2..76.2
+23:38:07     SLIT WALL normal=(1, 0, 0)  x 0..0  z -76.2..76.2
+23:38:07     SLIT WALL normal=(0, -1, 0)  x 7.561697944959698e-18..5  z -3.0000000000000027..18.000000000000004
+23:38:07     SLIT WALL normal=(0, 1, 0)  x 2.5..4.682947789587239  z -4.1499999999999995..1.35
+23:38:07     SLIT WALL normal=(0, -1, 0)  x 2.5..4.682947789587239  z -4.1499999999999995..1.35
+23:38:07     SLIT WALL normal=(1, 0, 0)  x 2.5..2.5  z -4.1499999999999995..-1.957038579078093
+23:38:39  ABOUT TO: rename 'Extrude 1' -> 'Relief slit'
+23:38:39  ABOUT TO: rename 'Extrude 1' -> 'Relief slit'  (tree entry at 86,494)
+23:38:43  RESULT: rename box reads 'Relief slit'
+23:38:44  RESULT: tree shows 'Relief slit' -> True
+23:38:44  ABOUT TO: open the view menu (bottom right of the view cube) to pick Isometric
+23:38:46     viewmenu ['Isometric', 1455, 258]
+23:38:46     viewmenu ['Dimetric', 1453, 280]
+23:38:46     viewmenu ['Trimetric', 1455, 302]
+23:38:46     viewmenu ['Graphics preferences…', 1491, 325]
+23:38:46     viewmenu ['Named views…', 1470, 348]
+23:38:46     viewmenu ['Previous view', 1467, 370]
+23:38:46     viewmenu ['Zoom to fit', 1459, 393]
+23:38:46     viewmenu ['Zoom to selection', 1477, 415]
+23:38:46     viewmenu ['Zoom to window', 1474, 437]
+23:38:46     viewmenu ['Perspective view', 1475, 460]
+23:38:46     viewmenu ['Shaded with edges', 1508, 483]
+23:38:46     viewmenu ['Hidden edges removed', 1508, 505]
+23:38:46     viewmenu ['Tangent edges visible', 1508, 527]
+23:38:46     viewmenu ['View in high quality', 1481, 550]
+23:38:46     viewmenu ['Highlight boundary edges', 1498, 573]
+23:38:46     viewmenu ['Section view…', 1468, 596]
+23:38:58  ABOUT TO: click 'Isometric' in the view menu
+23:39:00  ABOUT TO: zoom to fit
+23:39:04  RESULT: isometric, zoomed to fit
+23:39:22  ABOUT TO: zoom in on the part
+23:39:26  RESULT: zoomed in
+23:39:52  ABOUT TO: open Circular pattern via the Search tools box
+23:39:59     dlg ['Part pattern', 252, 110]
+23:39:59     dlg ['New', 257, 138]
+23:39:59     dlg ['Add', 302, 138]
+23:39:59     dlg ['Remove', 345, 138]
+23:39:59     dlg ['Intersect', 408, 138]
+23:39:59     dlg ['Entities to pattern', 250, 170]
+23:39:59     dlg ['Axis of pattern', 250, 201]
+23:39:59     dlg ['Angle', 251, 237]
+23:39:59     dlg ['360 deg', 287, 231]
+23:39:59     dlg ['Instance count', 251, 263]
+23:39:59     dlg ['4', 333, 257]
+23:39:59     dlg ['Equal spacing', 266, 283]
+23:39:59     dlg ['Centered', 266, 310]
+23:39:59     dlg ['Skip instances', 286, 338]
+23:40:12  ABOUT TO: open the pattern-type dropdown ('Part pattern')
+23:40:14     menu ['New', 257, 138]
+23:40:14     menu ['Add', 302, 138]
+23:40:14     menu ['Remove', 345, 138]
+23:40:14     menu ['Intersect', 408, 138]
+23:40:14     menu ['Entities to pattern', 250, 170]
+23:40:14     menu ['Axis of pattern', 250, 201]
+23:40:14     menu ['Angle', 251, 237]
+23:40:14     menu ['360 deg', 287, 231]
+23:40:14     menu ['Instance count', 251, 263]
+23:40:14     menu ['4', 333, 257]
+23:40:14     menu ['Equal spacing', 266, 283]
+23:40:14     menu ['Centered', 266, 310]
+23:40:14     menu ['Skip instances', 286, 338]
+23:40:14     menu ['Part pattern', 257, 142]
+23:40:14     menu ['Feature pattern', 257, 168]
+23:40:14     menu ['Face pattern', 257, 194]
+23:40:30  ABOUT TO: choose 'Feature pattern'
+23:40:32     dlg ['Feature pattern', 252, 110]
+23:40:32     dlg ['New', 257, 138]
+23:40:32     dlg ['Add', 302, 138]
+23:40:32     dlg ['Remove', 345, 138]
+23:40:32     dlg ['Intersect', 408, 138]
+23:40:32     dlg ['Entities to pattern', 250, 170]
+23:40:32     dlg ['Axis of pattern', 250, 201]
+23:40:32     dlg ['Angle', 251, 237]
+23:40:32     dlg ['360 deg', 287, 231]
+23:40:32     dlg ['Instance count', 251, 263]
+23:40:32     dlg ['4', 333, 257]
+23:40:32     dlg ['Equal spacing', 266, 283]
+23:40:32     dlg ['Centered', 266, 310]
+23:40:32     dlg ['Skip instances', 286, 338]
+23:40:32  RESULT: candidate entity field labels [['Feature pattern', 252, 110], ['Entities to pattern', 250, 170]]
+23:40:33  ABOUT TO: pick the 'Relief slit' feature from the tree (at {'x': 66, 'y': 484.5, 'width': 164, 'height': 19.984375})
+23:40:35     dlg2 ['Feature pattern', 252, 110]
+23:40:35     dlg2 ['Features to pattern', 250, 142]
+23:40:35     dlg2 ['Axis of pattern', 250, 173]
+23:40:35     dlg2 ['Angle', 251, 209]
+23:40:35     dlg2 ['360 deg', 287, 203]
+23:40:35     dlg2 ['Instance count', 251, 235]
+23:40:35     dlg2 ['4', 333, 229]
+23:40:35     dlg2 ['Equal spacing', 266, 255]
+23:40:35     dlg2 ['Centered', 266, 282]
+23:40:35     dlg2 ['Reapply features', 266, 310]
+23:40:35     dlg2 ['Skip instances', 286, 337]
+23:40:55  ABOUT TO: click into 'Features to pattern' (row y=158) and pick 'Relief slit'
+23:40:59     dlg ['Feature pattern', 252, 110]
+23:40:59     dlg ['Features to pattern', 250, 142]
+23:40:59     dlg ['Relief slit', 256, 160]
+23:40:59     dlg ['×', 437, 160]
+23:40:59     dlg ['Axis of pattern', 250, 191]
+23:40:59     dlg ['Angle', 251, 227]
+23:40:59     dlg ['360 deg', 287, 221]
+23:40:59     dlg ['Instance count', 251, 253]
+23:40:59     dlg ['4', 333, 247]
+23:40:59     dlg ['Equal spacing', 266, 273]
+23:40:59     dlg ['Centered', 266, 300]
+23:40:59     dlg ['Reapply features', 266, 328]
+23:40:59     dlg ['Skip instances', 286, 355]
+23:41:16  ABOUT TO: click into 'Axis of pattern' and offer it the Top plane from the tree
+23:41:17  RESULT: 'Top' tree entry at {'x': 85, 'y': 198.5, 'width': 145, 'height': 19.984375}
+23:41:20  RESULT: banner = []
+23:41:20     dlg ['Feature pattern', 252, 110]
+23:41:20     dlg ['Features to pattern', 250, 142]
+23:41:20     dlg ['Relief slit', 256, 160]
+23:41:20     dlg ['×', 437, 160]
+23:41:20     dlg ['Axis of pattern', 250, 191]
+23:41:20     dlg ['Angle', 251, 227]
+23:41:20     dlg ['360 deg', 287, 221]
+23:41:20     dlg ['Instance count', 251, 253]
+23:41:20     dlg ['4', 333, 247]
+23:41:20     dlg ['Equal spacing', 266, 273]
+23:41:20     dlg ['Centered', 266, 300]
+23:41:20     dlg ['Reapply features', 266, 328]
+23:41:20     dlg ['Skip instances', 286, 355]
+23:41:35  ABOUT TO: click into 'Axis of pattern', then click the limb's cylindrical face at (905,575)
+23:41:39     dlg ['Feature pattern', 252, 110]
+23:41:39     dlg ['Features to pattern', 250, 142]
+23:41:39     dlg ['Relief slit', 256, 160]
+23:41:39     dlg ['×', 437, 160]
+23:41:39     dlg ['Axis of pattern', 250, 191]
+23:41:39     dlg ['Face of Limb stub', 256, 209]
+23:41:39     dlg ['×', 411, 209]
+23:41:39     dlg ['Angle', 251, 245]
+23:41:39     dlg ['360 deg', 287, 239]
+23:41:39     dlg ['Instance count', 251, 271]
+23:41:39     dlg ['4', 333, 265]
+23:41:39     dlg ['Equal spacing', 266, 291]
+23:41:39     dlg ['Centered', 266, 318]
+23:41:39     dlg ['Reapply features', 266, 346]
+23:41:39     dlg ['Skip instances', 286, 373]
+23:42:06  ABOUT TO: accept the Circular pattern (green check)
+23:42:11  RESULT: parts = [('Ball stud', 'JHD'), ('Socket body', 'JKD')]
+23:42:11  RESULT: Ball stud    volume = 935.224936 mm^3
+23:42:11  RESULT: Socket body  volume = 1370.121181 mm^3
+23:42:12     PLANE normal=(0, -1, 0)  z -76.2..76.2
+23:42:12     PLANE normal=(1, 0, 0)  z -76.2..76.2
+23:42:12     PLANE normal=(0, -1, 0)  z -3.0000000000000027..18.000000000000004
+23:42:12     PLANE normal=(0, 1, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(0, -1, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(1, 0, 0)  z -4.1499999999999995..-1.957038579078093
+23:42:12     PLANE normal=(-1, 6.123233995736766e-17, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(1, -6.123233995736766e-17, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(6.123233995736766e-17, 1, 0)  z -4.1499999999999995..-1.957038579078093
+23:42:12     PLANE normal=(-1.2246467991473532e-16, -1, -0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(1.2246467991473532e-16, 1, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(-1, 1.2246467991473532e-16, 0)  z -4.1499999999999995..-1.957038579078093
+23:42:12     PLANE normal=(1, -1.8369701987210297e-16, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(-1, 1.8369701987210297e-16, 0)  z -4.1499999999999995..1.35
+23:42:12     PLANE normal=(-1.8369701987210297e-16, -1, 0)  z -4.1499999999999995..-1.957038579078093
+23:42:12     COUNT of side walls spanning z -4.15..+1.35 = 8
+23:42:12     COLLAR FOOT ARC r=4.7 len=6.581773828361093
+23:42:12     COLLAR FOOT ARC r=4.7 len=6.581773828361091
+23:42:12     COLLAR FOOT ARC r=4.7 len=6.581773828361092
+23:42:12     COLLAR FOOT ARC r=4.7 len=6.581773828361091
+23:42:12     MOUTH ARC r=2.9012928152808026 len=3.7547837678853795
+23:42:12     MOUTH ARC r=2.9012928152808026 len=3.7547837678853795
+23:42:12     MOUTH ARC r=2.9012928152808026 len=3.7547837678853795
+23:42:12     MOUTH ARC r=2.9012928152808026 len=3.7547837678853795
+23:42:12     COUNT mouth arcs = 4   COUNT collar-foot arcs = 4
+23:42:35  RESULT: feature-tree text = ['Sketch', 'Features (14)', 'Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Ball stud profile', 'Ball stud', 'Limb stub profile', 'Limb stub', 'Collar profile', 'Socket collar', 'Socket cavity', 'Slit profile', 'Relief slit', 'Circular pattern 1', 'Parts (2)', 'Ball stud', 'Socket body', 'Part Studio 1']
+23:42:45  ABOUT TO: rename 'Circular pattern 1' -> 'Relief slits x4'
+23:42:45  ABOUT TO: rename 'Circular pattern 1' -> 'Relief slits x4'  (tree entry at 86,520)
+23:42:49  RESULT: rename box reads 'Relief slits x4'
+23:42:50  RESULT: tree shows 'Relief slits x4' -> True
+23:43:12  RESULT: wrote 30-x-render-ball-stud-isometric.png (37329 bytes)
+23:43:12  RESULT: wrote 30-x-render-ball-stud-front.png (43545 bytes)
+23:43:13  RESULT: wrote 30-x-render-ball-stud-top.png (61660 bytes)
+23:43:14  RESULT: wrote 30-x-render-ball-stud-right.png (43543 bytes)
+23:43:15  RESULT: wrote 30-x-render-socket-body-isometric.png (40481 bytes)
+23:43:16  RESULT: wrote 30-x-render-socket-body-front.png (17156 bytes)
+23:43:17  RESULT: wrote 30-x-render-socket-body-top.png (75555 bytes)
+23:43:18  RESULT: wrote 30-x-render-socket-body-right.png (17156 bytes)
+23:44:28     rail y=58 tooltip [['Sketch', 144, 48], ['Versions and history', 42, 44]]
+23:44:29     rail y=94 tooltip [['Features (14)', 40, 114], ['Create version…', 42, 79]]
+23:44:31     rail y=127 tooltip [['Features (14)', 40, 114], ['Default geometry', 63, 147], ['Comments', 42, 114]]
+23:44:32     rail y=162 tooltip [['Default geometry', 63, 147], ['Origin', 85, 173], ['Document notes', 42, 149]]
+23:44:33     rail y=198 tooltip [['Top', 85, 199], ['Performance errors detected', 42, 184]]
+23:44:35     rail y=233 tooltip [['Front', 85, 225], ['Right', 85, 251], ['AI Advisor', 42, 219]]
+23:44:36     rail y=268 tooltip [['Right', 85, 251], ['Ball stud profile', 66, 277], ['Action items', 42, 255]]
+23:44:50  ABOUT TO: click 'Create version…' in the left rail (20,94)
+23:44:52  RESULT: 2 visible inputs
+23:44:52     input 0 value='V1' box={'x': 381.328125, 'y': 83.5, 'width': 300, 'height': 34}
+23:44:52     input 1 value='' box={'x': 79, 'y': 84, 'width': 158, 'height': 30}
+23:45:07  ABOUT TO: set the version name to 'ball-socket-run3-2026-08-12'
+23:45:08  RESULT: version-name box reads 'ball-socket-run3-2026-08-12'
+23:45:08  RESULT: buttons [['Create', 914, 322], ['Cancel', 1228, 322]]
+23:45:13  RESULT: version 'Start' id=5df3053855e9b02ed9551804 created=2026-08-13T02:48:25.096+00:00
+23:45:13  RESULT: version 'ball-socket-run3-2026-08-12' id=92d8dbc62cfe1cf3bf8800bc created=2026-08-13T03:45:08.932+00:00
+23:45:45  ABOUT TO: hide the Ball stud part so the mouth is visible
+23:45:46  RESULT: parts-list 'Ball stud' at {'x': 85, 'y': 685.5, 'width': 145, 'height': 19.984375}
+23:45:48     ctxmenu ['Parts (2)', 147, 669]
+23:45:48     ctxmenu ['Ball stud', 158, 695]
+23:45:48     ctxmenu ['Socket body', 158, 721]
+23:45:48     ctxmenu ['Part Studio 1', 151, 984]
+23:45:48     ctxmenu ['Assembly 1', 350, 984]
+23:45:48     ctxmenu ['Add comment', 229, 631]
+23:45:48     ctxmenu ['Zoom to selection', 229, 654]
+23:45:48     ctxmenu ['Delete…', 229, 677]
+23:46:03  ABOUT TO: hover the 'Ball stud' row and click its visibility (eye) icon
+23:46:08  RESULT: clicked the eye icon
+23:46:28  ABOUT TO: zoom in on the collar mouth
+23:46:32  RESULT: zoomed on the mouth
+23:47:04  ABOUT TO: click the view cube's Top face to look straight down the joint axis
+23:47:10  RESULT: top view
+23:47:34  RESULT: zoomed top view
+23:48:03  ABOUT TO: click the mouth arc at (944, 499) and read Onshape's measure readout
+23:48:06  RESULT: measure readout = ['Point:', '2.05152', 'mm', '2.05152', 'mm', '1.35000', 'mm']
+23:48:06  RESULT: wrote 32-b-done-mouth-arc-readout.png
+23:48:48  ABOUT TO: un-hide the Ball stud to leave the workspace tidy
+23:48:51  RESULT: document name = 'ball-socket-run3'  id = c440cc33212eb2d5e01d2312
+23:48:52  RESULT: element 'Part Studio 1' type=PARTSTUDIO id=728bf1bcb5566d41cc0e1cd0
+23:48:52  RESULT: element 'Assembly 1' type=ASSEMBLY id=c3fb78919e96aeff4d4aa605
+23:48:52  RESULT: element 'BOM : Assembly 1' type=BILLOFMATERIALS id=214a251a59faf159690aadba
+23:48:52  ABOUT TO: open the version link https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/v/92d8dbc62cfe1cf3bf8800bc/e/728bf1bcb5566d41cc0e1cd0 in my own page
+23:49:02  RESULT: page url is now https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/v/92d8dbc62cfe1cf3bf8800bc/e/728bf1bcb5566d41cc0e1cd0
+23:49:25  ABOUT TO: open the live workspace link https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1cd0
+23:49:35  RESULT: page url is now https://cad.onshape.com/documents/c440cc33212eb2d5e01d2312/w/cc55e05877256cf7b8e2ce84/e/728bf1bcb5566d41cc0e1cd0
+23:52:34  DONE: build complete, version ball-socket-run3-2026-08-12 (92d8dbc62cfe1cf3bf8800bc) published, renders taken and looked at, build-notes.md written. All acceptance checks pass: 2 parts, limb 12.000, collar 9.400, mouth 5.8025856 as four arcs, ball 6.000, cavity face r 3.200, cavity volume 109.4820 mm3, 8 slit walls all z -4.1500..+1.3500, collar foot four arcs.

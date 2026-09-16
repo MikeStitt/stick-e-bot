@@ -1,0 +1,6 @@
+# The footage is dropped and the events beside it are kept — ../../build/drafts.md
+# § What is committed. This lives here, once, because a rule remembered per draft is a
+# rule that fails on the draft nobody remembered.
+*/capture/*/frames/
+*/capture/video*/
+*/capture/attempts/

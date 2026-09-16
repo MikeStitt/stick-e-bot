@@ -1,0 +1,83 @@
+06:31:44 about to select the Front plane in the feature tree at (99, 235)
+06:31:46 selected the Front plane in the feature tree -> 01-a-select-the-front-plane-in-the-feature-tree.png
+06:31:46 about to click the Sketch button at (155, 58)
+06:31:48 clicked the Sketch button -> 02-b-done-the-sketch-button.png
+06:33:06 pre-filled diameter: ''  -> mm per px = see below
+06:33:37 input[0] box={'x': 79, 'y': 84, 'width': 158, 'height': 30} value=''
+06:33:37 input[1] box={'x': 1065, 'y': 353.5, 'width': 100, 'height': 26} value='33.55967 mm'
+06:33:55 ball diameter: 33.55967 mm -> 6
+06:35:31 stalk height, ball center to the mounting face: 5.9401 mm -> 5
+06:35:49 stalk half width: 2.74512 mm -> 1.5
+06:36:23 about to click the green check to commit Sketch 1 at (423, 93)
+06:36:25 clicked the green check to commit Sketch 1 -> 11-b-done-the-green-check-to-commit-sketch-1.png
+06:36:25 about to select the ball region right of the axis, outside the stalk at (960, 570)
+06:36:26 selected the ball region right of the axis, outside the stalk -> 12-a-select-the-ball-region-right-of-the-axis-outside-the-st.png
+06:36:26 about to select the stalk region inside the ball at (938, 480)
+06:36:28 selected the stalk region inside the ball -> 13-a-select-the-stalk-region-inside-the-ball.png
+06:36:28 about to select the stalk region above the ball at (938, 425)
+06:36:29 selected the stalk region above the ball -> 14-a-select-the-stalk-region-above-the-ball.png
+06:40:24 about to click the green check to commit Sketch 1 with the split line at (423, 93)
+06:40:24 clicked the green check to commit Sketch 1 with the split line -> 17-b-done-the-green-check-to-commit-sketch-1-with-the-spli.png
+06:41:31 clicked region: the ball right of the axis, outside the stalk at (975, 560)
+06:41:32 clicked region: the stalk inside the ball at (940, 490)
+06:41:33 clicked region: the stalk above the ball at (940, 430)
+06:42:49 about to click the green check to commit Revolve 1 at (423, 93)
+06:42:50 clicked the green check to commit Revolve 1 -> 27-b-done-the-green-check-to-commit-revolve-1.png
+06:43:18 activeElement after Rename: INPUT|Part 1
+06:44:05 about to click the Top plane in the feature tree at (96, 209)
+06:44:06 clicked the Top plane in the feature tree -> 30-b-done-the-top-plane-in-the-feature-tree.png
+06:44:06 about to click the Sketch button at (155, 58)
+06:44:07 clicked the Sketch button -> 31-b-done-the-sketch-button.png
+06:45:36 collar diameter: 9.38054 mm -> 9.4
+06:45:59 about to click the green check to commit Sketch 2 at (423, 93)
+06:46:00 clicked the green check to commit Sketch 2 -> 38-b-done-the-green-check-to-commit-sketch-2.png
+06:46:31 depth field activeElement: INPUT|25 mm
+06:47:51 second depth field: INPUT|25 mm
+06:48:23 second depth now reads '4.15'
+06:48:45 about to click the green check to commit Extrude 1 at (423, 93)
+06:48:46 clicked the green check to commit Extrude 1 -> 47-b-done-the-green-check-to-commit-extrude-1.png
+06:48:50 activeElement after Rename: BODY|
+06:50:01 about to click Sketch 2 in the feature tree at (94, 339)
+06:50:02 clicked Sketch 2 in the feature tree -> 49-b-done-sketch-2-in-the-feature-tree.png
+06:50:33 about to click the green check to commit Extrude 1 at (423, 93)
+06:50:34 clicked the green check to commit Extrude 1 -> 51-b-done-the-green-check-to-commit-extrude-1.png
+06:51:41 about to click the green check to commit Extrude 1 at (423, 93)
+06:51:42 clicked the green check to commit Extrude 1 -> 53-b-done-the-green-check-to-commit-extrude-1.png
+06:51:44 dialog still open? False
+06:51:59 activeElement after Rename: INPUT|Part 2
+06:55:34 about to click the green check to commit Boolean 1 at (423, 93)
+06:55:34 clicked the green check to commit Boolean 1 -> 65-b-done-the-green-check-to-commit-boolean-1.png
+06:55:37 Boolean dialog still open? False
+06:56:48 about to click the Top plane in the feature tree at (96, 209)
+06:56:49 clicked the Top plane in the feature tree -> 67-b-done-the-top-plane-in-the-feature-tree.png
+06:56:49 about to click the Sketch button at (155, 58)
+06:56:50 clicked the Sketch button -> 68-b-done-the-sketch-button.png
+06:58:29 about to click the corner rectangle tool at (255, 58)
+06:58:30 clicked the corner rectangle tool -> 72-b-done-the-corner-rectangle-tool.png
+06:59:11 axis to the slot's inner end: 2.82556 mm -> 2.5
+06:59:48 axis to the slot's outer end: 5.96202 mm -> 6
+06:59:52 axis to the slot's near side: 0.92509 mm -> 0.4
+06:59:57 axis to the slot's far side: 0.90774 mm -> 0.4
+07:01:18 input[0] box={'x': 79, 'y': 84, 'width': 158, 'height': 30} value=''
+07:01:35 input[0] box={'x': 79, 'y': 84, 'width': 158, 'height': 30} value=''
+07:01:59 input[0] box={'x': 79, 'y': 84, 'width': 158, 'height': 30} value=''
+07:01:59 input[1] box={'x': 1029.796875, 'y': 554.21875, 'width': 100, 'height': 26} value='3'
+07:02:12 slit instances round the collar: 3 -> 4
+07:02:40 sketch dialog open? True
+07:03:15 slit instances round the collar: 3 -> 4
+07:03:39 about to click the green check to commit Sketch 3 with the pattern live at (423, 93)
+07:03:40 clicked the green check to commit Sketch 3 with the pattern live -> 84-b-done-the-green-check-to-commit-sketch-3-with-the-patt.png
+07:03:42 sketch dialog open? False
+07:04:09 about to click Sketch 3 in the feature tree at (94, 417)
+07:04:09 clicked Sketch 3 in the feature tree -> 86-b-done-sketch-3-in-the-feature-tree.png
+07:05:36 about to click the green check to commit Extrude 2 at (423, 93)
+07:05:37 clicked the green check to commit Extrude 2 -> 90-b-done-the-green-check-to-commit-extrude-2.png
+07:05:39 about to click the green check to commit Extrude 2 at (423, 93)
+07:05:39 clicked the green check to commit Extrude 2 -> 91-b-done-the-green-check-to-commit-extrude-2.png
+07:11:07 about to click the green check to commit the flipped Extrude 2 at (423, 93)
+07:11:08 clicked the green check to commit the flipped Extrude 2 -> 96-b-done-the-green-check-to-commit-the-flipped-extrude-2.png
+07:18:06 Extrude 2 committed, first end 1.35 one way and second 4.15 the other
+07:19:56 Extrude 2 committed with the depths swapped
+07:22:24 Ball stud hidden so the socket can be looked at on its own
+07:23:00 default planes hidden for the render
+07:27:17 Ball stud shown again

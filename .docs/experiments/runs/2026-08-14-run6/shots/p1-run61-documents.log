@@ -1,0 +1,71 @@
+10:44:42 unexpected: the documents page -> 01-x-the-documents-page.png
+10:44:42 create-ish control ['Create', 110, 66]
+10:44:55 about to click the Create button at (110, 66)
+10:44:56 clicked the Create button -> 02-b-done-the-create-button.png
+10:45:20 about to press Escape to close the Create menu
+10:45:21 pressed Escape to close the Create menu -> 03-b-done-close-the-create-menu.png
+10:45:21 about to click the Coach Mike Experiments folder at (370, 534)
+10:45:22 clicked the Coach Mike Experiments folder -> 04-b-done-the-coach-mike-experiments-folder.png
+10:45:25 about to click the Create button, inside the folder at (110, 66)
+10:45:26 clicked the Create button, inside the folder -> 05-b-done-the-create-button-inside-the-folder.png
+10:45:26 about to click Document... in the Create menu at (120, 104)
+10:45:27 clicked Document... in the Create menu -> 06-b-done-document-in-the-create-menu.png
+10:45:28 dialog input ['text', 'Untitled document', 800, 127]
+10:45:28 dialog input ['search', '', 800, 203]
+10:45:28 dialog input ['text', '', 704, 20]
+10:45:50 about to set the Document name field to 'ball-socket-run61'
+10:45:51 set the Document name field to 'ball-socket-run61' -> 08-b-done-the-document-name-field.png
+10:45:51 about to click the Create button in the New document dialog at (978, 542)
+10:45:52 clicked the Create button in the New document dialog -> 09-b-done-the-create-button-in-the-new-document-dialog.png
+10:46:01 url https://cad.onshape.com/documents/de2c0d9bdbb02b3a345eada1/w/e73b85313fe2496ae852837b/e/b6db2491eeffbc3a865fff4f
+10:46:01 unexpected: the new document, open on an empty Part Studio -> 10-x-the-new-document-open-on-an-empty-part-studio.png
+10:46:18 about to click the hamburger menu beside the document name at (155, 20)
+10:46:19 clicked the hamburger menu beside the document name -> 11-b-done-the-hamburger-menu-beside-the-document-name.png
+10:46:19 menu item ['Workspace units…', 252, 236]
+10:46:34 about to click Workspace units in the document menu at (252, 236)
+10:46:35 clicked Workspace units in the document menu -> 12-b-done-workspace-units-in-the-document-menu.png
+10:46:36 dropdown ['2: inch', ['Centimeter', 'Foot', 'Inch', 'Meter', 'Millimeter', 'Yard'], 362, 180]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 525, 180]
+10:46:36 dropdown ['1: inchPerSecondSquared', ['Foot per second squared', 'Inch per second squared', 'Meter per second squared', 'Millimeter per second squared'], 362, 239]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 525, 239]
+10:46:36 dropdown ['0: degree', ['Degree', 'Radian'], 362, 334]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 525, 334]
+10:46:36 dropdown ['0: degreePerSecond', ['Degree per second', 'Radian per second', 'Revolutions per minute'], 362, 393]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456'], 525, 393]
+10:46:36 dropdown ['3: pound', ['Gram', 'Kilogram', 'Ounce', 'Pound'], 362, 489]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567'], 525, 489]
+10:46:36 dropdown ['5: poundPerCubicInch', ['Gram per cubic centimeter', 'Gram per liter', 'Gram per milliliter', 'Kilogram per cubic meter', 'Pound per cubic foot', 'Pound per cubic inch'], 362, 548]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 525, 548]
+10:46:36 dropdown ['2: poundForce', ['Kilonewton', 'Newton', 'Pound-force'], 362, 607]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 525, 607]
+10:46:36 dropdown ['0: hertz', ['Hertz'], 362, 666]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 525, 666]
+10:46:36 dropdown ['1: inchPound', ['Foot-pound', 'Inch-pound', 'Newton-meter', 'Newton-millimeter'], 362, 725]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567'], 525, 725]
+10:46:36 dropdown ['5: poundPerSquareInch', ['Gigapascal', 'Kilopascal', 'Kilopound per square inch', 'Megapascal', 'Pascal', 'Pound per square inch'], 362, 784]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 525, 784]
+10:46:36 dropdown ['0: footPoundForce', ['Foot-pound force', 'Joule'], 362, 843]
+10:46:36 dropdown ['3: 3', ['0', '0.1', '0.12', '0.123', '0.1234', '0.12345', '0.123456', '0.1234567', '0.12345678'], 525, 843]
+10:46:58 length unit now '4: millimeter', decimals '5: 5'
+10:47:31 about to click the green tick on Workspace units at (542, 93)
+10:47:32 clicked the green tick on Workspace units -> 15-b-done-the-green-tick-on-workspace-units.png
+10:47:32 ball-socket url https://cad.onshape.com/documents/de2c0d9bdbb02b3a345eada1/w/e73b85313fe2496ae852837b/e/b6db2491eeffbc3a865fff4f
+10:47:40 about to click the Create button at (110, 66)
+10:47:40 clicked the Create button -> 16-b-done-the-create-button.png
+10:47:40 about to click Document... in the Create menu at (120, 104)
+10:47:41 clicked Document... in the Create menu -> 17-b-done-document-in-the-create-menu.png
+10:47:43 about to set the Document name field to 'hinge-run61'
+10:47:44 set the Document name field to 'hinge-run61' -> 18-b-done-the-document-name-field.png
+10:47:44 about to click the Create button in the New document dialog at (978, 542)
+10:47:45 clicked the Create button in the New document dialog -> 20-b-done-the-create-button-in-the-new-document-dialog.png
+10:47:54 hinge url https://cad.onshape.com/documents/aca8691bb83295fdde2015db/w/51cea5ef558233bb62482046/e/08688d842246482d3d09959a
+10:48:15 about to click the hamburger menu beside the document name at (155, 20)
+10:48:15 clicked the hamburger menu beside the document name -> 21-b-done-the-hamburger-menu-beside-the-document-name.png
+10:48:15 about to click Workspace units in the document menu at (252, 236)
+10:48:16 clicked Workspace units in the document menu -> 22-b-done-workspace-units-in-the-document-menu.png
+10:48:19 hinge length unit '4: millimeter' decimals '5: 5'
+10:48:19 about to click the green tick on Workspace units at (542, 93)
+10:48:20 clicked the green tick on Workspace units -> 23-b-done-the-green-tick-on-workspace-units.png
+10:48:20 ball-socket elements 200 ['Part Studio 1', 'Assembly 1', 'BOM : Assembly 1']
+10:48:20 hinge elements 200 ['Part Studio 1', 'Assembly 1', 'BOM : Assembly 1']
+10:48:20 wrote run61-documents.json

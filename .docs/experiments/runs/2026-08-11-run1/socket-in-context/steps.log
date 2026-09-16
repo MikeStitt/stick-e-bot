@@ -1,0 +1,19 @@
+11:16:03 about to: read documents page state
+11:16:21 about to: click Create
+11:17:11 about to: click the visible Create button
+11:17:44 about to: choose Document... from Create menu
+11:19:02 about to: click Document... at (65,100)
+11:19:46 about to: name the document socket-in-context and Create
+11:20:39 about to: type name into dialog and click its Create
+11:22:36 about to: click Create inside the New document modal
+11:22:51 result: socket-in-context | Part Studio 1 @ https://cad.onshape.com/documents/a60ad741d213d0ee34b573ec/w/5a2073c3eaefcabf60f7c45b/e/371701b2fae84ee9c9fa7acc
+11:23:12 about to: open the document hamburger menu
+11:58:35 about to: click Search tools and type Derived
+11:58:57 about to: click the Derived tool
+11:59:27 about to: search Derived and press Enter
+11:59:57 about to: click Select Part Studio...
+12:00:24 about to: switch to Other documents and search joint-ball-socket
+12:00:56 about to: press Enter to search documents
+12:01:13 about to: double-click the joint-ball-socket search result
+12:01:50 about to: select Ball stud + Socket body in the picker
+12:02:16 about to: accept the Derived feature (green check)

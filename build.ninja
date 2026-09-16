@@ -1,0 +1,117 @@
+# Everything this repository builds and checks: `ninja check` for the gates,
+# `ninja guides` for the Sphinx guides.
+#
+# `ninja -k 0 check` runs all five even when the first one fails, which is
+# what you want when fixing rather than gating.
+#
+# The five checks are console scripts from the installed `stickbot` package,
+# not one-liners here, because each one has a scope rule worth reading. They are
+# named rather than pathed, so no rule depends on a file's location. None of the outputs below is ever
+# created, which is how ninja is told to run every check on every invocation.
+
+ninja_required_version = 1.10
+
+rule wrap
+  command = uv run stickbot-check-wrap
+  description = prose wrapped at 100 columns
+  pool = console
+
+rule spell
+  command = uv run stickbot-check-spelling
+  description = codespell, en-GB dictionary plus our compounds
+  pool = console
+
+rule level
+  command = uv run stickbot-check-reading-level
+  description = reading level, paragraph by paragraph
+  pool = console
+
+rule images
+  command = uv run stickbot-check-images
+  description = no capture, build output or outsized file is tracked
+  pool = console
+
+rule imports
+  command = uv run stickbot-check-imports
+  description = no tracked python edits sys.path
+  pool = console
+
+build check-wrap: wrap | src/stickbot/check_wrap.py
+build check-spell: spell | src/stickbot/check_spelling.py src/stickbot/dictionary.txt
+build check-level: level | src/stickbot/check_reading_level.py
+build check-images: images | src/stickbot/check_images.py
+build check-imports: imports | src/stickbot/check_imports.py
+
+build check: phony check-wrap check-spell check-level check-images check-imports
+
+default check
+
+# ---------------------------------------------------------------------- guides
+#
+# Two Sphinx guides, built the same way. Sphinx tracks its own inputs and
+# re-renders only what changed, so these outputs are never created either —
+# listing every .rst and .png here would be a second dependency graph to keep
+# in step with the first.
+#
+# Every path is derived from `$dir`. The Makefiles this replaces each wrote the
+# guide's name into an `@echo` by hand, and robot-guide3's still said
+# robot-guide2, so building one guide told you to open a different one.
+#
+# Sphinx runs from the repo root rather than from the guide, because the only
+# pyproject.toml is here and that is where `uv run` resolves the environment.
+
+rule sphinx
+  command = uv run python -m sphinx -q -b html $dir/source $dir/build/html && $
+    echo "  open $dir/build/html/index.html"
+  description = sphinx html, $dir
+  pool = console
+
+rule browse
+  command = open $dir/build/html/index.html
+  description = open $dir in a browser
+  pool = console
+
+rule rmbuild
+  command = rm -rf $dir/build
+  description = remove $dir/build
+  pool = console
+
+rule plans
+  command = uv run python -m stickbot.make_plans
+  description = re-render robot-guide's plan drawings from their numbers
+  pool = console
+
+build guide: sphinx
+  dir = instructions/robot-guide
+build draft9p4: sphinx
+  dir = instructions/stickbot-draft9p4
+build guides: phony guide draft9p4
+
+# Not a guide. A review of the hinge, for whoever is deciding what to change about
+# it, built the same way because its argument is made of drawings.
+build hinge: sphinx
+  dir = .docs/reviews/hinge
+
+build open-guide: browse
+  dir = instructions/robot-guide
+build open-draft9p4: browse
+  dir = instructions/stickbot-draft9p4
+build open-hinge: browse
+  dir = .docs/reviews/hinge
+
+build clean-guide: rmbuild
+  dir = instructions/robot-guide
+build clean-draft9p4: rmbuild
+  dir = instructions/stickbot-draft9p4
+build clean-hinge: rmbuild
+  dir = .docs/reviews/hinge
+
+build plan: plans | src/stickbot/make_plans.py
+
+rule hinge-figures
+  command = uv run python .docs/reviews/hinge/make_figures.py
+  description = re-render the hinge review's drawings from their numbers
+  pool = console
+
+build hinge-figures: hinge-figures | .docs/reviews/hinge/make_figures.py $
+  src/stickbot/make_plans.py

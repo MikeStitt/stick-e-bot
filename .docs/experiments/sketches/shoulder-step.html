@@ -1,0 +1,75 @@
+<title>The shoulder step</title>
+<style>
+:root{--paper:#F7F8FA;--card:#FFF;--ink:#1B1F26;--muted:#5A6472;--rule:#DDE1E8;
+ --accent:#D6006E;--ok:#0F766E;--rodf:#EEF2F6;--bladef:#C3CFDB;--shf:#FFC7E4;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --paper:#14171C;--card:#1B1F26;--ink:#E7EAEF;--muted:#9AA4B2;--rule:#2A303A;
+ --accent:#FF4D9D;--ok:#4FD1C5;--rodf:#20262E;--bladef:#3B4756;--shf:#6B2748;}}
+:root[data-theme="dark"]{--paper:#14171C;--card:#1B1F26;--ink:#E7EAEF;--muted:#9AA4B2;
+ --rule:#2A303A;--accent:#FF4D9D;--ok:#4FD1C5;--rodf:#20262E;--bladef:#3B4756;--shf:#6B2748;}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);margin:0;
+ font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.wrap{max-width:58rem;margin:0 auto;padding:3rem 1.25rem 5rem}
+h1{font:600 1.45rem/1.3 ui-monospace,Menlo,monospace;margin:0 0 .5rem;text-wrap:balance}
+h2{font:600 .88rem/1.4 ui-monospace,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;
+ color:var(--muted);margin:2.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid var(--rule)}
+p{margin:0 0 1rem;max-width:66ch}.lede{color:var(--muted);max-width:66ch}
+.mono{font-family:ui-monospace,Menlo,monospace}
+.row{display:grid;gap:1.25rem;margin:0 0 1.5rem}
+@media(min-width:44rem){.row.two{grid-template-columns:1fr 1fr}}
+.plate{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:1rem;display:flex;justify-content:center}
+.panel{width:100%;height:auto;max-width:400px}
+.panel2{width:100%;height:auto;max-width:300px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:1.3rem 1.5rem;margin:0 0 1.5rem}
+.rod{fill:var(--rodf);stroke:var(--ink);stroke-width:1.7}
+.blade{fill:var(--bladef);stroke:var(--ink);stroke-width:1.4}
+.shoulder{fill:var(--shf);stroke:none}
+.shln{stroke:var(--accent);stroke-width:2}
+.mark{fill:none;stroke:var(--accent);stroke-width:2.2}
+.dim{stroke:var(--accent);stroke-width:1.5}
+.dimt{fill:var(--accent);font:600 12px ui-monospace,Menlo,monospace}
+.ttl{fill:var(--muted);font:600 12px ui-monospace,Menlo,monospace;letter-spacing:.06em}
+.cap{fill:var(--muted);font:11.5px ui-monospace,Menlo,monospace}
+</style>
+<div class="wrap">
+<h1>The shoulder, and why it feathers out</h1>
+<p class="lede">Where the &#216;12 rod ends and the blade begins, there is a flat face
+perpendicular to the limb. Its <em>width</em> is not constant &mdash; it is 4.5 mm at the middle
+and exactly nothing at four points.</p>
+
+<div class="plate" style="margin-bottom:1.5rem"><svg viewBox="0 0 400 400" class="panel"><circle cx="200" cy="190" r="150.0" class="rod"/><path class="shoulder" d="M 54.8 152.5 L 345.2 152.5 A 150.0 150.0 0 0 0 54.8 152.5 Z"/><path class="shoulder" d="M 54.8 227.5 L 345.2 227.5 A 150.0 150.0 0 0 1 54.8 227.5 Z"/><rect x="54.8" y="152.5" width="290.5" height="75.0" class="blade"/><circle cx="345.2" cy="152.5" r="5" class="mark"/><circle cx="345.2" cy="227.5" r="5" class="mark"/><circle cx="54.8" cy="152.5" r="5" class="mark"/><circle cx="54.8" cy="227.5" r="5" class="mark"/><line x1="200.0" y1="152.5" x2="200.0" y2="40.0" class="dim"/><text x="207.0" y="100.2" class="dimt">4.5</text><text x="355.2" y="146.5" class="dimt">0.0</text><text x="200" y="22" class="ttl" text-anchor="middle">the shoulder face, end on</text><text x="200" y="368" class="cap" text-anchor="middle">pink = exposed shoulder; it tapers to nothing at the four marks</text></svg></div>
+
+<div class="row two">
+  <div class="plate"><svg viewBox="0 0 330 430" class="panel2"><rect x="72.0" y="42.0" width="156.0" height="258.6" class="rod"/><path class="blade" d="M 74.5 300.6 L 225.5 300.6 L 225.5 380.0 A 75.5 75.5 0 0 1 74.5 380.0 Z"/><line x1="72.0" y1="300.6" x2="228.0" y2="300.6" class="shln"/><line x1="225.5" y1="287.6" x2="228.0" y2="287.6" class="dim"/><text x="236.0" y="291.6" class="dimt">0.19</text><text x="150" y="22" class="ttl" text-anchor="middle">along the hinge axis</text></svg></div>
+  <div class="plate"><svg viewBox="0 0 330 430" class="panel2"><rect x="72.0" y="42.0" width="156.0" height="258.6" class="rod"/><rect x="130.5" y="300.6" width="39.0" height="155.0" class="blade"/><line x1="72.0" y1="300.6" x2="228.0" y2="300.6" class="shln"/><line x1="169.5" y1="287.6" x2="228.0" y2="287.6" class="dim"/><text x="236.0" y="291.6" class="dimt">4.50</text><text x="150" y="22" class="ttl" text-anchor="middle">across the hinge axis</text></svg></div>
+</div>
+
+<h2>The same step, two views, two very different numbers</h2>
+<div class="card">
+  <p>Look at the two elevations. They are the <strong>same shoulder on the same part</strong>, seen
+  ninety degrees apart:</p>
+  <ul>
+    <li><strong>Along the hinge axis</strong> &mdash; the blade is 11.62 wide against a 12 rod, so
+    the step is <span class="mono">0.19 mm</span>. Practically flush.</li>
+    <li><strong>Across the hinge axis</strong> &mdash; the blade is 3.0 thick against a 12 rod, so
+    the step is <span class="mono">4.50 mm</span>. A cliff.</li>
+  </ul>
+  <p>Between those two extremes it varies continuously around the perimeter, and at the four marked
+  points it passes through <strong>zero</strong> &mdash; the blade's corners sit exactly on the
+  rod's surface, so the shoulder has no width at all there.</p>
+</div>
+
+<h2>Why it matters, and how much</h2>
+<div class="card">
+  <p>The pink region in the top drawing is the shoulder face you would actually print. Near the
+  four marks it narrows below one extrusion width, so the slicer cannot lay a bead there. The
+  result is a ragged, stringy edge at those points rather than a crisp corner.</p>
+  <p><strong>I should be honest about the scale of this: it is a surface-finish problem, not a
+  structural one.</strong> The material underneath is the full rod. Nothing is weak &mdash; it just
+  will not look clean, and on a part students handle, that edge is where a fingernail catches.</p>
+  <p>The fix is a <strong>chamfer or fillet along the whole transition</strong>, which gives the
+  shoulder a defined minimum width all the way round instead of letting it run to zero. It is not
+  fixed by making the blade narrower &mdash; that only moves the feather point inward.</p>
+</div>
+</div>

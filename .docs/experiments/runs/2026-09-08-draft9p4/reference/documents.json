@@ -1,0 +1,81 @@
+{
+ "build": {
+  "copiedFrom": {
+   "did": "50b2d87357670c07c2fbcb89",
+   "name": "stickbot-draft9p3",
+   "wid": "a49825ea9aa838bdfae7b78d"
+  },
+  "did": "fe052e606c96bb7cc5aaf59f",
+  "elements": [
+   {
+    "id": "ef7be6f2a79aa87fdeb1d6ab",
+    "name": "body",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "95fe567f38e1c8c891bc94a3",
+    "name": "head",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "db77856cb0dc97213496331a",
+    "name": "ball and socket",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "e3793e669ac38859eaafc03a",
+    "name": "robot sizes",
+    "type": "VARIABLESTUDIO"
+   },
+   {
+    "id": "32c9514363fd25788cbf8c1d",
+    "name": "stickbot",
+    "type": "ASSEMBLY"
+   },
+   {
+    "id": "d919f6470ad8b8837293839d",
+    "name": "u limb",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "8eadab9a9625d19b9a6b84e1",
+    "name": "hinge",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "2a9178a3cd70f34183b13f41",
+    "name": "foot",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "27059db66319a47d617d59a4",
+    "name": "BOM : stickbot",
+    "type": "BILLOFMATERIALS"
+   }
+  ],
+  "name": "stickbot-draft9p4",
+  "wid": "0ff70e8921be572d630dd9cc"
+ },
+ "check": {
+  "did": "86f40935a709a0748cdbb199",
+  "elements": [
+   {
+    "id": "014fbb677359dd17139e52c5",
+    "name": "Part Studio 1",
+    "type": "PARTSTUDIO"
+   },
+   {
+    "id": "a74fafe9338ade64dfebcc6d",
+    "name": "Assembly 1",
+    "type": "ASSEMBLY"
+   },
+   {
+    "id": "d397dcedb280474c6ecf82aa",
+    "name": "BOM : Assembly 1",
+    "type": "BILLOFMATERIALS"
+   }
+  ],
+  "name": "stickbot-draft9p4-check",
+  "wid": "075a86f5b8f922210c0a7317"
+ }
+}

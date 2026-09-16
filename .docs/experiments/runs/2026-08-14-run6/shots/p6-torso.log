@@ -1,0 +1,70 @@
+07:08:00 about to click the reference geometry group on the toolbar at (1080, 58)
+07:08:01 clicked the reference geometry group on the toolbar -> 02-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:08:02 about to click the face for Shoulder R at (1070, 565)
+07:08:03 clicked the face for Shoulder R -> 05-b-done-the-face-for-shoulder-r.png
+07:08:03 Shoulder R: Origin entity Face of Revolve shoulder stud × | Select owner entity Torso × | Attach to Face of Revolve shoulder stud ×
+07:08:04 about to click the green tick at (424, 93)
+07:08:04 clicked the green tick -> 07-b-done-the-green-tick.png
+07:08:07 about to click the Mate connector 1 row, to rename it at (140, 629)
+07:08:08 clicked the Mate connector 1 row, to rename it -> 08-b-done-the-mate-connector-1-row-to-rename-it.png
+07:08:08 about to click Rename in the context menu at (260, 653)
+07:08:09 clicked Rename in the context menu -> 09-b-done-rename-in-the-context-menu.png
+07:08:10 renamed 'Mate connector 1' to 'Shoulder R'
+07:08:10 after the torso after the Shoulder R connector, no errored rows in the tree
+07:09:17 about to click the reference geometry group on the toolbar at (1080, 58)
+07:09:18 clicked the reference geometry group on the toolbar -> 13-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:09:19 about to click the face for Hip R at (1021, 830)
+07:09:20 clicked the face for Hip R -> 16-b-done-the-face-for-hip-r.png
+07:09:21 Hip R: Origin entity Face of Revolve hip stud × | Select owner entity Torso × | Attach to Face of Revolve hip stud ×
+07:09:21 about to click the green tick at (424, 93)
+07:09:22 clicked the green tick -> 18-b-done-the-green-tick.png
+07:09:24 about to click the Mate connector 1 row, to rename it at (140, 629)
+07:09:25 clicked the Mate connector 1 row, to rename it -> 19-b-done-the-mate-connector-1-row-to-rename-it.png
+07:09:25 about to click Rename in the context menu at (260, 653)
+07:09:26 clicked Rename in the context menu -> 20-b-done-rename-in-the-context-menu.png
+07:09:27 renamed 'Mate connector 1' to 'Hip R'
+07:09:27 after the torso after the Hip R connector, no errored rows in the tree
+07:10:34 about to click the reference geometry group on the toolbar at (1080, 58)
+07:10:35 clicked the reference geometry group on the toolbar -> 24-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:10:36 about to click the face for Shoulder L at (712, 352)
+07:10:36 clicked the face for Shoulder L -> 27-b-done-the-face-for-shoulder-l.png
+07:10:37 Shoulder L: Origin entity Face of Mirror shoulder stud × | Select owner entity Torso × | Attach to Face of Mirror shoulder stud ×
+07:10:37 about to click the green tick at (424, 93)
+07:10:38 clicked the green tick -> 29-b-done-the-green-tick.png
+07:10:41 about to click the Mate connector 1 row, to rename it at (140, 629)
+07:10:42 clicked the Mate connector 1 row, to rename it -> 30-b-done-the-mate-connector-1-row-to-rename-it.png
+07:10:42 about to click Rename in the context menu at (260, 653)
+07:10:42 clicked Rename in the context menu -> 31-b-done-rename-in-the-context-menu.png
+07:10:44 renamed 'Mate connector 1' to 'Shoulder L'
+07:10:44 after the torso after the Shoulder L connector, no errored rows in the tree
+07:12:36 about to click the reference geometry group on the toolbar at (1080, 58)
+07:12:37 clicked the reference geometry group on the toolbar -> 35-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:12:38 about to click the face for Hip L at (645, 522)
+07:12:39 clicked the face for Hip L -> 38-b-done-the-face-for-hip-l.png
+07:12:39 Hip L: Origin entity Face of Mirror hip stud × | Select owner entity Torso × | Attach to Face of Mirror hip stud ×
+07:12:40 about to click the green tick at (424, 93)
+07:12:40 clicked the green tick -> 40-b-done-the-green-tick.png
+07:12:43 about to click the Mate connector 1 row, to rename it at (140, 629)
+07:12:44 clicked the Mate connector 1 row, to rename it -> 41-b-done-the-mate-connector-1-row-to-rename-it.png
+07:12:44 about to click Rename in the context menu at (260, 653)
+07:12:45 clicked Rename in the context menu -> 42-b-done-rename-in-the-context-menu.png
+07:12:46 renamed 'Mate connector 1' to 'Hip L'
+07:12:46 after the torso after the Hip L connector, no errored rows in the tree
+07:16:07 about to click the Hip L row, to delete it at (140, 616)
+07:16:08 clicked the Hip L row, to delete it -> 45-b-done-the-hip-l-row-to-delete-it.png
+07:16:08 about to click Delete in the context menu at (260, 889)
+07:16:09 clicked Delete in the context menu -> 46-b-done-delete-in-the-context-menu.png
+07:16:10 deleted 'Hip L'
+07:16:11 about to click the reference geometry group on the toolbar at (1080, 58)
+07:16:11 clicked the reference geometry group on the toolbar -> 48-b-done-the-reference-geometry-group-on-the-toolbar.png
+07:16:12 about to click the face for Hip L at (545, 670)
+07:16:13 clicked the face for Hip L -> 51-b-done-the-face-for-hip-l.png
+07:16:14 Hip L: Origin entity Face of Mirror hip stud × | Select owner entity Torso × | Attach to Face of Mirror hip stud ×
+07:16:14 about to click the green tick at (424, 93)
+07:16:15 clicked the green tick -> 53-b-done-the-green-tick.png
+07:16:18 about to click the Mate connector 1 row, to rename it at (140, 629)
+07:16:19 clicked the Mate connector 1 row, to rename it -> 54-b-done-the-mate-connector-1-row-to-rename-it.png
+07:16:19 about to click Rename in the context menu at (260, 653)
+07:16:20 clicked Rename in the context menu -> 55-b-done-rename-in-the-context-menu.png
+07:16:21 renamed 'Mate connector 1' to 'Hip L'
+07:16:21 after the torso after the Hip L connector, no errored rows in the tree

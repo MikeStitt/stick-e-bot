@@ -1,0 +1,252 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "c01ac56602d81451da6a5db5",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#foot_l = 96 mm",
+  "#foot_w = 48 mm",
+  "#ankle_h = 24 mm",
+  "#plate = 12 mm",
+  "#top_round = 8 mm",
+  "#collar_r = 9 mm",
+  "#collar_down = 9 mm",
+  "#pedestal = 3 mm",
+  "#rib_w = 6 mm",
+  "#rib_d = 2 mm",
+  "pedestal outline",
+  "foot pedestal",
+  "#heel_r = 16 mm",
+  "#toe_r = 24 mm",
+  "#heel_y = 32 mm",
+  "foot outline",
+  "foot",
+  "top round",
+  "groove profile",
+  "sole groove",
+  "sole ribs",
+  "add socket",
+  "combine parts",
+  "mate to robot"
+ ],
+ "features": {
+  "#foot_l = 96 mm": {
+   "upstream": [],
+   "downstream": [
+    "#heel_y = 32 mm",
+    "foot outline",
+    "groove profile",
+    "sole ribs"
+   ]
+  },
+  "#foot_w = 48 mm": {
+   "upstream": [],
+   "downstream": [
+    "#heel_r = 16 mm",
+    "#toe_r = 24 mm",
+    "foot outline",
+    "groove profile"
+   ]
+  },
+  "#ankle_h = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "foot",
+    "sole groove",
+    "sole ribs"
+   ]
+  },
+  "#plate = 12 mm": {
+   "upstream": [],
+   "downstream": [
+    "#pedestal = 3 mm",
+    "foot"
+   ]
+  },
+  "#top_round = 8 mm": {
+   "upstream": [],
+   "downstream": [
+    "top round"
+   ]
+  },
+  "#collar_r = 9 mm": {
+   "upstream": [],
+   "downstream": [
+    "pedestal outline"
+   ]
+  },
+  "#collar_down = 9 mm": {
+   "upstream": [],
+   "downstream": [
+    "#pedestal = 3 mm",
+    "foot pedestal"
+   ]
+  },
+  "#pedestal = 3 mm": {
+   "upstream": [
+    "#plate = 12 mm",
+    "#collar_down = 9 mm"
+   ],
+   "downstream": [
+    "foot pedestal"
+   ]
+  },
+  "#rib_w = 6 mm": {
+   "upstream": [],
+   "downstream": [
+    "groove profile",
+    "sole ribs"
+   ]
+  },
+  "#rib_d = 2 mm": {
+   "upstream": [],
+   "downstream": [
+    "sole groove",
+    "sole ribs"
+   ]
+  },
+  "pedestal outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "#collar_r = 9 mm"
+   ],
+   "downstream": [
+    "foot pedestal"
+   ]
+  },
+  "foot pedestal": {
+   "upstream": [
+    "#collar_down = 9 mm",
+    "#pedestal = 3 mm",
+    "pedestal outline"
+   ],
+   "downstream": [
+    "foot",
+    "sole groove",
+    "combine parts",
+    "mate to robot"
+   ]
+  },
+  "#heel_r = 16 mm": {
+   "upstream": [
+    "#foot_w = 48 mm"
+   ],
+   "downstream": [
+    "foot outline"
+   ]
+  },
+  "#toe_r = 24 mm": {
+   "upstream": [
+    "#foot_w = 48 mm"
+   ],
+   "downstream": [
+    "foot outline"
+   ]
+  },
+  "#heel_y = 32 mm": {
+   "upstream": [
+    "#foot_l = 96 mm"
+   ],
+   "downstream": [
+    "foot outline",
+    "groove profile"
+   ]
+  },
+  "foot outline": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "#foot_l = 96 mm",
+    "#foot_w = 48 mm",
+    "#heel_r = 16 mm",
+    "#toe_r = 24 mm",
+    "#heel_y = 32 mm"
+   ],
+   "downstream": [
+    "foot"
+   ]
+  },
+  "foot": {
+   "upstream": [
+    "#ankle_h = 24 mm",
+    "#plate = 12 mm",
+    "foot pedestal",
+    "foot outline"
+   ],
+   "downstream": [
+    "top round"
+   ]
+  },
+  "top round": {
+   "upstream": [
+    "#top_round = 8 mm",
+    "foot"
+   ],
+   "downstream": []
+  },
+  "groove profile": {
+   "upstream": [
+    "Origin",
+    "Top",
+    "Front",
+    "#foot_l = 96 mm",
+    "#foot_w = 48 mm",
+    "#rib_w = 6 mm",
+    "#heel_y = 32 mm"
+   ],
+   "downstream": [
+    "sole groove"
+   ]
+  },
+  "sole groove": {
+   "upstream": [
+    "#ankle_h = 24 mm",
+    "#rib_d = 2 mm",
+    "foot pedestal",
+    "groove profile"
+   ],
+   "downstream": [
+    "sole ribs"
+   ]
+  },
+  "sole ribs": {
+   "upstream": [
+    "Front",
+    "#foot_l = 96 mm",
+    "#ankle_h = 24 mm",
+    "#rib_w = 6 mm",
+    "#rib_d = 2 mm",
+    "sole groove"
+   ],
+   "downstream": []
+  },
+  "add socket": {
+   "upstream": [],
+   "downstream": [
+    "combine parts",
+    "mate to robot"
+   ]
+  },
+  "combine parts": {
+   "upstream": [
+    "foot pedestal",
+    "add socket"
+   ],
+   "downstream": []
+  },
+  "mate to robot": {
+   "upstream": [
+    "Origin",
+    "foot pedestal",
+    "add socket"
+   ],
+   "downstream": []
+  }
+ }
+}

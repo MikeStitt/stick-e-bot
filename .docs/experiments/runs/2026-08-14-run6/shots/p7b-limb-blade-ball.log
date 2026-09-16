@@ -1,0 +1,263 @@
+11:08:37 about to select the Blade profile row, the first feature that re-creates a joint at (140, 287)
+11:08:39 selected the Blade profile row, the first feature that re-creates a joint -> 02-a-select-the-blade-profile-row-the-first-feature-that-re-.png
+11:08:40 about to click the Slit row, with Shift, to take the whole tail at (140, 565)
+11:08:40 clicked the Slit row, with Shift, to take the whole tail -> 03-b-done-the-slit-row-with-shift-to-take-the-whole-tail.png
+11:08:42 about to click the picked rows, to open their menu at (140, 565)
+11:08:43 clicked the picked rows, to open their menu -> 05-b-done-the-picked-rows-to-open-their-menu.png
+11:08:44 about to click Delete in the context menu at (272, 747)
+11:08:45 clicked Delete in the context menu -> 06-b-done-delete-in-the-context-menu.png
+11:08:49 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Ball', 'Hinge', '', 'Parts (0)']
+11:08:50 about to click the Ball mate connector, to open its menu at (140, 287)
+11:08:51 clicked the Ball mate connector, to open its menu -> 07-b-done-the-ball-mate-connector-to-open-its-menu.png
+11:08:52 about to click Delete, because Ball stood on the joint at (265, 561)
+11:08:53 clicked Delete, because Ball stood on the joint -> 08-b-done-delete-because-ball-stood-on-the-joint.png
+11:08:58 about to click the Hinge mate connector, to open its menu at (140, 287)
+11:08:59 clicked the Hinge mate connector, to open its menu -> 09-b-done-the-hinge-mate-connector-to-open-its-menu.png
+11:09:01 about to click Delete, because Hinge stood on the joint at (269, 493)
+11:09:01 clicked Delete, because Hinge stood on the joint -> 10-b-done-delete-because-hinge-stood-on-the-joint.png
+11:09:22 about to press Alt+c to alt-c, which opens the tool search
+11:09:23 pressed Alt+c to alt-c, which opens the tool search -> 12-b-done-alt-c-which-opens-the-tool-search.png
+11:09:29 about to click the Derived result, which arms the tool at (1120, 159)
+11:09:30 clicked the Derived result, which arms the tool -> 13-b-done-the-derived-result-which-arms-the-tool.png
+11:09:33 Derived armed after about 3 s
+11:09:33 about to click Select Part Studio…, which opens the document picker at (368, 148)
+11:09:34 clicked Select Part Studio…, which opens the document picker -> 14-b-done-select-part-studio-which-opens-the-document-pick.png
+11:09:38 about to click the Other documents tab in the picker at (692, 124)
+11:09:39 clicked the Other documents tab in the picker -> 15-b-done-the-other-documents-tab-in-the-picker.png
+11:09:42 about to click the picker's search box at (620, 161)
+11:09:43 clicked the picker's search box -> 16-b-done-the-picker-s-search-box.png
+11:09:47 about to press Enter to Enter, which is what runs the picker's search
+11:09:48 pressed Enter to Enter, which is what runs the picker's search -> 17-b-done-enter-which-is-what-runs-the-picker-s-search.png
+11:09:53 about to click the hinge-run6p2 document at (588, 195)
+11:09:54 clicked the hinge-run6p2 document -> 18-b-done-the-hinge-run6p2-document.png
+11:09:59 the picker reads version ['hinge-run6p2-2026-08-15']; wanted 'hinge-run6p2-2026-08-15'
+11:09:59 about to click Detent blade, off hinge-run6p2-2026-08-15 at (672, 325)
+11:10:03 clicked Detent blade, off hinge-run6p2-2026-08-15 -> 19-b-done-detent-blade-off-hinge-run6p2-2026-08-15.png
+11:10:06 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+11:10:07 clicked the X on the picker, which leaves the Derived dialog standing -> 20-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+11:10:09 about to click the green tick, which keeps the Derived at (424, 93)
+11:10:16 clicked the green tick, which keeps the Derived -> 22-b-done-the-green-tick-which-keeps-the-derived.png
+11:10:21 about to click the Derived 1 row, to rename it at (140, 287)
+11:10:22 clicked the Derived 1 row, to rename it -> 23-b-done-the-derived-1-row-to-rename-it.png
+11:10:22 about to click Rename in the context menu at (261, 311)
+11:10:23 clicked Rename in the context menu -> 24-b-done-rename-in-the-context-menu.png
+11:10:25 renamed 'Derived 1' to 'Blade from the joint'
+11:10:25 derived Detent blade as 'Blade from the joint'
+11:10:26 about to press Alt+c to alt-c, which opens the tool search
+11:10:26 pressed Alt+c to alt-c, which opens the tool search -> 26-b-done-alt-c-which-opens-the-tool-search.png
+11:10:33 about to click the Derived result, which arms the tool at (1120, 159)
+11:10:34 clicked the Derived result, which arms the tool -> 27-b-done-the-derived-result-which-arms-the-tool.png
+11:10:37 Derived armed after about 3 s
+11:10:37 about to click Select Part Studio…, which opens the document picker at (368, 148)
+11:10:38 clicked Select Part Studio…, which opens the document picker -> 28-b-done-select-part-studio-which-opens-the-document-pick.png
+11:10:42 about to click the Other documents tab in the picker at (692, 124)
+11:10:43 clicked the Other documents tab in the picker -> 29-b-done-the-other-documents-tab-in-the-picker.png
+11:10:46 about to click the picker's search box at (620, 161)
+11:10:47 clicked the picker's search box -> 30-b-done-the-picker-s-search-box.png
+11:10:52 about to press Enter to Enter, which is what runs the picker's search
+11:10:52 pressed Enter to Enter, which is what runs the picker's search -> 31-b-done-enter-which-is-what-runs-the-picker-s-search.png
+11:10:57 about to click the ball-socket-run6p2 document at (607, 195)
+11:10:58 clicked the ball-socket-run6p2 document -> 32-b-done-the-ball-socket-run6p2-document.png
+11:11:03 the picker reads version ['ball-socket-run6p2-2026-08-15']; wanted 'ball-socket-run6p2-2026-08-15'
+11:11:03 about to click Ball stud, off ball-socket-run6p2-2026-08-15 at (672, 284)
+11:11:05 clicked Ball stud, off ball-socket-run6p2-2026-08-15 -> 33-b-done-ball-stud-off-ball-socket-run6p2-2026-08-15.png
+11:11:08 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+11:11:09 clicked the X on the picker, which leaves the Derived dialog standing -> 34-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+11:11:11 about to click the green tick, which keeps the Derived at (424, 93)
+11:11:14 clicked the green tick, which keeps the Derived -> 36-b-done-the-green-tick-which-keeps-the-derived.png
+11:11:19 about to click the Derived 1 row, to rename it at (140, 313)
+11:11:19 clicked the Derived 1 row, to rename it -> 37-b-done-the-derived-1-row-to-rename-it.png
+11:11:20 about to click Rename in the context menu at (261, 337)
+11:11:20 clicked Rename in the context menu -> 38-b-done-rename-in-the-context-menu.png
+11:11:22 renamed 'Derived 1' to 'Ball from the joint'
+11:11:22 derived Ball stud as 'Ball from the joint'
+11:11:46 about to click Ball stud in the parts list, the thing to move at (140, 722)
+11:11:47 clicked Ball stud in the parts list, the thing to move -> 40-b-done-ball-stud-in-the-parts-list-the-thing-to-move.png
+11:11:49 about to press Alt+c to alt-c, which opens the tool search
+11:11:50 pressed Alt+c to alt-c, which opens the tool search -> 41-b-done-alt-c-which-opens-the-tool-search.png
+11:11:56 about to click the Transform result, which arms the tool at (1120, 159)
+11:11:58 clicked the Transform result, which arms the tool -> 42-b-done-the-transform-result-which-arms-the-tool.png
+11:12:04 about to click the transformation-type dropdown at (430, 175)
+11:12:05 clicked the transformation-type dropdown -> 43-b-done-the-transformation-type-dropdown.png
+11:12:07 about to click Translate by XYZ in the list at (350, 258)
+11:12:09 clicked Translate by XYZ in the list -> 44-b-done-translate-by-xyz-in-the-list.png
+11:12:15 about to click the green tick, which keeps the move at (424, 93)
+11:12:17 clicked the green tick, which keeps the move -> 46-b-done-the-green-tick-which-keeps-the-move.png
+11:12:22 about to click the Transform 1 row, to rename it at (140, 339)
+11:12:23 clicked the Transform 1 row, to rename it -> 47-b-done-the-transform-1-row-to-rename-it.png
+11:12:23 about to click Rename in the context menu at (251, 363)
+11:12:24 clicked Rename in the context menu -> 48-b-done-rename-in-the-context-menu.png
+11:12:26 renamed 'Transform 1' to 'Drop the ball to the wrist'
+11:12:56 about to click the Top plane, which the limb's section sits on at (140, 209)
+11:12:57 clicked the Top plane, which the limb's section sits on -> 50-b-done-the-top-plane-which-the-limb-s-section-sits-on.png
+11:12:58 about to click the Sketch tool at (130, 58)
+11:12:59 clicked the Sketch tool -> 51-b-done-the-sketch-tool.png
+11:13:02 about to press n to n, to look square on at the sketch plane
+11:13:05 pressed n to n, to look square on at the sketch plane -> 52-b-done-n-to-look-square-on-at-the-sketch-plane.png
+11:13:07 about to click the View menu at (1563, 232)
+11:13:08 clicked the View menu -> 53-b-done-the-view-menu.png
+11:13:09 about to click Zoom to fit at (1458, 393)
+11:13:12 clicked Zoom to fit -> 54-b-done-zoom-to-fit.png
+11:13:49 about to click the circle tool at (306, 58)
+11:13:50 clicked the circle tool -> 56-b-done-the-circle-tool.png
+11:13:51 about to click the sketch origin, for the circle's centre at (922, 522)
+11:13:53 clicked the sketch origin, for the circle's centre -> 57-b-done-the-sketch-origin-for-the-circle-s-centre.png
+11:13:54 about to click a point out from the centre, to set the size at (1050, 522)
+11:13:58 clicked a point out from the centre, to set the size -> 58-b-done-a-point-out-from-the-centre-to-set-the-size.png
+11:14:01 about to click the circle, to dimension it at (1050, 522)
+11:14:02 clicked the circle, to dimension it -> 59-b-done-the-circle-to-dimension-it.png
+11:14:03 about to click a clear spot to park the number at (1200, 400)
+11:14:05 clicked a clear spot to park the number -> 60-b-done-a-clear-spot-to-park-the-number.png
+11:14:08 the limb's diameter: 3.59421 mm -> 12
+11:14:30 about to click the green tick, to close the sketch at (424, 93)
+11:14:32 clicked the green tick, to close the sketch -> 62-b-done-the-green-tick-to-close-the-sketch.png
+11:14:34 about to click the Sketch 1 row, to rename it at (140, 365)
+11:14:35 clicked the Sketch 1 row, to rename it -> 63-b-done-the-sketch-1-row-to-rename-it.png
+11:14:35 about to click Rename in the context menu at (263, 389)
+11:14:35 clicked Rename in the context menu -> 64-b-done-rename-in-the-context-menu.png
+11:14:38 renamed 'Sketch 1' to 'Limb section'
+11:14:39 about to click the Limb section row, as the thing to extrude at (140, 365)
+11:14:40 clicked the Limb section row, as the thing to extrude -> 66-b-done-the-limb-section-row-as-the-thing-to-extrude.png
+11:14:41 about to click Extrude on the toolbar at (219, 58)
+11:14:43 clicked Extrude on the toolbar -> 67-b-done-extrude-on-the-toolbar.png
+11:14:46 the dialog reads 'Extrude 1\nSolid\nSurface\nThin\nNew\nAdd\nRemove\nIntersect\nFaces and sketch regions to extrude\nFaces of Limb section\n×\nBlind\nDepth\nDirection\nStarting offset\nSymmetric\nDraft\nSecond end position\nMerge with all\nMerge scope\nDetent blade\n×'
+11:15:24 about to click New, so the stock is its own body until the union at (268, 149)
+11:15:25 clicked New, so the stock is its own body until the union -> 69-b-done-new-so-the-stock-is-its-own-body-until-the-union.png
+11:15:27 about to click the Direction box at (272, 286)
+11:15:29 clicked the Direction box -> 70-b-done-the-direction-box.png
+11:15:31 about to click the Starting offset box at (272, 349)
+11:15:32 clicked the Starting offset box -> 71-b-done-the-starting-offset-box.png
+11:15:34 the length boxes read [['25 mm', 359, 259], ['25 mm', 374, 404]]
+11:15:41 about to click the green tick, which keeps the stock at (424, 93)
+11:15:43 clicked the green tick, which keeps the stock -> 73-b-done-the-green-tick-which-keeps-the-stock.png
+11:15:48 about to click the Extrude 1 row, to rename it at (140, 391)
+11:15:49 clicked the Extrude 1 row, to rename it -> 74-b-done-the-extrude-1-row-to-rename-it.png
+11:15:49 about to click Rename in the context menu at (279, 415)
+11:15:50 clicked Rename in the context menu -> 75-b-done-rename-in-the-context-menu.png
+11:15:52 renamed 'Extrude 1' to 'Limb'
+11:16:31 about to click the Direction box, to turn it back off at (272, 286)
+11:16:32 clicked the Direction box, to turn it back off -> 77-b-done-the-direction-box-to-turn-it-back-off.png
+11:16:35 about to click the arrows on the Depth row, which send it the other way at (425, 261)
+11:16:36 clicked the arrows on the Depth row, which send it the other way -> 78-b-done-the-arrows-on-the-depth-row-which-send-it-the-ot.png
+11:16:39 about to click the green tick, which keeps the stock at (424, 93)
+11:16:41 clicked the green tick, which keeps the stock -> 80-b-done-the-green-tick-which-keeps-the-stock.png
+11:17:30 about to click the direction toggle, back the other way at (425, 262)
+11:17:31 clicked the direction toggle, back the other way -> 82-b-done-the-direction-toggle-back-the-other-way.png
+11:17:34 about to click the green tick, which keeps the stock at (424, 93)
+11:17:35 clicked the green tick, which keeps the stock -> 84-b-done-the-green-tick-which-keeps-the-stock.png
+11:18:40 about to click the direction toggle, to send the stock down at (425, 262)
+11:18:42 clicked the direction toggle, to send the stock down -> 85-b-done-the-direction-toggle-to-send-the-stock-down.png
+11:18:45 about to click the green tick at (424, 93)
+11:18:47 clicked the green tick -> 86-b-done-the-green-tick.png
+11:19:22 about to click the green tick, which keeps the stock at (424, 93)
+11:19:24 clicked the green tick, which keeps the stock -> 88-b-done-the-green-tick-which-keeps-the-stock.png
+11:23:04 about to click Boolean on the toolbar at (780, 58)
+11:23:05 clicked Boolean on the toolbar -> 89-b-done-boolean-on-the-toolbar.png
+11:23:09 about to click Detent blade in the parts list at (140, 696)
+11:23:11 clicked Detent blade in the parts list -> 90-b-done-detent-blade-in-the-parts-list.png
+11:23:13 about to click Part 3 in the parts list at (140, 748)
+11:23:15 clicked Part 3 in the parts list -> 91-b-done-part-3-in-the-parts-list.png
+11:23:18 about to click Ball stud in the parts list at (140, 722)
+11:23:19 clicked Ball stud in the parts list -> 92-b-done-ball-stud-in-the-parts-list.png
+11:23:21 about to click the Keep tools box, to turn it off at (239, 253)
+11:23:22 clicked the Keep tools box, to turn it off -> 93-b-done-the-keep-tools-box-to-turn-it-off.png
+11:23:23 about to click the green tick, which keeps the union at (424, 93)
+11:23:25 clicked the green tick, which keeps the union -> 94-b-done-the-green-tick-which-keeps-the-union.png
+11:23:30 about to click the Boolean 1 row, to rename it at (140, 417)
+11:23:31 clicked the Boolean 1 row, to rename it -> 95-b-done-the-boolean-1-row-to-rename-it.png
+11:23:31 about to click Rename in the context menu at (251, 441)
+11:23:31 clicked Rename in the context menu -> 96-b-done-rename-in-the-context-menu.png
+11:23:33 renamed 'Boolean 1' to 'Union the limb and both joints'
+11:23:34 about to click the Detent blade row, to rename it at (140, 696)
+11:23:35 clicked the Detent blade row, to rename it -> 98-b-done-the-detent-blade-row-to-rename-it.png
+11:23:35 about to click Rename in the context menu at (274, 364)
+11:23:35 clicked Rename in the context menu -> 99-b-done-rename-in-the-context-menu.png
+11:23:38 renamed 'Detent blade' to 'limb-blade-ball'
+11:23:38 tree now ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Blade from the joint', 'Ball from the joint', 'Drop the ball to the wrist', 'Limb section', 'Limb', 'Union the limb and both joints', '', 'Parts (1)', 'limb-blade-ball']
+11:24:17 about to click the View menu at (1563, 232)
+11:24:18 clicked the View menu -> 102-b-done-the-view-menu.png
+11:24:19 about to click Isometric at (1458, 258)
+11:24:21 clicked Isometric -> 103-b-done-isometric.png
+11:24:24 about to click the View menu at (1563, 232)
+11:24:25 clicked the View menu -> 104-b-done-the-view-menu.png
+11:24:26 about to click Zoom to fit at (1458, 393)
+11:24:28 clicked Zoom to fit -> 105-b-done-zoom-to-fit.png
+11:25:17 about to press Control+m to ctrl-m, which opens Mate connector
+11:25:18 pressed Control+m to ctrl-m, which opens Mate connector -> 107-b-done-ctrl-m-which-opens-mate-connector.png
+11:25:22 about to click the Origin entity field, to arm it at (355, 154)
+11:25:23 clicked the Origin entity field, to arm it -> 108-b-done-the-origin-entity-field-to-arm-it.png
+11:25:25 about to click the ball itself, so the connector sits at its centre at (920, 800)
+11:25:26 clicked the ball itself, so the connector sits at its centre -> 109-b-done-the-ball-itself-so-the-connector-sits-at-its-cen.png
+11:25:28 the dialog reads 'Mate connector 1\nOn entity\nOrigin entity\nRealign\nMove\nOwner entity\nSelect owner entity\nAttachment\nNone'
+11:25:28 about to click the green tick, which keeps the connector at (424, 93)
+11:25:29 clicked the green tick, which keeps the connector -> 111-b-done-the-green-tick-which-keeps-the-connector.png
+11:25:33 about to click the Mate connector 1 row, to rename it at (140, 443)
+11:25:34 clicked the Mate connector 1 row, to rename it -> 112-b-done-the-mate-connector-1-row-to-rename-it.png
+11:26:37 about to press Control+m to ctrl-m, which opens Mate connector
+11:26:39 pressed Control+m to ctrl-m, which opens Mate connector -> 113-b-done-ctrl-m-which-opens-mate-connector.png
+11:26:43 about to click the ball itself, so the connector sits at its centre at (920, 800)
+11:26:44 clicked the ball itself, so the connector sits at its centre -> 114-b-done-the-ball-itself-so-the-connector-sits-at-its-cen.png
+11:26:46 about to click the owner field, to arm it at (355, 272)
+11:26:47 clicked the owner field, to arm it -> 115-b-done-the-owner-field-to-arm-it.png
+11:26:48 about to click the limb in the viewport, so the part owns the connector at (920, 600)
+11:26:50 clicked the limb in the viewport, so the part owns the connector -> 116-b-done-the-limb-in-the-viewport-so-the-part-owns-the-co.png
+11:26:52 the dialog reads 'Mate connector 1\nOn entity\nOrigin entity\nRealign\nMove\nOwner entity\nSelect owner entity\nlimb-blade-ball\n×\nAttachment\nTo owner'
+11:26:52 about to click the green tick, which keeps the connector at (424, 93)
+11:26:54 clicked the green tick, which keeps the connector -> 118-b-done-the-green-tick-which-keeps-the-connector.png
+11:27:31 about to select the Mate connector 1 row, the first feature that re-creates a joint at (140, 443)
+11:27:32 selected the Mate connector 1 row, the first feature that re-creates a joint -> 119-a-select-the-mate-connector-1-row-the-first-feature-that-.png
+11:27:33 about to click the Mate connector 1 row, with Shift, to take the whole tail at (140, 443)
+11:27:34 clicked the Mate connector 1 row, with Shift, to take the whole tail -> 120-b-done-the-mate-connector-1-row-with-shift-to-take-the-.png
+11:27:35 about to click the picked rows, to open their menu at (140, 443)
+11:27:36 clicked the picked rows, to open their menu -> 122-b-done-the-picked-rows-to-open-their-menu.png
+11:27:38 about to click Delete in the context menu at (289, 671)
+11:27:39 clicked Delete in the context menu -> 123-b-done-delete-in-the-context-menu.png
+11:27:43 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Blade from the joint', 'Ball from the joint', 'Drop the ball to the wrist', 'Limb section', 'Limb', 'Union the limb and both joints', '', 'Parts (1)', 'limb-blade-ball']
+11:27:43 about to press Control+m to ctrl-m, which opens Mate connector
+11:27:44 pressed Control+m to ctrl-m, which opens Mate connector -> 124-b-done-ctrl-m-which-opens-mate-connector.png
+11:27:48 about to click the Origin entity field, to arm it at (355, 154)
+11:27:49 clicked the Origin entity field, to arm it -> 125-b-done-the-origin-entity-field-to-arm-it.png
+11:27:51 about to click the Origin, which the connector starts from at (140, 183)
+11:27:53 clicked the Origin, which the connector starts from -> 126-b-done-the-origin-which-the-connector-starts-from.png
+11:27:56 about to click the Move box, to send it down to the wrist at (252, 231)
+11:27:58 clicked the Move box, to send it down to the wrist -> 127-b-done-the-move-box-to-send-it-down-to-the-wrist.png
+11:28:00 the length boxes read [['0 mm', 356, 258], ['0 mm', 356, 284], ['0 mm', 356, 310]]
+11:28:04 the dialog reads 'Mate connector 1\nOn entity\nOrigin entity\nVertex of Origin\n×\nRealign\nMove\nRotate about Z\nRotation angle\nOwner entity\nSelect owner entity\nlimb-blade-ball\n×\nAttachment\nTo owner'
+11:28:04 about to click the green tick, which keeps the connector at (424, 93)
+11:28:05 clicked the green tick, which keeps the connector -> 129-b-done-the-green-tick-which-keeps-the-connector.png
+11:28:09 about to click the Mate connector 1 row, to rename it at (140, 443)
+11:28:10 clicked the Mate connector 1 row, to rename it -> 130-b-done-the-mate-connector-1-row-to-rename-it.png
+11:28:10 about to click Rename in the context menu at (251, 467)
+11:28:11 clicked Rename in the context menu -> 131-b-done-rename-in-the-context-menu.png
+11:28:13 renamed 'Mate connector 1' to 'Ball'
+11:28:42 about to press Control+m to ctrl-m, which opens Mate connector
+11:28:44 pressed Control+m to ctrl-m, which opens Mate connector -> 133-b-done-ctrl-m-which-opens-mate-connector.png
+11:28:48 about to click the Origin entity field, to arm it at (355, 154)
+11:28:49 clicked the Origin entity field, to arm it -> 134-b-done-the-origin-entity-field-to-arm-it.png
+11:28:51 about to click the Origin, where the hinge turns at (140, 183)
+11:28:53 clicked the Origin, where the hinge turns -> 135-b-done-the-origin-where-the-hinge-turns.png
+11:28:55 about to click the Realign box, to point the connector along the hinge axis at (252, 204)
+11:28:57 clicked the Realign box, to point the connector along the hinge axis -> 136-b-done-the-realign-box-to-point-the-connector-along-the.png
+11:29:00 about to click the Primary axis entity field, to arm it at (356, 235)
+11:29:01 clicked the Primary axis entity field, to arm it -> 137-b-done-the-primary-axis-entity-field-to-arm-it.png
+11:29:03 about to click the Front plane, whose normal is the hinge axis at (140, 235)
+11:29:05 clicked the Front plane, whose normal is the hinge axis -> 138-b-done-the-front-plane-whose-normal-is-the-hinge-axis.png
+11:29:07 after the primary axis the dialog reads 'Mate connector 1\nOn entity\nOrigin entity\nVertex of Origin\n×\nRealign\nPrimary axis entity\nFront plane\n×\nSecondary axis entity\nMove\nOwner entity\nSelect owner entity\nFront plane\n×\nAttachment\nNone'
+11:29:07 the chips to clear are at [[447, 172], [447, 253], [447, 393]]
+11:29:07 about to click the x on the owner chip, which holds the wrong thing at (447, 393)
+11:29:09 clicked the x on the owner chip, which holds the wrong thing -> 139-b-done-the-x-on-the-owner-chip-which-holds-the-wrong-th.png
+11:29:11 about to click the limb itself in the viewport, so the part owns the connector at (920, 600)
+11:29:12 clicked the limb itself in the viewport, so the part owns the connector -> 140-b-done-the-limb-itself-in-the-viewport-so-the-part-owns.png
+11:29:14 the dialog reads 'Mate connector 1\nOn entity\nOrigin entity\nVertex of Origin\n×\nRealign\nPrimary axis entity\nFront plane\n×\nSecondary axis entity\nMove\nOwner entity\nSelect owner entity\nlimb-blade-ball\n×\nAttachment\nTo owner'
+11:29:15 about to click the green tick, which keeps the connector at (424, 93)
+11:29:16 clicked the green tick, which keeps the connector -> 142-b-done-the-green-tick-which-keeps-the-connector.png
+11:29:20 about to click the Mate connector 1 row, to rename it at (140, 469)
+11:29:21 clicked the Mate connector 1 row, to rename it -> 143-b-done-the-mate-connector-1-row-to-rename-it.png
+11:29:21 about to click Rename in the context menu at (260, 493)
+11:29:22 clicked Rename in the context menu -> 144-b-done-rename-in-the-context-menu.png
+11:29:24 renamed 'Mate connector 1' to 'Hinge'
+21:44:34 about to click the limb-blade-ball row, to rename it at (140, 696)
+21:44:35 clicked the limb-blade-ball row, to rename it -> 146-b-done-the-limb-blade-ball-row-to-rename-it.png
+21:44:35 about to click Rename in the context menu at (281, 364)
+21:44:36 clicked Rename in the context menu -> 147-b-done-rename-in-the-context-menu.png
+21:44:38 renamed 'limb-blade-ball' to 'Lower limb'

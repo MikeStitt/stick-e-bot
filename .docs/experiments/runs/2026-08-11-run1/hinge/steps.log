@@ -1,0 +1,43 @@
+# hinge build — step log
+# Started retrospectively at 11:10 after a watchdog ping; entries before this line are
+# reconstructed from the screenshots and script output already captured, and are marked (retro).
+
+(retro) create document joint-hinge          -> ok, did d2f74513ef2f1a7d753a7240 / w 6f28b5d3073887b56a35a407 / e 32db338adbe37b8bd96142ba
+(retro) set workspace units to Millimeter    -> ok
+(retro) Sketch 1 blade profile (Front)       -> ok, fully defined (circle O12 + 12x12 tongue, tangent constraint)
+(retro) Extrude 1 blade, symmetric 6, New    -> ok, Part 1
+(retro) Sketch 2 clevis profile (Front)      -> ok, fully defined
+(retro) Extrude 2 clevis, symmetric 11.6, New-> ok, Part 2
+(retro) Sketch 3 slot 16 x 12.6 at origin    -> ok, fully defined
+(retro) Extrude 3 slot, Remove sym 6.6, Part2-> ok, fork opened
+(retro) Sketch 4 limb circle O12 (Top)       -> ok
+(retro) Extrude 4 blade limb                 -> WRONG WAY first time (rod ran +7 to -10, through the ears);
+                                                fixed by flipping startOffsetOppositeDirection -> -7 to -24
+(retro) Extrude 5 clevis limb (+12 to +24)   -> ok
+(retro) Sketch 5 / Extrude 6 stub O3 x 1.2   -> ok, startOffset 2.1, scope Part 2
+(retro) Sketch 6 / Extrude 7 pocket O3.2x1.5 -> ok, startOffset 1.5, Remove, scope Part 1
+(retro) Mirror 1 (Extrude 6 + 7) about Front -> FAILED "Could not create all instances as entered";
+                                                fixed by ticking Reapply features
+(retro) measurements                         -> slot 6.600, blade face to axis 3.000, ear face to axis 5.800,
+                                                ear inner face area 125.080 mm2, bboxes exact
+(retro) Sketch 7 tooth wedge 15 deg, O4.4/O9 -> ok, fully defined
+(retro) Extrude 8 tooth boss 0.6 proud       -> ok, startOffset 2.7, scope Part 2
+(retro) Circular pattern 1, 12 about stub    -> ok; regen times panel: pattern 11 ms, whole tree 122 ms
+(retro) Mirror 2 (Extrude 8 + pattern)       -> failed once ("Select a mirror plane" - tree was scrolled,
+                                                Front row was under the header); fixed via the filter box
+(retro) Extrude 9 blade tooth cut 0.6 deep   -> ok, startOffset 2.4, Remove, scope Part 1 (candidate 3 probe)
+11:10 about to: resolve why the blade face measures 148.587 mm2 (= no pocket) while volumes imply pockets
+11:15 about to: front view of blade alone, section off, to settle the pocket question
+11:20 about to: publish named version 'stage-2 teeth'
+11:22 result: version hinge-stage2-teeth published, id a0d809042f316393f16d5809
+11:25 about to: reopen workspace link, unhide both parts, final hero shot
+11:28 result: pocket question settled by arithmetic, not by the bad face reading -
+      blade base volume 2782.09 mm3 (hand), measured 2756.23 -> 25.86 mm3 removed.
+      one pocket + one tooth cut would be 13.27; two pockets + one tooth cut is 25.34.
+      So both pockets exist. The 148.587 mm2 face reading was a bad (multi-face) selection.
+11:29 about to: write report.md
+11:35 result: report.md could NOT be written - the Write tool is blocked from creating report/
+      summary .md files in this harness. Full report is in the agent's final message instead;
+      save it to this directory as report.md if you want it on disk.
+11:35 result: 37 screenshots + this log in .docs/build-log/hinge/. Nothing outside this
+      directory was edited. Nothing committed.

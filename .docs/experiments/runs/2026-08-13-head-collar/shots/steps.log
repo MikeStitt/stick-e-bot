@@ -1,0 +1,407 @@
+23:16:48 about to open Neck recess for inspection
+23:17:05 about to open Neck recess for inspection
+23:17:52 about to open Boss circle for inspection
+23:18:24 about to open the Boss circle sketch for edit
+23:18:53 about to zoom in on the Boss circle sketch
+23:19:13 about to double-click the diameter label to edit it
+23:19:27 about to set the collar diameter to 9.4 mm
+23:19:27 field reads '9.4 mm'
+23:19:46 about to click the green check to accept the Boss circle sketch at (424, 93)
+23:19:49 clicked the green check to accept the Boss circle sketch -> 09-b-done-the-green-check-to-accept-the-boss-circle-sketch.png
+23:19:49 after accepting the Boss circle sketch, no errored rows in the tree
+23:20:03 about to open Neck recess to turn it into the collar
+23:20:20 about to click the Add tab, so the feature builds the collar instead of cutting at (312, 149)
+23:20:21 clicked the Add tab, so the feature builds the collar instead of cutting -> 11-b-done-the-add-tab-so-the-feature-builds-the-collar-ins.png
+23:20:42 about to click the x that clears the region field at (447, 200)
+23:20:43 clicked the x that clears the region field -> 13-b-done-the-x-that-clears-the-region-field.png
+23:20:43 about to select the disc inside the collar circle at (922, 525)
+23:20:44 selected the disc inside the collar circle -> 14-a-select-the-disc-inside-the-collar-circle.png
+23:21:23 about to show the Boss circle sketch so its regions can be picked
+23:21:41 about to click into the region field, so the next pick lands in it at (355, 182)
+23:21:42 clicked into the region field, so the next pick lands in it -> 15-b-done-into-the-region-field-so-the-next-pick-lands-in-.png
+23:21:42 about to select the disc inside the collar circle at (922, 525)
+23:21:43 selected the disc inside the collar circle -> 16-a-select-the-disc-inside-the-collar-circle.png
+23:22:35 about to hide the Head part so the underside sketch can be picked
+23:22:40 about to open Neck recess again
+23:22:43 region field reads: Faces and sketch regions to extrude | Face of Boss circle | ×
+23:22:43 about to click the Add tab at (312, 149)
+23:22:44 clicked the Add tab -> 18-b-done-the-add-tab.png
+23:22:44 about to click the x that clears the region field at (447, 200)
+23:22:44 clicked the x that clears the region field -> 19-b-done-the-x-that-clears-the-region-field.png
+23:22:44 region field after clearing: Faces and sketch regions to extrude
+23:22:44 about to select the disc inside the collar circle, with the part hidden at (922, 525)
+23:22:46 selected the disc inside the collar circle, with the part hidden -> 20-a-select-the-disc-inside-the-collar-circle-with-the-part-.png
+23:22:46 region field after the pick: Faces and sketch regions to extrude | Face of Boss circle | ×
+23:23:07 about to set the collar depth to '5.5 mm'
+23:23:53 about to set the collar depth to 5.5 mm (input #7, reads '1 mm')
+23:23:53 depth field reads '5.5 mm'
+23:24:25 about to click the Direction label, to flip the collar outward at (310, 287)
+23:24:26 clicked the Direction label, to flip the collar outward -> 22-b-done-the-direction-label-to-flip-the-collar-outward.png
+23:24:36 about to click the green check to accept the collar extrude at (424, 93)
+23:24:39 clicked the green check to accept the collar extrude -> 23-b-done-the-green-check-to-accept-the-collar-extrude.png
+23:24:39 after accepting the collar extrude, tree has errors: ['Neck recess', 'Ball profile', 'Boss rim chamfer']
+23:24:54 Neck recess: None
+23:24:56 Ball profile: None
+23:24:59 Boss rim chamfer: None
+23:25:27 Neck recess tooltip candidates: []
+23:25:30 Boss rim chamfer tooltip candidates: []
+23:28:35 about to double-click Neck recess to open its dialog
+23:29:00 Neck recess checkboxes before: [['Direction', True], ['Starting offset', False], ['Symmetric', False], ['Draft', False], ['Second end position', False], ['Merge with all', True]]
+23:29:00 about to click the Direction checkbox, to drop the empty direction reference at (276, 286)
+23:29:01 clicked the Direction checkbox, to drop the empty direction reference -> 28-b-done-the-direction-checkbox-to-drop-the-empty-directi.png
+23:29:01 Neck recess checkboxes after: [['Direction', False], ['Starting offset', False], ['Symmetric', False], ['Draft', False], ['Second end position', False], ['Merge with all', True]]
+23:29:15 about to click the flip arrow beside Blind, to send the collar out of the underside at (452, 231)
+23:29:19 clicked the flip arrow beside Blind, to send the collar out of the underside -> 29-b-done-the-flip-arrow-beside-blind-to-send-the-collar-o.png
+23:29:30 about to click the green check to accept the collar extrude, flipped outward at (424, 93)
+23:29:33 clicked the green check to accept the collar extrude, flipped outward -> 30-b-done-the-green-check-to-accept-the-collar-extrude-fli.png
+23:29:33 after accepting the collar extrude, flipped outward, tree has errors: ['Ball profile', 'Head shell']
+23:29:54 Ball profile: ['Ball profile [Sketch] did not regenerate properly: Some external references are missing. (Hidden)']
+23:29:57 Head shell: ['Head shell did not regenerate properly: Could not shell part with selections.']
+23:30:00 Boss rim chamfer: []
+23:30:13 about to double-click Ball profile to open its dialog
+23:30:53 about to click the view cube's down arrow at (1509, 236)
+23:30:55 clicked the view cube's down arrow -> 36-b-done-the-view-cube-s-down-arrow.png
+23:31:23 about to click the green check to close Ball profile unchanged at (424, 93)
+23:31:26 clicked the green check to close Ball profile unchanged -> 37-b-done-the-green-check-to-close-ball-profile-unchanged.png
+23:31:26 about to right-click Front and pick View normal to
+23:31:38 about to click the green check to close Ball profile unchanged at (424, 93)
+23:31:41 clicked the green check to close Ball profile unchanged -> 39-b-done-the-green-check-to-close-ball-profile-unchanged.png
+23:31:41 about to right-click Front and pick View normal to
+23:32:50 about to click the view cube's roll arrow (1 of 2) at (1548, 108)
+23:32:52 clicked the view cube's roll arrow (1 of 2) -> 42-b-done-the-view-cube-s-roll-arrow-1-of-2.png
+23:32:52 about to click the view cube's roll arrow (2 of 2) at (1548, 108)
+23:32:53 clicked the view cube's roll arrow (2 of 2) -> 43-b-done-the-view-cube-s-roll-arrow-2-of-2.png
+23:33:31 about to right-click Head and pick Show
+23:33:35 about to click the view menu at (1563, 232)
+23:33:36 clicked the view menu -> 44-b-done-the-view-menu.png
+23:33:37 unexpected: no Zoom to fit in the view menu -> 45-x-no-zoom-to-fit-in-the-view-menu.png
+23:34:04 about to click the view menu at (1563, 232)
+23:34:05 clicked the view menu -> 46-b-done-the-view-menu.png
+23:34:05 about to click Zoom to fit at (1438, 393)
+23:34:08 clicked Zoom to fit -> 47-b-done-zoom-to-fit.png
+23:34:21 about to click the view cube at (1509, 165) at (1509, 165)
+23:34:23 clicked the view cube at (1509, 165) -> 48-b-done-the-view-cube-at-1509-165.png
+23:34:45 about to double-click Ball profile to open its dialog
+23:36:44 about to double-click the 3.35 dimension at (893, 497)
+23:37:42 about to click the red X to cancel the dimension edit at (1053, 497)
+23:37:44 clicked the red X to cancel the dimension edit -> 57-b-done-the-red-x-to-cancel-the-dimension-edit.png
+23:39:14 about to double-click the R3 radius dimension at (1453, 820)
+23:40:06 about to press Escape to cancel the radius dimension editor
+23:40:07 pressed Escape to cancel the radius dimension editor -> 61-b-done-cancel-the-radius-dimension-editor.png
+23:40:07 about to click the green check to close Ball profile unchanged at (424, 93)
+23:40:10 clicked the green check to close Ball profile unchanged -> 62-b-done-the-green-check-to-close-ball-profile-unchanged.png
+23:40:10 about to double-click Neck ball tool
+23:40:55 about to click the green check to close the open dialog at (424, 93)
+23:40:57 clicked the green check to close the open dialog -> 64-b-done-the-green-check-to-close-the-open-dialog.png
+23:40:57 about to double-click Neck socket #0
+23:41:00 done
+23:41:30 about to click the green check to close the Neck socket dialog at (424, 93)
+23:41:32 clicked the green check to close the Neck socket dialog -> 66-b-done-the-green-check-to-close-the-neck-socket-dialog.png
+23:41:32 about to double-click Ball profile to edit the sketch
+23:42:04 about to select the broken 3.35 dimension at (806, 172)
+23:42:05 selected the broken 3.35 dimension -> 68-a-select-the-broken-3-35-dimension.png
+23:42:05 about to press Delete to delete the broken 3.35 dimension
+23:42:08 pressed Delete to delete the broken 3.35 dimension -> 69-b-done-delete-the-broken-3-35-dimension.png
+23:43:14 about to click the Search tools box at (1130, 58)
+23:43:15 clicked the Search tools box -> 70-b-done-the-search-tools-box.png
+23:43:18 about to press Enter to take the first hit for Dimension
+23:43:20 pressed Enter to take the first hit for Dimension -> 72-b-done-take-the-first-hit-for-dimension.png
+23:43:57 about to select the sketch origin at (917, 171)
+23:43:58 selected the sketch origin -> 73-a-select-the-sketch-origin.png
+23:43:58 about to select the ball arc's center point at (917, 621)
+23:44:00 selected the ball arc's center point -> 74-a-select-the-ball-arc-s-center-point.png
+23:44:00 about to click a spot to the left to place the dimension at (700, 400)
+23:44:02 clicked a spot to the left to place the dimension -> 75-b-done-a-spot-to-the-left-to-place-the-dimension.png
+23:44:27 about to set the origin-to-ball-center dimension to '22.15' (input #4 reads '16.65 mm')
+23:44:27 about to press Enter to commit the origin-to-ball-center dimension at 22.15
+23:44:29 pressed Enter to commit the origin-to-ball-center dimension at 22.15 -> 76-b-done-commit-the-origin-to-ball-center-dimension-at-22.png
+23:44:54 about to click the green check to accept the Ball profile sketch with the ball at 22.15 at (424, 93)
+23:44:57 clicked the green check to accept the Ball profile sketch with the ball at 22.15 -> 77-b-done-the-green-check-to-accept-the-ball-profile-sketc.png
+23:44:57 after accepting the Ball profile sketch with the ball at 22.15, no errored rows in the tree
+23:48:21 about to right-click Boss rim chamfer #0 and pick 'Delete'
+23:48:24 unexpected: could not reach 'Delete' on Boss rim chamfer -> 79-x-could-not-reach-delete-on-boss-rim-chamfer.png
+23:49:06 tree rows now: ['Default geometry', '...', '...', 'Boss rim chamfer', '...', 'Parts (1)', '…']
+23:49:11 picked 'Delete' at 115, 510
+23:49:12 after Delete on Boss rim chamfer, no errored rows in the tree
+23:49:46 about to press Enter to rename Boss circle to Collar circle
+23:49:48 pressed Enter to rename Boss circle to Collar circle -> 83-b-done-rename-boss-circle-to-collar-circle.png
+23:49:48 tree rows now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Collar circle', 'Neck recess', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Neck socket', 'Parts (1)', 'Head']
+23:49:48 after renaming Boss circle to Collar circle, no errored rows in the tree
+23:51:18 about to press Enter to rename Neck recess to Neck collar
+23:51:20 pressed Enter to rename Neck recess to Neck collar -> 85-b-done-rename-neck-recess-to-neck-collar.png
+23:51:20 tree rows now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Collar circle', 'Neck collar', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Neck socket', 'Parts (1)', 'Head']
+23:51:20 after renaming Neck recess to Neck collar, no errored rows in the tree
+23:51:51 tree filtered to 'Neck socket': ['Default geometry', '...', '...', 'Neck socket', '...', 'Neck socket', 'Parts (1)', '…']
+23:51:51 about to double-click Neck socket #1 at 96, 286
+23:52:21 about to set the Neck socket mate connector's Z offset to '-22.15' (input #11 reads '-16.65 mm')
+23:52:23 about to click the green check to accept the Neck socket mate connector's Z offset at (424, 93)
+23:52:26 clicked the green check to accept the Neck socket mate connector's Z offset -> 88-b-done-the-green-check-to-accept-the-neck-socket-mate-c.png
+23:52:26 after setting the Neck socket mate connector's Z offset to -22.15, no errored rows in the tree
+23:54:44 about to click the view cube at (1509, 236) at (1509, 236)
+23:54:47 clicked the view cube at (1509, 236) -> 89-b-done-the-view-cube-at-1509-236.png
+23:55:15 about to click the view cube at (1509, 95) at (1509, 95)
+23:55:18 clicked the view cube at (1509, 95) -> 90-b-done-the-view-cube-at-1509-95.png
+23:55:19 about to click the view cube at (1509, 95) at (1509, 95)
+23:55:22 clicked the view cube at (1509, 95) -> 91-b-done-the-view-cube-at-1509-95.png
+23:55:53 about to click the view cube at (1509, 194) at (1509, 194)
+23:55:56 clicked the view cube at (1509, 194) -> 92-b-done-the-view-cube-at-1509-194.png
+23:57:10 about to select the collar rim face at (995, 530)
+23:57:11 selected the collar rim face -> 94-a-select-the-collar-rim-face.png
+23:57:11 about to click the Sketch button at (155, 58)
+23:57:14 clicked the Sketch button -> 95-b-done-the-sketch-button.png
+23:57:56 about to click the Search tools box at (1130, 58)
+23:57:58 clicked the Search tools box -> 96-b-done-the-search-tools-box.png
+23:58:01 about to press Enter to take the first hit for Center point rectangle
+23:58:03 pressed Enter to take the first hit for Center point rectangle -> 98-b-done-take-the-first-hit-for-center-point-rectangle.png
+23:58:50 drew the first slit rectangle centered at (922, 530) with corner (930, 645)
+23:59:51 about to click the Undo button (1 of 1) at (57, 58)
+23:59:52 clicked the Undo button (1 of 1) -> 102-b-done-the-undo-button-1-of-1.png
+00:00:18 about to click the Search tools box at (1130, 58)
+00:00:20 clicked the Search tools box -> 103-b-done-the-search-tools-box.png
+00:00:23 about to press Enter to take the first hit for Center point rectangle
+00:00:25 pressed Enter to take the first hit for Center point rectangle -> 105-b-done-take-the-first-hit-for-center-point-rectangle.png
+00:00:29 drew the first slit rectangle centered at (922, 530) with corner (990, 660)
+00:01:20 drew the second slit rectangle centered at (922, 530) with corner (1090, 578)
+00:02:14 about to click the Search tools box at (1130, 58)
+00:02:16 clicked the Search tools box -> 112-b-done-the-search-tools-box.png
+00:02:18 about to press Enter to take the first hit for Dimension
+00:02:20 pressed Enter to take the first hit for Dimension -> 114-b-done-take-the-first-hit-for-dimension.png
+00:02:20 about to select the first edge of the long slit's length at (900, 402)
+00:02:22 selected the first edge of the long slit's length -> 115-a-select-the-first-edge-of-the-long-slit-s-length.png
+00:02:22 about to select the second edge of the long slit's length at (900, 658)
+00:02:23 selected the second edge of the long slit's length -> 116-a-select-the-second-edge-of-the-long-slit-s-length.png
+00:02:23 about to click a spot to place the the long slit's length dimension at (660, 530)
+00:02:25 clicked a spot to place the the long slit's length dimension -> 117-b-done-a-spot-to-place-the-the-long-slit-s-length-dimen.png
+00:02:25 the long slit's length measures '13.48423 mm'; setting it to 12
+00:02:25 about to press Enter to commit the long slit's length at 12
+00:02:28 pressed Enter to commit the long slit's length at 12 -> 118-b-done-commit-the-long-slit-s-length-at-12.png
+00:03:14 about to select the first edge of the cross slit's length at (775, 530)
+00:03:15 selected the first edge of the cross slit's length -> 119-a-select-the-first-edge-of-the-cross-slit-s-length.png
+00:03:15 about to select the second edge of the cross slit's length at (1071, 530)
+00:03:17 selected the second edge of the cross slit's length -> 120-a-select-the-second-edge-of-the-cross-slit-s-length.png
+00:03:17 about to click a spot to place the the cross slit's length dimension at (920, 730)
+00:03:19 clicked a spot to place the the cross slit's length dimension -> 121-b-done-a-spot-to-place-the-the-cross-slit-s-length-dime.png
+00:03:19 the cross slit's length measures '15.39016 mm'; setting it to 12
+00:03:19 about to press Enter to commit the cross slit's length at 12
+00:03:21 pressed Enter to commit the cross slit's length at 12 -> 122-b-done-commit-the-cross-slit-s-length-at-12.png
+00:03:51 about to select the first edge of the long slit's width at (863, 440)
+00:03:53 selected the first edge of the long slit's width -> 123-a-select-the-first-edge-of-the-long-slit-s-width.png
+00:03:53 about to select the second edge of the long slit's width at (983, 440)
+00:03:54 selected the second edge of the long slit's width -> 124-a-select-the-second-edge-of-the-long-slit-s-width.png
+00:03:54 about to click a spot to place the the long slit's width dimension at (920, 340)
+00:03:56 clicked a spot to place the the long slit's width dimension -> 125-b-done-a-spot-to-place-the-the-long-slit-s-width-dimens.png
+00:03:56 the long slit's width measures '6.16773 mm'; setting it to 0.8
+00:03:56 about to press Enter to commit the long slit's width at 0.8
+00:03:59 pressed Enter to commit the long slit's width at 0.8 -> 126-b-done-commit-the-long-slit-s-width-at-0-8.png
+00:04:11 about to select the first edge of the cross slit's width at (830, 486)
+00:04:12 selected the first edge of the cross slit's width -> 127-a-select-the-first-edge-of-the-cross-slit-s-width.png
+00:04:12 about to select the second edge of the cross slit's width at (830, 574)
+00:04:14 selected the second edge of the cross slit's width -> 128-a-select-the-second-edge-of-the-cross-slit-s-width.png
+00:04:14 about to click a spot to place the the cross slit's width dimension at (1160, 530)
+00:04:16 clicked a spot to place the the cross slit's width dimension -> 129-b-done-a-spot-to-place-the-the-cross-slit-s-width-dimen.png
+00:04:16 the cross slit's width measures '12 mm'; setting it to 0.8
+00:04:16 about to press Enter to commit the cross slit's width at 0.8
+00:04:18 pressed Enter to commit the cross slit's width at 0.8 -> 130-b-done-commit-the-cross-slit-s-width-at-0-8.png
+00:05:02 about to click the Undo button (1 of 1) at (57, 58)
+00:05:03 clicked the Undo button (1 of 1) -> 131-b-done-the-undo-button-1-of-1.png
+00:05:47 about to click the Undo button (1 of 1) at (57, 58)
+00:05:48 clicked the Undo button (1 of 1) -> 132-b-done-the-undo-button-1-of-1.png
+00:06:40 about to click empty space, to clear any stale selection at (400, 880)
+00:06:41 clicked empty space, to clear any stale selection -> 133-b-done-empty-space-to-clear-any-stale-selection.png
+00:06:41 about to select the first edge for the cross slit's width at (860, 486)
+00:06:43 selected the first edge for the cross slit's width -> 134-a-select-the-first-edge-for-the-cross-slit-s-width.png
+00:06:43 about to select the second edge for the cross slit's width at (860, 574)
+00:06:44 selected the second edge for the cross slit's width -> 135-a-select-the-second-edge-for-the-cross-slit-s-width.png
+00:06:44 about to click a spot to place the the cross slit's width dimension at (1160, 640)
+00:06:46 clicked a spot to place the the cross slit's width dimension -> 136-b-done-a-spot-to-place-the-the-cross-slit-s-width-dimen.png
+00:06:46 unexpected: no dimension value box appeared for the cross slit's width -> 137-x-no-dimension-value-box-appeared-for-the-cross-sl.png
+00:07:34 about to press Escape to clear any stale selection
+00:07:35 pressed Escape to clear any stale selection -> 138-b-done-clear-any-stale-selection.png
+00:07:35 about to click the Search tools box at (1130, 58)
+00:07:36 clicked the Search tools box -> 139-b-done-the-search-tools-box.png
+00:07:38 about to press Enter to activate the Dimension tool
+00:07:40 pressed Enter to activate the Dimension tool -> 140-b-done-activate-the-dimension-tool.png
+00:07:40 about to select the first edge for the cross slit's width at (860, 486)
+00:07:41 selected the first edge for the cross slit's width -> 141-a-select-the-first-edge-for-the-cross-slit-s-width.png
+00:07:41 about to select the second edge for the cross slit's width at (860, 574)
+00:07:42 selected the second edge for the cross slit's width -> 142-a-select-the-second-edge-for-the-cross-slit-s-width.png
+00:07:42 about to click a spot to place the the cross slit's width dimension at (1160, 640)
+00:07:44 clicked a spot to place the the cross slit's width dimension -> 143-b-done-a-spot-to-place-the-the-cross-slit-s-width-dimen.png
+00:07:44 the cross slit's width measures '12 mm' (input #4)
+00:08:43 about to press Escape to drop whatever the dimension tool was holding
+00:08:44 pressed Escape to drop whatever the dimension tool was holding -> 144-b-done-drop-whatever-the-dimension-tool-was-holding.png
+00:08:44 about to press Escape to and clear the selection
+00:08:45 pressed Escape to and clear the selection -> 145-b-done-and-clear-the-selection.png
+00:08:45 about to click the Search tools box at (1130, 58)
+00:08:46 clicked the Search tools box -> 146-b-done-the-search-tools-box.png
+00:08:48 about to press Enter to activate the Dimension tool
+00:08:49 pressed Enter to activate the Dimension tool -> 147-b-done-activate-the-dimension-tool.png
+00:08:49 about to select the edge whose length is the cross slit's width at (808, 530)
+00:08:51 selected the edge whose length is the cross slit's width -> 148-a-select-the-edge-whose-length-is-the-cross-slit-s-width.png
+00:08:51 about to click a spot to place the the cross slit's width dimension at (1160, 640)
+00:08:53 clicked a spot to place the the cross slit's width dimension -> 149-b-done-a-spot-to-place-the-the-cross-slit-s-width-dimen.png
+00:08:53 the cross slit's width measures '4.43761 mm'; setting it to -
+00:09:06 about to press Escape to drop whatever the dimension tool was holding
+00:09:07 pressed Escape to drop whatever the dimension tool was holding -> 150-b-done-drop-whatever-the-dimension-tool-was-holding.png
+00:09:07 about to press Escape to and clear the selection
+00:09:08 pressed Escape to and clear the selection -> 151-b-done-and-clear-the-selection.png
+00:09:08 about to click the Search tools box at (1130, 58)
+00:09:09 clicked the Search tools box -> 152-b-done-the-search-tools-box.png
+00:09:11 about to press Enter to activate the Dimension tool
+00:09:13 pressed Enter to activate the Dimension tool -> 153-b-done-activate-the-dimension-tool.png
+00:09:13 about to select the edge whose length is the cross slit's width at (808, 530)
+00:09:14 selected the edge whose length is the cross slit's width -> 154-a-select-the-edge-whose-length-is-the-cross-slit-s-width.png
+00:09:14 about to click a spot to place the the cross slit's width dimension at (1160, 640)
+00:09:16 clicked a spot to place the the cross slit's width dimension -> 155-b-done-a-spot-to-place-the-the-cross-slit-s-width-dimen.png
+00:09:16 the cross slit's width measures '4.43761 mm'; setting it to 0.8
+00:09:16 about to press Enter to commit the cross slit's width at 0.8
+00:09:19 pressed Enter to commit the cross slit's width at 0.8 -> 156-b-done-commit-the-cross-slit-s-width-at-0-8.png
+00:12:35 about to click the Undo button (1 of 1) at (57, 58)
+00:12:36 clicked the Undo button (1 of 1) -> 157-b-done-the-undo-button-1-of-1.png
+00:13:53 about to press Escape to clear any stale selection
+00:13:53 pressed Escape to clear any stale selection -> 158-b-done-clear-any-stale-selection.png
+00:13:53 about to select the cross slit rectangle piece 1 of 4 at (860, 487)
+00:13:55 selected the cross slit rectangle piece 1 of 4 -> 159-a-select-the-cross-slit-rectangle-piece-1-of-4.png
+00:13:55 about to select the cross slit rectangle piece 2 of 4 at (860, 567)
+00:13:56 selected the cross slit rectangle piece 2 of 4 -> 160-a-select-the-cross-slit-rectangle-piece-2-of-4.png
+00:13:56 about to select the cross slit rectangle piece 3 of 4 at (808, 505)
+00:13:57 selected the cross slit rectangle piece 3 of 4 -> 161-a-select-the-cross-slit-rectangle-piece-3-of-4.png
+00:13:57 about to select the cross slit rectangle piece 4 of 4 at (1038, 505)
+00:13:59 selected the cross slit rectangle piece 4 of 4 -> 162-a-select-the-cross-slit-rectangle-piece-4-of-4.png
+00:13:59 about to press Delete to delete the cross slit rectangle
+00:14:01 pressed Delete to delete the cross slit rectangle -> 163-b-done-delete-the-cross-slit-rectangle.png
+00:14:29 about to select the last leftover line of the cross slit rectangle at (860, 487)
+00:14:30 selected the last leftover line of the cross slit rectangle -> 164-a-select-the-last-leftover-line-of-the-cross-slit-rectang.png
+00:14:30 about to press Delete to delete the last leftover line of the cross slit rectangle
+00:14:33 pressed Delete to delete the last leftover line of the cross slit rectangle -> 165-b-done-delete-the-last-leftover-line-of-the-cross-slit-.png
+00:15:09 about to click the red X to cancel the dimension edit at (1053, 497)
+00:15:11 clicked the red X to cancel the dimension edit -> 166-b-done-the-red-x-to-cancel-the-dimension-edit.png
+00:15:11 about to select the leftover cross line at (830, 487)
+00:15:13 selected the leftover cross line -> 167-a-select-the-leftover-cross-line.png
+00:15:13 about to press Delete to delete the leftover cross line
+00:15:15 pressed Delete to delete the leftover cross line -> 168-b-done-delete-the-leftover-cross-line.png
+00:15:52 about to press Escape to clear the selection
+00:15:53 pressed Escape to clear the selection -> 169-b-done-clear-the-selection.png
+00:15:53 looked at the slit sketch with just one rectangle
+00:16:36 about to click the green check to accept the slit sketch at (424, 93)
+00:16:39 clicked the green check to accept the slit sketch -> 171-b-done-the-green-check-to-accept-the-slit-sketch.png
+00:16:39 after accepting the slit sketch, no errored rows in the tree
+00:17:27 about to press Escape to clear any stale selection
+00:17:28 pressed Escape to clear any stale selection -> 172-b-done-clear-any-stale-selection.png
+00:17:28 about to select the Sketch 1 row in the tree at (91, 630)
+00:17:29 selected the Sketch 1 row in the tree -> 173-a-select-the-sketch-1-row-in-the-tree.png
+00:17:29 about to click the Search tools box at (1350, 58)
+00:17:30 clicked the Search tools box -> 174-b-done-the-search-tools-box.png
+00:17:32 about to press Enter to activate Extrude
+00:17:34 pressed Enter to activate Extrude -> 175-b-done-activate-extrude.png
+00:18:13 about to click the Remove tab of the extrude at (366, 149)
+00:18:15 clicked the Remove tab of the extrude -> 176-b-done-the-remove-tab-of-the-extrude.png
+00:18:52 the slit cut depth reads '25 mm'; setting it to 5.5
+00:18:52 about to press Tab to commit the slit cut depth at 5.5
+00:18:54 pressed Tab to commit the slit cut depth at 5.5 -> 177-b-done-commit-the-slit-cut-depth-at-5-5.png
+00:19:21 about to click the green check to accept the first pair of slits at (424, 93)
+00:19:24 clicked the green check to accept the first pair of slits -> 178-b-done-the-green-check-to-accept-the-first-pair-of-slit.png
+00:19:24 after accepting the first pair of slits, no errored rows in the tree
+00:19:59 about to press Escape to clear any stale selection
+00:20:00 pressed Escape to clear any stale selection -> 179-b-done-clear-any-stale-selection.png
+00:20:00 about to select the Extrude 1 row in the tree at (91, 630)
+00:20:01 selected the Extrude 1 row in the tree -> 180-a-select-the-extrude-1-row-in-the-tree.png
+00:20:01 about to click the Search tools box at (1350, 58)
+00:20:02 clicked the Search tools box -> 181-b-done-the-search-tools-box.png
+00:20:05 about to press Enter to activate Circular pattern
+00:20:07 pressed Enter to activate Circular pattern -> 182-b-done-activate-circular-pattern.png
+00:20:55 about to click the pattern type dropdown at (344, 121)
+00:20:57 clicked the pattern type dropdown -> 183-b-done-the-pattern-type-dropdown.png
+00:21:18 about to click Feature pattern in the type dropdown at (305, 178)
+00:21:20 clicked Feature pattern in the type dropdown -> 184-b-done-feature-pattern-in-the-type-dropdown.png
+00:21:46 about to click the Extrude 1 row, to be the feature patterned at (91, 604)
+00:21:48 clicked the Extrude 1 row, to be the feature patterned -> 185-b-done-the-extrude-1-row-to-be-the-feature-patterned.png
+00:22:13 about to click the Neck socket mate connector, to be the pattern axis at (100, 552)
+00:22:15 clicked the Neck socket mate connector, to be the pattern axis -> 186-b-done-the-neck-socket-mate-connector-to-be-the-pattern.png
+00:22:41 about to click the X to drop Neck socket from the features to pattern at (447, 172)
+00:22:43 clicked the X to drop Neck socket from the features to pattern -> 187-b-done-the-x-to-drop-neck-socket-from-the-features-to-p.png
+00:23:20 about to click the Axis of pattern field, to give it the focus at (342, 203)
+00:23:21 clicked the Axis of pattern field, to give it the focus -> 188-b-done-the-axis-of-pattern-field-to-give-it-the-focus.png
+00:23:21 about to click the Neck socket mate connector, as the pattern axis at (100, 552)
+00:23:24 clicked the Neck socket mate connector, as the pattern axis -> 189-b-done-the-neck-socket-mate-connector-as-the-pattern-ax.png
+00:23:55 the angle the slit pattern sweeps reads '360 deg'; setting it to 90
+00:23:55 about to press Tab to commit the angle the slit pattern sweeps at 90
+00:23:57 pressed Tab to commit the angle the slit pattern sweeps at 90 -> 190-b-done-commit-the-angle-the-slit-pattern-sweeps-at-90.png
+00:24:10 how many times the slit cut is placed reads '4'; setting it to 2
+00:24:10 about to press Tab to commit how many times the slit cut is placed at 2
+00:24:13 pressed Tab to commit how many times the slit cut is placed at 2 -> 191-b-done-commit-how-many-times-the-slit-cut-is-placed-at-.png
+00:24:36 about to click the green check to accept the slit pattern at (424, 93)
+00:24:39 clicked the green check to accept the slit pattern -> 192-b-done-the-green-check-to-accept-the-slit-pattern.png
+00:24:39 after accepting the slit pattern, tree has errors: ['Circular pattern 1']
+00:24:55 Circular pattern 1: ['Circular pattern 1 did not regenerate properly: Could not create all instances as entered. Try selecting "Reapply features" option.']
+00:25:18 about to double-click Circular pattern 1 to open its dialog
+00:25:45 about to click the Reapply features box at (250, 359)
+00:25:47 clicked the Reapply features box -> 196-b-done-the-reapply-features-box.png
+00:26:12 about to click the green check to accept the slit pattern with reapply on at (424, 93)
+00:26:15 clicked the green check to accept the slit pattern with reapply on -> 197-b-done-the-green-check-to-accept-the-slit-pattern-with-.png
+00:26:15 after accepting the slit pattern with reapply on, no errored rows in the tree
+00:27:26 about to press Enter to rename Sketch 1 to Slit profile
+00:27:28 pressed Enter to rename Sketch 1 to Slit profile -> 199-b-done-rename-sketch-1-to-slit-profile.png
+00:27:28 tree rows now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Collar circle', 'Neck collar', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Neck socket', 'Slit profile', 'Extrude 1', 'Circular pattern 1', 'Parts (1)', 'Head']
+00:27:28 after renaming Sketch 1 to Slit profile, no errored rows in the tree
+00:27:52 about to press Enter to rename Extrude 1 to Neck slit
+00:27:54 pressed Enter to rename Extrude 1 to Neck slit -> 201-b-done-rename-extrude-1-to-neck-slit.png
+00:27:54 tree rows now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Collar circle', 'Neck collar', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Neck socket', 'Slit profile', 'Neck slit', 'Circular pattern 1', 'Parts (1)', 'Head']
+00:27:54 after renaming Extrude 1 to Neck slit, no errored rows in the tree
+00:28:17 about to press Enter to rename Circular pattern 1 to Four slits
+00:28:19 pressed Enter to rename Circular pattern 1 to Four slits -> 203-b-done-rename-circular-pattern-1-to-four-slits.png
+00:28:19 tree rows now: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Face plane', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Collar circle', 'Neck collar', 'Ball profile', 'Neck ball tool', 'Neck socket', 'Head shell', 'Neck socket', 'Slit profile', 'Neck slit', 'Four slits', 'Parts (1)', 'Head']
+00:28:19 after renaming Circular pattern 1 to Four slits, no errored rows in the tree
+00:31:52 about to click the Main workspace label, to open the version graph at (306, 20)
+00:31:54 clicked the Main workspace label, to open the version graph -> 204-b-done-the-main-workspace-label-to-open-the-version-gra.png
+00:32:20 about to click the left-rail icon that should be versions and history at (20, 268)
+00:32:23 clicked the left-rail icon that should be versions and history -> 205-b-done-the-left-rail-icon-that-should-be-versions-and-h.png
+00:33:35 hovering (20, 95) shows ['Part Studio 1', 'Assembly 1', 'Create version…']
+00:33:36 hovering (20, 127) shows ['Part Studio 1', 'Assembly 1', 'Comments']
+00:33:37 hovering (20, 163) shows ['Part Studio 1', 'Assembly 1', 'Document notes']
+00:33:39 hovering (20, 198) shows ['Part Studio 1', 'Assembly 1', 'Performance errors detected']
+00:33:40 hovering (20, 233) shows ['Part Studio 1', 'Assembly 1', 'AI Advisor']
+00:33:42 hovering (20, 268) shows ['Part Studio 1', 'Assembly 1', 'Action items']
+00:33:56 about to click the X that closes the Action items panel at (405, 58)
+00:33:58 clicked the X that closes the Action items panel -> 206-b-done-the-x-that-closes-the-action-items-panel.png
+00:33:58 about to click the Create version button at (20, 95)
+00:34:01 clicked the Create version button -> 207-b-done-the-create-version-button.png
+00:34:40 about to set the version name to 'run 5.1'
+00:34:41 set the version name to 'run 5.1' -> 208-b-done-the-version-name.png
+00:34:42 about to click Create, to publish the version run 5.1 at (913, 322)
+00:34:48 clicked Create, to publish the version run 5.1 -> 209-b-done-create-to-publish-the-version-run-5-1.png
+00:36:14 about to open the lesson assembly at https://cad.onshape.com/documents/a999c3039f292ccb278ac94a/w/1110d41029a137a8e1b6cb79/e/f09a5c881ece9a882e0f6b39
+00:37:01 about to click the Head instance, to select it at (80, 235)
+00:37:03 clicked the Head instance, to select it -> 211-b-done-the-head-instance-to-select-it.png
+00:37:03 about to click the Head instance with the right button at (80, 235)
+00:37:05 clicked the Head instance with the right button -> 212-b-done-the-head-instance-with-the-right-button.png
+00:37:18 about to click the Head instance, to select it at (80, 235)
+00:37:21 clicked the Head instance, to select it -> 213-b-done-the-head-instance-to-select-it.png
+00:37:21 about to click the Head instance with the right button at (80, 235)
+00:37:22 clicked the Head instance with the right button -> 214-b-done-the-head-instance-with-the-right-button.png
+00:37:36 about to click the Head instance, to select it at (80, 235)
+00:37:38 clicked the Head instance, to select it -> 215-b-done-the-head-instance-to-select-it.png
+00:37:38 about to click the Head instance with the right button at (80, 235)
+00:37:40 clicked the Head instance with the right button -> 216-b-done-the-head-instance-with-the-right-button.png
+00:37:40 about to click 'Update linked document…' in the menu on the Head instance at (229, 656)
+00:37:43 clicked 'Update linked document…' in the menu on the Head instance -> 217-b-done-update-linked-document-in-the-menu-on-the-head-i.png
+00:38:08 about to click Update all, to take the head to run 5.1 at (527, 467)
+00:38:14 clicked Update all, to take the head to run 5.1 -> 218-b-done-update-all-to-take-the-head-to-run-5-1.png
+00:40:41 about to click the X that closes the Reference manager at (562, 93)
+00:40:43 clicked the X that closes the Reference manager -> 219-b-done-the-x-that-closes-the-reference-manager.png
+00:40:43 about to click the Create version button on the lesson document at (20, 95)
+00:40:45 clicked the Create version button on the lesson document -> 220-b-done-the-create-version-button-on-the-lesson-document.png
+00:41:30 about to set the version name to 'run 5.1 assembled'
+00:41:30 set the version name to 'run 5.1 assembled' -> 221-b-done-the-version-name.png
+00:41:31 about to click Create, to publish the version run 5.1 assembled at (913, 322)
+00:41:37 clicked Create, to publish the version run 5.1 assembled -> 222-b-done-create-to-publish-the-version-run-5-1-assembled.png
+00:44:29 about to open the head run 5.1 version link at https://cad.onshape.com/documents/92cbe5356b68e79b1fa2de82/v/399f05f6c0b0d7ec577fe4d0/e/374227cc36f4d555dbc4cfca
+00:44:46 the head run 5.1 version link title bar reads 'head-run5 | Part Studio 1'
+00:45:00 about to open the lesson run 5.1 assembled version link at https://cad.onshape.com/documents/a999c3039f292ccb278ac94a/v/e2a99fa2be54ceaaf31c29d5/e/f09a5c881ece9a882e0f6b39
+00:45:33 the lesson run 5.1 assembled version link title bar reads 'lesson-run5 | Assembly 1'
+01:37:58 about to click the Search tools box at (1130, 58)
+01:38:00 clicked the Search tools box -> 225-b-done-the-search-tools-box.png
+01:38:02 about to press Enter to take the first hit for Section view
+01:38:04 pressed Enter to take the first hit for Section view -> 227-b-done-take-the-first-hit-for-section-view.png
+01:41:27 about to click cancel the Frame dialog at (452, 93)
+01:41:29 clicked cancel the Frame dialog -> 228-b-done-cancel-the-frame-dialog.png

@@ -1,0 +1,19 @@
+06:29:29 about to click the reference geometry dropdown arrow at (1100, 58)
+06:29:30 clicked the reference geometry dropdown arrow -> 02-b-done-the-reference-geometry-dropdown-arrow.png
+06:29:30 about to click Mate connector at (1140, 754)
+06:29:31 clicked Mate connector -> 04-b-done-mate-connector.png
+06:29:31 about to click the spherical cavity inside the ankle collar at (1015, 315)
+06:29:32 clicked the spherical cavity inside the ankle collar -> 06-b-done-the-spherical-cavity-inside-the-ankle-collar.png
+06:32:31 about to click Mate connector on the toolbar at (1080, 58)
+06:32:32 clicked Mate connector on the toolbar -> 09-b-done-mate-connector-on-the-toolbar.png
+06:32:32 about to click the spherical cavity inside the ankle collar at (1010, 330)
+06:32:33 clicked the spherical cavity inside the ankle collar -> 12-b-done-the-spherical-cavity-inside-the-ankle-collar.png
+06:32:34 origin entity 'Origin entity Face of Ankle cavity from the ball ×', owner 'Select owner entity Foot ×'
+06:32:34 about to click the green tick at (424, 93)
+06:32:35 clicked the green tick -> 14-b-done-the-green-tick.png
+06:32:38 about to click the Mate connector 1 row, to rename it at (140, 630)
+06:32:39 clicked the Mate connector 1 row, to rename it -> 15-b-done-the-mate-connector-1-row-to-rename-it.png
+06:32:39 about to click Rename in the context menu at (251, 654)
+06:32:40 clicked Rename in the context menu -> 16-b-done-rename-in-the-context-menu.png
+06:32:41 renamed 'Mate connector 1' to 'Socket'
+06:32:41 after the foot after the Socket connector, no errored rows in the tree

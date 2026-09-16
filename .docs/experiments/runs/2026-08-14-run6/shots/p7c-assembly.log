@@ -1,0 +1,361 @@
+21:49:36 on lesson-run6p2, Assembly 1
+21:49:36 about to press Escape to close anything the assembly opened with
+21:49:37 pressed Escape to close anything the assembly opened with -> 01-b-done-close-anything-the-assembly-opened-with.png
+21:49:39 about to click Insert on the assembly toolbar at (190, 58)
+21:49:40 clicked Insert on the assembly toolbar -> 02-b-done-insert-on-the-assembly-toolbar.png
+21:49:43 about to click the Other documents tab at (396, 135)
+21:49:44 clicked the Other documents tab -> 03-b-done-the-other-documents-tab.png
+21:49:46 about to click the home icon, to search every document at (266, 182)
+21:49:46 clicked the home icon, to search every document -> 04-b-done-the-home-icon-to-search-every-document.png
+21:49:49 about to click the search box at (398, 183)
+21:49:50 clicked the search box -> 05-b-done-the-search-box.png
+21:49:56 about to click the torso-run6p2 document at (366, 218)
+21:49:57 clicked the torso-run6p2 document -> 06-b-done-the-torso-run6p2-document.png
+21:50:02 torso-run6p2 is open at version torso-run6p2-2026-08-15
+21:50:02 about to click the Torso part (instance 1) at (451, 380)
+21:50:03 clicked the Torso part (instance 1) -> 08-b-done-the-torso-part-instance-1.png
+21:50:06 about to click the home icon, to search every document at (266, 182)
+21:50:07 clicked the home icon, to search every document -> 09-b-done-the-home-icon-to-search-every-document.png
+21:50:09 about to click the search box at (398, 183)
+21:50:10 clicked the search box -> 10-b-done-the-search-box.png
+21:50:16 about to click the head-run6p2 document at (365, 218)
+21:50:17 clicked the head-run6p2 document -> 11-b-done-the-head-run6p2-document.png
+21:50:22 head-run6p2 is open at version head-run6p2-mates-2026-08-15
+21:50:22 about to click the Head part (instance 1) at (451, 380)
+21:50:23 clicked the Head part (instance 1) -> 13-b-done-the-head-part-instance-1.png
+21:50:26 about to click the home icon, to search every document at (266, 182)
+21:50:27 clicked the home icon, to search every document -> 14-b-done-the-home-icon-to-search-every-document.png
+21:50:29 about to click the search box at (398, 183)
+21:50:30 clicked the search box -> 15-b-done-the-search-box.png
+21:50:36 about to click the limb-socket-clevis-run6p2 document at (410, 218)
+21:50:37 clicked the limb-socket-clevis-run6p2 document -> 16-b-done-the-limb-socket-clevis-run6p2-document.png
+21:50:42 limb-socket-clevis-run6p2 is open at version limb-socket-clevis-run6p2-2026-08-15-2
+21:50:42 about to click the Upper limb part (instance 1) at (451, 380)
+21:50:49 clicked the Upper limb part (instance 1) -> 18-b-done-the-upper-limb-part-instance-1.png
+21:50:52 about to click the Upper limb part (instance 2) at (451, 380)
+21:50:54 clicked the Upper limb part (instance 2) -> 19-b-done-the-upper-limb-part-instance-2.png
+21:50:57 about to click the Upper limb part (instance 3) at (451, 380)
+21:50:58 clicked the Upper limb part (instance 3) -> 20-b-done-the-upper-limb-part-instance-3.png
+21:51:01 about to click the Upper limb part (instance 4) at (451, 380)
+21:51:04 clicked the Upper limb part (instance 4) -> 21-b-done-the-upper-limb-part-instance-4.png
+21:51:07 about to click the home icon, to search every document at (266, 182)
+21:51:08 clicked the home icon, to search every document -> 22-b-done-the-home-icon-to-search-every-document.png
+21:51:11 about to click the search box at (398, 183)
+21:51:12 clicked the search box -> 23-b-done-the-search-box.png
+21:51:17 about to click the limb-blade-ball-run6p2 document at (400, 218)
+21:51:18 clicked the limb-blade-ball-run6p2 document -> 24-b-done-the-limb-blade-ball-run6p2-document.png
+21:51:23 limb-blade-ball-run6p2 is open at version limb-blade-ball-run6p2-named-2026-08-15
+21:51:23 about to click the Lower limb part (instance 1) at (451, 380)
+21:51:54 clicked the Lower limb part (instance 1) -> 26-b-done-the-lower-limb-part-instance-1.png
+21:51:57 about to click the Lower limb part (instance 2) at (451, 380)
+21:52:10 clicked the Lower limb part (instance 2) -> 27-b-done-the-lower-limb-part-instance-2.png
+21:52:13 about to click the Lower limb part (instance 3) at (451, 380)
+21:52:18 clicked the Lower limb part (instance 3) -> 28-b-done-the-lower-limb-part-instance-3.png
+21:52:21 about to click the Lower limb part (instance 4) at (451, 380)
+21:52:24 clicked the Lower limb part (instance 4) -> 29-b-done-the-lower-limb-part-instance-4.png
+21:52:27 about to click the home icon, to search every document at (266, 182)
+21:52:28 clicked the home icon, to search every document -> 30-b-done-the-home-icon-to-search-every-document.png
+21:52:31 about to click the search box at (398, 183)
+21:52:32 clicked the search box -> 31-b-done-the-search-box.png
+21:52:37 about to click the hand-run6p2 document at (365, 218)
+21:52:38 clicked the hand-run6p2 document -> 32-b-done-the-hand-run6p2-document.png
+21:52:43 hand-run6p2 is open at version hand-run6p2-mates-2026-08-15
+21:52:43 about to click the Gripper part (instance 1) at (451, 380)
+21:52:54 clicked the Gripper part (instance 1) -> 34-b-done-the-gripper-part-instance-1.png
+21:52:57 about to click the Gripper part (instance 2) at (451, 380)
+21:53:03 clicked the Gripper part (instance 2) -> 35-b-done-the-gripper-part-instance-2.png
+21:53:06 about to click the home icon, to search every document at (266, 182)
+21:53:07 clicked the home icon, to search every document -> 36-b-done-the-home-icon-to-search-every-document.png
+21:53:10 about to click the search box at (398, 183)
+21:53:11 clicked the search box -> 37-b-done-the-search-box.png
+21:53:16 about to click the foot-run6p2 document at (361, 218)
+21:53:17 clicked the foot-run6p2 document -> 38-b-done-the-foot-run6p2-document.png
+21:53:22 foot-run6p2 is open at version foot-run6p2-mates-2026-08-15
+21:53:22 about to click the Foot part (instance 1) at (451, 380)
+21:53:33 clicked the Foot part (instance 1) -> 40-b-done-the-foot-part-instance-1.png
+21:53:36 about to click the Foot part (instance 2) at (451, 380)
+21:53:40 clicked the Foot part (instance 2) -> 41-b-done-the-foot-part-instance-2.png
+21:53:43 about to click the green tick, which keeps every inserted instance at (503, 93)
+21:53:48 clicked the green tick, which keeps every inserted instance -> 42-b-done-the-green-tick-which-keeps-every-inserted-instan.png
+21:54:21 on lesson-run6p2, Assembly 1
+21:54:21 about to click the Torso <1> row at (140, 209)
+21:54:26 clicked the Torso <1> row -> 44-b-done-the-torso-1-row.png
+21:54:28 about to click Fix in the context menu at (289, 410)
+21:54:34 clicked Fix in the context menu -> 46-b-done-fix-in-the-context-menu.png
+21:56:27 on lesson-run6p2, Assembly 1
+21:56:27 about to click the arrow beside Torso <1>, to open it at (50, 209)
+21:56:30 clicked the arrow beside Torso <1>, to open it -> 48-b-done-the-arrow-beside-torso-1-to-open-it.png
+21:56:31 about to click the arrow beside Head <1>, to open it at (50, 365)
+21:56:34 clicked the arrow beside Head <1>, to open it -> 49-b-done-the-arrow-beside-head-1-to-open-it.png
+21:56:36 about to click the Ball mate on the toolbar at (492, 58)
+21:56:41 clicked the Ball mate on the toolbar -> 50-b-done-the-ball-mate-on-the-toolbar.png
+21:56:43 about to click Neck of Torso <1> at (140, 235)
+21:56:52 clicked Neck of Torso <1> -> 52-b-done-neck-of-torso-1.png
+21:56:54 about to click Neck socket of Head <1> at (140, 391)
+21:57:04 clicked Neck socket of Head <1> -> 53-b-done-neck-socket-of-head-1.png
+21:57:05 about to click the green tick at (424, 93)
+21:57:11 clicked the green tick -> 55-b-done-the-green-tick.png
+21:57:14 about to click the arrow beside Torso <1>, to fold up it at (50, 209)
+21:57:17 clicked the arrow beside Torso <1>, to fold up it -> 56-b-done-the-arrow-beside-torso-1-to-fold-up-it.png
+21:57:18 about to click the arrow beside Head <1>, to fold up it at (50, 235)
+21:57:21 clicked the arrow beside Head <1>, to fold up it -> 57-b-done-the-arrow-beside-head-1-to-fold-up-it.png
+21:57:23 about to click the Ball 1 row, to rename it at (140, 651)
+21:57:29 clicked the Ball 1 row, to rename it -> 58-b-done-the-ball-1-row-to-rename-it.png
+21:57:29 about to click Rename in the context menu at (275, 675)
+21:57:32 clicked Rename in the context menu -> 59-b-done-rename-in-the-context-menu.png
+21:57:35 renamed 'Ball 1' to 'Neck'
+21:57:35 about to click the arrow beside Torso <1>, to open it at (50, 209)
+21:57:39 clicked the arrow beside Torso <1>, to open it -> 62-b-done-the-arrow-beside-torso-1-to-open-it.png
+21:57:40 about to click the arrow beside Upper limb <1>, to open it at (50, 391)
+21:57:43 clicked the arrow beside Upper limb <1>, to open it -> 63-b-done-the-arrow-beside-upper-limb-1-to-open-it.png
+21:57:45 about to click the Ball mate on the toolbar at (492, 58)
+21:57:50 clicked the Ball mate on the toolbar -> 64-b-done-the-ball-mate-on-the-toolbar.png
+21:57:52 about to click Shoulder R of Torso <1> at (140, 261)
+21:58:01 clicked Shoulder R of Torso <1> -> 66-b-done-shoulder-r-of-torso-1.png
+21:58:03 about to click Socket of Upper limb <1> at (140, 417)
+21:58:12 clicked Socket of Upper limb <1> -> 67-b-done-socket-of-upper-limb-1.png
+21:58:14 about to click the green tick at (424, 93)
+21:58:20 clicked the green tick -> 69-b-done-the-green-tick.png
+21:58:22 about to click the arrow beside Torso <1>, to fold up it at (50, 209)
+21:58:26 clicked the arrow beside Torso <1>, to fold up it -> 70-b-done-the-arrow-beside-torso-1-to-fold-up-it.png
+21:58:27 about to click the arrow beside Upper limb <1>, to fold up it at (50, 261)
+21:58:30 clicked the arrow beside Upper limb <1>, to fold up it -> 71-b-done-the-arrow-beside-upper-limb-1-to-fold-up-it.png
+21:58:32 about to click the Ball 1 row, to rename it at (140, 677)
+21:58:38 clicked the Ball 1 row, to rename it -> 72-b-done-the-ball-1-row-to-rename-it.png
+21:58:38 about to click Rename in the context menu at (275, 701)
+21:58:40 clicked Rename in the context menu -> 73-b-done-rename-in-the-context-menu.png
+21:58:44 renamed 'Ball 1' to 'Right shoulder'
+21:58:44 about to click the arrow beside Torso <1>, to open it at (50, 209)
+21:58:47 clicked the arrow beside Torso <1>, to open it -> 76-b-done-the-arrow-beside-torso-1-to-open-it.png
+21:58:49 about to click the arrow beside Upper limb <2>, to open it at (50, 417)
+21:58:52 clicked the arrow beside Upper limb <2>, to open it -> 77-b-done-the-arrow-beside-upper-limb-2-to-open-it.png
+21:58:53 about to click the Ball mate on the toolbar at (492, 58)
+21:58:59 clicked the Ball mate on the toolbar -> 78-b-done-the-ball-mate-on-the-toolbar.png
+21:59:01 about to click Shoulder L of Torso <1> at (140, 339)
+21:59:10 clicked Shoulder L of Torso <1> -> 80-b-done-shoulder-l-of-torso-1.png
+21:59:12 about to click Socket of Upper limb <2> at (140, 443)
+21:59:21 clicked Socket of Upper limb <2> -> 81-b-done-socket-of-upper-limb-2.png
+21:59:23 about to click the green tick at (424, 93)
+21:59:28 clicked the green tick -> 83-b-done-the-green-tick.png
+21:59:31 about to click the arrow beside Torso <1>, to fold up it at (50, 209)
+21:59:34 clicked the arrow beside Torso <1>, to fold up it -> 84-b-done-the-arrow-beside-torso-1-to-fold-up-it.png
+21:59:35 about to click the arrow beside Upper limb <2>, to fold up it at (50, 287)
+21:59:38 clicked the arrow beside Upper limb <2>, to fold up it -> 85-b-done-the-arrow-beside-upper-limb-2-to-fold-up-it.png
+21:59:40 about to click the Ball 1 row, to rename it at (140, 703)
+21:59:46 clicked the Ball 1 row, to rename it -> 86-b-done-the-ball-1-row-to-rename-it.png
+21:59:46 about to click Rename in the context menu at (275, 727)
+21:59:49 clicked Rename in the context menu -> 87-b-done-rename-in-the-context-menu.png
+21:59:53 renamed 'Ball 1' to 'Left shoulder'
+21:59:53 about to click the arrow beside Torso <1>, to open it at (50, 209)
+21:59:56 clicked the arrow beside Torso <1>, to open it -> 90-b-done-the-arrow-beside-torso-1-to-open-it.png
+21:59:57 about to click the arrow beside Upper limb <3>, to open it at (50, 443)
+22:00:00 clicked the arrow beside Upper limb <3>, to open it -> 91-b-done-the-arrow-beside-upper-limb-3-to-open-it.png
+22:00:02 about to click the Ball mate on the toolbar at (492, 58)
+22:00:08 clicked the Ball mate on the toolbar -> 92-b-done-the-ball-mate-on-the-toolbar.png
+22:00:10 about to click Hip R of Torso <1> at (140, 287)
+22:00:19 clicked Hip R of Torso <1> -> 94-b-done-hip-r-of-torso-1.png
+22:00:21 about to click Socket of Upper limb <3> at (140, 469)
+22:00:33 clicked Socket of Upper limb <3> -> 95-b-done-socket-of-upper-limb-3.png
+22:00:35 about to click the green tick at (424, 93)
+22:00:41 clicked the green tick -> 97-b-done-the-green-tick.png
+22:00:44 about to click the arrow beside Torso <1>, to fold up it at (50, 209)
+22:00:47 clicked the arrow beside Torso <1>, to fold up it -> 98-b-done-the-arrow-beside-torso-1-to-fold-up-it.png
+22:00:48 about to click the arrow beside Upper limb <3>, to fold up it at (50, 313)
+22:00:51 clicked the arrow beside Upper limb <3>, to fold up it -> 99-b-done-the-arrow-beside-upper-limb-3-to-fold-up-it.png
+22:00:53 about to click the Ball 1 row, to rename it at (140, 729)
+22:00:59 clicked the Ball 1 row, to rename it -> 100-b-done-the-ball-1-row-to-rename-it.png
+22:00:59 about to click Rename in the context menu at (275, 733)
+22:01:02 clicked Rename in the context menu -> 101-b-done-rename-in-the-context-menu.png
+22:01:05 renamed 'Ball 1' to 'Right hip'
+22:01:06 about to click the arrow beside Torso <1>, to open it at (50, 209)
+22:01:09 clicked the arrow beside Torso <1>, to open it -> 104-b-done-the-arrow-beside-torso-1-to-open-it.png
+22:01:10 about to click the arrow beside Upper limb <4>, to open it at (50, 469)
+22:01:13 clicked the arrow beside Upper limb <4>, to open it -> 105-b-done-the-arrow-beside-upper-limb-4-to-open-it.png
+22:01:15 about to click the Ball mate on the toolbar at (492, 58)
+22:01:21 clicked the Ball mate on the toolbar -> 106-b-done-the-ball-mate-on-the-toolbar.png
+22:01:23 about to click Hip L of Torso <1> at (140, 313)
+22:01:33 clicked Hip L of Torso <1> -> 108-b-done-hip-l-of-torso-1.png
+22:01:34 about to click Socket of Upper limb <4> at (140, 495)
+22:01:47 clicked Socket of Upper limb <4> -> 109-b-done-socket-of-upper-limb-4.png
+22:01:49 about to click the green tick at (424, 93)
+22:01:55 clicked the green tick -> 111-b-done-the-green-tick.png
+22:01:57 about to click the arrow beside Torso <1>, to fold up it at (50, 209)
+22:02:01 clicked the arrow beside Torso <1>, to fold up it -> 112-b-done-the-arrow-beside-torso-1-to-fold-up-it.png
+22:02:02 about to click the arrow beside Upper limb <4>, to fold up it at (50, 339)
+22:02:05 clicked the arrow beside Upper limb <4>, to fold up it -> 113-b-done-the-arrow-beside-upper-limb-4-to-fold-up-it.png
+22:02:07 about to click the Ball 1 row, to rename it at (140, 755)
+22:02:13 clicked the Ball 1 row, to rename it -> 114-b-done-the-ball-1-row-to-rename-it.png
+22:02:13 about to click Rename in the context menu at (275, 490)
+22:02:15 clicked Rename in the context menu -> 115-b-done-rename-in-the-context-menu.png
+22:02:19 renamed 'Ball 1' to 'Left hip'
+22:02:19 about to click the arrow beside Upper limb <1>, to open it at (50, 261)
+22:02:22 clicked the arrow beside Upper limb <1>, to open it -> 118-b-done-the-arrow-beside-upper-limb-1-to-open-it.png
+22:02:24 about to click the arrow beside Lower limb <1>, to open it at (50, 417)
+22:02:27 clicked the arrow beside Lower limb <1>, to open it -> 119-b-done-the-arrow-beside-lower-limb-1-to-open-it.png
+22:02:28 about to click the Revolute mate on the toolbar at (322, 58)
+22:02:34 clicked the Revolute mate on the toolbar -> 120-b-done-the-revolute-mate-on-the-toolbar.png
+22:02:36 about to click Hinge of Upper limb <1> at (140, 313)
+22:02:45 clicked Hinge of Upper limb <1> -> 122-b-done-hinge-of-upper-limb-1.png
+22:02:47 about to click Hinge of Lower limb <1> at (140, 469)
+22:02:55 clicked Hinge of Lower limb <1> -> 123-b-done-hinge-of-lower-limb-1.png
+22:02:57 about to click the green tick at (424, 93)
+22:03:03 clicked the green tick -> 125-b-done-the-green-tick.png
+22:03:05 about to click the arrow beside Upper limb <1>, to fold up it at (50, 261)
+22:03:08 clicked the arrow beside Upper limb <1>, to fold up it -> 126-b-done-the-arrow-beside-upper-limb-1-to-fold-up-it.png
+22:03:10 about to click the arrow beside Lower limb <1>, to fold up it at (50, 365)
+22:03:13 clicked the arrow beside Lower limb <1>, to fold up it -> 127-b-done-the-arrow-beside-lower-limb-1-to-fold-up-it.png
+22:03:14 about to click the Revolute 1 row, to rename it at (140, 781)
+22:03:20 clicked the Revolute 1 row, to rename it -> 128-b-done-the-revolute-1-row-to-rename-it.png
+22:03:20 about to click Rename in the context menu at (275, 493)
+22:03:23 clicked Rename in the context menu -> 129-b-done-rename-in-the-context-menu.png
+22:04:19 on lesson-run6p2, Assembly 1
+22:04:19 about to click the arrow beside Upper limb <2>, to open it at (50, 287)
+22:04:22 clicked the arrow beside Upper limb <2>, to open it -> 131-b-done-the-arrow-beside-upper-limb-2-to-open-it.png
+22:04:24 about to click the arrow beside Lower limb <2>, to open it at (50, 443)
+22:04:26 clicked the arrow beside Lower limb <2>, to open it -> 132-b-done-the-arrow-beside-lower-limb-2-to-open-it.png
+22:04:28 about to click the Revolute mate on the toolbar at (322, 58)
+22:04:33 clicked the Revolute mate on the toolbar -> 133-b-done-the-revolute-mate-on-the-toolbar.png
+22:04:35 about to click Hinge of Upper limb <2> at (140, 339)
+22:04:44 clicked Hinge of Upper limb <2> -> 135-b-done-hinge-of-upper-limb-2.png
+22:04:46 about to click Hinge of Lower limb <2> at (140, 495)
+22:04:54 clicked Hinge of Lower limb <2> -> 136-b-done-hinge-of-lower-limb-2.png
+22:04:56 about to click the green tick at (424, 93)
+22:05:01 clicked the green tick -> 138-b-done-the-green-tick.png
+22:05:04 about to click the arrow beside Upper limb <2>, to fold up it at (50, 287)
+22:05:07 clicked the arrow beside Upper limb <2>, to fold up it -> 139-b-done-the-arrow-beside-upper-limb-2-to-fold-up-it.png
+22:05:08 about to click the arrow beside Lower limb <2>, to fold up it at (50, 391)
+22:05:11 clicked the arrow beside Lower limb <2>, to fold up it -> 140-b-done-the-arrow-beside-lower-limb-2-to-fold-up-it.png
+22:05:13 about to click the Revolute 1 row, to rename it at (140, 807)
+22:05:18 clicked the Revolute 1 row, to rename it -> 141-b-done-the-revolute-1-row-to-rename-it.png
+22:05:18 about to click Rename in the context menu at (275, 519)
+22:05:21 clicked Rename in the context menu -> 142-b-done-rename-in-the-context-menu.png
+22:05:25 renamed 'Revolute 1' to 'Left elbow'
+22:05:25 about to click the arrow beside Upper limb <3>, to open it at (50, 313)
+22:05:28 clicked the arrow beside Upper limb <3>, to open it -> 145-b-done-the-arrow-beside-upper-limb-3-to-open-it.png
+22:05:29 about to click the arrow beside Lower limb <3>, to open it at (50, 469)
+22:05:32 clicked the arrow beside Lower limb <3>, to open it -> 146-b-done-the-arrow-beside-lower-limb-3-to-open-it.png
+22:05:33 about to click the Revolute mate on the toolbar at (322, 58)
+22:05:39 clicked the Revolute mate on the toolbar -> 147-b-done-the-revolute-mate-on-the-toolbar.png
+22:05:41 about to click Hinge of Upper limb <3> at (140, 365)
+22:05:49 clicked Hinge of Upper limb <3> -> 149-b-done-hinge-of-upper-limb-3.png
+22:05:51 about to click Hinge of Lower limb <3> at (140, 521)
+22:06:00 clicked Hinge of Lower limb <3> -> 150-b-done-hinge-of-lower-limb-3.png
+22:06:01 about to click the green tick at (424, 93)
+22:06:06 clicked the green tick -> 152-b-done-the-green-tick.png
+22:06:09 about to click the arrow beside Upper limb <3>, to fold up it at (50, 313)
+22:06:12 clicked the arrow beside Upper limb <3>, to fold up it -> 153-b-done-the-arrow-beside-upper-limb-3-to-fold-up-it.png
+22:06:13 about to click the arrow beside Lower limb <3>, to fold up it at (50, 417)
+22:06:16 clicked the arrow beside Lower limb <3>, to fold up it -> 154-b-done-the-arrow-beside-lower-limb-3-to-fold-up-it.png
+22:06:18 about to click the Revolute 1 row, to rename it at (140, 833)
+22:06:23 clicked the Revolute 1 row, to rename it -> 155-b-done-the-revolute-1-row-to-rename-it.png
+22:06:23 about to click Rename in the context menu at (275, 545)
+22:06:25 clicked Rename in the context menu -> 156-b-done-rename-in-the-context-menu.png
+22:06:29 renamed 'Revolute 1' to 'Right knee'
+22:06:29 about to click the arrow beside Upper limb <4>, to open it at (50, 339)
+22:06:31 clicked the arrow beside Upper limb <4>, to open it -> 159-b-done-the-arrow-beside-upper-limb-4-to-open-it.png
+22:06:33 about to click the arrow beside Lower limb <4>, to open it at (50, 495)
+22:06:36 clicked the arrow beside Lower limb <4>, to open it -> 160-b-done-the-arrow-beside-lower-limb-4-to-open-it.png
+22:06:37 about to click the Revolute mate on the toolbar at (322, 58)
+22:06:42 clicked the Revolute mate on the toolbar -> 161-b-done-the-revolute-mate-on-the-toolbar.png
+22:06:44 about to click Hinge of Upper limb <4> at (140, 391)
+22:06:52 clicked Hinge of Upper limb <4> -> 163-b-done-hinge-of-upper-limb-4.png
+22:06:54 about to click Hinge of Lower limb <4> at (140, 547)
+22:07:02 clicked Hinge of Lower limb <4> -> 164-b-done-hinge-of-lower-limb-4.png
+22:07:04 about to click the green tick at (424, 93)
+22:07:09 clicked the green tick -> 166-b-done-the-green-tick.png
+22:07:11 about to click the arrow beside Upper limb <4>, to fold up it at (50, 339)
+22:07:14 clicked the arrow beside Upper limb <4>, to fold up it -> 167-b-done-the-arrow-beside-upper-limb-4-to-fold-up-it.png
+22:07:16 about to click the arrow beside Lower limb <4>, to fold up it at (50, 443)
+22:07:18 clicked the arrow beside Lower limb <4>, to fold up it -> 168-b-done-the-arrow-beside-lower-limb-4-to-fold-up-it.png
+22:07:20 about to click the Revolute 1 row, to rename it at (140, 859)
+22:07:25 clicked the Revolute 1 row, to rename it -> 169-b-done-the-revolute-1-row-to-rename-it.png
+22:07:25 about to click Rename in the context menu at (275, 571)
+22:07:27 clicked Rename in the context menu -> 170-b-done-rename-in-the-context-menu.png
+22:07:31 renamed 'Revolute 1' to 'Left knee'
+22:07:31 about to click the arrow beside Lower limb <1>, to open it at (50, 365)
+22:07:33 clicked the arrow beside Lower limb <1>, to open it -> 173-b-done-the-arrow-beside-lower-limb-1-to-open-it.png
+22:07:35 about to click the arrow beside Gripper <1>, to open it at (50, 521)
+22:07:38 clicked the arrow beside Gripper <1>, to open it -> 174-b-done-the-arrow-beside-gripper-1-to-open-it.png
+22:07:39 about to click the Ball mate on the toolbar at (492, 58)
+22:07:44 clicked the Ball mate on the toolbar -> 175-b-done-the-ball-mate-on-the-toolbar.png
+22:07:46 about to click Ball of Lower limb <1> at (140, 391)
+22:07:54 clicked Ball of Lower limb <1> -> 177-b-done-ball-of-lower-limb-1.png
+22:07:56 about to click Socket of Gripper <1> at (140, 547)
+22:08:04 clicked Socket of Gripper <1> -> 178-b-done-socket-of-gripper-1.png
+22:08:05 about to click the green tick at (424, 93)
+22:08:10 clicked the green tick -> 180-b-done-the-green-tick.png
+22:08:13 about to click the arrow beside Lower limb <1>, to fold up it at (50, 365)
+22:08:16 clicked the arrow beside Lower limb <1>, to fold up it -> 181-b-done-the-arrow-beside-lower-limb-1-to-fold-up-it.png
+22:08:17 about to click the arrow beside Gripper <1>, to fold up it at (50, 469)
+22:08:22 clicked the arrow beside Gripper <1>, to fold up it -> 182-b-done-the-arrow-beside-gripper-1-to-fold-up-it.png
+22:08:24 about to click the Ball 1 row, to rename it at (140, 885)
+22:08:29 clicked the Ball 1 row, to rename it -> 183-b-done-the-ball-1-row-to-rename-it.png
+22:08:29 about to click Rename in the context menu at (275, 620)
+22:08:31 clicked Rename in the context menu -> 184-b-done-rename-in-the-context-menu.png
+22:08:34 renamed 'Ball 1' to 'Right wrist'
+22:08:34 about to click the arrow beside Lower limb <2>, to open it at (50, 391)
+22:08:37 clicked the arrow beside Lower limb <2>, to open it -> 187-b-done-the-arrow-beside-lower-limb-2-to-open-it.png
+22:08:38 about to click the arrow beside Gripper <2>, to open it at (50, 547)
+22:08:41 clicked the arrow beside Gripper <2>, to open it -> 188-b-done-the-arrow-beside-gripper-2-to-open-it.png
+22:08:43 about to click the Ball mate on the toolbar at (492, 58)
+22:08:48 clicked the Ball mate on the toolbar -> 189-b-done-the-ball-mate-on-the-toolbar.png
+22:08:50 about to click Ball of Lower limb <2> at (140, 405)
+22:08:57 clicked Ball of Lower limb <2> -> 191-b-done-ball-of-lower-limb-2.png
+22:08:59 about to click Socket of Gripper <2> at (140, 561)
+22:09:07 clicked Socket of Gripper <2> -> 192-b-done-socket-of-gripper-2.png
+22:09:09 about to click the green tick at (424, 93)
+22:09:14 clicked the green tick -> 194-b-done-the-green-tick.png
+22:09:16 about to click the arrow beside Lower limb <2>, to fold up it at (50, 379)
+22:09:21 clicked the arrow beside Lower limb <2>, to fold up it -> 195-b-done-the-arrow-beside-lower-limb-2-to-fold-up-it.png
+22:09:23 about to click the arrow beside Gripper <2>, to fold up it at (50, 495)
+22:09:26 clicked the arrow beside Gripper <2>, to fold up it -> 196-b-done-the-arrow-beside-gripper-2-to-fold-up-it.png
+22:09:27 about to click the Ball 1 row, to rename it at (140, 911)
+22:09:32 clicked the Ball 1 row, to rename it -> 197-b-done-the-ball-1-row-to-rename-it.png
+22:09:32 about to click Rename in the context menu at (275, 623)
+22:09:35 clicked Rename in the context menu -> 198-b-done-rename-in-the-context-menu.png
+22:09:38 renamed 'Ball 1' to 'Left wrist'
+22:09:38 about to click the arrow beside Lower limb <3>, to open it at (50, 417)
+22:09:41 clicked the arrow beside Lower limb <3>, to open it -> 201-b-done-the-arrow-beside-lower-limb-3-to-open-it.png
+22:09:43 about to click the arrow beside Foot <1>, to open it at (50, 573)
+22:09:45 clicked the arrow beside Foot <1>, to open it -> 202-b-done-the-arrow-beside-foot-1-to-open-it.png
+22:09:47 about to click the Ball mate on the toolbar at (492, 58)
+22:09:54 clicked the Ball mate on the toolbar -> 203-b-done-the-ball-mate-on-the-toolbar.png
+22:09:56 about to click Ball of Lower limb <3> at (140, 405)
+22:10:04 clicked Ball of Lower limb <3> -> 205-b-done-ball-of-lower-limb-3.png
+22:10:06 about to click Socket of Foot <1> at (140, 561)
+22:10:14 clicked Socket of Foot <1> -> 206-b-done-socket-of-foot-1.png
+22:10:16 about to click the green tick at (424, 93)
+22:10:21 clicked the green tick -> 208-b-done-the-green-tick.png
+22:10:23 about to click the arrow beside Lower limb <3>, to fold up it at (50, 379)
+22:10:26 clicked the arrow beside Lower limb <3>, to fold up it -> 209-b-done-the-arrow-beside-lower-limb-3-to-fold-up-it.png
+22:10:27 about to click the arrow beside Foot <1>, to fold up it at (50, 509)
+22:10:32 clicked the arrow beside Foot <1>, to fold up it -> 210-b-done-the-arrow-beside-foot-1-to-fold-up-it.png
+22:10:34 about to click the Ball 1 row, to rename it at (140, 937)
+22:10:39 clicked the Ball 1 row, to rename it -> 211-b-done-the-ball-1-row-to-rename-it.png
+22:10:39 about to click Rename in the context menu at (275, 649)
+22:10:42 clicked Rename in the context menu -> 212-b-done-rename-in-the-context-menu.png
+22:10:45 renamed 'Ball 1' to 'Right ankle'
+22:10:45 about to click the arrow beside Lower limb <4>, to open it at (50, 443)
+22:10:48 clicked the arrow beside Lower limb <4>, to open it -> 215-b-done-the-arrow-beside-lower-limb-4-to-open-it.png
+22:10:49 about to click the arrow beside Foot <2>, to open it at (50, 599)
+22:10:52 clicked the arrow beside Foot <2>, to open it -> 216-b-done-the-arrow-beside-foot-2-to-open-it.png
+22:10:53 about to click the Ball mate on the toolbar at (492, 58)
+22:11:01 clicked the Ball mate on the toolbar -> 217-b-done-the-ball-mate-on-the-toolbar.png
+22:11:03 about to click Ball of Lower limb <4> at (140, 405)
+22:11:11 clicked Ball of Lower limb <4> -> 219-b-done-ball-of-lower-limb-4.png
+22:11:12 about to click Socket of Foot <2> at (140, 561)
+22:11:20 clicked Socket of Foot <2> -> 220-b-done-socket-of-foot-2.png
+22:11:22 about to click the green tick at (424, 93)
+22:11:27 clicked the green tick -> 222-b-done-the-green-tick.png
+22:11:29 about to click the arrow beside Lower limb <4>, to fold up it at (50, 379)
+22:11:32 clicked the arrow beside Lower limb <4>, to fold up it -> 223-b-done-the-arrow-beside-lower-limb-4-to-fold-up-it.png
+22:11:34 about to click the arrow beside Foot <2>, to fold up it at (50, 509)
+22:11:36 clicked the arrow beside Foot <2>, to fold up it -> 224-b-done-the-arrow-beside-foot-2-to-fold-up-it.png
+22:11:38 about to click the Ball 1 row, to rename it at (140, 951)
+22:11:43 clicked the Ball 1 row, to rename it -> 225-b-done-the-ball-1-row-to-rename-it.png
+22:11:43 about to click Rename in the context menu at (275, 686)
+22:11:45 clicked Rename in the context menu -> 226-b-done-rename-in-the-context-menu.png
+22:11:48 renamed 'Ball 1' to 'Left ankle'
+22:12:20 on lesson-run6p2, Assembly 1
+22:12:20 about to press Escape to clear any selection
+22:12:21 pressed Escape to clear any selection -> 229-b-done-clear-any-selection.png

@@ -1,0 +1,230 @@
+00:15:05  about to: survey pages, check stamp FOOT_RUN3_NVS79W is unused
+00:15:05  result: 9 pages open, 0 carry my stamp
+00:15:12  result: my page created and stamped; url=https://cad.onshape.com/documents?resourceType=resourcecompanyowner&nodeId=689a0 title=Spires Robotics | Documents
+00:15:28  about to: open Create > Document and make foot-run3
+00:15:41  result: url=https://cad.onshape.com/documents/40483ab1a6a310e833b3be41/w/bee74bfd1c5780e11aac4ea9/e/f0566c848741fdf66f476388 title=foot-run3 | Part Studio 1
+00:15:55  about to: open hamburger > Workspace units
+00:15:58  result: see screenshot
+00:16:14  about to: set Length unit=Millimeter, decimals=0.12345
+00:16:18  result: units dialog accepted
+00:16:30  about to: Sketch on Top plane
+00:16:36  result: sketch opened on Top, pressed n
+00:16:57  about to: calibrate mm/px with a throwaway circle
+00:17:07  result: see printed input values
+00:17:33  about to: discard calibration dimension, undo circle, zoom in, recalibrate
+00:17:47  result: see printed values
+00:18:46  about to: discard calibration dimension and delete both calibration circles
+00:18:52  result: see screenshot 08-b
+00:19:15  about to: tick Show constraints, open arc flyout, pick Center point arc, draw heel arc
+00:19:25  result: heel arc drawn, see 09-b
+00:19:45  about to: draw toe arc with Center point arc (toolbar MRU)
+00:19:52  result: toe arc drawn, see 10-b
+00:20:15  about to: draw the two side lines between arc endpoints
+00:20:23  result: see 11-b
+00:20:45  about to: draw the lower side line (first attempt drew only the upper line)
+00:20:54  result: see 12-b
+00:21:29  about to: dimension heel radius 8 and toe radius 12
+00:21:42  result: see 13-b screenshots
+00:22:09  about to: dimension toe radius 12 (retry, picking the arc off the X axis)
+00:22:15  result: see 13-b-done-dim-toe-r12.png
+00:22:34  about to: dimension origin->heel centre 8
+00:22:42  result: see 13-b-done-dim-heel-x8.png
+00:22:50  about to: dimension origin->toe centre 20
+00:23:00  result: see 14-b-done-outline-defined.png
+00:24:22  about to: probe the remaining DOF by dragging the upper side line, then undo
+00:24:27  result: see 14-x-probe screenshots
+00:25:05  about to: add Symmetric (shift+q) between the two side lines about the X axis
+00:25:14  result: see 15-b-done-symmetric.png
+00:26:01  about to: drag the toe-upper junction point to expose the remaining DOF, then undo
+00:26:07  result: see 15-x-probe screenshots
+00:26:47  about to: identify the auto-added junction glyph by hovering it, and open the constraint dropdown
+00:26:51  result: see 16-x screenshots
+00:27:25  about to: add Tangent (t) between upper line and heel arc
+00:27:32  result: see 17-b-done-tangent-upper-heel.png
+00:27:53  about to: add Tangent between upper line and toe arc
+00:28:03  result: see 17-b-done-tangent-upper-toe.png
+00:28:23  about to: screenshot the fully defined outline and accept Sketch 1
+00:28:31  result: sketch accepted
+00:28:54  about to: select the foot outline region and open Extrude
+00:29:00  result: see 19-a screenshots
+00:29:33  about to: set Extrude depth 6 and tick Starting offset
+00:29:51  about to: set Extrude depth 6, tick Starting offset, set offset 12
+00:29:53  result: see screenshot
+00:30:17  about to: set starting offset depth 12 and flip the offset arrow
+00:30:24  result: extrude accepted; checking bbox next
+00:30:44  about to: read bounding box and mass properties after the plate extrude
+00:30:45  result: bbox printed
+00:31:10  about to: open the view menu to switch to Isometric
+00:31:15  result: see 21-b
+00:31:41  about to: deselect, hide all planes, zoom to fit
+00:31:53  result: see 22-b
+00:32:14  about to: select the plate top face and open Fillet
+00:32:23  result: see 23-a screenshots
+00:32:51  about to: set fillet radius 4 and accept
+00:32:55  result: fillet accepted; see 23-b
+00:33:35  about to: open a sketch on the Front plane for the ankle ball profile
+00:33:43  result: see 24-b, check view cube reads Front
+00:34:21  about to: draw the ankle ball half-profile (arc r3 + axis line) on Front
+00:34:35  result: see 25-b
+00:34:57  about to: dimension the ball arc radius 3
+00:35:07  result: see 25-b-done-ball-profile-defined.png
+00:35:30  about to: accept Sketch 2, select the half-disc region, open Revolve
+00:35:36  result: see 26-a screenshots
+00:35:56  about to: click into Revolve axis and pick the profile's vertical line
+00:36:03  result: revolve accepted
+00:36:25  about to: open a sketch on Top for the socket collar circle
+00:36:34  result: see 27-b
+00:37:12  about to: draw the collar circle on the origin and dimension it 9.4
+00:37:26  result: see 28-b
+00:38:05  about to: accept Sketch 3 and open Extrude for the collar
+00:38:12  result: see 29-a
+00:38:42  about to: collar extrude - depth 1.35, tick Second end position 6
+00:38:44  result: see screenshot
+00:39:09  about to: set second end depth 6, switch operation to Add, inspect merge scope
+00:39:12  result: see screenshot
+00:39:39  about to: set Merge scope = Part 1 and accept the collar extrude
+00:39:47  result: collar extrude accepted
+00:40:16  about to: per-part volumes, then open Boolean
+00:40:25  result: see 30-a
+00:40:46  about to: switch Boolean to Subtract and pick Tools=Part 2, Targets=Part 1
+00:40:48  result: see screenshot
+00:41:14  about to: Tools=Part 2, Targets=Part 1, tick Offset
+00:41:19  result: see screenshots
+00:41:45  about to: remove Part 1 from Tools, then put it in Targets
+00:41:48  result: see screenshots
+00:42:34  about to: remove Part 1 from Tools again, focus Targets at its real y, pick Part 1
+00:42:38  result: see screenshots
+00:43:04  about to: tick Offset in the Boolean
+00:43:06  result: see screenshot
+00:43:29  about to: tick Offset all
+00:43:31  result: see screenshot
+00:43:56  about to: set Offset distance 0.2 and untick Keep tools
+00:43:59  result: see screenshot; verify Keep tools is UNticked
+00:44:19  about to: accept the Boolean subtract with offset 0.2
+00:44:23  result: boolean accepted
+00:44:56  about to: open a sketch on Top for one sole rib groove
+00:45:06  result: see 31-b
+00:45:39  about to: press n again - the first n gave the BOTTOM view, not Top
+00:45:45  result: see 31-x
+00:46:21  about to: zoom out 6 notches at the origin so a 26 mm tall rectangle fits on screen
+00:46:26  result: see 31-x-zoomed-out.png
+00:47:01  about to: draw the sole rib groove as a centre point rectangle
+00:47:09  result: see 32-a
+00:47:41  about to: dimension the rib groove 3 wide, 26 long, centre 10 from the origin
+00:48:07  result: see 32-b
+00:48:48  about to: delete the bad 26 dimension (it landed on the same two vertical edges as the 3)
+00:49:02  result: see 32-b
+00:49:31  about to: accept Sketch 4, select the rib region, open Extrude
+00:49:39  result: see 33-a
+00:50:05  about to: rib extrude - Remove, depth 1, starting offset 12 flipped
+00:50:09  result: see screenshot
+00:50:39  about to: set rib starting offset 12, flip it, accept
+00:50:49  result: rib extrude accepted
+00:51:45  about to: read /features to inspect Extrude 3 (the rib cut that removed nothing)
+00:51:45  result: printed feature parameters
+00:52:10  about to: reopen Extrude 3 and un-flip its main direction (it arrived oppositeDirection=True)
+00:52:19  result: see volume
+00:52:40  about to: open Linear pattern
+00:52:46  result: see 35-a
+00:53:12  about to: switch Linear pattern to Feature pattern
+00:53:45  result: see screenshot
+00:54:09  about to: open the pattern-type dropdown and pick Feature pattern in one call
+00:54:12  result: see screenshot
+00:54:48  about to: Features to pattern = Extrude 3, then try the Right plane as Direction
+00:54:53  result: see whether the Direction field took the Right plane
+03:33:59  about to: re-verify feature list, parts, bbox, volume after the spend-limit break
+03:35:03  about to: click 'Click here to reconnect.' - the session idled out during the spend-limit pause. NOT signed out; document saved.
+03:35:10  result: see 36-b-done-reconnected.png
+03:35:42  about to: reopen Linear pattern 1 (ERROR: directionOne queries is empty)
+03:35:45  result: see 37-a-select-linear-pattern-reopened.png
+03:36:03  about to: click the red Direction field, then click Right plane in the tree
+03:36:08  result: see 37-b-done-direction-right-plane.png - did the field take the plane?
+03:36:44  about to: set Linear pattern Distance 6 mm, Instance count 7
+03:36:46  result: see 38-a-select-pattern-6mm-7-instances.png
+03:37:06  about to: blur the count field with Tab so the preview refreshes, then look before accepting
+03:37:09  result: see 38-a-select-pattern-preview-7.png
+03:37:29  about to: accept Linear pattern 1 (green check)
+03:37:35  result: pattern accepted, see 38-b-done-sole-ribs-patterned.png
+03:37:58  about to: read the actual error text for Linear pattern 1
+03:38:01  result: see 38-x-pattern-error-tooltip.png
+03:38:20  about to: reopen Linear pattern 1 and tick 'Reapply features' as the error message advises
+03:38:28  result: see 39-a-select-reapply-ticked.png
+03:38:47  about to: accept Linear pattern 1 with Reapply features ticked
+03:38:54  result: see 39-b-done-sole-ribs.png
+03:39:32  about to: SYMMETRY CHECK - open Mirror via Search tools
+03:39:37  result: see 40-a-select-search-mirror.png
+03:39:57  about to: open the Mirror dialog
+03:40:01  result: see 40-a-select-mirror-dialog.png
+03:40:22  about to: Mirror = Intersect tab, entities Part 1, mirror plane Front (XZ)
+03:40:28  result: see 40-a-select-mirror-part1.png
+03:40:45  about to: Mirror plane = Front (the XZ plane)
+03:40:51  result: see 40-a-select-mirror-plane-front.png
+03:41:12  about to: accept Mirror 1 (Intersect about Front/XZ) - the symmetry check
+03:41:19  result: symmetry check volume delta printed
+03:41:36  about to: select the scratch Mirror 1 row and delete it
+03:41:40  result: see 41-a-select-mirror1-row.png
+03:42:03  about to: press Delete to remove the scratch Mirror 1
+03:42:08  result: see 41-b-done-mirror-deleted.png
+03:42:42  about to: DELIBERATE MISTAKE - start a sketch on the FRONT plane (the plan outline belongs on Top)
+03:42:48  result: see 42-x-MISTAKE-sketch-started-on-front-plane.png
+03:43:14  about to: MISTAKE cont. - press n to look normal at the Front plane, then draw a rough 48x24 rectangle with g
+03:43:27  result: see 42-x-MISTAKE-outline-drawn-on-front.png
+03:43:48  about to: press n a second time (first n gave Bottom again - the how-to warning reproduced)
+03:43:52  result: see 42-x-MISTAKE-second-n-gives-front.png
+03:44:34  about to: MISTAKE - draw the foot outline (rough rectangle) on the FRONT plane and accept the sketch
+03:44:40  result: see 42-x-MISTAKE-rectangle-on-front.png
+03:45:04  about to: MISTAKE - accept Sketch 5, select its region, open Extrude via Search tools
+03:45:15  result: see 43-x-MISTAKE-search-extrude.png
+03:45:37  about to: MISTAKE - open Extrude on the Front-plane region
+03:45:40  result: see 43-x-MISTAKE-extrude-dialog.png
+03:45:53  about to: MISTAKE - set depth 6 mm and accept the wrong-plane extrude
+03:46:05  result: see 44-x-MISTAKE-built-on-front-plane-side-view.png
+03:46:32  about to: open the view-orientation dropdown to reach Top and Isometric
+03:46:35  result: see 44-x-view-menu.png
+03:46:55  about to: MISTAKE - Isometric + zoom to fit to show the wrong-plane symptom
+03:47:02  result: see 44-x-MISTAKE-iso-plan-outline-built-as-a-wall.png
+03:47:31  about to: delete the deliberate mistake (Sketch 5 + Extrude 4)
+03:47:38  result: see 45-b-done-mistake-deleted.png
+03:47:56  about to: delete the leftover Sketch 5 from the deliberate mistake
+03:48:06  result: features now 11
+03:48:43  about to: measure circular edges, planar faces and cylinders by read-only FeatureScript
+03:49:04  result: geometry measured by FeatureScript
+03:51:44  about to: measure socket wall thickness and the flat margin around the collar
+03:51:44  result: distances measured
+03:52:12  about to: learn the feature-tree context menu (right-click Sketch 1) so I can rename
+03:52:14  result: see 46-a-select-context-menu.png
+03:52:44  about to: rename features 1-6
+03:53:19  result: features 1-6 renamed
+03:53:37  about to: rename features 7-11
+03:54:03  result: features 7-11 renamed
+03:54:19  about to: rename Part 1 -> Foot
+03:54:29  result: see 46-b-done-renamed-tree.png
+03:54:46  about to: right-click Part 1 and screenshot the whole window to locate Rename
+03:54:48  result: see 46-x-part-context-menu-full.png
+03:55:10  about to: click Rename on the Part 1 context menu (it opens upward near the bottom)
+03:55:14  result: see 46-b-done-renamed-tree.png
+03:55:35  about to: render the Foot with shadedviews from 4 angles
+03:55:38  result: renders written
+03:56:20  about to: open the versions panel to publish a named version
+03:56:24  result: see 48-a-select-versions-panel.png
+03:56:50  about to: identify the left-rail icons by their titles
+03:57:10  about to: hover each left-rail icon and capture the tooltip
+03:57:22  result: rail tooltips captured
+03:57:42  about to: click 'Create version...' in the left rail
+03:57:46  result: see 48-a-select-create-version-dialog.png
+03:58:09  about to: name the version 'foot-run3 v1' and click Create
+03:58:18  result: version list printed
+03:58:40  about to: open the VERSION link in my own page and confirm what comes back
+03:59:01  result: see 49-b-done-version-link-opened.png
+03:59:24  about to: open the live WORKSPACE link and confirm it comes back editable
+03:59:35  result: workspace link opens live and editable
+04:01:10  about to: reopen 'Sole ribs' to test whether the Direction field will take an EDGE (dialog will be cancelled)
+04:01:16  result: see 50-a-select-sole-ribs-reopened.png
+04:01:52  about to: clear Direction and hover the straight fillet/flat-top tangent edge
+04:01:59  result: see 50-a-select-edge-as-direction.png
+04:02:25  about to: replace the face with the straight EDGE between the fillet and the flat top
+04:02:35  result: see 50-b-done-edge-as-direction.png
+04:03:04  about to: CANCEL the Sole ribs edit (red X) so the Right plane direction is kept
+04:03:09  result: edit cancelled, feature verified unchanged
+04:08:14  about to: final state check before finishing
+04:08:15  result: FINISHED - 11 features all OK, one part 'Foot', version foot-run3 v1 published

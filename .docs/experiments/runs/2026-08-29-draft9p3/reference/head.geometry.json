@@ -1,0 +1,216 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "eid": "1562dee65e364ec088dda0ec",
+ "sketches": {
+  "eye profile": {
+   "entities": [
+    {
+     "center": [
+      12.0,
+      8.0
+     ],
+     "id": "b1iYS0u9rS9E",
+     "type": "ellipse"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "head profile": {
+   "entities": [
+    {
+     "center": [
+      0.0,
+      0.0
+     ],
+     "endPoint": [
+      -36.0,
+      0.0
+     ],
+     "id": "dl1Bw9dmYdsH",
+     "radius": 36.0,
+     "startPoint": [
+      36.0,
+      0.0
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      36.0,
+      -36.0
+     ],
+     "id": "rY2ihD7C2O25",
+     "startPoint": [
+      36.0,
+      0.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      -36.0
+     ],
+     "id": "BiclYqPcG6Kw",
+     "startPoint": [
+      36.0,
+      -36.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      -36.0,
+      0.0
+     ],
+     "id": "jBWfaztW3IiJ",
+     "startPoint": [
+      -36.0,
+      -36.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  "mouth profile": {
+   "entities": [
+    {
+     "endPoint": [
+      15.0,
+      -18.0
+     ],
+     "id": "gDqL2SKyeCq1",
+     "startPoint": [
+      -15.0,
+      -18.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "center": [
+      -15.0,
+      -18.0
+     ],
+     "endPoint": [
+      -15.0,
+      -13.0
+     ],
+     "id": "J0JZ4oRXuwSM.0.startCap",
+     "radius": 5.0,
+     "startPoint": [
+      -15.0,
+      -23.0
+     ],
+     "type": "arc"
+    },
+    {
+     "center": [
+      15.0,
+      -18.0
+     ],
+     "endPoint": [
+      15.0,
+      -23.0
+     ],
+     "id": "J0JZ4oRXuwSM.0.endCap",
+     "radius": 5.0,
+     "startPoint": [
+      15.0,
+      -13.0
+     ],
+     "type": "arc"
+    },
+    {
+     "endPoint": [
+      15.0,
+      -13.0
+     ],
+     "id": "J0JZ4oRXuwSM.0.left",
+     "startPoint": [
+      -15.0,
+      -13.0
+     ],
+     "type": "lineSegment"
+    },
+    {
+     "endPoint": [
+      15.0,
+      -23.0
+     ],
+     "id": "J0JZ4oRXuwSM.0.right",
+     "startPoint": [
+      -15.0,
+      -23.0
+     ],
+     "type": "lineSegment"
+    }
+   ],
+   "plane": {
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ],
+    "y": [
+     0,
+     0,
+     1
+    ]
+   }
+  }
+ },
+ "wid": "a1af16872d25103815f1c32a"
+}

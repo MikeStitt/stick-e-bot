@@ -1,0 +1,104 @@
+{
+ "did": "4b2e0d48efd37d3327a90afb",
+ "wid": "a1af16872d25103815f1c32a",
+ "eid": "656816292447e8797ff0402d",
+ "order": [
+  "Default geometry",
+  "Origin",
+  "Top",
+  "Front",
+  "Right",
+  "#limbD = 24 mm",
+  "add socket",
+  "limb section",
+  "limb",
+  "mate for fork",
+  "add fork",
+  "move fork",
+  "combine parts",
+  "shoulder end",
+  "elbow end"
+ ],
+ "features": {
+  "#limbD = 24 mm": {
+   "upstream": [],
+   "downstream": [
+    "limb section",
+    "limb"
+   ]
+  },
+  "add socket": {
+   "upstream": [],
+   "downstream": [
+    "limb section",
+    "combine parts",
+    "shoulder end",
+    "elbow end"
+   ]
+  },
+  "limb section": {
+   "upstream": [
+    "#limbD = 24 mm",
+    "add socket"
+   ],
+   "downstream": [
+    "limb"
+   ]
+  },
+  "limb": {
+   "upstream": [
+    "#limbD = 24 mm",
+    "limb section"
+   ],
+   "downstream": [
+    "mate for fork",
+    "combine parts"
+   ]
+  },
+  "mate for fork": {
+   "upstream": [
+    "limb"
+   ],
+   "downstream": [
+    "move fork"
+   ]
+  },
+  "add fork": {
+   "upstream": [],
+   "downstream": [
+    "move fork",
+    "combine parts",
+    "elbow end"
+   ]
+  },
+  "move fork": {
+   "upstream": [
+    "mate for fork",
+    "add fork"
+   ],
+   "downstream": []
+  },
+  "combine parts": {
+   "upstream": [
+    "add socket",
+    "limb",
+    "add fork"
+   ],
+   "downstream": []
+  },
+  "shoulder end": {
+   "upstream": [
+    "Origin",
+    "add socket"
+   ],
+   "downstream": []
+  },
+  "elbow end": {
+   "upstream": [
+    "add socket",
+    "add fork"
+   ],
+   "downstream": []
+  }
+ }
+}

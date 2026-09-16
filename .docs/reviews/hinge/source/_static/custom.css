@@ -1,0 +1,50 @@
+/* A review, not a tutorial. The figures carry the argument, so they are wide,
+   and the tables are read across, so they are not squeezed. */
+
+.wy-nav-content {
+  max-width: 1180px;
+}
+
+img.fig {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0.8em auto 0.4em;
+  background: #fff;
+}
+
+figure,
+.figure {
+  margin: 1.6em 0 1.8em;
+}
+
+figcaption,
+.caption {
+  font-size: 0.95em;
+  color: #43525e;
+  line-height: 1.6;
+}
+
+/* Every table here is numbers to compare down a column. */
+.rst-content table.docutils td,
+.rst-content table.docutils th {
+  font-variant-numeric: tabular-nums;
+  white-space: normal;
+  vertical-align: top;
+}
+
+/* A finding ends with who decides it. */
+.admonition.decision {
+  background: #fdf4f8;
+  border-left: 4px solid #b8156e;
+}
+
+.admonition.decision > .admonition-title {
+  background: #b8156e;
+  color: #fff;
+}
+
+.rst-content code.literal,
+.rst-content code.literal span.pre {
+  color: #1b1f2a;
+}

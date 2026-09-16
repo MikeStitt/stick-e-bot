@@ -1,0 +1,145 @@
+10:21:31 about to select the Collar circle row, the first feature that re-creates a joint at (140, 495)
+10:21:32 selected the Collar circle row, the first feature that re-creates a joint -> 02-a-select-the-collar-circle-row-the-first-feature-that-re-.png
+10:21:32 about to click the Second slit pair row, with Shift, to take the whole tail at (140, 651)
+10:21:33 clicked the Second slit pair row, with Shift, to take the whole tail -> 03-b-done-the-second-slit-pair-row-with-shift-to-take-the-.png
+10:21:34 about to click the picked rows, to open their menu at (140, 651)
+10:21:35 clicked the picked rows, to open their menu -> 05-b-done-the-picked-rows-to-open-their-menu.png
+10:21:36 about to click Delete in the context menu at (270, 877)
+10:21:37 clicked Delete in the context menu -> 06-b-done-delete-in-the-context-menu.png
+10:21:41 tree after the cut: ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Neck socket', '', 'Parts (1)', 'Head']
+10:23:15 about to click the Neck socket mate connector, to open its menu at (140, 495)
+10:23:16 clicked the Neck socket mate connector, to open its menu -> 07-b-done-the-neck-socket-mate-connector-to-open-its-menu.png
+10:23:18 about to click Delete, because the derived socket brings its own connectors at (286, 701)
+10:23:19 clicked Delete, because the derived socket brings its own connectors -> 08-b-done-delete-because-the-derived-socket-brings-its-own.png
+10:23:48 about to press Alt+c to alt-c, which opens the tool search
+10:23:49 pressed Alt+c to alt-c, which opens the tool search -> 10-b-done-alt-c-which-opens-the-tool-search.png
+10:23:55 about to click the Derived result, which arms the tool at (1120, 159)
+10:23:56 clicked the Derived result, which arms the tool -> 11-b-done-the-derived-result-which-arms-the-tool.png
+10:23:59 Derived armed after about 3 s
+10:23:59 about to click Select Part Studio…, which opens the document picker at (368, 148)
+10:24:00 clicked Select Part Studio…, which opens the document picker -> 12-b-done-select-part-studio-which-opens-the-document-pick.png
+10:24:04 about to click the Other documents tab in the picker at (692, 124)
+10:24:05 clicked the Other documents tab in the picker -> 13-b-done-the-other-documents-tab-in-the-picker.png
+10:24:08 about to click the picker's search box at (620, 161)
+10:24:09 clicked the picker's search box -> 14-b-done-the-picker-s-search-box.png
+10:24:14 about to press Enter to Enter, which is what runs the picker's search
+10:24:14 pressed Enter to Enter, which is what runs the picker's search -> 15-b-done-enter-which-is-what-runs-the-picker-s-search.png
+10:24:19 about to click the ball-socket-run6p2 document at (607, 195)
+10:24:20 clicked the ball-socket-run6p2 document -> 16-b-done-the-ball-socket-run6p2-document.png
+10:24:25 the picker reads version ['ball-socket-run6p2-2026-08-15']; wanted 'ball-socket-run6p2-2026-08-15'
+10:24:25 about to click Socket body, off ball-socket-run6p2-2026-08-15 at (672, 325)
+10:24:26 clicked Socket body, off ball-socket-run6p2-2026-08-15 -> 17-b-done-socket-body-off-ball-socket-run6p2-2026-08-15.png
+10:24:29 about to click the X on the picker, which leaves the Derived dialog standing at (753, 93)
+10:24:30 clicked the X on the picker, which leaves the Derived dialog standing -> 18-b-done-the-x-on-the-picker-which-leaves-the-derived-dia.png
+10:24:32 about to click the green tick, which keeps the Derived at (424, 93)
+10:24:33 clicked the green tick, which keeps the Derived -> 20-b-done-the-green-tick-which-keeps-the-derived.png
+10:24:38 about to click the Derived 1 row, to rename it at (140, 495)
+10:24:39 clicked the Derived 1 row, to rename it -> 21-b-done-the-derived-1-row-to-rename-it.png
+10:24:39 about to click Rename in the context menu at (261, 519)
+10:24:40 clicked Rename in the context menu -> 22-b-done-rename-in-the-context-menu.png
+10:24:42 renamed 'Derived 1' to 'Socket from the joint'
+10:24:42 derived Socket body as 'Socket from the joint'
+10:25:16 about to click Socket body in the parts list, the thing to move at (140, 722)
+10:25:17 clicked Socket body in the parts list, the thing to move -> 24-b-done-socket-body-in-the-parts-list-the-thing-to-move.png
+10:25:18 about to press Alt+c to alt-c, which opens the tool search
+10:25:19 pressed Alt+c to alt-c, which opens the tool search -> 25-b-done-alt-c-which-opens-the-tool-search.png
+10:25:25 about to click the Transform result, which arms the tool at (1120, 159)
+10:25:26 clicked the Transform result, which arms the tool -> 27-b-done-the-transform-result-which-arms-the-tool.png
+10:26:09 about to click the transformation-type dropdown at (430, 175)
+10:26:10 clicked the transformation-type dropdown -> 29-b-done-the-transformation-type-dropdown.png
+10:27:38 about to click Rotate in the transformation-type list at (350, 310)
+10:27:39 clicked Rotate in the transformation-type list -> 31-b-done-rotate-in-the-transformation-type-list.png
+10:28:46 about to click the Axis field, to arm it at (343, 208)
+10:28:47 clicked the Axis field, to arm it -> 33-b-done-the-axis-field-to-arm-it.png
+10:28:48 about to click the Front plane, whose normal is the y axis at (140, 235)
+10:28:49 clicked the Front plane, whose normal is the y axis -> 34-b-done-the-front-plane-whose-normal-is-the-y-axis.png
+10:30:16 about to click the Axis field, to arm it at (343, 208)
+10:30:17 clicked the Axis field, to arm it -> 36-b-done-the-axis-field-to-arm-it.png
+10:30:18 about to click the head's dome, a cylinder about the y axis through the origin at (1100, 300)
+10:30:19 clicked the head's dome, a cylinder about the y axis through the origin -> 37-b-done-the-head-s-dome-a-cylinder-about-the-y-axis-thro.png
+10:30:22 the dialog now reads 'Transform 1\nEntities to transform or copy\nSocket body\n×\nRotate\nAxis\nFace of Head body\n×\nAngle\nCopy part'
+10:31:02 about to click the green tick, which keeps the turn at (424, 93)
+10:31:03 clicked the green tick, which keeps the turn -> 40-b-done-the-green-tick-which-keeps-the-turn.png
+10:31:08 about to click the Transform 1 row, to rename it at (140, 521)
+10:31:09 clicked the Transform 1 row, to rename it -> 41-b-done-the-transform-1-row-to-rename-it.png
+10:31:09 about to click Rename in the context menu at (251, 545)
+10:31:10 clicked Rename in the context menu -> 42-b-done-rename-in-the-context-menu.png
+10:31:11 renamed 'Transform 1' to 'Turn the socket over'
+10:31:45 about to click Socket body in the parts list, the thing to move at (140, 722)
+10:31:46 clicked Socket body in the parts list, the thing to move -> 44-b-done-socket-body-in-the-parts-list-the-thing-to-move.png
+10:31:47 about to press Alt+c to alt-c, which opens the tool search
+10:31:49 pressed Alt+c to alt-c, which opens the tool search -> 45-b-done-alt-c-which-opens-the-tool-search.png
+10:31:55 about to click the Transform result, which arms the tool at (1120, 159)
+10:31:56 clicked the Transform result, which arms the tool -> 46-b-done-the-transform-result-which-arms-the-tool.png
+10:32:02 about to click the transformation-type dropdown at (430, 175)
+10:32:03 clicked the transformation-type dropdown -> 47-b-done-the-transformation-type-dropdown.png
+10:32:04 about to click Translate by XYZ in the list at (350, 258)
+10:32:05 clicked Translate by XYZ in the list -> 48-b-done-translate-by-xyz-in-the-list.png
+10:32:08 the dialog now reads 'Transform 1\nEntities to transform or copy\nSocket body\n×\nTranslate by XYZ\nCopy part'
+10:32:40 about to click the green tick, which keeps the move at (424, 93)
+10:32:41 clicked the green tick, which keeps the move -> 50-b-done-the-green-tick-which-keeps-the-move.png
+10:32:46 about to click the Transform 1 row, to rename it at (140, 547)
+10:32:47 clicked the Transform 1 row, to rename it -> 51-b-done-the-transform-1-row-to-rename-it.png
+10:32:47 about to click Rename in the context menu at (251, 571)
+10:32:48 clicked Rename in the context menu -> 52-b-done-rename-in-the-context-menu.png
+10:32:49 renamed 'Transform 1' to 'Drop the socket to the neck'
+10:33:15 about to click Boolean on the toolbar at (780, 58)
+10:33:16 clicked Boolean on the toolbar -> 54-b-done-boolean-on-the-toolbar.png
+10:33:19 about to click Socket body in the parts list at (140, 722)
+10:33:19 clicked Socket body in the parts list -> 55-b-done-socket-body-in-the-parts-list.png
+10:33:21 about to click Head in the parts list at (140, 696)
+10:33:22 clicked Head in the parts list -> 56-b-done-head-in-the-parts-list.png
+10:33:24 about to click the Keep tools box, to turn it off at (239, 229)
+10:33:25 clicked the Keep tools box, to turn it off -> 57-b-done-the-keep-tools-box-to-turn-it-off.png
+10:33:26 about to click the green tick, which keeps the union at (424, 93)
+10:33:27 clicked the green tick, which keeps the union -> 58-b-done-the-green-tick-which-keeps-the-union.png
+10:33:32 about to click the Boolean 1 row, to rename it at (140, 573)
+10:33:33 clicked the Boolean 1 row, to rename it -> 59-b-done-the-boolean-1-row-to-rename-it.png
+10:33:33 about to click Rename in the context menu at (251, 597)
+10:33:34 clicked Rename in the context menu -> 60-b-done-rename-in-the-context-menu.png
+10:33:36 renamed 'Boolean 1' to 'Union the head and the socket'
+10:33:36 about to click the Socket body row, to rename it at (140, 696)
+10:33:37 clicked the Socket body row, to rename it -> 62-b-done-the-socket-body-row-to-rename-it.png
+10:33:37 about to click Rename in the context menu at (272, 364)
+10:33:37 clicked Rename in the context menu -> 63-b-done-rename-in-the-context-menu.png
+10:33:39 renamed 'Socket body' to 'Head'
+10:33:39 tree now ['Default geometry', 'Origin', 'Top', 'Front', 'Right', 'Head profile', 'Head body', 'Outline rounds', 'Eye profile', 'Eye', 'Second eye', 'Mouth profile', 'Mouth', 'Socket from the joint', 'Turn the socket over', 'Drop the socket to the neck', 'Union the head and the socket', '', 'Parts (1)', 'Head']
+10:34:24 about to click an empty spot, to put the focus in the graphics area at (1200, 800)
+10:34:25 clicked an empty spot, to put the focus in the graphics area -> 66-b-done-an-empty-spot-to-put-the-focus-in-the-graphics-a.png
+10:34:26 about to press Shift+ArrowLeft to shift-left, which swings the view a quarter turn
+10:34:27 pressed Shift+ArrowLeft to shift-left, which swings the view a quarter turn -> 67-b-done-shift-left-which-swings-the-view-a-quarter-turn.png
+10:34:29 about to press Shift+ArrowLeft to shift-left, which swings the view a quarter turn
+10:34:30 pressed Shift+ArrowLeft to shift-left, which swings the view a quarter turn -> 68-b-done-shift-left-which-swings-the-view-a-quarter-turn.png
+10:34:32 about to click the View menu at (1563, 232)
+10:34:32 clicked the View menu -> 69-b-done-the-view-menu.png
+10:34:34 about to click Zoom to fit at (1458, 393)
+10:34:35 clicked Zoom to fit -> 70-b-done-zoom-to-fit.png
+10:35:25 about to click the head's back face, the one the shell opens at (800, 420)
+10:35:26 clicked the head's back face, the one the shell opens -> 72-b-done-the-head-s-back-face-the-one-the-shell-opens.png
+10:35:27 about to press Alt+c to alt-c, which opens the tool search
+10:35:28 pressed Alt+c to alt-c, which opens the tool search -> 73-b-done-alt-c-which-opens-the-tool-search.png
+10:35:34 about to click the Shell result, which arms the tool at (1120, 159)
+10:35:35 clicked the Shell result, which arms the tool -> 74-b-done-the-shell-result-which-arms-the-tool.png
+10:35:41 the dialog reads 'Shell 1\nHollow\nFaces to remove\nFace of Head body\n×\nShell thickness'
+10:36:11 about to click the green tick, which keeps the shell at (424, 93)
+10:36:12 clicked the green tick, which keeps the shell -> 77-b-done-the-green-tick-which-keeps-the-shell.png
+10:36:18 about to click the Shell 1 row, to rename it at (140, 599)
+10:36:19 clicked the Shell 1 row, to rename it -> 78-b-done-the-shell-1-row-to-rename-it.png
+10:36:19 about to click Rename in the context menu at (261, 623)
+10:36:20 clicked Rename in the context menu -> 79-b-done-rename-in-the-context-menu.png
+10:36:22 renamed 'Shell 1' to 'Head shell'
+21:32:53 about to press Control+m to ctrl-m, which opens Mate connector
+21:32:55 pressed Control+m to ctrl-m, which opens Mate connector -> 82-b-done-ctrl-m-which-opens-mate-connector.png
+21:32:59 about to click the Origin entity field, to arm it at (355, 154)
+21:33:00 clicked the Origin entity field, to arm it -> 83-b-done-the-origin-entity-field-to-arm-it.png
+21:33:02 about to click the Origin, which the connector starts from at (140, 183)
+21:33:03 clicked the Origin, which the connector starts from -> 84-b-done-the-origin-which-the-connector-starts-from.png
+21:33:05 about to click the Move box, to drop it to the socket centre at (252, 231)
+21:33:06 clicked the Move box, to drop it to the socket centre -> 85-b-done-the-move-box-to-drop-it-to-the-socket-centre.png
+21:33:13 about to click the green tick, which keeps the connector at (424, 93)
+21:33:13 clicked the green tick, which keeps the connector -> 87-b-done-the-green-tick-which-keeps-the-connector.png
+21:33:18 about to click the Mate connector 1 row, to rename it at (140, 625)
+21:33:19 clicked the Mate connector 1 row, to rename it -> 88-b-done-the-mate-connector-1-row-to-rename-it.png
+21:33:19 about to click Rename in the context menu at (251, 649)
+21:33:20 clicked Rename in the context menu -> 89-b-done-rename-in-the-context-menu.png
+21:33:22 renamed 'Mate connector 1' to 'Neck socket'
