@@ -124,8 +124,8 @@ instructions closer to a final product.
 ## Layer 4 — the design source: where the numbers come from
 
 - [ ] `.docs/robot-build-plan.md` — the design and its curriculum coverage.
-- [ ] `.docs/project.md` — document ids.
-- [ ] `.docs/session-state.md` — named versions.
+- [ ] `.docs/project.md` — document ids. A run's own ids are in its folder under
+      `.docs/experiments/runs/`.
 
 ## Archive — read only to answer "why is it like this"
 
@@ -291,5 +291,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.5.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.5.2 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

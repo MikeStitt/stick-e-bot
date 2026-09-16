@@ -103,12 +103,12 @@ Applied to what exists today:
 | `.docs/project.md`, `robot-build-plan.md` | stays; `docs/` gets a new page written from them | the originals are development state |
 | `.docs/session-state.md` | delete | the agents have landed; it was a handoff before a clear |
 
-**The `session-state.md` row was not carried out.** Looking at the file before deleting it,
-which the Constitution requires, showed it is the **only** registry of the robot's Onshape
-document ids and named versions — `ball-socket-run2`, `hinge-run2`, `lesson-run2` and their
-published version ids. `project.md` holds the sponge's ids, not the robot's. The row's reason
-justifies dropping the handoff framing, not the registry, so the file stays until the ids have
-somewhere else to live.
+**The `session-state.md` row was carried out on 2026-09-16.** It was held back at the time
+because the file looked like the only registry of the robot's Onshape ids and named versions. It
+was not: every did, every published version id and every element id it held is in
+[`experiments/runs/2026-08-11-run2/`](experiments/runs/2026-08-11-run2/README.md), which records
+them in the same table shape run 1 uses, with the element ids in each directory's
+`build-notes.md`. Run 2 is overcome by events and the file is deleted.
 
 ## Losing the sponge
 

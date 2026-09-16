@@ -35,7 +35,7 @@ one has been built twice, Part two once, and each was corrected after the run th
 so **no part has been rebuilt from the text as it now stands**, and a run 3 would be its first
 test. The run 2 model measures right — eyes r5, mouth 20.000 overall, neck Ø12 — at version
 `run2-session1-complete`; the ball-and-socket and hinge joints are built at named versions too,
-with ids in [`session-state.md`](session-state.md).
+with ids in [run 2's folder](experiments/runs/2026-08-11-run2/README.md).
 
 **Run 3 was launched, mis-briefed and thrown out** (2026-08-12). Its three agents read a brief
 README claiming an open conflict over limb sections that did not exist; `#limbD` had been
