@@ -27,14 +27,18 @@ artifact is never simply right or wrong — it is only ever specific to a range 
 we thought on a date. Asking "is this file correct?" has no answer; asking "is this file
 controlling, illustrative or superseded, and for which versions?" always does.
 
-**How to apply:** put the status in the file's own opening, above everything else, with the version
-range or the date beside it. A frozen artifact is not a defect and MUST NOT be "fixed" by
-repointing it at the current design source — that destroys the record and leaves prose and figures
-contradicting each other. Three questions settle the status: does anything read this to build the
-robot (controlling); does it derive from something that does, or compute about geometry handed to
-it (illustrative); or does it describe geometry the robot no longer has (superseded)? An analysis
-tool is illustrative however current its method, because the version it speaks about arrives in
-its inputs rather than living in the file.
+**How to apply:** put the status in the file's own opening, above everything else. The version goes
+beside it **only when the file lives in a tree named for that version.** Evergreen code is reused by
+the next version, so a docstring naming the joint or the draft it was written against reads as scope
+and goes false the first time it is reused; there, say what decides the inputs instead, and let the
+version arrive in the data. That half is a rule, not a preference, and it is in the
+[constitution](../.claude/rules/constitution.md). A frozen artifact is not a defect and MUST NOT be
+"fixed" by repointing it at the current design source — that destroys the record and leaves prose
+and figures contradicting each other. Three questions settle the status: does anything read this to
+build the robot (controlling); does it derive from something that does, or compute about geometry
+handed to it (illustrative); or does it describe geometry the robot no longer has (superseded)? An
+analysis tool is illustrative however current its method, because the version it speaks about
+arrives in its inputs rather than living in the file.
 
 The trap this exists to stop: judging a file by whether its numbers match `make_plans.py`. See
 [[test-the-technique-not-a-guess]] and [[no-invented-gates]]; related are

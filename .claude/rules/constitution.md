@@ -24,6 +24,14 @@ The behavioral contract. Numbered for reference, not priority.
   not. [`parts/plan-activation.md`](parts/plan-activation.md) says how a plan is activated and
   deactivated. These rules bind the work whether or not a plan is active.
 
+- **Do not name a version in code that is not in a version-specific tree.** Anything under
+  `src/stickbot/` or another evergreen path is reused by the next version, so a docstring naming
+  the joint, the draft or the numbers it was written against becomes false the first time it is
+  reused, and a reader takes it for scope rather than for history. Say what the code does and what
+  decides its inputs. Where a version has to be named, name it in the record that belongs to that
+  version. Code that genuinely cannot be reused, such as a frozen generator for a frozen document,
+  belongs in a tree named for its version, so the path says what the prose MUST NOT.
+
 - **Name a unit of work; do not number it.** An identifier is a dotted name in the style the plans
   already use for steps and requirements, `task.foot.sole_groove` beside `audit.page` and
   `cad.parts.body.block`, and it is written into the plan that will do the work. A number coined in
@@ -298,5 +306,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.9.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
+**Version**: 5.10.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

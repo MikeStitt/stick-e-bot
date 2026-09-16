@@ -1,14 +1,15 @@
-"""How hard the wedge hinge is to turn, to pinch together, and to twist apart.
+"""How hard a detent hinge is to turn, to pinch together, and to twist apart.
 
-Status: illustrative — an analysis tool. It decides no dimension. It is parameterized
-rather than dimensioned, so the version rides in the Hinge it is handed: the frozen hinge review
-hands it the superseded joint and gets that joint's numbers back, and the design source hands it
-the current one. The one thing here that is a choice rather than a method is the material,
+Status: illustrative — an analysis tool. It decides no dimension and it names no version:
+the geometry arrives in the ``Hinge`` it is handed, so whichever joint is handed to it is the
+joint it answers about. The one thing here that is a choice rather than a method is the material,
 E_PETG and YIELD_PETG below; change those and every answer moves.
 
 All three answers come from the same picture. The fork's ear and the blade's leaf are
 cantilevers cut out of the same Ø ``limb`` rod at different depths, and they meet at a
-ring of wedges standing proud of both faces. Wherever a wedge or the axle needs room, the
+ring of protrusions standing proud of both faces. The worked description below uses wedges,
+because that is the shape the ring has had longest; the ring itself is a radius, a count and a
+climb, so a ring of any shape is expressed the same way. Wherever a wedge or the axle needs room, the
 pair has to open by that much, and the force it takes is a contact problem: every wedge
 *may* push, none may pull, and a wedge the beam has already lifted clear pushes with
 nothing.

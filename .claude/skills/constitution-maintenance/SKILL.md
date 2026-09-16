@@ -50,6 +50,37 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.10.0 (2026-09-16)** — MINOR: a new Working Rule, *Do not name a version in code that is not
+  in a version-specific tree*, with its corollary that code which genuinely cannot be reused
+  belongs in a tree named for its version.
+
+  _Why:_ Mike's diagnosis, and it names a defect this repository had just produced twice. A routine
+  is written for one version, the version is written into its prose, the routine is reused for the
+  next version, and the prose is stuck. `hinge_spring.py` is the worked example: its `Hinge`
+  docstring says the detent ring is given as a radius, a count and a climb *"so that the old
+  tooth-and-valley joint can be expressed here too and used as a check"* — the interface was built
+  version-neutral on purpose — while the module opened *"How hard the wedge hinge is to turn"*. The
+  code serves both joints and the prose claimed one.
+
+  The distinction the rule turns on is scope against history. *"draft9p0 offset the pattern by"* is
+  history, explicitly past, and explains why a number is what it is; it stays. A line that reads as
+  what the file is for does not.
+
+  _Companion changes, same commit._ `hinge_spring.py` loses both version claims: it now opens *How
+  hard a detent hinge is to turn* and its status line says it names no version because the geometry
+  arrives in the `Hinge` it is handed. `memory/deciding-is-never-done.md` had told the reader to put
+  the version beside the status in every file, which was wrong for evergreen code and is now
+  qualified.
+
+  _Audited, not assumed._ Every version name under `src/stickbot/` was read and judged against the
+  rule. The rest are history and stay: four in `make_plans.py`, two in `onshape_gui.py`, one in
+  `gui_steps.py`, and `hinge_spring.py`'s three references to the old joint, which are the reason
+  the interface is general. `gui_steps.py`'s usage example names `draft10p9`, a draft that does not
+  exist, which cannot be mistaken for a claim.
+
+  _Config companion._ None. No check distinguishes scope from history, and inventing one was not
+  attempted. `ninja check` was run and watched green on all five.
+
 - **5.9.1 (2026-09-16)** — PATCH: *Where developmental draft products live* reads *an example
   completed CAD in Onshape* where it read *an example completed CAD at `_TODO_`*.
 
