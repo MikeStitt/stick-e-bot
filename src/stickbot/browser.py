@@ -35,7 +35,7 @@ SIGNIN_URL = "https://cad.onshape.com/signin"
 
 
 def status() -> int:
-    import onshape_session as osn
+    from stickbot import onshape_session as osn
 
     with sync_playwright() as p:
         try:
@@ -79,7 +79,7 @@ def signin(email: str) -> int:
     password field Chrome autofills from the saved credential. Nothing here types into
     that field or reads it — `el.value.length` is the whole of what it asks.
     """
-    import onshape_session as osn
+    from stickbot import onshape_session as osn
 
     with sync_playwright() as p:
         try:

@@ -129,7 +129,7 @@ def _reqs(req) -> list[str]:
 
 def connect(playwright, port: int = AGENT_PORT):
     """Attach to the agent's browser. 9223 only — `onshape_gui.connect` says why."""
-    import onshape_gui as gui
+    from stickbot import onshape_gui as gui
     return gui.connect(playwright, port=port)
 
 
@@ -344,7 +344,7 @@ class Step:
         self.dir = staged / str(self.attempt)
 
     def __enter__(self) -> "Step":
-        import onshape_gui as gui
+        from stickbot import onshape_gui as gui
         self.take.open_step = self
         self.dir.mkdir(parents=True, exist_ok=True)
         self.before = gui.tree_all(self.take.page)
@@ -365,7 +365,7 @@ class Step:
         `at` draws the ring for the close-up half of a point pick, from the same pixel the
         click will use — `shots.md`, *Selecting a point always takes two frames*.
         """
-        import onshape_gui as gui
+        from stickbot import onshape_gui as gui
         if kind not in KINDS:
             raise ValueError(f"kind {kind!r} is not one of {sorted(KINDS)}")
         if not shows or not shows.strip():
@@ -425,7 +425,7 @@ class Step:
         `why` is what the page will say. Typing a value is not this — that goes through the
         field, and the field's frame is its record.
         """
-        import onshape_gui as gui
+        from stickbot import onshape_gui as gui
         if not why or not why.strip():
             raise ValueError(f"{self.identifier}: a keystroke needs a `why`")
         self.take.page.keyboard.press(keys)
@@ -459,7 +459,7 @@ class Step:
     # ---- the step record --------------------------------------------------
 
     def __exit__(self, exc_type, exc, tb) -> bool:
-        import onshape_gui as gui
+        from stickbot import onshape_gui as gui
         self.take.open_step = None
         after = gui.tree_all(self.take.page)
         added = [r for r in _features(after) if r not in _features(self.before)]
