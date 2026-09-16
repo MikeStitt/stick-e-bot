@@ -13,19 +13,9 @@ are the ones the current work points at.
 ## The guide
 
 The student-facing walkthrough and the pipeline that generates it live in
-`experiments/spongebob-guide/`, in the `sponge` archive,. It began as an
+`experiments/spongebob-guide/`, in the `sponge` archive. It began as an
 experiment in whether a picture-led walkthrough of one step could be generated from the live
 UI. It could, so it grew to cover the whole taught path.
-
-## The one-paragraph summary
-
-We are building an introduction to CAD in which students model a 150 mm articulated robot figure
-in Onshape. The design and what it covers of the official curriculum are in
-[`robot-build-plan.md`](robot-build-plan.md); Session 1 is written and has had two test runs. The
-reference model that exists today is the retired sponge, and it is **built from magic numbers with
-zero constraints**, which is the habit the course exists to prevent. See
-[`modeling-practice`](../.claude/skills/modeling-practice/SKILL.md) for the standard both are
-measured against.
 
 ## What needs doing, and what needs improving
 

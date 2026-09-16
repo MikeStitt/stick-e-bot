@@ -1,9 +1,8 @@
 # stick-e-bot — a CAD course in Onshape
 
-An introduction to Onshape, taught by building one thing: a printable stick figure robot
-about 150 mm tall, with a ball-and-socket neck and hips and a fifteen degree ratcheting hinge at
-the elbows and knees. A student finishes with a robot they modeled themselves, printed, and can
-pose.
+An introduction to Onshape, taught by building a printable stick figure robot
+about 300 mm tall, with a ball-and-socket neck and hips and a ratcheting hinge at
+the elbows and knees.
 
 ## Repository layout
 

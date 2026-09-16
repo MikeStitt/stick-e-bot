@@ -1,13 +1,5 @@
 # The project, and where it currently stands
 
-## What we're building
-
-An introduction to CAD. Students model a 150 mm articulated robot figure
-in Onshape, starting from never having opened a CAD tool. The figure is a vehicle: thirteen
-joints of two kinds, built from blocks, rods and pockets, which is to say it is sketch, extrude,
-revolve and fillet in roughly the order you'd want to learn them — and then assembly mates, which
-the sponge had nowhere to teach. See [`robot-build-plan.md`](robot-build-plan.md).
-
 The audience is deliberately wide — middle-schoolers who have never opened CAD through to
 high-schoolers with some Fusion or TinkerCAD behind them. That is why every session needs a floor
 and a ceiling.
