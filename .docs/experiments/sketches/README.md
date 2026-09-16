@@ -41,7 +41,7 @@ different page in a gallery of them: 🦵 `hip-clearance`, 🔵 `socket-wrap`, �
 
 ## The initial sketch, revision by revision
 
-`instructions/robot-guide/make_plans.py` draws the two plan sheets and writes them over the
+`src/stickbot/make_plans.py` draws the two plan sheets and writes them over the
 previous ones. It draws the current design and only the current design: a generator that can also
 draw three superseded revisions is three code paths that have to keep working.
 

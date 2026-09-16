@@ -12,7 +12,7 @@ and measured, and it held 210 N·mm where it was drawn for 454. The printer had 
 valley holes and they could not be picked out; 0.235 mm of residue in a valley, one extrusion
 width, accounts for the whole loss. There are no holes in the joint now except the bore.
 
-The design source is [`make_plans.py`](../../../instructions/robot-guide/make_plans.py), the numbers
+The design source is [`make_plans.py`](../../../src/stickbot/make_plans.py), the numbers
 a person reads are in [`../../robot-build-plan.md`](../../robot-build-plan.md), and the record of
 how the joint got here is [`../../reviews/hinge/`](../../reviews/hinge/), which is frozen on the
 joint it reviewed and says at its end what changed.
@@ -328,7 +328,7 @@ no torque at all**: hold the rest of the joint still and 12 wedges and 24 give t
 The 31% this draft gains over draft9p1p5 comes from two other changes; closing `GAP` 0.10, which
 raises `CLIMB` to 0.60 and makes the pair open further to turn, is 24% of it, and the ring moving
 out to `FLAT` is the other 5%. Twenty-four wedges buy the 15° step and nothing else. Use
-`tools/hinge_spring.py`; do not re-derive it with a formula. Run that file on its own and it
+`src/stickbot/hinge_spring.py`; do not re-derive it with a formula. Run that file on its own and it
 reproduces the old joint's 454 N·mm and 7.16 kgf, so a difference you see is the design's and not
 the model's.
 

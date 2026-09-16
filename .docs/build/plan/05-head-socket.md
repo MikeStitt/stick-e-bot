@@ -89,9 +89,9 @@ count, the face count, the bounding box, the cavity and all three connector orig
 **`instructions/stickbot-draft9p4/source/head-socket.rst`**, written from the 42 frames in
 `instructions/stickbot-draft9p4/source/images/head-socket/`, captured across 10 steps in
 `stickbot-draft9p4-check`. `ninja check` comes back clean with no paragraph above grade 8, and
-`tools/page_sweeps.py`'s sweeps come back clean: every frame on disk is used, every frame the page
-names is on disk, no picture stands above its sentence, and every view key a step pressed is named
-in the block that shows it.
+`src/stickbot/page_sweeps.py`'s sweeps come back clean: every frame on disk is used, every frame the
+page names is on disk, no picture stands above its sentence, and every view key a step pressed is
+named in the block that shows it.
 
 **Four page-level corrections came out of the build rather than out of the plan.**
 

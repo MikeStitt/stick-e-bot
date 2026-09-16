@@ -157,13 +157,13 @@ Measure these, in the rest pose. Do not infer them.
 
 - **Does the detent actually hold a pose?** In CAD a revolute mate turns freely; the detent is a
   print-time feature. Say what the mate does and note that the click cannot be tested here.
-- **Can a person put this robot together at all?** The hinge's snap presses home against
-  **5.18 kgf**, solved as a contact problem in `tools/hinge_spring.py`, and there are four hinges
-  and eight ball joints. An earlier revision of this brief said 36.3 kgf; that came from adding
-  the teeth up as independent springs, which overstates the press about eightfold, and from a
-  tongue with no slit in it. The assembly cannot test the real number either — but it is the
-  first document that has all thirteen joints in one place, so it is the right place to say it
-  out loud. See [`hinge.md`](hinge.md).
+- **Can a person put this robot together at all?** The hinge's snap presses home against **5.18
+  kgf**, solved as a contact problem in `src/stickbot/hinge_spring.py`, and there are four hinges
+  and eight ball joints. An earlier revision of this brief said 36.3 kgf; that came from adding the
+  teeth up as independent springs, which overstates the press about eightfold, and from a tongue
+  with no slit in it. The assembly cannot test the real number either — but it is the first document
+  that has all thirteen joints in one place, so it is the right place to say it out loud. See
+  [`hinge.md`](hinge.md).
 - **Does the ball mate reach the swing the socket geometry allows**, or does something else bind
   first — a limb rim, the torso's face, a collar? The plan's whole argument for standing the
   collar proud is that the joint should be limited by the joint. This is the first chance to

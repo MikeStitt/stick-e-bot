@@ -154,14 +154,15 @@ _Model inspected_ gate asks for. Use
 ## Get the session back with the repo's own scripts
 
 A missing session does not announce itself as one. It surfaces as `NotSignedIn` out of
-[`tools/onshape_session.py`](../../../tools/onshape_session.py), or as a 401 from a script driving
-the agent browser. Answer it with [`tools/browser.py`](../../../tools/browser.py) rather than a
-script written for the occasion.
+[`src/stickbot/onshape_session.py`](../../../src/stickbot/onshape_session.py), or as a 401 from a
+script driving the agent browser. Answer it with
+[`src/stickbot/browser.py`](../../../src/stickbot/browser.py) rather than a script written for the
+occasion.
 
-- **Ask before guessing.** `uv run python tools/browser.py --status` names the signed-in user or
+- **Ask before guessing.** `uv run python -m stickbot.browser --status` names the signed-in user or
   says there is none. A 401 against the agent browser usually means its borrowed cookies went stale
   rather than that anyone is signed out, and
-  [`tools/agent_browser.py`](../../../tools/agent_browser.py) says why.
+  [`src/stickbot/agent_browser.py`](../../../src/stickbot/agent_browser.py) says why.
 - **`--signin` gets the session back without a person.** It types the account email — from
   `git config user.email`, or from `--email` — into Onshape's first sign-in page, and Chrome's
   saved credential fills the second. If Chrome has nothing saved it says so, and then someone signs
@@ -182,10 +183,10 @@ which: on 2026-08-27 `partstudios/.../features` answered `retry-after: 67201`, w
 - **Keep the response headers.** A client that returns status and body and drops the headers cannot
   tell the two modes apart, and a retry ladder that cannot read `retry-after` turns a day-long quota
   into something indistinguishable from a hang. `api()` in
-  [`tools/onshape_session.py`](../../../tools/onshape_session.py) reads them and decides on them;
-  anything else talking to Onshape does the same or uses it. Eight earlier attempts assumed the
-  short block, and [`.docs/README.md`](../../../.docs/README.md) § *Pipeline improvements worth
-  making* has the sweep and why each one missed.
+  [`src/stickbot/onshape_session.py`](../../../src/stickbot/onshape_session.py) reads them and
+  decides on them; anything else talking to Onshape does the same or uses it. Eight earlier attempts
+  assumed the short block, and [`.docs/README.md`](../../../.docs/README.md) § *Pipeline
+  improvements worth making* has the sweep and why each one missed.
 - **Back off for the burst, and stop.** Waits that reach into the minutes outlast a burst. Nothing
   outlasts a quota, so when `retry-after` reads in the hours, change the plan rather than waiting.
 - **The limit is per endpoint family.** With `features` at zero, `bodydetails`, `parts`,

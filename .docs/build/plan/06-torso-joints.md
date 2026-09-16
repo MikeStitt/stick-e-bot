@@ -243,9 +243,9 @@ dimensions hold `#torsoW / 2` and `#torsoH / 12` rather than `#shoulder_half` an
 **`instructions/stickbot-draft9p4/source/torso-joints.rst`**, written from the 169 frames in
 `instructions/stickbot-draft9p4/source/images/torso-joints/`, captured across 31 steps in
 `stickbot-draft9p4-check`. `ninja check` comes back clean with no paragraph above grade 8, Sphinx
-builds the page with no warning, and `tools/page_sweeps.py`'s four sweeps come back clean: every
-frame on disk is used, every frame the page names is on disk, no picture stands above its sentence,
-and all 31 view keys the take pressed are named in the blocks that show them.
+builds the page with no warning, and `src/stickbot/page_sweeps.py`'s four sweeps come back clean:
+every frame on disk is used, every frame the page names is on disk, no picture stands above its
+sentence, and all 31 view keys the take pressed are named in the blocks that show them.
 
 **The eight frames of `parts.body.numbers` and `parts.body.variables` are deleted.** Those two
 steps typed nine numbers before the page drew anything, and this draft types each at the step that

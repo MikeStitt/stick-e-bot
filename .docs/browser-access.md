@@ -12,12 +12,12 @@ relying on it.
    step. The browser binary caches in `~/Library/Caches/ms-playwright`.
 2. A **headed** Chromium on `--remote-debugging-port=9222`, launched with
    `launch_persistent_context` against a durable profile —
-   [`../tools/browser.py`](../tools/browser.py). It stays running as a daemon, and it is where the
-   user signs in.
+   [`../src/stickbot/browser.py`](../src/stickbot/browser.py). It stays running as a daemon, and it
+   is where the user signs in.
 3. A **headless** Chromium on `--remote-debugging-port=9223` with its own profile —
-   [`../tools/agent_browser.py`](../tools/agent_browser.py) — which borrows the signed-in
-   browser's Onshape cookies over CDP at launch. It has no window, so it cannot take focus or
-   receive the user's keystrokes, and that is why it and not 9222 is what scripts drive.
+   [`../src/stickbot/agent_browser.py`](../src/stickbot/agent_browser.py) — which borrows the
+   signed-in browser's Onshape cookies over CDP at launch. It has no window, so it cannot take focus
+   or receive the user's keystrokes, and that is why it and not 9222 is what scripts drive.
 4. Short-lived action scripts attach to **9223**, do one job, and detach. Closing that CDP
    connection does not close the browser. `onshape_gui.connect()` sets the port and refuses any
    other; `onshape_session.CDP_URL` still defaults to 9222, so anything importing it directly has
@@ -181,13 +181,13 @@ redirected it to a real workspace and element, which it does only for a signed-i
   does not make the login durable. `agent_browser.py` borrows cookies from the signed-in browser
   at every launch, which works only while that browser is still signed in. Leave the agent browser
   running rather than restarting it.
-- **An API key would not carry this work.** Onshape's API-keys page allows this plan 2500 requests
-  a year. One part's retake reads the feature list before and after every stage script and measures
+- **An API key would not carry this work.** Onshape's API-keys page allows this plan 2500 requests a
+  year. One part's retake reads the feature list before and after every stage script and measures
   every acceptance check off `bodydetails`, which is hundreds of calls. Onshape's dashboard shows
   zero requests for us because a `fetch` from inside the signed-in page is web-client traffic and is
   not metered against that quota — it is metered as a burst rate instead, which is the `RateLimited`
-  path in [`../tools/onshape_session.py`](../tools/onshape_session.py) and the account-wide 429 that
-  once took over an hour to clear.
+  path in [`../src/stickbot/onshape_session.py`](../src/stickbot/onshape_session.py) and the
+  account-wide 429 that once took over an hour to clear.
 - Automating the GUI is slow and brittle compared to the REST API, and the capture pipeline drives
   it anyway, because the frames are what a guide ships. Everything a page does not have to show
   goes through REST.

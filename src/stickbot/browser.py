@@ -146,7 +146,6 @@ def launch() -> int:
 
 
 if __name__ == "__main__":
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
     if "--status" in sys.argv:
         raise SystemExit(status())
     if "--signin" in sys.argv:

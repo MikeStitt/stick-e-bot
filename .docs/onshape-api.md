@@ -63,9 +63,9 @@ knowing four things about it before losing an afternoon:
   the other side. The 522 seconds is also worth noting on its own: the wait is whatever the server
   says it is, and reading the number beats knowing which limiter answered.
 
-[`../tools/onshape_session.py`](../tools/onshape_session.py)'s `api()` does this: it keeps the
-response headers, honors `retry-after` when the wait is short enough to be worth taking, and
-raises `RateLimited` immediately rather than spending a ladder to discover the answer is hours.
+[`../src/stickbot/onshape_session.py`](../src/stickbot/onshape_session.py)'s `api()` does this: it
+keeps the response headers, honors `retry-after` when the wait is short enough to be worth taking,
+and raises `RateLimited` immediately rather than spending a ladder to discover the answer is hours.
 Put a few hundred milliseconds between feature writes, with `pace()`, so it never arrives at all.
 
 ## Discovering the truth instead of guessing

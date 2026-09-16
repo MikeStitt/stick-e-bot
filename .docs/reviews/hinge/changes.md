@@ -1358,10 +1358,10 @@ Both are recorded here only. The CAD is frozen and so is `index.rst`.
 
 The freeze lifted on 2026-08-30 and all four landed:
 
-- `instructions/robot-guide/make_plans.py`: `GAP`, `STUB_PROUD`, `BLADE_OUT`, `SLOT_DEEP`,
+- `src/stickbot/make_plans.py`: `GAP`, `STUB_PROUD`, `BLADE_OUT`, `SLOT_DEEP`,
   `EAR_FREE`, `TOOTH_PROUD`, `VALLEY_D`, and the slit, which came out on 2026-08-24 and went back
   in. `VALLEY_DEEP` is gone; the valley is a through hole. `PRESS_F` and `EAR_STRESS` now come out
-  of `tools/hinge_spring.py` rather than being typed
+  of `src/stickbot/hinge_spring.py` rather than being typed
 - the hinge plan sheet, which `detail_hinge` draws from those
 - the build brief, rewritten whole, and the assembly brief, which both carried 36.3 kgf
 - `.docs/reviews/hinge/source/index.rst`, rewritten so that every finding ends in a decision

@@ -250,9 +250,9 @@ only inside feature dialogs. A's version is wrong.
 - **Handling a 429 is written, and the history says why it took eight tries.** Done on 2026-08-28.
   The rule is [`onshape`](../.claude/skills/onshape/SKILL.md) § *Read what a refusal says before
   waiting on it*; the mechanism is `api()` in
-  [`../tools/onshape_session.py`](../tools/onshape_session.py), which now keeps the response
-  headers, honors a short `retry-after`, and raises at once rather than spending a ladder to
-  discover the answer is hours away.
+  [`../src/stickbot/onshape_session.py`](../src/stickbot/onshape_session.py), which now keeps the
+  response headers, honors a short `retry-after`, and raises at once rather than spending a ladder
+  to discover the answer is hours away.
 
   **Verified against a live 429 on 2026-08-28.** `features` answered `retry-after: 522` with
   `x-rate-limit-remaining: 0`, and `api()` raised in 0.10 s naming both, where the old ladder

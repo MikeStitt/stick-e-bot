@@ -17,10 +17,10 @@ waiting for something the user cannot do — 9223 is headless and has no window 
 session there is a copy borrowed from 9222 at launch, so it expires on its own while 9222 stays
 signed in, and a restart is the whole fix.
 
-**How to apply:** `pkill -f agent_browser.py`, then `uv run python tools/agent_browser.py`. It
+**How to apply:** `pkill -f agent_browser.py`, then `uv run python -m stickbot.agent_browser`. It
 prints which path it took. Only `the borrowed cookies carry no session` means 9222 itself is logged
 out, and that is the one case that needs a person — it has happened, so do not treat it as
-impossible; the way out is `uv run python tools/browser.py --signin`. Check for duplicate
+impossible; the way out is `uv run python -m stickbot.browser --signin`. Check for duplicate
 `agent_browser.py` processes too: two persistent contexts on the same profile directory serve a
 signed-out page.
 

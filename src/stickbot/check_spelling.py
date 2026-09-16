@@ -10,10 +10,13 @@ know. To quote a banned word deliberately, put `<!-- codespell:ignore -->` on
 the line; a real mistake elsewhere on an unmarked line is still caught.
 """
 
+import importlib.resources
 import subprocess
+
+from stickbot import repo_root
 import sys
 
-DICTIONARY = "tools/dictionary.txt"
+DICTIONARY = str(importlib.resources.files("stickbot") / "dictionary.txt")
 
 PATTERNS = ["*.md", "*.rst", "*.py"]
 
@@ -31,6 +34,7 @@ def files() -> list[str]:
         capture_output=True,
         text=True,
         check=True,
+        cwd=repo_root(),
     ).stdout
     return out.splitlines()
 
@@ -51,7 +55,8 @@ def main() -> int:
             "-D",
             DICTIONARY,
             *paths,
-        ]
+        ],
+        cwd=repo_root(),
     ).returncode
 
 

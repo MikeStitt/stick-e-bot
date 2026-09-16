@@ -792,7 +792,7 @@ timeout. Match any `command-id` containing `RECTANGLE`.
 
 ## 8. Measuring
 
-The techniques below that work off a face dump are written up as scripts in `tools/`, each taking
+The techniques below that work off a face dump are modules in `stickbot`, each taking
 the JSON and printing its answer: `measure_walls.py` for concentric walls, `measure_planes.py` for
 flat ones, `measure_gaps.py` for the closest approach between any two faces, `measure_solid.py` to
 say which of those are plastic, `measure_line.py` to march a line through the part, and
@@ -997,13 +997,13 @@ the session was fine and one endpoint was not. Run 5 saw the same endpoint stay 
 run. **Plan for a route that does not need `/features` at all** — the GUI, or `bodydetails` and
 `tessellatedfaces`, which both kept answering here.
 
-**The longer one is a spent quota, and it says so in the headers.** Read on 2026-08-27:
-`/features` answered `retry-after: 67201` — 18 hours 40 minutes — beside
-`x-rate-limit-remaining: 0`, and the number counted down with the clock rather than resetting
-when the calls stopped. So the two kinds are told apart by asking, not by waiting and seeing:
-a burst block either names a short wait or names none, and a quota names hours.
-[`onshape-api.md`](onshape-api.md) § *Rate limits* carries the endpoints that stayed open, and
-`api()` in [`../tools/onshape_session.py`](../tools/onshape_session.py) now reads the header and
+**The longer one is a spent quota, and it says so in the headers.** Read on 2026-08-27: `/features`
+answered `retry-after: 67201` — 18 hours 40 minutes — beside `x-rate-limit-remaining: 0`, and the
+number counted down with the clock rather than resetting when the calls stopped. So the two kinds
+are told apart by asking, not by waiting and seeing: a burst block either names a short wait or
+names none, and a quota names hours. [`onshape-api.md`](onshape-api.md) § *Rate limits* carries the
+endpoints that stayed open, and `api()` in
+[`../src/stickbot/onshape_session.py`](../src/stickbot/onshape_session.py) now reads the header and
 stops instead of laddering.
 
 ## 11. Housekeeping the report depends on
@@ -1046,13 +1046,13 @@ stops instead of laddering.
 - **The left-rail icons carry no `title` or `aria-label`.** Hover each and read the tooltip out of
   the DOM; do not count rows to guess which is which, because the rail's contents change with the
   tab you are on.
-- **Take every click through [`../tools/onshape_gui.py`](../tools/onshape_gui.py).** Its guards are
-  what stop a bad frame shipping: it refuses to shoot through a notification banner or a moving
-  screen, checks that a canvas pick selected something, and reads every typed number back out of
-  its field. [`onshape_screen.py`](../tools/onshape_screen.py) answers where things are — by
-  reading the pixels, and by projecting a model point through the camera it reads off the GPU.
-  [`onshape_record.py`](../tools/onshape_record.py) records a stage as video. How a capture is
-  conducted is [`build/takes.md`](build/takes.md).
-- **[`../tools/gui_steps.py`](../tools/gui_steps.py) is superseded** by those. It was the earlier
-  choke point, and its numbered frames and `steps.log` belong to the wave-of-agents cycle that
-  `build/takes.md` replaces.
+- **Take every click through [`../src/stickbot/onshape_gui.py`](../src/stickbot/onshape_gui.py).**
+  Its guards are what stop a bad frame shipping: it refuses to shoot through a notification banner
+  or a moving screen, checks that a canvas pick selected something, and reads every typed number
+  back out of its field. [`onshape_screen.py`](../src/stickbot/onshape_screen.py) answers where
+  things are — by reading the pixels, and by projecting a model point through the camera it reads
+  off the GPU. [`onshape_record.py`](../src/stickbot/onshape_record.py) records a stage as video.
+  How a capture is conducted is [`build/takes.md`](build/takes.md).
+- **[`../src/stickbot/gui_steps.py`](../src/stickbot/gui_steps.py) is superseded** by those. It was
+  the earlier choke point, and its numbered frames and `steps.log` belong to the wave-of-agents
+  cycle that `build/takes.md` replaces.

@@ -16,10 +16,11 @@ cannot drift apart.
 from __future__ import annotations
 
 import math
-import pathlib
 import sys
 
-from make_plans import (
+from stickbot import repo_root
+
+from stickbot.make_plans import (
     BACKLASH,
     BALL,
     BLADE,
@@ -56,8 +57,7 @@ from make_plans import (
     text,
 )
 
-HERE = pathlib.Path(__file__).parent
-OUT = HERE.parent.parent / ".docs" / "experiments" / "build-briefs" / "images"
+OUT = repo_root() / ".docs" / "experiments" / "build-briefs" / "images"
 
 # ---------------------------------------------------------------- dimensions
 

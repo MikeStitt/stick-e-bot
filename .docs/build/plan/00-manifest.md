@@ -154,7 +154,7 @@ history rather than the design. A file rewritten by a later draft cites that dra
 version instead, and the document named in the section is what says which robot it is.
 **Do not read a number out of a Built section as a target.**
 
-The targets are in `instructions/robot-guide/make_plans.py` and in the build briefs under
+The targets are in `src/stickbot/make_plans.py` and in the build briefs under
 `.docs/experiments/build-briefs/`. Where a file's **steps**, **shots** or **what we do not know
 yet** carried a number that a retake would build to, it has been amended; the Built sections have
 not. A tutorial retaken at the new size replaces its own Built section with what it measures.

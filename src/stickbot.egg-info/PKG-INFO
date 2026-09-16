@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: stickbot
+Version: 0.1.0
+Summary: An Onshape CAD course: the text, the design source, and the tooling that checks it
+Requires-Python: >=3.12
+Requires-Dist: playwright>=1.44
+Requires-Dist: pillow>=10.3
+Requires-Dist: sphinx>=7.3
+Requires-Dist: sphinx-rtd-theme>=2.0
+Requires-Dist: numpy>=2.5.2

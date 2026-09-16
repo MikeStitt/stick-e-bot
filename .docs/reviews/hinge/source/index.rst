@@ -23,11 +23,11 @@ the joint is left at. This is what a sweep of that joint found, and what was dec
 
 Where the numbers come from. A name in ``code`` is a length of the reviewed joint, frozen in ``J``
 in ``.docs/reviews/hinge/make_figures.py``. It used to be read live out of
-``instructions/robot-guide/make_plans.py``, and that stopped being right the day the design source
+``src/stickbot/make_plans.py``, and that stopped being right the day the design source
 stopped holding this joint. A position in millimeters is read off the model itself, through
 Onshape's ``bodydetails``, with the pin on the origin. The drawings are generated from those same
 frozen numbers, so a drawing here cannot disagree with the joint it draws. The press force and the
-detent torque are still solved rather than typed, by ``tools/hinge_spring.py``, which is a contact
+detent torque are still solved rather than typed, by ``src/stickbot/hinge_spring.py``, which is a contact
 solver rather than a formula, for reasons the findings below give; run that file and it reproduces
 both of this page's headline numbers, 7.16 kgf and 454 N·mm, on this geometry. The photographs are shaded views of
 ``stickbot-draft9p1p1``, which is the joint as it was when the sweep was made.
@@ -247,7 +247,7 @@ Pressing and turning are different questions and they do not share an answer.
 
 Adding the teeth up as independent springs overstates the press about eightfold, which is what the
 old 36.3 kgf was. It also gave the detent hold as the press force times the tooth radius, which
-mixes the two load cases together. Both are solved properly in ``tools/hinge_spring.py`` now.
+mixes the two load cases together. Both are solved properly in ``src/stickbot/hinge_spring.py`` now.
 
 The slot is one width, and the printer holds the fit down all of it
 ===================================================================
@@ -267,7 +267,7 @@ was analyzed, so the feature came out.
 was.** What that buys is a joint with no step in it anywhere; the tongue crosses nothing going in,
 and one number describes the slot.
 
-Nothing in ``tools/hinge_spring.py`` moves. It roots the ear at ``BLADE / 2 + GAP`` and has no term
+Nothing in ``src/stickbot/hinge_spring.py`` moves. It roots the ear at ``BLADE / 2 + GAP`` and has no term
 for the relief, so it was already computing the joint that is now drawn; the relieved part was the
 more compliant of the two, and the published press and hold figures were the land's.
 

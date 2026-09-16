@@ -86,9 +86,9 @@ have to visit another tab go back before they end.
 after and fail if the pixels match, because a drag that missed its target looks exactly like a
 fully defined sketch.
 
-**These are obligations on the take, not a description of `tools/gui_steps.py`.** They hold whoever
-is driving. Where one can be code it belongs in the harness, and the harness is the only place a
-guard stops depending on somebody remembering it.
+**These are obligations on the take, not a description of `src/stickbot/gui_steps.py`.** They hold
+whoever is driving. Where one can be code it belongs in the harness, and the harness is the only
+place a guard stops depending on somebody remembering it.
 
 ## When a step does not work as written
 

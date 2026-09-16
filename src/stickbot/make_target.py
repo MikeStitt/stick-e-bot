@@ -18,7 +18,7 @@ import pathlib
 import re
 import sys
 
-import make_plans as P
+from stickbot import make_plans as P, repo_root
 
 # Every module-level numeric constant, by name. Leading underscore means the
 # generator considers it working-out rather than design.
@@ -85,7 +85,7 @@ def stations():
             "height": P.HEIGHT}
 
 
-BRIEFS = pathlib.Path(__file__).resolve().parents[2] / ".docs/experiments/build-briefs"
+BRIEFS = repo_root() / ".docs/experiments/build-briefs"
 
 # A row is a target if its Source column says the design chose the number, and a
 # record if the number came back out of a model. The plan turns on the difference.

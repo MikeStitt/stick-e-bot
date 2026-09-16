@@ -17,7 +17,9 @@ instructions/              What a student or a teacher is handed.
                            numbers, so a dimension is changed in one place.
   stickbot-draft9p4/       The guide in progress: fourteen tutorial pages and their frames.
 docs/                      Background for those same people: how things work, what things are.
-tools/                     The check scripts, and the browser and API machinery.
+src/stickbot/              The Python, installed into .venv by `uv sync`: the four checks, the
+                           design source, and the browser and API machinery. Imported by name —
+                           nothing here or anywhere else touches sys.path.
 
 .claude/rules/             The contract. Injected into an agent's context on every request.
   constitution.md          How material gets written and verified. Read first.
@@ -38,7 +40,7 @@ tools/                     The check scripts, and the browser and API machinery.
 
 **A frame reaches git only by being placed on a guide page.** `.gitignore` denies raster images and
 video everywhere and un-ignores exactly `instructions/*/source/images/`; a take writes its interim
-capture to the session scratchpad, which is outside this tree. `tools/check_images.py` is the
+capture to the session scratchpad, which is outside this tree. `src/stickbot/check_images.py` is the
 *Capture is out* Quality Gate and checks that it happened, so a file added with `git add -f` is
 caught too.
 

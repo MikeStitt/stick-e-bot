@@ -64,9 +64,9 @@ occurrence transforms. The three drag positions agree to two decimals as well.
 **`instructions/stickbot-draft9p4/source/mate-head.rst`**, written from the 19 frames in
 `instructions/stickbot-draft9p4/source/images/mate-head/`, captured across four steps in
 `stickbot-draft9p4-check`. `ninja check` comes back clean with no paragraph above grade 8, and
-`tools/page_sweeps.py`'s four sweeps come back clean: every frame on disk is used, every frame the
-page names is on disk, no picture stands above its sentence, and both view keys the take pressed
-are named in the blocks that show them.
+`src/stickbot/page_sweeps.py`'s four sweeps come back clean: every frame on disk is used, every
+frame the page names is on disk, no picture stands above its sentence, and both view keys the take
+pressed are named in the blocks that show them.
 
 **`fix_body` gains a fourth frame, and it is the one that carries the point.** The mark that
 arrives on `torso <1>` is about 12 px across in a 1600 px window, and the full-window frame after

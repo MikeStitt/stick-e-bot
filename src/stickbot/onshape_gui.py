@@ -24,10 +24,8 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-sys.path.insert(0, str(Path(__file__).parent))
-
-import onshape_screen as screen                      # noqa: E402
-import onshape_session as api                        # noqa: E402
+from stickbot import onshape_screen as screen
+from stickbot import onshape_session as api
 
 AGENT_PORT = 9223
 ONSHAPE = "https://cad.onshape.com"

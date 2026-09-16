@@ -289,7 +289,7 @@ into `stickbot` and re-takes whatever derives from it.
 | `req.page.positive` | The page says what to do and what the reader will see when it works. The same facts, never framed as what goes wrong. | [`.claude/rules/parts/prose-style.md`](../../.claude/rules/parts/prose-style.md) |
 | `req.page.unnumbered` | Headings and parts are not numbered, so inserting or reordering one costs no renumbering. | here |
 | `req.page.plain_words` | The reader is a middle-schooler and the vocabulary is real CAD vocabulary. Say *handedness*, not *chirality*. | [`.claude/rules/parts/prose-style.md`](../../.claude/rules/parts/prose-style.md) |
-| `req.page.spelling` | US English. | `tools/check_spelling.py` |
+| `req.page.spelling` | US English. | `src/stickbot/check_spelling.py` |
 | `req.page.part_names` | A part is called the same thing in prose, headings, captions and frame stems. It is a *gripper*, never a *hand*. | [`steps.md`](steps.md) |
 | `req.page.typed_values` | What the student types is set in ``literals`` and rendered black, not the theme's red, so a value to copy does not read as a value that went wrong. | `custom.css` |
 | `req.page.no_counts` | The prose does not count what the reader can see. No *three things*, no running tallies, nothing that has to be re-edited when an item is added. | [`.claude/rules/parts/prose-style.md`](../../.claude/rules/parts/prose-style.md) |

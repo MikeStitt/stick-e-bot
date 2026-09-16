@@ -67,7 +67,7 @@ Mark each phase 'Done.' as completed.
    `runs/2026-08-13-run5/run5-documents.json`. All of this work happens in run 5.
 1. **Gather a list of changes.** Done. `git diff 5ff5f3d..HEAD` over the briefs and the
    sketches, written to `runs/2026-08-13-run5/changes-since-run3.md`.
-2. **State the target.** Done. `instructions/robot-guide/make_target.py` writes
+2. **State the target.** Done. `src/stickbot/make_target.py` writes
    `runs/2026-08-13-run5/target.json` from **both** sources: every design constant out of
    `make_plans.py` by introspection, and every numbers-table row out of the briefs by parsing
    — 91 numbers, the figure's stations, each joint in the frame its part is modeled in, and 64

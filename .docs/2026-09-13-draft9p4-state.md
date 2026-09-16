@@ -123,7 +123,7 @@ does not describe. It needs a fresh write in Phase W, not a patch.
 - `.docs/experiments/runs/2026-09-08-draft9p4/log/hinge.jsonl`, 580 lines, 39 step verdicts
 - `instructions/stickbot-draft9p4/source/images/hinge/`, 208 frames from the tutorial 9 take
 - edits to `constitution.md`, `.parts/onshape.md`, `09-hinge.md`, `notes.md` and
-  `tools/onshape_gui.py`
+  `src/stickbot/onshape_gui.py`
 
 **Not for committing, and listed here so they are not swept in:** the two `Image 8-*.jpeg` files,
 the run7 and draft9p2 `capture/` trees, `process-map.md`, `retakes-changes.md`, `nord.sh.py` and

@@ -88,8 +88,8 @@ a retired experiment's guide directory, which the Constitution already calls ret
 **Resolved on 2026-09-14.** `draft-prose-style.md` and `pre-plan.md` were deleted, along with the
 untracked scratch files `process-map.md` and `retakes-changes.md`; every finding those two held has
 either landed or is carried by this plan. `old-constitution.md` stays here in the archive and does
-not carry, which makes `SKIP_FILES = ("old-constitution.md",)` in `tools/check_wrap.py` dead in the
-new repository — it comes out with the file.
+not carry, which makes `SKIP_FILES = ("old-constitution.md",)` in `src/stickbot/check_wrap.py` dead
+in the new repository — it comes out with the file.
 
 ## Phase 3 — the rename and the contract
 
@@ -97,7 +97,7 @@ new repository — it comes out with the file.
   them. This is a meaning change, so the prose rule permits the edit.
 - **The Constitution's *Where developmental draft products live*** still reads *an example
   completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
-- **`tools/check_spelling.py`** carries the old name in its dictionary or its docstring.
+- **`src/stickbot/check_spelling.py`** carries the old name in its dictionary or its docstring.
 
 ## The active plan, settled 2026-09-14
 
@@ -214,9 +214,9 @@ the audits diff against. The frames it publishes are the only frames that reach 
 - **The ignore rules were proven before anything was copied.** A probe file at
   `instructions/stickbot-draft9p4/source/images/toolbar/` came back tracked; the same name under a
   `capture/` directory and at the repository root came back ignored.
-- **`tools/check_images.py` is the fourth gate**, wired into `ninja check`. It refuses a tracked
-  raster image or video outside `instructions/*/source/images/`, tracked Sphinx output, and any
-  file over 5 MB — so it catches what `.gitignore` cannot, which is `git add -f`.
+- **`src/stickbot/check_images.py` is the fourth gate**, wired into `ninja check`. It refuses a
+  tracked raster image or video outside `instructions/*/source/images/`, tracked Sphinx output, and
+  any file over 5 MB — so it catches what `.gitignore` cannot, which is `git add -f`.
 - **The carry list was derived from `git ls-files`, not written by hand**, and the first derivation
   was wrong: a rule dropping any path containing `/build/` swallowed all 20 files of
   `.docs/build/`, the build specification. Checking a list of must-have paths against the derived

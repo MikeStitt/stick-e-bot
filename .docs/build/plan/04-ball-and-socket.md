@@ -224,7 +224,7 @@ on both solids' face counts and bounding boxes.
 **`instructions/stickbot-draft9p4/source/ball-and-socket.rst`**, written from the 95 frames in
 `instructions/stickbot-draft9p4/source/images/ball-and-socket/`, captured across 21 steps in
 `stickbot-draft9p4-check`. Sphinx builds the page with no warning; every frame on disk is used and
-every frame the page names is on disk. `tools/page_sweeps.py`'s four sweeps come back clean.
+every frame the page names is on disk. `src/stickbot/page_sweeps.py`'s four sweeps come back clean.
 
 **The carried page named five frames that no longer exist.** `parts.ball_and_socket.variables-01`,
 `-03`, `-04`, `-05` and `-06` belonged to the single `variables` step that this plan broke up, and

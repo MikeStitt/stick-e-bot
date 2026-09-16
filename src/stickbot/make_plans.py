@@ -15,14 +15,13 @@ stack of stations means. Where the two disagree, the parts sheet is the honest o
 from __future__ import annotations
 
 import math
-import pathlib
 import sys
 
-HERE = pathlib.Path(__file__).parent
-sys.path.insert(0, str(HERE.parents[1]))
-IMAGES = HERE / "source" / "images"
+from stickbot import hinge_spring, repo_root
 
-from tools import hinge_spring   # noqa: E402  — needs the path set above
+# The plan drawings belong beside the guide that shows them, so this is a path
+# into the working tree rather than into the package.
+IMAGES = repo_root() / "instructions" / "robot-guide" / "source" / "images"
 
 # ---------------------------------------------------------------- the numbers
 

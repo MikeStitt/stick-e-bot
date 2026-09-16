@@ -21,6 +21,8 @@ Prints one line per violation and exits non-zero if there are any.
 import os
 import re
 import subprocess
+
+from stickbot import repo_root
 import sys
 
 CEILING = 5 * 1024 * 1024
@@ -32,7 +34,7 @@ BUILD_OUTPUT = re.compile(r"^(instructions|\.docs/reviews)/[^/]+/build/")
 
 def tracked() -> list[str]:
     out = subprocess.run(
-        ["git", "ls-files"], capture_output=True, text=True, check=True
+        ["git", "ls-files"], capture_output=True, text=True, check=True, cwd=repo_root()
     ).stdout
     return out.splitlines()
 
@@ -46,8 +48,9 @@ def main() -> int:
         if BUILD_OUTPUT.match(path):
             print(f"{path}: Sphinx output, rendered from source/")
             total += 1
-        if os.path.exists(path) and os.path.getsize(path) > CEILING:
-            mb = os.path.getsize(path) / 1048576
+        full = repo_root() / path
+        if full.exists() and full.stat().st_size > CEILING:
+            mb = full.stat().st_size / 1048576
             print(f"{path}: {mb:.1f} MB, over the {CEILING // 1048576} MB ceiling")
             total += 1
     if total:

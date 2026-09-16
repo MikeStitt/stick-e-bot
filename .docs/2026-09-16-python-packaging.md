@@ -12,10 +12,11 @@ anything else.
 - **`pyproject.toml` says `package = false`.** The environment holds dependencies and nothing of
   ours, so there is nothing to import by name and no install step to get it wrong.
 - **`tools/`'s thirty modules import each other bare** — `import onshape_session as api`, eight
-  times across the set. That resolves only because running `python tools/foo.py` puts `tools/` at
+  times across the set. That resolves only because running `python -m stickbot.foo` puts `tools/` at
   the front of `sys.path`. Import the same module any other way and it fails.
-- **Four live files patch the path by hand**: `tools/browser.py`, `tools/onshape_gui.py`,
-  `instructions/robot-guide/make_plans.py`, `.docs/reviews/hinge/make_figures.py`.
+- **Four live files patch the path by hand**: `src/stickbot/browser.py`,
+  `src/stickbot/onshape_gui.py`, `src/stickbot/make_plans.py`,
+  `.docs/reviews/hinge/make_figures.py`.
 - **Forty-seven archived scripts hardcode `/Users/mikestitt/projects/first/2027/sponge`**, thirteen
   of them draft9p4's live P0 reads and spikes. Today those silently import the archive's `tools/`
   and write their output into the archive.
@@ -59,7 +60,7 @@ Leaving it where it is means the package imports out of `instructions/`, which i
 - `src/stickbot/` with `__init__.py`; `tools/*.py` moved in with `git mv` so `git log --follow`
   answers.
 - The eight bare cross-imports become `from stickbot import onshape_session as api`.
-- `tools/browser.py` and `tools/onshape_gui.py` lose their `sys.path.insert`.
+- `src/stickbot/browser.py` and `src/stickbot/onshape_gui.py` lose their `sys.path.insert`.
 - `pyproject.toml` gains a build backend, drops `package = false`, gains four
   `[project.scripts]` entries, and declares `dictionary.txt` as package data. `textstat` moves from
   `--with` into the dev group.

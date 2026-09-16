@@ -180,7 +180,7 @@ Before any session material is called done:
 | Floor & ceiling | The session names both; the ceiling is not required by a later session                                                                                                |
 | Recovery point  | A published, named Onshape version exists for the next session to start from                                                                                          |
 | Prose style     | Written to [`parts/prose-style.md`](parts/prose-style.md)                                                                                                           |
-| Spelling        | `ninja check` is clean: US spellings, with `tools/dictionary.txt` for compounds                                                                                       |
+| Spelling        | `ninja check` is clean: US spellings, with `src/stickbot/dictionary.txt` for compounds                                                                                       |
 | Capture is out  | `ninja check` is clean: no tracked image outside `instructions/*/source/images/`, no tracked build output, no tracked file over 5 MB                                   |
 | Reading level   | We are currently tracking which text is above reading level. Before we are done with our final version we will adjudicate what to do with each reading level failure. |
 
@@ -191,7 +191,8 @@ Before any session material is called done:
 - **Throwaway probe scripts are an explicit escape hatch.** Scripts written to find something out
   are not held to the gates above; they live in the session scratchpad or under
   `.docs/experiments/`, and the check target skips them. A probe that proves repeatedly useful moves
-  into `tools/` with the gates applied. This exception is named so nobody tidies it away.
+  into the `stickbot` package with the gates applied. This exception is named so nobody tidies it
+  away.
 
 ### Verification is evidence, not assertion
 
@@ -288,5 +289,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.7.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.7.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

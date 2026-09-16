@@ -50,6 +50,21 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.7.1 (2026-09-16)** — PATCH: the probe-script escape hatch says a probe that proves useful
+  moves into **the `stickbot` package** rather than into `tools/`, which no longer exists.
+
+  _Why:_ the Python became an installed package. `tools/`'s thirty modules and the three
+  design-source programs under `instructions/robot-guide/` are now `src/stickbot/`, installed
+  editable by `uv sync`, so `import` resolves through the environment instead of through where a
+  file happens to sit. Thirty-one live documents named the old paths and were repointed in the same
+  commit.
+
+  _Config companion, exercised._ `build.ninja`'s four check rules now call console scripts —
+  `stickbot-check-wrap` and its three siblings — rather than `python3 tools/*.py`. Three of the four
+  had been running on the system interpreter rather than the environment. `ninja check` was run and
+  is green on all four, and both gates were run from an unrelated directory to confirm they no
+  longer depend on the working directory.
+
 - **5.7.0 (2026-09-16)** — MINOR:
   [`../../rules/parts/prose-style.md`](../../rules/parts/prose-style.md) gains § *Voice for
   student-facing text*. Playful, never judging, never talking down; a number
@@ -234,12 +249,12 @@ checklist for any change to `constitution.md` or a part.
   repointing would have changed what a sentence claims, turned into named references to the
   archive.
 
-  _Config companion, exercised._ `tools/check_images.py` is the gate, wired into `ninja check` as a
-  fourth target. It was run against two deliberately planted violations: a PNG force-added outside
-  a guide's `source/images/`, and a 5.7 MB file. It refused both, naming each and its reason, and
-  went green once both were untracked. `.gitignore` was exercised separately, before any file was
-  copied: a probe under `instructions/*/source/images/` came back tracked while the same name under
-  a `capture/` directory and at the repository root came back ignored.
+  _Config companion, exercised._ `src/stickbot/check_images.py` is the gate, wired into `ninja
+  check` as a fourth target. It was run against two deliberately planted violations: a PNG
+  force-added outside a guide's `source/images/`, and a 5.7 MB file. It refused both, naming each
+  and its reason, and went green once both were untracked. `.gitignore` was exercised separately,
+  before any file was copied: a probe under `instructions/*/source/images/` came back tracked while
+  the same name under a `capture/` directory and at the repository root came back ignored.
 
 - **5.1.0 (2026-09-14)** — MINOR: the contract moves into `.claude/`, and a new Working Rule
   requires the active-plan pointer. `constitution.md` becomes `.claude/rules/constitution.md` and
@@ -422,11 +437,11 @@ checklist for any change to `constitution.md` or a part.
     established, provable information.
   - Two new Quality Gates, **Spelling** and **Reading level**, with the
     on-disk companion they need: `build.ninja`'s `check` target over
-    `tools/check_wrap.py`, `check_spelling.py`, `check_reading_level.py` and
-    `tools/dictionary.txt`. Per maintenance step 5 it was **run**, not merely
+    `src/stickbot/check_wrap.py`, `check_spelling.py`, `check_reading_level.py` and
+    `src/stickbot/dictionary.txt`. Per maintenance step 5 it was **run**, not merely
     written — the first run found 118 British spellings and 2 over-long lines.
     The compound the plan sheets use for the vertical axis is not in the builtin
-    dictionary and was caught only after `tools/dictionary.txt` was added, which
+    dictionary and was caught only after `src/stickbot/dictionary.txt` was added, which
     is why the project dictionary exists at all.
 - **2.0.0 (2026-08-09)** — the version this changelog opens at. Recorded from
   the footer rather than reconstructed: adapted from the **mostrobotpy

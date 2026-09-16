@@ -151,8 +151,8 @@ connector origins.
 
 **`instructions/stickbot-draft9p4/source/foot.rst`**, written from the 115 frames in
 `instructions/stickbot-draft9p4/source/images/foot/`, captured across 24 steps in
-`stickbot-draft9p4-check`. `ninja check` comes back clean with no paragraph on the page above
-grade 8, Sphinx builds it without a warning, and `tools/page_sweeps.py`'s five sweeps come back
+`stickbot-draft9p4-check`. `ninja check` comes back clean with no paragraph on the page above grade
+8, Sphinx builds it without a warning, and `src/stickbot/page_sweeps.py`'s five sweeps come back
 clean: 115 frames on disk and 115 used, no picture above its sentence, and all 19 recorded key
 presses named in the blocks that show them.
 

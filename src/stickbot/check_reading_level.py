@@ -12,6 +12,8 @@ paragraphs and propose rewrites as a reviewable diff.
 
 import re
 import subprocess
+
+from stickbot import repo_root
 import sys
 
 import textstat
@@ -36,13 +38,14 @@ def files() -> list[str]:
         capture_output=True,
         text=True,
         check=True,
+        cwd=repo_root(),
     ).stdout
     return [p for p in out.splitlines() if p.rsplit("/", 1)[-1] not in EXCLUDE_NAMES]
 
 
 def paragraphs(path: str):
     """Yield (first_line_number, text) for each prose paragraph."""
-    with open(path, encoding="utf-8") as fh:
+    with open(repo_root() / path, encoding="utf-8") as fh:
         lines = fh.read().splitlines()
     buf: list[str] = []
     start = 1

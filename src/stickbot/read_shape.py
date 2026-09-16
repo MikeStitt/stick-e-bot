@@ -12,8 +12,8 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
 LENGTH = ("origin", "radius", "majorRadius", "minorRadius")
 

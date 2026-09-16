@@ -4,36 +4,37 @@
 # `ninja -k 0 check` runs all four even when the first one fails, which is
 # what you want when fixing rather than gating.
 #
-# The four checks are scripts under tools/, not one-liners here, because each
-# one has a scope rule worth reading. None of the outputs below is ever
+# The four checks are console scripts from the installed `stickbot` package,
+# not one-liners here, because each one has a scope rule worth reading. They are
+# named rather than pathed, so no rule depends on a file's location. None of the outputs below is ever
 # created, which is how ninja is told to run every check on every invocation.
 
 ninja_required_version = 1.10
 
 rule wrap
-  command = python3 tools/check_wrap.py
+  command = uv run stickbot-check-wrap
   description = prose wrapped at 100 columns
   pool = console
 
 rule spell
-  command = python3 tools/check_spelling.py
+  command = uv run stickbot-check-spelling
   description = codespell, en-GB dictionary plus our compounds
   pool = console
 
 rule level
-  command = uv run --with textstat python3 tools/check_reading_level.py
+  command = uv run stickbot-check-reading-level
   description = reading level, paragraph by paragraph
   pool = console
 
 rule images
-  command = python3 tools/check_images.py
+  command = uv run stickbot-check-images
   description = no capture, build output or outsized file is tracked
   pool = console
 
-build check-wrap: wrap | tools/check_wrap.py
-build check-spell: spell | tools/check_spelling.py tools/dictionary.txt
-build check-level: level | tools/check_reading_level.py
-build check-images: images | tools/check_images.py
+build check-wrap: wrap | src/stickbot/check_wrap.py
+build check-spell: spell | src/stickbot/check_spelling.py src/stickbot/dictionary.txt
+build check-level: level | src/stickbot/check_reading_level.py
+build check-images: images | src/stickbot/check_images.py
 
 build check: phony check-wrap check-spell check-level check-images
 
@@ -70,7 +71,7 @@ rule rmbuild
   pool = console
 
 rule plans
-  command = uv run python instructions/robot-guide/make_plans.py
+  command = uv run python -m stickbot.make_plans
   description = re-render robot-guide's plan drawings from their numbers
   pool = console
 
@@ -99,7 +100,7 @@ build clean-draft9p4: rmbuild
 build clean-hinge: rmbuild
   dir = .docs/reviews/hinge
 
-build plan: plans | instructions/robot-guide/make_plans.py
+build plan: plans | src/stickbot/make_plans.py
 
 rule hinge-figures
   command = uv run python .docs/reviews/hinge/make_figures.py
@@ -107,4 +108,4 @@ rule hinge-figures
   pool = console
 
 build hinge-figures: hinge-figures | .docs/reviews/hinge/make_figures.py $
-  instructions/robot-guide/make_plans.py
+  src/stickbot/make_plans.py

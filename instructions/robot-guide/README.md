@@ -9,8 +9,8 @@ ninja open-guide
 ```
 
 `ninja plan` renders the SVG by loading it in the headless browser from
-[`tools/agent_browser.py`](../../tools/agent_browser.py) and screenshotting it, so there is no
-extra image dependency to install.
+[`src/stickbot/agent_browser.py`](../../src/stickbot/agent_browser.py) and screenshotting it, so
+there is no extra image dependency to install.
 
 ## Why it opens with a drawing
 

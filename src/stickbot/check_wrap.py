@@ -9,6 +9,8 @@ Prints one line per violation and exits non-zero if there are any.
 """
 
 import subprocess
+
+from stickbot import repo_root
 import sys
 
 LIMIT = 100
@@ -23,6 +25,7 @@ def tracked_markdown() -> list[str]:
         capture_output=True,
         text=True,
         check=True,
+        cwd=repo_root(),
     ).stdout
     return [
         p for p in out.splitlines() if not p.startswith(SKIP_PREFIXES)
@@ -32,7 +35,7 @@ def tracked_markdown() -> list[str]:
 def violations(path: str) -> list[tuple[int, int]]:
     found = []
     in_fence = False
-    with open(path, encoding="utf-8") as fh:
+    with open(repo_root() / path, encoding="utf-8") as fh:
         for n, line in enumerate(fh, start=1):
             line = line.rstrip("\n")
             if line.lstrip().startswith("```"):
