@@ -195,5 +195,5 @@ Nothing below has been done.
 The **reviewer pass on tone and judgments about people** — Phase 3 of the reorganization, Fable
 writing `<YYYY-MM-DD>-professional-review-report.md` — has still not been run. It is a different
 review from this one, scoped to unprofessional statements and judgments based on age or status.
-See [`README.md`](README.md) and
-[`reorganization-plan.md`](reorganization-plan.md).
+What counts as a finding is in [`README.md`](README.md), under *The reviewer pass has not been
+run*.

@@ -55,17 +55,15 @@ checklist for any change to `constitution.md` or a part.
   `.docs/experiments/runs/`.
 
   _Why:_ the file was a snapshot titled *end of run 2*, and run 2 is overcome by events. It was
-  spared once, in `reorganization-plan.md`, on the ground that it was the only registry of the
-  robot's Onshape ids. It was not: every did, published version id and element id it held is in
+  spared once by the reorganization, on the ground that it was the only registry of the robot's
+  Onshape ids. It was not: every did, published version id and element id it held is in
   `experiments/runs/2026-08-11-run2/`, in the same table shape run 1 uses. What else it carried was
   a design settled twice over since — Ø12 limbs, *round bumps beat wedges* — and conventions that
   are now two `ninja check` gates, two memories and the Branch Policy.
 
-  _Companion changes, same commit._ `.docs/README.md` points at run 2's folder instead.
-  `reorganization-plan.md` marks its `session-state.md` row carried out rather than erasing it,
-  because that paragraph is the record of why the file survived this long. Two links in
-  `runs/2026-08-23-draft9p0/plan.md` now resolve to nothing and are left alone, which is what the
-  Archive section says a record's paths mean.
+  _Companion changes, same commit._ `.docs/README.md` points at run 2's folder instead. Two links
+  in `runs/2026-08-23-draft9p0/plan.md` now resolve to nothing and are left alone, which is what
+  the Archive section says a record's paths mean.
 
   _Config companion, exercised._ None. `ninja check` was run and is green.
 
