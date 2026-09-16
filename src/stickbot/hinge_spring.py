@@ -1,8 +1,10 @@
 """How hard the wedge hinge is to turn, to pinch together, and to twist apart.
 
-Status: controlling. This is the current method: what it computes is what the joint is held
-to. It is parameterized rather than dimensioned, so the version rides in the Hinge it is handed —
-the hinge review hands it the superseded joint and gets that joint's numbers back.
+Status: illustrative — an analysis tool. It decides no dimension. It is parameterized
+rather than dimensioned, so the version rides in the Hinge it is handed: the frozen hinge review
+hands it the superseded joint and gets that joint's numbers back, and the design source hands it
+the current one. The one thing here that is a choice rather than a method is the material,
+E_PETG and YIELD_PETG below; change those and every answer moves.
 
 All three answers come from the same picture. The fork's ear and the blade's leaf are
 cantilevers cut out of the same Ø ``limb`` rod at different depths, and they meet at a

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate the dimensioned sheets the build briefs reference.
 
-Status: illustrative of the current design, derived. Every number comes from make_plans.py,
-so no decision lives here and these sheets cannot describe a robot the design source does not.
+Status: illustrative — derived drawings. It decides no dimension. Every number comes
+from make_plans.py, so these sheets cannot describe a robot the design source does not.
 
 Three sheets, each answering a question prose kept failing to answer:
 
