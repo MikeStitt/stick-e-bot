@@ -5,9 +5,6 @@ fire. This plan moves them to where Claude Code injects them from disk on every 
 contract and the active plan are present whether or not anybody remembers to read them. It changes
 no rule in the constitution except where the move itself requires one.
 
-Companion to [`2026-09-13-compaction-and-context.md`](2026-09-13-compaction-and-context.md), which
-records how compaction behaves and how the limits were found.
-
 ## The problem
 
 [`../CLAUDE.md`](../CLAUDE.md) tells Claude to re-read

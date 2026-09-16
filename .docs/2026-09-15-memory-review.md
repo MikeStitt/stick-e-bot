@@ -18,8 +18,8 @@ moved together.
 
 **The harness store is emptied.** It held the pre-move copies and would have drifted, so on
 2026-09-15 its 29 bodies were deleted and its `MEMORY.md` replaced by a pointer saying the
-memories live in the repository and that a new one belongs there, not beside it. `sponge`'s store
-still holds all 30 files unchanged and is the backup.
+memories live in the repository and that a new one belongs there, not beside it. The archive's
+store still holds all 30 files unchanged and is the backup.
 
 **What changed under them.** The contract moved to `.claude/rules/` and `.claude/skills/` and is at
 5.2.0; `.parts/` no longer exists. `CLAUDE.md` no longer instructs a re-read. A new gate, *Capture

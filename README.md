@@ -43,7 +43,7 @@ capture to the session scratchpad, which is outside this tree. `tools/check_imag
 caught too.
 
 The repository this one replaces committed 12,977 screenshots totaling 1,651 MB because capture and
-publication shared a directory. It is at `../sponge` and keeps that history;
+publication shared a directory. It sits beside this one and keeps that history;
 [`.docs/2026-09-14-move-to-stick-e-bot.md`](.docs/2026-09-14-move-to-stick-e-bot.md) records what
 moved and what did not.
 

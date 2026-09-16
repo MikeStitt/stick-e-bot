@@ -135,11 +135,10 @@ run 2 and run 3.
 Paths in an archived record point at where a file lived when the record was written. They are not
 updated when a file moves.
 
-**Two archives, and the older one is a different repository.** `sponge` holds everything this one
-left behind on 2026-09-14: 12,977 frames, six superseded guide drafts, its own git history, and
-and two experiments that were already retired. A record here
-that names a file this repository does not have is pointing into `sponge`, and that is where to go
-looking.
+**Two archives, and the older one is a different repository.** It sits beside this one on disk and
+holds everything this one left behind on 2026-09-14: 12,977 frames, six superseded guide drafts,
+its own git history, and two experiments that were already retired. A record here that names a file
+this repository does not have is pointing into that archive, and that is where to go looking.
 
 
 ### Where developmental draft (aka run) products live

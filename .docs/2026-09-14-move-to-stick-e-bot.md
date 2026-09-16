@@ -93,11 +93,11 @@ new repository — it comes out with the file.
 
 ## Phase 3 — the rename and the contract
 
-- **`sponge` appears in 12 live tracked files**, the Constitution among them. This is a meaning
-  change, so the prose rule permits the edit.
+- **The old repository's name appears in 12 live tracked files**, the Constitution among
+  them. This is a meaning change, so the prose rule permits the edit.
 - **The Constitution's *Where developmental draft products live*** still reads *an example
   completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
-- **`tools/check_spelling.py`** carries `sponge` in its dictionary or its docstring.
+- **`tools/check_spelling.py`** carries the old name in its dictionary or its docstring.
 
 ## The active plan, settled 2026-09-14
 
@@ -117,14 +117,14 @@ copies its contract copies its plan pointer with it.
 ## Phase 3.5 — re-root, and prove the new root before trusting it — **done 2026-09-14**
 
 **Start a Claude Code session whose working directory is `stick-e-bot`, and do everything after
-this from there.** `sponge` becomes read-only archive at that moment.
+this from there.** The old repository becomes read-only archive at that moment.
 
 This is a phase rather than a footnote because a session rooted in the wrong repository reads the
 wrong contract, and nothing in the injected text says which one arrived. Phase 4 is the largest
 piece of work left; finding a broken root during it costs more than finding one now.
 
-**The version string is the test.** `sponge`'s constitution is 5.1.0 and this one is 5.2.0, so the
-`**Version**` line in the injected text says which repository the session is reading, with no
+**The version string is the test.** The archive's constitution is 5.1.0 and this one is 5.2.0, so
+the `**Version**` line in the injected text says which repository the session is reading, with no
 ambiguity and nothing to set up.
 
 What the first request in the new session checks:
@@ -229,5 +229,5 @@ the audits diff against. The frames it publishes are the only frames that reach 
 - **`ninja check` is green on all four gates, watched.** It first failed on `check_images.py`'s own
   docstring, which said *totaling*.
 
-Still open from Phase 3: `CLAUDE.md` and `README.md` name the old repository, and `sponge` appears
+Still open from Phase 3: `CLAUDE.md` and `README.md` name the old repository, and its name appears
 in 12 carried files.

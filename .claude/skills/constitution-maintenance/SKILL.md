@@ -167,7 +167,7 @@ checklist for any change to `constitution.md` or a part.
   on the day it was made, so a defect in one is history rather than a bug.
 
   _Why:_ the rule existed only in a memory, `one-guide-is-the-end-state`, whose own facts had gone
-  stale — it named `robot-guide4` as the live guide, and `robot-guide4` stayed in the `sponge`
+  stale — it named `robot-guide4` as the live guide, and `robot-guide4` stayed in the
   archive. Checking it the way `limbs-are-twelve-mm-cylinders` was checked found the opposite
   answer: that one was a stale duplicate of the design source and was deleted, while this one was
   the only copy of a real rule that no file carried. The section it now sits in already said drafts
@@ -213,8 +213,8 @@ checklist for any change to `constitution.md` or a part.
   with no change. All three were run over them.
 
 - **5.2.0 (2026-09-14)** — MINOR: a new Quality Gate, **Capture is out**, and the Archive section
-  gains the second archive. The repository moved to `stick-e-bot`; `sponge` stays on disk holding
-  what was left behind.
+  gains the second archive. The repository moved to `stick-e-bot`; the old one stays on disk
+  holding what was left behind.
 
   _Why:_ the old repository committed 12,977 screenshots totaling 1,651 MB, because a take wrote
   its interim capture into the same tree it published from. The rule against it was written down on
@@ -232,7 +232,7 @@ checklist for any change to `constitution.md` or a part.
   which exists here. `.docs/reviews/hinge/make_figures.py` no longer hardcodes a dead session
   scratchpad; it reads `HINGE_FRAMES`. Eleven links broken by the carry were repointed or, where
   repointing would have changed what a sentence claims, turned into named references to the
-  `sponge` archive.
+  archive.
 
   _Config companion, exercised._ `tools/check_images.py` is the gate, wired into `ninja check` as a
   fourth target. It was run against two deliberately planted violations: a PNG force-added outside

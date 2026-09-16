@@ -190,9 +190,7 @@ the `## Built` and `## Captured` sections of `09-hinge.md`.
 **Decide what stops a stage from closing.** Today a tutorial closes when its prose is written. A
 check that a log exists naming the reproduction document is one grep, and it would have failed on
 tutorials 4, 5, 6 and 8 on the day each was written. Where that check lives, and whether it is
-advisory or blocking, is an open question;
-[`2026-09-13-compaction-and-context.md`](2026-09-13-compaction-and-context.md) covers the
-mechanisms available.
+advisory or blocking, is an open question.
 
 **Consider whether tutorials 10 through 14 wait.** They are five tabs and five pages, and each one
 built now inherits whatever the process still gets wrong. Closing the gate question first costs
