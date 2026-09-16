@@ -65,10 +65,12 @@ draft9p4's own plan: the feature list already says a connector is a connector.
   `WEDGE_H = 0.75`, `WEDGE_C = 0.15`, `STUB = 4.0`, `BORE_D = 4.1`, `EAR = 6.10`, `SEAT = 11.80`.
   The build briefs derive from it and are current.
 
-**The hinge review does not.** `.docs/reviews/hinge/make_figures.py` hardcodes its own joint in a
-`SimpleNamespace` and imports nothing dimensional from `make_plans`, so it still describes
-`EAR` 6.85, `SEAT` 10.3, `STUB_PROUD` 1.30, `BORE_D` 4.4 and a ring of cones. Nothing in this plan
-reads it, and nothing in this plan fixes it; that is `task.hinge.review_derives` and it is not here.
+**The hinge review is not a source here, and it is not a defect either.**
+`.docs/reviews/hinge/make_figures.py` holds `EAR` 6.85, `SEAT` 10.3, `STUB_PROUD` 1.30,
+`BORE_D` 4.4 and a ring of cones in a frozen `J`, on purpose: it is the review of the joint that
+was printed and measured at 210 N·mm against the 454 N·mm it was drawn for, which is the evidence
+that ended that joint. Its page opens by saying so, and so does the generator. A review reads what
+it reviewed. Nothing in this plan reads it and nothing should change it.
 
 ## What REST may do
 
@@ -211,8 +213,6 @@ says so by name.
 
 - **No frames and no pages.** draft9p4 publishes nothing to `instructions/`.
 - **`stickbot-draft9p4-check` is not touched.**
-- **`task.hinge.review_derives`** — the hinge review still draws the superseded joint from its own
-  literals. It is a live document stating wrong numbers, and it is its own piece of work.
 - **`task.foot.bottom_view`, `task.capture.zoom_fit`** — page and capture work, which is Phase 5's.
 - **`task.print.whole_robot`, `task.hinge.wedge_loss`** — standing, in neither phase.
 
