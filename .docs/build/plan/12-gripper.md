@@ -115,4 +115,4 @@ build-the-host-first rule — for a reason, this time.
 number moved at draft9p0**, and that is the point of the part: the bar is LEGO's and the robot
 doubling around it changes nothing here. This is a
 question for the print, not for the CAD, and it is part of
-[task #29](../../robot-build-plan.md).
+[`task.print.whole_robot`](../../robot-build-plan.md).

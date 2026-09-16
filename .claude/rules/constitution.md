@@ -24,6 +24,14 @@ The behavioral contract. Numbered for reference, not priority.
   not. [`parts/plan-activation.md`](parts/plan-activation.md) says how a plan is activated and
   deactivated. These rules bind the work whether or not a plan is active.
 
+- **Name a unit of work; do not number it.** An identifier is a dotted name in the style the plans
+  already use for steps and requirements, `task.foot.sole_groove` beside `audit.page` and
+  `cad.parts.body.block`, and it is written into the plan that will do the work. A number coined in
+  a session's own task list dies with that session: the 193 this repository was built on are
+  invisible to any session but the one that made them, and the 107 places the repository cites one
+  resolve only because [`../../.docs/tasks.md`](../../.docs/tasks.md) was exported by hand. That
+  file is closed at #217 and is history; nothing appends to it.
+
 - **Simplicity first.** Develop the simplest and minimum content (code, prose, or CAD) that solves
   the problem. Nothing speculative; no features beyond what was asked; no abstraction for single-use
   code. Three similar lines beat a premature abstraction. If a simpler alternative exists, choose it
@@ -290,5 +298,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.8.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.9.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

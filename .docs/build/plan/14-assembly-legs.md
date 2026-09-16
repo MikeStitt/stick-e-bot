@@ -93,4 +93,4 @@ exist in this plan yet.
 
 **Whether the robot stands.** Two feet, a fixed torso and nine ball mates is a lot of freedom.
 Whether the assembly holds a pose or collapses is the first thing to find out, and it is the same
-question the print asks in [task #29](../../robot-build-plan.md).
+question the print asks in [`task.print.whole_robot`](../../robot-build-plan.md).

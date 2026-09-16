@@ -200,6 +200,11 @@ only inside feature dialogs. A's version is wrong.
   hinge review generates everything it shows. What to do about that, and the distinction between a
   figure that must be regenerated and one that must not, is in
   [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md).
+- **The task numbers are closed at #217, and what each one meant is in
+  [`tasks.md`](tasks.md).** They were coined in a Claude Code task store keyed by session id, which
+  is not in git; the repository cites them 107 times across 42 files. New work carries a dotted
+  identifier name instead, written into the plan that will do it, and the move is recorded in
+  [`2026-09-16-tasks-into-the-repo.md`](2026-09-16-tasks-into-the-repo.md).
 - **Four Stage 5 teaching routes lost their home when the limbs became cylinders.** `#limbD` is
   12 and every limb is a Ø12 cylinder, so the limb rows in the Stage 5 build order —
   [`robot-build-plan.md:609`](robot-build-plan.md) and `:611` — no longer describe a part anyone

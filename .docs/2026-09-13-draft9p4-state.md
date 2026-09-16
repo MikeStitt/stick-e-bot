@@ -169,12 +169,12 @@ what is actually evidenced. Write the document-role swap into `plan.md`, either 
 observed arrangement the specified one or by restoring the specified one. Neither is more honest
 than the other; what is dishonest is the current gap between them.
 
-**Fix the foot, then retake.** Task #215 turns the Depth arrow in both documents and republishes
-`tutorial 8 - the foot`. Task #216 finds the real bottom-view key, corrects `shift+5` at
-`foot.rst` lines 23, 781, 795 and 1157, rewrites the alt text on three frames, and retakes the 15
-frames `groove-06` through `ribs-11`, plus `hero-02`, plus whichever of the 28 frames from
-`socket.derive-01` onward show the foot's lower edge. A frame of a state the model no longer has is
-a page defect, so the retake is part of the fix and not a follow-up.
+**Fix the foot, then retake.** `task.foot.sole_groove` turns the Depth arrow in both documents and
+republishes `tutorial 8 - the foot`. `task.foot.bottom_view` finds the real bottom-view key,
+corrects `shift+5` at `foot.rst` lines 23, 781, 795 and 1157, rewrites the alt text on three
+frames, and retakes the 15 frames `groove-06` through `ribs-11`, plus `hero-02`, plus whichever of
+the 28 frames from `socket.derive-01` onward show the foot's lower edge. A frame of a state the
+model no longer has is a page defect, so the retake is part of the fix and not a follow-up.
 
 **Prove the gate on one page before trusting it on fourteen.** The foot is the page to try, because
 we now know what the right answer looks like. Drive `foot.rst` into a document that does not have
@@ -196,13 +196,17 @@ advisory or blocking, is an open question.
 built now inherits whatever the process still gets wrong. Closing the gate question first costs
 less than five more pages that have to be re-proved.
 
-## Open tasks that belong to this
+## Open work that belongs to this
 
-- **#203** tutorial 9, the hinge, in progress
-- **#204** to **#208** tutorials 10 through 14, in strict order
-- **#209** Phase R, the register
-- **#214** the head and body carry diff, to re-run once the settled rows are back
-- **#215** the `sole groove` direction fix
-- **#216** the bottom-view key and the retakes that follow
-- Carried from earlier drafts and still open: **#27**, **#29**, **#60**, **#129**, **#139**,
-  **#177**
+What each of these is, and which phase now holds it, is in
+[`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md) § *The open work, by name*.
+That file is the live record; this one is dated. The numbers each was written under are defined in
+[`tasks.md`](tasks.md).
+
+- draft9p4's unbuilt tabs: `task.draft9p4.hinge`, `task.draft9p4.u_limb`, `task.draft9p4.l_limb`,
+  `task.draft9p4.gripper`, `task.draft9p4.assembly_arms` and `task.draft9p4.assembly_legs`
+- what closes draft9p4: `task.draft9p4.carry_diff` and `task.draft9p4.register`
+- the foot: `task.foot.sole_groove` and `task.foot.bottom_view`
+- carried from earlier drafts: `task.capture.zoom_fit`, `task.print.whole_robot`,
+  `task.capture.tutorials_1_to_5`, `task.reproduce.draft9p3`, `task.draft9p3.u_limb` and
+  `task.hinge.wedge_loss`

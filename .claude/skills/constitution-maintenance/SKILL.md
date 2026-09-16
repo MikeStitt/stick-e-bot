@@ -50,6 +50,36 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.9.0 (2026-09-16)** — MINOR: a new Working Rule, *Name a unit of work; do not number it*. An
+  identifier is a dotted name in the style the plans already use for steps and requirements, and it
+  is written into the plan that will do the work. The numbers are closed at #217 and
+  [`../../../.docs/tasks.md`](../../../.docs/tasks.md) is what they resolve against.
+
+  _Why:_ the numbers were coined in a Claude Code task store at `~/.claude/tasks/<session-id>/`,
+  which is keyed by session, is not in git, and does not survive the session that made it. The
+  repository cites them 107 times across 42 files and defined none of them, so every one of those
+  citations was already unreadable to any session but the one that coined them; the session opened
+  in this repository on 2026-09-15 had no task directory at all. Two citations were dangling
+  outright: `.docs/build/plan/12-gripper.md` and `14-assembly-legs.md` both wrote
+  `[task #29](../../robot-build-plan.md)`, and that file does not contain the word *task*.
+
+  This is a new principle and removes none, which is why it is MINOR. Nothing about how a plan is
+  activated changes, and the existing rule that an open task is folded into the file it falls in is
+  unchanged; naming is what that rule was always missing.
+
+  _Companion changes, same commit._ `.docs/tasks.md` holds all 193 records exported from the store,
+  numbered 25 to 217, with subject, status, dependencies and description. Six descriptions had
+  swallowed the closing tag of the tool call that wrote them and ran on into
+  `</description> <parameter name="activeForm">`; the tail is trimmed and the header says which six.
+  `robot-build-plan.md` § *Nothing here is settled until the whole robot is printed* is now
+  `task.print.whole_robot` and the two dangling links point at it. The sixteen tasks that were open
+  are named and placed in [the move plan](../../../.docs/2026-09-14-move-to-stick-e-bot.md)
+  § *The open work, by name*, three of them recorded as superseded.
+
+  _Config companion._ There is none, by decision: a sixth gate checking that every cited number
+  resolves was proposed and dropped, because the numbers are closed and the set it would check
+  cannot grow. `ninja check` was run and watched green on all five.
+
 - **5.8.0 (2026-09-16)** — MINOR: a new Quality Gate, **Imports installed**. No tracked Python
   edits `sys.path`; the `stickbot` package is imported by name and paths into the tree come from
   `repo_root()`.

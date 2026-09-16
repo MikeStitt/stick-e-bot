@@ -194,6 +194,78 @@ draft9p5 to write against.
 A new plan, a new empty Onshape workspace, the GUI for every feature, and draft9p4 as the reference
 the audits diff against. The frames it publishes are the only frames that reach git.
 
+## The open work, by name
+
+Sixteen tasks were open when the numbers were retired. Each is named here and placed in the phase
+that will do it, or recorded as superseded. [`tasks.md`](tasks.md) holds the number each was
+written under and the full text of what it asked for.
+
+**Phase 4 holds the model work.** The pages these tasks also asked for are Phase 5's, because
+Phase 4 takes no frames and writes no pages.
+
+- **`task.draft9p4.hinge`.** The hinge tab: twenty-four wedges on a ring with a fifteen degree
+  step, where draft9p3's page still describes bumps and valleys. `blade profile` is four entities
+  and cost draft9p1p5 eight attempts, four of whose findings left a blade that looked right, so
+  every sketch step reads back what it drew before the next one runs.
+- **`task.draft9p4.u_limb`.** Never taken in any draft. Derives both joints, `add socket` and
+  `add fork`. Whether the rod reproduces volume the derived fork's arm already occupies has never
+  been checked for this tab at all.
+- **`task.draft9p4.l_limb`.** Never taken. Derives `add blade` and `add ball stud`, and settles the
+  same volume question draft9p1p5's Phase E raised and never ran to ground.
+- **`task.draft9p4.gripper`.** `clip profile` follows the socket's outside profile and is drawn
+  after `copy socket`, so the whole tab moves with the settled socket.
+- **`task.draft9p4.assembly_arms`.** Never taken. The assembly gains both arms.
+- **`task.draft9p4.assembly_legs`.** Never taken. The assembly gains both legs and the robot
+  stands. The version it publishes is what the *Recovery point* gate wants, and the candidate for
+  the example completed CAD that
+  [`constitution.md`](../.claude/rules/constitution.md) § *Where developmental draft products
+  live* still records as TODO.
+- **`task.draft9p4.carry_diff`.** Re-read `head` and `body` from the draft9p4 workspace once
+  tutorial 6 types `#limbD` back, and diff against draft9p3's `head.faces.json` and
+  `body.faces.json`. The copy half is already proved: draft9p4 at its Start version matches
+  draft9p3 face for face, 47 on `head` and 20 on `body`.
+- **`task.foot.sole_groove`.** `sole groove` has two Opposite direction arrows and only the
+  Starting offset one was turned, so the cut starts 22 mm below the sketch and runs 2 mm back up.
+  The foot has eight tunnels across its width above an unbroken sole, where it should have eight
+  open notches. The check that catches it: the sole at z -24 mm is nine faces, not one, and no face
+  stands at z -20 mm.
+- **`task.draft9p4.register`.** What was built, what each audit attacked, what it found and what
+  was done about each finding. Every step gets its `state` and its `version`, every claimed gate
+  gets the evidence that closes it, and a gate that did not close says so.
+
+**Phase 5 holds the capture and page work.**
+
+- **`task.capture.zoom_fit`.** Teach and perform `f` zoom fit throughout, in the guide prose and in
+  the capture run that produces the frames, since they are the same script. It depends on hiding
+  the default planes: `f` frames Top, Front and Right rather than the part. In the human run the
+  follower scrolled 75 wheel notches and used zoom to fit zero times.
+- **`task.foot.bottom_view`.** `shift+5` gives the Top view, not the bottom, so three frames
+  captioned as the sole with grooves across it are top views and the page never shows the sole.
+  Find the key that does give it, and correct every place a page tells a reader to press it.
+
+**Standing, in neither phase.**
+
+- **`task.print.whole_robot`.** Recorded in
+  [`robot-build-plan.md`](robot-build-plan.md) § *Nothing here is settled until the whole robot is
+  printed*, which is where it belongs: it is the question the whole design answers to, not a step
+  in a draft.
+- **`task.hinge.wedge_loss`.** The blade holds 96 cone faces from `#limbD` 18 mm to 33.5 mm and
+  comes back with 94 at 34 mm, 90 at 36 mm and 82 at 40 mm; the fork holds 96 to 33.5 mm, then 92
+  at 36 mm and 84 at 40 mm. No feature reports an error at any size. The built size is 24 mm, so
+  34 mm is 1.42 times the design, and nothing here plans to drive `#limbD` that far.
+
+**Superseded, and the reason.** These three are recorded as closed rather than carried. Each asks
+for work on a draft that is no longer the live one.
+
+- **`task.capture.tutorials_1_to_5`.** draft9p0's first five pages have a hero and no frame of any
+  single step. draft9p5 captures every page from empty, so the re-run it asks for is work draft9p5
+  does anyway.
+- **`task.reproduce.draft9p3`.** Paused 2026-09-04 with `stickbot-draft9p3-check` holding tutorial
+  1 through `cad.variables.rename` and no version published. draft9p3 is not the live draft; the
+  *Steps reproduce* gate it was serving moves to draft9p5.
+- **`task.draft9p3.u_limb`.** Paused 2026-08-30 while the hinge was fixed. `task.draft9p4.u_limb`
+  builds the same tab against the settled joints.
+
 ## What we do not know yet
 
 - **Whether a shared Onshape document opens for an account without ownership rights.** The refusal

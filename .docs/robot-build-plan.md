@@ -16,10 +16,10 @@ checklists below are their lesson lists, not a paraphrase.
 
 ## Nothing here is settled until the whole robot is printed
 
-**TODO — print the entire robot, assemble it, and operate it.** Every number in this plan and in
-the briefs it points at has been decided in CAD, checked against arithmetic, and in a few places
-measured on a printed part. None of that is the same as a robot that prints, snaps together and
-still holds its pose after a class has played with it.
+**`task.print.whole_robot`: print the entire robot, assemble it, and operate it.** Every number in
+this plan and in the briefs it points at has been decided in CAD, checked against arithmetic, and
+in a few places measured on a printed part. None of that is the same as a robot that prints, snaps
+together and still holds its pose after a class has played with it.
 
 **Where a calculation and a print disagree, the print wins.** The hinge's fingers are the worked
 example. Run 5 built the ear at **1.2**, and the arithmetic said that was safe — an 8 % margin on
