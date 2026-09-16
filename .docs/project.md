@@ -11,10 +11,8 @@ registry of reference documents. The models live in Onshape.
 
 Owned by Mike Stitt (not the Spires Robotics team space).
 
-**`CAD Class — SpongeBob reference`** — the one that matters.
-`experiments/spongebob-guide/model.py` builds it and the capture pipeline rebuilds it on every
-run, so it is *generated*, not hand-maintained. Editing it by
-hand will be undone by the next `make all`.
+**`CAD Class — SpongeBob reference`** — the retired sponge model. The pipeline that generated
+it stayed in the `sponge` archive, so nothing here rebuilds it.
 
 | Thing        | ID                         |
 | ------------ | -------------------------- |
@@ -40,9 +38,6 @@ Done and verified:
 
 - The reference model builds 22/22 `OK`, and its geometry is confirmed by bounding box rather than
   by status code. Nine parts, classified from their bounding boxes and colored.
-- **The student guide covers the whole taught path** — four session pages, 38 documented steps, 38
-  annotated screenshots taken from the live UI. See
-  `experiments/spongebob-guide/`, which is in the `sponge` archive.
 - The build and capture pipeline is committed, not living in a scratchpad.
 - The GUI vocabulary in [`taught-path.md`](experiments/taught-path.md) is read from the live UI,
   not recalled — including the correction that the extrude flip is an arrow button, not the
