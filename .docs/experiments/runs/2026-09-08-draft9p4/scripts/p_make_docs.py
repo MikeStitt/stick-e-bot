@@ -14,19 +14,18 @@ import json
 import sys
 import time
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import repo_root
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
 P3_DID = "50b2d87357670c07c2fbcb89"
 P3_WID = "a49825ea9aa838bdfae7b78d"
 BUILD = "stickbot-draft9p4"
 CHECK = "stickbot-draft9p4-check"
-OUT = ("/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/runs/"
+OUT = (str(repo_root()) + "/.docs/experiments/runs/"
        "2026-09-08-draft9p4/reference/documents.json")
 
 

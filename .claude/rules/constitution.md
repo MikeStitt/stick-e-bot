@@ -182,6 +182,7 @@ Before any session material is called done:
 | Prose style     | Written to [`parts/prose-style.md`](parts/prose-style.md)                                                                                                           |
 | Spelling        | `ninja check` is clean: US spellings, with `src/stickbot/dictionary.txt` for compounds                                                                                       |
 | Capture is out  | `ninja check` is clean: no tracked image outside `instructions/*/source/images/`, no tracked build output, no tracked file over 5 MB                                   |
+| Imports installed | `ninja check` is clean: no tracked Python edits `sys.path`. The `stickbot` package is imported by name, and paths into the tree come from `repo_root()`                 |
 | Reading level   | We are currently tracking which text is above reading level. Before we are done with our final version we will adjudicate what to do with each reading level failure. |
 
 - **"I wrote the steps" is not "the steps work."** Following your own instructions from a blank
@@ -289,5 +290,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.7.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.8.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

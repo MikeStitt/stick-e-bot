@@ -8,13 +8,11 @@ import json
 import sys
 import time
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
 P3_DID = "50b2d87357670c07c2fbcb89"
 P3_WID = "78e4bd5f5a5e2b2cbcbf6ba2"   # replaced below by the read

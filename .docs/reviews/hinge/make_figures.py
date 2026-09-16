@@ -31,13 +31,11 @@ IMAGES = HERE / "source" / "images"
 # that use them will fail with a clear missing-file error.
 FRAMES = pathlib.Path(os.environ.get("HINGE_FRAMES", "/nonexistent/hinge-frames"))
 
-sys.path.insert(0, str(ROOT / "instructions" / "robot-guide"))
-import make_plans as mp  # noqa: E402
+from stickbot import make_plans as mp  # noqa: E402
 
-sys.path.insert(0, str(ROOT))
-from tools import hinge_spring  # noqa: E402
+from stickbot import hinge_spring  # noqa: E402
 
-from make_plans import circle, mm, rect, text  # noqa: E402
+from stickbot.make_plans import circle, mm, rect, text  # noqa: E402
 
 # ------------------------------------------------------------------ the numbers
 #

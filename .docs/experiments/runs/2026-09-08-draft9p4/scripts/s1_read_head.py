@@ -13,18 +13,17 @@ import json
 import sys
 import time
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import repo_root
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
 DID = "fe052e606c96bb7cc5aaf59f"
 WID = "0ff70e8921be572d630dd9cc"
 HEAD = "95fe567f38e1c8c891bc94a3"
-OUT = "/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/runs/2026-09-08-draft9p4/log"
+OUT = str(repo_root()) + "/.docs/experiments/runs/2026-09-08-draft9p4/log"
 
 # Every mate connector body in the tab, with its origin and its z axis, in millimeters.
 CONNECTORS = """function(context is Context, queries is map)

@@ -50,6 +50,31 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.8.0 (2026-09-16)** — MINOR: a new Quality Gate, **Imports installed**. No tracked Python
+  edits `sys.path`; the `stickbot` package is imported by name and paths into the tree come from
+  `repo_root()`.
+
+  _Why:_ an installed package makes `import` mean the same thing from any directory, and a single
+  `sys.path.insert` undoes that silently — the wrong module imports fine. Thirteen of draft9p4's
+  scripts inserted an absolute path to a different checkout, so they read one repository's modules
+  while writing their output into it, and nothing said so. 5.7.1 removed the last of those; without
+  a gate the next hurried script puts one back.
+
+  Nothing is removed or redefined, which is why this is a MINOR.
+
+  _Companion changes, same commit._ Phases 2 and 3 of
+  [`../../../.docs/2026-09-16-python-packaging.md`](../../../.docs/2026-09-16-python-packaging.md).
+  The hinge review's three figure generators and nineteen run scripts import `stickbot` and drop
+  their `sys.path` lines; draft9p4's thirteen lose the absolute paths they read and wrote through.
+  Four run folders that finished before the package existed are named in the check as exempt,
+  because their scripts are a record of what was driven rather than code anyone runs again.
+
+  _Config companion, exercised._ `stickbot-check-imports` is the gate, wired into `ninja check` as
+  a fifth target. A `sys.path.insert` was planted in `.docs/reviews/hinge/make_figures.py`; the gate
+  named the file and line and exited 1, and went green when it was removed. `ninja hinge-figures`
+  regenerated all eleven figures and five tables byte-identical, which is what says the rewritten
+  imports reach the same code.
+
 - **5.7.1 (2026-09-16)** — PATCH: the probe-script escape hatch says a probe that proves useful
   moves into **the `stickbot` package** rather than into `tools/`, which no longer exists.
 

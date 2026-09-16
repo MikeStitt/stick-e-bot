@@ -22,6 +22,7 @@ stickbot-check-wrap = "stickbot.check_wrap:main"
 stickbot-check-spelling = "stickbot.check_spelling:main"
 stickbot-check-reading-level = "stickbot.check_reading_level:main"
 stickbot-check-images = "stickbot.check_images:main"
+stickbot-check-imports = "stickbot.check_imports:main"
 
 [dependency-groups]
 dev = [

@@ -29,13 +29,9 @@ import math
 import pathlib
 import sys
 
-HERE = pathlib.Path(__file__).resolve()
-ROOT = HERE.parents[4]
-sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(ROOT / "instructions" / "robot-guide"))
 
-from tools import onshape_session as S       # noqa: E402
-import make_plans as P                       # noqa: E402
+from stickbot import onshape_session as S       # noqa: E402
+from stickbot import make_plans as P                       # noqa: E402
 
 MM = 1 / 25.4          # sketch coordinates are inches; this converts a millimeter
 

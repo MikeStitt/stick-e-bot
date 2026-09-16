@@ -1,10 +1,10 @@
 # Everything this repository builds and checks: `ninja check` for the gates,
 # `ninja guides` for the Sphinx guides.
 #
-# `ninja -k 0 check` runs all four even when the first one fails, which is
+# `ninja -k 0 check` runs all five even when the first one fails, which is
 # what you want when fixing rather than gating.
 #
-# The four checks are console scripts from the installed `stickbot` package,
+# The five checks are console scripts from the installed `stickbot` package,
 # not one-liners here, because each one has a scope rule worth reading. They are
 # named rather than pathed, so no rule depends on a file's location. None of the outputs below is ever
 # created, which is how ninja is told to run every check on every invocation.
@@ -31,12 +31,18 @@ rule images
   description = no capture, build output or outsized file is tracked
   pool = console
 
+rule imports
+  command = uv run stickbot-check-imports
+  description = no tracked python edits sys.path
+  pool = console
+
 build check-wrap: wrap | src/stickbot/check_wrap.py
 build check-spell: spell | src/stickbot/check_spelling.py src/stickbot/dictionary.txt
 build check-level: level | src/stickbot/check_reading_level.py
 build check-images: images | src/stickbot/check_images.py
+build check-imports: imports | src/stickbot/check_imports.py
 
-build check: phony check-wrap check-spell check-level check-images
+build check: phony check-wrap check-spell check-level check-images check-imports
 
 default check
 

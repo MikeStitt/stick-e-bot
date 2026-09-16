@@ -11,15 +11,14 @@ import json
 import sys
 import time
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import repo_root
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
-DOCS = json.load(open("/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/"
+DOCS = json.load(open(str(repo_root()) + "/.docs/experiments/"
                       "runs/2026-09-08-draft9p4/reference/documents.json"))
 DID = DOCS["build"]["did"]
 WID = DOCS["build"]["wid"]
@@ -28,7 +27,7 @@ PACE = 2.5
 
 # every id that belongs to stickbot-draft9p3
 NEEDLES = {SRC["did"]: "draft9p3 document", SRC["wid"]: "draft9p3 workspace"}
-for e in json.load(open("/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/"
+for e in json.load(open(str(repo_root()) + "/.docs/experiments/"
                         "runs/2026-08-29-draft9p3/reference/documents.json")
                    ) if False else []:
     pass

@@ -8,19 +8,18 @@ cross slit. This is the view draft9p3 worked from, and the one that produced the
 """
 import sys
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_screen as screen
-import onshape_session as api
+from stickbot import repo_root
+from stickbot import onshape_gui as gui
+from stickbot import onshape_screen as screen
+from stickbot import onshape_session as api
 
 DID = "fe052e606c96bb7cc5aaf59f"
 WID = "0ff70e8921be572d630dd9cc"
 HEAD = "95fe567f38e1c8c891bc94a3"
-CAP = "/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/runs/2026-09-08-draft9p4/capture/mate-center"
+CAP = str(repo_root()) + "/.docs/experiments/runs/2026-09-08-draft9p4/capture/mate-center"
 
 BALL = (0.0, 0.0, -45.0)
 R = 6.08

@@ -55,7 +55,7 @@ has to become importable either way. Moving it to `src/stickbot/plans.py` fixes 
 question in the same stroke and costs seven reference updates plus `build.ninja`'s `plan` rule.
 Leaving it where it is means the package imports out of `instructions/`, which is the odd shape.
 
-## Phase 1 — the package exists and the gates run from it
+## Phase 1 — the package exists and the gates run from it — **done 2026-09-16**
 
 - `src/stickbot/` with `__init__.py`; `tools/*.py` moved in with `git mv` so `git log --follow`
   answers.
@@ -69,7 +69,7 @@ Leaving it where it is means the package imports out of `instructions/`, which i
   working directory, since they are repo-scoped and are about to be callable from anywhere.
 - `uv sync`, then `ninja check` green with every gate running in the environment.
 
-## Phase 2 — the live callers stop patching paths
+## Phase 2 — the live callers stop patching paths — **done 2026-09-16**
 
 - `.docs/reviews/hinge/make_figures.py` and the nineteen run scripts from draft9p1p2 onward import
   `stickbot` and delete their `sys.path` lines.
@@ -78,7 +78,7 @@ Leaving it where it is means the package imports out of `instructions/`, which i
   archive.
 - `make_plans.py` moves or does not, per the open question above.
 
-## Phase 3 — the rule becomes a gate
+## Phase 3 — the rule becomes a gate — **done 2026-09-16**
 
 A fifth check: **a tracked `.py` outside `.docs/experiments/runs/` may not contain `sys.path`.**
 One pass over `git ls-files`, the shape of `check_images.py`. Without it this plan is a tidy-up that
@@ -86,6 +86,23 @@ the next hurried script undoes; with it, the next hurried script fails at the ga
 
 Exercised the way the Constitution's maintenance step 5 asks: plant a `sys.path.insert` in a live
 file, watch the gate refuse it, remove it, watch it pass.
+
+## What it came to
+
+`git grep sys.path.insert` over tracked Python returns the four run folders that finished before
+the package existed, and nothing else. The package is 35 modules; `uv sync` installs it editable,
+so an edit takes effect with no reinstall.
+
+Two things were proved rather than assumed. `repo_root()` was called with the working directory
+inside a *different* git checkout and returned this one, which is the failure it exists to prevent.
+And both generated artifacts came back byte-identical after the rewrite — `ninja plan`'s two plan
+drawings, and `ninja hinge-figures`' eleven figures and five `.rst` tables — which is what says the
+new imports reach the same code as the old paths did.
+
+Two things were found and not fixed. Six `measure_*` modules read `sys.argv` at module level and so
+cannot be imported, only run; the archive's copies are identical, so that predates the move. And
+three of the four gates had been running on the system interpreter rather than the environment,
+which nobody had noticed because they import only the standard library.
 
 ## What does not change
 

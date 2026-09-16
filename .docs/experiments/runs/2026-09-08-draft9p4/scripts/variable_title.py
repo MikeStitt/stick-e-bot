@@ -15,14 +15,13 @@ not as a click that did not land: `Extrude`'s dialog is opened and cancelled, an
 """
 import sys
 
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge/tools")
-sys.path.insert(0, "/Users/mikestitt/projects/first/2027/sponge")
 
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-import onshape_gui as gui
-import onshape_session as api
+from stickbot import repo_root
+from stickbot import onshape_gui as gui
+from stickbot import onshape_session as api
 
 CHECK = api.Doc("555033d6ce000bb44430dd6e",
                 "7786456e4391bf899e70d825",
@@ -30,7 +29,7 @@ CHECK = api.Doc("555033d6ce000bb44430dd6e",
 HINGE = api.Doc("500752af84dc92deea53f9e4",       # stickbot-draft9p1p6, read only here
                 "f30bf96cfeece59f61e0e7b2",
                 "62fca6aa5a67b51adcb2318c")
-OUT = Path("/Users/mikestitt/projects/first/2027/sponge/.docs/experiments/runs/"
+OUT = Path(str(repo_root()) + "/.docs/experiments/runs/"
            "2026-09-08-draft9p4/capture/variable-title")
 RED_X = (452, 93)
 

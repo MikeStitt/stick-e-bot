@@ -4,6 +4,7 @@ src/stickbot/__init__.py
 src/stickbot/agent_browser.py
 src/stickbot/browser.py
 src/stickbot/check_images.py
+src/stickbot/check_imports.py
 src/stickbot/check_reading_level.py
 src/stickbot/check_spelling.py
 src/stickbot/check_wrap.py

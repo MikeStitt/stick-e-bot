@@ -26,14 +26,10 @@ import math
 import pathlib
 import sys
 
-HERE = pathlib.Path(__file__).resolve()
-ROOT = HERE.parents[4]
-sys.path.insert(0, str(ROOT))
-sys.path.insert(0, str(ROOT / "instructions" / "robot-guide"))
 
 from playwright.sync_api import sync_playwright   # noqa: E402
-from tools import onshape_session as S            # noqa: E402
-import make_plans as P                            # noqa: E402
+from stickbot import onshape_session as S            # noqa: E402
+from stickbot import make_plans as P                            # noqa: E402
 
 DID, WID = "eca1f9c7feff156a3303d563", "3a7d66574eb06d933f843fae"
 TOL = 1e-3
