@@ -202,15 +202,29 @@ only inside feature dialogs. A's version is wrong.
   each clip covers one step or one section. Until then the pictures are the instruction and the
   clip is a second look. See
   [`experiments/runs/2026-08-19-run8p1/register.md`](experiments/runs/2026-08-19-run8p1/register.md).
-- **The reviewer pass has not been run.** A different review from the one above. A reading pass
-  over the repository's prose —
-  `constitution.md`, `.parts/`, `instructions/`, `docs/`, `.docs/` and both READMEs — for three
-  things: unprofessional statements, judgments based on age, and judgments based on status. It
-  was Phase 3 of the reorganization; what counts as a finding, and what does not, is in
-  [`reorganization-plan.md`](reorganization-plan.md) under *Reviewer pass — tone, and judgments
-  about people*. Fable edits in the working tree and writes
-  `<YYYY-MM-DD>-professional-review-report.md` here; nothing it writes is adopted by being
-  written — the diff gets read hunk by hunk.
+- **The reviewer pass has not been run.** A different review from the one above, and Phase 3 of
+  the reorganization. A reading pass, not a script: **Fable** reads the repository's prose —
+  `.claude/rules/`, `.claude/skills/`, `instructions/`, `docs/`, `.docs/` and both READMEs — and
+  flags three things.
+    - **Unprofessional statements.** Snark, in-jokes, dismissiveness — anything that would not
+      survive being read aloud to the class, or to a parent.
+    - **Judgments based on age.** Text that sorts people by age and then uses the sorting to
+      decide something. The same move made with grade level is in scope.
+    - **Judgments based on status.** The same move made with standing rather than age —
+      seniority, credentials, prior tool experience, or whether someone counts as a beginner.
+
+  **What is flagged** — an age, grade, or standing substituting for a capability, an audience, or
+  a permission. **What is not** — naming who is actually in the room. "Students range from
+  middle-schoolers who have never opened a CAD tool to high-schoolers with some Fusion behind
+  them" reports the roster. "A fourteen-year-old would not follow this" judges a person by their
+  age. The first is a fact about the class; the second is a guess about a reader.
+
+  **What it produces.** Every file is committed first, so Fable's changes land as a clean diff
+  against a known state. Fable then edits in the working tree — the diff is the proposal — and
+  writes `.docs/<YYYY-MM-DD>-professional-review-report.md` recording what it changed and why.
+  **Nothing it writes is adopted by being written**: the diff gets read hunk by hunk, keeping what
+  is right and reverting what is not, and the report is what explains a hunk when the change alone
+  does not.
 - **Four Stage 5 teaching routes lost their home when the limbs became cylinders.** `#limbD` is
   12 and every limb is a Ø12 cylinder, so the limb rows in the Stage 5 build order —
   [`robot-build-plan.md:609`](robot-build-plan.md) and `:611` — no longer describe a part anyone
