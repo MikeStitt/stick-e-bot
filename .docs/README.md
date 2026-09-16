@@ -195,6 +195,11 @@ only inside feature dialogs. A's version is wrong.
   **Nothing it writes is adopted by being written**: the diff gets read hunk by hunk, keeping what
   is right and reverting what is not, and the report is what explains a hunk when the change alone
   does not.
+- **The explanatory sketches are not derived, and two of them argue for a decision rather than
+  describing the design.** `experiments/sketches/`'s three studies type their inputs where the
+  hinge review generates everything it shows. What to do about that, and the distinction between a
+  figure that must be regenerated and one that must not, is in
+  [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md).
 - **Four Stage 5 teaching routes lost their home when the limbs became cylinders.** `#limbD` is
   12 and every limb is a Ø12 cylinder, so the limb rows in the Stage 5 build order —
   [`robot-build-plan.md:609`](robot-build-plan.md) and `:611` — no longer describe a part anyone
