@@ -18,6 +18,11 @@ tail is markup, which is why those six records carry no `activeForm` of their ow
 trimmed here. #124 also carried four en-GB spellings, corrected to US; #57 quotes en-GB
 spellings on purpose and its lines are marked for the Spelling gate.
 
+**#208 lost one clause.** It asked that the version it publishes be named in the
+Constitution's *Where developmental draft products live*. Mike ruled on 2026-09-16 that the
+Constitution does not track where a version of the stickbot lives, so the ask is gone from
+every file that carried it. What #208 builds is unchanged.
+
 ## #25 Add a completeness review step to the guide-writing process
 
 **completed**.
@@ -1766,8 +1771,7 @@ the close-up. Then the page, then audit.page.
 
 Never taken in any draft. The assembly gains both legs and the robot stands. Then the page, then
 audit.page. This is the last tutorial: the version it publishes is the one the Recovery point gate
-wants and the candidate for the example completed CAD that constitution.md § Where developmental
-draft products live still records as TODO.
+wants.
 
 ## #209 9p4 Phase R — write the register
 

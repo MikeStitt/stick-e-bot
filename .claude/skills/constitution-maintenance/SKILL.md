@@ -50,6 +50,28 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.9.1 (2026-09-16)** — PATCH: *Where developmental draft products live* reads *an example
+  completed CAD in Onshape* where it read *an example completed CAD at `_TODO_`*.
+
+  _Why:_ Mike's ruling, 2026-09-16 — the Constitution does not track where a version of the
+  stickbot lives, because that would make an amendment out of every change of workspace. The
+  placeholder was an open obligation on this file, and three other documents were carrying asks
+  against it.
+
+  This is a PATCH rather than a principle removal. The line sits in a descriptive section, not in
+  the Working Rules or the Quality Gates, and nothing that binds work changes. The *Recovery point*
+  gate still wants a published named version for the next session to start from; what changes is
+  that the Constitution is no longer where that version gets named.
+
+  _Companion changes, same commit._ The three asks are withdrawn:
+  [`../../../.docs/2026-09-14-move-to-stick-e-bot.md`](../../../.docs/2026-09-14-move-to-stick-e-bot.md)
+  loses the third item of Phase 3, which closes that phase, and the clause in
+  `task.draft9p4.assembly_legs`; draft9p4's deactivated plan loses the same ask from *What we do not
+  know yet*; and `.docs/tasks.md` loses it from #208's entry, recorded in that file's header with
+  the other repairs. `README.md`'s four `_TODO_` reference-model rows are untouched: those are the
+  student-facing links themselves, blocked on the document being deliberately shared, and this
+  ruling does not reach them.
+
 - **5.9.0 (2026-09-16)** — MINOR: a new Working Rule, *Name a unit of work; do not number it*. An
   identifier is a dotted name in the style the plans already use for steps and requirements, and it
   is written into the plan that will do the work. The numbers are closed at #217 and

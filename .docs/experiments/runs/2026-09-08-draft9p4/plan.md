@@ -393,8 +393,7 @@ paid.
   and `gripper` have no model at the settled joint, and the design source is arithmetic rather than
   geometry.
 - **Whether tutorials 2 and 3 carry.** They should, and `read_shape.py` is what says so.
-- **Where the finished robot lives for a student who falls behind.**
-  [`.claude/rules/constitution.md`](../../../../.claude/rules/constitution.md) § *Where developmental draft products
-  live* still reads *an example completed CAD at _TODO_*, and the *Recovery point* gate wants a
-  published named version to start from. The first page that links a document Mike owns is the first
-  page *Links resolve* has real work to do on.
+- **Where the finished robot lives for a student who falls behind.** The *Recovery point* gate
+  wants a published named version to start from, and the first page that links a document Mike owns
+  is the first page *Links resolve* has real work to do on. The Constitution does not answer this:
+  Mike ruled on 2026-09-16 that it does not track where a version of the stickbot lives.

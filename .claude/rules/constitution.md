@@ -152,7 +152,7 @@ this repository does not have is pointing into that archive, and that is where t
 ### Where developmental draft (aka run) products live
 
 The final product is a `instructions/stickbot-guide/build/*` that can be served on github pages,
-as well as an example completed CAD at _TODO_.
+as well as an example completed CAD in Onshape.
 
 Historically, we have been calling drafts of instructions `instructions/robot-guideN` and the build
 plan that makes them `.docs/experiments/runs/YYYY-MM-DD-runMpN`, and the resulting CAD on onshape
@@ -298,5 +298,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.9.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
+**Version**: 5.9.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

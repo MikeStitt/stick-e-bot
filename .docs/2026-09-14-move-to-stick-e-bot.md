@@ -91,13 +91,19 @@ either landed or is carried by this plan. `old-constitution.md` stays here in th
 not carry, which makes `SKIP_FILES = ("old-constitution.md",)` in `src/stickbot/check_wrap.py` dead
 in the new repository — it comes out with the file.
 
-## Phase 3 — the rename and the contract
+## Phase 3 — the rename and the contract — **done 2026-09-16**
 
 - **The old repository's name appears in 12 live tracked files**, the Constitution among
   them. This is a meaning change, so the prose rule permits the edit.
-- **The Constitution's *Where developmental draft products live*** still reads *an example
-  completed CAD at _TODO_*, and now has an answer to write: draft9p4, once Phase 4 finishes it.
 - **`src/stickbot/check_spelling.py`** carries the old name in its dictionary or its docstring.
+
+**The third item was withdrawn, not done.** It asked for the Constitution's *Where developmental
+draft products live* to name the example completed CAD once Phase 4 published one. Mike ruled on
+2026-09-16 that the Constitution does not track where a version of the stickbot lives, and replaced
+the placeholder with *an example completed CAD in Onshape*. The other two items landed in `42466c8`
+and were verified on 2026-09-16: one citation of the old name survives, in
+[`2026-09-16-python-packaging.md`](2026-09-16-python-packaging.md), where it quotes the literal
+path 47 archived scripts hardcode.
 
 ## The active plan, settled 2026-09-14
 
@@ -216,10 +222,7 @@ Phase 4 takes no frames and writes no pages.
   after `copy socket`, so the whole tab moves with the settled socket.
 - **`task.draft9p4.assembly_arms`.** Never taken. The assembly gains both arms.
 - **`task.draft9p4.assembly_legs`.** Never taken. The assembly gains both legs and the robot
-  stands. The version it publishes is what the *Recovery point* gate wants, and the candidate for
-  the example completed CAD that
-  [`constitution.md`](../.claude/rules/constitution.md) § *Where developmental draft products
-  live* still records as TODO.
+  stands. The version it publishes is what the *Recovery point* gate wants.
 - **`task.draft9p4.carry_diff`.** Re-read `head` and `body` from the draft9p4 workspace once
   tutorial 6 types `#limbD` back, and diff against draft9p3's `head.faces.json` and
   `body.faces.json`. The copy half is already proved: draft9p4 at its Start version matches
