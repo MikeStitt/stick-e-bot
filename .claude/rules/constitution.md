@@ -40,8 +40,8 @@ The behavioral contract. Numbered for reference, not priority.
   content for its meaning. If unsure why something is shaped a certain way, ask. "Looks orthogonal"
   is a dangerous assumption.
 
-- **Define success, then loop until it is verified.** Say what the reader or student can do at the
-  end, not what steps exist. Don't follow a rigid outline toward it.
+- **Define success and initial steps, then loop until successful.** Don't blindly follow
+  rigid steps; iterate and adjust the steps toward success.
 
 - **Keep units small, bounded, and side-effect-free.** Functions in code, sentences and paragraphs
   in prose, sketches in CAD: explicit inputs and outputs, clear boundaries, no god script that
@@ -291,5 +291,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.5.2 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.6.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

@@ -50,6 +50,28 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.6.0 (2026-09-16)** — MINOR: *Define success, then loop until it is verified* becomes
+  **Define success and initial steps, then loop until successful**, and its body widens from
+  teaching material to all work. It read *"say what the reader or student can do at the end, not
+  what steps exist"*; it now reads *"don't blindly follow rigid steps; iterate and adjust the steps
+  toward success."*
+
+  _Why:_ every other Working Rule holds for code, prose, CAD and a conversation alike. This one had
+  a general title over a body that only defined success for a document with a reader, so the rule
+  had no operative content for a part, a script, an audit or a fix. The narrow form also said less
+  than it looked like it did: `lesson-design` § *Checkpoints* already separates a visible result
+  from an invisible one, which is the nearer question when writing a lesson.
+
+  The obligation is unchanged and nothing is removed, which is why this is a MINOR. What is added
+  is the initial-steps clause: success alone was never enough to start from.
+
+  **`initial steps`, not `a plan`.** An earlier draft said *an initial plan*, and *plan* is a
+  loaded word here — the Working Rule above it and
+  [`../../rules/parts/plan-activation.md`](../../rules/parts/plan-activation.md) both mean a run
+  plan with an `active-plan.md` pointer. This rule asks for neither.
+
+  _Config companion, exercised._ None; no check enforces it. `ninja check` was run and is green.
+
 - **5.5.2 (2026-09-16)** — PATCH: Layer 4 stops listing `.docs/session-state.md`, which is
   deleted. The `project.md` bullet now says a run's own ids are in its folder under
   `.docs/experiments/runs/`.
