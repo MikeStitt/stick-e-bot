@@ -6,17 +6,26 @@ picture disproves. The second is worse, because a correct drawing under a false 
 checked. This note says which drawings should be generated, which should be frozen, and what makes
 the difference cheap rather than a standing maintenance cost.
 
-## The pattern already exists, for one subsystem
+## Both patterns already exist here
 
-[`reviews/hinge/`](reviews/hinge/) is the thing. `make_figures.py` imports `make_plans` and
-`hinge_spring` and emits **eleven SVG figures and five `.rst` tables** — `axle`, `doubling`,
-`rooted`, `settled`, `slit` — straight into the Sphinx source, and `ninja hinge-figures`
-regenerates the lot. Not one number in that document is typed.
+**Derived figures**, driven by the design source: `make_plans.py` emits the two plan sheets and
+`make_brief_sheets.py` the three brief sheets, every number of them coming from `make_plans`. A
+robot dimension changes in one place and both sets of drawings follow.
 
-The three studies in [`experiments/sketches/`](experiments/sketches/) are the same kind of drawing
-built the other way: `hip-clearance.py`, `socket-wrap.py` and `slit-reach.py` import nothing but
-`math` and `pathlib`, and type their inputs at the top. So the repository already holds both
-answers to the same question, and the hinge's is the one that works.
+**A decision record done right**: [`reviews/hinge/`](reviews/hinge/). Its numbers are typed, in the
+frozen `J` in `make_figures.py`, because the joint it reviews was replaced — and it says so at the
+top of the page and twice in the generator. What it still does is generate: `make_figures.py` emits
+seven SVG figures and all five `.rst` tables from that one frozen set, so the page's prose, its
+tables and its pictures cannot disagree with each other. It reads `make_plans` for the drawing
+primitives and the stylesheet, not for a dimension, and it solves its spring answers through
+`hinge_spring` rather than typing them. The remaining four SVGs come from `seat_figures.py` and
+`wedge_figures.py`, each frozen at its own snapshot.
+
+**Decision records that do not say they are**: the three studies in
+[`experiments/sketches/`](experiments/sketches/). `hip-clearance.py`, `socket-wrap.py` and
+`slit-reach.py` import nothing but `math` and `pathlib` and type their inputs at the top, which is
+right for a record — but until 2026-09-16 none of them said which version it belonged to. That is
+the whole difference between them and the hinge review, and it is a label, not a mechanism.
 
 ## Three layers, three different costs
 
@@ -71,9 +80,13 @@ now, for three studies, is cheaper than doing it later for a syllabus.
 
 ## What this would take
 
-- The three studies import `make_plans` instead of typing their inputs. This waits on
-  [the packaging plan](2026-09-16-python-packaging.md), which makes `make_plans` importable.
-- Each one returns non-zero when its own verdict fails, and joins `ninja check`.
-- The ones that argue for a past decision are separated from the ones that describe the design
-  now, dated, and frozen.
+- **Done 2026-09-16.** All three studies turned out to argue for a past decision and none to
+  describe the design now, so none of them imports `make_plans`: they are labeled `superseded`
+  with the version they belong to, per
+  [`deciding-is-never-done`](../memory/deciding-is-never-done.md).
+  `socket-wrap` and `slit-reach` are the case for doubling the robot, made before it was doubled;
+  `hip-clearance` is the socket before draft9p1p4 settled `#wall` and `#collar`.
+- **The verdict as an exit code is still owed**, and it belongs to the next figure that describes
+  the design now rather than to these three. A decision record's verdict was true on its date and
+  is not a check.
 - `stickbot-for-bot-review` is identified, or the caption goes.

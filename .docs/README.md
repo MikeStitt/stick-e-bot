@@ -195,11 +195,14 @@ only inside feature dialogs. A's version is wrong.
   **Nothing it writes is adopted by being written**: the diff gets read hunk by hunk, keeping what
   is right and reverting what is not, and the report is what explains a hunk when the change alone
   does not.
-- **The explanatory sketches are not derived, and two of them argue for a decision rather than
-  describing the design.** `experiments/sketches/`'s three studies type their inputs where the
-  hinge review generates everything it shows. What to do about that, and the distinction between a
-  figure that must be regenerated and one that must not, is in
-  [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md).
+- **Every drawing generator is labeled `controlling`, `illustrative` or `superseded`**, in its own
+  opening, with the version or date it belongs to. `make_plans.py` controls; `make_brief_sheets.py`
+  and `hinge_spring.py` illustrate; the hinge review's three generators and the three studies under
+  `experiments/sketches/` are superseded, each frozen at its own snapshot. The rule is
+  [`../memory/deciding-is-never-done.md`](../memory/deciding-is-never-done.md) and the argument
+  behind it is [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md). What is still open
+  there: a verdict that fails a check rather than sitting in a heading, and identifying
+  `stickbot-for-bot-review`.
 - **The task numbers are closed at #217, and what each one meant is in
   [`tasks.md`](tasks.md).** They were coined in a Claude Code task store keyed by session id, which
   is not in git; the repository cites them 107 times across 42 files. New work carries a dotted
