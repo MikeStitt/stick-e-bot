@@ -94,7 +94,7 @@ Working Rule 6 applied to CAD: the simplest feature that produces the shape wins
 - Extrude, Revolve, Fillet, Shell, Mirror, and Pattern carry almost the whole model.
 - **Configurations, in-context design, and custom features are instructor-side.** If FeatureScript
   removes work for students, students _consume_ the custom feature; they do not write it. Authoring
-  FeatureScript is not a beginner exercise and does not belong in these eight hours.
+  FeatureScript is not a beginner exercise and does not belong in this course.
 
 ## Writing steps
 

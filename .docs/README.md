@@ -19,8 +19,8 @@ UI. It could, so it grew to cover the whole taught path.
 
 ## The one-paragraph summary
 
-We are building a four-session, eight-hour introduction to CAD in which students model a 150 mm
-articulated robot figure in Onshape. The design and what it covers of the official curriculum are in
+We are building an introduction to CAD in which students model a 150 mm articulated robot figure
+in Onshape. The design and what it covers of the official curriculum are in
 [`robot-build-plan.md`](robot-build-plan.md); Session 1 is written and has had two test runs. The
 reference model that exists today is the retired sponge, and it is **built from magic numbers with
 zero constraints**, which is the habit the course exists to prevent. See
@@ -46,10 +46,6 @@ invented limb briefs, and every numbers table carries a Source column. What the 
 before the next attempt is [`2026-08-12-launch-gate.md`](2026-08-12-launch-gate.md);
 [`experiments/run3-launch.md`](experiments/run3-launch.md) holds the old prompts and is stale
 against both.
-
-**The lesson does not fit the clock.** 82 minutes at agent pace, Part two 1.7× Part one, and
-agent pace is not student pace — the *Fits the clock* gate is unmet. The design itself is
-settled; see [`robot-build-plan.md`](robot-build-plan.md).
 
 State of play for the sponge: the student guide covers the whole taught path — four
 session pages, 38 documented
@@ -136,9 +132,6 @@ rubric. Worth carrying across specifically:
   that demonstration with no assessment framing around it.
 - **The ceiling items** — Equal instead of separate dimensions, deliberate over-constraint to find
   the redundant one, driving dimensions from a variable.
-- **Not the clock.** A's 90 minutes covers a layout sketch and one extruded block; B builds torso,
-  neck, head, eyes, mouth, chest panel and lettering. Those timings have to be measured against B,
-  and A's own "known gaps" admits they were estimates.
 
 **Construction geometry, which B assumes and never teaches.** A teaches it — `q` to toggle, `v`
 Vertical, `h` Horizontal. B uses none of them, but `index.rst:309` says *"this is the argument for

@@ -2,8 +2,8 @@
 name: lesson-design
 description:
   "How a session plan is written: checkpoints as visible results, vocabulary introduced before it
-  is used, the eight-hour clock, the floor and the ceiling, and the rubric. Read before writing
-  or revising a session plan, a rubric, or the course arc."
+  is used, the floor and the ceiling, and the rubric. Read before writing or revising a session
+  plan, a rubric, or the course arc."
 ---
 
 # Constitution — Lesson design part

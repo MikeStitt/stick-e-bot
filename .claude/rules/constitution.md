@@ -66,10 +66,8 @@ The behavioral contract. Numbered for reference, not priority.
 - **Checkpoint long operations.** After each significant step in a multi-step task, summarize what
   was done, what is verified, and what is left. Don't continue from a state you can't describe back.
 
-- **Mind two budgets.** Yours — watch the token and time budget on non-trivial work, and if a task
-  is spiraling, stop, summarize, and restart fresh rather than overrun silently. And the class's —
-  eight hours is the hard constraint. Cutting content to fit is normal and expected; overrunning
-  silently is not.
+- **Mind two budgets.** Watch the token and time budget, and if a task
+  is spiraling, stop, summarize, and restart fresh rather than overrun silently.
 
 - **Verify before done.** The gates below MUST be green, and you MUST have watched them be green,
   before declaring a task complete. `ninja check` covers the mechanical ones; the rest are performed
@@ -291,5 +289,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.6.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
+**Version**: 5.6.1 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-14 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

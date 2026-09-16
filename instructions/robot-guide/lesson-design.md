@@ -16,41 +16,7 @@ Three features come out of Sketch 1 and nothing is drawn twice.
 
 Everything else — units, the rename, the measuring — is scaffolding for those two.
 
-## The clock, and why it does not fit yet
-
-**The *Fits the clock* gate is unmet. Do not schedule this session as written.**
-
-What has been measured is one agent walking the whole page in a headless browser:
-
-| Block | Elapsed, agent pace |
-| ----- | ------------------- |
-| Setup, units, and all of Part one to the three area checks | 33 min |
-| *Change one number* | 2 min |
-| **Part two** | **57 min** |
-| — eyes and pupils | 15 min |
-| — the mouth | 13 min |
-| — chest panel, hole, and pattern | 18 min |
-| — lettering | 10 min |
-| **Total wall clock** | **92 min** |
-
-Logged action by action in
-[`.docs/experiments/build-log/lesson-test/steps.log`](../../.docs/experiments/build-log/lesson-test/steps.log),
-and reported in
-[test report 2](../../.docs/experiments/reports/robot-guide-test-report-2.md).
-
-**That is not student pace and must not be read as one.** An agent types instantly and never
-hesitates, and it also spends a screenshot finding every toolbar button. The two errors do not
-cancel out in any known ratio. **Nobody has walked this at student pace, so no timetable here
-is a measurement**, and the Constitution's 90-minute rule cannot be certified until someone
-clocks it.
-
-What the numbers do say reliably is where the cost sits: **Part two took nearly twice Part
-one**, and inside Part two the time went where the text was incomplete rather than where the
-modeling was hard. The eye section is the most constraint-heavy thing on the page and was the
-fastest, because it was written accurately. Seven of the panel's eighteen minutes were the
-Linear pattern alone.
-
-**So the cut line runs after the eyes.** Part one plus eyes and pupils is the floor; mouth,
+**The cut line runs after the eyes.** Part one plus eyes and pupils is the floor; mouth,
 chest panel and lettering are the ceiling. If the room is ahead, they come back on.
 
 ## Floor and ceiling

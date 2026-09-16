@@ -2,7 +2,7 @@
 
 ## What we're building
 
-A four-session, eight-hour introduction to CAD. Students model a 150 mm articulated robot figure
+An introduction to CAD. Students model a 150 mm articulated robot figure
 in Onshape, starting from never having opened a CAD tool. The figure is a vehicle: thirteen
 joints of two kinds, built from blocks, rods and pockets, which is to say it is sketch, extrude,
 revolve and fillet in roughly the order you'd want to learn them — and then assembly mates, which

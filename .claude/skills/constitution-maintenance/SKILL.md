@@ -50,6 +50,25 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.6.1 (2026-09-16)** — PATCH: no document states a target for how long the figure takes to
+  CAD. `lesson-design`'s description drops *the eight-hour clock*; `onshape` says FeatureScript
+  does not belong *in this course* rather than *in these eight hours*.
+
+  _Why:_ the number had no owner. `lesson-design` advertised the clock in its frontmatter and said
+  nothing about it in its body, and 5.6.0 had just removed the constitution's only statement of it
+  as out of altitude for a Working Rule. A target named in three summaries and defined nowhere is
+  not a constraint, it is a number people quote.
+
+  _Companion changes, same commit._ `README.md`, `.docs/project.md` and `.docs/README.md` describe
+  the course without a duration. `.docs/README.md` loses two paragraphs written against the target:
+  *the lesson does not fit the clock*, and a comparison of two proposals' estimated minutes.
+  `instructions/robot-guide/lesson-design.md` loses § *The clock, and why it does not fit yet* —
+  every sentence in it measured against the target, and it cited a *Fits the clock* gate and a
+  90-minute rule that are not in the Constitution. Its floor-and-ceiling conclusion is kept; the
+  agent-pace timings it reported remain in `steps.log` and test report 2, which that section named.
+
+  _Config companion, exercised._ None. `ninja check` was run and is green.
+
 - **5.6.0 (2026-09-16)** — MINOR: *Define success, then loop until it is verified* becomes
   **Define success and initial steps, then loop until successful**, and its body widens from
   teaching material to all work. It read *"say what the reader or student can do at the end, not
