@@ -61,6 +61,13 @@ Wrap Markdown prose at 100 columns. Tables, fenced code, and a line holding one 
 token — a URL or an API path — are exempt, because breaking those changes what they say.
 `ninja check` enforces it.
 
+## Voice for student-facing text
+
+Playful, never judging, never talking down. A number belongs to the thing it measures — *the torso
+is 96 mm* — never to a person: not "your torso", not "my torso". The Rules above set the register
+for the contract and for working notes; a student page is read by someone learning, and the two are
+not the same voice.
+
 ## Reading level for student-facing text
 
 Student-facing text MUST be written at grade level 8 or below.

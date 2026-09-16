@@ -50,6 +50,28 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **5.7.0 (2026-09-16)** — MINOR:
+  [`../../rules/parts/prose-style.md`](../../rules/parts/prose-style.md) gains § *Voice for
+  student-facing text*. Playful, never judging, never talking down; a number
+  belongs to the thing it measures and never to a person.
+
+  _Why:_ the rule existed in one place, a bullet in `.docs/README.md` that also named
+  `spongebob-guide/content.py` as the authority on it. Clearing that retired pipeline out took the
+  bullet with it, and a grep of `.claude/rules/` and `.claude/skills/` for *playful, talking down,
+  judging, tone, voice, light-hearted* returned nothing — so the rule had never been in the
+  contract at all, and deleting the bullet left it stated nowhere that binds. Two memories touch
+  it and neither carries it: `write-for-students-who-will-succeed` has *light-hearted* only in its
+  description, and `plain-words-for-middle-schoolers` says *"this is not the same as talking down
+  to them"* as an aside qualifying a different rule. A memory is a finding, not an obligation.
+
+  It sits beside § *Reading level for student-facing text* because that section already carves
+  student text out of the contract's own register, which is what this rule needs to say next.
+
+  The second-person half generalized on the way in: the original read *"numbers belong to this
+  SpongeBob, never mine or yours"*, which is a rule about framing rather than about the model.
+
+  _Config companion, exercised._ None; no check reads tone. `ninja check` was run and is green.
+
 - **5.6.1 (2026-09-16)** — PATCH: no document states a target for how long the figure takes to
   CAD. `lesson-design`'s description drops *the eight-hour clock*; `onshape` says FeatureScript
   does not belong *in this course* rather than *in these eight hours*.
