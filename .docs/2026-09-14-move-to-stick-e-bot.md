@@ -82,7 +82,7 @@ registers, logs and `reference/*.json`; and from `instructions/stickbot-draft9p4
 files and the 22 toolbar close-ups.
 
 **Does not carry:** 12,977 PNGs; the eight superseded guide drafts entire; the built HTML;
-`.docs/experiments/spongebob-guide/`, which the Constitution already calls retired;
+a retired experiment's guide directory, which the Constitution already calls retired;
 `old-constitution.md`, whose diff has been taken.
 
 **Resolved on 2026-09-14.** `draft-prose-style.md` and `pre-plan.md` were deleted, along with the

@@ -38,7 +38,7 @@ A model encodes *why* geometry sits where it does, not merely where it sits. Con
 
 ## What the current reference model does instead
 
-All ten sketches in `SpongeBob (taught path)` were emitted with `constraints: []` and every
+All ten sketches in the first taught-path model were emitted with `constraints: []` and every
 coordinate as an absolute literal in world space.
 
 - The eye circles are not symmetric about anything. They are two independent circles that happen

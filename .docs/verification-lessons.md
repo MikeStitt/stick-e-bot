@@ -37,8 +37,8 @@ The renders were not lying. Nobody was reading them adversarially.
 - **Confirm geometry independently of status codes.** Bounding boxes are cheap and decisive: the
   body spanning `z = 1 → 13` proves legs exist; `x = ±9.3` proves both hands exist. A status code
   says a feature regenerated; a bounding box says the shape is right.
-- **Look at the render with a specific question.** Not "does this look like SpongeBob" but "count
-  the hands; trace the legs from body to shoe". Open-ended looking confirms what you expect.
+- **Look at the render with a specific question.** Not "does this look right" but "count the
+  hands; trace the legs from body to shoe". Open-ended looking confirms what you expect.
 
 ## What status codes do not tell you
 

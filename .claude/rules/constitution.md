@@ -137,7 +137,7 @@ updated when a file moves.
 
 **Two archives, and the older one is a different repository.** `sponge` holds everything this one
 left behind on 2026-09-14: 12,977 frames, six superseded guide drafts, its own git history, and
-`session-1-layout-and-torso/` and `spongebob-guide/`, which were already retired. A record here
+and two experiments that were already retired. A record here
 that names a file this repository does not have is pointing into `sponge`, and that is where to go
 looking.
 

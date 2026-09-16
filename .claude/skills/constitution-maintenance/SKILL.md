@@ -56,7 +56,7 @@ checklist for any change to `constitution.md` or a part.
   belongs to the thing it measures and never to a person.
 
   _Why:_ the rule existed in one place, a bullet in `.docs/README.md` that also named
-  `spongebob-guide/content.py` as the authority on it. Clearing that retired pipeline out took the
+  a retired pipeline's `content.py` as the authority on it. Clearing that pipeline out took the
   bullet with it, and a grep of `.claude/rules/` and `.claude/skills/` for *playful, talking down,
   judging, tone, voice, light-hearted* returned nothing — so the rule had never been in the
   contract at all, and deleting the bullet left it stated nowhere that binds. Two memories touch
@@ -68,7 +68,7 @@ checklist for any change to `constitution.md` or a part.
   student text out of the contract's own register, which is what this rule needs to say next.
 
   The second-person half generalized on the way in: the original read *"numbers belong to this
-  SpongeBob, never mine or yours"*, which is a rule about framing rather than about the model.
+  this model, never mine or yours"*, which is a rule about framing rather than about the model.
 
   _Config companion, exercised._ None; no check reads tone. `ninja check` was run and is green.
 
@@ -228,7 +228,7 @@ checklist for any change to `constitution.md` or a part.
   No rule is removed or redefined, which is why this is a MINOR.
 
   _Companion changes, same commit._ `README.md` describes the new layout. `check_spelling.py` and
-  `check_wrap.py` drop the exclusions for `spongebob-guide/` and `old-constitution.md`, neither of
+  `check_wrap.py` drop the exclusions for a retired experiment and `old-constitution.md`, neither of
   which exists here. `.docs/reviews/hinge/make_figures.py` no longer hardcodes a dead session
   scratchpad; it reads `HINGE_FRAMES`. Eleven links broken by the carry were repointed or, where
   repointing would have changed what a sentence claims, turned into named references to the
@@ -401,7 +401,7 @@ checklist for any change to `constitution.md` or a part.
   `tools/check_*.py` already skips. The rules renumbered 1–15; two rules had
   both been numbered 7.
 
-- **3.0.0 (2026-08-12)** — MAJOR: the course subject changed from SpongeBob to a
+- **3.0.0 (2026-08-12)** — MAJOR: the course subject changed to a
   150 mm articulated robot figure, and the **character and artwork** principle
   was **removed** rather than reworded. A principle removal is a major bump.
   _Why:_ that principle existed to keep a rights holder's character inside the

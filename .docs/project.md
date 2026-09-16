@@ -11,27 +11,6 @@ registry of reference documents. The models live in Onshape.
 
 Owned by Mike Stitt (not the Spires Robotics team space).
 
-**`CAD Class — SpongeBob reference`** — the retired sponge model. The pipeline that generated
-it stayed in the `sponge` archive, so nothing here rebuilds it.
-
-| Thing        | ID                         |
-| ------------ | -------------------------- |
-| Document     | `50ac6c40b6437e06a2d0a515` |
-| Workspace    | `78d3b986d158fc34e0937e8b` |
-| Part Studio  | `8802a808a7dd9b07da9ad6dc` |
-
-Three older documents are debris from earlier work and can be deleted once nothing points at them:
-
-| Document                        | ID                         | Why it exists |
-| ------------------------------- | -------------------------- | ------------- |
-| `SpongeBox - Blocky SpongeBob`   | `c18297d7aedf651093678b34` | First taught-path model, plus a FeatureScript version built as a capability probe |
-| `CAD Class — Extrude 1 capture` | `2d671812bce4f3be440184d1` | The single-step experiment |
-| `CAD Class — scratch`           | `ffc2e89592db8d63cb0eda42` | Where the sketch-constraint encoding was worked out |
-
-The FeatureScript version in the first of those does **not** satisfy the Constitution's "built the
-taught way" requirement — a student who opens that tab sees one opaque feature instead of 22. It was
-never meant for the classroom.
-
 ## Status
 
 Done and verified:

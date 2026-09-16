@@ -1041,11 +1041,5 @@ Adding the antenna alone would take it to **18/20, 19/22, 16/19 and 13 of 14 con
   nozzle lays that down, and what it leaves when it does not, is what the printed part is being
   asked.
 
-## How this compares with the sponge
-
-The SpongeBob model is a single solid with no moving parts, so the entire Assemblies course — a
-third of this material — has nothing to attach to, and it has no constraints at all. The robot
-inverts both: constraints are the first lesson and the last diagnosis, and thirteen joints give most
-of the mate catalog a natural home. See
-[`modeling-practice`](../.claude/skills/modeling-practice/SKILL.md) for the standard both are
-measured against.
+See [`modeling-practice`](../.claude/skills/modeling-practice/SKILL.md) for the standard the
+reference model is measured against.

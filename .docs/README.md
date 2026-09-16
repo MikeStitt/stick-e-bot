@@ -267,7 +267,7 @@ only inside feature dialogs. A's version is wrong.
     runner that waits, for a limit whose answer is a different route.
   - **08-10, `08a50d2`, the same runner.** Polled every 300 s and gave up after six hours, on the
     theory that the polling itself was holding the block open. Six hours does not outlast
-    eighteen. Retired with the sponge guide on 08-12.
+    eighteen. Retired on 08-12 with the pipeline that used it.
   - **08-13, `60377ea`, `design-into-cad.md`.** Right, and complete: a daily quota, `retry-after`
     in the tens of thousands of seconds, counting down with the clock, one endpoint throttled
     while the rest answer, so move to the GUI. Prose only. It landed in `.docs/experiments/`,
