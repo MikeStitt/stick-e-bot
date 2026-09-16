@@ -57,9 +57,18 @@ document it illustrates. It cannot go stale, because going stale is a build fail
 never be regenerated. It should carry its date and the sizing it shows, and be left alone — which
 is what `experiments/` is for.
 
-All three studies currently caption themselves *as built in `stickbot-for-bot-review`*, a document
-that appears in no run record, and mix sizings. That is the symptom of never having drawn this
-line.
+Two of the studies caption a sizing *as built in `stickbot-for-bot-review`*, and this file used to
+say that document appears in no run record. It does.
+[`2026-08-20-stickbot-audit.md`](2026-08-20-stickbot-audit.md) audits it by id,
+`did=111f975041ddb104a6028d45` and `wid=38e73619152eec8be2c51f8b`, at version **V1**; draft9p0's
+plan lists it read-only with what to take from it and what to ignore; and a REST read on 2026-09-16
+returned it by name with versions Start, V1 and V2. It is a second attempt at the whole robot,
+built to the same specification with a different modeling practice: a joint's future mate point
+goes at the origin and the part grows outward from it.
+
+What the caption calls that sizing is *Current CAD*, and it has not been current since the robot
+was doubled. Inside a `superseded` file that is not a defect — a decision record says what was
+thought on a date, and the label at the top of the file now says which date. Left alone.
 
 ## What `make_plans` should and should not own
 
@@ -89,4 +98,6 @@ now, for three studies, is cheaper than doing it later for a syllabus.
 - **The verdict as an exit code is still owed**, and it belongs to the next figure that describes
   the design now rather than to these three. A decision record's verdict was true on its date and
   is not a check.
-- `stickbot-for-bot-review` is identified, or the caption goes.
+- **Done 2026-09-16.** `stickbot-for-bot-review` was already identified, by id and version, in the
+  audit and in draft9p0's plan; this file was wrong to say otherwise, and the sketches' *Current
+  CAD* caption stands as the record it is.

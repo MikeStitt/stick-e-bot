@@ -201,8 +201,7 @@ only inside feature dialogs. A's version is wrong.
   `experiments/sketches/` are superseded, each frozen at its own snapshot. The rule is
   [`../memory/deciding-is-never-done.md`](../memory/deciding-is-never-done.md) and the argument
   behind it is [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md). What is still open
-  there: a verdict that fails a check rather than sitting in a heading, and identifying
-  `stickbot-for-bot-review`.
+  there: a verdict that fails a check rather than sitting in a heading.
 - **The task numbers are closed at #217, and what each one meant is in
   [`tasks.md`](tasks.md).** They were coined in a Claude Code task store keyed by session id, which
   is not in git; the repository cites them 107 times across 42 files. New work carries a dotted
