@@ -84,6 +84,39 @@ evidence of *why*. Each of the three above was one API call away from being answ
 guessed. Screenshots earn their place as the thing that notices; measurements stay the thing that
 concludes.
 
+## One read is not a measurement
+
+**Read a tab twice and require the two to agree before you conclude anything from one of them.**
+
+On 2026-09-18 a survey read 59 Part Studios through `bodydetails` in one pass. Two of them came
+back short: `stickbot-draft9p1p6`'s `hinge` at 258 faces on one body against the 510 on two its
+named version holds, and its `u limb` at 24 faces against 270. `diff_shape.py` against the version
+made it look conclusive — 252 and 249 faces with no counterpart, and not one of them a face that
+had moved. The survey wrote it up as the workspace having lost the fork, filed a task to restore
+it, and put it in two committed documents and a run plan.
+
+Re-read a few hours later, both tabs give exactly what the version gives. Every one of the 46 hinge
+features reports OK, in the workspace and in the version alike, and the rollback bar is at the
+bottom of both. Nothing was ever wrong with the document. Re-reading all 59 tabs put the error at
+those two and no others.
+
+**The cause is not established, and the guess that was reached for first was wrong.** A rollback
+bar was the obvious explanation and the feature list refuted it. What fits the evidence is that
+draft9p1p6 was the only document modified the day before and its two heaviest tabs are the two that
+read short, which would follow if a regeneration had not finished when the read arrived. That was
+not proved: the experiment written to show it picked a tab already read in the same session, so it
+was never cold, and it demonstrated nothing.
+
+**What to do instead of finding the cause.** The guard is cheap and does not depend on knowing why.
+[`read_shape.py`](../src/stickbot/read_shape.py) opens the document and waits before it calls
+`bodydetails`; a batch script that skips that step to go faster is trading the thing that makes the
+read trustworthy for the thing that makes it quick. Read twice, compare, and only then conclude.
+
+This is the same failure as the three above with the terms exchanged. There a picture was surprising
+and the explanation was invented; here a measurement was surprising and the explanation was
+invented. A surprising reading is evidence that something is worth investigating, never evidence of
+what.
+
 ## Bearing on the course
 
 Two of these are student-facing and belong in the step files:

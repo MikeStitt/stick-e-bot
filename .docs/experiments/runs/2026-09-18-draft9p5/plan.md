@@ -92,10 +92,11 @@ rod reproduces volume the derived blade's arm already occupies, with `u limb` ne
 
 ### Two documents come with a warning
 
-- **`stickbot-draft9p1p6`'s workspace is damaged.** It has lost the `fork` part from `hinge` and
-  everything past the socket in `u limb`: `diff_shape.py` against `F done - Phase F proved` finds
-  252 hinge faces and 249 upper-limb faces in the version and absent from the workspace, none of
-  them a face that moved. Read the version. Task #219.
+- **`stickbot-draft9p1p6` is sound, and the survey said otherwise for a few hours.** Its `hinge`
+  and `u limb` first read at 258 and 24 faces against the version's 510 and 270, and the survey
+  concluded the workspace had lost the fork. Re-read the same day, both match the version exactly,
+  every feature reports OK, and the rollback bar is at the bottom in both. Read a tab twice and
+  require the two to agree before drawing anything from one of them.
 - **`stickbot-draft9p4-check` holds work draft9p4's plan did not put there.** Its logs say
   tutorials 4, 5, 6, 8 and 9 were *built* in it, where the plan reserves it for `audit.page`. The
   consequence for draft9p4 is task #221; the consequence here is that the check document is a real

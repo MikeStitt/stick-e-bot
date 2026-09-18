@@ -121,11 +121,10 @@ the tab lives now, and it can move.
 | hinge, u limb, l limb | `stickbot-draft9p1p6` `500752af84dc92deea53f9e4` | `f30bf96cfeece59f61e0e7b2` | `F done - Phase F proved` `80c22eb7b8b0342ac03f8a6d` | `hinge` `62fca6aa5a67b51adcb2318c`, `u limb` `f3f8362fd5e9f31ee2fa5eb2`, `l limb` `261b7ee66567bab16d145c83` |
 | gripper | `stickbot-draft9p1p1` `4b2e0d48efd37d3327a90afb` | `a1af16872d25103815f1c32a` | `Recovery point` `0f4e9b6b36b5c1a6f45197e1` | `gripper` `32166c7b3d22572c0e7dd0c3` |
 
-**draft9p1p6's workspace no longer holds what its version holds.** Read at the workspace on
-2026-09-18, the `hinge` tab is missing the `fork` part and `u limb` is missing everything past its
-socket: 252 of the version's hinge faces and 249 of its upper-limb faces have no counterpart
-there. The version is intact. Re-capture the hinge and the two limbs from the version, not the
-workspace.
+**Every frame is taken at a version rather than at a workspace.** A version is what the register
+proved and it cannot move; a workspace can, and a read of one can also be caught mid-regeneration.
+Both happened during this survey: draft9p1p6's `hinge` and `u limb` first read short and re-read
+correct a few hours later. Take a frame again from the version named in the table.
 
 **The gripper's frames are the nearest CAD, not an agreeing one.** Its socket collar is Ø18,
 which is the wall `make_plans.py` carried before `COLLAR_WALL` became `TORSO_H * 3 / 160`. No
