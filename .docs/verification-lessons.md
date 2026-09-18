@@ -84,38 +84,43 @@ evidence of *why*. Each of the three above was one API call away from being answ
 guessed. Screenshots earn their place as the thing that notices; measurements stay the thing that
 concludes.
 
-## One read is not a measurement
+## A short read is a rollback bar until `rollbackIndex` says otherwise
 
-**Read a tab twice and require the two to agree before you conclude anything from one of them.**
+**Read `rollbackIndex` out of the `/features` response before you conclude anything from geometry
+that came back smaller than you expected.** It rides in that response beside the features, and a
+bar parked partway down a tree is indistinguishable from missing work in any read of the shape.
 
-On 2026-09-18 a survey read 59 Part Studios through `bodydetails` in one pass. Two of them came
-back short: `stickbot-draft9p1p6`'s `hinge` at 258 faces on one body against the 510 on two its
-named version holds, and its `u limb` at 24 faces against 270. `diff_shape.py` against the version
-made it look conclusive — 252 and 249 faces with no counterpart, and not one of them a face that
-had moved. The survey wrote it up as the workspace having lost the fork, filed a task to restore
-it, and put it in two committed documents and a run plan.
+On 2026-09-18 a survey read 59 Part Studios through `bodydetails`. Two came back short:
+`stickbot-draft9p1p6`'s `hinge` at 258 faces on one body against the 510 on two its named version
+holds, and its `u limb` at 24 faces against 270. `diff_shape.py` against the version made it look
+conclusive — 252 and 249 faces with no counterpart, not one of them a face that had moved. It went
+into two committed documents, a run plan and a task to restore the document.
 
-Re-read a few hours later, both tabs give exactly what the version gives. Every one of the 46 hinge
-features reports OK, in the workspace and in the version alike, and the rollback bar is at the
-bottom of both. Nothing was ever wrong with the document. Re-reading all 59 tabs put the error at
-those two and no others.
+**The document was fine. A rollback bar sat at feature 31 of the hinge.** The blade is features 18
+to 30, ending at `relief slit`; the fork begins at 31 with `fork outline`. A bar there leaves the
+blade whole and no fork at all, and the blade is exactly 258 faces. No second bar was needed to
+reach the upper limb: `u limb`'s feature 4 is `importDerived — add fork`, so with no fork to derive
+it came back as socket and rod, 24 faces. `l limb` derives the blade instead, which sits before the
+bar, so it read correctly. One bar accounted for both short tabs, for the third being untouched,
+and for 2 of 59 rather than some of 59.
 
-**The cause is not established, and the guess that was reached for first was wrong.** A rollback
-bar was the obvious explanation and the feature list refuted it. What fits the evidence is that
-draft9p1p6 was the only document modified the day before and its two heaviest tabs are the two that
-read short, which would follow if a regeneration had not finished when the read arrived. That was
-not proved: the experiment written to show it picked a tab already read in the same session, so it
-was never cold, and it demonstrated nothing.
+**`rollbackIndex` is document state, not a view setting.** It is serialized in the workspace's
+feature list, which is why a server route resolved geometry against it and why a second browser
+signed in to the same account saw the same thing. A published version carries its own, which is
+part of why a version is the safer thing to read.
 
-**What to do instead of finding the cause.** The guard is cheap and does not depend on knowing why.
-[`read_shape.py`](../src/stickbot/read_shape.py) opens the document and waits before it calls
-`bodydetails`; a batch script that skips that step to go faster is trading the thing that makes the
-read trustworthy for the thing that makes it quick. Read twice, compare, and only then conclude.
+### The reasoning failure was worse than the reading failure
 
-This is the same failure as the three above with the terms exchanged. There a picture was surprising
-and the explanation was invented; here a measurement was surprising and the explanation was
-invented. A surprising reading is evidence that something is worth investigating, never evidence of
-what.
+A rollback bar was reached for as the explanation and then dismissed, on a reading of
+`rollbackIndex` taken **after** the bar had already been cleared. A post-fix observation was used
+as evidence about the pre-fix state, which is not weak evidence — it is no evidence. The first
+write-up of this lesson then said the cause was unproven and that the feature list had refuted a
+rollback, and both of those were wrong for the same reason.
+
+**Reading twice would not have caught any of it.** The document really was in that state and both
+reads would have agreed. Two identical readings feel like confirmation and are not; they only rule
+out a transient. What separates *the work is missing* from *the work is parked* is one field that
+was already in the response.
 
 ## Bearing on the course
 

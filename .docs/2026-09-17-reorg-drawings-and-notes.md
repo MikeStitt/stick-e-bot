@@ -310,11 +310,11 @@ Every number below is `make_plans.py`'s, and the read agreed with it to the four
   of the upper limb. Re-read later the same day, both tabs give exactly what the version gives,
   and all 46 hinge features report OK with the rollback bar at the bottom in both. Nothing is
   wrong with that document. Re-reading all 59 tabs put the error at those two and no others.
-  **The likely cause is unproven.** draft9p1p6 was the one document modified the day before, and
-  its two heaviest tabs are the two that read short, which fits a regeneration that had not
-  finished when the read arrived — but an experiment meant to show that picked a tab already read
-  in the same session and proved nothing.
-  [`verification-lessons.md`](verification-lessons.md) carries what to do about it.
+  **The cause was a rollback bar at feature 31 of the hinge**, which is `fork outline`, the first
+  feature of the fork. It left the blade whole and reached `u limb` through its `add fork`
+  derive, which is why those two tabs and no others. Mike saw it and cleared it.
+  [`verification-lessons.md`](verification-lessons.md) § *A short read is a rollback bar* carries
+  what to check, and why reading twice would not have caught it.
 - **The foot's tread grooves are closed voids inside the sole.** The sole renders smooth from
   below, and the section on the Right plane shows eight rectangular cavities buried in the foot
   with material under every one of them. Task #215 already said the groove cuts the wrong way;
