@@ -93,8 +93,21 @@ in the check document that is not in draft9p1p6; it is a subset built to newer r
 | `from` | nothing. Every feature is added to an empty document |
 | `builds` | `robot sizes`, `ball and socket`, `hinge`, `body`, `head`, `foot`, `u limb`, `l limb`, `gripper`, and the `stickbot` assembly |
 | `by` | REST, for every feature |
-| `gates` | *Names are real*, *Model inspected*, *Recovery point*, *Prose style*, *Spelling* — proposed, not agreed |
-| `not claimed` | *Steps reproduce*, *Floor & ceiling*, *Links resolve*, *Reading level*. This draft writes no student-facing text |
+| `gates` | *Model inspected* and *Recovery point* — proposed, not agreed |
+| `not claimed` | *Steps reproduce*, *Names are real*, *Links resolve*, *Floor & ceiling*, *Reading level* |
+
+**Two gates, and the two are the whole of what a CAD build can close.** *Model inspected* is
+Ring 2 and *Recovery point* is the named version at the end of each tab. The other five ask for
+something this draft does not produce: *Steps reproduce* and *Reading level* need written steps,
+*Links resolve* needs a link, *Floor & ceiling* needs a session, and *Names are real* checks that a
+tool, menu or field name matches Onshape's UI verbatim, where a REST build opens no menu and fills
+no field. The API rejects a wrong `featureType` outright, which is a stricter check than a gate and
+arrives sooner.
+
+**Prose style and Spelling are not on either list.** They are not run-scoped: prose style binds
+every word committed to this repository, and `ninja check` runs over the whole tree on every
+commit. This draft's `register.md` is held to both, the same as everything else. Claiming them here
+would imply they are optional elsewhere.
 
 **`from` is deliberately empty.** Every draft since draft9p1 branched the one before it and
 inherited its tree along with its shape. That is how thirteen typed variable titles survived four
