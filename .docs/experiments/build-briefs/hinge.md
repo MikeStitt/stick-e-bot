@@ -60,7 +60,7 @@ named parts of them, not parts of their own.
 
 | Drawing | What it settles |
 | ------- | --------------- |
-| the hinge detail on [`plan-parts.svg`](../../../instructions/robot-guide/source/images/plan-parts.svg) | the section along the limb, and one fork prong's face square on with both rings on it |
+| the hinge detail on [`images/plan-parts.svg`](images/plan-parts.svg) | the section along the limb, and one fork prong's face square on with both rings on it |
 | [`images/brief-roots.svg`](images/brief-roots.svg) | where each limb's rod stops, which is the thing earlier builds got wrong |
 | [`images/brief-fork.svg`](images/brief-fork.svg) | why the fork is drawn as full slices of the limb and not as a rectangle |
 | [`images/brief-detent.svg`](images/brief-detent.svg) | the wedge ring and one wedge square on, to scale |

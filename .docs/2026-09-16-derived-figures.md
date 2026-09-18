@@ -27,6 +27,12 @@ changed. The student plan sheets were current too: regenerating them changed not
 sheets only changed when somebody remembered — and between draft9p1p5 and draft9p1p6 nobody did.
 The target exists now, as `ninja brief-sheets`.
 
+**Both generators write to the same place as of 2026-09-18**, which is
+`.docs/experiments/build-briefs/images/`. `make_plans` wrote into the guide's own image folder
+until then, which tied the design source to whichever guide was current when the path was typed —
+and `robot-guide` teaches a 150 mm robot where `HEIGHT` is 318 mm. A guide holds a copy, taken
+deliberately, and `robot-guide`'s two are that copy.
+
 **Why nobody caught it: no brief points at either one.** `brief-socket.svg` is referenced twice by
 `ball-and-socket.md` and was kept current; `brief-roots.svg` is referenced by `hinge.md` and is new.
 `brief-fork.svg` and `brief-detent.svg` are referenced by no live brief at all, and `hinge.md`

@@ -51,6 +51,12 @@ The plan
 Two sheets, and both are **drawings, not CAD sketches** — nothing in Onshape is made from
 them. They exist so you know where you are going before you start clicking.
 
+.. The two images below are copies. ``src/stickbot/make_plans.py`` generates the sheets into
+   ``.docs/experiments/build-briefs/images/``, and ``ninja plan`` regenerates them there. A
+   guide takes a copy when it wants one; nothing copies them here automatically, so they go
+   stale unless somebody re-copies them. These are the 150 mm robot and the design is now
+   318 mm, which is what that costs.
+
 .. figure:: images/plan-assembly.png
    :alt: Front and side views of the assembled robot, named, with the key dimensions
    :width: 1130px

@@ -22,9 +22,11 @@ import sys
 
 from stickbot import hinge_spring, repo_root
 
-# The plan drawings belong beside the guide that shows them, so this is a path
-# into the working tree rather than into the package.
-IMAGES = repo_root() / "instructions" / "robot-guide" / "source" / "images"
+# The sheets land with the other generated drawings, not inside a guide. A generator that
+# writes into instructions/ ties the design source to whichever guide happened to be current
+# when the path was typed: this one wrote into robot-guide, which teaches a 150 mm robot
+# where HEIGHT is now 318 mm. A guide takes a copy when it wants one, deliberately.
+IMAGES = repo_root() / ".docs" / "experiments" / "build-briefs" / "images"
 
 # ---------------------------------------------------------------- the numbers
 
