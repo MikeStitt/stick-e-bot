@@ -87,67 +87,30 @@ concludes.
 ## A short read is a rollback bar until `rollbackIndex` says otherwise
 
 **Read `rollbackIndex` out of the `/features` response before you conclude anything from geometry
-that came back smaller than you expected.** It rides in that response beside the features, and a
-bar parked partway down a tree is indistinguishable from missing work in any read of the shape.
+that came back smaller than you expected.** A bar parked partway down a tree is indistinguishable
+from missing work in any read of the shape.
 
-On 2026-09-18 a survey read 59 Part Studios through `bodydetails`. Two came back short:
-`stickbot-draft9p1p6`'s `hinge` at 258 faces on one body against the 510 on two its named version
-holds, and its `u limb` at 24 faces against 270. `diff_shape.py` against the version made it look
-conclusive — 252 and 249 faces with no counterpart, not one of them a face that had moved. It went
-into two committed documents, a run plan and a task to restore the document.
+On 2026-09-18 two of 59 tabs read short: `stickbot-draft9p1p6`'s `hinge` at 258 faces against 510,
+and its `u limb` at 24 against 270. A rollback bar sat at feature 31 of the hinge, which is
+`fork outline`; the blade ends at 30. `u limb`'s feature 4 is `importDerived — add fork`, so it
+came back as socket and rod. `l limb` derives the blade and read correctly.
 
-**The document was fine. A rollback bar sat at feature 31 of the hinge.** The blade is features 18
-to 30, ending at `relief slit`; the fork begins at 31 with `fork outline`. A bar there leaves the
-blade whole and no fork at all, and the blade is exactly 258 faces. No second bar was needed to
-reach the upper limb: `u limb`'s feature 4 is `importDerived — add fork`, so with no fork to derive
-it came back as socket and rod, 24 faces. `l limb` derives the blade instead, which sits before the
-bar, so it read correctly. One bar accounted for both short tabs, for the third being untouched,
-and for 2 of 59 rather than some of 59.
+`rollbackIndex` is serialized in the workspace's feature list, so a server route resolves geometry
+against it and a second browser sees it too. A published version carries its own.
 
-**`rollbackIndex` is document state, not a view setting.** It is serialized in the workspace's
-feature list, which is why a server route resolved geometry against it and why a second browser
-signed in to the same account saw the same thing. A published version carries its own, which is
-part of why a version is the safer thing to read.
-
-### The reasoning failure was worse than the reading failure
-
-A rollback bar was reached for as the explanation and then dismissed, on a reading of
-`rollbackIndex` taken **after** the bar had already been cleared. A post-fix observation was used
-as evidence about the pre-fix state, which is not weak evidence — it is no evidence. The first
-write-up of this lesson then said the cause was unproven and that the feature list had refuted a
-rollback, and both of those were wrong for the same reason.
-
-**Reading twice would not have caught any of it.** The document really was in that state and both
-reads would have agreed. Two identical readings feel like confirmation and are not; they only rule
-out a transient. What separates *the work is missing* from *the work is parked* is one field that
-was already in the response.
+**Reading twice would not have caught it**, because the document really was in that state.
 
 ## A GUI frame carries whatever the session was showing
 
-**Deselect by clicking a point you have checked is empty, park the cursor outside the canvas,
-and count the selected pixels before you keep the frame.**
+**Deselect by clicking a point you have checked is empty, park the cursor outside the canvas, and
+count the selected pixels before you keep the frame.** `onshape_screen.selected` counts them.
 
-The survey's seven section frames are browser screenshots, and three came back with the session
-showing through. `cad-gripper-section.png` had a selected edge drawn orange down the middle of the
-part. `cad-l-limb-section.png` had a whole face outlined orange. `cad-body-section.png` had a mate
-connector lit with its manipulator and a name tooltip floating over the shoulder.
+`onshape_gui.clear` clicks `EMPTY = (300, 900)`, which is on the model for a part that fills the
+canvas, so the click selects rather than clears. Three of the survey's seven section frames came
+back with a face selected or a mate connector lit with its tooltip.
 
-**The cause is a fixed deselect point.** `onshape_gui.clear` clicks `EMPTY = (300, 900)` to drop
-the selection, and on a part that fills the canvas that point is on the model, so the click selects
-rather than clears. The capture script compounded it by leaving the cursor at (900, 520), which is
-over the geometry, so the part under it stayed hovered and its tooltip stayed up.
-
-**`shadedviews` cannot do this.** It renders server-side with no session, which is why the
-seventeen `cad-*` frames that are not sections came back clean. The rule follows the route: a
-server render needs no hygiene, a browser screenshot needs all of it.
-
-**`onshape_screen.selected` counts the orange.** It is one call, it runs on the frame you are about
-to keep, and it turns "looks clean" into a number. Clicking an empty point and parking the cursor
-at (20, 20) took the gripper's count from lit to zero.
-
-**None of this was caught by looking at the survey's output**, because eight of the twenty-four
-frames were placed into the briefs without being looked at at all. A frame nobody opens is worth
-what a figure nobody reads is worth.
+**`shadedviews` renders server-side with no session**, so the rule applies to browser screenshots
+and not to it.
 
 ## Bearing on the course
 

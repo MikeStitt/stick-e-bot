@@ -33,9 +33,8 @@ its own reasons.
 | [`images/cad-gripper-front.png`](images/cad-gripper-front.png) | square on |
 | [`images/cad-gripper-section.png`](images/cad-gripper-section.png) | cut on the Front plane, through the socket cavity and the clip |
 
-**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
-`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
-what is wrong with the part it shows.
+**The reference CAD, not the specification.** [`README.md`](README.md) § *Where the `cad-*.png`
+frames came from* names the document, workspace and version each was taken at.
 
 ## The idea being tested
 
@@ -210,15 +209,10 @@ part that has no slits; see [`foot.md`](foot.md).
 
 ## Recommended steps
 
-**This is the feature order to build, and the name each feature carries.** It is the order a
-proven model was built in, with the renames that have been settled since applied. Variables are
-not in the table: each one is added immediately above the first feature that reads it, which is
-what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
-works out by walking the expressions. Do not open a tab with a block of numbers.
-
-The verification after each feature and after the tab is one loop for every part, and it lives in
-[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
-loop*. It is not repeated here.
+**The feature order to build, and the name each feature carries.** Variables are not in the
+table: each is added immediately above the first feature that reads it, which
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A* works
+out. The verification is in that plan's § *The verification loop*.
 
 | Step | Feature | Name |
 | ---: | ------- | ---- |

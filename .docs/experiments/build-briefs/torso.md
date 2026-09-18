@@ -26,9 +26,8 @@ teach.
 | [`images/cad-body-front.png`](images/cad-body-front.png) | square on, so the shoulder and hip stations line up |
 | [`images/cad-body-section.png`](images/cad-body-section.png) | cut on the Front plane, through the neck and hip studs |
 
-**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
-`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
-what is wrong with the part it shows.
+**The reference CAD, not the specification.** [`README.md`](README.md) § *Where the `cad-*.png`
+frames came from* names the document, workspace and version each was taken at.
 
 ## The idea being tested
 
@@ -226,15 +225,10 @@ does rather than at a number anyone chose. What is still open:
 
 ## Recommended steps
 
-**This is the feature order to build, and the name each feature carries.** It is the order a
-proven model was built in, with the renames that have been settled since applied. Variables are
-not in the table: each one is added immediately above the first feature that reads it, which is
-what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
-works out by walking the expressions. Do not open a tab with a block of numbers.
-
-The verification after each feature and after the tab is one loop for every part, and it lives in
-[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
-loop*. It is not repeated here.
+**The feature order to build, and the name each feature carries.** Variables are not in the
+table: each is added immediately above the first feature that reads it, which
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A* works
+out. The verification is in that plan's § *The verification loop*.
 
 | Step | Feature | Name |
 | ---: | ------- | ---- |
@@ -264,7 +258,6 @@ loop*. It is not repeated here.
 | 24 | `mateConnector` | `left hip` |
 | 25 | `mateConnector` | `right hip` |
 
-**Eight of these features are connectors, and every one of them is renamed.** The record this
-table comes from names them `neck connector`, `left shoulder connector`, `r shoulder connector`,
-`l hip connector`, `r hip connector`, `connector on torso shoulder`, `hip connector on torso` and
-`neck connector on torso`. The names above are the settled ones.
+**All eight connectors are renamed.** The names above are the settled ones; the old ones are in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The names to build
+under*.

@@ -196,10 +196,9 @@ finished. Until one of them is the answer, the citation cannot be written.
 
 ## Done: the CAD surveyed for the best reference, part by part
 
-**Performed 2026-09-18.** Every stickbot document was listed from Onshape, every Part Studio in
-the twelve draft documents was read through `bodydetails`, the leading candidate for each part was
-compared against `make_plans.py`, and each one was then rendered, turned and sectioned and looked
-at. The frames and their provenance are in
+**Performed 2026-09-18.** Every Part Studio in the twelve draft documents was read through
+`bodydetails`, compared against `make_plans.py`, and rendered, turned, sectioned and looked at.
+The frames and their provenance are in
 [`build-briefs/images/`](experiments/build-briefs/images/) and
 [`build-briefs/README.md`](experiments/build-briefs/README.md) § *Where the `cad-*.png` frames
 came from*.
@@ -217,10 +216,8 @@ came from*.
 | l limb | `stickbot-draft9p1p6` | `F done - Phase F proved` | `l limb` | yes |
 | gripper | `stickbot-draft9p1p1` | `Recovery point` | `gripper` | no, the collar |
 
-**The answer is per part, as the task expected.** draft9p4 is the newest document and its `hinge`
-tab still holds 264 faces with 48 spheres and 48 tori, which is the bump-and-valley joint
-draft9p3 built; draft9p1p6's holds 258 faces with 96 cones, which is the wedge ring. No document
-holds the whole robot at the settled joints.
+**The answer is per part.** draft9p4's `hinge` is still draft9p3's bump-and-valley joint;
+draft9p1p6's is the wedge ring. No document holds the whole robot at the settled joints.
 
 ### `stickbot-draft9p4-check` holds work the plan did not put there
 
@@ -241,16 +238,12 @@ two.
 | `foot` | `tutorial 8 is built and captured in the reader's document` | T, in the wrong document |
 | `hinge` | `tutorial 9 is built and captured in the check document` | T, in the wrong document |
 
-Tutorial 4's 39 rows run the whole take there: `tab`, `stud_variables`, `stud_profile_sketch`,
-`stud_revolve`, `cavity`, `slit_extrude`, both connectors, `hero`, `section` and `version`.
-
-**The cost is the gate this draft exists for.** *Steps reproduce* asks that the page be followed by
-someone who does not have the build in front of them. For tutorials 4, 5, 6, 8 and 9 the build was
-in the same document, so nothing written down closes that gate for them.
+Tutorial 4's 39 rows run the whole take there, `tab` through `version`. *Steps reproduce* asks
+that the page be followed by someone who does not have the build in front of them; for tutorials
+4, 5, 6, 8 and 9 the build was in the same document.
 
 **Both documents carry the same eight version names**, the check document stamped first every
-time: tutorial 4 at 18:18 against 19:52, tutorial 8 at 08:55 against 09:39. The work reached the
-build document as well, by a route the log does not record.
+time. The work reached the build document as well, by a route the log does not record.
 
 ### What is in each document, measured
 
@@ -263,18 +256,12 @@ build document as well, by a route the log does not record.
 | `hinge` | 264 faces on 2 bodies against 508 on 3 | different joints entirely |
 
 - **The check document's eyes are 1.5 % oversize.** Each eye's end face is 102.0857 mm² there
-  against 100.531 mm² in the build document, and 100.531 mm² is π × 8 mm × 4 mm exactly, which is
-  `EYE_RX` by `EYE_RY`. The front face they are cut from differs by the same amount the other way.
-  Nothing moved; the ellipse came back about 0.06 mm large on its major radius. That is a finding
-  about the head page's eye step, and it is the near miss `diff_shape.py` exists to catch.
-- **The check document's hinge is the settled wedge joint and the build document's is not.**
-  Against draft9p1p6 at `F done - Phase F proved` it is 508 faces to 510, with 5 of its faces and 7
-  of the reference's unmatched and none of them a face that moved.
-- **Its fork is two loose prongs.** draft9p1p6's fork is one body of 252 faces. The check
-  document's is two bodies of 125 faces each, `RMGD` and `RJED`, and the render shows them floating
-  either side of the blade with no rod under them and nothing joining them. The blade, `JHD`, is
-  whole at 258 faces and matches. Tutorial 9 is task #203 and still open, so this is unfinished work
-  rather than a finished part that came out wrong.
+  against 100.531 mm² in the build document, which is π × 8 mm × 4 mm exactly. Nothing moved; the
+  ellipse came back about 0.06 mm large on its major radius. Task #222.
+- **The check document's hinge is the settled wedge joint and the build document's is not**, 508
+  faces against draft9p1p6's 510.
+- **Its fork is two loose prongs**, two bodies of 125 faces where draft9p1p6's fork is one of 252.
+  Tutorial 9 was open when draft9p4 was deactivated.
 
 **None of this moves the survey's answers.** The three tabs that agree are identical in both
 documents, the head is exact in the one that was cited, and the hinge reference stays

@@ -33,16 +33,10 @@ until then, which tied the design source to whichever guide was current when the
 and `robot-guide` teaches a 150 mm robot where `HEIGHT` is 318 mm. A guide holds a copy, taken
 deliberately, and `robot-guide`'s two are that copy.
 
-**Why nobody caught it: no brief points at either one.** `brief-socket.svg` is referenced twice by
-`ball-and-socket.md` and was kept current; `brief-roots.svg` is referenced by `hinge.md` and is new.
-`brief-fork.svg` and `brief-detent.svg` are referenced by no live brief at all, and `hinge.md`
-carries a blanket sentence saying the `brief-` renders are two and three revisions old and are not
-what to build. A figure nobody reads is a figure nobody notices has rotted.
-
-**It was known in August and answered with prose.** `runs/2026-08-13-run4/parked.md` item 8 records
-`brief-fork.svg` drawing the old fork, says the drawing is hand-authored with no generator, and
-resolves it by warning beside the link. `make_brief_sheets.py` gave it a generator afterwards and
-nobody re-ran it, so the warning outlived the problem it described and then outlived its own truth.
+**No brief pointed at either one.** `brief-socket.svg` and `brief-roots.svg` are referenced and
+were current; `brief-fork.svg` and `brief-detent.svg` were referenced by nothing.
+`runs/2026-08-13-run4/parked.md` item 8 records `brief-fork.svg` as stale in August 2026, answered
+with a warning beside the link rather than a redraw.
 
 
 ## Both patterns already exist here

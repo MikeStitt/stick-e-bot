@@ -26,9 +26,8 @@ see.
 | ------- | --------------- |
 | [`images/plan-assembly.svg`](images/plan-assembly.svg) | the robot assembled, front and side, every part named and every station dimensioned |
 
-**Its stations are measured from the ground; the table in [`README.md`](README.md) measures them
-from the torso's center.** The two agree — subtract `SOLE_Z` = −178 mm from a station in the
-README and you get the sheet's number.
+**Its stations are measured from the ground; [`README.md`](README.md)'s table measures them from
+the torso's center.** Subtract `SOLE_Z` = −178 mm to convert.
 
 | Station | From the torso center | On the sheet |
 | ------- | --------------------: | -----------: |
@@ -40,14 +39,11 @@ README and you get the sheet's number.
 | head center | 104 mm | 282 mm |
 | the whole figure | — | 318 mm |
 
-**The side view is the one to read before mating an arm.** Both arms lie in one plane 7.82 mm
-forward of center, so that view sees them edge-on and both at once, and the torso is dashed where
-it stands in front of them. The sheet draws the elbows bent 45° for the picture; the assembly is
+**Read the side view before mating an arm.** Both arms lie in one plane 7.82 mm forward of center,
+so it sees them edge-on and both at once. The sheet draws the elbows bent 45°; the assembly is
 saved at rest.
 
-**There is no `cad-` frame here, and that is a gap rather than a choice.** The survey of
-2026-09-18 read the eight parts and never opened the `stickbot` assembly, so nothing is known
-about whether draft9p4's assembly is current. Every other brief carries three.
+**There is no `cad-` frame here.** The survey of 2026-09-18 never opened the `stickbot` assembly.
 
 ## The idea being tested
 
@@ -203,15 +199,10 @@ Measure these, in the rest pose. Do not infer them.
 
 ## Recommended steps
 
-**This is the feature order to build, and the name each feature carries.** It is the order a
-proven model was built in, with the renames that have been settled since applied. Variables are
-not in the table: each one is added immediately above the first feature that reads it, which is
-what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
-works out by walking the expressions. Do not open a tab with a block of numbers.
-
-The verification after each feature and after the tab is one loop for every part, and it lives in
-[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
-loop*. It is not repeated here.
+**The feature order to build, and the name each feature carries.** Variables are not in the
+table: each is added immediately above the first feature that reads it, which
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A* works
+out. The verification is in that plan's § *The verification loop*.
 
 | Step | Feature | Name |
 | ---: | ------- | ---- |

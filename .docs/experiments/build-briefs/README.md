@@ -106,7 +106,7 @@ as both `.svg` and `.png`; they are the same drawing.
 
 ## What is in `images/`, and who owns each thing
 
-Every file here is named by the brief it belongs to, so that nothing rots unwatched. Three kinds:
+Every file here is named by the brief it belongs to. Three kinds:
 
 | Kind | Made by | Owned by |
 | ---- | ------- | -------- |
@@ -114,21 +114,13 @@ Every file here is named by the brief it belongs to, so that nothing rots unwatc
 | `plan-*.svg` | `make_plans.py`, `ninja plan` | `hinge.md` and `assembly.md` |
 | `cad-*.png` | `shadedviews` and the GUI's Section view, by hand | the brief for that part |
 
-**`plan-assembly.png` and `plan-parts.png` are the two exceptions, and they are meant to be.**
-`make_plans` renders a PNG beside each SVG because a Sphinx guide needs a raster, and a guide takes
-its copy from here. No brief cites them: a brief reads the SVG, and a `.png` beside a `.svg` that
-says the same thing is the arrangement this directory removed from `ball-and-socket.md` on
-2026-09-18.
+**`plan-assembly.png` and `plan-parts.png` are the two exceptions.** `make_plans` renders a PNG
+beside each SVG for a Sphinx guide to copy. A brief reads the SVG.
 
 ## Where the `cad-*.png` frames came from
 
-`images/cad-*.png` are the reference CAD, one part at a time, surveyed on 2026-09-18 and
-recorded here so any of them can be taken again. A frame that cannot be re-taken from its own
-record is not finished.
-
-Each part names the document it was found in, the workspace to re-capture from, and the version
-the frame was actually taken at. The version is what the picture shows; the workspace is where
-the tab lives now, and it can move.
+`images/cad-*.png` are the reference CAD, one part at a time, surveyed on 2026-09-18. Each row
+names the document, the workspace to re-capture from, and the version the frame was taken at.
 
 | Part | Document | Workspace | Version | Tab |
 | ---- | -------- | --------- | ------- | --- |
@@ -136,14 +128,10 @@ the tab lives now, and it can move.
 | hinge, u limb, l limb | `stickbot-draft9p1p6` `500752af84dc92deea53f9e4` | `f30bf96cfeece59f61e0e7b2` | `F done - Phase F proved` `80c22eb7b8b0342ac03f8a6d` | `hinge` `62fca6aa5a67b51adcb2318c`, `u limb` `f3f8362fd5e9f31ee2fa5eb2`, `l limb` `261b7ee66567bab16d145c83` |
 | gripper | `stickbot-draft9p1p1` `4b2e0d48efd37d3327a90afb` | `a1af16872d25103815f1c32a` | `Recovery point` `0f4e9b6b36b5c1a6f45197e1` | `gripper` `32166c7b3d22572c0e7dd0c3` |
 
-**Every frame is taken at a version rather than at a workspace.** A version is what the register
-proved and it cannot move; a workspace can, and a read of one can also be caught mid-regeneration.
-Both happened during this survey: draft9p1p6's `hinge` and `u limb` first read short and re-read
-correct a few hours later. Take a frame again from the version named in the table.
+**Take a frame again from the version named in the table, not from the workspace.**
 
-**The gripper's frames are the nearest CAD, not an agreeing one.** Its socket collar is Ø18,
-which is the wall `make_plans.py` carried before `COLLAR_WALL` became `TORSO_H * 3 / 160`. No
-gripper has been built since.
+**The gripper's frames are the nearest CAD, not an agreeing one.** Its socket collar is Ø18 mm
+against the settled Ø15.6 mm.
 
 ### Taking a frame again
 
@@ -171,18 +159,13 @@ canvas, with the view cube left in and the right-hand toolbar strip cut off.
 | `cad-gripper-section.png` | Front | Front | 21.970 |
 | `cad-hinge-section.png` | Right | Right | 8.833 |
 
-**The hinge's section is on the Right plane, not the Front.** Its pin axis is Y, so the Front
-plane is perpendicular to the pin and cuts the gap between the blade's two leaves: that section
-shows a flat arch and no joint. The Right plane cuts along the blade and gives the two leaves,
-the relief slit between them, both stub axles and the wedge rings edge-on.
+**The hinge sections on the Right plane.** Its pin axis is Y, so a Front cut misses the joint.
 
-**`cad-hinge-section.png` carries the blade alone.** The tab lays its two parts end to end rather
-than engaged, with the blade's rod end at z = −38 mm and the fork's at z = +38 mm, so one section
-cannot hold both. `cad-hinge-right.png` is the picture of them meshing.
+**`cad-hinge-section.png` carries the blade alone**, the tab laying its two parts end to end.
+`cad-hinge-right.png` is the picture of them meshing.
 
-**Its scale was measured off the frame, not read from the camera.** `onshape_screen.camera`
-returned nothing on this tab across two runs, so `zoom_to`'s target of 9 px per mm is not what the
-frame is known to be at. The Ø24 mm rod spans 212 px in the saved image, which is 8.833 px per mm.
+**Its 8.833 px per mm is measured off the frame**, the Ø24 mm rod spanning 212 px;
+`onshape_screen.camera` returned nothing on that tab.
 
 ## Every limb is a Ø24 cylinder
 
