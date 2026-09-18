@@ -6,7 +6,7 @@ afterwards. Where a brief's step does not work as written, that is the finding â
 you did, what you expected, and what happened, then deviate as little as needed and label it.
 
 Read [`../../onshape-gui-howto.md`](../../onshape-gui-howto.md) before driving the browser, and
-[`../../../.parts/onshape.md`](../../../.parts/onshape.md) for the modeling standard.
+[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md) for the modeling standard.
 
 ## A convention shared by two parts lives here, and only here
 

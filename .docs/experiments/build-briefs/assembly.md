@@ -15,7 +15,7 @@ six of the parts go in twice.
 
 **Do not start this until every part has been built.** Each one goes in from this document's own
 workspace, under
-[`../../../.parts/onshape.md`](../../../.parts/onshape.md) *Insert from the workspace, and keep
+[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md) *Insert from the workspace, and keep
 every reference inside one document*. So the assembly follows a Part Studio edit as soon as it is
 made, which is the same thing *The idea being tested* below asks a student to see.
 

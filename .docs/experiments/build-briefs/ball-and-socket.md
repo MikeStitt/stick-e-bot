@@ -3,7 +3,7 @@
 **Before you write the report: publish a named version, and open the report with a "Where the
 work is" section** — document name, document id, element id, version name and id, the version
 link, and the workspace link labeled as live. See
-[`../../../.parts/onshape.md`](../../../.parts/onshape.md). The model outlives this text only if
+[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md). The model outlives this text only if
 someone can find it.
 
 **This is a specification, not a lesson.** Your job is to build it in Onshape, find the click
@@ -207,8 +207,8 @@ Our best guess, not a tested path. Deviate where it does not work and say so.
      where it was. Do not undo the drag first, because Coincident snaps the pattern back on its
      own and an undo puts both points back on one pixel where neither can be picked. The step is
      written out with its frames in
-     [`../../../instructions/robot-guide4/source/ball-and-socket.rst`](../../../instructions/robot-guide4/source/ball-and-socket.rst),
-     under *Where the last bit of blue is hiding*.
+     [`../../../instructions/stickbot-draft9p4/source/ball-and-socket.rst`](../../../instructions/stickbot-draft9p4/source/ball-and-socket.rst),
+     under *Draw four slits*, at the Coincident near line 748.
    - **A `Feature pattern` needs `Reapply features` ticked.** Without it, it fails with *Could not
      create all instances as entered*, which is Onshape naming the fix in the error.
    - **The slit's inner end must sit inside the mouth radius, or the mouth never opens.** The
