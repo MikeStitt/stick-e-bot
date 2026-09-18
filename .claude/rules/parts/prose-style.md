@@ -15,8 +15,9 @@ doing one job.
 
 - **Put the obligation in the title.** A reader who stops after the bold lead MUST still know
    what to do. "Touch only what the task requires" is a rule; "Surgical changes" is a label.
-- **Write the body only for what the title cannot carry** — the reason the rule is not obvious,
-   the exception, the symptom. If the title is self-evident, there is no body.
+- **Write the body only for what the title cannot carry**, perhaps: the unobvious, clarifications,
+   exceptions, or symptoms. Use good judgment. Shorter and tighter is better.
+   If the title is self-evident, there is no body.
 - **Say a thing once.** A fact belongs in the file that enforces it, and everywhere else links to
    it. Do not restate a rule in a second section for emphasis, and do not summarize a document
    inside another document.
@@ -34,6 +35,9 @@ doing one job.
    standing in an equation rather than taking a value.
 - **State facts, not importance.** No superlatives, no selling, no "critically", no "it is
    essential that". If something matters, the fact shows it.
+- **Turn a 'why' into a 'when'.** A reason narrows a rule to the case that produced it; a scope
+   does not. Where the why cannot be turned, track the need and ask the user, at the next
+   opportunity, to agree it is needed.
 - **Change existing text only when its meaning needs to change.** Polishing is not a valid
    reason to change text: a better word ("what remains" for "what is left"), a tighter sentence,
    a reordered list. The only exception is when the user's current request asks you to improve

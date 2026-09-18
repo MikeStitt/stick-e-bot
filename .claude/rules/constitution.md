@@ -195,10 +195,10 @@ Before any session material is called done:
 | Model inspected | Every feature the part should have seen in a view that shows it, and the part it was built from rendered in the same views                                            |
 | Floor & ceiling | The session names both; the ceiling is not required by a later session                                                                                                |
 | Recovery point  | A published, named Onshape version exists for the next session to start from                                                                                          |
-| Prose style     | Written to [`parts/prose-style.md`](parts/prose-style.md)                                                                                                           |
-| Spelling        | `ninja check` is clean: US spellings, with `src/stickbot/dictionary.txt` for compounds                                                                                       |
-| Capture is out  | `ninja check` is clean: no tracked image outside `instructions/*/source/images/`, no tracked build output, no tracked file over 5 MB                                   |
-| Imports installed | `ninja check` is clean: no tracked Python edits `sys.path`. The `stickbot` package is imported by name, and paths into the tree come from `repo_root()`                 |
+| Prose style     | Written to [`parts/prose-style.md`](parts/prose-style.md)                                                                                                             |
+| Spelling        | `ninja check` is clean: US spellings, with `src/stickbot/dictionary.txt` for compounds                                                                                |
+| Capture is out  | `ninja check` is clean: no tracked images in `.docs/experiments/runs`, no tracked build output, no tracked file over 5 MB                                             |
+| Imports installed | `ninja check` is clean: no tracked Python edits `sys.path`. The `stickbot` package is imported by name, and paths into the tree come from `repo_root()`               |
 | Reading level   | We are currently tracking which text is above reading level. Before we are done with our final version we will adjudicate what to do with each reading level failure. |
 
 - **"I wrote the steps" is not "the steps work."** Following your own instructions from a blank
@@ -248,10 +248,9 @@ A step is not done because it was written — it is done when it has been **perf
 - Keep the diff to the stated purpose (Working rule **Touch only what the task requires.**).
   Unrelated problems noticed along the way get reported, not bundled.
 - Commit messages: match the surrounding log style. This repo does not use Conventional Commits.
-- **Onshape has its own version control, and it is the source of truth for models.** Material that
-  depends on a reference document MUST cite a **named version**, not the live workspace — a
-  workspace moves under the class. Update the citation in the same commit as the material that
-  depends on it.
+- **Onshape has its own version control, and it is the source of truth for models.** Cite a
+  document by name and id, and then a workspace or a named version as the material needs. **A cited
+  workspace is not moved.** That is a project policy and material may rely on it.
 
 ## Parts — read only what your task needs
 
@@ -306,5 +305,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 5.10.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-16 | **Source**:
+**Version**: 8.0.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-18 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

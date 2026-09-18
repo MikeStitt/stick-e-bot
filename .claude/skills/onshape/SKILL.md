@@ -80,8 +80,8 @@ clause of that sentence means feature by feature.
   made and a document copy re-points it. A version reference names a document and a version, and a
   copy has no version of its own for that reference to become, so it goes on naming the original
   after the copy — which is how a draft inherits an assembly that shows the previous draft's parts.
-  _Discipline_'s **Cite named versions, never live workspaces** governs material that cites a
-  reference document; this governs references inside a model, and the two do not meet.
+  _Discipline_'s **Cite a workspace where the project's order holds** governs material that cites
+  a reference document; this governs references inside a model, and the two do not meet.
 
 ## Choosing what to teach
 
@@ -231,7 +231,8 @@ and something waits for it. What that waiter tests decides whether it ever stops
   write down what you actually did.
 - **Reproduce from empty.** Following your own steps from a blank document is the gate that catches
   the knowledge you did not know you were assuming.
-- **Cite named versions, never live workspaces.** A workspace moves under the class.
+- **Cite a workspace where the project's order holds, a named version where it does not.** A cited
+  workspace is not moved; a student is outside that order and starts from a named version.
 - **Read a driven change off the part, not off the dialog it was typed into.** A green
   regeneration says the model rebuilt; it does not say the change reached the geometry. draft9p1
   deleted a variable, watched the feature that read it get 1.65 mm shorter, and measured the same

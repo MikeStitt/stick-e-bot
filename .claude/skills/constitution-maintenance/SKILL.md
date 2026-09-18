@@ -26,29 +26,141 @@ clarifications and typo fixes.
 Amending the constitution is itself governed work; treat the rules below as the
 checklist for any change to `constitution.md` or a part.
 
-1. **Edit the right home.** Behavioral rules and the always-read core live in
-   `.claude/rules/constitution.md`; per-work-type detail lives in
-   `.claude/rules/parts/` and in the skills. Change a rule in exactly one place —
-   never duplicate it into the agent-doc pointer (`CLAUDE.md`), which says so
-   itself.
-2. **Bump the version.** Apply the semantic rule from Governance: MAJOR for
-   principle removals or incompatible redefinitions, MINOR for new principles or
-   material expansions, PATCH for wording clarifications and typo fixes. Update
-   the `**Version**` and `**Last amended**` line in `constitution.md`.
-3. **Record it in the changelog.** Add a dated entry to the
-   [Changelog](#changelog) below — newest first — stating what changed and
-   _why_. The rationale is the valuable part; a bare "updated X" is not enough.
-4. **Update companions in the same commit.** If the change has an on-disk
-   companion (e.g. the `check` target, its dictionary, or a hook that enforces
-   the rule), change it in the same commit so the documented rule and its
-   enforcement never drift apart.
-5. **Exercise config companions, don't just edit them** (Working Rule 8, and
-   _Verification is evidence, not assertion_). A rule whose enforcement lives in
-   config is only amended once the config has been _run_ and shown to behave as
-   intended — editing the file is not verification. Run the `check` target and
-   watch it catch what the new rule is meant to catch.
+- **Propose the words and get agreement before editing.** Show the exact text being removed and the
+  exact text replacing it, and wait for user agreement. An amendment is the user's
+  decision; drafting it is not the same as making it.
+- **Edit the right home.** Behavioral rules and the always-read core live in
+  `.claude/rules/constitution.md`; per-work-type detail lives in
+  `.claude/rules/parts/` and in the skills. Change a rule in exactly one place —
+  never duplicate it into the agent-doc pointer (`CLAUDE.md`), which says so
+  itself.
+- **The Constitution states rules, not why.** Cut the argument for a rule; keep the rule.
+  Researching or defending a rule's rationale is a separate task, done when
+  asked. Applies to everything in `.claude/**`, except the [Changelog](#changelog) below.
+  Permission to describe the **why*** in other documents does not grant
+  permission `.claude/**`.
+- **Bump the version.** Apply the semantic rule from Governance: MAJOR for
+  principle removals or incompatible redefinitions, MINOR for new principles or
+  material expansions, PATCH for wording clarifications and typo fixes. Update
+  the `**Version**` and `**Last amended**` line in `constitution.md`.
+- **Record it in the changelog.** Add a dated entry to the
+  [Changelog](#changelog) below — newest first — stating what changed and
+  _why_. The rationale is the valuable part; a bare "updated X" is not enough.
+- **Update companions in the same commit.** If the change has an on-disk
+  companion (e.g. the `check` target, its dictionary, or a hook that enforces
+  the rule), change it in the same commit so the documented rule and its
+  enforcement never drift apart.
+- **Exercise config companions, don't just edit them** (Working Rule 8, and
+  _Verification is evidence, not assertion_). A rule whose enforcement lives in
+  config is only amended once the config has been _run_ and shown to behave as
+  intended — editing the file is not verification. Run the `check` target and
+  watch it catch what the new rule is meant to catch.
 
 ## Changelog
+
+- **8.0.0 (2026-09-18)** — MAJOR: `parts/prose-style.md` gains **Turn a 'why' into a 'when'**, and
+  stops permitting a reason in a rule's body.
+
+  The body rule read *"Write the body only for what the title cannot carry — the reason the rule is
+  not obvious, the exception, the symptom"* and now reads *"…, perhaps: the unobvious,
+  clarifications, exceptions, or symptoms. Use good judgment. Shorter and tighter is better."* The
+  new rule reads *"Turn a 'why' into a 'when'. A reason narrows a rule to the case that produced
+  it; a scope does not. Where the why cannot be turned, track the need and ask the user, at the
+  next opportunity, to agree it is needed."*
+
+  Incompatible redefinition, so MAJOR: a rule body carrying its own reason was permitted by name
+  and is now forbidden.
+
+  _Why:_ a reason attached to a rule reads as the rule's scope, so the rule is taken to apply in
+  the case that produced it and not elsewhere. Turning the why into a when says the same thing
+  without the narrowing. The prohibition already existed in
+  [`../../../memory/instructions-state-facts-not-importance.md`](../../../memory/instructions-state-facts-not-importance.md)
+  — *"The Constitution states rules, not why"*, written 2026-08-12 — and the contract had been
+  contradicting it since, which is how 7.0.0 came to carry an argument inside a rule.
+
+  _Where the why still lives._ This changelog, by the carve-out the maintenance plan above now
+  states. It is not injected on every request, so a reason kept here costs no context.
+
+  _Companion changes, same commit._ The maintenance plan gains **The Constitution states rules, not
+  why**, so the prohibition is in the checklist a writer reads rather than only in a memory.
+
+  _Config companion, exercised._ `check_spelling.py` caught the en-GB spelling of *judgment* in the
+  new text and it was corrected; `ninja check` green on all five, watched.
+
+- **7.0.0 (2026-09-18)** — MAJOR: Branch Policy stops requiring a named version. It read
+  *"Material that depends on a reference document MUST cite a named version, not the live
+  workspace — a workspace moves under the class"* and now reads *"Cite a document by name and id,
+  and then a workspace or a named version as the material needs. A cited workspace is not moved.
+  That is a project policy and material may rely on it."*
+
+  Incompatible redefinition, so MAJOR by the reading 5.0.0 and 6.0.0 used: material citing a
+  workspace was failing this rule and now passes.
+
+  _Why:_ Mike's ruling. The old rule read as though a workspace were unsafe in a way a git branch is
+  not, and it is not — a repository can be moved or deleted exactly as a workspace can, and projects
+  cite them anyway, because a project runs on an assumed order. Stating that cited workspaces are
+  not moved is that order written down.
+
+  It also cleared up a confusion of mine. An Onshape **named version** is a semantic name — `V1`,
+  `F done - Phase F proved` — not a hash, so the old rule never asked for the thing I had described.
+
+  _A requirement I invented, and Mike removed._ My first draft of this amendment added *"Cite a
+  named version where the reader is outside that order: anything a student starts from, and any
+  claim that has to stay checkable after the workspace has moved on."* Mike did not ask for it and
+  did not agree to it; I wrote it into the Constitution and mentioned it afterwards. It is wrong on
+  the facts as well: students will not start from a workspace and will not need documents to CAD,
+  and if that ever changes the instructions and any example workspace are kept in sync rather than
+  asking a student to track versions. It is gone, and the rule carries no carve-out.
+
+  My draft also put the git-and-branches argument inside the rule, which
+  [`../../../memory/instructions-state-facts-not-importance.md`](../../../memory/instructions-state-facts-not-importance.md)
+  forbids: *the Constitution states rules, not why*. Mike cut it. The maintenance plan above now
+  carries that rule, and a step requiring the words be proposed and agreed before they are written.
+
+  _Companion changes, same commit._ The `onshape` skill's Discipline bullet *"Cite named versions,
+  never live workspaces"* becomes *"Cite a workspace where the project's order holds, a named
+  version where it does not"*, and the cross-reference further up that file follows. The skill's
+  instruction to publish a named version before writing a run's report is untouched: that is a run
+  producing its own recovery point, not a citation of someone else's document.
+
+  _Config companion._ None. No check reads a citation. `ninja check` was run and watched green on
+  all five.
+
+- **6.0.0 (2026-09-17)** — MAJOR: the *Capture is out* gate's image clause narrows from a
+  whole-tree default to one path. It read *"no tracked image outside
+  `instructions/*/source/images/`"* and now reads *"no tracked images in
+  `.docs/experiments/runs`"*.
+
+  This is an incompatible redefinition, which is what makes it MAJOR by the reading 5.0.0 used: a
+  repository tracking a raster in `.docs/reviews/hinge/source/images/` was failing this gate and now
+  passes it.
+
+  _Why:_ the clause was written to stop interim capture and it stopped engineering figures as a side
+  effect. `.docs` held 28 tracked vector figures and could hold no raster at all, so the hinge
+  review's eleven PNG renders were refused while the SVGs they came from were kept, and five renders
+  the ball-and-socket brief cites by name did not survive the move into this repository. The survey
+  of the CAD now planned needs shaded views beside the briefs, and a shaded view cannot be a vector.
+
+  _Why that path and no other._ It is where the failure happened. The archive holds 13,962
+  screenshots totaling 1,837 MB, and every one of them is under `.docs/experiments/runs/`, in
+  fourteen run directories; run6 alone is 6,734 files and 936 MB. Nothing was ever lost to capture
+  anywhere else, so nothing else needs the rule. A raster outside that path is an engineering
+  figure, and an engineering figure is not capture.
+
+  _Companion changes, same commit._ `.gitignore` denies raster and video under
+  `.docs/experiments/runs/` rather than everywhere, and drops the `!instructions/*/source/images/**`
+  negation it no longer needs; `src/stickbot/check_images.py` matches, and `build.ninja`'s
+  description is unchanged because the gate still checks capture.
+
+  _Config companion, exercised._ All three rules were run against planted violations. A frame
+  force-added under `runs/2026-08-14-run6/` was named as *interim capture; frames belong in the
+  scratchpad*; a tracked `build/probe.html` as *Sphinx output, rendered from source/*; a 6.0 MB file
+  as *over the 5 MB ceiling*. Each exited 1, and each went green when removed. The same frame placed
+  in `.docs/experiments/build-briefs/images/` passed, which is the case the narrowing exists for.
+
+  _What the narrowing does not cover._ `.gitignore` also denies any `capture/` directory anywhere,
+  and the gate does not, because the gate's words name one path. A raster force-added into a
+  `capture/` outside `runs/` would pass. Nothing in the tree does that today.
 
 - **5.10.0 (2026-09-16)** — MINOR: a new Working Rule, *Do not name a version in code that is not
   in a version-specific tree*, with its corollary that code which genuinely cannot be reused
