@@ -165,44 +165,37 @@ Phase 4 is not blocked on this phase.
   draft9p4's plan, so this plan's text was read back with `cat` rather than out of the injection.
   The import path resolves and the file is on disk, which is what the check asked for.
 
-## Phase 4 — draft9p4 to a finished reference model, over REST
+## Phase 4 — dropped 2026-09-18
 
-**Its plan is written**, at
-[`2026-09-16-draft9p4-reference-model.md`](2026-09-16-draft9p4-reference-model.md). It carries what
-draft9p4 actually holds, measured over REST on 2026-09-16, and the archive-rename test.
+**Settled by Mike: Phase 4 does not run.** It was to carry draft9p4's tutorials 9 to 14 over REST
+until draft9p4 was a finished reference model. draft9p5 builds the same six tabs from empty, so
+running both builds one robot twice.
 
-Tutorials 9 to 14 are unbuilt: the hinge is part way, and `u limb`, `l limb`, `gripper` and the two
-assembly tutorials have not started. The joints come from `stickbot-draft9p1p6`, the rest from
-draft9p1p1's construction, exactly as draft9p4's own declaration says.
+Its plan, [`2026-09-16-draft9p4-reference-model.md`](2026-09-16-draft9p4-reference-model.md), is
+superseded and stays as the record of what draft9p4 held when it was measured on 2026-09-16. The
+model work it named moves to Phase 5 under *The open work, by name*.
 
-**draft9p4's own plan does not govern this work, and a new one is owed.**
-[`experiments/runs/2026-09-08-draft9p4/plan.md`](experiments/runs/2026-09-08-draft9p4/plan.md) is a
-guide-draft plan: it claims *Steps reproduce*, it forbids REST from building the model, and it ends
-in fourteen written pages. Phase 4 does none of that. So `active-plan.md` points at a plan written
-for this work, and the draft9p4 plan is agreed deactivated rather than quietly contradicted.
+**What is kept from it.** The measurement of draft9p4 over REST, the archive-rename test, and the
+finding that the earlier reading of tutorial 9 as nearly done was about the check document rather
+than the build document.
 
-**Two conditions, both from the draft9p1p6 precedent:**
+## Phase 5 — draft9p5 from empty, over REST
 
-- **The grant is per-document and does not carry.** draft9p1p6's plan records that the earlier
-  permission covered `stickbot-draft9p1p2` and `stickbot-draft9p1p4` and did not extend. **Mike
-  granted REST for `stickbot-draft9p4` by name on 2026-09-14**, so Phase 4 is authorized in that
-  document and in no other.
-- **REST edits features; it does not emit geometry.** The same plan: geometry is written *by
-  editing the features the parent already holds, with their constraints, patterns and mirrors
-  intact, not by emitting fresh geometry because emitting is cheaper*. That is the whole of what
-  "structurally right" means here, and it is what `modeling-practice` asks for.
+**Amended 2026-09-18 by Mike: REST builds every feature, where this said the GUI.** Its plan is
+[`experiments/runs/2026-09-18-draft9p5/plan.md`](experiments/runs/2026-09-18-draft9p5/plan.md).
 
-No frames are taken. The tab is proved by `read_shape.py`, `diff_shape.py` and rendered views, the
-way a reference model is proved.
+A new empty Onshape document, every feature added over REST, and a construction that obeys every
+ruling settled since the parts were last built. It builds all ten tabs, not the six Phase 4 would
+have: nothing is inherited, because every draft since draft9p1 branched the one before it and
+inherited its tree along with its shape, and that is how thirteen typed variable titles survived
+four drafts.
 
-**What this drops:** the 208 uncommitted hinge frames and draft9p4's eight written pages. The
-frames were captured for a guide draft9p4 is no longer making. The pages carry forward as text for
-draft9p5 to write against.
+**It takes no frames and writes no pages.** The guide is written afterwards, against a model that
+is already right, in a draft that is not planned yet.
 
-## Phase 5 — draft9p5 from empty
-
-A new plan, a new empty Onshape workspace, the GUI for every feature, and draft9p4 as the reference
-the audits diff against. The frames it publishes are the only frames that reach git.
+**REST is granted per document and does not carry.** The grant Mike made on 2026-09-14 names
+`stickbot-draft9p4`. `stickbot-draft9p5` needs its own, and Phase B of its plan cannot start
+without one.
 
 ## The open work, by name
 
@@ -210,8 +203,8 @@ Sixteen tasks were open when the numbers were retired. Each is named here and pl
 that will do it, or recorded as superseded. [`tasks.md`](tasks.md) holds the number each was
 written under and the full text of what it asked for.
 
-**Phase 4 holds the model work.** The pages these tasks also asked for are Phase 5's, because
-Phase 4 takes no frames and writes no pages.
+**Phase 5 holds the model work**, since Phase 4 was dropped. The pages these tasks also asked for
+belong to the guide draft that follows, because Phase 5 takes no frames and writes no pages.
 
 - **`task.draft9p4.hinge`.** The hinge tab: twenty-four wedges on a ring with a fifteen degree
   step, where draft9p3's page still describes bumps and valleys. `blade profile` is four entities
@@ -240,7 +233,8 @@ Phase 4 takes no frames and writes no pages.
   was done about each finding. Every step gets its `state` and its `version`, every claimed gate
   gets the evidence that closes it, and a gate that did not close says so.
 
-**Phase 5 holds the capture and page work.**
+**The guide draft that follows holds the capture and page work.** It is not planned yet. These
+were Phase 5's until 2026-09-18, when Phase 5 became a model build that writes no pages.
 
 - **`task.capture.zoom_fit`.** Teach and perform `f` zoom fit throughout, in the guide prose and in
   the capture run that produces the frames, since they are the same script. It depends on hiding
@@ -264,9 +258,9 @@ Phase 4 takes no frames and writes no pages.
 **Superseded, and the reason.** These three are recorded as closed rather than carried. Each asks
 for work on a draft that is no longer the live one.
 
-- **`task.capture.tutorials_1_to_5`.** draft9p0's first five pages have a hero and no frame of any
-  single step. draft9p5 captures every page from empty, so the re-run it asks for is work draft9p5
-  does anyway.
+- **`task.capture.tutorials_1_to_5` is no longer superseded.** It was closed on the reasoning that
+  draft9p5 captures every page from empty, and as of 2026-09-18 draft9p5 captures nothing. It
+  returns to the open list, against the guide draft that follows.
 - **`task.reproduce.draft9p3`.** Paused 2026-09-04 with `stickbot-draft9p3-check` holding tutorial
   1 through `cad.variables.rename` and no version published. draft9p3 is not the live draft; the
   *Steps reproduce* gate it was serving moves to draft9p5.

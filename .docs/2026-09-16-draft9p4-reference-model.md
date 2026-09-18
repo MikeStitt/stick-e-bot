@@ -1,5 +1,13 @@
 # Phase 4 — draft9p4 to a finished reference model, over REST
 
+**Superseded 2026-09-18. Phase 4 was dropped and this plan does not run.** draft9p5 builds the same
+six tabs from an empty document, so carrying draft9p4 to a finished model would build one robot
+twice. What stays useful here is the measurement of draft9p4 over REST on 2026-09-16, the
+archive-rename test, and the finding that an earlier reading of tutorial 9 as nearly done was about
+`stickbot-draft9p4-check` and not the build document.
+[`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md) § *Phase 4* records the
+decision.
+
 Phase 4 of [`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md), which said this
 work gets its own plan because building a reference model over REST is a different job from the
 move. This is that plan.

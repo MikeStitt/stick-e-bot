@@ -1,5 +1,21 @@
 # draft9p4 — the whole robot at the settled joints, with every page followed to a part
 
+**Deactivated 2026-09-18, by agreement between Mike and Claude.** This plan does not govern any
+further work. It is a guide-draft plan: it claims *Steps reproduce*, it forbids REST from building
+the model, and it ends in fourteen written pages. The work moved to
+[`../2026-09-18-draft9p5/plan.md`](../2026-09-18-draft9p5/plan.md), which builds the model over
+REST and writes no pages.
+
+**What draft9p4 finished**: tutorials 1 to 8, as CAD and as eight written pages, and a version per
+tutorial in both `stickbot-draft9p4` and `stickbot-draft9p4-check`. Tutorial 9 is part way and
+tutorials 10 to 14 were never started.
+
+**What it leaves behind, and where each goes.** The eight pages carry forward as text for the guide
+draft that follows. The 208 uncommitted hinge frames were captured for a guide this draft is no
+longer making. *Steps reproduce* did not close on tutorials 4, 5, 6, 8 and 9, because they were
+built in the check document rather than reproduced into it; that is task #221, and it belongs to
+whoever writes the pages next.
+
 **This draft retakes every tutorial the settled ball joint and the fifteen degree hinge reach, and
 reproduces every page it writes into a second document by following its own words.** What it hands
 on is a guide whose steps have been performed by someone who did not build the model.
