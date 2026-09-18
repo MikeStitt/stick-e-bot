@@ -32,6 +32,8 @@ from stickbot.make_plans import (
     CAVITY,
     CLIMB,
     COLLAR_L,
+    COLLAR_PROUD,
+    COLLAR_R,
     COLLAR_WALL,
     EAR,
     EAR_FREE,
@@ -46,6 +48,7 @@ from stickbot.make_plans import (
     ROD_FORK,
     RING_IN,
     RING_OUT,
+    SLIT_D,
     SLIT_W,
     STALK,
     T_PRINT,
@@ -140,8 +143,8 @@ def sheet_fork():
 
     lab = []
     # width dimensions, stacked below the section, nearest cut first
-    for i, (y, name) in enumerate([(BLADE / 2, "blade"), (inner, "ear inner face"),
-                                   ((inner + outer) / 2, "halfway up the ear")]):
+    for i, (y, name) in enumerate([(BLADE / 2, "blade"), (inner, "fork prong inner face"),
+                                   ((inner + outer) / 2, "halfway up the fork prong")]):
         h = wide(y) / 2
         yy = P(0, -r)[1] + 30 + 26 * i
         lab += [witness(*P(-h, -y), -S * h, yy + 4), witness(*P(h, -y), S * h, yy + 4)]
@@ -151,7 +154,7 @@ def sheet_fork():
 
     # the stack, dimensioned up the right-hand side
     x0 = S * r + 40
-    stack = [(inner, outer, f"ear {EAR:g} mm"), (BLADE / 2, inner, f"gap {GAP:g} mm"),
+    stack = [(inner, outer, f"fork prong {EAR:g} mm"), (BLADE / 2, inner, f"gap {GAP:g} mm"),
              (-BLADE / 2, BLADE / 2, f"blade {BLADE:g} mm")]
     for a, b, name in stack:
         lab += [dim_v(P(0, b)[1], P(0, a)[1], x0, name, left=False, rot=False)]
@@ -172,7 +175,7 @@ def sheet_fork():
              f"&#216;{LIMB:g} mm surface crosses the seat wall at &#177;{inner:g} mm.",
              "note", "middle"),
         text(0, P(0, -r)[1] + 139,
-             f"So the ear is a cap of the circle and the blade is the flat middle, "
+             f"So the fork prong is a cap of the circle and the blade is the flat middle, "
              f"{wide(BLADE / 2):.2f} mm wide; the slot never bounds it sideways.",
              "note", "middle"),
         text(0, P(0, -r)[1] + 150,
@@ -249,8 +252,11 @@ def sheet_roots():
 # both seated and riding.
 
 W2 = math.radians(WEDGE_W) / 2       # half a wedge, at its base, in radians
-R_CI = RING_IN + WEDGE_H             # 6.75 — where the draft's inner arc cuts the crest
-R_CO = RING_CON                      # 9.2423 — and its outer arc, which is also the bearing
+# Where the draft's arcs cut the crest, if the inset behaved like a planar one at both ends.
+# It does at the outer end and not at the inner: see R_CLOSE, which is further out than R_CI,
+# so the crest ends before it reaches here. R_CI is kept because the base still runs to it.
+R_CI = RING_IN + WEDGE_H             # 6.75
+R_CO = RING_CON                      # 9.6994 — the outer end, which is also the bearing
                                      # radius, so the section below is developed on it
 PITCH = 2 * math.pi * R_CO / WEDGES  # 4.8393 mm of arc, one wedge to the next
 HALF_B = R_CO * W2                   # 1.5996 — half the wedge's base, in that section
@@ -277,6 +283,12 @@ def crest_w(r):
     return 2 * r * crest_half(r)
 
 
+# Where the two 45 degree offsets meet and the crest closes to a point. Inward of this the
+# crest does not exist; crest_half goes negative and a drawing that keeps offsetting past it
+# crosses itself into a bowtie, which is what this sheet drew until 2026-09-18.
+R_CLOSE = WEDGE_H / math.sin(W2)
+
+
 def sheet_detent():
     """One wedge square on, and the pair in developed section."""
     cx = 164                             # the sheet's own center, which is not zero
@@ -293,12 +305,13 @@ def sheet_detent():
         f"A 45&#176; draft is a planar inward offset by {WEDGE_H:g} mm, so the crest is the "
         f"base inset {WEDGE_H:g} mm all round; and the offset is a length while the arc it "
         f"eats is an angle.",
-        f"So the crest narrows going inward. It would close to a point at r "
-        f"{WEDGE_H / math.sin(W2):.4f} mm, which is well inside the ring's own inner "
-        f"end at r {RING_IN:g} mm, so on this ring it "
-        f"never does.",
-        f"{WEDGES} wedges to a face, at {360 / WEDGES:g}&#176; pitch, on the tongue and on "
-        f"each ear. The base is {2 * RING_OUT * W2:.4f} mm at the tip and "
+        f"So the crest narrows going inward, and it closes to a point at r "
+        f"{R_CLOSE:.4f} mm. That is inside the ring, which runs r {RING_IN:g} mm to "
+        f"r {RING_OUT:.4f} mm, so the inner {R_CLOSE - RING_IN:.4f} mm of the ring's "
+        f"{RING_OUT - RING_IN:.4f} mm carries no crest at all &#8212; the flanks meet there "
+        f"and the wedge is a knife edge.",
+        f"{WEDGES} wedges to a face, at {360 / WEDGES:g}&#176; pitch, on the blade blank "
+        f"and on each fork prong. The base is {2 * RING_OUT * W2:.4f} mm at the tip and "
         f"{2 * HALF_B:.4f} mm where the section is taken.",
         f"The wedge is {WEDGE_W:.4f}&#176; across, which is wider than half a step. It has "
         f"to be: both members are drafted, and by mid-gap each has leaned "
@@ -333,7 +346,8 @@ def _wedge_face(ox, oy):
             f'L {pt(RING_OUT, W2)} '
             f'A {RING_OUT:g},{RING_OUT:g} 0 0 0 {pt(RING_OUT, -W2)} Z"/>')
     n = 48
-    rs = [R_CI + (R_CO - R_CI) * i / n for i in range(n + 1)]
+    r_in = max(R_CI, R_CLOSE)                  # the crest stops where it closes to a point
+    rs = [r_in + (R_CO - r_in) * i / n for i in range(n + 1)]
     ring = [pt(r, -crest_half(r)) for r in rs] + [pt(r, crest_half(r)) for r in reversed(rs)]
     crest = f'<path class="mate" d="M {" L ".join(ring)} Z"/>'
     geo = (f'<g transform="translate({ox:g},{oy:g}) scale({S},{-S})" class="det">'
@@ -344,12 +358,12 @@ def _wedge_face(ox, oy):
     lab = [
         dim_h(P(RING_IN)[0], P(RING_OUT)[0], y_top - 46,
               f"the wedge is {RING_OUT - RING_IN:.4f} mm long"),
-        dim_h(P(R_CI)[0], P(R_CO)[0], y_top - 30,
-              f"the crest is {R_CO - R_CI:.4f} mm long"),
+        dim_h(P(R_CLOSE)[0], P(R_CO)[0], y_top - 30,
+              f"the crest is {R_CO - R_CLOSE:.4f} mm long"),
         dim_v(P(R_CO, -crest_half(R_CO))[1], P(R_CO, crest_half(R_CO))[1], x_out + 26,
               f"crest {crest_w(R_CO):.4f} mm", left=False, rot=False),
-        dim_v(P(R_CI, -crest_half(R_CI))[1], P(R_CI, crest_half(R_CI))[1], P(R_CI)[0] - 24,
-              f"{crest_w(R_CI):.4f} mm", rot=False),
+        text(P(R_CLOSE)[0] - 10, P(R_CLOSE, 0)[1] - 6,
+             f"the crest ends here, r {R_CLOSE:.4f} mm", "call", "end"),
     ]
     for r in (RING_IN, R_CI, R_CO, RING_OUT):
         lab += [witness(P(r)[0], y_top - 6, P(r)[0], y_top - 50)]
@@ -359,7 +373,9 @@ def _wedge_face(ox, oy):
     lab += [text(ox - 150, y_bot + 44, "the crest, radius by radius", "call")]
     lab += [text(ox - 150, y_bot + 60 + 13 * i,
                  f"r {r:7.4f} mm &#8212; {crest_w(r):.4f} mm wide", "call")
-            for i, r in enumerate((R_CO, 9.0, 8.0, 7.0, R_CI))]
+            for i, r in enumerate((R_CO, 9.0, 8.0, R_CLOSE))]
+    lab += [text(ox - 150, y_bot + 60 + 13 * 4,
+                 f"r {R_CI:7.4f} mm &#8212; no crest; the flanks have already met", "call")]
     return geo + "".join(lab)
 
 
@@ -372,20 +388,20 @@ def _wedge_section(ox):
     """
     S, half, body = 40, 1.5 * PITCH, 0.6
 
-    def tongue(cu):
+    def blade_blank(cu):
         return (f'<path class="mate" d="M {cu - HALF_B:.4f},0 L {cu - HALF_C:.4f},{WEDGE_H:g} '
                 f'L {cu + HALF_C:.4f},{WEDGE_H:g} L {cu + HALF_B:.4f},0 Z"/>')
 
-    def ear(cu, sep):
+    def fork_prong(cu, sep):
         return (f'<path class="part" d="M {cu - HALF_B:.4f},{sep:g} '
                 f'L {cu - HALF_C:.4f},{sep - WEDGE_H:g} '
                 f'L {cu + HALF_C:.4f},{sep - WEDGE_H:g} L {cu + HALF_B:.4f},{sep:g} Z"/>')
 
-    def draw(dy, sep, ear_us):
+    def draw(dy, sep, prong_us):
         art = [rect(-half, -body, 2 * half, body, "mate")]
-        art += [tongue(cu) for cu in (-PITCH, 0, PITCH)]
+        art += [blade_blank(cu) for cu in (-PITCH, 0, PITCH)]
         art += [rect(-half, sep, 2 * half, body, "part")]
-        art += [ear(cu, sep) for cu in ear_us]
+        art += [fork_prong(cu, sep) for cu in prong_us]
         return (f'<g transform="translate({ox:g},{dy:g}) scale({S},{-S})" class="det">'
                 f'{"".join(art)}</g>')
 
@@ -432,8 +448,14 @@ def sheet_socket():
     """The socket in section, in a limb — not on a pad."""
     S = 22
     r = LIMB / 2
-    coll_r = CAVITY + COLLAR_WALL              # 4.7
-    z_mouth, z_face = GRIP, GRIP - COLLAR_L    # +1.35 and -4.15
+    # The collar is BALL + 2 x the wall, and FIT is left out of it on purpose: a printing
+    # clearance moves the hollow and nothing else, so the outside stays put when FIT changes.
+    # This drew CAVITY + COLLAR_WALL until 2026-09-18, which grew the collar by FIT.
+    coll_r = COLLAR_R
+    # The root sits COLLAR_L below the ball's center, not below the mouth, so the collar
+    # stands COLLAR_PROUD from rim to root. It read GRIP - COLLAR_L until 2026-09-18, which
+    # put the root GRIP too high and labeled a 12.2205 collar as 10.
+    z_mouth, z_face = GRIP, -COLLAR_L
     z_bot = z_face - 10
     m = MOUTH / 2
     explode, stalk_l = 8, 5
@@ -480,7 +502,7 @@ def sheet_socket():
         witness(*P(coll_r, z_face), P(coll_r, 0)[0], P(0, z_face)[1] + 22),
         dim_h(P(-r, 0)[0], P(r, 0)[0], P(0, z_bot)[1] + 24, f"limb &#216;{LIMB:g} mm"),
         dim_v(P(0, z_mouth)[1], P(0, z_face)[1], x_r,
-              f"collar {COLLAR_L:g} mm proud", left=False),
+              f"collar {COLLAR_PROUD:.4f} mm proud", left=False),
         dim_v(P(0, z_mouth)[1], P(0, 0)[1], x_r + 108, f"grip {GRIP:g} mm",
               left=False, rot=False),
         witness(P(coll_r, 0)[0], P(0, z_mouth)[1], x_r + 114, P(0, z_mouth)[1]),
@@ -490,13 +512,13 @@ def sheet_socket():
              f"Retention is {BALL - MOUTH:.3f} mm &#8212; the ball less the mouth. That is all "
              f"that holds it in.", "note", "middle"),
         text(0, P(0, z_bot)[1] + 60,
-             f"Four slits {SLIT_W:g} mm wide run the collar&#8217;s whole {COLLAR_L:g} mm so "
+             f"Four slits {SLIT_W:g} mm wide run {SLIT_D:.4f} mm down from the mouth so "
              f"the mouth can open. One is drawn hidden.", "note", "middle"),
         text(0, P(0, z_bot)[1] + 72,
              "On the head this same socket sits in a flat face. On a limb it sits in the "
              "cylinder, as here &#8212; never on a square pad.", "note", "middle"),
     ]
-    return svg([geo] + lab, -330, -348, 660, 790, scale=2.0)
+    return svg([geo] + lab, -330, -348, 660, 890, scale=2.0)
 
 
 # ---------------------------------------------------------------- plumbing
