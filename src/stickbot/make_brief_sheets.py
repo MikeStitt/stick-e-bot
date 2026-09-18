@@ -365,7 +365,7 @@ def _wedge_face(ox, oy):
         text(P(R_CLOSE)[0] - 10, P(R_CLOSE, 0)[1] - 6,
              f"the crest ends here, r {R_CLOSE:.4f} mm", "call", "end"),
     ]
-    for r in (RING_IN, R_CI, R_CO, RING_OUT):
+    for r in (RING_IN, R_CLOSE, R_CO, RING_OUT):
         lab += [witness(P(r)[0], y_top - 6, P(r)[0], y_top - 50)]
     lab += [
         witness(*P(R_CO, crest_half(R_CO)), x_out + 32, P(R_CO, crest_half(R_CO))[1]),
