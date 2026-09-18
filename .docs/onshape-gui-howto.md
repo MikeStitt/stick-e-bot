@@ -891,6 +891,26 @@ in all four standard views because the parts overlapped along the camera axis.
 The view menu has *Isometric / Dimetric / Trimetric*, *Zoom to fit* and *Section view…* — but
 **no Top/Bottom/Front entries**. Right-drag rotates, middle-drag pans, `n` is View normal to.
 
+**The standard views are on `Shift` and a digit.** Read off the view cube on 2026-09-18, one press
+at a time: `Shift+1` Front, `Shift+2` Back, `Shift+3` Left, `Shift+4` Right, `Shift+5` Top,
+`Shift+6` Bottom, `Shift+7` Isometric.
+
+### Section: the GUI does it and `shadedviews` does not
+
+`shadedviews` has no cut plane. `cutPlane` and `sectionPlane` were both passed to it on
+2026-09-18 and the image came back identical to the call without them, byte for byte, so Onshape
+ignores the parameter rather than refusing it. A section comes from *Section view…* instead:
+
+- open the view menu, click *Section view…*, click the plane in the feature tree, tick the
+  dialog. The section applies as soon as the plane is picked;
+- **look along that plane's normal.** Cut on Front and look from anywhere else and you get the
+  outside of the remaining half with no hatching. Front plane with `Shift+1`, Right plane with
+  `Shift+4`;
+- **do not `f`.** Zoom to fit frames the section plane, which is larger than the planes, and
+  leaves the part many times the size of the window. `onshape_gui.zoom_to` sets a stated pixels
+  per millimeter instead;
+- **do it at a version.** A version is read only, so the section cannot become an edit.
+
 **Zoom to fit frames the default planes, not the part.** The planes are far larger than anything
 this robot is made of, so `f` on a Ø9.4 collar leaves it a smudge in the middle of the window.
 Hide Top, Front and Right first and `f` then frames the part.

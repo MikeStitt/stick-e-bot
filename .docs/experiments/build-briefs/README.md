@@ -105,6 +105,71 @@ as both `.svg` and `.png`; they are the same drawing.
 joint, and where a caption says so, to show you the defect being fixed. They are not the
 specification.
 
+## Where the `cad-*.png` frames came from
+
+`images/cad-*.png` are the reference CAD, one part at a time, surveyed on 2026-09-18 and
+recorded here so any of them can be taken again. A frame that cannot be re-taken from its own
+record is not finished.
+
+Each part names the document it was found in, the workspace to re-capture from, and the version
+the frame was actually taken at. The version is what the picture shows; the workspace is where
+the tab lives now, and it can move.
+
+| Part | Document | Workspace | Version | Tab |
+| ---- | -------- | --------- | ------- | --- |
+| body, head, ball and socket, foot | `stickbot-draft9p4` `fe052e606c96bb7cc5aaf59f` | `0ff70e8921be572d630dd9cc` | `tutorial 8 - the foot` `7d52c006c01d272fd24cd706` | `body` `ef7be6f2a79aa87fdeb1d6ab`, `head` `95fe567f38e1c8c891bc94a3`, `ball and socket` `db77856cb0dc97213496331a`, `foot` `2a9178a3cd70f34183b13f41` |
+| hinge, u limb, l limb | `stickbot-draft9p1p6` `500752af84dc92deea53f9e4` | `f30bf96cfeece59f61e0e7b2` | `F done - Phase F proved` `80c22eb7b8b0342ac03f8a6d` | `hinge` `62fca6aa5a67b51adcb2318c`, `u limb` `f3f8362fd5e9f31ee2fa5eb2`, `l limb` `261b7ee66567bab16d145c83` |
+| gripper | `stickbot-draft9p1p1` `4b2e0d48efd37d3327a90afb` | `a1af16872d25103815f1c32a` | `Recovery point` `0f4e9b6b36b5c1a6f45197e1` | `gripper` `32166c7b3d22572c0e7dd0c3` |
+
+**draft9p1p6's workspace no longer holds what its version holds.** Read at the workspace on
+2026-09-18, the `hinge` tab is missing the `fork` part and `u limb` is missing everything past its
+socket: 252 of the version's hinge faces and 249 of its upper-limb faces have no counterpart
+there. The version is intact. Re-capture the hinge and the two limbs from the version, not the
+workspace.
+
+**The gripper's frames are the nearest CAD, not an agreeing one.** Its socket collar is Ø18,
+which is the wall `make_plans.py` carried before `COLLAR_WALL` became `TORSO_H * 3 / 160`. No
+gripper has been built since.
+
+### Taking a frame again
+
+The plain views are `shadedviews`, server-side, 1000 × 1000:
+
+```
+GET /api/partstudios/d/{did}/v/{vid}/e/{eid}/shadedviews
+    ?viewMatrix={isometric|front|right|top|bottom}&outputHeight=1000&outputWidth=1000
+    &pixelSize=0&edges=show&showAllParts=true
+```
+
+The `cad-*-section.png` frames come from the GUI's Section view, because `shadedviews` cannot
+section: [`../../onshape-gui-howto.md`](../../onshape-gui-howto.md) § *Section: the GUI does it
+and `shadedviews` does not* holds the route and the view keys. Each frame is cropped to the
+canvas, with the view cube left in and the right-hand toolbar strip cut off.
+
+| Frame | Plane | View | px per mm |
+| ----- | ----- | ---- | --------- |
+| `cad-ball-and-socket-section.png` | Front | Front | 23.967 |
+| `cad-body-section.png` | Front | Front | 6.150 |
+| `cad-head-section.png` | Right | Right | 8.049 |
+| `cad-foot-section.png` | Right | Right | 7.124 |
+| `cad-u-limb-section.png` | Front | Front | 10.895 |
+| `cad-l-limb-section.png` | Front | Front | 9.887 |
+| `cad-gripper-section.png` | Front | Front | 21.970 |
+| `cad-hinge-section.png` | Right | Right | 8.833 |
+
+**The hinge's section is on the Right plane, not the Front.** Its pin axis is Y, so the Front
+plane is perpendicular to the pin and cuts the gap between the blade's two leaves: that section
+shows a flat arch and no joint. The Right plane cuts along the blade and gives the two leaves,
+the relief slit between them, both stub axles and the wedge rings edge-on.
+
+**`cad-hinge-section.png` carries the blade alone.** The tab lays its two parts end to end rather
+than engaged, with the blade's rod end at z = −38 mm and the fork's at z = +38 mm, so one section
+cannot hold both. `cad-hinge-right.png` is the picture of them meshing.
+
+**Its scale was measured off the frame, not read from the camera.** `onshape_screen.camera`
+returned nothing on this tab across two runs, so `zoom_to`'s target of 9 px per mm is not what the
+frame is known to be at. The Ø24 mm rod spans 212 px in the saved image, which is 8.833 px per mm.
+
 ## Every limb is a Ø24 cylinder
 
 `#limbD` = `#torsoH / 4` = 24. **Settled 2026-08-11, and the joints are sized to fit inside the

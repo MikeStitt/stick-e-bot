@@ -194,57 +194,109 @@ model, and the prose carries the argument without the picture.
 version. draft9p1p6 holds the settled joints; draft9p4 is meant to be the whole robot and is not
 finished. Until one of them is the answer, the citation cannot be written.
 
-## To do: survey the CAD for the best reference, part by part
+## Done: the CAD surveyed for the best reference, part by part
 
-**Find the CAD closest to `make_plans.py` and `make_brief_sheets.py`, working backwards from the
-most recently built.** The survey is what settles which document a brief cites, and it is owed
-before the edits above can be made.
+**Performed 2026-09-18.** Every stickbot document was listed from Onshape, every Part Studio in
+the twelve draft documents was read through `bodydetails`, the leading candidate for each part was
+compared against `make_plans.py`, and each one was then rendered, turned and sectioned and looked
+at. The frames and their provenance are in
+[`build-briefs/images/`](experiments/build-briefs/images/) and
+[`build-briefs/README.md`](experiments/build-briefs/README.md) § *Where the `cad-*.png` frames
+came from*.
 
-- **Reverse chronological, by build date**, not by version number: draft9p4, draft9p1p6,
-  draft9p1p5, draft9p1p4, draft9p1p2, draft9p1p1, draft9p1, draft9p0, and the run documents behind
-  them. The first match wins for each part, so the newest agreeing tab is the one cited. Don't go
-  farther back than draft9p4.
-- **Identify the workspace and the tab** for each part. A part's best CAD may not all live in one
-  document: on 2026-09-17 draft9p4's `hinge` was still bumps and valleys while draft9p1p6's was the
-  settled wedge ring, so the answer is per part, not per document.
-- **Agreement measured, and eyeballed from enough views and cross sections to confirm it is the
-  desired part.** `read_shape.py` and `diff_shape.py` against what `make_plans` computes, so
-  *closest* is a number; and then the part is looked at, turned, and sectioned until it is known to
-  be the part wanted. This is the Constitution's own rule — *look at the model, and keep turning it
-  until you know what it is*, and *a measurement never stands in for the picture: when a number and
-  a picture disagree, believe the picture and go fix the check*. An earlier draft of this task said
-  *measured, not eyeballed*, which had it backwards.
-- **Take a set of hero images per part, including cross sections.** A section is what the three
-  study renders could not do and what `shadedviews` does not offer, so the survey settles how a
-  section is produced before it promises one.
-- **Cite the workspace.** Settled 2026-09-17 by Mike: the cited workspaces will not be moved out
-  from under the citation. That is what makes a workspace citation safe here and it is why the
-  survey does not wait on versions several of these documents do not have.
-- **The frames live with the briefs**, in
-  [`build-briefs/images/`](experiments/build-briefs/images/), tracked, so a brief can point at them
-  and a reader gets them from a clone.
-- **[`build-briefs/README.md`](experiments/build-briefs/README.md) records where each frame came
-  from**, in enough detail to re-capture it: document name and id, workspace id, tab name and id,
-  the view, and the render call. A frame that cannot be re-taken from its own record is not
-  finished.
-- **Record, per part**: the document, the workspace, the tab, the frames taken, and where each
-  frame disagrees with the design source. A part with no agreeing CAD says so.
+### What each part's reference is
 
-*(mine)* Two of those cross rules that are written down, and both need a decision rather than
-silence.
+| Part | Document | Version | Tab | Agrees |
+| ---- | -------- | ------- | --- | ------ |
+| body | `stickbot-draft9p4` | `tutorial 8 - the foot` | `body` | yes |
+| head | `stickbot-draft9p4` | `tutorial 8 - the foot` | `head` | yes |
+| ball and socket | `stickbot-draft9p4` | `tutorial 8 - the foot` | `ball and socket` | yes |
+| foot | `stickbot-draft9p4` | `tutorial 8 - the foot` | `foot` | no, the tread |
+| hinge | `stickbot-draft9p1p6` | `F done - Phase F proved` | `hinge` | yes |
+| u limb | `stickbot-draft9p1p6` | `F done - Phase F proved` | `u limb` | yes |
+| l limb | `stickbot-draft9p1p6` | `F done - Phase F proved` | `l limb` | yes |
+| gripper | `stickbot-draft9p1p1` | `Recovery point` | `gripper` | no, the collar |
 
-- **Branch Policy says cite a named version, not a workspace.** Its words: *"Material that depends
-  on a reference document MUST cite a named version, not the live workspace — a workspace moves
-  under the class."* Mike's undertaking not to move them is the reason the risk is gone, but the
-  rule is a MUST and this is a deliberate departure from it. Either Branch Policy gains the
-  exception, or each citation carries both — the workspace to re-capture from, the version to prove
-  what was seen.
-- **The Capture-is-out gate refuses these frames.** `.gitignore:31` denies `*.png` everywhere and
-  un-ignores exactly one place, `instructions/*/source/images/**`. These are `shadedviews` output
-  and cannot be vector, so tracking them needs `.docs/experiments/build-briefs/images/**` un-ignored
-  and `check_images.py` widened to match. That is the gate written for 1,235 MB of interim capture
-  being asked to admit a small, deliberate, cited set — which is a real distinction and one the gate
-  cannot currently express.
+**The answer is per part, as the task expected.** draft9p4 is the newest document and its `hinge`
+tab still holds 264 faces with 48 spheres and 48 tori, which is the bump-and-valley joint
+draft9p3 built; draft9p1p6's holds 258 faces with 96 cones, which is the wedge ring. Neither
+document holds the whole robot at the settled joints.
+
+### What the numbers said
+
+Every number below is `make_plans.py`'s, and the read agreed with it to the fourth decimal.
+
+- **The settled socket** is in draft9p4, draft9p1p6, draft9p1p5 and draft9p1p4: collar radius
+  7.8 mm, cavity 6.08 mm, ball 6 mm, stalk 3 mm. draft9p3, draft9p2, draft9p1p1 and draft9p1 read
+  9 mm at the collar, which is the wall before `COLLAR_WALL` became `TORSO_H * 3 / 160`.
+- **The head** is 84.221 mm tall, which is `HEAD_H` 72 mm plus `COLLAR_PROUD` 12.2205 mm. Its
+  eyes stand 3 mm proud of a 60 mm deep body, which is what `head.md` asks for.
+- **The foot** reaches 2.221 mm above the ankle center, which is `GRIP`.
+- **The hinge and both limbs** carry `RING_OUT` 10.4494 mm, `RING_IN` 6 mm, `LIMB_FLAT`
+  20.8988 mm, 24 wedges as 48 cone faces a ring, a Ø4.0 stub axle on the blade and a Ø4.1 bore in
+  the fork. draft9p1p5 reads 10.392 mm across the flat and 9.992 mm at the ring, so it is the
+  joint before the fifteen degree step.
+
+### Four findings the survey turned up
+
+- **draft9p1p6's workspace has lost the fork and most of the upper limb.** Its register records
+  `hinge` as two parts, `blade` and `fork`, and `u limb` at 270 faces. Read on 2026-09-18 the
+  workspace gives one part and 258 faces for `hinge`, and 24 faces for `u limb`. `diff_shape.py`
+  against the version puts it exactly: 252 hinge faces and 249 upper-limb faces are in the
+  version and not in the workspace, and none of them is a face that moved. The document was last
+  modified 2026-09-17. **This is the risk Branch Policy's original rule named, happening to a
+  document this note was about to cite by workspace**, and it is why the table above cites
+  versions. draft9p4's workspace, diffed the same way against `tutorial 8 - the foot`, is
+  face for face identical on all four of its parts.
+- **The foot's tread grooves are closed voids inside the sole.** The sole renders smooth from
+  below, and the section on the Right plane shows eight rectangular cavities buried in the foot
+  with material under every one of them. Task #215 already said the groove cuts the wrong way;
+  the picture says it does not reach the outside at all.
+- **No gripper has been built since the socket wall changed.** draft9p1p1's is the newest of the
+  three and its collar is Ø18. The part is otherwise right: `CLIP_R` 5 mm and a Ø3.3 clip bore
+  both read true.
+- **Six of the eight briefs still carry the pre-wall socket.** `assembly.md`, `foot.md`,
+  `head.md`, `limbs.md` and `torso.md` hold 21 occurrences of 10.9465 mm and 1.9465 mm between
+  them, against the settled 12.2205 mm and 2.2205 mm, and `gripper.md` writes `2 × #collarR` out
+  as 18.0 mm where it is now 15.6 mm. Only `ball-and-socket.md` was brought forward, by task
+  #210, and `hinge.md` never had a socket in it. `head.md` also asks for the head to be shelled,
+  and the section shows it solid.
+
+### What the task got wrong about the order
+
+Reverse chronological by creation date is draft9p4 and draft9p4-check on 09-09, draft9p1p6 on
+09-08, draft9p1p5 on 09-04, draft9p1p4 on 09-02, **draft9p1p3 on 08-31**, draft9p1p2 on 08-30,
+draft9p3 on 08-29, draft9p2 on 08-28, draft9p1p1 on 08-27, draft9p1 on 08-25 and draft9p0 on
+08-23. The task's list left draft9p1p3 out and put draft9p3 and draft9p2 ahead of draft9p1p2
+rather than behind them. Neither changed an answer: draft9p1p3 is draft9p1p2's hinge unchanged in
+every measured number, and both are behind draft9p1p4 on the socket.
+
+The task also says *don't go farther back than draft9p4* under a heading that lists eight
+documents ending at draft9p0. It was read as naming where to start.
+
+### How a section is produced
+
+`shadedviews` cannot section. `cutPlane` and `sectionPlane` were passed to it and the image came
+back identical to the call without them, byte for byte, so Onshape ignores the parameter rather
+than refusing it. Sections come from the GUI's Section view instead, driven at a version where
+the document is read only. The route, the view keys and the scale each frame was shot at are in
+[`build-briefs/README.md`](experiments/build-briefs/README.md).
+
+**The hinge sections on the Right plane and not the Front**, because its pin axis is Y: the Front
+plane is perpendicular to the pin and cuts the gap between the blade's two leaves. The tab also
+lays the fork and the blade end to end rather than engaged, so the section holds the blade alone
+and `cad-hinge-right.png` carries the two of them meshing.
+
+### The two cross rules, resolved
+
+Both of the rules this task flagged were settled by the Constitution before the survey ran.
+
+- **Citing a workspace** is allowed as of 7.0.0. The table above cites versions anyway, for the
+  reason draft9p1p6 supplied.
+- **The Capture-is-out gate** stopped denying these frames at 6.0.0: `check_images.py` scopes the
+  capture rule to `^\.docs/experiments/runs/`, and `.gitignore` denies raster only under that
+  path and under any `capture/`. The 23 frames are 1.9 MB in total and `ninja check` passes with
+  them tracked.
 
 ## To do: clarify the definition in the memory
 
