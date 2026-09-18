@@ -194,8 +194,8 @@ four drafts.
 is already right, in a draft that is not planned yet.
 
 **REST is granted per document and does not carry.** The grant Mike made on 2026-09-14 names
-`stickbot-draft9p4`. `stickbot-draft9p5` needs its own, and Phase B of its plan cannot start
-without one.
+`stickbot-draft9p4`. **Mike granted REST for `stickbot-draft9p5` by name on 2026-09-18**, so
+Phase B is authorized in that document and in no other.
 
 ## The open work, by name
 

@@ -53,13 +53,13 @@ Build with the **top joint's center on the origin** and the limb running **downw
 bottom joint's center is at z = −48. That is the joint briefs' own frame and it makes both
 joint portions reusable.
 
-- A **socket** is a collar Ø18.0 standing 10.9465 proud — see
-  [`ball-and-socket.md`](ball-and-socket.md). Its material sits **below** its mouth face; on a
-  limb top that points down into the limb, and the ball drops in from above.
-- A **ball stud** is Ø12 on a Ø6 stalk, the stalk running **into** the limb.
-- A **fork** and a **blade** are both full slices of the Ø24 cylinder — see
-  [`hinge.md`](hinge.md). The fork spans the whole limb: slot 11.2, ears 6.8, tongue 10.0. The
-  tongue's corners land **on** the Ø24 surface, which is why the limb must be round.
+- - A **socket** is a collar Ø15.6 standing 12.2205 proud — see
+  [`ball-and-socket.md`](ball-and-socket.md). Its material sits **below** its mouth face; on a limb
+  top that points down into the limb, and the ball drops in from above. - A **ball stud** is Ø12 on
+  a Ø6 stalk, the stalk running **into** the limb. - A **fork** and a **blade** are both full slices
+  of the Ø24 cylinder — see [`hinge.md`](hinge.md). The fork spans the whole limb: slot 11.2, fork
+  prongs 6.8, blade blank 10.0. The blade blank's corners land **on** the Ø24 surface, which is why
+  the limb must be round.
 
 ## Suggested build order
 
@@ -70,12 +70,12 @@ Our best guess, not a tested path. Deviate where it does not work and say so.
 2. **Extrude the round stock, and it does not run the full 24.** Where it starts and stops is set
    by the joint at each end, not by the segment length:
    - **A socket top** wants the limb's top face at **z = −`#collar`** = −9.0, which is the
-     socket's root, so the collar reaching up to the mating face at +`#grip` = +1.9465 stands the
-     10.9465 the acceptance check asks for. Write it as the variables and not as the numbers: the
+     socket's root, so the collar reaching up to the mating face at +`#grip` = +2.2205 stands the
+     12.2205 the acceptance check asks for. Write it as the variables and not as the numbers: the
      root is placed off the ball's center and does not move with the fit, and the mating face does
      — [`ball-and-socket.md`](ball-and-socket.md) owns both.
    - **A blade top** wants the stock to stop **20 from the hinge axis** — `TAB_FREE`, per
-     [`hinge.md`](hinge.md), because the tongue occupies everything above that.
+     [`hinge.md`](hinge.md), because the blade blank occupies everything above that.
    - **A fork bottom** wants the stock to stop **21 from the hinge axis** — `EAR_FREE`. Earlier
      builds ran the rod on to the pin and filled the slot back in; [`hinge.md`](hinge.md) says
      what that costs.
@@ -104,30 +104,25 @@ Measure these. Do not infer them.
   untrimmed fork corners sat at radius 6.539 and the box still read 12.000 × 12.000, because the
   corners were off the axes. Measure the **radius at every 5° around the part**, or take the trim
   feature's volume delta and confirm it is non-zero. Both were done in run 3; the box alone would
-  have passed a bad part.
-- **Segment 48.000** between the two joint centers.
-- **Socket mouth Ø11.520** and **cavity volume 689.06 mm³** — the volume is what catches a socket
-  built upside down; the mouth measurement cannot tell the two apart.
-- **The socket collar stands 10.9465 proud**, measured as a z-extent, and its slits are 4.9465
-  deep and leave a 6.0 floor.
-- **Ball Ø12.000**, center on the axis at the station.
-- **Slot 11.200**, ears equal to each other at **6.800**; **tongue 10.000**, with a **4.000**
-  slit down it leaving two leaves of **3.000**.
-- **The land** on each ear's inner face: 20.8 along the slot, the whole face across, **0.400**
-  proud, so the seat measures **10.400** and the slot **11.200**.
-- **The rod's own length**, by bounding box: **32** on the upper arm and **18** on the other
-  three. This is the check that catches a rod run on to the pin.
-- **Thinnest wall anywhere in the part**, and where it is. **On the fork limb the honest answer
-  is zero**, and that is the design rather than a mistake: the ear is a slice of the Ø24 cylinder,
-  so it thins to nothing where its inner face at |y| = 5.6 meets the cylinder, at |x| = 10.6132 —
-  the 21.226 chord. It falls below one nozzle width over the last **0.221 mm** of that, and note
-  that this taper barely moved when the robot doubled: the nozzle sets it, not the limb. Report
-  the taper, and report the socket collar separately; the collar's real wall is **2.20**, not the
-  nominal 3.0, and run 3 measured 1.500 on the half-size part. Do not let either stand as the
-  other's answer.
-- **The relief slits open into the ball bore, and that is correct.** At `#slit_in` = 5.0 they
-  break through into the Ø12.16 cavity — the resulting edges sit at r3.459 = √(6.08² − 5.0²). Say so
-  in your notes so nobody later "fixes" it.
+  have passed a bad part. - **Segment 48.000** between the two joint centers. - **Socket mouth
+  Ø11.520** and **cavity volume 689.06 mm³** — the volume is what catches a socket built upside
+  down; the mouth measurement cannot tell the two apart. - **The socket collar stands 12.2205
+  proud**, measured as a z-extent, and its slits are 6.2205 deep and leave a 6.0 floor. - **Ball
+  Ø12.000**, center on the axis at the station. - **Slot 11.200**, fork prongs equal to each other
+  at **6.800**; **blade blank 10.000**, with a **4.000** slit down it leaving two leaves of
+  **3.000**. - **The land** on each fork prong's inner face: 20.8 along the slot, the whole face
+  across, **0.400** proud, so the seat measures **10.400** and the slot **11.200**. - **The rod's
+  own length**, by bounding box: **32** on the upper arm and **18** on the other three. This is the
+  check that catches a rod run on to the pin. - **Thinnest wall anywhere in the part**, and where it
+  is. **On the fork limb the honest answer is zero**, and that is the design rather than a mistake:
+  the fork prong is a slice of the Ø24 cylinder, so it thins to nothing where its inner face at |y|
+  = 5.6 meets the cylinder, at |x| = 10.6132 — the 21.226 chord. It falls below one nozzle width
+  over the last **0.221 mm** of that, and note that this taper barely moved when the robot doubled:
+  the nozzle sets it, not the limb. Report the taper, and report the socket collar separately; the
+  collar's real wall is **2.20**, not the nominal 3.0, and run 3 measured 1.500 on the half-size
+  part. Do not let either stand as the other's answer. - **The relief slits open into the ball bore,
+  and that is correct.** At `#slit_in` = 5.0 they break through into the Ø12.16 cavity — the
+  resulting edges sit at r3.459 = √(6.08² − 5.0²). Say so in your notes so nobody later "fixes" it.
 
 ## What this brief does not answer
 

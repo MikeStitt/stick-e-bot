@@ -101,9 +101,6 @@ constants as the student plan sheets. **Do not redraw a sheet by hand and do not
 change the script and re-run it, or the sheets and the plan will disagree. Each sheet is written
 as both `.svg` and `.png`; they are the same drawing.
 
-`images/run2-*.png` are renders of what run 2 actually built. They are there to show you the
-joint, and where a caption says so, to show you the defect being fixed. They are not the
-specification.
 
 ## Where the `cad-*.png` frames came from
 
@@ -177,9 +174,9 @@ limb — never the limb grown to fit a joint.** The hinge's fork is drawn as *fu
 and its corners land **on** the Ø24 surface.
 
 The nozzle sets the floor, not the sizes, and it does not scale with the robot — so at twice the
-size the same wall is twice as many perimeters and the floor is further away than it was. The ear
-is 6.4 because that is what makes it as strong as the tab it presses against, not because of any
-number of passes. Where a dimension has a reason, the reason is in the part's own brief.
+size the same wall is twice as many perimeters and the floor is further away than it was. The fork
+prong is 6.4 because that is what makes it as strong as the tab it presses against, not because of
+any number of passes. Where a dimension has a reason, the reason is in the part's own brief.
 
 Do not invent a section for a limb. If a brief seems to want one, that brief is wrong — say so
 rather than picking a number.

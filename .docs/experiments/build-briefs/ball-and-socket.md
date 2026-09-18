@@ -30,25 +30,13 @@ them.
 | Picture | What it settles |
 | ------- | --------------- |
 | [`images/brief-socket.svg`](images/brief-socket.svg) | the joint in section, dimensioned, sitting in a limb. **The authority on every number** |
-| [`images/study-socket-in-a-limb.png`](images/study-socket-in-a-limb.png) | what you are aiming at, in three dimensions |
-| [`images/study-socket-sectioned.png`](images/study-socket-sectioned.png) | the same thing cut in half, so the cavity and the mouth are visible |
-| [`images/study-socket-in-the-head.png`](images/study-socket-in-the-head.png) | the same socket in the head's flat face — the collar is round either way |
-| [`images/run2-ball-stud.png`](images/run2-ball-stud.png) | the stud run 2 built |
-| [`images/run2-socket-on-a-pad.png`](images/run2-socket-on-a-pad.png) | the socket run 2 built, and the shape problem below |
+| [`images/cad-ball-and-socket-iso.png`](images/cad-ball-and-socket-iso.png) | the stud seated in the socket, in three dimensions |
+| [`images/cad-ball-and-socket-section.png`](images/cad-ball-and-socket-section.png) | the same pair cut on the Front plane, so the cavity, the mouth and the slits are visible |
+| [`images/cad-ball-and-socket-front.png`](images/cad-ball-and-socket-front.png) | the pair square on |
 
-The `.png` beside the `.svg` is the same drawing, if your viewer will not open SVG.
-
-**The socket is round.** Run 2's socket reads as a square block because the brief told it to
-stand the collar on a 20 × 20 pad, and it did. On the robot this joint sits in the end of a Ø24
-limb — a cylinder — everywhere except the head, and even there the collar itself is round. This
-build now stands it on a limb stub, so what you build looks like what gets used.
-
-The `study-` renders come from **`socket-in-context`**, document
-`a60ad741d213d0ee34b573ec`, version **`socket-study-2026-08-12`**
-(`a918508ca1c4324c005923c5`) —
-[open](https://cad.onshape.com/documents/a60ad741d213d0ee34b573ec/v/a918508ca1c4324c005923c5/e/371701b2fae84ee9c9fa7acc).
-It is a FeatureScript study, so its numbers are constants at the top of the `socket study`
-Feature Studio; read them if a render and this brief seem to disagree.
+The three `cad-` frames are the reference CAD, not the specification;
+[`README.md`](README.md) § *Where the `cad-*.png` frames came from* says which document, workspace
+and version each was taken at.
 
 ## Read this before you build: run 1 got the socket the wrong way up
 

@@ -110,7 +110,7 @@ in the check document that is not in draft9p1p6; it is a subset built to newer r
 | `parent` | `draft9p1p6` for the four joint tabs' geometry, `draft9p1p1` for `body`, `head`, `foot`, `gripper` and the assembly, `draft9p4-check` for the hinge's build order |
 | `from` | nothing. Every feature is added to an empty document |
 | `builds` | `robot sizes`, `ball and socket`, `hinge`, `body`, `head`, `foot`, `u limb`, `l limb`, `gripper`, and the `stickbot` assembly |
-| `by` | REST, for every feature |
+| `by` | REST, for every feature. **Granted by Mike for `stickbot-draft9p5` by name, 2026-09-18** |
 | `gates` | *Model inspected* and *Recovery point* — proposed, not agreed |
 | `not claimed` | *Steps reproduce*, *Names are real*, *Links resolve*, *Floor & ceiling*, *Reading level* |
 
@@ -150,6 +150,52 @@ Before any feature is added. Each of these is a read, and each writes its answer
 - **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168
   and #215 each name a specific parameter or query, and each is either already right in the parent
   or is a correction this draft makes.
+
+## The names to build under
+
+**Every name below is what the new tab carries. The old name is listed so a record read from a
+parent document can be matched to it.** The reference records under `reference/` and the frames
+under [`../../build-briefs/images/`](../../build-briefs/images/) all predate these, so a name that
+does not appear in this table is unchanged.
+
+### The joint's vocabulary
+
+| Build it as | Not | Why |
+| ----------- | --- | --- |
+| `stub axle` | `axle stub` | already the CAD's name: `stub axle outline`, `stub axle`, `#stub`, `#stub_proud` |
+| `axle bore` | `pocket axle` | the two features `pocket axle sketch` and `pocket axle on fork` |
+| `blade leaf` | `blade ear`, `tab` | already what `#leaf_root`, `#leaf_tip` and `hinge_spring.py` call it |
+| `blade blank` | `tongue` | already the CAD's name for the extrude that makes it |
+| `fork prong` | `ear` | the whole of *ear* is retired |
+
+**`blade leaf` rather than `blade ear` avoids an inversion that nothing would have caught.** Under
+`blade ear` the word *ear* would have moved from the fork to the blade, so `EAR_FREE` — the
+**fork's** free length — would have kept its name while its meaning flipped.
+
+### The features that change name
+
+| Tab | Old | New |
+| --- | --- | --- |
+| `hinge` | `ear wedge outline`, `ear wedge`, `ear wedges` | `fork prong wedge outline`, `fork prong wedge`, `fork prong wedges` |
+| `hinge` | `pocket axle sketch`, `pocket axle on fork` | `axle bore sketch`, `axle bore on fork` |
+| `hinge` | `fork to robot connector`, `blade to robot connector` | `fork to robot`, `blade to robot` |
+| `body` | `neck connector`, `left shoulder connector`, `r shoulder connector`, `l hip connector`, `r hip connector` | `neck`, `left shoulder`, `right shoulder`, `left hip`, `right hip` |
+| `body` | `connector on torso shoulder`, `hip connector on torso`, `neck connector on torso` | `mate for shoulder stud`, `mate for hip stud`, `mate for neck stud` |
+| `body` | `hip connector location`, `neck connector location` | `hip stud location`, `neck stud location` |
+
+Everything else keeps the name its parent gave it. The step tables in the briefs already print the
+new names, so a tab built from a brief needs no translation.
+
+### The identifiers that have not moved
+
+**`make_plans.py` still exports `EAR`, `EAR_FREE`, `EAR_MOVE` and `EAR_STRESS`, and the briefs
+still cite them by those names.** The word was renamed in prose on 2026-09-18; the constants were
+not, because renaming them touches the design source and every sheet generated from it. So a brief
+may say *fork prong* in a sentence and `EAR` in the row beneath it, and both mean the fork's arm.
+Renaming the constants is its own change and is not draft9p5's.
+
+**`#ear` is not one of them.** That CAD variable is dropped, along with `#backlash`, because
+nothing reads either.
 
 ## Phase B — build, one tab at a time, in this order
 

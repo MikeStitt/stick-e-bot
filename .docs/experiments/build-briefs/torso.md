@@ -48,7 +48,7 @@ Two failure modes the build plan already knows about, both worth watching for:
 | stalk | 6 | plan | `#stalkD` = `#ballD / 2` |
 | shoulder half-spacing | 36 | plan | `#shoulderHalf` = `#torsoH * 3/8` — the torso's own side face |
 | hip half-spacing | 24 | plan | `#hipHalf` = `#torsoW / 2 − #limbD / 2` — a half-width less a half-limb, so the leg is flush with the side. `#torsoH / 4` gives the same 24 and is the wrong number — [`../runs/2026-08-25-draft9p1/a7-hip-shoulder.md`](../runs/2026-08-25-draft9p1/a7-hip-shoulder.md) |
-| stand-off | 10 | r2 | how far a ball center stands off the face it grows from. Set by the collar's sweep: the rim traces a sphere of radius `√(9.0² + 1.9465²)` = 9.208 about the ball, so 10 clears it |
+| stand-off | 10 | r2 | how far a ball center stands off the face it grows from. Set by the collar's sweep: the rim traces a sphere of radius `√(7.8² + 2.2205²)` = 8.110 about the ball, so 10 clears it |
 | neck boss | none | derived | the plan asked for a boss on the top face. It cannot buy the tilt it exists for, so it is not built. See below |
 | shoulder stud | see below | r2 | **settled.** Not perpendicular to the side face, and not a plain stalk |
 | hip stud | plain stalk | r2 | Ø6, standing 10 off the bottom face. A recess into the torso was considered and dropped: it buys no swing, because the 41.76° limit is set inside the socket by the mouth rim meeting the stalk |

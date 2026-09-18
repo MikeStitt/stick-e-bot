@@ -9,6 +9,7 @@ Three sheets, each answering a question prose kept failing to answer:
   brief-fork      why the fork is drawn as slices of the limb and not as a rectangle
   brief-detent    what the detent band and one bump actually look like, to scale
   brief-socket    what the socket looks like sitting in a limb rather than on a pad
+  brief-roots     where each member's rod stops, which earlier builds got wrong
 
 Every number comes from make_plans.py, so these sheets and the student plan sheets
 cannot drift apart.
@@ -33,6 +34,7 @@ from stickbot.make_plans import (
     COLLAR_L,
     COLLAR_WALL,
     EAR,
+    EAR_FREE,
     FLAT,
     GAP,
     GRIP,
@@ -40,12 +42,16 @@ from stickbot.make_plans import (
     LIMB_FLAT,
     MOUTH,
     RING_CON,
+    ROD_BLADE,
+    ROD_FORK,
     RING_IN,
     RING_OUT,
     SLIT_W,
     STALK,
     T_PRINT,
+    STUB,
     STUB_PROUD,
+    TAB_FREE,
     WEDGES,
     WEDGE_BIND,
     WEDGE_C,
@@ -174,6 +180,65 @@ def sheet_fork():
              "faces do. Let every face run out to the section.", "note", "middle"),
     ]
     return svg([geo] + lab, -470, -382, 940, 872, scale=2.2)
+
+
+# ---------------------------------------------------------------- sheet: roots
+#
+# Where each member's rod stops. Earlier builds ran one rod past the pin and into the
+# other member's swing, and no headline number caught it: both parts measured right and
+# the joint would not turn.
+
+
+def sheet_roots():
+    """The joint in elevation, pin on the origin, showing where each rod roots."""
+    S = 9                                      # 9 px per mm
+    r, ring = LIMB / 2, RING_OUT
+    fork_end, blade_end = EAR_FREE + ROD_FORK, TAB_FREE + ROD_BLADE     # 38 and 38
+
+    def P(px, py):
+        return (S * px, -S * py)
+
+    art = [
+        # the joint envelope: one round end of radius RING_OUT, shared by both members
+        f'<circle class="ghost" cx="0" cy="0" r="{ring:g}"/>',
+        # the fork runs up the page from the pin plane, the blade down
+        rect(-r, 0, LIMB, fork_end, "part"),
+        rect(-r, -blade_end, LIMB, blade_end, "mate"),
+        f'<circle class="void" cx="0" cy="0" r="{STUB / 2:g}"/>',
+        f'<path class="ctr" d="M {-r - 3:g},0 H {r + 3:g} '
+        f'M 0,{-blade_end - 3:g} V {fork_end + 3:g}"/>',
+    ]
+    geo = f'<g transform="scale({S},{-S})" class="det">{"".join(art)}</g>'
+
+    lab, x0 = [], S * r + 34
+    for a, b, name, side in (
+            (0, EAR_FREE, f"fork free {EAR_FREE:g} mm", False),
+            (EAR_FREE, fork_end, f"fork rod {ROD_FORK:g} mm", False),
+            (-TAB_FREE, 0, f"blade free {TAB_FREE:g} mm", True),
+            (-blade_end, -TAB_FREE, f"blade rod {ROD_BLADE:g} mm", True)):
+        x = x0 if not side else -x0
+        lab += [dim_v(P(0, b)[1], P(0, a)[1], x, name, left=side, rot=False)]
+    lab += [dim_v(P(0, fork_end)[1], P(0, 0)[1], x0 + 96,
+                  f"pin to rod end {fork_end:g} mm", left=False)]
+    lab += [dim_v(P(0, 0)[1], P(0, -blade_end)[1], -x0 - 96,
+                  f"pin to rod end {blade_end:g} mm", left=True)]
+    for y in (fork_end, EAR_FREE, 0, -TAB_FREE, -blade_end):
+        lab += [witness(S * r, P(0, y)[1], x0 + 102, P(0, y)[1]),
+                witness(-S * r, P(0, y)[1], -x0 - 102, P(0, y)[1])]
+
+    lab += [
+        text(0, P(0, fork_end)[1] - 40, "WHERE EACH ROD ROOTS", "lbl", "middle"),
+        text(0, P(0, fork_end)[1] - 29,
+             f"Each member reaches {fork_end:g} mm from the pin: its free length, then its rod.",
+             "note", "middle"),
+        text(0, P(0, -blade_end)[1] + 26,
+             "The two free lengths differ because the blade's leaves bend and the fork's "
+             "prongs do not.", "note", "middle"),
+        text(0, P(0, -blade_end)[1] + 37,
+             "A rod that starts short of its own root runs into the other member's swing, "
+             "and both parts still measure right.", "note", "middle"),
+    ]
+    return svg([geo] + lab, -300, -420, 600, 840, scale=2.2)
 
 
 # -------------------------------------------------------------- sheet: detent
@@ -441,7 +506,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, maker in (("brief-fork", sheet_fork),
                         ("brief-detent", sheet_detent),
-                        ("brief-socket", sheet_socket)):
+                        ("brief-socket", sheet_socket),
+                        ("brief-roots", sheet_roots)):
         path = OUT / f"{name}.svg"
         path.write_text(maker())
         print(f"wrote {path.relative_to(OUT.parents[4])}")

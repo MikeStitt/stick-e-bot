@@ -39,7 +39,7 @@ or an angled tread would break that and cost a whole extra part.
 | top fillet | 8 | **proposed** | heavy, so it reads as a boot rather than a slab |
 | socket collar Ø | 18.0 | derived | 2 × (ball 6.0 + wall 3.0) — see [`ball-and-socket.md`](ball-and-socket.md) |
 | socket collar length | 9.0 | derived | `#collar` = `#ball / 2 + #wall`, the ankle ball's center to the collar's root — [`ball-and-socket.md`](ball-and-socket.md) |
-| ankle boss, proud of the plate | 13.9465 | derived | `#grip + #plate` = 1.9465 + 12. Of that, 10.9465 is the collar itself and **3.0 is a pedestal the foot puts under it**, which is `#plate − #collar`. Earlier drafts read that pedestal as the foot failing to reach a collar length of 11.0; it is not a failure, it is the foot standing its socket high enough to clear a 12 mm plate |
+| ankle boss, proud of the plate | 14.2205 | derived | `#grip + #plate` = 2.2205 + 12. Of that, 12.2205 is the collar itself and **2.0 is a pedestal the foot puts under it**, which is `#plate − #collar`, where `#collar` is now `#stand` = 10. Earlier drafts read that pedestal as the foot failing to reach a collar length of 11.0; it is not a failure, it is the foot standing its socket high enough to clear a 12 mm plate |
 | sole ribs | 6 wide × 2 deep | **proposed** | `#rib_w` and its depth, across the sole, linear pattern |
 | tread repeat | 12 | derived | `2 × #rib_w` — groove and land. It divides the 96 sole **eight** times, which is the count |
 | tread offset | **3** | derived | `#rib_w / 2`, so the groove is centered in its own repeat |
@@ -98,9 +98,9 @@ Measure these. Do not infer them.
   visible crease in the rendered image as well as checking the constraints.
 - **Socket mouth Ø11.520** and **cavity volume 689.06 mm³**. The volume is what catches a socket
   built upside down.
-- **The ankle boss stands `#grip + #plate` = 13.9465 proud** of the plate's top face, measured as
-  a z-extent, and **3.0 of that is pedestal**. The collar itself is 10.9465, the same as on every
-  other socketed part; `#pedestal` = `#plate − #collar` = 3.0 makes up the rest, and it is a whole
+- **The ankle boss stands `#grip + #plate` = 14.2205 proud** of the plate's top face, measured as
+  a z-extent, and **2.0 of that is pedestal**. The collar itself is 12.2205, the same as on every
+  other socketed part; `#pedestal` = `#plate − #collar` = 2.0 makes up the rest, and it is a whole
   number because the collar's root is now placed off the ball's center. Measure both: the boss as a
   z-extent, and the step where the pedestal meets the collar's root at z = −9.0. Do not move the
   plate to close it. See

@@ -7,9 +7,9 @@ crest and a 75 N pinch. The run is
 [`../runs/2026-09-08-draft9p1p6/plan.md`](../runs/2026-09-08-draft9p1p6/plan.md).
 
 **Rewritten on 2026-09-04 around the wedge detent.** Everything before this rewrite described a
-detent made of 45° cones dropping into holes bored through the ear. That joint was built, printed
-and measured, and it held 210 N·mm where it was drawn for 454. The printer had put supports in the
-valley holes and they could not be picked out; 0.235 mm of residue in a valley, one extrusion
+detent made of 45° cones dropping into holes bored through the fork prong. That joint was built,
+printed and measured, and it held 210 N·mm where it was drawn for 454. The printer had put supports
+in the valley holes and they could not be picked out; 0.235 mm of residue in a valley, one extrusion
 width, accounts for the whole loss. There are no holes in the joint now except the bore.
 
 The design source is [`make_plans.py`](../../../src/stickbot/make_plans.py), the numbers
@@ -24,45 +24,43 @@ the workspace link labeled as live. See [`../../../.parts/onshape.md`](../../../
 **This is a specification, not a lesson.** Build it in Onshape, find the click path that works, and
 write down what actually happened.
 
-Build **both halves in one Part Studio**, because the point is whether the ears straddle the tongue
-and the axle lands in the bores.
+Build **both halves in one Part Studio**, because the point is whether the fork prongs straddle the
+blade blank and the axle lands in the bores.
 
 ## The idea being tested
 
-- The **fork** is two ears, on the limb nearer the torso.
-- The **blade** is a flat tongue on the limb further out, sitting between the ears.
-- The blade carries an **axle** standing proud of both its faces; each ear is **bored through** on
-  the same line. Pinch the two leaves together, slide the tongue in, let go, and the axle springs
-  into the bores.
-- Both mating faces carry a **ring of wedges**. A detent is one member's wedge sitting between two
-  of the other's, so the joint clicks between positions and holds a pose.
+- - The **fork** is two fork prongs, on the limb nearer the torso. - The **blade** is a flat blade
+  blank on the limb further out, sitting between the fork prongs. - The blade carries an **axle**
+  standing proud of both its faces; each fork prong is **bored through** on the same line. Pinch the
+  two leaves together, slide the blade blank in, let go, and the axle springs into the bores. - Both
+  mating faces carry a **ring of wedges**. A detent is one member's wedge sitting between two of the
+  other's, so the joint clicks between positions and holds a pose.
 
-The two parts are named `fork` and `blade`. The tongue, the ears and the leaves are named parts of
-them, not parts of their own.
+The two parts are named `fork` and `blade`. The blade blank, the fork prongs and the leaves are
+named parts of them, not parts of their own.
 
 ## What changed from the joint before this one, and why
 
-- **The detent is a protrusion on both members, not a protrusion into a hole.** A hole through an
-  ear prints with support in it. A protrusion has nothing to clean out. This is the whole reason for
-  the change and every other difference follows from it.
-- **The two faces no longer touch.** They used to seat on each other across a 0.15 fit. They now
-  stand `GAP` 0.90 apart, which is one wedge plus 0.15 of air over its tip, and nothing bears except
-  wedge on wedge.
-- **Assembly is a pinch, not a press.** Squeezing the two leaves toward each other until the axle
-  clears the ear's face takes **75.2 N**. Pushing the tongue down the slot the old way would take
-  **182.7 N** on this geometry and rises the whole way in. The joint is sized on the pinch.
-- **The leaves taper**, 4.20 at the root to 1.50 at the tip. The taper is nearly free: taking the
-  tip from 3.00 to 1.50 costs 7% of the detent torque, and giving the root 3.00 to 4.20 buys 35%.
-- **The joint has backlash, and it did not before.** 2.29° at a detent, which is 15% of a step.
-  Backlash is set by `T_PRINT` and a radius, not by the pitch, so halving the step barely moved it
-  and it doubled as a share of one step.
+- - **The detent is a protrusion on both members, not a protrusion into a hole.** A hole through an
+  fork prong prints with support in it. A protrusion has nothing to clean out. This is the whole
+  reason for the change and every other difference follows from it. - **The two faces no longer
+  touch.** They used to seat on each other across a 0.15 fit. They now stand `GAP` 0.90 apart, which
+  is one wedge plus 0.15 of air over its tip, and nothing bears except wedge on wedge. - **Assembly
+  is a pinch, not a press.** Squeezing the two leaves toward each other until the axle clears the
+  fork prong's face takes **75.2 N**. Pushing the blade blank down the slot the old way would take
+  **182.7 N** on this geometry and rises the whole way in. The joint is sized on the pinch. - **The
+  leaves taper**, 4.20 at the root to 1.50 at the tip. The taper is nearly free: taking the tip from
+  3.00 to 1.50 costs 7% of the detent torque, and giving the root 3.00 to 4.20 buys 35%. - **The
+  joint has backlash, and it did not before.** 2.29° at a detent, which is 15% of a step. Backlash
+  is set by `T_PRINT` and a radius, not by the pitch, so halving the step barely moved it and it
+  doubled as a share of one step.
 
 ## The drawings
 
 | Drawing | What it settles |
 | ------- | --------------- |
-| the hinge detail on [`plan-parts.svg`](../../../instructions/robot-guide/source/images/plan-parts.svg) | the section along the limb, and one ear's face square on with both rings on it |
-| [`../../reviews/hinge/source/images/burial.png`](../../reviews/hinge/source/images/burial.png) | where each limb's rod stops, which is the thing earlier builds got wrong |
+| the hinge detail on [`plan-parts.svg`](../../../instructions/robot-guide/source/images/plan-parts.svg) | the section along the limb, and one fork prong's face square on with both rings on it |
+| [`images/brief-roots.svg`](images/brief-roots.svg) | where each limb's rod stops, which is the thing earlier builds got wrong |
 
 The `run2-` and `brief-` renders in `images/` are the joint two and three revisions ago. They are
 kept as a record and are not what to build.
@@ -86,7 +84,7 @@ Every row is `make_plans.py`. Import it rather than copying it: `BLADE`, `LEAF_R
 | What | mm | Source |
 | ---- | -- | ------ |
 | the limb | 24 | plan — `LIMB`, and every face of both parts is a slice of this rod |
-| the tongue | 10.00 | plan — `BLADE`, across |
+| the blade blank | 10.00 | plan — `BLADE`, across |
 | one leaf, at its root | 4.20 | plan — `LEAF_ROOT` |
 | one leaf, at the tip | 1.50 | plan — `LEAF_TIP` |
 | the slit | 1.60 | derived — `SLIT` = `BLADE - 2 * LEAF_ROOT`, opening to 7.00 at the tip |
@@ -95,20 +93,20 @@ Every row is `make_plans.py`. Import it rather than copying it: `BLADE`, `LEAF_R
 | the printer's error | 0.10 | plan — `T_PRINT`, per surface, so clearances are checked against twice it |
 | the gap | 0.90 | derived — `GAP` = `WEDGE_H + WEDGE_C`, face to face at a detent |
 | the slot | 11.80 | derived — `SEAT` = `BLADE + 2 * GAP`, cut through the limb, the whole depth |
-| the ear | 6.10 | derived — `EAR` = `(LIMB - SEAT) / 2`, whatever the slot leaves |
+| the fork prong | 6.10 | derived — `EAR` = `(LIMB - SEAT) / 2`, whatever the slot leaves |
 | the flat | 10.4494 | derived — `FLAT` = `sqrt(NOSE² - (SEAT / 2)²)`, off the limb's axis |
 | the limb, top to bottom | 20.8988 | derived — `LIMB_FLAT` = `2 * FLAT` |
 | the round end | 12 | derived — `NOSE` = `LIMB / 2`, on both parts, every end, about the pin |
-| the tongue stands out | 32 | plan — `BLADE_OUT` |
+| the blade blank stands out | 32 | plan — `BLADE_OUT` |
 | the slot is cut | 33 | derived — `SLOT_DEEP` = `BLADE_OUT + 1`, from the fork's tip |
-| the tongue's root | 20 | derived — `TAB_FREE` = `BLADE_OUT - NOSE`, from the pin |
-| the ear's root | 21 | derived — `EAR_FREE` = `SLOT_DEEP - NOSE`, from the pin |
+| the blade blank's root | 20 | derived — `TAB_FREE` = `BLADE_OUT - NOSE`, from the pin |
+| the fork prong's root | 21 | derived — `EAR_FREE` = `SLOT_DEEP - NOSE`, from the pin |
 | the forearm and shin rod | 18 | derived — `ROD_BLADE` = `LIMB_CENTER - STAND - TAB_FREE` |
 | the thigh's rod | 17 | derived — `ROD_FORK` = `LIMB_CENTER - COLLAR_L - EAR_FREE` |
 | the upper arm's rod | 32 | derived — `ROD_ARM` = `LIMB_CENTER + SHOULDER_INSET - EAR_FREE` |
-| the axle | Ø4.0 | plan — `STUB`, one extrude 16.0 long across the tongue, ±8.0 |
-| the axle stands proud | 3.00 | derived — `STUB_PROUD` = `2 * WEDGE_H + 1.50`, off each tongue face |
-| the bore | Ø4.1 | derived — `BORE_D` = `STUB + 0.1`, through each ear |
+| the axle | Ø4.0 | plan — `STUB`, one extrude 16.0 long across the blade blank, ±8.0 |
+| the axle stands proud | 3.00 | derived — `STUB_PROUD` = `2 * WEDGE_H + 1.50`, off each blade blank face |
+| the bore | Ø4.1 | derived — `BORE_D` = `STUB + 0.1`, through each fork prong |
 | engaged at a detent | 2.10 | derived — `STUB_PROUD - GAP` |
 | engaged riding a crest | 1.50 | derived — `STUB_PROUD - 2 * WEDGE_H` |
 | the climb | 0.60 | derived — `CLIMB` = `2 * WEDGE_H - GAP` |
@@ -186,9 +184,9 @@ is also what sets `WEDGE_INSET`; change it and the width has to be re-derived.
 
 ## Which side of the joint each feature is on
 
-**The axle is on the blade and the bore goes through the fork.** A hole straight through an ear
-prints without a ceiling over it, where a blind pocket needs one, and the spring arithmetic does not
-care which side the axle is on.
+**The axle is on the blade and the bore goes through the fork.** A hole straight through an fork
+prong prints without a ceiling over it, where a blind pocket needs one, and the spring arithmetic
+does not care which side the axle is on.
 
 The old rule was that *every* protrusion is on the blade and every hole in the fork, so that nothing
 on the fork could foul the axle. That rule is gone, because both members now carry wedges. The thing
@@ -215,11 +213,11 @@ assembly force is set by the leaves, and the leaves are what to change if it is 
 
 ## The leaves are what make it assemblable, and they are pinched, not pressed
 
-The ear and the leaf are springs in **series**: the same force through both, sharing the movement in
-inverse proportion to stiffness. But assembly does not load them in series at all. A hand squeezes
-the two leaves toward each other, the ear takes no part, and the tongue slides in with the axle
-already clear. That is **75.2 N** with a finger 30 mm out from the tongue's root, against 182.7 N to
-push the same joint together the old way.
+The fork prong and the leaf are springs in **series**: the same force through both, sharing the
+movement in inverse proportion to stiffness. But assembly does not load them in series at all. A
+hand squeezes the two leaves toward each other, the fork prong takes no part, and the blade blank
+slides in with the axle already clear. That is **75.2 N** with a finger 30 mm out from the blade
+blank's root, against 182.7 N to push the same joint together the old way.
 
 **The pinch and the detent are not independent, and that is what makes the joint hard to size.**
 Both are the same leaf bending over the same span, root to pin. A leaf thick enough to hold a detent
@@ -258,36 +256,33 @@ bounding box, every time.
 
 ### Stage 1 — the mechanical joint, no wedges
 
-- A limb rod Ø24 for each half, one above the axis and one below. The blade's rod stops **20 from
-  the axis**; the fork's stops **21 behind it**.
-- The **blade**: 10.00 thick, its width the full chord, with a round end of radius 12 centered on
-  the hinge axis, standing 32 out of its own limb.
-- The **slit**: up the middle of the tongue the whole way from the round end to the tongue's root,
-  **1.60 at the root opening to 7.00 at the tip**, leaving two tapered leaves.
-- The **fork**: two ears either side of a 11.80 slot, each ear a full slice of the limb, same r12
-  round end. The ear's outer surface **is** the Ø24 cylinder; there is no outer plane on it.
-- The **flats**: top and bottom of both limbs cut to `FLAT` 10.4494 off the axis, 20.8988 across.
-- The **axle** Ø4.0 across the blade, coaxial with the hinge axis, so it stands 3.00 proud of each
-  tongue face. The slit cuts it rather than it bridging the slit.
-- The **bores** Ø4.1 through each ear, coaxial. That is 0.05 a side, inside one `T_PRINT`, so
+- - A limb rod Ø24 for each half, one above the axis and one below. The blade's rod stops **20 from
+  the axis**; the fork's stops **21 behind it**. - The **blade**: 10.00 thick, its width the full
+  chord, with a round end of radius 12 centered on the hinge axis, standing 32 out of its own limb.
+  - The **slit**: up the middle of the blade blank the whole way from the round end to the blade
+  blank's root, **1.60 at the root opening to 7.00 at the tip**, leaving two tapered leaves. - The
+  **fork**: two fork prongs either side of a 11.80 slot, each fork prong a full slice of the limb,
+  same r12 round end. The fork prong's outer surface **is** the Ø24 cylinder; there is no outer
+  plane on it. - The **flats**: top and bottom of both limbs cut to `FLAT` 10.4494 off the axis,
+  20.8988 across. - The **axle** Ø4.0 across the blade, coaxial with the hinge axis, so it stands
+  3.00 proud of each blade blank face. The slit cuts it rather than it bridging the slit. - The
+  **bores** Ø4.1 through each fork prong, coaxial. That is 0.05 a side, inside one `T_PRINT`, so
   whether it comes out a clearance or an interference is a question about the printer.
 
 **Check stage 1 before going on:**
 
-- **Parts (2)**, and they do not intersect. Ear inner face to tongue face: **0.90**, everywhere.
-- The axle sits **2.10** inside the bore.
-- The bore is a bore: from the ear's inner face at 5.90 out to its outer surface at 12.00.
-- **The blade's own limb clears the fork's ear tips when the joint folds.** The tips sweep 12 from
-  the axis and the blade's rod ends at 20, so there is 8 to spare.
-- Bounding-box every rod. 32, 17 and 18, and not one of them 12 longer.
+- - **Parts (2)**, and they do not intersect. Ear inner face to blade blank face: **0.90**,
+  everywhere. - The axle sits **2.10** inside the bore. - The bore is a bore: from the fork prong's
+  inner face at 5.90 out to its outer surface at 12.00. - **The blade's own limb clears the fork's
+  prong tips when the joint folds.** The tips sweep 12 from the axis and the blade's rod ends at 20,
+  so there is 8 to spare. - Bounding-box every rod. 32, 17 and 18, and not one of them 12 longer.
 
 ### Stage 2 — the two rings of wedges
 
-- **24 wedges on each face of the tongue**, and **24 on each ear's inner face**, all four rings on
-  the same radii and the same 15° pitch.
-- Each is an annular sector `RING_IN` 6.00 to `RING_OUT` 10.4494, `WEDGE_W` 11.5127° across,
-  extruded `WEDGE_H` 0.75 with a 45° inward draft.
-- The blade's rings and the fork's rings are **phased a half step apart**, 7.5°, so the parts as
+- - **24 wedges on each face of the blade blank**, and **24 on each fork prong's inner face**, all
+  four rings on the same radii and the same 15° pitch. - Each is an annular sector `RING_IN` 6.00 to
+  `RING_OUT` 10.4494, `WEDGE_W` 11.5127° across, extruded `WEDGE_H` 0.75 with a 45° inward draft. -
+  The blade's rings and the fork's rings are **phased a half step apart**, 7.5°, so the parts as
   drawn sit at a detent rather than crest on crest.
 
 **Check stage 2:**
@@ -311,10 +306,10 @@ bounding box, every time.
 
 | | |
 | --- | --- |
-| pinch to assemble | **75.2 N**, with a finger 30 mm out from the tongue's root, against a 100 N budget |
+| pinch to assemble | **75.2 N**, with a finger 30 mm out from the blade blank's root, against a 100 N budget |
 | worst stress pinching | leaf **38.3 MPa**, against PETG's 50, and this is the governing case |
 | detent hold | **641 N·mm** frictionless, **1332** at µ 0.35, and only 4 of the 24 carry |
-| worst stress holding | ear 12.9, leaf 8.4 MPa |
+| worst stress holding | fork prong 12.9, leaf 8.4 MPa |
 | twist-off | **1889 N·mm** at 13.3°, and it is a floor |
 | at the hand, 150 mm out | 0.44 kgf, which is 25× the 26 N·mm the arm needs to not droop |
 | the step | **15°** |
@@ -341,42 +336,38 @@ still worth measuring on a printed part.
 
 ## What would make this design fail
 
-- **The rod buries the root.** Covered above. It is the failure with the biggest number attached.
-- **The draft is left off, or opened past 45°.** A wedge with a square top has no self-relieving
-  inner end, its tip bears and wears, and its flanks need support to print.
-- **The two rings are phased together instead of a half step apart.** The parts then sit crest on
-  crest, every measurement is 0.60 out, and it looks like a fit problem.
-- **`WEDGE_C` cut further.** It is already 0.15, inside `2 * T_PRINT`, so a crest that over-prints
-  can land on the face opposite and the faces get held apart by the wrong thing. That is accepted
-  here and it is what the print is for; taking it lower is not.
-- **The axle shortened below `2 * WEDGE_H`.** The joint lets go of the pin every time it crosses a
-  detent and the blade walks out of the fork.
-- **Merge scope defaulted.** See the tool lessons below. It is the most common way this Part Studio
-  comes out looking right and measuring wrong.
-- **The weak axis.** The tongue's sideways strength is 6144 N·mm against the fork's 6493. That is a
-  child picking the robot up by its forearm, and it is the weakest thing in the joint. It is
-  accepted, and the two members are within 6% of each other rather than a factor of two apart.
+- - **The rod buries the root.** Covered above. It is the failure with the biggest number attached.
+  - **The draft is left off, or opened past 45°.** A wedge with a square top has no self-relieving
+  inner end, its tip bears and wears, and its flanks need support to print. - **The two rings are
+  phased together instead of a half step apart.** The parts then sit crest on crest, every
+  measurement is 0.60 out, and it looks like a fit problem. - **`WEDGE_C` cut further.** It is
+  already 0.15, inside `2 * T_PRINT`, so a crest that over-prints can land on the face opposite and
+  the faces get held apart by the wrong thing. That is accepted here and it is what the print is
+  for; taking it lower is not. - **The axle shortened below `2 * WEDGE_H`.** The joint lets go of
+  the pin every time it crosses a detent and the blade walks out of the fork. - **Merge scope
+  defaulted.** See the tool lessons below. It is the most common way this Part Studio comes out
+  looking right and measuring wrong. - **The weak axis.** The blade blank's sideways strength is
+  6144 N·mm against the fork's 6493. That is a child picking the robot up by its forearm, and it is
+  the weakest thing in the joint. It is accepted, and the two members are within 6% of each other
+  rather than a factor of two apart.
 
 ## What earlier builds proved, so you do not retest it
 
-- Boolean and Mirror both need **Reapply features** ticked, or they fail with *"Could not create all
-  instances as entered."*
-- **Merge scope must be set by hand on almost every Add and Remove.** Onshape defaults to *Merge
-  with all*, which silently welds the two parts into one. **An empty scope is worse: it is accepted
-  and does nothing at all**, with a preview that looks right. Run 3 lost both the fork trim and the
-  fork's slot that way and only mass properties caught it. Assert the field's text contains the part
-  name before accepting.
-- **A feature's stored direction flag is the only way to tell a no-op click from a correct
-  default.** Every feature built on an offset plane here needs the flip on, and the extrude dialog
-  carries the flip over from the previous extrude, so it is not reliably off when the dialog opens
-  and "click it once" is not a rule you can apply blind.
-- **The axle must be added before the ear is bored** — the parts genuinely interfere between those
-  two features, so feature order is load-bearing.
-- With *Starting offset* enabled, the offset direction has **its own flip control**, separate from
-  the main direction's. Getting this wrong put a rod straight through the fork and looked fine in
-  preview. **Check bounding boxes after any offset extrude.**
-- **Midpoint would not apply** between a rectangle edge and a circle; **Tangent** does the same job
-  and reads as better design intent.
+- - Boolean and Mirror both need **Reapply features** ticked, or they fail with *"Could not create
+  all instances as entered."* - **Merge scope must be set by hand on almost every Add and Remove.**
+  Onshape defaults to *Merge with all*, which silently welds the two parts into one. **An empty
+  scope is worse: it is accepted and does nothing at all**, with a preview that looks right. Run 3
+  lost both the fork trim and the fork's slot that way and only mass properties caught it. Assert
+  the field's text contains the part name before accepting. - **A feature's stored direction flag is
+  the only way to tell a no-op click from a correct default.** Every feature built on an offset
+  plane here needs the flip on, and the extrude dialog carries the flip over from the previous
+  extrude, so it is not reliably off when the dialog opens and "click it once" is not a rule you can
+  apply blind. - **The axle must be added before the fork prong is bored** — the parts genuinely
+  interfere between those two features, so feature order is load-bearing. - With *Starting offset*
+  enabled, the offset direction has **its own flip control**, separate from the main direction's.
+  Getting this wrong put a rod straight through the fork and looked fine in preview. **Check
+  bounding boxes after any offset extrude.** - **Midpoint would not apply** between a rectangle edge
+  and a circle; **Tangent** does the same job and reads as better design intent.
 
 ## Recommended steps
 

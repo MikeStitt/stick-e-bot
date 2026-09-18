@@ -57,7 +57,7 @@ Report what you actually inserted.
 rotation and nothing else, so the blade cannot slide along its own axis and there is no
 translation for a Width mate to remove. draft9p1 measured it: thirteen free instances give 78
 degrees of freedom, nine Ball mates remove 27 and four Revolutes remove 20, leaving 31, which is
-9 × 3 + 4 × 1 and every one of them a rotation. The tongue's 0.20 mm of clearance each side at
+9 × 3 + 4 × 1 and every one of them a rotation. The blade blank's 0.20 mm of clearance each side at
 the seat is a fit in the printed solid, not a degree of freedom in the assembly.
 
 ## Suggested build order
@@ -113,7 +113,8 @@ Measure these, in the rest pose. Do not infer them.
 
 - **The robot stands 317.00 mm** from the sole to the top of the head, in the assembly, measured,
   with the sole at z = −178.0 and the top of the head at +139.00. **This number moved twice.**
-  draft9p1's A2 tightened `#fit` to 0.08, which shortened `#grip` from 3.6 to 1.9465 and let the
+  draft9p1's A2 tightened `#fit` to 0.08, which shortened `#grip` from 3.6 to 1.9465, and task #159
+  later took the wall to 1.8 mm and `#grip` to 2.2205, and let the
   head sit that much higher on its ball; draft9p1p1's A2 then placed the head's underside off the
   neck ball's center rather than off the collar's rim, which took the last 0.0535 out and, more to
   the point, **took `#fit` out of the height altogether**. Drive the fit and this number must not
@@ -125,7 +126,7 @@ Measure these, in the rest pose. Do not infer them.
 - **Degrees of freedom**, read off Onshape rather than counted by hand. Say what it reports and
   whether it matches the joint count.
 - **Every ball joint's actual swing**, measured by posing it until it stops. `make_plans.py` derives
-  **±41.76°** per side, so **83.5°** of cone at a socket with the collar 10.9465 proud. **That is
+  **±39.013°** per side, so **78.0°** of cone at a socket with the collar 12.2205 proud. **That is
   more than the half-size robot had**, which was ±37.09°. draft9p0 had ±31.86° and A2 bought the
   swing back: the limit is the mouth rim meeting the stalk, `asin(#mouth / 2 / #cavity) −
   asin(#stalk / 2 / #cavity)`, and tightening `#fit` moves both terms the right way. The neck is a
@@ -155,21 +156,20 @@ Measure these, in the rest pose. Do not infer them.
 
 ## Open questions to report on
 
-- **Does the detent actually hold a pose?** In CAD a revolute mate turns freely; the detent is a
-  print-time feature. Say what the mate does and note that the click cannot be tested here.
-- **Can a person put this robot together at all?** The hinge's snap presses home against **5.18
-  kgf**, solved as a contact problem in `src/stickbot/hinge_spring.py`, and there are four hinges
-  and eight ball joints. An earlier revision of this brief said 36.3 kgf; that came from adding the
-  teeth up as independent springs, which overstates the press about eightfold, and from a tongue
-  with no slit in it. The assembly cannot test the real number either — but it is the first document
-  that has all thirteen joints in one place, so it is the right place to say it out loud. See
-  [`hinge.md`](hinge.md).
-- **Does the ball mate reach the swing the socket geometry allows**, or does something else bind
-  first — a limb rim, the torso's face, a collar? The plan's whole argument for standing the
-  collar proud is that the joint should be limited by the joint. This is the first chance to
-  find out whether it is.
-- **What does the bill of materials say the part count is?** If the limbs collapsed, it should
-  disagree with the plan's part table. Report both numbers and do not reconcile them.
+- - **Does the detent actually hold a pose?** In CAD a revolute mate turns freely; the detent is a
+  print-time feature. Say what the mate does and note that the click cannot be tested here. - **Can
+  a person put this robot together at all?** The hinge's snap presses home against **5.18 kgf**,
+  solved as a contact problem in `src/stickbot/hinge_spring.py`, and there are four hinges and eight
+  ball joints. An earlier revision of this brief said 36.3 kgf; that came from adding the teeth up
+  as independent springs, which overstates the press about eightfold, and from a blade blank with no
+  slit in it. The assembly cannot test the real number either — but it is the first document that
+  has all thirteen joints in one place, so it is the right place to say it out loud. See
+  [`hinge.md`](hinge.md). - **Does the ball mate reach the swing the socket geometry allows**, or
+  does something else bind first — a limb rim, the torso's face, a collar? The plan's whole argument
+  for standing the collar proud is that the joint should be limited by the joint. This is the first
+  chance to find out whether it is. - **What does the bill of materials say the part count is?** If
+  the limbs collapsed, it should disagree with the plan's part table. Report both numbers and do not
+  reconcile them.
 
 ## Recommended steps
 

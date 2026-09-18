@@ -10,7 +10,7 @@ rather than the same. Where a value is still a run 3 measurement of the half-siz
 Run 3 built this and corrected it in three places: the shell opens the **back**, not the underside;
 the recess does **not** buy the tilt this brief claimed; and the socket had no relief slits.
 
-**The neck socket is now the standard collar**, the same Ø18.0 collar standing 10.9465 proud, four
+**The neck socket is now the standard collar**, the same Ø15.6 collar standing 12.2205 proud, four
 relief slits that every other socketed part carries — decided 2026-08-13 and built into head
 `run 5.1` on 2026-08-14
 ([build notes](../runs/2026-08-13-head-collar/build-notes.md)). Runs 3 to 5 built it as
@@ -49,7 +49,7 @@ everything cut into the part — eyes standing proud, a mouth cut in, and a sock
 | collar rim, the part's lowest point | z = −47.0 | derived | `36 + #collarL`. The mouth is in this face |
 | socket collar Ø | 18.0 | derived | `2 × (6.0 + 3.0)` — [`ball-and-socket.md`](ball-and-socket.md) owns it |
 | socket collar length | 9.0 | derived | `#collar` = `#ball / 2 + #wall`, the neck ball's center to the collar's root |
-| socket collar, proud | 10.9465 | derived | `#collar + #grip`, the rim to the underside |
+| socket collar, proud | 12.2205 | derived | `#collar + #grip`, the rim to the underside, where `#collar` is `#stand` = 10 |
 | relief slits | 4 × 1.6, 4.9465 deep | plan | cut down from the collar's top face to `#ball / 4` below the ball's center, leaving a 6.0 floor |
 | socket cavity r | 6.8 | derived | `#ballD`/2 + `#fit`, inside the collar |
 | shell thickness | 1.2 | run 3 | **not built, and never has been.** Three perimeters at a 0.4 mm nozzle. Whether the head is shelled at all is undecided |
@@ -82,8 +82,8 @@ measures where it lands, so these are results rather than targets:
 | top of the head | +139.00 | and the ground falls at −178, so the figure is **317.00** tall |
 
 `make_plans.py` computes all four and that file settles any disagreement. The collar stands
-10.9465 between the rim and the underside where the bored socket runs 3 to 5 built stood only its
-recess, so the underside is at +67.00 rather than +58.05 and the top of the head at +139.00 rather
+12.2205 between the rim and the underside where the bored socket runs 3 to 5 built stood only its
+recess, so the underside is at +68.00 rather than +58.05 and the top of the head at +140.00 rather
 than +130.05. Nothing below the neck moved.
 
 **The underside is placed off the ball's center, not off the rim**, which is what makes the figure
@@ -97,8 +97,8 @@ not adjust anything to recover a round figure — that 317.00 is round is a coin
 the collar's root landed, and nothing was tuned to reach it.
 
 **The collar rows come from [`ball-and-socket.md`](ball-and-socket.md) and are not this brief's to
-change.** The head is the sixth part to carry that socket and it carries it unaltered: same Ø18.0,
-same 10.9465 proud, same four 1.6 slits, same 2.92 mm of real material at the thinnest. What is
+change.** The head is the sixth part to carry that socket and it carries it unaltered: same Ø15.6,
+same 12.2205 proud, same four 1.6 slits. What is
 different here is only which way up it faces — see step 7.
 
 Between run 3 and run 5 this brief said the opposite, and the reasoning is worth keeping because
@@ -121,17 +121,18 @@ torso's top face:
 - The ball joint itself is good for **±41.76°** — `BALL_SWING` in `make_plans.py`, set by the
   mouth rim meeting the stalk and by nothing on this part. It was ±37.09° before the robot doubled
   and ±31.86° at draft9p0, which kept `#grip` while everything else grew; A2 tightened `#fit` to
-  0.08, `#grip` fell to 1.9465, and the swing came back with more than it started with.
+  0.08, `#grip` fell to 1.9465, and the swing came back with more than it started with. Task #159
+  later took the wall to 1.8 mm and `#grip` to 2.2205.
 - Whatever stands between the head's underside and the torso's top face is the whole budget.
 
-**The collar is 10.9465 mm of that standing between them, where the boss was 2.0.** The head's
+**The collar is 12.2205 mm of that standing between them, where the boss was 2.0.** The head's
 socket
-center sits `#grip` = 1.9465 inside its mouth face, and the ball center stands `#stand` = 10 off
+center sits `#grip` = 2.2205 inside its mouth face, and the ball center stands `#stand` = 10 off
 the torso's top face, so with the socket bored flush the underside cleared the torso by
 
-    #stand − #grip + recess = 10 − 1.9465 + 2.0 = 10.05
+    #stand − #grip + recess = 10 − 2.2205 + 2.0 = 9.78
 
-and with the collar it clears by `#stand + #collarL` = **19.0**. That is the change: the head's
+and with the collar it clears by `#stand + #collarL` = **20.0**. That is the change: the head's
 underside goes from +58.05 to +67.00 and the gap it swings in nearly doubles.
 
 ### What that is worth in degrees is not settled
@@ -173,15 +174,15 @@ Our best guess, not a tested path. Deviate where it does not work and say so.
    about the head's centerline. Extrude them **proud**, Add. Report what Onshape's ellipse tool
    asks for and in what order.
 5. **Mouth**: a **Slot** across the face, extrude **Remove**.
-6. **Neck socket collar**: a Ø18.0 circle on the underside, centered on the neck axis, extruded
-   **10.9465 proud**, Add. There is no recess and no boss — the underside is flat and the collar
+6. **Neck socket collar**: a Ø15.6 circle on the underside, centered on the neck axis, extruded
+   **12.2205 proud**, Add. There is no recess and no boss — the underside is flat and the collar
    stands on it. Build it per [`ball-and-socket.md`](ball-and-socket.md), which owns every number
    in it.
 7. **The cavity, and which way up.** Material sits **above** the mouth face here, because the head
    sits on top of the ball and the ball enters from below. **This is the joint's other
    orientation**: read that brief's warning about upside-down sockets and work out which way up you
    need before you cut anything. The mouth is in the collar's end face at z = −47.0, and the
-   cavity center is 1.9465 above it.
+   cavity center is 2.2205 above it.
 8. **Four relief slits**, 1.6 wide, cut 8.0 through the collar wall and leaving a 3.0 floor, so the
    mouth can open. **The collar is upside down here**, so the slits are cut from the end nearest
    the head's body, not from the rim — read that brief's step 6 with this part's orientation in
@@ -225,14 +226,14 @@ Measure these. Do not infer them.
   `36 + #collar`, and it is a whole number because the collar's root is placed off the ball's
   center. Placed, the top of the head lands at **+139.00** and the figure comes out **317.00** tall.
 - **The collar stands 10.947 proud**, measured as the z-extent from the underside to the rim, and
-  its outside is **Ø18.000**.
+  its outside is **Ø15.600**.
 - **The rim is four arcs, not a circle** — the check that the slits actually opened the mouth.
   Measure one arc's included angle; four equal arcs separated by four 1.6 gaps.
 - **The slits are 4.947 deep and leave a 6.000 floor.** Measure the z-extent of a slit's cut face
   and the material left beyond it. A Remove extrude can arrive with `oppositeDirection` set and put
   half the cut into empty air with every feature still green.
 - **Socket mouth Ø11.520**.
-- **The cavity center sits 1.9465 above the rim plane**, not below it. This is the check that
+- **The cavity center sits 2.2205 above the rim plane**, not below it. This is the check that
   catches a socket built the wrong way up, and this head's socket is the wrong way up **on
   purpose**, so state the sign you expect *before* you measure. It used to be written as a volume
   — cavity 1132.65 mm³ against a wrong-way-up 184.44, which are the two pieces the rim plane cuts a

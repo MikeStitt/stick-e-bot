@@ -59,7 +59,7 @@ to leave a mouth the bar snaps through.
 | clip wall | 3.35 | derived | (10 − 3.3) / 2, so it moves if the bore does |
 | mouth | 2.6 | **proposed** | the gap the bar snaps through, narrower than the bar |
 | gripper length | 24 | plan | wrist center to the bottom of the gripper — `#gripperL`, `#torsoH / 4`. Not `#gripL`: `#grip` is the socket's 3.6 and the two must not be confusable |
-| body width | `2 × #collarR` = **18.0** | plan | the clip body along the bar's axis. It is the collar's own diameter, so the socket standing on it is flush all the way round. Typed as 9.4 once, stale twice — [`../runs/2026-08-25-draft9p1/a10-gripper.md`](../runs/2026-08-25-draft9p1/a10-gripper.md) |
+| body width | `2 × #collarR` = **15.6** | plan | the clip body along the bar's axis. It is the collar's own diameter, so the socket standing on it is flush all the way round. Typed as 9.4 once, stale twice — [`../runs/2026-08-25-draft9p1/a10-gripper.md`](../runs/2026-08-25-draft9p1/a10-gripper.md) |
 | mouth angle | ±52.0° | derived | `asin(#mouth / #bore)` — where the two lips come 2.6 apart across the bore. Not a chosen angle |
 
 **This table lists only what the gripper adds.** The wrist socket's numbers live in
@@ -73,7 +73,7 @@ the socket overhung the body it stood on. The model built the body **9.4** acros
 exactly the collar's outside diameter at the time — measured, not inferred: `clip body` was a
 symmetric extrude of 9.4, and the part measured 9.4 across that axis.
 
-**Settled: the width is `2 × #collarR` both ways, and the top of the part is a flat 18 × 18
+**Settled: the width is `2 × #collarR` both ways, and the top of the part is a flat 15.6 × 15.6
 square.** Two things were wrong with it as built, and both come from the same cause.
 
 - **It was not flush.** The top of the gripper meets the socket edge to edge now: the body's top is
@@ -87,7 +87,8 @@ square.** Two things were wrong with it as built, and both come from the same ca
   [`../runs/2026-08-26-draft9p1p1/a/a3-gripper.md`](../runs/2026-08-26-draft9p1p1/a/a3-gripper.md),
   which measures the reference robot's own construction alongside it.
 - **It was a typed number, and it went stale twice.** The collar moved to Ø9.0 and 9.4 did not
-  follow, leaving a 0.4 overhang; then the collar moved again, to Ø18.0, and 9.4 was barely half of
+  follow, leaving a 0.4 overhang; then the collar moved again, to Ø18.0 and later to Ø15.6, and 9.4
+  was barely half of
   what it had to support. A number that goes stale twice in two design changes is not going to
   stop, which is why this is an expression and not a measurement.
 
@@ -105,7 +106,7 @@ afterwards.
 gripper's collar does not stand on a Ø24 round limb, so the annular step round the collar foot is
 not the 3.0 that brief describes; on the half-size part it was irregular, about 1.7 in x and near
 nothing in y, and the collar's bottom edge came back as **eight arcs, not four**. Expect it to be
-irregular again, and expect it to be *worse*: a Ø18.0 collar on a Ø10 clip body overhangs the clip
+irregular again, and expect it to be *worse*: a Ø15.6 collar on a Ø10 clip body overhangs the clip
 in every direction, where the Ø9.4 collar sat inside it. Measure the step and report its shape
 rather than a single number. Everything else in that brief applies unchanged.
 
@@ -189,7 +190,7 @@ part that has no slits; see [`foot.md`](foot.md).
   nothing else.
 - **Reopened: the socket collar now overhangs the clip.** It was answered on the half-size part —
   run 4 measured the clip at r 5.000 on x = +3 and the collar at r 4.700 on the axis, so the clip
-  was the wider of the two and the collar overhung nothing. At Ø18.0 against Ø10 the collar is
+  was the wider of the two and the collar overhung nothing. At Ø15.6 against Ø10 the collar is
   much the wider, which is the same problem the body-width TODO describes and is the reason that
   TODO is now the first thing to fix rather than a tidy-up.
 - Does the clip need a chamfer on its leading edges so the bar cams it open, rather than being
