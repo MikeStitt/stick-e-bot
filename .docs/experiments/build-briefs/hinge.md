@@ -19,7 +19,8 @@ joint it reviewed and says at its end what changed.
 
 **Before you write the report: publish a named version, and open the report with a "Where the work
 is" section** — document name, document id, element id, version name and id, the version link, and
-the workspace link labeled as live. See [`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md).
+the workspace link labeled as live. See
+[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md).
 
 **This is a specification, not a lesson.** Build it in Onshape, find the click path that works, and
 write down what actually happened.

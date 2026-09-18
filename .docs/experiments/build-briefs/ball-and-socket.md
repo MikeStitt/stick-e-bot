@@ -1,10 +1,10 @@
 # Build brief — the ball and socket
 
-**Before you write the report: publish a named version, and open the report with a "Where the
-work is" section** — document name, document id, element id, version name and id, the version
-link, and the workspace link labeled as live. See
-[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md). The model outlives this text only if
-someone can find it.
+**Before you write the report: publish a named version, and open the report with a "Where the work
+is" section** — document name, document id, element id, version name and id, the version link, and
+the workspace link labeled as live. See
+[`../../../.claude/skills/onshape/SKILL.md`](../../../.claude/skills/onshape/SKILL.md). The model
+outlives this text only if someone can find it.
 
 **This is a specification, not a lesson.** Your job is to build it in Onshape, find the click
 path that works, and write down what actually happened. The lesson gets written from your notes
