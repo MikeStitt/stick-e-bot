@@ -10,6 +10,18 @@ decided — read them.
 The foot carries the **ankle socket** and stands on the ground. Two are printed; only the right
 one is modeled, and it is drawn symmetric so that one part serves both ankles.
 
+## The frames
+
+| Frame | What it shows |
+| ----- | ------------- |
+| [`images/cad-foot-iso.png`](images/cad-foot-iso.png) | the sole, the rounded toe and heel, and the ankle socket |
+| [`images/cad-foot-bottom.png`](images/cad-foot-bottom.png) | the sole from below |
+| [`images/cad-foot-section.png`](images/cad-foot-section.png) | cut on the Right plane, through the ankle socket and the tread |
+
+**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
+`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
+what is wrong with the part it shows.
+
 ## The idea being tested
 
 **A plan shape belongs on a plan-parallel face.** The foot's outline is something you see from

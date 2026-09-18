@@ -10,6 +10,21 @@ This one brief covers the upper arm, forearm, thigh and shin, because once the l
 cylinder they are the same two parts. See *Four limbs, two parts* below — that is a finding, not
 a decision, and it is the first thing to report on.
 
+## The frames
+
+| Frame | What it shows |
+| ----- | ------------- |
+| [`images/cad-u-limb-iso.png`](images/cad-u-limb-iso.png) | the upper limb: socket at one end, fork at the other |
+| [`images/cad-u-limb-right.png`](images/cad-u-limb-right.png) | from the right |
+| [`images/cad-u-limb-section.png`](images/cad-u-limb-section.png) | cut on the Front plane, through the socket and the axle bore |
+| [`images/cad-l-limb-iso.png`](images/cad-l-limb-iso.png) | the lower limb: blade at one end, ball stud at the other |
+| [`images/cad-l-limb-right.png`](images/cad-l-limb-right.png) | from the right |
+| [`images/cad-l-limb-section.png`](images/cad-l-limb-section.png) | cut on the Front plane, through the blade and the stud |
+
+**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
+`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
+what is wrong with the part it shows.
+
 ## The stock
 
 | Name | mm | Source | What it is |

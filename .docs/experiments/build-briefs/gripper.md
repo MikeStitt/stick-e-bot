@@ -25,6 +25,18 @@ Whether the part should now be hand-shaped is a design decision and this brief d
 but it is no longer blocked by geometry, and saying so is the whole point of a brief that tracks
 its own reasons.
 
+## The frames
+
+| Frame | What it shows |
+| ----- | ------------- |
+| [`images/cad-gripper-iso.png`](images/cad-gripper-iso.png) | the socket, the body and the C clip |
+| [`images/cad-gripper-front.png`](images/cad-gripper-front.png) | square on |
+| [`images/cad-gripper-section.png`](images/cad-gripper-section.png) | cut on the Front plane, through the socket cavity and the clip |
+
+**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
+`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
+what is wrong with the part it shows.
+
 ## The idea being tested
 
 **A part shaped so it has no handedness, and an interface sized by something outside the

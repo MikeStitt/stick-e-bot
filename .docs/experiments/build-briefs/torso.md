@@ -18,6 +18,18 @@ The torso is a box carrying **five ball studs** — neck, two shoulders, two hip
 part in the robot with a left and a right inside a single part, and that is what it exists to
 teach.
 
+## The frames
+
+| Frame | What it shows |
+| ----- | ------------- |
+| [`images/cad-body-iso.png`](images/cad-body-iso.png) | the torso with its five ball studs and two shoulder bosses |
+| [`images/cad-body-front.png`](images/cad-body-front.png) | square on, so the shoulder and hip stations line up |
+| [`images/cad-body-section.png`](images/cad-body-section.png) | cut on the Front plane, through the neck and hip studs |
+
+**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
+`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
+what is wrong with the part it shows.
+
 ## The idea being tested
 
 **Make the shape its own part, copy the part, let Boolean do the merging.** A ball stud made

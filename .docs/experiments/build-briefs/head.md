@@ -21,6 +21,18 @@ Everything below is written to the collar; where a run measured the bored versio
 The head is one part. It carries the **neck socket** on its underside and a face — two eyes and
 a mouth — on its front. Shelling it removes most of the plastic; how much is worked out below.
 
+## The frames
+
+| Frame | What it shows |
+| ----- | ------------- |
+| [`images/cad-head-iso.png`](images/cad-head-iso.png) | the arch, the domed top, the two eyes and the mouth slot |
+| [`images/cad-head-right.png`](images/cad-head-right.png) | from the right, where the eyes stand 3 mm proud of the face |
+| [`images/cad-head-section.png`](images/cad-head-section.png) | cut on the Right plane, through the neck socket |
+
+**These are the reference CAD, not the specification.** [`README.md`](README.md) § *Where the
+`cad-*.png` frames came from* names the document, workspace and version each was taken at, and
+what is wrong with the part it shows.
+
 ## The idea being tested
 
 **A profile drawn from arcs and lines, tangent throughout, then given a face.** The head is the
