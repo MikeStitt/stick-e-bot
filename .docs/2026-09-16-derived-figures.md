@@ -6,6 +6,33 @@ picture disproves. The second is worse, because a correct drawing under a false 
 checked. This note says which drawings should be generated, which should be frozen, and what makes
 the difference cheap rather than a standing maintenance cost.
 
+
+## Derived is not the same as current — found 2026-09-18
+
+**A generated figure goes stale exactly as fast as a typed one if nobody re-runs the generator.**
+Regenerating the brief sheets on 2026-09-18, as a side effect of adding `brief-roots`, changed two
+of the three that were already there:
+
+- **`brief-detent.svg` drew twelve wedges at 30&#176; pitch**, which is draft9p1p5's joint. The
+  settled joint is twenty-four at 15&#176;, and draft9p1p6 settled it on 2026-09-08. The sheet also
+  carried a crest base of 3.4586 mm where it is 2.0996 mm, and a developed radius of 9.2423 mm
+  where it is 9.6994 mm.
+- **`brief-fork.svg` drew the limb's flat at 10.3923 mm**, where `FLAT` is 10.4494 mm.
+
+`brief-socket.svg` was current, because task #155 re-ran the generator after the socket wall
+changed. The student plan sheets were current too: regenerating them changed nothing.
+
+**The difference is a ninja target.** `make_plans` has one, so `plan-parts.svg` and
+`plan-assembly.svg` rebuild whenever the design source moves. `make_brief_sheets` had none, so its
+sheets only changed when somebody remembered — and between draft9p1p5 and draft9p1p6 nobody did.
+The target exists now, as `ninja brief-sheets`.
+
+**What it cost.** The briefs' README says the drawings are part of the brief and to read them before
+the numbers table, and `hinge.md` lists `brief-detent.svg` in its drawings table. Anyone building
+the hinge from that sheet would have built the superseded joint, and every number in the brief's
+prose beside it would have agreed with the joint they were not building.
+
+
 ## Both patterns already exist here
 
 **Derived figures**, driven by the design source: `make_plans.py` emits the two plan sheets and

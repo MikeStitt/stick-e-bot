@@ -108,6 +108,14 @@ build clean-hinge: rmbuild
 
 build plan: plans | src/stickbot/make_plans.py
 
+rule brief-sheets
+  command = uv run python -m stickbot.make_brief_sheets --no-render
+  description = re-render the build briefs' drawings from their numbers
+  pool = console
+
+build brief-sheets: brief-sheets | src/stickbot/make_brief_sheets.py $
+  src/stickbot/make_plans.py
+
 rule hinge-figures
   command = uv run python .docs/reviews/hinge/make_figures.py
   description = re-render the hinge review's drawings from their numbers
