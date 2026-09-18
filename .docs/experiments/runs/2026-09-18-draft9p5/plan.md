@@ -250,8 +250,23 @@ depends on a person noticing something.
 - **Diff it against its parent**, with `diff_shape.py` for what came out and `diff_features.py` for
   what each feature was told. A difference is either a correction this draft intends, and is named
   in the register, or it is a defect.
-- **Look at it.** The hero views and the section, rendered and opened. A measurement never stands
-  in for the picture: face counts, areas and bounding boxes can all agree while the shape is wrong.
+- **Name the features the part should have, then look until each one has a verdict.** Write the
+  list first, from the brief's *Recommended steps*, and for each feature pick a view it is visible
+  in and say whether the CAD matches it or does not. A tread shows from below; a bore shows from
+  the end or in a section; a wedge ring shows square on. A feature with no view in the set is a
+  feature nobody looked at, and a view nobody opened is the same thing with a filename.
+
+  **Open every frame you keep, and count the selected pixels before keeping it.** The survey of
+  2026-09-18 rendered twenty-four frames, looked at sixteen, and put all twenty-four into the
+  briefs; three of the eight unopened ones carried a selected face or a lit mate connector with its
+  tooltip. `onshape_screen.selected` turns "looks clean" into a number.
+
+- **Read the brief's prose and check the part against what it says, not only against its numbers.**
+  The brief names what the part should *be*; the numbers say only how big it is. draft9p4's foot
+  passes every acceptance number and its tread is eight sealed voids inside the sole where
+  `foot.md` says open notches across it, and nothing measured caught that. Where the part and the
+  sentence disagree, say which is wrong: the brief can be stale, and six of the eight were on
+  2026-09-18.
 - **Hold the section beside the tab's `brief-*.svg` sheet**, and compare them as two drawings of
   the same thing rather than as two sets of numbers. `ball and socket` has `brief-socket.svg`;
   `hinge`, `u limb` and `l limb` have `brief-fork.svg`, `brief-detent.svg` and `brief-roots.svg`.
@@ -274,6 +289,11 @@ depends on a person noticing something.
 
 ### Ring 3 — the robot, when every tab is in
 
+- **Look at the assembled robot** — front, side and isometric — beside
+  [`../../build-briefs/images/plan-assembly.svg`](../../build-briefs/images/plan-assembly.svg),
+  which draws those first two views with every part named and every station dimensioned. The
+  survey of 2026-09-18 read the eight parts and never opened the assembly at all, so nothing yet
+  says the robot looks like the sheet.
 - **The assembly's mates all resolve**, and the figure stands at the height `make_plans.py`
   computes.
 - **Every joint moves through its range** without the parts interfering.
