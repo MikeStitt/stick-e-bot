@@ -100,10 +100,37 @@ five unclaimed gates ask for written steps, a link or a session, none of which t
 **Prose style and Spelling are on neither list**, because neither is run-scoped. `register.md` is
 held to both, the same as everything else committed here.
 
+## Where this draft's output goes
+
+| What | Where |
+| ---- | ----- |
+| Phase A's answers, and every read a ring takes | `results/` |
+| The ids of the document, its workspace and its ten tabs | `results/ids.md` |
+| The scripts that drive REST | `scripts/` |
+| Frames kept from Ring 2 and Ring 3 | [`../../build-briefs/images/`](../../build-briefs/images/) |
+| The register | `register.md`, at this folder's root |
+
+**`results/` holds no images.** The *Capture is out* gate refuses a tracked raster image anywhere
+under `.docs/experiments/runs/`, so a frame worth keeping goes to the briefs' images folder and is
+named in the brief that shows it. A frame not worth keeping is not committed.
+
+**This draft writes no `reference/`.** It reads its parents' records where they sit:
+[`../2026-09-08-draft9p4/reference/`](../2026-09-08-draft9p4/reference/) for the four joint tabs,
+[`../2026-08-29-draft9p3/reference/`](../2026-08-29-draft9p3/reference/) for `body`, `head`, `foot`,
+`gripper` and the assembly.
+
+## Phase A0 — create `stickbot-draft9p5`
+
+- **Create the document empty**, and in it the ten tabs the declaration names: the `robot sizes`
+  Variable Studio, the eight Part Studios, and the `stickbot` Assembly. Nothing is copied and
+  nothing is branched.
+- **Record the ids** — document, workspace, and one element per tab — in `results/ids.md`.
+- **Read the document's name back from Onshape before the first `POST`.** The REST grant names
+  `stickbot-draft9p5` and no other document.
+
 ## Phase A — settle what cannot be measured from a record
 
-Before any feature is added. Each of these is a read, and each writes its answer into
-`reference/` beside the records already there.
+Each of these is a read, and each writes its answer into `results/`.
 
 - **Walk every expression** in `robot-sizes.features.json` and each tab's, and write down the first
   geometry feature that reads each variable, following chains of variable-reads-variable. That is
@@ -125,9 +152,9 @@ Before any feature is added. Each of these is a read, and each writes its answer
 ## The names to build under
 
 **Every name below is what the new tab carries. The old name is listed so a record read from a
-parent document can be matched to it.** The reference records under `reference/` and the frames
-under [`../../build-briefs/images/`](../../build-briefs/images/) all predate these, so a name that
-does not appear in this table is unchanged.
+parent document can be matched to it.** The parents' reference records and the frames under
+[`../../build-briefs/images/`](../../build-briefs/images/) all predate these, so a name that does
+not appear in this table is unchanged.
 
 ### The joint's vocabulary
 
