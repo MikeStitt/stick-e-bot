@@ -7,7 +7,7 @@ from make_plans.py, so these sheets cannot describe a robot the design source do
 Three sheets, each answering a question prose kept failing to answer:
 
   brief-fork      why the fork is drawn as slices of the limb and not as a rectangle
-  brief-detent    what the detent band and one bump actually look like, to scale
+  brief-detent    what the wedge ring and one wedge actually look like, to scale
   brief-socket    what the socket looks like sitting in a limb rather than on a pad
   brief-roots     where each member's rod stops, which earlier builds got wrong
 

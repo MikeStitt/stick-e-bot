@@ -27,10 +27,16 @@ changed. The student plan sheets were current too: regenerating them changed not
 sheets only changed when somebody remembered — and between draft9p1p5 and draft9p1p6 nobody did.
 The target exists now, as `ninja brief-sheets`.
 
-**What it cost.** The briefs' README says the drawings are part of the brief and to read them before
-the numbers table, and `hinge.md` lists `brief-detent.svg` in its drawings table. Anyone building
-the hinge from that sheet would have built the superseded joint, and every number in the brief's
-prose beside it would have agreed with the joint they were not building.
+**Why nobody caught it: no brief points at either one.** `brief-socket.svg` is referenced twice by
+`ball-and-socket.md` and was kept current; `brief-roots.svg` is referenced by `hinge.md` and is new.
+`brief-fork.svg` and `brief-detent.svg` are referenced by no live brief at all, and `hinge.md`
+carries a blanket sentence saying the `brief-` renders are two and three revisions old and are not
+what to build. A figure nobody reads is a figure nobody notices has rotted.
+
+**It was known in August and answered with prose.** `runs/2026-08-13-run4/parked.md` item 8 records
+`brief-fork.svg` drawing the old fork, says the drawing is hand-authored with no generator, and
+resolves it by warning beside the link. `make_brief_sheets.py` gave it a generator afterwards and
+nobody re-ran it, so the warning outlived the problem it described and then outlived its own truth.
 
 
 ## Both patterns already exist here

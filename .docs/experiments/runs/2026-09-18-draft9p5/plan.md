@@ -148,11 +148,14 @@ Before any feature is added. Each of these is a read, and each writes its answer
   `mate for neck stud`, with the two sketches under them `hip stud location` and
   `neck stud location`. `hinge`'s two become `fork to robot` and `blade to robot`.
 - **Run `ninja brief-sheets` and confirm nothing changes.** The sheets are an input, not an
-  illustration: the briefs' README says to read the drawing before the numbers table, and
-  `hinge.md` lists `brief-detent.svg` in its drawings table. Two of them sat a joint generation
-  behind until 2026-09-18 — `brief-detent.svg` drew twelve wedges at 30&#176; and `brief-fork.svg`
-  drew the flat at 10.3923 mm, which are draft9p1p5's numbers. Both are correct now and there is a
-  ninja target, so this is a check and not a job.
+  illustration: the briefs' README says to read the drawing before the numbers table. Two of them
+  sat a joint generation behind until 2026-09-18 — `brief-detent.svg` drew twelve wedges at
+  30&#176; and `brief-fork.svg` drew the flat at 10.3923 mm, which are draft9p1p5's numbers. Both
+  are correct now and there is a ninja target, so this is a check and not a job.
+- **Confirm every sheet is referenced by the brief that owns it.** `brief-fork.svg` and
+  `brief-detent.svg` were referenced by nothing, which is why their rot went unseen for two drafts,
+  and `brief-fork.svg` had already been recorded as stale in August 2026 and answered with a
+  warning rather than a redraw.
 - **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168
   and #215 each name a specific parameter or query, and each is either already right in the parent
   or is a correction this draft makes.
@@ -247,9 +250,23 @@ depends on a person noticing something.
 - **Diff it against its parent**, with `diff_shape.py` for what came out and `diff_features.py` for
   what each feature was told. A difference is either a correction this draft intends, and is named
   in the register, or it is a defect.
-- **Look at it.** The hero views and the section, rendered and opened, against the frames in
-  [`../../build-briefs/images/`](../../build-briefs/images/). A measurement never stands in for the
-  picture: face counts, areas and bounding boxes can all agree while the shape is wrong.
+- **Look at it.** The hero views and the section, rendered and opened. A measurement never stands
+  in for the picture: face counts, areas and bounding boxes can all agree while the shape is wrong.
+- **Hold the section beside the tab's `brief-*.svg` sheet**, and compare them as two drawings of
+  the same thing rather than as two sets of numbers. `ball and socket` has `brief-socket.svg`;
+  `hinge`, `u limb` and `l limb` have `brief-fork.svg`, `brief-detent.svg` and `brief-roots.svg`.
+  Say which sheet was used and what was compared on it.
+
+  **This is a different check from measuring against `make_plans`, and it catches a different
+  thing.** The sheets are generated from `make_plans` too, so a number that agrees with one agrees
+  with the other. What a sheet carries that a constant does not is the **shape**: how many wedges
+  and at what pitch, which member the axle stands on, where a rod stops, which way up the socket
+  sits. `brief-detent.svg` drew twelve wedges at 30&#176; against the settled twenty-four at
+  15&#176; for two drafts, and every number in the hinge brief's prose beside it was right. Only
+  the picture was wrong, and only a picture would have caught it.
+- **A tab with no sheet says so.** `body`, `head`, `foot` and `gripper` have none, so their
+  drawing check is the plan sheets, `plan-parts.svg` and `plan-assembly.svg`, which `make_plans`
+  generates and which a ninja target keeps current.
 - **Score the construction** against the rulings in the table above, by hand. There is no checker
   and one is out of scope until the models are right.
 - **Publish a named version** before moving to the next tab, so the next tab derives from something
