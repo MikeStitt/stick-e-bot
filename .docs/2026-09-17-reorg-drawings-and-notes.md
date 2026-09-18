@@ -281,6 +281,12 @@ documents, the head is exact in the one that was cited, and the hinge reference 
 draft9p1p6's version, which is complete, proved and published, where the check document's is
 neither joined nor versioned.
 
+**What is wrong with each construction moved to draft9p5's plan on 2026-09-18**, at
+[`runs/2026-09-18-draft9p5/plan.md`](experiments/runs/2026-09-18-draft9p5/plan.md) § *What is
+wrong with each construction available*. It belongs with the run that is going to fix it: a list
+of what is defective in three half-right models is a statement about a date, and it dies when
+draft9p5 ends. The briefs carry the frames and the rules; they do not carry the verdicts.
+
 ### What the numbers said
 
 Every number below is `make_plans.py`'s, and the read agreed with it to the fourth decimal.
