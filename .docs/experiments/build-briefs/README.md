@@ -57,8 +57,9 @@ the CAD can import them rather than copy the arithmetic. **Import them.** The ta
 printout, not a source; where it disagrees with the file, the file is right.
 
 ```
-python -c "import sys; sys.path.insert(0, 'instructions/robot-guide'); import make_plans as p;
-           print(p.SOLE_Z, p.ANKLE_Z, p.KNEE_Z, p.HIP_Z, p.SH_Z, p.NECK_Z, p.HEAD_T, p.HEIGHT)"
+uv run python -c "from stickbot.make_plans import (
+    SOLE_Z, ANKLE_Z, KNEE_Z, HIP_Z, SH_Z, NECK_Z, HEAD_T, HEIGHT)
+print(SOLE_Z, ANKLE_Z, KNEE_Z, HIP_Z, SH_Z, NECK_Z, HEAD_T, HEIGHT)"
 ```
 
 | Station | z | Station | z |
