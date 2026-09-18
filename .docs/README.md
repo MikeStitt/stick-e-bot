@@ -15,7 +15,14 @@ are the ones the current work points at.
 Named per the Constitution's *Name a unit of work; do not number it*, and listed here because no
 plan holds them. The rest of the open work is placed in
 [`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md) § *The open work, by
-name*. A task leaves this list by being written into a plan.
+name*. A task leaves this list by being written into a plan, or by being done — which this file
+records rather than deletes.
+
+- **`task.draft9p4.register`. Done 2026-09-18**, at
+  [`experiments/runs/2026-09-08-draft9p4/register.md`](experiments/runs/2026-09-08-draft9p4/register.md).
+  It was listed under Phase 5 in
+  [`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md), which builds a model
+  and writes no record of draft9p4.
 
 - **`task.hinge.ear_rename`.** The word *ear* was retired for *fork prong* on 2026-09-17. The
   briefs' prose, their step tables and the four `brief-*.svg` sheets carry the new vocabulary; the

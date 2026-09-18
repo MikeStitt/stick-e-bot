@@ -203,7 +203,9 @@ Sixteen tasks were open when the numbers were retired. Each is named here and pl
 that will do it, or recorded as superseded. [`tasks.md`](tasks.md) holds the number each was
 written under and the full text of what it asked for.
 
-**Phase 5 holds the model work**, since Phase 4 was dropped. The pages these tasks also asked for
+**Phase 5 holds the model work**, since Phase 4 was dropped. `task.draft9p4.register` was listed
+here and is not model work; it moved to [`README.md`](README.md) § *Work with a name and no plan*
+and is done. The pages these tasks also asked for
 belong to the guide draft that follows, because Phase 5 takes no frames and writes no pages.
 
 - **`task.draft9p4.hinge`.** The hinge tab: twenty-four wedges on a ring with a fifteen degree
@@ -229,10 +231,6 @@ belong to the guide draft that follows, because Phase 5 takes no frames and writ
   The foot has eight tunnels across its width above an unbroken sole, where it should have eight
   open notches. The check that catches it: the sole at z -24 mm is nine faces, not one, and no face
   stands at z -20 mm.
-- **`task.draft9p4.register`.** What was built, what each audit attacked, what it found and what
-  was done about each finding. Every step gets its `state` and its `version`, every claimed gate
-  gets the evidence that closes it, and a gate that did not close says so.
-
 **The guide draft that follows holds the capture and page work.** It is not planned yet. These
 were Phase 5's until 2026-09-18, when Phase 5 became a model build that writes no pages.
 
