@@ -323,3 +323,27 @@ Onshape has two tools with that name and they behave differently:
   works — and it will **not** take a default plane. Run 3 adds the part that costs time: **the
   refusal is silent.** The field simply stays empty, with no error and no message. Nothing on
   screen says the pattern is unarmed, so check the field rather than the dialog's border.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `newSketch` | `stud profile` |
+| 2 | `revolve` | `revolve stud` |
+| 3 | `newSketch` | `collar profile` |
+| 4 | `extrude` | `collar blank` |
+| 5 | `booleanBodies` | `cavity from ball` |
+| 6 | `newSketch` | `slit profile` |
+| 7 | `extrude` | `relief slits` |
+| 8 | `mateConnector` | `stud connect to robot` |
+| 9 | `mateConnector` | `socket connect to robot` |

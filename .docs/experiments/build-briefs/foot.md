@@ -149,3 +149,29 @@ Measure these. Do not infer them.
 - Is a 96 mm foot on a 315.4 mm figure goofy in the way the brief wants, or just big? Render it
   and say. The proportion barely moved — 0.32 of the figure before, 0.30 now — so if it read as
   goofy at the old size it should still.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `newSketch` | `pedestal outline` |
+| 2 | `extrude` | `foot pedestal` |
+| 3 | `newSketch` | `foot outline` |
+| 4 | `extrude` | `foot` |
+| 5 | `fillet` | `top round` |
+| 6 | `newSketch` | `groove profile` |
+| 7 | `extrude` | `sole groove` |
+| 8 | `linearPattern` | `sole ribs` |
+| 9 | `importDerived` | `add socket` |
+| 10 | `booleanBodies` | `combine parts` |
+| 11 | `mateConnector` | `mate to robot` |

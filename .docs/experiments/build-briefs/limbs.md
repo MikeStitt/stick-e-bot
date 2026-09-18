@@ -139,3 +139,49 @@ report it if you hit one. The routes with no home left at Ø24:
 - the sloppy quadrilateral, which is where **Parallel**, **Perpendicular** and **Sketch Fillet
   and Chamfer** are currently earned
 - **Loft**, whose only home was the upper arm's ellipse-to-rectangle change of section
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+
+**Both limbs are nine features and no variables of their own.** Everything they are made of comes
+from a derive: the upper limb takes `add socket` and `add fork`, the lower takes `add blade` and
+`add ball stud`. Build them after the tabs they derive from, and publish a version of each of
+those first, so the derive points at something that cannot move.
+
+### The upper limb
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `importDerived` | `add socket` |
+| 2 | `mateConnector` | `mate for fork` |
+| 3 | `newSketch` | `limb section` |
+| 4 | `extrude` | `limb` |
+| 5 | `importDerived` | `add fork` |
+| 6 | `transform` | `move fork` |
+| 7 | `booleanBodies` | `combine parts` |
+| 8 | `mateConnector` | `shoulder end` |
+| 9 | `mateConnector` | `elbow end` |
+
+### The lower limb
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `importDerived` | `add blade` |
+| 2 | `newSketch` | `limb section` |
+| 3 | `extrude` | `limb` |
+| 4 | `mateConnector` | `mate for ball stud` |
+| 5 | `importDerived` | `add ball stud` |
+| 6 | `transform` | `move ball stud` |
+| 7 | `booleanBodies` | `combine parts` |
+| 8 | `mateConnector` | `elbow end` |
+| 9 | `mateConnector` | `wrist end` |

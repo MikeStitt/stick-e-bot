@@ -274,3 +274,32 @@ What is still open:
   face that stopped it.
 - **Whether Shell will now take the underside.** Run 3's four failures were diagnosed against the
   recess, which no longer exists. Untested either way.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `newSketch` | `head profile` |
+| 2 | `extrude` | `head body` |
+| 3 | `fillet` | `upper rounds` |
+| 4 | `chamfer` | `lower head chamfer` |
+| 5 | `newSketch` | `eye profile` |
+| 6 | `extrude` | `eye` |
+| 7 | `mirror` | `second eye` |
+| 8 | `newSketch` | `mouth profile` |
+| 9 | `extrude` | `mouth` |
+| 10 | `mateConnector` | `socket mount point` |
+| 11 | `importDerived` | `get socket` |
+| 12 | `transform` | `drop socket to neck` |
+| 13 | `booleanBodies` | `add socket to head` |
+| 14 | `mateConnector` | `head mate` |

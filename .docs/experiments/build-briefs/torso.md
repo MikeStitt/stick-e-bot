@@ -211,3 +211,48 @@ does rather than at a number anyone chose. What is still open:
   29.28 mm tall for a Ø16 boss, on a top face 72 × 48. Nobody has looked at whether that reads as
   deliberate or as a mistake, and it is the first thing anyone will see — and it is now a scar
   covering rather more of the face than it did.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `newSketch` | `torso outline` |
+| 2 | `extrude` | `torso block` |
+| 3 | `newSketch` | `pivot lines` |
+| 4 | `cPlane` | `plane for shoulder` |
+| 5 | `newSketch` | `torso shoulder profile` |
+| 6 | `revolve` | `shoulder` |
+| 7 | `mateConnector` | `mate for shoulder stud` |
+| 8 | `mirror` | `mirror shoulder` |
+| 9 | `newSketch` | `trim shoulder pattern` |
+| 10 | `extrude` | `trim shoulder cut` |
+| 11 | `newSketch` | `hip stud location` |
+| 12 | `mateConnector` | `mate for hip stud` |
+| 13 | `newSketch` | `neck stud location` |
+| 14 | `mateConnector` | `mate for neck stud` |
+| 15 | `importDerived` | `copy ball stud` |
+| 16 | `transform` | `move neck stud` |
+| 17 | `transform` | `copy for hip` |
+| 18 | `transform` | `copy for shoulder` |
+| 19 | `mirror` | `duplicate shoulder and hip` |
+| 20 | `booleanBodies` | `add neck to body` |
+| 21 | `mateConnector` | `neck` |
+| 22 | `mateConnector` | `left shoulder` |
+| 23 | `mateConnector` | `right shoulder` |
+| 24 | `mateConnector` | `left hip` |
+| 25 | `mateConnector` | `right hip` |
+
+**Eight of these features are connectors, and every one of them is renamed.** The record this
+table comes from names them `neck connector`, `left shoulder connector`, `r shoulder connector`,
+`l hip connector`, `r hip connector`, `connector on torso shoulder`, `hip connector on torso` and
+`neck connector on torso`. The names above are the settled ones.

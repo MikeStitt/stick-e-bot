@@ -377,3 +377,54 @@ still worth measuring on a printed part.
   preview. **Check bounding boxes after any offset extrude.**
 - **Midpoint would not apply** between a rectangle edge and a circle; **Tangent** does the same job
   and reads as better design intent.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `newSketch` | `blade profile` |
+| 2 | `extrude` | `blade blank` |
+| 3 | `newSketch` | `stub axle outline` |
+| 4 | `extrude` | `stub axle` |
+| 5 | `newSketch` | `blade wedge outline` |
+| 6 | `extrude` | `blade wedge` |
+| 7 | `mateConnector` | `axis for circular patterns` |
+| 8 | `circularPattern` | `blade wedges` |
+| 9 | `mirror` | `mirror blade` |
+| 10 | `newSketch` | `blade rod outline` |
+| 11 | `extrude` | `blade arm` |
+| 12 | `newSketch` | `relief slit outline` |
+| 13 | `extrude` | `relief slit` |
+| 14 | `newSketch` | `fork outline` |
+| 15 | `extrude` | `fork blank` |
+| 16 | `newSketch` | `fork blade top cut outline` |
+| 17 | `extrude` | `trim fork to arm` |
+| 18 | `newSketch` | `pocket axle sketch` |
+| 19 | `extrude` | `pocket axle on fork` |
+| 20 | `newSketch` | `fork prong wedge outline` |
+| 21 | `extrude` | `fork prong wedge` |
+| 22 | `circularPattern` | `fork prong wedges` |
+| 23 | `mirror` | `two forks` |
+| 24 | `newSketch` | `fork arm outline` |
+| 25 | `extrude` | `fork arm` |
+| 26 | `booleanBodies` | `combine fork parts` |
+| 27 | `mateConnector` | `fork to robot` |
+| 28 | `mateConnector` | `blade to robot` |
+
+**The last five features are the ones draft9p4-check never reached.** Everything above them exists
+in that document, built to the current rules; `fork arm outline` onward exists only in
+draft9p1p6, whose tree is older. Build the whole list fresh.
+
+**`relief slit` is the last feature on the blade** and the fork does not start until `fork
+outline`. That is not a preference: cutting the slit earlier lets the stub axle bridge the two
+leaves at the pin, which is the opposite of the two-leaf spring the joint depends on.

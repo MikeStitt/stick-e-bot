@@ -194,3 +194,25 @@ part that has no slits; see [`foot.md`](foot.md).
   TODO is now the first thing to fix rather than a tidy-up.
 - Does the clip need a chamfer on its leading edges so the bar cams it open, rather than being
   levered open? The same argument was made for the hinge stub and it mattered there.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `importDerived` | `copy socket` |
+| 2 | `newSketch` | `clip profile` |
+| 3 | `extrude` | `clip body` |
+| 4 | `cPlane` | `plane to cut top of clip` |
+| 5 | `splitPart` | `remove top of clip` |
+| 6 | `booleanBodies` | `combine parts` |
+| 7 | `mateConnector` | `mate to robot` |

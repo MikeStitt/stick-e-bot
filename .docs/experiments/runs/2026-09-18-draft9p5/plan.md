@@ -41,67 +41,155 @@ no click path reaches.
 
 ## What is wrong with each construction available
 
-### The hinge, and it is the only part whose construction has been compared
+### Every tab measured against the three rulings a record can answer
 
-Measured 2026-09-18 from `/features` on both tabs.
+The nine construction records on disk were scored on 2026-09-18. `body`, `head`, `foot`, `gripper`
+and the assembly come from draft9p3's `reference/`, which reads draft9p1p1; the four joint tabs come
+from draft9p4's `reference/`, which reads draft9p1p6.
 
-| | `stickbot-draft9p1p6` at `F done - Phase F proved` | `stickbot-draft9p4-check`, workspace |
-| --- | --- | --- |
-| features | 46 | 38 |
-| variables | 18 | 15 |
-| variable titles typed over | 8 | 0 |
-| variables before the first geometry feature | 18 | 1 |
+| Tab | Features | Variables | Titles typed over | Longest run of variables | Connectors carrying *connector* |
+| --- | -------: | --------: | ----------------: | -----------------------: | ------------------------------: |
+| `body` | 33 | 8 | 0 | 8 | 8 |
+| `head` | 26 | 12 | 0 | 12 | 0 |
+| `foot` | 24 | 13 | 0 | 10 | 0 |
+| `gripper` | 15 | 8 | 0 | 8 | 0 |
+| `ball and socket` | 14 | 5 | 5 | 5 | 0 |
+| `hinge` | 46 | 18 | 8 | 18 | 2 |
+| `u limb` | 9 | 0 | 0 | 0 | 0 |
+| `l limb` | 9 | 0 | 0 | 0 | 0 |
+| assembly | 13 | 0 | 0 | 0 | 0 |
 
-- **draft9p1p6 has the finished shape and the older tree.** Its eight typed titles are `nose`,
-  `ear`, `stub`, `stub_proud`, `bore_d`, `slit_h`, `rod_blade` and `rod_fork`. All eighteen
-  variables sit in one block above the first sketch. It still declares `#ear` and `#backlash`. Its
-  two connectors are `fork to robot connector` and `blade to robot connector`, carrying the word
-  the ruling drops.
-- **draft9p4-check has the newer tree and an unfinished fork.** Every one of its fifteen variables
-  is on the template, and they interleave with the geometry rather than opening the tab. What it
-  does not have yet is `fork arm outline`, `fork arm`, `combine fork parts` and both mate
-  connectors, so its fork is two loose solids of 125 faces each where draft9p1p6's fork is one
-  solid of 252. Its blade is whole and matches draft9p1p6's face for face.
-- **Nothing is in draft9p4-check that is not in draft9p1p6.** It is a subset, built to newer rules
-  and stopped part way.
+- **Six tabs open with a block of variables**, 61 rows in all, where the ruling types each one
+  immediately above the first feature that reads it. Every part except the two limbs and the
+  assembly fails this, and the two limbs pass only because they declare none.
+- **Two tabs have typed variable titles.** `ball and socket` has `stalk`, `slit`, `slit_in`,
+  `slit_d` and `slit_out`; `hinge` has `nose`, `ear`, `stub`, `stub_proud`, `bore_d`, `slit_h`,
+  `rod_blade` and `rod_fork`. Thirteen rows a student cannot reproduce.
+- **Ten connectors carry the word the ruling drops.** Eight on `body`, two on `hinge`.
+- **No tab anywhere carries a default feature name.** That ruling already passes, so draft9p5 has
+  to keep it rather than fix it.
 
-So draft9p5 takes the shape from draft9p1p6 and the build order from draft9p4-check, and finishes
-the fork.
+The two rulings a record cannot answer — whether each variable sits above its first reader, and
+whether each sketch stands on a face — need the expression walk and the plane queries, and they are
+Phase A work rather than a table.
 
-### Every other part's construction is unexamined
+### The hinge, where two constructions exist and neither is finished
 
-**This is the largest gap in what is written here.** The survey compared shape across all eight
-parts and compared construction on the hinge alone. `body`, `head`, `ball and socket`, `foot`,
-`u limb`, `l limb` and `gripper` have not been read against the rulings above, and nothing here
-should be read as saying they pass.
+`stickbot-draft9p4-check`'s `hinge` was built to the newer rules and stopped part way: all fifteen
+of its variables are on the template and interleaved with the geometry, one before the first sketch
+rather than eighteen. What it lacks is `fork arm outline`, `fork arm`, `combine fork parts` and both
+mate connectors, so its fork is two loose solids of 125 faces where draft9p1p6's is one of 252.
 
-What is known about them is where they live and what is wrong with their **shape**:
+**So the hinge takes its shape from draft9p1p6 and its build order from draft9p4-check.** Nothing is
+in the check document that is not in draft9p1p6; it is a subset built to newer rules.
 
-| Part | Where the shape is | What is wrong with the shape |
-| ---- | ------------------ | ---------------------------- |
-| body | `stickbot-draft9p4` at `tutorial 8 - the foot` | nothing found |
-| head | the same | nothing found |
-| ball and socket | the same | nothing found |
-| foot | the same | the tread grooves are closed voids inside the sole, and the sole renders smooth from below — task #215 |
-| hinge, u limb, l limb | `stickbot-draft9p1p6` at `F done - Phase F proved` | nothing found |
-| gripper | `stickbot-draft9p1p1` at `Recovery point` | the socket collar is Ø18 against the settled Ø15.6; the part predates the wall change |
+## The declaration
 
-Two open questions on the limbs were not measured by the survey and are not answered anywhere:
-task #177, the blade losing a wedge per face at `#limbD` 34 mm and above; and whether `l limb`'s
-rod reproduces volume the derived blade's arm already occupies, with `u limb` never checked at all.
+| Field | Value |
+| ----- | ----- |
+| `draft` | `draft9p5` |
+| `document` | `stickbot-draft9p5`, created empty |
+| `parent` | `draft9p1p6` for the four joint tabs' geometry, `draft9p1p1` for `body`, `head`, `foot`, `gripper` and the assembly, `draft9p4-check` for the hinge's build order |
+| `from` | nothing. Every feature is added to an empty document |
+| `builds` | `robot sizes`, `ball and socket`, `hinge`, `body`, `head`, `foot`, `u limb`, `l limb`, `gripper`, and the `stickbot` assembly |
+| `by` | REST, for every feature |
+| `gates` | *Names are real*, *Model inspected*, *Recovery point*, *Prose style*, *Spelling* — proposed, not agreed |
+| `not claimed` | *Steps reproduce*, *Floor & ceiling*, *Links resolve*, *Reading level*. This draft writes no student-facing text |
 
-### Two documents come with a warning
+**`from` is deliberately empty.** Every draft since draft9p1 branched the one before it and
+inherited its tree along with its shape. That is how thirteen typed variable titles survived four
+drafts. A document built from nothing cannot inherit a defect.
 
-- **`stickbot-draft9p1p6` is sound, and the survey said otherwise for a few hours.** Its `hinge`
-  and `u limb` first read at 258 and 24 faces against the version's 510 and 270, and the survey
-  concluded the workspace had lost the fork. Re-read the same day, both match the version exactly,
-  every feature reports OK, and the rollback bar is at the bottom in both. Read a tab twice and
-  require the two to agree before drawing anything from one of them.
-- **`stickbot-draft9p4-check` holds work draft9p4's plan did not put there.** Its logs say
-  tutorials 4, 5, 6, 8 and 9 were *built* in it, where the plan reserves it for `audit.page`. The
-  consequence for draft9p4 is task #221; the consequence here is that the check document is a real
-  source of construction and not a copy of the build document. Its `head` differs from the build
-  document's, its eyes 1.5 % oversize — task #222 — and its `hinge` is a different joint entirely.
+## Phase A — settle what cannot be measured from a record
+
+Before any feature is added. Each of these is a read, and each writes its answer into
+`reference/` beside the records already there.
+
+- **Walk every expression** in `robot-sizes.features.json` and each tab's, and write down the first
+  geometry feature that reads each variable, following chains of variable-reads-variable. That is
+  where each `assignVariable` goes in the new tree. draft9p4 did this walk once for the studio rows;
+  this repeats it for every tab's own.
+- **Read every sketch's plane query** and mark which stand on a face and which on a stock plane.
+  The ruling allows a plane where the sketch needs the torso's center, so each one on a plane needs
+  a reason written next to it or a face to move to.
+- **Settle the ten connector names.** `body`'s eight become `neck`, `left shoulder`,
+  `right shoulder`, `left hip`, `right hip`, `mate for shoulder stud`, `mate for hip stud` and
+  `mate for neck stud`, with the two sketches under them `hip stud location` and
+  `neck stud location`. `hinge`'s two become `fork to robot` and `blade to robot`.
+- **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168
+  and #215 each name a specific parameter or query, and each is either already right in the parent
+  or is a correction this draft makes.
+
+## Phase B — build, one tab at a time, in this order
+
+The order is forced by the derives: a tab cannot be built before the tab it derives from.
+
+| Order | Tab | Derives from |
+| ----: | --- | ------------ |
+| 1 | `robot sizes` | — |
+| 2 | `ball and socket` | — |
+| 3 | `hinge` | — |
+| 4 | `body` | `ball and socket` |
+| 5 | `head` | `ball and socket` |
+| 6 | `foot` | `ball and socket` |
+| 7 | `u limb` | `ball and socket`, `hinge` |
+| 8 | `l limb` | `ball and socket`, `hinge` |
+| 9 | `gripper` | `ball and socket` |
+| 10 | `stickbot` | every part |
+
+Each tab's feature order is in its brief, under *Recommended steps*.
+
+## The verification loop
+
+**A tab is not built until it has been through all four rings, and a ring that fails sends the work
+back to the ring inside it.** The loop is what makes an unattended REST build safe: nothing here
+depends on a person noticing something.
+
+### Ring 1 — the feature, after every single `POST`
+
+- **Read the feature back.** `/features` returns what Onshape stored; compare it to what was sent,
+  parameter by parameter. A `200` means accepted, not correct.
+- **Check `featureStates`.** It is an array of `{key, value}` pairs, not a map; read as a map every
+  feature reads `?`. A feature that is `ERROR` or `WARNING` stops the tab.
+- **Check `rollbackIndex` equals the feature count.** A bar parked in the tree makes every
+  downstream read short, and a short read looks exactly like missing work. This is why.
+- **For a sketch, read its entities and constraints back** with `read_sketches.py` before the next
+  feature runs. draft9p4 found four defects this way that left a blade looking right and 0.03 mm and
+  0.002 mm off center.
+
+### Ring 2 — the tab, when its last feature is in
+
+- **Measure it.** `read_shape.py`, then every acceptance number in the brief checked against what
+  `make_plans.py` computes. Import the constants; do not copy them.
+- **Diff it against its parent**, with `diff_shape.py` for what came out and `diff_features.py` for
+  what each feature was told. A difference is either a correction this draft intends, and is named
+  in the register, or it is a defect.
+- **Look at it.** The hero views and the section, rendered and opened, against the frames in
+  [`../../build-briefs/images/`](../../build-briefs/images/). A measurement never stands in for the
+  picture: face counts, areas and bounding boxes can all agree while the shape is wrong.
+- **Score the construction** against the rulings in the table above, by hand. There is no checker
+  and one is out of scope until the models are right.
+- **Publish a named version** before moving to the next tab, so the next tab derives from something
+  that cannot move.
+
+### Ring 3 — the robot, when every tab is in
+
+- **The assembly's mates all resolve**, and the figure stands at the height `make_plans.py`
+  computes.
+- **Every joint moves through its range** without the parts interfering.
+- **Export the print files** and confirm each part is one solid.
+
+### Ring 4 — the record
+
+- **`register.md` says what was built, what each ring caught, and what was done about it.** A ring
+  that was skipped says so. A gate claimed in the declaration gets the evidence that closes it, by
+  name.
+
+## When this draft is done
+
+**Every tab passes Ring 2, the robot passes Ring 3, and one named version holds all ten tabs.**
+That version is what the briefs cite from then on, and draft9p1p6, draft9p1p1 and draft9p4-check
+stop being reference material.
 
 ## What is not yet written
 

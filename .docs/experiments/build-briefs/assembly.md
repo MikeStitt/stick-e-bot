@@ -170,3 +170,31 @@ Measure these, in the rest pose. Do not infer them.
   find out whether it is.
 - **What does the bill of materials say the part count is?** If the limbs collapsed, it should
   disagree with the plan's part table. Report both numbers and do not reconcile them.
+
+## Recommended steps
+
+**This is the feature order to build, and the name each feature carries.** It is the order a
+proven model was built in, with the renames that have been settled since applied. Variables are
+not in the table: each one is added immediately above the first feature that reads it, which is
+what [`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *Phase A*
+works out by walking the expressions. Do not open a tab with a block of numbers.
+
+The verification after each feature and after the tab is one loop for every part, and it lives in
+[`../runs/2026-09-18-draft9p5/plan.md`](../runs/2026-09-18-draft9p5/plan.md) § *The verification
+loop*. It is not repeated here.
+
+| Step | Feature | Name |
+| ---: | ------- | ---- |
+| 1 | `mate` | `head to neck` |
+| 2 | `mate` | `left shoulder` |
+| 3 | `mate` | `left elbow` |
+| 4 | `mate` | `left wrist` |
+| 5 | `mate` | `right elbow` |
+| 6 | `mate` | `right wrist` |
+| 7 | `mate` | `right shoulder` |
+| 8 | `mate` | `left knee` |
+| 9 | `mate` | `left ankle` |
+| 10 | `mate` | `left hip` |
+| 11 | `mate` | `right knee` |
+| 12 | `mate` | `right ankle` |
+| 13 | `mate` | `right hip` |
