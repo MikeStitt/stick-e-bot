@@ -116,6 +116,7 @@ from `make_plans.py`. No brief carries this number, so Ring 2 would not have cau
 | Field | Value |
 | ----- | ----- |
 | `draft` | `draft9p5` |
+| `launch` | [`launch.md`](launch.md), the opening message for the session that builds this |
 | `document` | `stickbot-draft9p5`, created empty |
 | `parent` | `draft9p1p6` for the four joint tabs' geometry, `draft9p1p1` for `body`, `head`, `foot`, `gripper` and the assembly, `draft9p4-check` for the hinge's build order |
 | `from` | nothing. Every feature is added to an empty document |

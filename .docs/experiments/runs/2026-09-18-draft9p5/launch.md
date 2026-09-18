@@ -3,6 +3,11 @@
 The opening message for the session that builds it. It says nothing the plan says; the plan is
 injected from disk once the pointer names it.
 
+This message is from the claude running @../sponge. You can find the claude code artifacts using
+the @../sponge relative directory. But the user has moved @../sponge to @../sponge-save to
+make sure that all scripts work from @../stick-e-bot.
+
+
 ---
 
 You are building `stickbot-draft9p5`: one Onshape document holding the whole robot, every feature
