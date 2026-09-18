@@ -13,16 +13,12 @@ no document a brief can point at and say *build it like this*.
 
 ## What changes about REST
 
-draft9p4's plan ends its REST section with **Not the CAD**: every sketch, extrude, mirror, pattern,
-derive, mate connector and variable was made in the GUI at the clicks a page would print, because a
-page is written from the frames of a feature being made. This draft is not writing pages, so that
-reason does not apply to it. REST builds the model here, and the guide's pages are written later
-from a model that is already right.
+draft9p4's plan barred REST from building the model, for a draft that was writing pages. This draft
+writes none. REST builds every feature here.
 
 ## The rulings a construction is judged against
 
-Each was settled after the model it now judges was published. None of them is a matter of taste and
-none of them changes a shape.
+Each was settled after the model it now judges was published.
 
 | Ruling | Settled | Source |
 | ------ | ------- | ------ |
@@ -34,10 +30,8 @@ none of them changes a shape.
 | Every feature that is not a variable gets a typed name | task #138 | draft9p3 hinge fix |
 | `relief slit` is the last feature on the blade | 2026-09-17 | [`../../../2026-09-17-reorg-drawings-and-notes.md`](../../../2026-09-17-reorg-drawings-and-notes.md) |
 
-**The first of these is not a preference.** A student cannot type over a variable's title: the
-Variable dialog has no rename pencil, the variable's tree row has no *Rename*, and `F2` on it does
-nothing. All three were driven on 2026-09-09. A model carrying typed variable titles shows a state
-no click path reaches.
+A student cannot type over a variable's title; the dialog has no rename pencil, the tree row has no
+*Rename*, and `F2` does nothing.
 
 ## What is wrong with each construction available
 
@@ -67,23 +61,9 @@ from draft9p4's `reference/`, which reads draft9p1p6.
   `rod_blade` and `rod_fork`. Thirteen rows a student cannot reproduce.
 - **Ten mate connector names still end in the word the ruling drops.** Eight on `body`, two on
   `hinge`. The column counts names, not connections.
-
-**Two Onshape things are easy to read as one, and only one of them is a mate.** A `mate` is an
-assembly constraint joining two instances; there are **13**, all in the `stickbot` assembly, and
-they are the robot's thirteen joints — neck, two shoulders, two elbows, two wrists, two hips, two
-knees, two ankles. A `mateConnector` is a coordinate system placed on a part in a Part Studio;
-there are **23** across the eight parts. It is not a joint and not a mate. It is where a mate will
-later attach, or an axis for a pattern.
-
-The 23 do not reduce to the 13 and are not meant to. A joint needs a connector on each of the two
-parts it joins, and several connectors are not joint ends at all: `axis for circular patterns` on
-the hinge is a pattern axis, and `socket mount point`, `mate for fork` and `mate for ball stud`
-mark where a derive or a transform lands.
-
-**That split is what the naming ruling turns on.** A connector that is a joint end takes the
-joint's name — `neck`, `left shoulder`, `elbow end`. A connector that marks a placement takes
-`mate for …`. Neither takes the word *connector*, because the feature list already says what it
-is.
+- **A connector that is a joint end takes the joint's name**, and one that marks a placement takes
+  `mate for …`. The eight Part Studios hold 23 `mateConnector` features; the assembly holds 13
+  `mate` features, which are the thirteen joints.
 - **No tab anywhere carries a default feature name.** That ruling already passes, so draft9p5 has
   to keep it rather than fix it.
 
@@ -114,22 +94,11 @@ in the check document that is not in draft9p1p6; it is a subset built to newer r
 | `gates` | *Model inspected* and *Recovery point* — proposed, not agreed |
 | `not claimed` | *Steps reproduce*, *Names are real*, *Links resolve*, *Floor & ceiling*, *Reading level* |
 
-**Two gates, and the two are the whole of what a CAD build can close.** *Model inspected* is
-Ring 2 and *Recovery point* is the named version at the end of each tab. The other five ask for
-something this draft does not produce: *Steps reproduce* and *Reading level* need written steps,
-*Links resolve* needs a link, *Floor & ceiling* needs a session, and *Names are real* checks that a
-tool, menu or field name matches Onshape's UI verbatim, where a REST build opens no menu and fills
-no field. The API rejects a wrong `featureType` outright, which is a stricter check than a gate and
-arrives sooner.
+*Model inspected* is Ring 2; *Recovery point* is the named version at the end of each tab. The
+five unclaimed gates ask for written steps, a link or a session, none of which this draft produces.
 
-**Prose style and Spelling are not on either list.** They are not run-scoped: prose style binds
-every word committed to this repository, and `ninja check` runs over the whole tree on every
-commit. This draft's `register.md` is held to both, the same as everything else. Claiming them here
-would imply they are optional elsewhere.
-
-**`from` is deliberately empty.** Every draft since draft9p1 branched the one before it and
-inherited its tree along with its shape. That is how thirteen typed variable titles survived four
-drafts. A document built from nothing cannot inherit a defect.
+**Prose style and Spelling are on neither list**, because neither is run-scoped. `register.md` is
+held to both, the same as everything else committed here.
 
 ## Phase A — settle what cannot be measured from a record
 
@@ -147,15 +116,8 @@ Before any feature is added. Each of these is a read, and each writes its answer
   `right shoulder`, `left hip`, `right hip`, `mate for shoulder stud`, `mate for hip stud` and
   `mate for neck stud`, with the two sketches under them `hip stud location` and
   `neck stud location`. `hinge`'s two become `fork to robot` and `blade to robot`.
-- **Run `ninja brief-sheets` and confirm nothing changes.** The sheets are an input, not an
-  illustration: the briefs' README says to read the drawing before the numbers table. Two of them
-  sat a joint generation behind until 2026-09-18 — `brief-detent.svg` drew twelve wedges at
-  30&#176; and `brief-fork.svg` drew the flat at 10.3923 mm, which are draft9p1p5's numbers. Both
-  are correct now and there is a ninja target, so this is a check and not a job.
-- **Confirm every sheet is referenced by the brief that owns it.** `brief-fork.svg` and
-  `brief-detent.svg` were referenced by nothing, which is why their rot went unseen for two drafts,
-  and `brief-fork.svg` had already been recorded as stale in August 2026 and answered with a
-  warning rather than a redraw.
+- **Run `ninja brief-sheets` and confirm nothing changes.**
+- **Confirm every sheet is referenced by the brief that owns it.**
 - **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168
   and #215 each name a specific parameter or query, and each is either already right in the parent
   or is a correction this draft makes.
@@ -177,10 +139,6 @@ does not appear in this table is unchanged.
 | `blade blank` | `tongue` | already the CAD's name for the extrude that makes it |
 | `fork prong` | `ear` | the whole of *ear* is retired |
 
-**`blade leaf` rather than `blade ear` avoids an inversion that nothing would have caught.** Under
-`blade ear` the word *ear* would have moved from the fork to the blade, so `EAR_FREE` — the
-**fork's** free length — would have kept its name while its meaning flipped.
-
 ### The features that change name
 
 | Tab | Old | New |
@@ -198,13 +156,10 @@ new names, so a tab built from a brief needs no translation.
 ### The identifiers that have not moved
 
 **`make_plans.py` still exports `EAR`, `EAR_FREE`, `EAR_MOVE` and `EAR_STRESS`, and the briefs
-still cite them by those names.** The word was renamed in prose on 2026-09-18; the constants were
-not, because renaming them touches the design source and every sheet generated from it. So a brief
-may say *fork prong* in a sentence and `EAR` in the row beneath it, and both mean the fork's arm.
-Renaming the constants is its own change and is not draft9p5's.
+still cite them.** A brief may say *fork prong* in a sentence and `EAR` in the row beneath it; both
+mean the fork's arm. Renaming them is task #225, not draft9p5's.
 
-**`#ear` is not one of them.** That CAD variable is dropped, along with `#backlash`, because
-nothing reads either.
+**`#ear` is not one of them.** That CAD variable is dropped, with `#backlash`.
 
 ## Phase B — build, one tab at a time, in this order
 
@@ -259,15 +214,8 @@ depends on a person noticing something.
 - **Hold the section beside the tab's `brief-*.svg` sheet**, and compare them as two drawings of
   the same thing rather than as two sets of numbers. `ball and socket` has `brief-socket.svg`;
   `hinge`, `u limb` and `l limb` have `brief-fork.svg`, `brief-detent.svg` and `brief-roots.svg`.
-  Say which sheet was used and what was compared on it.
-
-  **This is a different check from measuring against `make_plans`, and it catches a different
-  thing.** The sheets are generated from `make_plans` too, so a number that agrees with one agrees
-  with the other. What a sheet carries that a constant does not is the **shape**: how many wedges
-  and at what pitch, which member the axle stands on, where a rod stops, which way up the socket
-  sits. `brief-detent.svg` drew twelve wedges at 30&#176; against the settled twenty-four at
-  15&#176; for two drafts, and every number in the hinge brief's prose beside it was right. Only
-  the picture was wrong, and only a picture would have caught it.
+  Say which sheet was used and what was compared on it. A sheet carries the shape, where a
+  constant carries only the size.
 - **A tab with no sheet says so.** `body`, `head`, `foot` and `gripper` have none, so their
   drawing check is the plan sheets, `plan-parts.svg` and `plan-assembly.svg`, which `make_plans`
   generates and which a ninja target keeps current.
@@ -299,6 +247,4 @@ stop being reference material.
 
 ## What is not yet written
 
-The declaration, the phases, the gates claimed, how a part is proved, and where the guide's pages
-come from afterwards. This file currently holds only what the survey established about the source
-material.
+Where the guide's pages come from after this draft.
