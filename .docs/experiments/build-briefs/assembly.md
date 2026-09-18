@@ -20,6 +20,35 @@ the workspace, and keep every reference inside one document*. So the assembly fo
 edit as soon as it is made, which is the same thing *The idea being tested* below asks a student to
 see.
 
+## The drawings
+
+| Drawing | What it settles |
+| ------- | --------------- |
+| [`images/plan-assembly.svg`](images/plan-assembly.svg) | the robot assembled, front and side, every part named and every station dimensioned |
+
+**Its stations are measured from the ground; the table in [`README.md`](README.md) measures them
+from the torso's center.** The two agree — subtract `SOLE_Z` = −178 mm from a station in the
+README and you get the sheet's number.
+
+| Station | From the torso center | On the sheet |
+| ------- | --------------------: | -----------: |
+| ankle | −154 mm | 24 mm |
+| knee | −106 mm | 72 mm |
+| hip | −58 mm | 120 mm |
+| shoulder | 19.24 mm | 197.24 mm |
+| neck | 58 mm | 236 mm |
+| head center | 104 mm | 282 mm |
+| the whole figure | — | 318 mm |
+
+**The side view is the one to read before mating an arm.** Both arms lie in one plane 7.82 mm
+forward of center, so that view sees them edge-on and both at once, and the torso is dashed where
+it stands in front of them. The sheet draws the elbows bent 45° for the picture; the assembly is
+saved at rest.
+
+**There is no `cad-` frame here, and that is a gap rather than a choice.** The survey of
+2026-09-18 read the eight parts and never opened the `stickbot` assembly, so nothing is known
+about whether draft9p4's assembly is current. Every other brief carries three.
+
 ## The idea being tested
 
 **An instance is a reference to a part, not a copy of it.** Edit the upper arm and both arms

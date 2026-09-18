@@ -104,6 +104,22 @@ change the script and re-run it, or the sheets and the plan will disagree. Each 
 as both `.svg` and `.png`; they are the same drawing.
 
 
+## What is in `images/`, and who owns each thing
+
+Every file here is named by the brief it belongs to, so that nothing rots unwatched. Three kinds:
+
+| Kind | Made by | Owned by |
+| ---- | ------- | -------- |
+| `brief-*.svg` | `make_brief_sheets.py`, `ninja brief-sheets` | the brief that needs the drawing |
+| `plan-*.svg` | `make_plans.py`, `ninja plan` | `hinge.md` and `assembly.md` |
+| `cad-*.png` | `shadedviews` and the GUI's Section view, by hand | the brief for that part |
+
+**`plan-assembly.png` and `plan-parts.png` are the two exceptions, and they are meant to be.**
+`make_plans` renders a PNG beside each SVG because a Sphinx guide needs a raster, and a guide takes
+its copy from here. No brief cites them: a brief reads the SVG, and a `.png` beside a `.svg` that
+says the same thing is the arrangement this directory removed from `ball-and-socket.md` on
+2026-09-18.
+
 ## Where the `cad-*.png` frames came from
 
 `images/cad-*.png` are the reference CAD, one part at a time, surveyed on 2026-09-18 and
