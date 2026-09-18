@@ -301,6 +301,11 @@ Every number below is `make_plans.py`'s, and the read agreed with it to the four
   20.8988 mm, 24 wedges as 48 cone faces a ring, a Ø4.0 stub axle on the blade and a Ø4.1 bore in
   the fork. draft9p1p5 reads 10.392 mm across the flat and 9.992 mm at the ring, so it is the
   joint before the fifteen degree step.
+- **Both hinge sources agree on the flat**, re-measured 2026-09-18 after `brief-fork.svg` turned
+  out to have been drawing 10.3923 mm. draft9p1p6's `hinge`, `u limb` and `l limb` and
+  draft9p4-check's `hinge` all read 20.8988 mm across, which is `LIMB_FLAT`. The stale number was
+  draft9p1p5's, and draft9p1p5 is a source for nothing. draft9p4's own `hinge` reads 24.0000 mm and
+  has no flats at all, because it is still the round-limb bump joint.
 
 ### Four findings the survey turned up
 

@@ -147,6 +147,12 @@ Before any feature is added. Each of these is a read, and each writes its answer
   `right shoulder`, `left hip`, `right hip`, `mate for shoulder stud`, `mate for hip stud` and
   `mate for neck stud`, with the two sketches under them `hip stud location` and
   `neck stud location`. `hinge`'s two become `fork to robot` and `blade to robot`.
+- **Run `ninja brief-sheets` and confirm nothing changes.** The sheets are an input, not an
+  illustration: the briefs' README says to read the drawing before the numbers table, and
+  `hinge.md` lists `brief-detent.svg` in its drawings table. Two of them sat a joint generation
+  behind until 2026-09-18 — `brief-detent.svg` drew twelve wedges at 30&#176; and `brief-fork.svg`
+  drew the flat at 10.3923 mm, which are draft9p1p5's numbers. Both are correct now and there is a
+  ninja target, so this is a check and not a job.
 - **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168
   and #215 each name a specific parameter or query, and each is either already right in the parent
   or is a correction this draft makes.
