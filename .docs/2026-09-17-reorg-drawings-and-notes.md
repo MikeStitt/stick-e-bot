@@ -219,8 +219,67 @@ came from*.
 
 **The answer is per part, as the task expected.** draft9p4 is the newest document and its `hinge`
 tab still holds 264 faces with 48 spheres and 48 tori, which is the bump-and-valley joint
-draft9p3 built; draft9p1p6's holds 258 faces with 96 cones, which is the wedge ring. Neither
-document holds the whole robot at the settled joints.
+draft9p3 built; draft9p1p6's holds 258 faces with 96 cones, which is the wedge ring. No document
+holds the whole robot at the settled joints.
+
+### `stickbot-draft9p4-check` holds work the plan did not put there
+
+**Found 2026-09-18, after the survey above was first written, by reading the run's own log.** The
+plan gives the two documents one job each: *the build document branches the version named in
+`from`; the check document starts empty*, and Phase W reproduces the written page into the check
+document. Every `document` row in
+[`runs/2026-09-08-draft9p4/log/`](experiments/runs/2026-09-08-draft9p4/log/) names
+`stickbot-draft9p4-check` and none names `stickbot-draft9p4`, and the `why` beside them splits in
+two.
+
+| Log | What its `why` says | Phase |
+| --- | ------------------- | ----- |
+| `torso`, `head`, `assembly` | `audit.page follows <page> from an empty document` | W, as the plan asks |
+| `ball-and-socket` | `tutorial 4 is built and captured in the reader's document` | T, in the wrong document |
+| `head-socket` | `tutorial 5 is built and captured in the reader's document` | T, in the wrong document |
+| `torso-joints` | `tutorial 6 is built and captured in the reader's document` | T, in the wrong document |
+| `foot` | `tutorial 8 is built and captured in the reader's document` | T, in the wrong document |
+| `hinge` | `tutorial 9 is built and captured in the check document` | T, in the wrong document |
+
+Tutorial 4's 39 rows run the whole take there: `tab`, `stud_variables`, `stud_profile_sketch`,
+`stud_revolve`, `cavity`, `slit_extrude`, both connectors, `hero`, `section` and `version`.
+
+**The cost is the gate this draft exists for.** *Steps reproduce* asks that the page be followed by
+someone who does not have the build in front of them. For tutorials 4, 5, 6, 8 and 9 the build was
+in the same document, so nothing written down closes that gate for them.
+
+**Both documents carry the same eight version names**, the check document stamped first every
+time: tutorial 4 at 18:18 against 19:52, tutorial 8 at 08:55 against 09:39. The work reached the
+build document as well, by a route the log does not record.
+
+### What is in each document, measured
+
+| Tab | Check against build | What it means |
+| --- | ------------------- | ------------- |
+| `ball and socket` | same shape, face for face | the survey's citation stands |
+| `body` | same shape, face for face | the survey's citation stands |
+| `foot` | same shape, face for face | the survey's citation stands |
+| `head` | 5 faces each way, the eyes | the build document is the right one to cite |
+| `hinge` | 264 faces on 2 bodies against 508 on 3 | different joints entirely |
+
+- **The check document's eyes are 1.5 % oversize.** Each eye's end face is 102.0857 mm² there
+  against 100.531 mm² in the build document, and 100.531 mm² is π × 8 mm × 4 mm exactly, which is
+  `EYE_RX` by `EYE_RY`. The front face they are cut from differs by the same amount the other way.
+  Nothing moved; the ellipse came back about 0.06 mm large on its major radius. That is a finding
+  about the head page's eye step, and it is the near miss `diff_shape.py` exists to catch.
+- **The check document's hinge is the settled wedge joint and the build document's is not.**
+  Against draft9p1p6 at `F done - Phase F proved` it is 508 faces to 510, with 5 of its faces and 7
+  of the reference's unmatched and none of them a face that moved.
+- **Its fork is two loose prongs.** draft9p1p6's fork is one body of 252 faces. The check
+  document's is two bodies of 125 faces each, `RMGD` and `RJED`, and the render shows them floating
+  either side of the blade with no rod under them and nothing joining them. The blade, `JHD`, is
+  whole at 258 faces and matches. Tutorial 9 is task #203 and still open, so this is unfinished work
+  rather than a finished part that came out wrong.
+
+**None of this moves the survey's answers.** The three tabs that agree are identical in both
+documents, the head is exact in the one that was cited, and the hinge reference stays
+draft9p1p6's version, which is complete, proved and published, where the check document's is
+neither joined nor versioned.
 
 ### What the numbers said
 
