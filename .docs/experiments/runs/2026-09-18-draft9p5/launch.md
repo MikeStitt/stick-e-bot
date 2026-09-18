@@ -31,9 +31,9 @@ compares against them. Where the model and a brief disagree, the plan says to na
 name it in `register.md` and carry on. Do not edit a brief, a sheet or a generator to make a
 comparison pass.
 
-**What is deliberately left open, and is not yours to close.**
+**What is deliberately left open, and is not yours to close.** Each is in
+[`../../../tasks.md`](../../../tasks.md), by number and by name.
 
-- `task.draft9p4.register` — draft9p4's own record.
 - `task.reproduce.draft9p4` — the *Steps reproduce* gate on tutorials 4, 5, 6, 8 and 9, in a guide
   this draft does not write.
 - `task.hinge.ear_rename` — `make_plans.py` still exports `EAR`, `EAR_FREE`, `EAR_MOVE` and

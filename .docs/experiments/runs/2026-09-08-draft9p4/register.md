@@ -168,7 +168,7 @@ hinge, unfinished.
 ## Open work
 
 - `task.reproduce.draft9p4`, `task.hinge.ear_rename` and `task.briefs.section_retakes` —
-  [`../../../README.md`](../../../README.md) § *Work with a name and no plan*.
+  [`../../../tasks.md`](../../../tasks.md) #221, #225 and #226.
 - `task.foot.sole_groove`, `task.foot.bottom_view`, `task.capture.zoom_fit`,
   `task.capture.tutorials_1_to_5`, `task.hinge.wedge_loss`, `task.print.whole_robot` —
   [`../../../2026-09-14-move-to-stick-e-bot.md`](../../../2026-09-14-move-to-stick-e-bot.md)

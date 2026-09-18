@@ -4,12 +4,20 @@ Every task number this repository cites, and what it meant. The numbers were coi
 Claude Code task store keyed by session id, which is not in git and does not survive the
 session that made it; the repository cites them 107 times, so the definitions live here.
 
-**The numbers are closed at 217.** New work is named, not numbered, and it is written into
-the plan that will do it. The convention is in
-[`../.claude/rules/constitution.md`](../.claude/rules/constitution.md).
+**Reopened 2026-09-18 by Mike**, having been closed at 217 on 2026-09-16. #218 through #226
+are appended below, and the four tasks that had been carrying only a dotted name are folded
+back into the entries they belong to. #219 is absent: it was written and deleted on the same
+day, and what it claimed was wrong.
 
-Status is what it was at export, 2026-09-16. Open tasks carry their identifier name and the
-plan that now holds them; for those, the plan is the live record and this entry is history.
+**This contradicts the Constitution.** Its Working Rule *Name a unit of work; do not number
+it* says of this file that it "is closed at #217 and is history; nothing appends to it".
+[`../.claude/rules/constitution.md`](../.claude/rules/constitution.md) line 41 and the
+`constitution-maintenance` skill both carry that sentence. Amending either is governed work
+and has not been done, so the rule and this file disagree.
+
+An open task carries its identifier name and the plan or file that holds it. Status is as of
+2026-09-18 for #209 and for #218 onward, and as at the 2026-09-16 export for everything
+before.
 
 **Six descriptions were repaired on the way in.** #124, #126, #156, #157, #158 and #159 each
 swallowed the closing tag of the tool call that wrote them, so the stored text runs on into
@@ -1775,12 +1783,23 @@ wants.
 
 ## #209 9p4 Phase R — write the register
 
-**pending**, blocked by #208.
+**completed** 2026-09-18. `task.draft9p4.register`.
 
 What was built, what each audit attacked, what it found and what was done about each finding. Every
 step gets its `state` and its `version`. Every gate claimed in the declaration gets the evidence
 that closes it, by name, and a gate that did not close says so. Floor & ceiling is not claimed and
 the register says why. Record which audit.page findings reached the next tutorial's take.
+
+Written to .docs/experiments/runs/2026-09-08-draft9p4/register.md, from the nine logs and the tree
+rather than from memory: 160 step identifiers, 1,464 frame records and 206 verdicts, and all 371
+document lines naming stickbot-draft9p4-check where the plan said the build document. Steps
+reproduce closed on tutorials 1, 2 and 3 only; Names are real fails on hinge.rst, which says bump,
+dome or valley 95 times and wedge zero times; Model inspected did not close, and the foot is why;
+Recovery point closed through tutorial 8. It also records that the 587 committed frames did not
+come across in the 2026-09-14 move and are in the archive repository.
+
+It had been placed under Phase 5 in .docs/2026-09-14-move-to-stick-e-bot.md, which builds a model
+and writes no record of draft9p4.
 
 ## #210 Bring ball-and-socket.md up to the settled socket
 
@@ -1901,3 +1920,122 @@ Two conditions come with it, both from `.docs/experiments/runs/2026-09-08-draft9
   read_shape.py, diff_shape.py and rendered views.
 
 Write this into the plan file's Phase 4 once Mike is out of it in the IDE.
+
+## #218 Survey the CAD for the best reference, part by part
+
+**completed**.
+
+Find the CAD closest to make_plans.py and make_brief_sheets.py, working backwards from the most
+recently built. Per part: document, workspace, version, tab; agreement measured and eyeballed from
+enough views and cross sections; hero frames into .docs/experiments/build-briefs/images/ with
+provenance in its README.md. Defined in .docs/2026-09-17-reorg-drawings-and-notes.md.
+
+## #219 — deleted
+
+Written and deleted on 2026-09-18. It claimed draft9p1p6's workspace was damaged, on a read that
+returned 258 faces on hinge and 24 on u limb against the version's 510 and 270. The cause was a
+rollback bar Mike had set at feature 31, fork outline, and then cleared; nothing was wrong with the
+document. The word damaged is reserved for something that stops Onshape operating correctly, and it
+does not mean inaccurate CAD. The number is left standing so the gap is not read as an export
+failure.
+
+## #220 Bring the six stale briefs up to the settled socket
+
+**completed**.
+
+assembly.md, foot.md, head.md, limbs.md and torso.md hold 21 occurrences of 10.9465 mm and 1.9465 mm
+between them, against make_plans.py's COLLAR_PROUD 12.2205 mm and GRIP 2.2205 mm; gripper.md writes
+2 x #collarR out as 18.0 mm where it is now 15.6 mm. ball-and-socket.md was brought forward by task
+#210 and hinge.md never had a socket. head.md also asks for the head to be shelled, and
+cad-head-section.png shows the built head solid. Found by the survey, 2026-09-18.
+
+## #221 Steps reproduce did not close on tutorials 4, 5, 6, 8 and 9
+
+**pending**. `task.reproduce.draft9p4`. Waits on the guide draft that follows draft9p5.
+
+Each of those tutorials was driven into stickbot-draft9p4-check from the session that built it, so
+the page was followed by someone with the build in front of them, which is not what the gate asks.
+Tutorials 1, 2 and 3 logged real reproduction language; from tutorial 4 onward the logs record only
+the take. All nine logs name stickbot-draft9p4-check and no other document, and the build document's
+foot carries the same wrong tread down to the same face positions, which is what re-running the same
+clicks looks like.
+
+draft9p5 does not claim the gate and writes no pages, so this cannot close there.
+.docs/2026-09-14-move-to-stick-e-bot.md says under task.reproduce.draft9p3 that the gate moves to
+draft9p5; that sentence predates Phase 5 becoming a model build and this entry replaces it.
+
+## #222 The head page's eye step reproduces 1.5 percent oversize
+
+**completed** 2026-09-18, by moving into draft9p5's plan rather than by being fixed.
+
+Each eye's end face measures 102.0857 mm2 in stickbot-draft9p4-check against 100.531 mm2 in
+stickbot-draft9p4, and 100.531 mm2 is pi x EYE_RX 8 mm x EYE_RY 4 mm exactly. diff_shape reports 5
+faces each way, all of them trimmed to a different size in the same place. Found by the survey,
+2026-09-18.
+
+The original description said to fix the step so the ellipse is dimensioned rather than dragged.
+That is wrong: head.rst:510 already dimensions both axes as #eyeRx * 2 and #eyeRy * 2, locates the
+center on #eyeX and #eyeUp, and says the ellipse goes black. There is no round on the eye and no
+draft on the extrude, so the page as written gives 100.531 mm2. #headW is not the difference either,
+because the head's other faces match face for face and the box is drawn from #headW.
+
+The area does not say what moved. Two departures fit 102.0857 mm2 exactly: both radii larger by a
+factor of 1.0077, or both offset outward by 0.0411 mm. The 0.06 mm first written down is the first
+of the two, inferred from the area rather than measured off the sketch.
+
+Carried to .docs/experiments/runs/2026-09-18-draft9p5/plan.md, "The head, where the eye reproduces
+1.5 % oversize". Phase A reads the sketch to name the cause; Ring 2's acceptance on head is
+math.pi * EYE_RX * EYE_RY.
+
+## #223 Grant REST for stickbot-draft9p5 by name
+
+**completed**.
+
+The REST grant is per document and does not carry: draft9p1p6's plan records the earlier permission
+covering stickbot-draft9p1p2 and stickbot-draft9p1p4 and not extending, and Mike granted REST for
+stickbot-draft9p4 by name on 2026-09-14. Phase B of draft9p5's plan adds every feature over REST and
+cannot start until stickbot-draft9p5 has its own grant. This is Mike's to give, not work to be done.
+
+Granted 2026-09-18.
+
+## #224 Re-open task.capture.tutorials_1_to_5 against the guide draft
+
+**pending**.
+
+It was closed as superseded on the reasoning that draft9p5 captures every page from empty. As of
+2026-09-18 Phase 5 is a model build over REST that takes no frames and writes no pages, so that
+reasoning no longer holds. draft9p0's first five pages still have a hero and no frame of any single
+step. It belongs to the guide draft that follows draft9p5, which is not planned yet.
+
+## #225 Rename EAR, EAR_FREE, EAR_MOVE and EAR_STRESS in make_plans
+
+**pending**. `task.hinge.ear_rename`. No plan holds it; the scope question below is why.
+
+The word ear was retired for fork prong on 2026-09-17. The briefs' prose, their step tables and the
+four brief-*.svg sheets carry the new vocabulary; the identifiers do not. make_plans.py exports EAR,
+EAR_FREE, EAR_MOVE and EAR_STRESS across 19 lines, make_brief_sheets.py reads them on 9 and
+make_target.py on 3, and .docs/experiments/build-briefs/hinge.md cites EAR beside a sentence that
+says fork prong.
+
+Where the rename stops is the open question. hinge_spring.py carries the same concept in lowercase
+as its public interface -- ear_free as a Hinge keyword, Hinge.ear, and press()'s internals -- and
+make_plans.py:290 passes ear_free=EAR_FREE, so a rename stopping at the constants leaves the retired
+word in the interface they feed. .docs/reviews/hinge/make_figures.py builds its own frozen namespace
+holding EAR and EAR_FREE and hands it to hinge_spring.press; that generator is labeled superseded
+and frozen at its own snapshot. And make_plans.py prints ear and tongue as drawing text at lines
+1025, 1055, 1109 and 1110, so plan-parts.svg carries 1 EAR, 7 ear, 1 ears and 8 tongue. Renaming the
+constants alone leaves every SVG byte-identical; renaming the drawing text does not.
+
+The CAD variable #ear is not part of this. draft9p5 drops it, with #backlash.
+
+## #226 Retake cad-body-section and cad-l-limb-section
+
+**pending**. `task.briefs.section_retakes`. draft9p5's Ring 2 is where the retake happens.
+
+cad-body-section.png and cad-l-limb-section.png carry a selection highlight from the session that
+shot them, and l limb's section is cut on the Front plane where the Right plane shows the blade. The
+geometry in both is sound, so a builder can read them as they are.
+
+draft9p5's Ring 2 shoots sections off the new model and opens every frame it keeps, which is where
+these are retaken rather than off the documents draft9p5 replaces. The plane for l limb wants
+deciding before Ring 2 reaches that tab.

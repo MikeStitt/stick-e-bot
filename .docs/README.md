@@ -10,55 +10,6 @@ not checked), because the difference is the whole point of the Quality Gates.
 This page is also the working list. Not every file in this folder is named here — the ones below
 are the ones the current work points at.
 
-## Work with a name and no plan
-
-Named per the Constitution's *Name a unit of work; do not number it*, and listed here because no
-plan holds them. The rest of the open work is placed in
-[`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md) § *The open work, by
-name*. A task leaves this list by being written into a plan, or by being done — which this file
-records rather than deletes.
-
-- **`task.draft9p4.register`. Done 2026-09-18**, at
-  [`experiments/runs/2026-09-08-draft9p4/register.md`](experiments/runs/2026-09-08-draft9p4/register.md).
-  It was listed under Phase 5 in
-  [`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md), which builds a model
-  and writes no record of draft9p4.
-
-- **`task.hinge.ear_rename`.** The word *ear* was retired for *fork prong* on 2026-09-17. The
-  briefs' prose, their step tables and the four `brief-*.svg` sheets carry the new vocabulary; the
-  identifiers do not. `make_plans.py` exports `EAR`, `EAR_FREE`, `EAR_MOVE` and `EAR_STRESS` across
-  19 lines, `make_brief_sheets.py` reads them on 9 and `make_target.py` on 3, and
-  [`experiments/build-briefs/hinge.md`](experiments/build-briefs/hinge.md) cites `EAR` beside a
-  sentence that says *fork prong*.
-
-  **Where the rename stops is the open question, and it is why this is not a plan yet.**
-  `hinge_spring.py` carries the same concept in lowercase as its public interface — `ear_free` as a
-  `Hinge` keyword, `Hinge.ear`, and `press()`'s internals — and `make_plans.py:290` passes
-  `ear_free=EAR_FREE`, so a rename stopping at the constants leaves the retired word in the
-  interface they feed. `reviews/hinge/make_figures.py` builds its own frozen namespace holding
-  `EAR` and `EAR_FREE` and hands it to `hinge_spring.press`; that generator is labeled superseded
-  and frozen at its own snapshot. And `make_plans.py` prints *ear* and *tongue* as drawing text at
-  lines 1025, 1055, 1109 and 1110, so `plan-parts.svg` carries 1 `EAR`, 7 `ear`, 1 `ears` and 8
-  `tongue`. Renaming the constants alone leaves every SVG byte-identical; renaming the drawing text
-  does not.
-
-  The CAD variable `#ear` is not part of this. draft9p5 drops it, with `#backlash`.
-
-- **`task.reproduce.draft9p4`.** *Steps reproduce* did not close on tutorials 4, 5, 6, 8 and 9.
-  Each was driven into `stickbot-draft9p4-check` from the session that built it, so the page was
-  followed by someone with the build in front of them, which is not what the gate asks. draft9p5
-  does not claim the gate and writes no pages, so this waits on the guide draft that follows.
-  [`2026-09-14-move-to-stick-e-bot.md`](2026-09-14-move-to-stick-e-bot.md) says under
-  `task.reproduce.draft9p3` that the gate *moves to draft9p5*; that sentence predates Phase 5
-  becoming a model build, and this entry replaces it.
-
-- **`task.briefs.section_retakes`.** `cad-body-section.png` and `cad-l-limb-section.png` carry a
-  selection highlight from the session that shot them, and l limb's section is cut on the Front
-  plane where the Right plane shows the blade. The geometry in both is sound, so a builder can read
-  them. draft9p5's Ring 2 shoots sections off the new model and opens every frame it keeps, which
-  is where these are retaken rather than off the documents draft9p5 replaces. The plane for l limb
-  wants deciding before Ring 2 reaches that tab.
-
 ## What needs doing, and what needs improving
 
 State of play for the robot, at the end of run 2 (2026-08-11): Session 1 is
@@ -251,12 +202,17 @@ only inside feature dialogs. A's version is wrong.
   [`../memory/deciding-is-never-done.md`](../memory/deciding-is-never-done.md) and the argument
   behind it is [`2026-09-16-derived-figures.md`](2026-09-16-derived-figures.md). What is still open
   there: a verdict that fails a check rather than sitting in a heading.
-- **The task numbers are closed at #217, and what each one meant is in
-  [`tasks.md`](tasks.md).** They were coined in a Claude Code task store keyed by session id, which
-  is not in git; the repository cites them 107 times across 42 files. New work carries a dotted
-  identifier name instead, written into the plan that will do it, and the move is recorded in
-  [`2026-09-16-tasks-into-the-repo.md`](2026-09-16-tasks-into-the-repo.md). Work with a name and no
-  plan is listed at the top of this file.
+- **[`tasks.md`](tasks.md) is the task list, reopened on 2026-09-18 after being closed at #217.**
+  The numbers were coined in a Claude Code task store keyed by session id, which is not in git and
+  does not survive the session that made it; the repository cites them 107 times across 42 files,
+  so the definitions live in that file. #218 through #226 are appended, and an open task carries
+  its dotted identifier name alongside its number. The 2026-09-16 close and the reasoning behind
+  it are in [`2026-09-16-tasks-into-the-repo.md`](2026-09-16-tasks-into-the-repo.md).
+
+  **The Constitution has not caught up.** Its Working Rule *Name a unit of work; do not number it*
+  says `tasks.md` "is closed at #217 and is history; nothing appends to it", and the
+  `constitution-maintenance` skill repeats it. Amending either needs that skill and a version
+  bump, and neither has been done.
 - **Four Stage 5 teaching routes lost their home when the limbs became cylinders.** `#limbD` is
   12 and every limb is a Ø12 cylinder, so the limb rows in the Stage 5 build order —
   [`robot-build-plan.md:609`](robot-build-plan.md) and `:611` — no longer describe a part anyone

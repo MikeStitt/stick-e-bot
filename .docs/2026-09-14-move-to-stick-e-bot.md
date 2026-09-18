@@ -204,8 +204,8 @@ that will do it, or recorded as superseded. [`tasks.md`](tasks.md) holds the num
 written under and the full text of what it asked for.
 
 **Phase 5 holds the model work**, since Phase 4 was dropped. `task.draft9p4.register` was listed
-here and is not model work; it moved to [`README.md`](README.md) § *Work with a name and no plan*
-and is done. The pages these tasks also asked for
+here and is not model work; it is done, and the record is
+[`tasks.md`](tasks.md) #209. The pages these tasks also asked for
 belong to the guide draft that follows, because Phase 5 takes no frames and writes no pages.
 
 - **`task.draft9p4.hinge`.** The hinge tab: twenty-four wedges on a ring with a fifteen degree
