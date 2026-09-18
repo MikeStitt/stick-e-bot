@@ -47,7 +47,7 @@ The nine construction records on disk were scored on 2026-09-18. `body`, `head`,
 and the assembly come from draft9p3's `reference/`, which reads draft9p1p1; the four joint tabs come
 from draft9p4's `reference/`, which reads draft9p1p6.
 
-| Tab | Features | Variables | Titles typed over | Longest run of variables | Connectors carrying *connector* |
+| Tab | Features | Variables | Titles typed over | Longest run of variables | Names still saying *connector* |
 | --- | -------: | --------: | ----------------: | -----------------------: | ------------------------------: |
 | `body` | 33 | 8 | 0 | 8 | 8 |
 | `head` | 26 | 12 | 0 | 12 | 0 |
@@ -65,7 +65,25 @@ from draft9p4's `reference/`, which reads draft9p1p6.
 - **Two tabs have typed variable titles.** `ball and socket` has `stalk`, `slit`, `slit_in`,
   `slit_d` and `slit_out`; `hinge` has `nose`, `ear`, `stub`, `stub_proud`, `bore_d`, `slit_h`,
   `rod_blade` and `rod_fork`. Thirteen rows a student cannot reproduce.
-- **Ten connectors carry the word the ruling drops.** Eight on `body`, two on `hinge`.
+- **Ten mate connector names still end in the word the ruling drops.** Eight on `body`, two on
+  `hinge`. The column counts names, not connections.
+
+**Two Onshape things are easy to read as one, and only one of them is a mate.** A `mate` is an
+assembly constraint joining two instances; there are **13**, all in the `stickbot` assembly, and
+they are the robot's thirteen joints — neck, two shoulders, two elbows, two wrists, two hips, two
+knees, two ankles. A `mateConnector` is a coordinate system placed on a part in a Part Studio;
+there are **23** across the eight parts. It is not a joint and not a mate. It is where a mate will
+later attach, or an axis for a pattern.
+
+The 23 do not reduce to the 13 and are not meant to. A joint needs a connector on each of the two
+parts it joins, and several connectors are not joint ends at all: `axis for circular patterns` on
+the hinge is a pattern axis, and `socket mount point`, `mate for fork` and `mate for ball stud`
+mark where a derive or a transform lands.
+
+**That split is what the naming ruling turns on.** A connector that is a joint end takes the
+joint's name — `neck`, `left shoulder`, `elbow end`. A connector that marks a placement takes
+`mate for …`. Neither takes the word *connector*, because the feature list already says what it
+is.
 - **No tab anywhere carries a default feature name.** That ruling already passes, so draft9p5 has
   to keep it rather than fix it.
 
