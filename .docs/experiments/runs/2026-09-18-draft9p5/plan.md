@@ -81,6 +81,36 @@ mate connectors, so its fork is two loose solids of 125 faces where draft9p1p6's
 **So the hinge takes its shape from draft9p1p6 and its build order from draft9p4-check.** Nothing is
 in the check document that is not in draft9p1p6; it is a subset built to newer rules.
 
+### The head, where the eye reproduces 1.5 % oversize
+
+`stickbot-draft9p4-check`'s head differs from `stickbot-draft9p4`'s in five faces each way, and
+they are the eyes. Each eye's end face is 102.0857 mm² in the check document against 100.531 mm² in
+the build document, which is π × `#eyeRx` 8 mm × `#eyeRy` 4 mm exactly. The check document's head is
+the one built by following
+[`head.rst`](../../../../instructions/stickbot-draft9p4/source/head.rst), so the page as followed
+does not reproduce the eye it describes.
+
+**The page is not obviously at fault.** `head.rst:510` has the reader dimension the ellipse
+`#eyeRx * 2` and `#eyeRy * 2`, locate its center on `#eyeX` and `#eyeUp`, and read that it goes
+black. There is no round on the eye and no draft on the extrude. Followed as written it gives
+100.531 mm².
+
+**`#headW` is not the difference.** The head's other faces match face for face, and the head box is
+drawn from `#headW`, so `#eyeRx` and `#eyeRy` — `#headW / 9` and `#headW / 18` — resolve the same in
+both documents.
+
+**The area does not say what moved.** Two departures fit 102.0857 mm² exactly: both radii larger by
+a factor of 1.0077, giving 8.0616 mm and 4.0308 mm; or both offset outward by 0.0411 mm, giving
+8.0411 mm and 4.0411 mm. The 0.06 mm this was first written down as is the first of the two,
+inferred from the area rather than measured off the sketch.
+
+**Phase A reads the sketch and names the cause.** Where the cause is in the model or in the design
+source, this draft fixes it. Where it is in the page's words, the register names the line and the
+sentence to write instead, since this draft writes no pages.
+
+**Ring 2's acceptance on `head`: each eye's end face is `math.pi * EYE_RX * EYE_RY`**, imported
+from `make_plans.py`. No brief carries this number, so Ring 2 would not have caught it.
+
 ## The declaration
 
 | Field | Value |
@@ -143,6 +173,9 @@ Each of these is a read, and each writes its answer into `results/`.
   `right shoulder`, `left hip`, `right hip`, `mate for shoulder stud`, `mate for hip stud` and
   `mate for neck stud`, with the two sketches under them `hip stud location` and
   `neck stud location`. `hinge`'s two become `fork to robot` and `blade to robot`.
+- **Read `eye profile` in `stickbot-draft9p4-check`** with `read_sketches.py`, and that tab's four
+  eye variables with `/features`. § *The head, where the eye reproduces 1.5 % oversize* says what
+  the two candidate causes are and what each predicts for the ellipse's radii.
 - **Run `ninja brief-sheets` and confirm nothing changes.**
 - **Confirm every sheet is referenced by the brief that owns it.**
 - **Confirm the six open numbers.** `#wall` reads `#torsoH * 3 / 160`; tasks #118, #125, #142, #168

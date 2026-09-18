@@ -34,13 +34,17 @@ comparison pass.
 **What is deliberately left open, and is not yours to close.**
 
 - `task.draft9p4.register` — draft9p4's own record.
-- `task.reproduce.draft9p4` and `task.head.eye_oversize` — page defects in a guide this draft does
-  not write.
+- `task.reproduce.draft9p4` — the *Steps reproduce* gate on tutorials 4, 5, 6, 8 and 9, in a guide
+  this draft does not write.
 - `task.hinge.ear_rename` — `make_plans.py` still exports `EAR`, `EAR_FREE`, `EAR_MOVE` and
   `EAR_STRESS`. The briefs say *fork prong* in prose and `EAR` in the row beneath it. Both mean the
   fork's arm. Build to the plan's names and leave the identifiers alone.
 - `task.briefs.section_retakes` — `cad-body-section.png` and `cad-l-limb-section.png` carry a
   selection highlight from the session that shot them. The geometry in them is sound; read them.
+
+**The eye is yours.** The plan's § *The head, where the eye reproduces 1.5 % oversize* holds a
+1.5 % departure found by reproducing `head.rst`, with two candidate causes and no read to separate
+them. Phase A takes that read; Ring 2 proves the eye this draft builds.
 
 **Where to stop and ask.**
 

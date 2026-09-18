@@ -257,7 +257,9 @@ time. The work reached the build document as well, by a route the log does not r
 
 - **The check document's eyes are 1.5 % oversize.** Each eye's end face is 102.0857 mm² there
   against 100.531 mm² in the build document, which is π × 8 mm × 4 mm exactly. Nothing moved; the
-  ellipse came back about 0.06 mm large on its major radius. Task #222.
+  ellipse came back about 0.06 mm large on its major radius. Moved to draft9p5 on 2026-09-18, at
+  [`runs/2026-09-18-draft9p5/plan.md`](experiments/runs/2026-09-18-draft9p5/plan.md) § *The head,
+  where the eye reproduces 1.5 % oversize*, which carries what the area can and cannot say.
 - **The check document's hinge is the settled wedge joint and the build document's is not**, 508
   faces against draft9p1p6's 510.
 - **Its fork is two loose prongs**, two bodies of 125 faces where draft9p1p6's fork is one of 252.
