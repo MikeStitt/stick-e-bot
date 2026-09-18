@@ -329,6 +329,31 @@ Every number below is `make_plans.py`'s, and the read agreed with it to the four
   #210, and `hinge.md` never had a socket in it. `head.md` also asks for the head to be shelled,
   and the section shows it solid.
 
+### What the survey did not do
+
+**The `stickbot` assembly was never read, rendered or measured.** The survey covered the eight
+parts and stopped there, so `assembly.md` has no frame and nothing is known about whether
+draft9p4's assembly is current.
+
+That leaves three numbers in the briefs standing on arithmetic alone, and none of them can be
+checked from a part's geometry:
+
+- **`HEAD_B` 68.0 mm and `HEAD_T` 140.0 mm**, the head's underside and the top of the robot. These
+  are robot-frame stations and exist only once the head is mated.
+- **`BALL_SWING` 39.013&#176; per side.** A kinematic limit; `bodydetails` carries no such thing.
+
+The briefs say so themselves rather than implying a check: the foot's row is marked `derived`, and
+`assembly.md` writes *`make_plans.py` derives* beside a bullet asking for the swing to be measured
+by posing the joint until it stops.
+[`runs/2026-09-18-draft9p5/plan.md`](experiments/runs/2026-09-18-draft9p5/plan.md) § *Ring 3* is
+where they get checked, because that is the first time there is a robot to check them on.
+
+**One number that did stand on arithmetic now does not.** The foot's ankle boss, `#grip + #plate`
+= 14.2205 mm, was inferred from a bounding box on 2026-09-18 and measured the same day: the plate's
+top is a real face at z = −12.0000 mm with 1669.26 mm&#178; of area. The same read shows the tread
+groove's faces at z = −22 mm and −20 mm, never reaching the sole at −24 mm, which is the closed-void
+defect a third way.
+
 ### What the task got wrong about the order
 
 Reverse chronological by creation date is draft9p4 and draft9p4-check on 09-09, draft9p1p6 on
