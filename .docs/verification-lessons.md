@@ -122,6 +122,33 @@ reads would have agreed. Two identical readings feel like confirmation and are n
 out a transient. What separates *the work is missing* from *the work is parked* is one field that
 was already in the response.
 
+## A GUI frame carries whatever the session was showing
+
+**Deselect by clicking a point you have checked is empty, park the cursor outside the canvas,
+and count the selected pixels before you keep the frame.**
+
+The survey's seven section frames are browser screenshots, and three came back with the session
+showing through. `cad-gripper-section.png` had a selected edge drawn orange down the middle of the
+part. `cad-l-limb-section.png` had a whole face outlined orange. `cad-body-section.png` had a mate
+connector lit with its manipulator and a name tooltip floating over the shoulder.
+
+**The cause is a fixed deselect point.** `onshape_gui.clear` clicks `EMPTY = (300, 900)` to drop
+the selection, and on a part that fills the canvas that point is on the model, so the click selects
+rather than clears. The capture script compounded it by leaving the cursor at (900, 520), which is
+over the geometry, so the part under it stayed hovered and its tooltip stayed up.
+
+**`shadedviews` cannot do this.** It renders server-side with no session, which is why the
+seventeen `cad-*` frames that are not sections came back clean. The rule follows the route: a
+server render needs no hygiene, a browser screenshot needs all of it.
+
+**`onshape_screen.selected` counts the orange.** It is one call, it runs on the frame you are about
+to keep, and it turns "looks clean" into a number. Clicking an empty point and parking the cursor
+at (20, 20) took the gripper's count from lit to zero.
+
+**None of this was caught by looking at the survey's output**, because eight of the twenty-four
+frames were placed into the briefs without being looked at at all. A frame nobody opens is worth
+what a figure nobody reads is worth.
+
 ## Bearing on the course
 
 Two of these are student-facing and belong in the step files:
