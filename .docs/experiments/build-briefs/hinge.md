@@ -283,7 +283,7 @@ bounding box, every time.
 
 **Check stage 1 before going on:**
 
-- - **Parts (2)**, and they do not intersect. Ear inner face to blade blank face: **0.90**,
+- - **Parts (2)**, and they do not intersect. Fork prong inner face to blade blank face: **0.90**,
   everywhere. - The axle sits **2.10** inside the bore. - The bore is a bore: from the fork prong's
   inner face at 5.90 out to its outer surface at 12.00. - **The blade's own limb clears the fork's
   prong tips when the joint folds.** The tips sweep 12 from the axis and the blade's rod ends at 20,
@@ -407,8 +407,8 @@ out. The verification is in that plan's § *The verification loop*.
 | 15 | `extrude` | `fork blank` |
 | 16 | `newSketch` | `fork blade top cut outline` |
 | 17 | `extrude` | `trim fork to arm` |
-| 18 | `newSketch` | `pocket axle sketch` |
-| 19 | `extrude` | `pocket axle on fork` |
+| 18 | `newSketch` | `axle bore sketch` |
+| 19 | `extrude` | `axle bore on fork` |
 | 20 | `newSketch` | `fork prong wedge outline` |
 | 21 | `extrude` | `fork prong wedge` |
 | 22 | `circularPattern` | `fork prong wedges` |
