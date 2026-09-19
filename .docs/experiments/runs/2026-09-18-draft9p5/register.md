@@ -1436,6 +1436,12 @@ bottom ones, at 90.0000 deg, line to line; an arch is meant to have those.
 **`foot`: all four corners measure 0.0000 deg.** Heel arc to line to toe arc to line, tangent the
 whole way round.
 
+**`src/stickbot/measure_tangency.py` was already there and I did not read it first.** It does
+the every-edge half off the tessellation, and its docstring says facet normals lag the surface by
+about 1.15 deg so the exact figure belongs to `bodydetails`. The run script reads `bodydetails`
+and adds the profile walk; the duplication is the every-edge part, and it is named in the script's
+own docstring so the next reader finds both.
+
 **The first two attempts at this measured the wrong thing**, and are worth naming because the
 numbers looked plausible both times. Comparing surface normals at every shared edge reports the
 eyes and the socket as creases, which they are and which no brief objects to. Narrowing that to
@@ -1549,8 +1555,9 @@ is not in this model.
   its arithmetic shown; `foot.md` and `limbs.md` say 689.06 mm³. It is one derived socket.
   Measured 717.140 mm³, so the model follows `ball-and-socket.md`, and 689.06 mm³ is the figure the
   collar ruling moved.
-- **The arms reach about 14 mm past mid-thigh, not to it.** The gripper's lowest point is
-  z -204.765 mm and the thigh's middle is z -190.9 mm. `assembly.md` calls this *a pure ratio, so
+- **The arms reach 13.875 mm past mid-thigh, not to it.** The gripper's lowest point is
+  z -204.765 mm and the thigh's middle is z -190.890 mm, both measured in the assembly through the
+  occurrence transforms on 2026-09-19. `assembly.md` calls this *a pure ratio, so
   it should survive the doubling exactly; check it on the assembly, because if it does not,
   something scaled that should not have.* It did not.
 - **The robot's height is given twice and differently.** `assembly.md` asks for 317.00 mm;

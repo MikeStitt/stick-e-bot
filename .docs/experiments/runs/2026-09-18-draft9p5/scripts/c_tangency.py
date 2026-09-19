@@ -10,9 +10,14 @@ face dump carries both halves: `loops` give each face's edges, so an edge names
 the two faces that share it, and each surface's own description gives a normal at
 a point on that edge.
 
-It reports the angle at every edge, and then the edges that are tangent, which
-are the ones the briefs are asking about. A profile drawn from lines and arcs
-that were meant to be tangent has an angle at each of those joins near zero.
+It reports the angle at every edge, and then walks the profile itself.
+
+**`src/stickbot/measure_tangency.py` already does the every-edge half**, off the
+tessellation, and says in its own docstring that facet normals lag the surface by
+about 1.15 deg so the exact figure should be read off `bodydetails`. This reads
+`bodydetails`, so its angles are exact; and it adds the profile walk, which is
+what the briefs are asking for. The every-edge answer on its own reports the eyes
+and the socket as creases, which they are and which no brief objects to.
 """
 
 from __future__ import annotations

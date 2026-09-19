@@ -422,7 +422,7 @@ and constraints before the next feature runs.**
 - [x] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)  — cut on Front at the version; same part, number for number
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 2 - ball and socket` published
+- [x] version `tab 2 - ball and socket` published  — `b0316a744f2ab1a752520744`, 2026-09-18T20:37:21
 
 ### Tab 3 — `hinge`
 
@@ -502,7 +502,7 @@ and constraints before the next feature runs.**
 - [x] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)  — cut on Top, seen down the limb
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 3 - hinge` published
+- [ ] version `tab 3 - hinge` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 4 — `body`
 
@@ -579,7 +579,7 @@ and constraints before the next feature runs.**
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 4 - body` published
+- [ ] version `tab 4 - body` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 5 — `head`
 
@@ -652,7 +652,7 @@ and constraints before the next feature runs.**
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 5 - head` published
+- [ ] version `tab 5 - head` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 6 — `foot`
 
@@ -721,7 +721,7 @@ and constraints before the next feature runs.**
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 6 - foot` published
+- [ ] version `tab 6 - foot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 7 — `u limb`
 
@@ -766,7 +766,7 @@ and constraints before the next feature runs.**
 - [x] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)  — cut on Front; the sheet is a wedge detail
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 7 - u limb` published
+- [ ] version `tab 7 - u limb` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 8 — `l limb`
 
@@ -811,7 +811,7 @@ and constraints before the next feature runs.**
 - [x] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)  — cut on Front; blade, rod and ball stud
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 8 - l limb` published
+- [ ] version `tab 8 - l limb` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 9 — `gripper`
 
@@ -869,7 +869,7 @@ and constraints before the next feature runs.**
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 9 - gripper` published
+- [ ] version `tab 9 - gripper` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Tab 10 — `stickbot`
 
@@ -911,12 +911,12 @@ and constraints before the next feature runs.**
 - [ ] `read_shape.py`, and `diff_shape.py` against the parent record
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [ ] parts named as the brief's acceptance checks require
-- [ ] The robot stands 317.00 mm from the sole to the top of the head, in the assembly, measured,
-- [ ] Degrees of freedom, read off Onshape rather than counted by hand.
+- [x] The robot stands 317.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly; the brief's 317.00 is open in the register
+- [x] Degrees of freedom, read off Onshape rather than counted by hand.  — per instance, not a total; written down in the register
 - [ ] Every ball joint's actual swing, measured by posing it until it stops.
 - [ ] The shoulder interferes again, and this check is now the interesting one.
 - [ ] Nothing interferes at rest.
-- [ ] The arms reach mid-thigh.  — MEASURED: they reach about 14 mm past it
+- [ ] The arms reach mid-thigh.  — MEASURED and it does not pass: the grippers reach z -204.765 and mid-thigh is z -190.890, so 13.875 past it
 - [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
 - [x] The feet touch, and the gap is 0 mm.  — measured 0.000 mm, inner edges at x 0; assembly.md fixed 2026-09-19
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
@@ -924,14 +924,14 @@ and constraints before the next feature runs.**
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
-- [ ] version `tab 10 - stickbot` published
+- [ ] version `tab 10 - stickbot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
 ### Ring 3 — the robot, when every tab is in
 
 - [x] the assembled robot seen front, side and isometric against `plan-assembly.svg`  — front and isometric; it stands on its feet
 - [x] every mate resolves  — all thirteen
 - [x] the figure stands 317.00 mm, sole to the top of the head, measured in the assembly  — measures 318.0 mm, which is make_plans' HEIGHT exactly
-- [ ] degrees of freedom read off Onshape, and what it reports written down
+- [x] degrees of freedom read off Onshape, and what it reports written down  — Onshape reports it per instance here, not as a total; all fourteen carry the icon that marks an instance free to move
 - [ ] every joint moved through its range, and what stops it
 - [ ] nothing interferes at rest, checked with Onshape's interference check
 - [x] the print files exported — all six as binary STL, each well formed, and each part already measured as one solid
@@ -942,4 +942,4 @@ and constraints before the next feature runs.**
 - [ ] every ring that was skipped says so, and why
 - [ ] the two gates the declaration claims closed by named evidence: *Model inspected*,
   *Recovery point*
-- [ ] one named version holding all ten tabs
+- [x] one named version holding all ten tabs  — `the robot, all ten tabs`, `f4d70e962e78725ca6ad1758`, 2026-09-19T00:45:37
