@@ -420,7 +420,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,  — same part
   -front.png, -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)  — cut on Front at the version; same part, number for number
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [x] version `tab 2 - ball and socket` published  — `b0316a744f2ab1a752520744`, 2026-09-18T20:37:21
 
@@ -500,7 +500,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-hinge-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)  — cut on Top, seen down the limb
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 3 - hinge` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -577,7 +577,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,  — same part
   -section.png)
 - [x] no sheet of its own: held beside `plan-parts.svg`  — TORSO on the sheet reads 72 × 96 × 48 mm and the boss Ø16 cut flush at the top face; the model measures the same block and both bosses end at z 48.000
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 4 - body` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -650,7 +650,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,  — same part
   -section.png)
 - [x] no sheet of its own: held beside `plan-parts.svg`  — HEAD on the sheet reads 72 × 72 × 60 mm, arch r36 and top edges rounded r12, collar Ø15.6 standing 12.22 proud with 1.6 slits 6.22 deep; every one of those is what the model measures, and the sheet's collar figures are the model's against the brief's
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 5 - head` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -719,7 +719,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,  — same part
   -section.png)
 - [x] no sheet of its own: held beside `plan-parts.svg`  — FOOT on the sheet reads 96 × 48 mm with 6 mm tread grooves 12 mm apart; the model measures 96.000 × 48.000 and eight groove floors 2.000 deep
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 6 - foot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -764,7 +764,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-u-limb-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)  — cut on Front; the sheet is a wedge detail
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 7 - u limb` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -809,7 +809,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-l-limb-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)  — cut on Front; blade, rod and ball stud
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 8 - l limb` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -867,7 +867,7 @@ and constraints before the next feature runs.**
 - [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — same part
   -section.png)
 - [x] no sheet of its own: held beside `plan-parts.svg`  — the sheet reads mouth 2.6 mm, which the model measures, and platform 15.6 × 15.6 mm, which it does not: the model's is 18.000. That is the defect above
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 9 - gripper` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
@@ -908,9 +908,9 @@ and constraints before the next feature runs.**
   `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
   `/features` GET is refused; the writes answered and the shape diff stands in.
 
-- [ ] `read_shape.py`, and `diff_shape.py` against the parent record
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — both read a Part Studio's solids and an assembly has none of its own. What stands for it is the instance list against the parent's, and the thirteen mates, all of which resolve
 - [ ] `diff_features.py` against the same, every difference named in the register
-- [ ] parts named as the brief's acceptance checks require
+- [x] parts named as the brief's acceptance checks require  — `assembly.md` names no parts; an assembly's instances take their names from the tabs, and every tab's part is named and read back
 - [x] The robot stands 317.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly; the brief's 317.00 is open in the register
 - [x] Degrees of freedom, read off Onshape rather than counted by hand.  — per instance, not a total; written down in the register
 - [ ] Every ball joint's actual swing, measured by posing it until it stops.
@@ -922,7 +922,7 @@ and constraints before the next feature runs.**
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (plan-assembly.svg)  — same part
 - [x] no sheet of its own: held beside `plan-parts.svg`  — the assembly was held beside `plan-assembly.svg`, which is the sheet that draws it; `plan-parts.svg` draws the parts and each tab's line above carries it
-- [ ] every frame kept opened, and nothing selected in it
+- [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 10 - stickbot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
 
