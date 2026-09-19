@@ -1168,3 +1168,70 @@ are axis-aligned, so an arm hanging beside the torso overlaps it in a box while 
 fact. The brief's instruction for those two is to *drive the shoulder to its stop, run
 interference* — both of which need the posing and the tool this draft does not have. So the two
 pairs are named, not judged.
+
+# Ring 4 — the record
+
+## What was built
+
+**One document, `stickbot-draft9p5`, holding ten tabs built from empty.** `robot sizes` carries the
+23 rows the build plan's Variables table asks for and nothing else. Eight Part Studios build the
+robot's parts, and the `stickbot` assembly holds fourteen instances on thirteen mates.
+
+**Six tabs came out face for face with their parents**: `ball and socket` 22 faces, `hinge` 510,
+`body` 20, `u limb` 270, `l limb` 260, `foot` 60. `head` differs from draft9p1p1 by 19 faces and
+those 19 are the socket, which is the plan's intent — the settled draft9p1p6 joint everywhere.
+`gripper` differs by its socket the same way.
+
+**The robot stands at 318.0 mm**, which is `make_plans`' `HEIGHT` to the millimetre.
+
+## What each ring caught
+
+**Ring 1 caught nothing on the tabs it ran on, and is owed on all ten.** It ran per feature on
+`ball and socket` until the `/features` quota went on 2026-09-18; since then every tab has been
+written with the feature read deferred. What stood in for it — the shape diff against the parent —
+caught three defects the writes themselves reported as fine.
+
+**Ring 2 caught five things.** The hinge's missing wedge ring, 29 faces against 510, from a pattern
+naming its features in `featureIds` where the remap only rewrote `featureId`. The gripper's collar
+sunk into its clip, which 32 faces against 33 had nearly hidden and the render beside the brief's
+frame showed at once. `l limb`'s ball stud left at the origin by a transform whose three queries
+named the parent's ids. The five typed variable titles a verbatim replay carried in. And the
+`foot`'s whole lower half failing silently for want of a merge scope.
+
+**Ring 3 caught the four mates that could not resolve**, which were two mate connectors with three
+empty selections between them — and it caught them as a height: 300.0 mm against 318.0 mm, the
+18 mm being two feet that never reached the floor.
+
+**Ring 4 is this file.**
+
+## What was skipped, and why
+
+- **Ring 1's feature read on every tab.** The `/features` GET has answered 429 since 2026-09-18
+  with a quota that does not clear until about 16:17 on 2026-09-19. Writes to the same route kept
+  working, which is why the CAD exists at all.
+- **Posing each joint to its stop.** The swing the geometry allows is measured — 39.0132° per side,
+  which is `BALL_SWING` — but driving a mate to its stop has not been done, and `assembly.md` asks
+  for the posed number.
+- **The interference check.** This assembly's toolbar carries fifty controls and none of them is
+  one; *Search tools* has no match either. 76 of 91 instance pairs are proved clear by transformed
+  boxes, and the two the brief says to watch are named rather than judged.
+
+## The two gates the declaration claims
+
+**Model inspected.** Every tab rendered and held beside its parent's own frame from the briefs;
+`ball and socket`, `hinge`, `u limb` and `l limb` sectioned at a version against their sheets;
+every feature accounted for by the faces and bodies it made; and every brief's measurable
+acceptance number taken. The evidence is [`results/`](results/) and the sections named above.
+
+**Recovery point.** Version `the robot, all ten tabs`, `f4d70e962e78725ca6ad1758`, holding all ten
+tabs with the robot assembled. Two earlier versions, `tab 1 - robot sizes` and
+`tab 2 - ball and socket`, record the first two tabs as they were built.
+
+## What the briefs and the design source owe
+
+Four numbers disagree with the model. Three follow from rulings settled after the brief was
+written, and the model is right: `head.md`'s socket centre 45 mm against the model's 46, which is
+`#collar` becoming `#stand`; `foot.md`'s mouth Ø11.520 against Ø11.320, which is the ball's printed
+loss; and `gripper.md`'s *Ø18 collar* against Ø15.600, which is the clip's square top's number
+attached to the wrong thing. **The fourth is not explained**: the head measures 63 mm deep in this
+draft and in draft9p1p1, and `HEAD_D` computes 60.
