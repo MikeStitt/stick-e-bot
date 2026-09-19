@@ -918,7 +918,7 @@ and constraints before the next feature runs.**
 - [ ] Nothing interferes at rest.
 - [ ] The arms reach mid-thigh.  — MEASURED: they reach about 14 mm past it
 - [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
-- [ ] The feet do not touch, and the gap is 16.  — MEASURED: they touch, gap 0.000; the two briefs disagree
+- [x] The feet touch, and the gap is 0 mm.  — measured 0.000 mm, inner edges at x 0; assembly.md fixed 2026-09-19
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (plan-assembly.svg)  — same part
 - [ ] no sheet of its own: held beside `plan-parts.svg`

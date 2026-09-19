@@ -175,10 +175,9 @@ Measure these, in the rest pose. Do not infer them.
   are allowed to touch. Measure both, and the check is that they are equal and opposite. **A posed
   assembly cannot be measured for this**, which is what draft9p0's +26.05 and
   −31.42 mean.
-- **The feet do not touch, and the gap is 16.** Their inner edges land on x ±8. This is the
-  half-size robot's 4 mm doubled, so nothing decided it and nothing went wrong — it is what a
-  driving dimension is supposed to do. Measure the gap and say how the stance reads. See
-  [`foot.md`](foot.md).
+- **The feet touch, and the gap is 0 mm.** A 48 mm sole centered on a leg at x ±24 mm puts both
+  inner edges on x 0, which is the stance the bullet above describes. Measure the gap: anything
+  but 0 mm means a foot is not centered on its own leg. See [`foot.md`](foot.md).
 
 ## Open questions to report on
 

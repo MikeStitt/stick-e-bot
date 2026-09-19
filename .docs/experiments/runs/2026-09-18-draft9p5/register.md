@@ -1255,8 +1255,16 @@ doubled*, but a foot whose width is `2 × FOOT_H` scales with the robot, so the 
 to zero, not to 16: at half size the centres are ±12 and the foot is 24 across, which also meets at
 x 0.
 
-**This draft does not fix it.** Neither brief is draft9p5's, and which number is wrong — the foot's
-width, the stance, or the expectation — is a design decision. It is measured and named here.
+**Fixed in `assembly.md` on 2026-09-19, on Mike's word.** It was written up here as a design
+decision needing his call, and the reading was wrong: every other source already says the feet
+touch. [`../../../robot-build-plan.md`](../../../robot-build-plan.md) line 141 says **The feet are
+not handed, and they are allowed to touch**, and gives the reason; `make_plans.py` sets
+`FOOT_X = LEG_X` under the comment *the sole is centered on its own leg, so the two feet meet at
+x 0 when the legs hang straight*; `foot.md` line 154 closes the question with **They do, and that
+is the decision rather than a coincidence**; and `assembly.md`'s own bullet above the broken one
+says the source gave the 8 mm outboard offset up on 2026-08-26. One acceptance check survived that
+withdrawal and nothing else did. The bullet now reads **The feet touch, and the gap is 0 mm**, and
+keeps the measurement as the check that a foot is on its own leg.
 
 ## The arms reach past mid-thigh
 
@@ -1393,6 +1401,12 @@ head. `head.md:67` says it outright; **The eye stands 3 proud; the mouth cuts 3 
 mouth's floor measures y = -27.000 mm to match. Measured 2026-09-19 off the head's `bodydetails`,
 on Mike's question about how far the eyes protrude.
 
+**The feet touch, and only one line anywhere said otherwise.** `assembly.md` asked for a gap of
+16 mm with the inner edges at x ±8; the model measures 0.000 mm with them at x 0. The design
+source, the generator, `foot.md` and `assembly.md`'s own preceding bullet all say the feet meet,
+because the 8 mm outboard offset that produced x ±8 was withdrawn on 2026-08-26. The brief was
+fixed on 2026-09-19; § *The feet touch* above carries the sources and the wording.
+
 **The same dump settles the eye's size on this build.** Each eye's end face is 100.531 mm², which
 is `math.pi * EYE_RX * EYE_RY` with `EYE_RX` 8 mm and `EYE_RY` 4 mm; the centres are at x +/-12.000
 mm and z +8.000 mm. The 102.0857 mm² that `stickbot-draft9p4-check` reproduces from
@@ -1401,12 +1415,6 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
-- **The feet touch, and two briefs disagree about whether they should.** `foot.md` gives a foot
-  48.000 mm across, `assembly.md` puts each sole on its own leg at x ±24, and those two together
-  leave a gap of **0.000 mm** — measured. `assembly.md` expects 16 mm with the inner edges at
-  x ±8, which needs a 32 mm foot. Its reasoning does not survive either: it calls 16 *the half-size
-  robot's 4 mm doubled*, but a foot whose width is `2 × FOOT_H` scales with the robot, so the gap
-  it leaves scales to zero.
 - **The arms reach about 14 mm past mid-thigh, not to it.** The gripper's lowest point is
   z -204.765 mm and the thigh's middle is z -190.9 mm. `assembly.md` calls this *a pure ratio, so
   it should survive the doubling exactly; check it on the assembly, because if it does not,
