@@ -938,8 +938,8 @@ and constraints before the next feature runs.**
 
 ### Ring 4 — the record
 
-- [ ] [`register.md`](register.md) says what was built, what each ring caught, and what was done
-- [ ] every ring that was skipped says so, and why
-- [ ] the two gates the declaration claims closed by named evidence: *Model inspected*,
+- [x] [`register.md`](register.md) says what was built, what each ring caught, and what was done  — § *What was built*, § *What each ring caught* and a section per finding, each naming its measurement
+- [x] every ring that was skipped says so, and why  — § *What was skipped, and why*: Ring 1's feature read and `diff_features.py` on the quota, the edge-case thinnest wall on `featurescript`, the joints not posed, and the interference check with no tool
+- [x] the two gates the declaration claims closed by named evidence: *Model inspected*,  — § *The two gates the declaration claims*: the renders held beside each parent's frame and the sheets for *Model inspected*, and the six published versions for *Recovery point*, the one to start from being `gripper reads the studio's wall`
   *Recovery point*
 - [x] one named version holding all ten tabs  — `the robot, all ten tabs`, `f4d70e962e78725ca6ad1758`, 2026-09-19T00:45:37

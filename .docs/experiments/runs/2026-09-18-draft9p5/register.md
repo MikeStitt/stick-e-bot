@@ -1207,14 +1207,21 @@ empty selections between them — and it caught them as a height: 300.0 mm again
 ## What was skipped, and why
 
 - **Ring 1's feature read on every tab.** The `/features` GET has answered 429 since 2026-09-18
-  with a quota that does not clear until about 16:17 on 2026-09-19. Writes to the same route kept
-  working, which is why the CAD exists at all.
-- **Posing each joint to its stop.** The swing the geometry allows is measured; 39.0132° per side,
-  which is `BALL_SWING` — but driving a mate to its stop has not been done, and `assembly.md` asks
-  for the posed number.
-- **The interference check.** This assembly's toolbar carries fifty controls and none of them is
-  one; *Search tools* has no match either. 76 of 91 instance pairs are proved clear by transformed
-  boxes, and the two the brief says to watch are named rather than judged.
+  with a quota that does not clear until about 16:17 on 2026-09-19; the last probe read
+  `retry-after: 20157` with `x-rate-limit-remaining: 0`. Writes to the same route kept working,
+  which is why the CAD exists at all. `diff_features.py` waits on the same route.
+- **The thinnest wall where the closest approach falls on a face's edge.**
+  [`scripts/c_thinnest_wall.py`](scripts/c_thinnest_wall.py) answers every pair whose surfaces
+  face each other, and refuses the rest rather than reporting a number it cannot stand behind.
+  `evDistance` is the instrument for those, and `featurescript` shares the feature route's quota.
+- **Driving the joints in the assembly.** Two of the questions that asked for it are answered from
+  the geometry instead, and both are recorded above: the neck reaches the torso at 45.240° nodding
+  and 36.870° sideways, and the shoulder's arm fouls at 33.2722°. **Neither was posed.** Onshape
+  reports degrees of freedom per instance here rather than as a total, so no total is written down.
+- **The interference check.** This assembly's toolbar carries no such control and *Search tools*
+  has no match for the word. The pairs were tested by transformed boxes instead, which clears most
+  of them and cannot settle the two the brief says to watch. **What the tool is called here is a
+  question for Mike**, and it is the only thing standing between this run and Ring 3's last line.
 
 ## The two gates the declaration claims
 
@@ -1223,18 +1230,37 @@ empty selections between them — and it caught them as a height: 300.0 mm again
 every feature accounted for by the faces and bodies it made; and every brief's measurable
 acceptance number taken. The evidence is [`results/`](results/) and the sections named above.
 
-**Recovery point.** Version `the robot, all ten tabs`, `f4d70e962e78725ca6ad1758`, holding all ten
-tabs with the robot assembled. Two earlier versions, `tab 1 - robot sizes` and
-`tab 2 - ball and socket`, record the first two tabs as they were built.
+**Recovery point.** The document's versions, in order:
+
+| Published | Name | Id |
+| --------- | ---- | -- |
+| 2026-09-18T20:04:05 | `Start` | `68a3591a2d407ead830d8bdf` |
+| 2026-09-18T20:26:02 | `tab 1 - robot sizes` | `9d4f31e4d33a22c3d9a62fec` |
+| 2026-09-18T20:37:21 | `tab 2 - ball and socket` | `b0316a744f2ab1a752520744` |
+| 2026-09-19T00:45:37 | `the robot, all ten tabs` | `f4d70e962e78725ca6ad1758` |
+| 2026-09-19T13:10:56 | `before the gripper wall fix` | `77d651aa4e43e369c93abb9b` |
+| 2026-09-19T13:14:09 | `gripper reads the studio's wall` | `4102df8544b8b185f6eb07c7` |
+
+**The one to start from is `gripper reads the studio's wall`.** `the robot, all ten tabs` holds the
+gripper with its 18.000 mm clip body, which is the defect § *Fixed: the `gripper` tab no longer
+declares* records; the two versions after it bracket that change so either side can be reached.
+
+**The per-tab versions Ring 2 asks for were not published past tab 2**, and the checklist says so
+on each line. A version in Onshape is document-wide, so one published now and named for a single
+tab would hold all ten and say it held one.
 
 ## What the briefs and the design source owe
 
-Four numbers disagree with the model. Three follow from rulings settled after the brief was
-written, and the model is right: `head.md`'s socket centre 45 mm against the model's 46, which is
-`#collar` becoming `#stand`; `foot.md`'s mouth Ø11.520 against Ø11.320, which is the ball's printed
-loss; and `gripper.md`'s *Ø18 collar* against Ø15.600, which is the clip's square top's number
-attached to the wrong thing. **The fourth is not explained**: the head measures 63 mm deep in this
-draft and in draft9p1p1, and `HEAD_D` computes 60.
+**Written when four numbers were outstanding; all four are closed and the briefs carry the
+corrections.** `head.md`'s socket centre, `foot.md`'s mouth, `gripper.md`'s collar and the head's
+apparent 63 mm depth are each settled in § *The design's defects, in one place*, which is the list
+to read. The head's depth was never a disagreement: it was a bounding box read as a dimension, and
+the 3 mm is the eyes standing proud.
+
+**What is actually owed now** is two things, both in that list's *Open* section and neither of them
+a number: the collar's radius being computed again in each tab rather than taken off the socket's
+own geometry, and the arms reaching 13.875 mm past mid-thigh where `assembly.md` reasons they
+should reach it exactly.
 
 ## Ring 3, measured on the assembly: the feet touch
 
