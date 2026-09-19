@@ -576,7 +576,7 @@ and constraints before the next feature runs.**
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,  — same part
   -section.png)
-- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [x] no sheet of its own: held beside `plan-parts.svg`  — TORSO on the sheet reads 72 × 96 × 48 mm and the boss Ø16 cut flush at the top face; the model measures the same block and both bosses end at z 48.000
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 4 - body` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
@@ -649,7 +649,7 @@ and constraints before the next feature runs.**
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,  — same part
   -section.png)
-- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [x] no sheet of its own: held beside `plan-parts.svg`  — HEAD on the sheet reads 72 × 72 × 60 mm, arch r36 and top edges rounded r12, collar Ø15.6 standing 12.22 proud with 1.6 slits 6.22 deep; every one of those is what the model measures, and the sheet's collar figures are the model's against the brief's
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 5 - head` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
@@ -718,7 +718,7 @@ and constraints before the next feature runs.**
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,  — same part
   -section.png)
-- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [x] no sheet of its own: held beside `plan-parts.svg`  — FOOT on the sheet reads 96 × 48 mm with 6 mm tread grooves 12 mm apart; the model measures 96.000 × 48.000 and eight groove floors 2.000 deep
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 6 - foot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
@@ -861,12 +861,12 @@ and constraints before the next feature runs.**
 - [x] The part is symmetric about its own left-right centerline.  — every face has its mirror about x = 0
 - [x] The clip's bore axis is parallel to X, read off the model.  — axis (-1.000, 0.000, 0.000) off the bore face
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
-- [x] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — 18.000 both ways
+- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — FAILS: the face measures 18.000 both ways, but this check is written against the Ø18 collar and the collar is Ø15.600. The source asks for 15.600, so the collar sits on a 1.200 ledge
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — same part
   -section.png)
-- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [x] no sheet of its own: held beside `plan-parts.svg`  — the sheet reads mouth 2.6 mm, which the model measures, and platform 15.6 × 15.6 mm, which it does not: the model's is 18.000. That is the defect above
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 9 - gripper` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`
@@ -921,7 +921,7 @@ and constraints before the next feature runs.**
 - [x] The feet touch, and the gap is 0 mm.  — measured 0.000 mm, inner edges at x 0; assembly.md fixed 2026-09-19
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (plan-assembly.svg)  — same part
-- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [x] no sheet of its own: held beside `plan-parts.svg`  — the assembly was held beside `plan-assembly.svg`, which is the sheet that draws it; `plan-parts.svg` draws the parts and each tab's line above carries it
 - [ ] every frame kept opened, and nothing selected in it
 - [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 10 - stickbot` published  — NOT PERFORMED: a version is document-wide, and every tab was already built by the time this was noticed, so a version named for one tab would hold all ten. The recovery point is `the robot, all ten tabs`

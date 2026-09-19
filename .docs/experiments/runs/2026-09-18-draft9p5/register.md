@@ -1468,6 +1468,41 @@ eyes and the socket as creases, which they are and which no brief objects to. Na
 edges running along the extrude still caught the socket's slit walls, because a slit cut down the
 collar has walls parallel to the extrude too. Only the end cap's own loop is the profile.
 
+## A model defect: the gripper's clip body is 18.000 mm square and should be 15.600 mm
+
+**This is the first fault in the model this acceptance pass has found, and it is not a brief's.**
+
+`make_plans.py` sets `CLIP_W = 2 * COLLAR_R`, 15.600 mm, with the reason in the comment beside it:
+*the one dimension in the robot that another part sets; it is the collar's own diameter, so the
+socket standing on it is flush all the way round*. `plan-parts.svg` prints **platform 15.6 × 15.6
+mm**. [`gripper.md`](../../build-briefs/gripper.md) § *Settled* says the same and says why it was
+made an expression: *it was a typed number, and it went stale twice.*
+
+**Measured: the clip body is 18.000 mm across the bar and 18.000 mm fore and aft**, so the Ø15.600
+collar stands on it with a **1.200 mm ledge** at each mid-edge where the source wants tangency.
+The chamfer follows the same error: its leg measures 4.000 mm, which is the body's half-width less
+the clip's radius, where `CLIP_CHAM` is `COLLAR_R - CLIP_R` = 2.800 mm. One wrong number makes
+both.
+
+**The variable is right and the sketch does not read it.** `#collarR` resolves as
+`#ball / 2 + #wall` = 7.800 mm in the tab, so the collar came out Ø15.600. The clip profile carries
+18 as a number instead of `2 * #collarR`, which is the typed number going stale a third time:
+Ø9.0, then Ø18.0, now Ø15.6.
+
+**`gripper.md`'s acceptance check is stale with it, and the checklist had taken the check's side.**
+Line 183 asks for *one flat square face, 18.000 both ways, with the Ø18 collar standing on it*,
+and goes on to name a 4.000 mm chamfer leg and a thinnest wall of *2.92, which is 9.0 - 6.08*.
+Every one of those figures is `COLLAR_R` at 9.0, the value before Ø15.6. The measured thinnest wall
+is 1.720 mm, which is 7.800 less 6.080, and § *Ring 2's acceptance* above already has it. The
+checklist line is un-marked and now says the face measures 18.000 and that the check is written
+against a collar the part does not have.
+
+**Not fixed here, and why.** The fix is one dimension in `clip profile`, from 18 to `2 * #collarR`,
+and it reshapes the part: the renders held beside the parent go stale with it, and the assembly's
+own measurements are taken again. Every feature in this draft is added over REST, and the
+`/features` POST is at zero until about 16:15 on 2026-09-19. It is queued for then, with Ring 1's
+owed feature read.
+
 ## The head has no shell, and its brief asks for one twice and omits it once
 
 [`head.md`](../../build-briefs/head.md) carries two build orders that disagree.
@@ -1523,9 +1558,10 @@ whether this was easy; it is, and it survives the 429 that stops `featurescript`
 # The design's defects, in one place
 
 Ring 4's *What the briefs and the design source owe* named four of these and was written before the
-last three were found. This is the whole list. **Nothing here is a fault in the model as built**:
-every model fault this run made was fixed and is recorded where it happened. These are places where
-a brief or `make_plans.py` and the geometry disagree.
+last three were found. This is the whole list. Most of what follows is a place where a brief or `make_plans.py` and
+the geometry disagree rather than a fault in the model; every model fault this run made while
+building was fixed and is recorded where it happened. **One is a fault in the model as built**, and
+it is the gripper's clip body, found on 2026-09-19 by holding the part beside `plan-parts.svg`.
 
 ## Settled: the model is right and the words trail a ruling
 
@@ -1566,6 +1602,10 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
+- **The gripper's clip body is 18.000 mm square where the source asks for 15.600 mm.** A model
+  fault, not a brief's: `CLIP_W` is `2 * COLLAR_R`, the sheet prints 15.6 × 15.6 mm, and
+  `gripper.md` § *Settled* says so. The collar stands on a 1.200 mm ledge. Queued for the
+  `/features` reset; § *A model defect* above carries the measurement.
 - **The head has no shell, and `head.md` both requires one and omits it.** Its
   § *Suggested build order* and its § *Acceptance checks* call for a 1.2 mm shell; its
   § *Recommended steps* table, which the plan and the model follow, has no shell in it. The head
