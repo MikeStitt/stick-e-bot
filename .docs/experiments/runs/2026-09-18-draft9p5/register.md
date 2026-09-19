@@ -1635,6 +1635,58 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## The robot's height is restated in four briefs, and every copy is stale
+
+Mike asked on 2026-09-19 why so many component briefs mention the robot's height, since few of
+them need it to build anything. They do not, and the copies have gone wrong.
+
+**Where it belongs, and these are fine.**
+
+- [`assembly.md`](../../build-briefs/assembly.md) line 40 and line 140: the deliverables row and
+  the acceptance check. The assembly is where a whole-figure height exists, and one place measures
+  it.
+- [`README.md`](../../build-briefs/README.md) line 70: the stations table all the briefs read the
+  frame from, so the total sits there once.
+- [`ball-and-socket.md`](../../build-briefs/ball-and-socket.md) line 86, on why the collar is
+  measured from the ball's centre: *the fit moves the hollow and leaves the robot's height alone*.
+  **This is the shape the others should have.** It names the height because the height is the
+  reason for the definition, and it carries no figure, so there is nothing in it to go stale.
+
+**Where it is a copy, and the copy is wrong.**
+
+| Where | It says | It should say |
+| ----- | ------- | ------------- |
+| `head.md` line 101 | top of the head +139.00, the figure **317.00** | +140.00, 318.00 |
+| `head.md` line 98 | collar rim +56.05 | +55.7795, the ball centre less `#grip` 2.2205 |
+| `head.md` line 99 | head underside +67.00 | +68.00 |
+| `head.md` line 100 | head centre +103.00 | +104.00 |
+| `head.md` line 109 | *makes the figure 317.00 rather than 317.05* | the rule is right, the figure is a copy |
+| `head.md` line 115 | *that 317.00 is round is a coincidence* | the same point `torso.md` also makes |
+| `head.md` line 237 | the whole part is **82.947** tall, −46.947 to +36.000 | 84.2205, −48.2205 to +36.000 |
+| `torso.md` line 78 | the figure's height is **317.00 mm** | the sentence is fair, the number is a copy |
+| `torso.md` line 81 | *came out at 317.05* | the same |
+| `README.md` line 70 | `HEAD_T` +137.4, `HEIGHT` **315.4** | +140.0 and 318.0 |
+| `foot.md` line 164 | *a 96 mm foot on a 315.4 mm figure* | a ratio would not age |
+
+**`head.md` contradicts itself two lines apart.** Its station table gives the underside at +67.00
+and the top at +139.00; the prose immediately below says *the underside is at +68.00 rather than
++58.05 and the top of the head at +140.00*. The prose is current and the table is not.
+
+**`README.md` does everything right and is still stale**, which is the interesting part. It names
+`make_plans.py` as the source, it labels its own table *a printout, not a source; where it
+disagrees with the file, the file is right*, and it ships the command that regenerates it. Running
+that command gives `-178.0 -154.0 -106.0 -58.0 19.235476738770387 58.0 140.0 318.0`, so six rows
+still match and `HEAD_T` and `HEIGHT` do not. A printout pasted into prose has to be pasted again
+by hand, and nobody did. That is
+[`derive-dont-maintain`](../../../../memory/derive-dont-maintain.md) with the derivation written
+down beside it and still not run.
+
+**Not acted on.** The briefs are not draft9p5's, and Mike asked a question rather than for a fix.
+What a fix would be: take the figure out of `head.md` and `torso.md`, leaving the reasoning and a
+pointer to the assembly; correct `head.md`'s station table and its 82.947; regenerate
+`README.md`'s two rows from the command it already carries; and turn `foot.md`'s question into a
+ratio.
+
 ## A defect in how the whole robot is built: the collar's radius is computed again in each tab
 
 **Mike raised this on 2026-09-19, and it is the general fault the gripper's 18.000 mm is one
@@ -1822,6 +1874,12 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
+- **The robot's height is restated in four briefs and every copy is stale**, at 317.00 mm in
+  `head.md` and `torso.md` and 315.4 mm in `README.md` and `foot.md`, against a measured and
+  computed 318.0 mm. `head.md`'s station table disagrees with its own next paragraph. Only
+  `assembly.md` and `README.md` have a reason to carry it, and `ball-and-socket.md` shows the
+  right shape by naming the height without a figure. Raised by Mike on 2026-09-19; § *The robot's
+  height is restated* above lists every line.
 - **The collar's radius is computed again in each tab that needs it, rather than taken off the
   socket's own geometry.** `make_plans.py` has `COLLAR_R`, the `gripper` tab has `#collarR` and the
   `foot` tab has `#collar_r`, all spelling `#ball / 2 + #wall`, while `robot sizes` has no row for
