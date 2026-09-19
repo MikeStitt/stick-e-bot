@@ -1034,3 +1034,25 @@ sketch stands on a face or has a reason is
 [`results/sketch-moves.md`](results/sketch-moves.md), and one sketch was moved — `blade wedge
 outline`, onto the blade's own face, with `#blade / 2` dropped from its extrude. That `relief slit`
 is the last feature on the blade is the brief's step order, which the build order is derived from.
+
+## Each tab held beside its parent's frame
+
+The *Model inspected* gate asks for the part the new one was built from, rendered in the same
+views, and the two put side by side. The briefs' `cad-*-iso.png` frames are those renders of the
+parents, so each tab's isometric is held against its own.
+
+- **`ball and socket`** — same stalk, same ball seated in the same mouth, same four slits in the
+  same places.
+- **`hinge`** — same fork and blade, same relief slit, same axle bore on the fork's side.
+- **`gripper`** — after the cut was fixed: same slab, same collar standing proud with its four
+  slits at full height and the cavity open. Before the fix this was the comparison that showed the
+  fault, when 32 faces against 33 had nearly hidden it.
+- **`body`** — same block, same neck stud, same shoulder boss and its ball, same hip ball, and the
+  same flush-cut scar where the boss was trimmed at the top face.
+- **`head`** — same rounded box, the same two elliptical eyes and slot mouth, same arch rounds,
+  same chamfer.
+
+**Still to hold beside their frames: `foot`, `u limb` and `l limb`.** All three are rendered. The
+foot has been looked at off axis with the planes hidden, and both limbs have been sectioned, so
+none is unexamined — but none has yet been put beside its parent's frame, which is the part of the
+gate that catches what a single render cannot.
