@@ -788,3 +788,40 @@ print files exported.
 **Still owed on every tab:** Ring 1's feature read — the parameters compared one by one, every
 `featureStates` entry, and `rollbackIndex` against the count — which waits on the `/features`
 quota, about 19 hours out at this tick.
+
+## Ring 2 acceptance on `body` and `head`, and two numbers that disagree
+
+**`body` passes its stations exactly.** Five balls at Ø12.000 mm, and their centres measured off
+the model: hips at `(±24, 0, -58)` mm and the neck at `(0, 0, 58)` mm, which is what
+[`torso.md`](../../build-briefs/torso.md) asks for. The shoulders sit at
+`(±49.551, -7.824, 19.235)` mm.
+
+**Its 72 × 48 × 96 check cannot be taken as it stands.** The brief wants that box *before the studs
+are added*, and the finished tab measures 111.102 × 48.000 × 128.000 mm with them on. Taking it
+needs the tree rolled back to before `copy ball stud`.
+
+### The head's socket sits 46 mm down, not 45, and the model is right
+
+`head.md` calls the socket centre 45.000 mm below the head centre *the one number the assembly
+needs*. This draft measures **46.0 mm**, and draft9p1p1 measures **45.0 mm**, so the difference is
+real and it is one millimetre.
+
+**It is the collar, and it is the settled design.** draft9p1p1's socket root face stands at
+z -9.0 mm with an area of 254.469 mm²; draft9p1p6's — the one this draft builds and derives — stands
+at z -10.0 mm with an area of 191.1345 mm². `make_plans` has `COLLAR_L` equal to `STAND` at 10 mm,
+which is the ruling that *a socket reaches back from the ball's centre exactly as far as a stud
+stands its ball clear of its own face*. The head's underside is at z -36 mm and the socket hangs
+`#collar` below it, so 46 mm follows.
+
+**So the brief's 45.000 is stale, not the model.** It was written against the 9 mm collar. The
+number belongs to `head.md`, which this draft does not own, so it is named here and not edited.
+
+### The head is 63 mm deep and the design source says 60
+
+Both this draft and draft9p1p1 measure 63.000 mm fore and aft; `make_plans` computes `HEAD_D` as
+`TORSO_D * 5 / 4` = 60, and `head.md` asks for *60.000 deep*. Two drafts of the model disagree with
+the design source by 3 mm, and nothing in this run's records says which was intended.
+
+**This one is not settled here.** Unlike the socket, no ruling explains the 3 mm, so it is a
+question for Mike rather than a call this draft makes: either the head was built deeper than the
+number that names it, or `HEAD_D` no longer describes the head.
