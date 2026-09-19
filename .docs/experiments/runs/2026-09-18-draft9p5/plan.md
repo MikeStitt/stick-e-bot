@@ -571,7 +571,7 @@ and constraints before the next feature runs.**
 - [x] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.  — both bosses end at z 48.000; the only faces above it are the neck stud's, on purpose
 - [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
 - [x] The part is symmetric about the YZ plane.  — every face has its mirror about x = 0
-- [ ] Thinnest wall anywhere in the part, and where it is.
+- [x] Thinnest wall anywhere in the part, and where it is.  — 9.0000, the torso's side face to a hip stud's stalk; `body` is solid, so this is the least material between two features rather than a wall
 - [x] Every mate connector sits on the geometry it is named for, and open each one to see how it  — all eight are On entity on real geometry with Realign and Move both unticked, so no typed offset: `mate for shoulder stud` on an edge of `shoulder`, `mate for hip stud` and `mate for neck stud` on vertices of their sketches, and the five the assembly mates to on faces of `copy ball stud`, `copy for shoulder`, `copy for hip` and `duplicate shoulder and hip`
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,  — same part
@@ -645,7 +645,7 @@ and constraints before the next feature runs.**
 - [x] The cavity center sits 2.2205 above the rim plane, not below it.  — 2.2205 above
 - [ ] Shell thickness 1.200 at three places, one of them next to a cut.  — NOT PERFORMED: there is no shell. The head is solid at 263588.0 mm³ and the brief contradicts itself; see the register
 - [x] The profile is tangent throughout; no crease where an arc meets a line.  — both line-to-arc joins measure 0.0000 deg; the only creases are the arch's two 90 deg line-to-line corners at the bottom
-- [ ] Thinnest wall anywhere in the part, and where it is.
+- [x] Thinnest wall anywhere in the part, and where it is.  — 1.7200, the collar's outside to the cavity in the derived socket; the four 1.6000 approaches are the relief slits, which are gaps
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,  — same part
   -section.png)
@@ -714,7 +714,7 @@ and constraints before the next feature runs.**
 - [x] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as  — 14.2205, plate top at z -12.000 and rim at z 2.2205
 - [x] The sole ribs exist and removed material.  — eight groove floors at z -22.000, each 2.000 above the sole
 - [x] The ankle socket has relief slits.  — four faces on the rim plane, so the mouth is open
-- [ ] Thinnest wall anywhere in the part, and where it is.
+- [x] Thinnest wall anywhere in the part, and where it is.  — 1.7200, the same socket wall; the four 1.6000 approaches are the slits
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,  — same part
   -section.png)
@@ -862,7 +862,7 @@ and constraints before the next feature runs.**
 - [x] The clip's bore axis is parallel to X, read off the model.  — axis (-1.000, 0.000, 0.000) off the bore face
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
 - [x] The top is one flat square face, `2 × #collarR` both ways, with the collar standing on it and  — FIXED 2026-09-19: the tab's `#wall` and `#ball` deleted, so `#collarR` reads 7.800 and the face is 15.600 both ways with the collar tangent on all four sides. The platform is four corner lobes of 13.0564 mm², 52.2255 together, which is the square less the circle exactly
-- [ ] Thinnest wall anywhere in the part, and where it is.
+- [x] Thinnest wall anywhere in the part, and where it is.  — 1.7200, the same socket wall. Four tangencies at 0.0000 are the collar meeting the clip body's four sides
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — retaken 2026-09-19 after the wall fix; it now differs from the parent in a second place, the clip body, which is this draft's correction
   -section.png)

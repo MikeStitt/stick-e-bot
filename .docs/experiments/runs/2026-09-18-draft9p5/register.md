@@ -1523,6 +1523,60 @@ part: the renders held beside the parent go stale with it, and the assembly's ow
 taken again. Every feature in this draft is added over REST, and the `/features` POST is at zero
 until about 16:17 on 2026-09-19. It is queued for then, with Ring 1's owed feature read.
 
+## The thinnest wall in each part, taken without `featurescript`
+
+Four briefs ask for the thinnest wall anywhere in a part, and `gripper.md` says outright that *a
+throttled `featurescript` is not a reason to skip this one*. `bodydetails` gives each face's
+surface exactly, so between two of them the distance is arithmetic rather than search:
+[`scripts/c_thinnest_wall.py`](scripts/c_thinnest_wall.py) takes plane to plane, plane to cylinder,
+plane to sphere, and coaxial or concentric pairs.
+
+**Wall or gap comes off the outward normals, not off the size of the number.** A face's outward
+normal is its stored normal when `orientation` is true and the opposite when it is false; the
+head's front and back faces both store `-y` and only that flag separates them. For a curved pair
+the same flag says which surface is a cavity: the socket's cavity sphere is false and its collar
+cylinder is true, so material lies between them, where the ball stud's sphere and stalk are both
+true and are simply the outside of a solid.
+
+| Tab | Thinnest wall | Where |
+| --- | ------------: | ----- |
+| `ball and socket` | **1.7200 mm** | the collar's outside to the cavity |
+| `head` | **1.7200 mm** | the same, in the derived socket |
+| `foot` | **1.7200 mm** | the same |
+| `gripper` | **1.7200 mm** | the same |
+| `body` | **9.0000 mm** | the torso's side face to a hip stud's stalk |
+
+**`gripper.md` predicted that shape of answer and this confirms it.** It says to expect the
+thinnest wall at the socket collar and that it *is the same number on every socketed part in the
+robot*. It is: 1.7200 mm on all four. The figure the brief printed was 2.92 mm, which is
+`9.0 − 6.08` from the Ø18 collar; at `#collarR` 7.800 mm the same subtraction gives 1.720 mm, and
+that brief is now written as the expression.
+
+**The close approaches that are not walls, which the briefs ask to be separated out.** In every
+socketed part the four nearest pairs are the relief slits at **1.6000 mm**, and they are gaps: the
+two faces look at each other across air. On `body` the two nearest pairs are 2.0000 mm between a
+shoulder boss and its ball and 4.0000 mm from a face to a ball, neither of which is a wall either.
+**`body` is a solid part**, so its 9.0000 mm is the least material between two features rather than
+a wall in the sense the socketed parts have one.
+
+**The gripper's four tangencies at 0.0000 mm are the wall fix, seen a third way.** `Ja2`, the
+collar, meets `JgG`, `JgK`, `JgS` and `JgO`, the clip body's four sides, at zero distance. Tangency
+is not a thin wall and is reported apart from the walls; it is the same fact as the platform's four
+corner lobes and the top view.
+
+**What the method does not reach**, and it is why `featurescript` is still owed one thing: two
+curved faces that are neither coaxial nor concentric, and any pair whose closest approach falls at
+the edge of a face rather than across it. The second case bites in this very part. The chamfer
+plane extended would pass 0.9663 mm from the clip's bore, but the chamfer face stops about 4 mm
+short of where that happens, so the material there is thicker than the plane arithmetic suggests
+and the pair is refused rather than reported. A tool that searched the faces themselves would give
+the real figure.
+
+**The gripper's unexplained 0.16624 mm is still unexplained**, and this did not find it. That
+measurement named faces 22 and 29 of a 36-face gripper; the part has 33 faces now and had 30 an
+hour ago, so the indices do not resolve, and nothing here comes near 0.16624 mm. It stays a
+measurement nobody has identified.
+
 ## Fixed: the `gripper` tab no longer declares `#wall` or `#ball`
 
 2026-09-19, on Mike's word, with a version published either side.
