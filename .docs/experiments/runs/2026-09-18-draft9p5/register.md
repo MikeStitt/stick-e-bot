@@ -1727,9 +1727,32 @@ maintained is better gone than right**, which is what
 [`derive-dont-maintain`](../../../../memory/derive-dont-maintain.md) says and what these two now
 show.
 
-**Still copied, in `head.md` and `torso.md`.** Taking the figure out of those two, leaving the
-reasoning and a pointer to the assembly, and correcting `head.md`'s station table and its 82.947,
-is what is left. Not acted on: Mike has not asked for it.
+**`head.md` and `torso.md` were done on 2026-09-19, by the same rule Mike gave: tend to delete the
+text that does not define what the brief's own part should be designed to.**
+
+- **`head.md`'s global station table is gone**, with the paragraph under it and the round-figure
+  passage. Where the head lands in the robot is the assembly's, and the brief's own line above the
+  table already said *model the head about its own center; the assembly places it*. What was kept
+  is the rule that does define the head: **the underside is placed off the ball's center, not off
+  the rim**, so the fit cannot reach the head's placement.
+- **Two rows went out of `head.md`'s numbers table**, the socket collar's Ø18.0 and its length
+  9.0. Both were `ball-and-socket.md`'s, both were the pre-ruling figures, and the brief says four
+  lines later that *the collar rows come from `ball-and-socket.md` and are not this brief's to
+  change*.
+- **Two rows in that table were corrected rather than deleted**, because they are the head's own
+  frame and are what it is built to: the socket centre reads `36 + #collarL`, z = -46.0, where it
+  said `36 + #collarL − #grip`, z = -45.05; and the collar rim reads `36 + #collarL + #grip`,
+  z = -48.2205, where it said `36 + #collarL`, z = -47.0. **Both formulas were wrong, not only
+  the values**: the rim's was the socket centre's.
+- **The head's own height was corrected**, from 82.947 to `36 + 36 + #collarL + #grip`, 84.2205,
+  which is what the part measures. A part's own extent is its brief's business.
+- **`torso.md` keeps the discipline and loses the figure.** The height is still *whatever those
+  stations add up to, printed by the plan rather than aimed at*, and *do not adjust anything to
+  reach a total* still stands; the 317.00, the 317.05 and the 158.15 are gone, and it points at
+  `assembly.md` for what the sum comes to.
+
+**Nothing in the briefs now prints the robot's height except `assembly.md`**, which measures it,
+and the two withdrawal notes that say what a reader meeting an old number is looking at.
 
 ## A defect in how the whole robot is built: the collar's radius is computed again in each tab
 

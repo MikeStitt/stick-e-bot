@@ -64,10 +64,8 @@ there and is not going to be.
 | across | 72 | plan | `#headW` = `#torsoW`. The head is as wide as the body — [`../runs/2026-08-25-draft9p1/a8-head-numbers.md`](../runs/2026-08-25-draft9p1/a8-head-numbers.md) |
 | tall | 72 | plan | so the head runs z ±36 about its own center |
 | deep | 60 | plan | `#headD` = `#torsoD * 5 / 4`, so the underside plan is 72 × 60 and it hangs 6 over each face |
-| socket center | z = −45.05 | derived | `36 + #collarL − #grip` below the head center |
-| collar rim, the part's lowest point | z = −47.0 | derived | `36 + #collarL`. The mouth is in this face |
-| socket collar Ø | 18.0 | derived | `2 × (6.0 + 3.0)` — [`ball-and-socket.md`](ball-and-socket.md) owns it |
-| socket collar length | 9.0 | derived | `#collar` = `#ball / 2 + #wall`, the neck ball's center to the collar's root |
+| socket center | z = −46.0 | derived | `36 + #collarL` below the head center |
+| collar rim, the part's lowest point | z = −48.2205 | derived | `36 + #collarL + #grip`. The mouth is in this face |
 | socket collar, proud | 12.2205 | derived | `#collar + #grip`, the rim to the underside, where `#collar` is `#stand` = 10 |
 | relief slits | 4 × 1.6, 4.9465 deep | plan | cut down from the collar's top face to `#ball / 4` below the ball's center, leaving a 6.0 floor |
 | socket cavity r | 6.8 | derived | `#ballD`/2 + `#fit`, inside the collar |
@@ -90,30 +88,13 @@ against `#headW` so they follow it. Build to those. Run 3 built a different face
 at z = +6 and a 20 × 4 slot at z = −6 on the half-size head — and that disagreement was never a
 decision, so do not read it across.
 
-Model the head about its own center; the assembly places it. Run 4 seats it on the neck ball and
-measures where it lands, so these are results rather than targets:
+Model the head about its own center; the assembly places it. Where it lands in the robot, and
+what the robot then stands, are [`assembly.md`](assembly.md)'s and `make_plans.py`'s.
 
-| Station | Global z | Where it comes from |
-| ------- | -------- | ------------------- |
-| collar rim | +56.05 | ball center less `#grip` — the lowest point of the part |
-| head underside | +67.00 | the ball center plus `#collarL`; the collar stands between the two |
-| head center | +103.00 | the underside plus half of 72 |
-| top of the head | +139.00 | and the ground falls at −178, so the figure is **317.00** tall |
-
-`make_plans.py` computes all four and that file settles any disagreement. The collar stands
-12.2205 between the rim and the underside where the bored socket runs 3 to 5 built stood only its
-recess, so the underside is at +68.00 rather than +58.05 and the top of the head at +140.00 rather
-than +130.05. Nothing below the neck moved.
-
-**The underside is placed off the ball's center, not off the rim**, which is what makes the figure
-317.00 rather than 317.05 and keeps it there when the fit changes. A rim moves with `#grip` and
-`#grip` moves with the printer's clearance; the ball's center does not move at all. Settled
-2026-08-27 — [`ball-and-socket.md`](ball-and-socket.md) owns the rule.
-
-r1 aimed the half-size head's center at +48 and its top at +66 to make that figure exactly 150.
-Both numbers are gone: the stations are stacked now and the total is whatever they add up to. Do
-not adjust anything to recover a round figure — that 317.00 is round is a coincidence of where
-the collar's root landed, and nothing was tuned to reach it.
+**The underside is placed off the ball's center, not off the rim.** A rim moves with `#grip` and
+`#grip` moves with the printer's clearance; the ball's center does not move at all, so the fit
+cannot reach the head's placement. Settled 2026-08-27 —
+[`ball-and-socket.md`](ball-and-socket.md) owns the rule.
 
 **The collar rows come from [`ball-and-socket.md`](ball-and-socket.md) and are not this brief's to
 change.** The head is the sixth part to carry that socket and it carries it unaltered: same Ø15.6,
@@ -234,13 +215,13 @@ Measure these. Do not infer them.
 - **Parts (1)** at the end. Two parts means the socket or the collar came out separate.
 - **72.000 across, and 60.000 deep.**
 - **The head body is 72.000 tall**, so the box above the collar runs z ±36.000 about the head
-  center. The whole part is **82.947** tall, −46.947 to +36.000, because the collar hangs below.
+  center. The whole part is `36 + 36 + #collarL + #grip` tall, which is **84.2205**, −48.2205 to
+  +36.000, because the collar hangs below.
 - **The socket center is `36 + #collar` below the head center**, which is 46.000 while `#collar`
   is `#stand` at 10. That is the one number the assembly needs from this part, because seating the
   head means putting that point on the neck ball, and it is a whole number because the collar's
-  root is placed off the ball's center. Placed, the top of the head lands at **+140.00** and the
-  figure comes out **318.00** tall, which is what `make_plans.HEIGHT` computes. The 45.000, the
-  +139.00 and the 317.00 that stood here are the same three numbers at `#collar` 9.
+  root is placed off the ball's center. The 45.000 that stood here is the same expression at
+  `#collar` 9.
 - **The collar stands `#collar + #grip` proud**, which is 12.2205, measured as the z-extent from
   the underside to the rim, and its outside is **Ø15.600**. The 10.947 that stood here is the same
   expression at `#collar` 9 and `#grip` 1.9465.

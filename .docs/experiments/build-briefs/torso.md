@@ -75,12 +75,11 @@ puts the torso's faces at:
 
 **Three joint centers land exactly on the torso's own faces** — the neck and the two hips, each a
 stalk standing 10 off the face it grows from. The torso is the part that sets everything else, and
-the figure's height is whatever those stations add up to: **317.00 mm**, printed by the plan
-rather than aimed at. r1 set 150 as a target and fitted the stations to it; every revision since
-stacks them and reports the sum. **That it is round now is a coincidence and not a target** — it
-came out at 317.05 until draft9p1p1 placed the head's underside off the neck ball's center. Do not
-adjust anything to hold it there, and note that it is not a doubling of the 158.15 the same stack
-gave at half the size either, because the joint keeps its own numbers.
+the figure's height is whatever those stations add up to, printed by the plan rather than aimed
+at. r1 set a round total as a target and fitted the stations to it; every revision since stacks
+them and reports the sum. **Do not adjust anything to reach a total**, and do not expect the
+figure to double when the robot does, because the joint keeps its own numbers.
+[`assembly.md`](assembly.md) carries what it comes to.
 
 The shoulders are the exception, and they are not on a face.
 
