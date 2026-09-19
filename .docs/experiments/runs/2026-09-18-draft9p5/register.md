@@ -1422,6 +1422,26 @@ the hollow rather than closing into the ring.
 was taken against a 36-face gripper and the part now reports 30 faces, so the face indices it names
 no longer resolve. Re-taking it needs `featurescript`.
 
+## The slit sketch, opened and looked at
+
+`slit profile` was opened for edit on 2026-09-19, looked at, and escaped. Three things came off
+the one frame.
+
+- **Its sketch plane reads `Face of collar blank`.** That is the plane ruling passing on this
+  sketch: a face of the part, not a stock plane.
+- **The entities render dark, not blue.** Over the grey collar the lines and their points are
+  black; the blue in the frame is the shaded cavity underneath. Its dimensions are on screen:
+  `#slit_in` 3.67891 mm, two 0.8 mm halves of `#slit`, and the `4x` that marks the pattern.
+- **The drag test was not run.** Dragging an entity and watching whether it moves is the
+  definitive test, and a sketch dialog applies to the model as it is changed, so a drag on an
+  under-defined entity would edit the deliverable. The eye is what this line asks for; the drag is
+  what `featurescript` would replace.
+
+**`#slit_in` is 3.67891 mm, and that is the number `ball-and-socket.md` names for the slit's
+inner edge.** § *Ring 2's acceptance* above measures the slit face's inner corner at 4.5789 mm;
+those are not in conflict. The slit is cut to 3.67891 mm and the cavity, which is 4.5789 mm across
+at that depth, gets there first, so the face ends on the cavity. That is the check passing.
+
 ## The two tangency checks, measured off the profile rather than the whole part
 
 `head.md` and `foot.md` each ask that a profile be tangent throughout, with no crease where an arc

@@ -414,7 +414,7 @@ and constraints before the next feature runs.**
 - [x] Cavity volume 717.14 mm³ — a full Ø12.16 sphere is 941.455, less the 224.314 cap above the  — 717.14 from the measured cavity radius
 - [x] The slits are 6.2205 mm deep and leave a 6.0 mm floor.  — rim 2.2205, floor -4.0, root -10.0
 - [x] The cut is a slot for its whole depth.  — the cavity is 4.5789 across at the slit floor and the slit's inner edge is the same 4.5789, so the cut ends in the hollow
-- [ ] The slit sketch is fully defined — no blue anywhere.
+- [x] The slit sketch is fully defined; no blue anywhere.  — opened and looked at: the entities and their points render dark over the grey collar, and the blue in the frame is the shaded cavity under them
 - [x] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and  — 1.7200 measured, collar r 7.800 less cavity r 6.080
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,  — same part
