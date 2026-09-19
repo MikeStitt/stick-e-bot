@@ -1413,3 +1413,43 @@ Recorded here only so the list of what this run found is complete.
   an element. Replacements measured and recorded.
 - **`shadedviews` ignores `cutPlane` and `sectionPlane`** rather than refusing them, which
   `onshape-gui-howto.md` already carried and this run confirmed.
+
+## Reading the memories, and what the first one paid for
+
+This run had read exactly one memory body — `onshape-api-via-browser-session` — and taken the rest
+from the one-line descriptions the index injects. Mike asked what the whole set costs: 28 files,
+44,325 characters, about 10,000 tokens. Reading them is cheaper than the three mistakes not reading
+them caused.
+
+**Three of this run's own failures are written down in memories it had not opened.**
+`feature-edits-apply-live` says a crashed dialog keeps whatever it last applied and a script must
+press Escape on every failure path — which is how a stray `Derived 1` was committed to `body`.
+`trust-the-user-or-read-the-docs` says grep the how-to first — the section-view procedure was hunted
+through three UI surfaces and the how-to had all of it. `test-the-technique-not-a-guess` says not to
+write down a negative about a method until the run is shown to have exercised it — which is the
+union hypothesis exactly.
+
+**And one paid for itself at once.** `onshape-bodydetails-beats-featurescript` ends with *what it
+does not give is the distance between two faces, so minimum wall thickness still needs Feature
+Script* — which is the route for the *thinnest wall anywhere* check four briefs ask for and this
+run had left open.
+
+## The thinnest wall anywhere: one number, not yet identified
+
+`evDistance` over every pair of faces, keeping the smallest distance that is not zero — faces that
+meet share an edge, a vertex or a tangency and measure zero, so a wall is the smallest gap above
+that.
+
+**`gripper`: 0.16624 mm, between face 22 and face 29 of its 36.**
+
+**That number is not yet a finding.** Which two faces they are has not been read, so whether this
+is a wall, the clip's mouth gap, a relief slit or an artefact of the method is unknown — and
+0.16624 mm would be a defect as a wall and unremarkable as a gap. It is written down because the
+measurement was taken, not because it has been understood.
+
+**The follow-up cannot be taken yet: `featurescript` has now spent its own quota**, 8.6 hours,
+reset about 16:15 on 2026-09-19 — the same clock as `/features`. `bodydetails`, `parts`,
+`boundingboxes`, `assemblies` and `variables` all still answer, which is what that memory says to
+expect and what this run has been living on.
+
+**The other three tabs have not been measured this way at all.**
