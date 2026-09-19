@@ -570,7 +570,7 @@ and constraints before the next feature runs.**
 - [x] Ball centers at their stations, measured off the model.  — hips (+/-24, 0, -58), neck (0, 0, 58)
 - [ ] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.
 - [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
-- [ ] The part is symmetric about the YZ plane.
+- [x] The part is symmetric about the YZ plane.  — every face has its mirror about x = 0
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [ ] Every mate connector sits on the geometry it is named for, and open each one to see how it
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
@@ -708,7 +708,7 @@ and constraints before the next feature runs.**
 - [ ] Parts (1) at the end.
 - [x] Length 96.000, width 48.000, off the model's bounding box.  — 96.000 x 48.000 measured
 - [ ] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.
-- [ ] The part is symmetric about its own fore-and-aft centerline.
+- [x] The part is symmetric about its own fore-and-aft centerline.  — every face has its mirror about x = 0
 - [ ] The outline is tangent throughout — no corner where an arc meets a line.
 - [ ] Socket mouth Ø11.520 and cavity volume 689.06 mm³.
 - [ ] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as
@@ -858,7 +858,7 @@ and constraints before the next feature runs.**
 - [ ] Parts (1) at the end.
 - [x] Clip bore Ø3.300, outer Ø10.000, measured off the model.  — bore 3.300, outer 10.000
 - [ ] Mouth 2.600 across the opening, at its narrowest.
-- [ ] The part is symmetric about its own left-right centerline.
+- [x] The part is symmetric about its own left-right centerline.  — every face has its mirror about x = 0
 - [ ] The clip's bore axis is parallel to X, read off the model.
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
 - [x] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — 18.000 both ways
@@ -916,9 +916,9 @@ and constraints before the next feature runs.**
 - [ ] Every ball joint's actual swing, measured by posing it until it stops.
 - [ ] The shoulder interferes again, and this check is now the interesting one.
 - [ ] Nothing interferes at rest.
-- [ ] The arms reach mid-thigh.
-- [ ] The feet are symmetric at rest, at x ±24.
-- [ ] The feet do not touch, and the gap is 16.
+- [ ] The arms reach mid-thigh.  — MEASURED: they reach about 14 mm past it
+- [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
+- [ ] The feet do not touch, and the gap is 16.  — MEASURED: they touch, gap 0.000; the two briefs disagree
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (plan-assembly.svg)  — same part
 - [ ] no sheet of its own: held beside `plan-parts.svg`

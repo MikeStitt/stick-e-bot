@@ -1263,3 +1263,24 @@ width, the stance, or the expectation — is a design decision. It is measured a
 The gripper's lowest point sits at z -204.765 mm. The thigh — `upper limb <3>` — spans
 z -222.0 mm to -159.779 mm, so its middle is z -190.9 mm. **The arms reach about 14 mm below
 mid-thigh**, not to it.
+
+## The three symmetry checks, and one of them nearly reported a phantom
+
+Three briefs ask for symmetry and each says to check rather than assume:
+[`torso.md`](../../build-briefs/torso.md) about the YZ plane,
+[`foot.md`](../../build-briefs/foot.md) about the foot's own fore-and-aft centreline, and
+[`gripper.md`](../../build-briefs/gripper.md) about the clip's left-right centreline. For these
+parts all three are the plane x = 0.
+
+**All three are symmetric.** Every face has its mirror: `body` 20 of 20, `foot` 60 of 60, `gripper`
+30 of 30, matched on surface kind, area, radius and the mirrored centre of the face's own box.
+
+**The first run of the check reported the body as unsymmetric, and it was the check that was
+wrong.** Four faces came back unmatched — the two shoulder cylinders and the two side planes. Their
+boxes mirror exactly, `-51.1665..-36.0` against `36.0..51.1665` and planes at x ∓36.0; what
+differed was the area's last digit, 717.7415 against 717.7416 and 4287.9092 against 4287.9091.
+Rounding the area to four places made a mesher's rounding look like an asymmetry.
+
+**So the tolerance is part of the measurement.** A check tight enough to see the last digit of an
+area will find a difference in every mirrored pair, and reporting that as a defect is how a sound
+model gets called broken.
