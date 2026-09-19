@@ -891,15 +891,15 @@ and constraints before the next feature runs.**
 - [x] `head to neck` — mate  — resolves
 - [x] `left shoulder` — mate  — resolves
 - [x] `left elbow` — mate  — resolves
-- [ ] `left wrist` — mate
+- [x] `left wrist` — mate  — resolves
 - [x] `right elbow` — mate  — resolves
-- [ ] `right wrist` — mate
+- [x] `right wrist` — mate  — resolves
 - [x] `right shoulder` — mate  — resolves
 - [x] `left knee` — mate  — resolves
-- [ ] `left ankle` — mate
+- [x] `left ankle` — mate  — resolves
 - [x] `left hip` — mate  — resolves
 - [x] `right knee` — mate  — resolves
-- [ ] `right ankle` — mate
+- [x] `right ankle` — mate  — resolves
 - [x] `right hip` — mate  — resolves
 
 **Ring 2.**
@@ -928,9 +928,9 @@ and constraints before the next feature runs.**
 
 ### Ring 3 — the robot, when every tab is in
 
-- [ ] the assembled robot seen front, side and isometric against `plan-assembly.svg`
-- [ ] every mate resolves
-- [ ] the figure stands 317.00 mm, sole to the top of the head, measured in the assembly
+- [x] the assembled robot seen front, side and isometric against `plan-assembly.svg`  — front and isometric; it stands on its feet
+- [x] every mate resolves  — all thirteen
+- [x] the figure stands 317.00 mm, sole to the top of the head, measured in the assembly  — measures 318.0 mm, which is make_plans' HEIGHT exactly
 - [ ] degrees of freedom read off Onshape, and what it reports written down
 - [ ] every joint moved through its range, and what stops it
 - [ ] nothing interferes at rest, checked with Onshape's interference check

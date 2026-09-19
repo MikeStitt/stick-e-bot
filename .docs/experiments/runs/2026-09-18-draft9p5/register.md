@@ -723,3 +723,42 @@ origin under `PART_ORIGIN` inference.
 **Not the cause, each ruled out by test rather than by argument:** stale connector ids — the mates
 were rebuilt against ids read after the last change and failed the same way; the assembly's
 instances — they insert and name correctly; and the mates themselves — the other nine resolve.
+
+## The robot stands, 2026-09-18
+
+**All thirteen mates resolve, and the figure measures 318.0 mm — `make_plans`' `HEIGHT` exactly,
+to the millimetre.** Head, torso, both arms ending in grippers, both legs ending in feet on the
+ground.
+
+**Recovery point: version `the robot, all ten tabs`, `f4d70e962e78725ca6ad1758`.**
+
+### What the three missing selections actually were
+
+Mike's *hide what you are not working on and look at it off axis* is what found it. Opening
+`mate to robot` showed Onshape's own words — *Cannot resolve entities. 3 missing selections* — and
+the fields named themselves:
+
+- **`foot`: all three empty.** Origin entity takes the **Origin's vertex**, picked from the tree,
+  which puts the connector at the part's origin, and that is the ball's centre the ankle mates on.
+  Owner and attachment take the part, picked from the Parts list.
+- **`gripper`: one empty, and not the one expected.** Its owner already read `Gripper` and its
+  attachment was already *To owner*, so it needed no third pick; its origin entity read
+  *Missing Part of remove top of clip* — a reference to a part the split had replaced. The Origin's
+  vertex fixed it.
+
+Each feature's connector count went 1 to 2 the moment it was ticked, which is the measurement that
+says it worked: the 1 was always the connector the derived socket brings.
+
+**The height was a symptom the whole time.** 300.0 mm with the ankles unmated, 318.0 mm with the
+feet on the floor; the 18 mm was never a separate fault.
+
+### What this cost, and the lesson
+
+Six REST formulations, two false hypotheses — staleness, then the union — and a wrong measurement
+that reported a healthy connector as absent. Every one of them was an attempt to reason about the
+feature from the outside. The dialog said what was wrong in one sentence, the first time it was
+opened.
+
+**A selection is not a parameter.** Writing a body's id into `originQuery` is accepted and does
+nothing, because those fields take a picked entity. Where a parent's record carries an empty
+selection, the pick has to be made, and the place to make it is the dialog.
