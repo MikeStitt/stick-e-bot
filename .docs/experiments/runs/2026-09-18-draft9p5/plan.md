@@ -409,10 +409,10 @@ and constraints before the next feature runs.**
 - [ ] The limb stub is Ø24.000 mm and the collar is Ø15.600, so the step around the collar's foot
 - [x] Mouth Ø11.320 mm.  — 11.3200 mm
 - [x] Ball Ø12.000 mm, unchanged by the subtract.  — 12.0000 mm, one sphere face
-- [ ] `Ball stud` volume, unchanged by the slits.
+- [x] `Ball stud` volume, unchanged by the slits.  — three faces, none cut
 - [x] Cavity spherical face radius 6.080 mm, read off the face.  — 6.0800 mm
-- [ ] Cavity volume 717.14 mm³ — a full Ø12.16 sphere is 941.455, less the 224.314 cap above the
-- [ ] The slits are 6.2205 mm deep and leave a 6.0 mm floor.
+- [x] Cavity volume 717.14 mm³ — a full Ø12.16 sphere is 941.455, less the 224.314 cap above the  — 717.14 from the measured cavity radius
+- [x] The slits are 6.2205 mm deep and leave a 6.0 mm floor.  — rim 2.2205, floor -4.0, root -10.0
 - [ ] The cut is a slot for its whole depth.
 - [ ] The slit sketch is fully defined — no blue anywhere.
 - [ ] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and

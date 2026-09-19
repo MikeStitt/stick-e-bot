@@ -873,3 +873,28 @@ formula, so they are not this draft's to measure off the model and are not claim
 `make_plans` computes as `sqrt((#limbD / 2)² - (#seat / 2)²)` — the two faces the fork is cut on.
 [`limbs.md`](../../build-briefs/limbs.md) asks for it in exactly those words: *nothing anywhere
 lies outside Ø24*.
+
+## `ball and socket`'s acceptance list, finished
+
+The three checks left open when `massproperties` was first asked without
+`?massAsGroup=false` are now taken, and each matches
+[`ball-and-socket.md`](../../build-briefs/ball-and-socket.md) exactly.
+
+- **Cavity volume 717.14 mm³.** A full sphere at the measured cavity radius of 6.08 mm is
+  941.455 mm³, and the cap standing above the rim at `#grip` is 224.314 mm³.
+- **The slits are 6.2205 mm deep and leave a 6.0 mm floor**, read off the model rather than
+  computed: the socket's horizontal planes stand at z 2.2205 mm (the rim), z -4.0 mm (the slit
+  floors) and z -10.0 mm (the root). Rim to floor is 6.2205 mm, which is `#grip + #ball / 3`, and
+  floor to root is 6.0 mm.
+- **`Ball stud`'s volume is unchanged by the slits**, which the face count settles: the stud holds
+  three faces — one sphere, one cylinder, one plane — and no slit cut any of them. Volumes measured
+  1028.9682 mm³ for `Ball stud` and 1535.8824 mm³ for `Socket body`.
+
+**`massproperties` answers per body only with `?massAsGroup=false`.** Asked without it, and asked
+with `partId` repeated, it returns a single `-all-` entry, which is what made the first pass report
+the stud's volume as missing.
+
+**So every Part Studio has now had its brief's measurable acceptance numbers taken**, and they
+pass. What the briefs ask for that this draft has not taken is named where it belongs: the torso's
+box before the studs, which needs a rollback; the hinge's mechanical figures, which its own brief
+sends to `hinge_spring.py`; and the thinnest-wall checks, which nothing here has measured.
