@@ -1,0 +1,1088 @@
+{
+  "ball and socket": {
+    "features": [
+      {
+        "name": "#stalk = 6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "stud profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "revolve stud",
+        "type": "revolve",
+        "faces": 3,
+        "bodies": 1
+      },
+      {
+        "name": "collar profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 3
+      },
+      {
+        "name": "collar blank",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 1
+      },
+      {
+        "name": "cavity from ball",
+        "type": "booleanBodies",
+        "faces": 1,
+        "bodies": 0
+      },
+      {
+        "name": "#slit = 1.6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#slit_in = 3.67891 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#slit_out = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "slit profile",
+        "type": "newSketch",
+        "faces": 4,
+        "bodies": 21
+      },
+      {
+        "name": "#slit_d = 6.22054 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "relief slits",
+        "type": "extrude",
+        "faces": 12,
+        "bodies": 0
+      },
+      {
+        "name": "stud connect to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "socket connect to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "hinge": {
+    "features": [
+      {
+        "name": "#nose = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "blade profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "blade blank",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 1
+      },
+      {
+        "name": "#stub = 4 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "stub axle outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 3
+      },
+      {
+        "name": "#stub_proud = 3 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "stub axle",
+        "type": "extrude",
+        "faces": 4,
+        "bodies": 0
+      },
+      {
+        "name": "#wedges = 24",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#ring_in = 6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#ring_out = 10.4494 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#wedge_bind = 9.9994 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#wedge_inset = 5.159 deg",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#wedge_eps = 1.146 deg",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#wedge_w = 11.513 deg",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "blade wedge outline",
+        "type": "newSketch",
+        "faces": 4,
+        "bodies": 8
+      },
+      {
+        "name": "blade wedge",
+        "type": "extrude",
+        "faces": 5,
+        "bodies": 0
+      },
+      {
+        "name": "axis for circular patterns",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "blade wedges",
+        "type": "circularPattern",
+        "faces": 115,
+        "bodies": 0
+      },
+      {
+        "name": "mirror blade",
+        "type": "mirror",
+        "faces": 120,
+        "bodies": 0
+      },
+      {
+        "name": "blade rod outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 7
+      },
+      {
+        "name": "#rod_blade = 18 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "blade arm",
+        "type": "extrude",
+        "faces": 7,
+        "bodies": 0
+      },
+      {
+        "name": "#leaf_root = 4.2 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#leaf_tip = 1.5 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#slit_h = 1.6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "relief slit outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "relief slit",
+        "type": "extrude",
+        "faces": 3,
+        "bodies": 0
+      },
+      {
+        "name": "fork outline",
+        "type": "newSketch",
+        "faces": 2,
+        "bodies": 4
+      },
+      {
+        "name": "fork blank",
+        "type": "extrude",
+        "faces": 2,
+        "bodies": 1
+      },
+      {
+        "name": "fork blade top cut outline",
+        "type": "newSketch",
+        "faces": 3,
+        "bodies": 7
+      },
+      {
+        "name": "trim fork to arm",
+        "type": "extrude",
+        "faces": 1,
+        "bodies": 0
+      },
+      {
+        "name": "#bore_d = 4.1 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "axle bore sketch",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 3
+      },
+      {
+        "name": "axle bore on fork",
+        "type": "extrude",
+        "faces": 1,
+        "bodies": 0
+      },
+      {
+        "name": "ear wedge outline",
+        "type": "newSketch",
+        "faces": 4,
+        "bodies": 8
+      },
+      {
+        "name": "ear wedge",
+        "type": "extrude",
+        "faces": 5,
+        "bodies": 0
+      },
+      {
+        "name": "fork prong wedges",
+        "type": "circularPattern",
+        "faces": 115,
+        "bodies": 0
+      },
+      {
+        "name": "two forks",
+        "type": "mirror",
+        "faces": 124,
+        "bodies": 0
+      },
+      {
+        "name": "fork arm outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 7
+      },
+      {
+        "name": "#rod_fork = 17 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "fork arm",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 0
+      },
+      {
+        "name": "combine fork parts",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "fork to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "blade to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "body": {
+    "features": [
+      {
+        "name": "torso outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "torso block",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 1
+      },
+      {
+        "name": "#shoulder_half = 36 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#shoulder_drop = 8 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "pivot lines",
+        "type": "newSketch",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "#yaw = 30 deg",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "plane for shoulder",
+        "type": "cPlane",
+        "faces": 1,
+        "bodies": 1
+      },
+      {
+        "name": "#shoulder_len = 26 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#boss_len = 16 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#boss_d = 16 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#tilt = 53 deg",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "torso shoulder profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "shoulder",
+        "type": "revolve",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "mate for shoulder stud",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "mirror shoulder",
+        "type": "mirror",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "trim shoulder pattern",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "trim shoulder cut",
+        "type": "extrude",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#hip_half = 24 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "hip stud location",
+        "type": "newSketch",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "mate for hip stud",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "neck stud location",
+        "type": "newSketch",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "mate for neck stud",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "copy ball stud",
+        "type": "importDerived",
+        "faces": 2,
+        "bodies": 1
+      },
+      {
+        "name": "move neck stud",
+        "type": "transform",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "copy for hip",
+        "type": "transform",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "copy for shoulder",
+        "type": "transform",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "duplicate shoulder and hip",
+        "type": "mirror",
+        "faces": 4,
+        "bodies": 0
+      },
+      {
+        "name": "add neck to body",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "neck",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "left shoulder",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "right shoulder",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "left hip",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "right hip",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": [
+      "trim shoulder cut"
+    ]
+  },
+  "head": {
+    "features": [
+      {
+        "name": "#headW = 72 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "head profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "#headD = 60 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "head body",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 1
+      },
+      {
+        "name": "#round = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "upper rounds",
+        "type": "fillet",
+        "faces": 6,
+        "bodies": 0
+      },
+      {
+        "name": "#chamfer = 6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "lower head chamfer",
+        "type": "chamfer",
+        "faces": 8,
+        "bodies": 0
+      },
+      {
+        "name": "#eyeX = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#eyeUp = 8 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#eyeRx = 8 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#eyeRy = 4 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "eye profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 3
+      },
+      {
+        "name": "#face = 3 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "eye",
+        "type": "extrude",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "second eye",
+        "type": "mirror",
+        "faces": 2,
+        "bodies": 0
+      },
+      {
+        "name": "#mouthW = 40 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#mouthH = 10 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#mouthDn = 13 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "mouth profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 8
+      },
+      {
+        "name": "mouth",
+        "type": "extrude",
+        "faces": 5,
+        "bodies": 0
+      },
+      {
+        "name": "socket mount point",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "get socket",
+        "type": "importDerived",
+        "faces": 18,
+        "bodies": 1
+      },
+      {
+        "name": "drop socket to neck",
+        "type": "transform",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "add socket to head",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "head mate",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "foot": {
+    "features": [
+      {
+        "name": "#collar_r = 7.8 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "pedestal outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 3
+      },
+      {
+        "name": "#plate = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#collar_down = 10 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#pedestal = 2 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "foot pedestal",
+        "type": "extrude",
+        "faces": 1,
+        "bodies": 0
+      },
+      {
+        "name": "#foot_l = 96 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#foot_w = 48 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#heel_r = 16 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#toe_r = 24 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#heel_y = 32 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "foot outline",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 7
+      },
+      {
+        "name": "#ankle_h = 24 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "foot",
+        "type": "extrude",
+        "faces": 14,
+        "bodies": 0
+      },
+      {
+        "name": "#top_round = 8 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "top round",
+        "type": "fillet",
+        "faces": 4,
+        "bodies": 0
+      },
+      {
+        "name": "#rib_w = 6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "groove profile",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 6
+      },
+      {
+        "name": "#rib_d = 2 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "sole groove",
+        "type": "extrude",
+        "faces": 3,
+        "bodies": 0
+      },
+      {
+        "name": "sole ribs",
+        "type": "linearPattern",
+        "faces": 21,
+        "bodies": 0
+      },
+      {
+        "name": "add socket",
+        "type": "importDerived",
+        "faces": 18,
+        "bodies": 2
+      },
+      {
+        "name": "combine parts",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "mate to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "u limb": {
+    "features": [
+      {
+        "name": "add socket",
+        "type": "importDerived",
+        "faces": 18,
+        "bodies": 2
+      },
+      {
+        "name": "mate for fork",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "limb section",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 7
+      },
+      {
+        "name": "limb",
+        "type": "extrude",
+        "faces": 6,
+        "bodies": 0
+      },
+      {
+        "name": "add fork",
+        "type": "importDerived",
+        "faces": 248,
+        "bodies": 1
+      },
+      {
+        "name": "move fork",
+        "type": "transform",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "combine parts",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "shoulder end",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "elbow end",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "l limb": {
+    "features": [
+      {
+        "name": "add blade",
+        "type": "importDerived",
+        "faces": 252,
+        "bodies": 2
+      },
+      {
+        "name": "limb section",
+        "type": "newSketch",
+        "faces": 1,
+        "bodies": 7
+      },
+      {
+        "name": "limb",
+        "type": "extrude",
+        "faces": 8,
+        "bodies": 1
+      },
+      {
+        "name": "mate for ball stud",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "add ball stud",
+        "type": "importDerived",
+        "faces": 2,
+        "bodies": 1
+      },
+      {
+        "name": "move ball stud",
+        "type": "transform",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "combine parts",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "elbow end",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      },
+      {
+        "name": "wrist end",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  },
+  "gripper": {
+    "features": [
+      {
+        "name": "copy socket",
+        "type": "importDerived",
+        "faces": 18,
+        "bodies": 1
+      },
+      {
+        "name": "#gripperL = 24 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#clipR = 5 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#barD = 3.2 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#bore = 3.3 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#mouth = 2.6 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#ball = 12 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#wall = 3 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "#collarR = 9 mm",
+        "type": "assignVariable",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "clip profile",
+        "type": "newSketch",
+        "faces": 2,
+        "bodies": 19
+      },
+      {
+        "name": "clip body",
+        "type": "extrude",
+        "faces": 11,
+        "bodies": 1
+      },
+      {
+        "name": "plane to cut top of clip",
+        "type": "cPlane",
+        "faces": 1,
+        "bodies": 1
+      },
+      {
+        "name": "remove top of clip",
+        "type": "splitPart",
+        "faces": 1,
+        "bodies": 0
+      },
+      {
+        "name": "combine parts",
+        "type": "booleanBodies",
+        "faces": 0,
+        "bodies": 0
+      },
+      {
+        "name": "mate to robot",
+        "type": "mateConnector",
+        "faces": 0,
+        "bodies": 1
+      }
+    ],
+    "silent": []
+  }
+}

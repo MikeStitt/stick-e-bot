@@ -1073,3 +1073,26 @@ draft built and the part it was built from, rendered in the same view and put si
 the comparison that found the gripper's sunken collar when a face count of 32 against 33 had
 nearly hidden it, and it is the reason to take it on the tabs that agree as well as the one that
 did not.
+
+## Every feature accounted for, by what it made
+
+[`scripts/c_feature_effect.py`](scripts/c_feature_effect.py) asks the model what each feature is
+responsible for — `qCreatedBy` over its id, counting faces and bodies — across all eight tabs. The
+answers are [`results/feature-effect.json`](results/feature-effect.json).
+
+**Sixty-three features build geometry and every one of them made some.** `ball and socket` 6,
+`hinge` 24, `body` 12, `head` 10, `foot` 9, each limb 4, `gripper` 4.
+
+**One feature makes nothing and should:** `trim shoulder cut`. It is silent because it cuts the
+shoulder boss flush with the torso's top face rather than leaving a new face behind, which
+[`torso.md`](../../build-briefs/torso.md) asks for in those words — *the shoulder boss is cut flush
+at z = +48 and nothing stands proud of the top face* — and the tree says nothing about it either.
+
+**The rest of the silence is by kind, not by fault.** A boolean rewrites bodies and a transform
+moves one, so neither is credited with a face; variables, mate connectors and planes make no
+geometry at all. Counting those as failures is what made an earlier pass report
+`combine fork parts` and `move ball stud` as broken when only the second one was.
+
+**What this is worth.** It is the half of *Model inspected* that a picture cannot give: a render
+shows the part, and this shows that no feature in the tree is sitting there doing nothing. Held
+with the face-for-face diffs against the parents, every feature is both present and effective.

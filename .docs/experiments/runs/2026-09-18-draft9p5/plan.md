@@ -416,7 +416,7 @@ and constraints before the next feature runs.**
 - [ ] The cut is a slot for its whole depth.
 - [ ] The slit sketch is fully defined — no blue anywhere.
 - [ ] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,  — same part
   -front.png, -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)  — cut on Front at the version; same part, number for number
@@ -496,7 +496,7 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 510 faces, face for face
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `blade`, `fork`, read back
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-hinge-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)  — cut on Top, seen down the limb
@@ -573,7 +573,7 @@ and constraints before the next feature runs.**
 - [ ] The part is symmetric about the YZ plane.
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [ ] Every mate connector sits on the geometry it is named for, and open each one to see how it
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,  — same part
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
@@ -646,7 +646,7 @@ and constraints before the next feature runs.**
 - [ ] Shell thickness 1.200 at three places, one of them next to a cut.
 - [ ] The profile is tangent throughout — no crease where an arc meets a line.
 - [ ] Thinnest wall anywhere in the part, and where it is.
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,  — same part
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
@@ -715,7 +715,7 @@ and constraints before the next feature runs.**
 - [ ] The sole ribs exist and removed material.
 - [ ] The ankle socket has relief slits.
 - [ ] Thinnest wall anywhere in the part, and where it is.
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,  — same part
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
@@ -760,7 +760,7 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `upper limb`, read back
 - [x] Nothing anywhere lies outside Ø24.  — both limbs 24.000 across
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-u-limb-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)  — cut on Front; the sheet is a wedge detail
@@ -805,7 +805,7 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `lower limb`, read back
 - [x] Nothing anywhere lies outside Ø24.  — both limbs 24.000 across
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-l-limb-iso.png, -right.png,  — same part
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)  — cut on Front; blade, rod and ball stud
@@ -863,7 +863,7 @@ and constraints before the next feature runs.**
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
 - [x] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — 18.000 both ways
 - [ ] Thinnest wall anywhere in the part, and where it is.
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — same part
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
@@ -919,7 +919,7 @@ and constraints before the next feature runs.**
 - [ ] The arms reach mid-thigh.
 - [ ] The feet are symmetric at rest, at x ±24.
 - [ ] The feet do not touch, and the gap is 16.
-- [ ] every feature above seen in a view that shows it, with a verdict
+- [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (plan-assembly.svg)  — same part
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
