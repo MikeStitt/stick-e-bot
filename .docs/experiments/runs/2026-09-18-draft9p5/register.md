@@ -898,3 +898,32 @@ the stud's volume as missing.
 pass. What the briefs ask for that this draft has not taken is named where it belongs: the torso's
 box before the studs, which needs a rollback; the hinge's mechanical figures, which its own brief
 sends to `hinge_spring.py`; and the thinnest-wall checks, which nothing here has measured.
+
+## The interference check has no tool in this assembly
+
+The assembly's toolbar was read rather than searched: fifty controls carry a title, and they are
+insert, the mate connector, the nine mates, group, snap mode, show mates, replicate, replace
+instance, the three assembly patterns, four relations, display states, Part Studio in context, and
+six loads. **None of them is an interference check**, which is consistent with *Search tools*
+answering *No items match your search* for the word.
+
+So Ring 3's *nothing interferes at rest* cannot be taken the way the plan assumes, and this draft
+does not know where that check lives — or whether this account's plan carries it. It stays open,
+and the next step is to ask Mike rather than to hunt further.
+
+## The account is an education subscription, and that closes an open question
+
+The document header carries the tooltip **"This document was created by an education subscriber."**
+
+[`2026-09-14-move-to-stick-e-bot.md`](../../../2026-09-14-move-to-stick-e-bot.md) § *What we do not
+know yet* asks exactly this: *which Onshape plan this account is on. If it is an Education or team
+license rather than Free, then no draft has ever been built under the constraint students face, and
+`before-you-start.rst` describes a plan nobody here has used.*
+
+**It reads on the document, not on the account**, so it says what created this document rather than
+what the account is today; and it does not say what a student's own account would be. But it is the
+first evidence either way, and it points at the answer the question feared: the drafts have been
+built under an education subscription.
+
+**This is not draft9p5's to act on.** It is recorded here and belongs to whoever closes that
+question, along with the second half of it — what a free plan actually allows.
