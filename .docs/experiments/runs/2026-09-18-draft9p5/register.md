@@ -1635,6 +1635,43 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## The neck's real tilt limit, and what stops the head
+
+[`head.md`](../../build-briefs/head.md) left this open: *the two-flat-plates model gives 21.8 deg
+and is wrong, because the head's underside is 6 mm deeper fore-and-aft than the torso's top face
+and its corners swing past that face rather than onto it. Drive the joint in the assembly, report
+the angle, and name the face that stopped it.*
+
+[`scripts/c_neck_tilt.py`](scripts/c_neck_tilt.py) turns the head's own points about the neck ball
+and finds the angle at which one of them first enters the torso's block. **It is the geometry
+answering, not the assembly driven**; posing the assembly is still owed, and this needs no quota
+and leaves the robot at rest.
+
+| Direction | The torso is reached at | On what | Against `BALL_SWING` 39.0132 deg |
+| --------- | ----------------------: | ------- | -------------------------------- |
+| nod forward | **45.240 deg** | the top-front **edge**, at (24.00, -24.00, 48.00) | the joint stops it first |
+| nod back | **45.240 deg** | the top-back edge, at (24.00, 24.00, 48.00) | the joint stops it first |
+| tilt right | **36.870 deg** | the **top face**, at (30.00, -18.00, 48.00) | the torso stops it first |
+| tilt left | **36.870 deg** | the top face, at (-30.00, 18.00, 48.00) | the torso stops it first |
+
+**The brief's reasoning is confirmed and its number was low.** Nodding, the head's corner does
+swing past the top face; what it reaches is the edge between the top face and the front face, and
+not until 45.240 deg, which the joint's own 39.0132 deg never lets it reach. So **fore and aft the
+head never touches the torso at all**, and the limit is the stalk meeting the mouth.
+
+**Sideways is the other way round, and nothing had noticed.** The head is 72 mm across and so is
+the torso, so a corner coming down lands **on** the top face rather than beside it, at 36.870 deg.
+That is 2.143 deg inside `BALL_SWING`, so side to side **the torso is what stops the head**, and
+the joint does not reach its own limit. The two-flat-plates model's 21.8 deg is wrong in both
+directions, and wrong by different amounts and for different reasons.
+
+**36.870 deg is arctan(3 / 4)**, which is what a 72 mm head tilting about a ball 10 mm above a
+72 mm torso gives; it is not a coincidence of this measurement.
+
+**What this does not close.** The brief asks for the joint driven in the assembly, and Ring 3 asks
+for every joint moved through its range. This is one joint, computed rather than posed. Both lines
+stay open and carry the number.
+
 ## The robot's height is restated in four briefs, and every copy is stale
 
 Mike asked on 2026-09-19 why so many component briefs mention the robot's height, since few of
