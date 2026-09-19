@@ -1360,3 +1360,56 @@ coaxial or concentric pair at all, and it now says that rather than failing.
 cylinder and a sphere whose axes meet rather than between two faces sharing an origin and an axis.
 That is the tool's stated scope, not a defect, and
 [`scripts/c_walls.py`](scripts/c_walls.py) measures the wider case for this run.
+
+# The design's defects, in one place
+
+Ring 4's *What the briefs and the design source owe* named four of these and was written before the
+last three were found. This is the whole list. **Nothing here is a fault in the model as built**:
+every model fault this run made was fixed and is recorded where it happened. These are places where
+a brief or `make_plans.py` and the geometry disagree.
+
+## Settled: the model is right and the words trail a ruling
+
+Each of these follows from `#collar` becoming `#stand` at 10 mm, or from the printed ball's loss
+being taken off the mouth — both settled after the brief that states the old number.
+
+| Where | It says | The model measures | Why |
+| ----- | ------- | -----------------: | --- |
+| `head.md` | socket centre 45 mm below the head centre | **46.0 mm** | the collar is 10 mm, was 9 |
+| `head.md` | collar stands 10.947 mm proud | **12.2205 mm** | `#collar` + `#grip`, both moved |
+| `head.md` | slits 4.947 mm deep | **6.2205 mm** | `#grip + #ball / 3` |
+| `foot.md` | socket mouth Ø11.520 mm | **Ø11.320 mm** | `#mouth` less `2 × #ballLoss` |
+| `gripper.md` | *the Ø18 collar* | **Ø15.600 mm** | 18 is the clip's square top, not the collar |
+
+`brief-socket.svg` settles the fourth on the model's side: the sheet itself says **mouth Ø11.320
+mm**, so the design source's drawing and the model agree and one sentence of prose does not.
+
+## Open: nothing explains these, and they are decisions rather than corrections
+
+- **The head is 63 mm deep and `HEAD_D` computes 60.** This draft and draft9p1p1 both measure
+  63.000 mm fore and aft. No ruling accounts for the 3 mm. Either the head was built deeper than
+  the number that names it, or `HEAD_D` no longer describes the head.
+- **The feet touch, and two briefs disagree about whether they should.** `foot.md` gives a foot
+  48.000 mm across, `assembly.md` puts each sole on its own leg at x ±24, and those two together
+  leave a gap of **0.000 mm** — measured. `assembly.md` expects 16 mm with the inner edges at
+  x ±8, which needs a 32 mm foot. Its reasoning does not survive either: it calls 16 *the half-size
+  robot's 4 mm doubled*, but a foot whose width is `2 × FOOT_H` scales with the robot, so the gap
+  it leaves scales to zero.
+- **The arms reach about 14 mm past mid-thigh, not to it.** The gripper's lowest point is
+  z -204.765 mm and the thigh's middle is z -190.9 mm. `assembly.md` calls this *a pure ratio, so
+  it should survive the doubling exactly; check it on the assembly, because if it does not,
+  something scaled that should not have.* It did not.
+- **The robot's height is given twice and differently.** `assembly.md` asks for 317.00 mm;
+  `make_plans` computes `HEIGHT` 318.0 mm. The assembly measures **318.0 mm**, so it follows the
+  design source and not the brief, and the 1 mm between those two is unresolved.
+
+## Not the design: tools that had gone stale
+
+Recorded here only so the list of what this run found is complete.
+
+- **`measure_walls.py` could not read today's `bodydetails`** — surface types recased and vectors
+  turned from maps into lists. Fixed on Mike's word.
+- **Two endpoints the 2026-08-30 scripts used are 404** — creating a Variable Studio, and renaming
+  an element. Replacements measured and recorded.
+- **`shadedviews` ignores `cutPlane` and `sectionPlane`** rather than refusing them, which
+  `onshape-gui-howto.md` already carried and this run confirmed.
