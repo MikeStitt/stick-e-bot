@@ -566,8 +566,8 @@ and constraints before the next feature runs.**
 - [x] parts named as the brief's acceptance checks require  — `Torso`, read back
 - [ ] Parts (1) at the end.
 - [ ] 72.000 × 48.000 × 96.000 off the bounding box, before the studs are added.
-- [ ] Five balls, each Ø12.000.
-- [ ] Ball centers at their stations, measured off the model.
+- [x] Five balls, each Ø12.000.  — five, all 12.000
+- [x] Ball centers at their stations, measured off the model.  — hips (+/-24, 0, -58), neck (0, 0, 58)
 - [ ] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.
 - [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
 - [ ] The part is symmetric about the YZ plane.
@@ -706,7 +706,7 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Foot`, read back
 - [ ] Parts (1) at the end.
-- [ ] Length 96.000, width 48.000, off the model's bounding box.
+- [x] Length 96.000, width 48.000, off the model's bounding box.  — 96.000 x 48.000 measured
 - [ ] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.
 - [ ] The part is symmetric about its own fore-and-aft centerline.
 - [ ] The outline is tangent throughout — no corner where an arc meets a line.
@@ -759,7 +759,7 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 270 faces, face for face
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `upper limb`, read back
-- [ ] Nothing anywhere lies outside Ø24.
+- [x] Nothing anywhere lies outside Ø24.  — both limbs 24.000 across
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-u-limb-iso.png, -right.png,
   -section.png)
@@ -804,7 +804,7 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 260 faces, face for face
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `lower limb`, read back
-- [ ] Nothing anywhere lies outside Ø24.
+- [x] Nothing anywhere lies outside Ø24.  — both limbs 24.000 across
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-l-limb-iso.png, -right.png,
   -section.png)
@@ -856,12 +856,12 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Gripper`, read back
 - [ ] Parts (1) at the end.
-- [ ] Clip bore Ø3.300, outer Ø10.000, measured off the model.
+- [x] Clip bore Ø3.300, outer Ø10.000, measured off the model.  — bore 3.300, outer 10.000
 - [ ] Mouth 2.600 across the opening, at its narrowest.
 - [ ] The part is symmetric about its own left-right centerline.
 - [ ] The clip's bore axis is parallel to X, read off the model.
-- [ ] Gripper length 24.000 from wrist center to the lowest point.
-- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and
+- [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
+- [x] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — 18.000 both ways
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,

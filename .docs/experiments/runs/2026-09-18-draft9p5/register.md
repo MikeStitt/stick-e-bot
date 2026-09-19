@@ -855,3 +855,21 @@ because the briefs are not this draft's to change.
 Ø11.520 mm and the gripper's *Ø18 collar* each follow from a ruling settled after the brief was
 written. The head's 60 mm depth does not: nothing explains why two drafts measure 63 mm, and that
 one stays a question.
+
+## Ring 2 acceptance on `hinge` and the two limbs
+
+**The hinge's step is 15.0°, measured.** Each body carries 96 cone faces — four to a wedge — so the
+blade and the fork each hold 24 wedges and the step is 360/24. That is
+[`hinge.md`](../../build-briefs/hinge.md) § *What it should measure when it is right*'s **15°**.
+
+**The rest of that section is mechanical, not geometric**, and the brief says so itself: pinch
+force, leaf stress, detent hold, twist-off. It also says to use
+[`hinge_spring.py`](../../../../src/stickbot/hinge_spring.py) rather than re-derive them with a
+formula, so they are not this draft's to measure off the model and are not claimed here.
+
+**Both limbs measure exactly 24.000 mm across, and nothing lies outside it.** `u limb` runs
+`(-10.4494, -12, -60)` to `(10.4494, 12, 2.2205)` mm and `l limb` `(-10.4494, -12, -54)` to
+`(10.4494, 12, 12)` mm. The ±12 mm is `#limbD / 2` and the ±10.4494 mm is `#flat`, which
+`make_plans` computes as `sqrt((#limbD / 2)² - (#seat / 2)²)` — the two faces the fork is cut on.
+[`limbs.md`](../../build-briefs/limbs.md) asks for it in exactly those words: *nothing anywhere
+lies outside Ø24*.
