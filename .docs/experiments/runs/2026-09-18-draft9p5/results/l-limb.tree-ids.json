@@ -1,0 +1,77 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "FqsLIUxpEvJ3PH7_0",
+    "type": "importDerived",
+    "name": "add blade"
+  },
+  {
+    "id": "FDKgAYXH7FZW4kZ_1",
+    "type": "newSketch",
+    "name": "limb section"
+  },
+  {
+    "id": "FKIUpahIUAZmLyH_1",
+    "type": "extrude",
+    "name": "limb"
+  },
+  {
+    "id": "FlaenpRV2c3KctN_2",
+    "type": "mateConnector",
+    "name": "mate for ball stud"
+  },
+  {
+    "id": "FuPgd4ZXBB5g6KI_2",
+    "type": "importDerived",
+    "name": "add ball stud"
+  },
+  {
+    "id": "Fv4G4lOAzBiGbQc_3",
+    "type": "transform",
+    "name": "move ball stud"
+  },
+  {
+    "id": "Fl4icKcQNQqK9qQ_3",
+    "type": "booleanBodies",
+    "name": "combine parts"
+  },
+  {
+    "id": "FBKKSFsDzUDPjBC_2",
+    "type": "mateConnector",
+    "name": "elbow end"
+  },
+  {
+    "id": "FF7L6q75Ka6l7EA_2",
+    "type": "mateConnector",
+    "name": "wrist end"
+  },
+  {
+    "id": "MxaCJfbfvk9j6C9tc",
+    "type": null,
+    "name": ""
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "F9FmaBsn7jieuCf_0",
+    "type": "assignVariable",
+    "name": "#collar_r = 7.8 mm"
+  },
+  {
+    "id": "FJMh4qRa0ukaEqT_0",
+    "type": "newSketch",
+    "name": "pedestal outline"
+  },
+  {
+    "id": "FUnCpYSvgu5x59Q_0",
+    "type": "assignVariable",
+    "name": "#plate = 12 mm"
+  },
+  {
+    "id": "Fwf3Zbqwpdq9Fcn_0",
+    "type": "assignVariable",
+    "name": "#collar_down = 10 mm"
+  },
+  {
+    "id": "FUnU0C0eprvfs29_0",
+    "type": "assignVariable",
+    "name": "#pedestal = 2 mm"
+  },
+  {
+    "id": "FnHYKCWp6mIAje1_0",
+    "type": "extrude",
+    "name": "foot pedestal"
+  },
+  {
+    "id": "F0sFOuOaRa1FXBt_1",
+    "type": "assignVariable",
+    "name": "#foot_l = 96 mm"
+  },
+  {
+    "id": "F4l7Cc2XSuTR25X_1",
+    "type": "assignVariable",
+    "name": "#foot_w = 48 mm"
+  },
+  {
+    "id": "FBvJjPyaINfgAVw_1",
+    "type": "assignVariable",
+    "name": "#heel_r = 16 mm"
+  },
+  {
+    "id": "FW70PaSr8ZecB8K_1",
+    "type": "assignVariable",
+    "name": "#toe_r = 24 mm"
+  },
+  {
+    "id": "FcrYiCLHTcBMcvg_1",
+    "type": "assignVariable",
+    "name": "#heel_y = 32 mm"
+  },
+  {
+    "id": "FBF5L6zfJIVG65K_1",
+    "type": "newSketch",
+    "name": "foot outline"
+  },
+  {
+    "id": "FaHZtrez1x2DOYL_1",
+    "type": "assignVariable",
+    "name": "#ankle_h = 24 mm"
+  },
+  {
+    "id": "FN0Twd6j0WkF5Tv_1",
+    "type": "extrude",
+    "name": "foot"
+  },
+  {
+    "id": "FSpbNfnYXj9EAAj_1",
+    "type": "assignVariable",
+    "name": "#top_round = 8 mm"
+  },
+  {
+    "id": "FsxDSGCxPYdhCXp_1",
+    "type": "fillet",
+    "name": "top round"
+  },
+  {
+    "id": "Fgo5yCmUaMW4M5o_1",
+    "type": "assignVariable",
+    "name": "#rib_w = 6 mm"
+  },
+  {
+    "id": "FgZDX6qc2i3b3RP_1",
+    "type": "newSketch",
+    "name": "groove profile"
+  },
+  {
+    "id": "FWmQBVJBgPyJjpQ_1",
+    "type": "assignVariable",
+    "name": "#rib_d = 2 mm"
+  },
+  {
+    "id": "FKS3yzF3q0B4z6l_1",
+    "type": "extrude",
+    "name": "sole groove"
+  },
+  {
+    "id": "F46pNXZgYeqpxLr_1",
+    "type": "linearPattern",
+    "name": "sole ribs"
+  },
+  {
+    "id": "F0QcgTCAugfBNmX_1",
+    "type": "importDerived",
+    "name": "add socket"
+  },
+  {
+    "id": "FW2iLgFZ4OC6ltK_2",
+    "type": "booleanBodies",
+    "name": "combine parts"
+  },
+  {
+    "id": "F3O7PYkiHp0qffu_2",
+    "type": "mateConnector",
+    "name": "mate to robot"
+  },
+  {
+    "id": "MPcGKky2yDZaPTnSN",
+    "type": null,
+    "name": ""
+  }
+]

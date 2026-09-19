@@ -1,0 +1,162 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "FPGh9dxswCfElls_0",
+    "type": "assignVariable",
+    "name": "#headW = 72 mm"
+  },
+  {
+    "id": "FIFY4JhSLOT0gf6_0",
+    "type": "newSketch",
+    "name": "head profile"
+  },
+  {
+    "id": "FndIk0dvAAAsUbB_0",
+    "type": "assignVariable",
+    "name": "#headD = 60 mm"
+  },
+  {
+    "id": "FJr23yMa30O1Y3G_0",
+    "type": "extrude",
+    "name": "head body"
+  },
+  {
+    "id": "FiPwwCTa0Lwl4J9_1",
+    "type": "assignVariable",
+    "name": "#round = 12 mm"
+  },
+  {
+    "id": "FqMcZq3Gj9Cq3NP_1",
+    "type": "fillet",
+    "name": "upper rounds"
+  },
+  {
+    "id": "FaPT6AauOgxYAsC_1",
+    "type": "assignVariable",
+    "name": "#chamfer = 6 mm"
+  },
+  {
+    "id": "FU1m6u77Zpwz4Pe_1",
+    "type": "chamfer",
+    "name": "lower head chamfer"
+  },
+  {
+    "id": "Fe5aVuPtF918Fce_1",
+    "type": "assignVariable",
+    "name": "#eyeX = 12 mm"
+  },
+  {
+    "id": "F5mAe6WAsntVxCV_1",
+    "type": "assignVariable",
+    "name": "#eyeUp = 8 mm"
+  },
+  {
+    "id": "FbCHIlMagzSRoxJ_1",
+    "type": "assignVariable",
+    "name": "#eyeRx = 8 mm"
+  },
+  {
+    "id": "F4VH4rCM4TUcb1G_1",
+    "type": "assignVariable",
+    "name": "#eyeRy = 4 mm"
+  },
+  {
+    "id": "Fl8NdIHuIFhsne5_1",
+    "type": "newSketch",
+    "name": "eye profile"
+  },
+  {
+    "id": "FKrYoLqMbFZ8Hu2_1",
+    "type": "assignVariable",
+    "name": "#face = 3 mm"
+  },
+  {
+    "id": "FxcLobAgFnT2rBN_1",
+    "type": "extrude",
+    "name": "eye"
+  },
+  {
+    "id": "Fswo0VfiNToOTnB_1",
+    "type": "mirror",
+    "name": "second eye"
+  },
+  {
+    "id": "FPv0huRkPJFp3O5_1",
+    "type": "assignVariable",
+    "name": "#mouthW = 40 mm"
+  },
+  {
+    "id": "FjTBpKihdHlJmqS_1",
+    "type": "assignVariable",
+    "name": "#mouthH = 10 mm"
+  },
+  {
+    "id": "FhXnXW2cRJOuGvd_1",
+    "type": "assignVariable",
+    "name": "#mouthDn = 13 mm"
+  },
+  {
+    "id": "Fpm9HndB0E524BO_1",
+    "type": "newSketch",
+    "name": "mouth profile"
+  },
+  {
+    "id": "F5zct4NkUf2nxN4_1",
+    "type": "extrude",
+    "name": "mouth"
+  },
+  {
+    "id": "FUnmPzilAara200_1",
+    "type": "mateConnector",
+    "name": "socket mount point"
+  },
+  {
+    "id": "FSatnt8u8CAahCW_1",
+    "type": "importDerived",
+    "name": "get socket"
+  },
+  {
+    "id": "F5yOZUcKUm1ognO_2",
+    "type": "transform",
+    "name": "drop socket to neck"
+  },
+  {
+    "id": "FyImDuGpB1QTRSf_2",
+    "type": "booleanBodies",
+    "name": "add socket to head"
+  },
+  {
+    "id": "FHp6SSTfS0y1oax_1",
+    "type": "mateConnector",
+    "name": "head mate"
+  },
+  {
+    "id": "M1AKHJs9pcoy5dlsz",
+    "type": null,
+    "name": ""
+  }
+]

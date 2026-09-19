@@ -1,0 +1,93 @@
+{
+  "tab": "ball and socket",
+  "features": [
+    {
+      "i": 0,
+      "name": "###name = #value",
+      "type": "assignVariable",
+      "featureId": "FXvcwPOAOM0kail_0"
+    },
+    {
+      "i": 1,
+      "name": "stud profile",
+      "type": "newSketch",
+      "featureId": "FRt3RXw8fuHIee1_0",
+      "sketch": 4
+    },
+    {
+      "i": 2,
+      "name": "revolve stud",
+      "type": "revolve",
+      "featureId": "FKiXycnVLEOFD2p_0"
+    },
+    {
+      "i": 3,
+      "name": "collar profile",
+      "type": "newSketch",
+      "featureId": "FDyg0NwLOIrQ4Zo_1",
+      "sketch": 1
+    },
+    {
+      "i": 4,
+      "name": "collar blank",
+      "type": "extrude",
+      "featureId": "FVUScHf9xu1NvCB_1"
+    },
+    {
+      "i": 5,
+      "name": "cavity from ball",
+      "type": "booleanBodies",
+      "featureId": "FUz8X4uj9rGVcrA_2"
+    },
+    {
+      "i": 6,
+      "name": "###name = #value",
+      "type": "assignVariable",
+      "featureId": "FwigqVZ7xyeF1eN_2"
+    },
+    {
+      "i": 7,
+      "name": "###name = #value",
+      "type": "assignVariable",
+      "featureId": "Fw94Lo3uauAAODi_2"
+    },
+    {
+      "i": 8,
+      "name": "###name = #value",
+      "type": "assignVariable",
+      "featureId": "FyFsm6scdNf2jou_2"
+    },
+    {
+      "i": 9,
+      "name": "slit profile",
+      "type": "newSketch",
+      "featureId": "Fbe7Db2PA0GNiMC_2",
+      "sketch": 16
+    },
+    {
+      "i": 10,
+      "name": "###name = #value",
+      "type": "assignVariable",
+      "featureId": "FdIQsk0NoHydaAk_2"
+    },
+    {
+      "i": 11,
+      "name": "relief slits",
+      "type": "extrude",
+      "featureId": "FrSoopyp8qluKEQ_2"
+    },
+    {
+      "i": 12,
+      "name": "stud connect to robot",
+      "type": "mateConnector",
+      "featureId": "FfpSztv1Fw6bpDp_2"
+    },
+    {
+      "i": 13,
+      "name": "socket connect to robot",
+      "type": "mateConnector",
+      "featureId": "FySyGNPFiespr4B_2"
+    }
+  ],
+  "solids": 2
+}

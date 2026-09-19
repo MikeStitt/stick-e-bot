@@ -1,0 +1,234 @@
+{
+  "ball and socket": [
+    {
+      "sketch": "stud profile",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": false
+    },
+    {
+      "sketch": "collar profile",
+      "ids": [
+        "JDC"
+      ],
+      "stands_on": "Top plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "slit profile",
+      "ids": [
+        "JNG"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    }
+  ],
+  "hinge": [
+    {
+      "sketch": "blade profile",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": false
+    },
+    {
+      "sketch": "stub axle outline",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "blade wedge outline",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "blade rod outline",
+      "ids": [
+        "JDC"
+      ],
+      "stands_on": "Top plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "relief slit outline",
+      "ids": [
+        "JEC"
+      ],
+      "stands_on": "Right plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "fork outline",
+      "ids": [
+        "JDC"
+      ],
+      "stands_on": "Top plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "fork blade top cut outline",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "pocket axle sketch",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "ear wedge outline",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "fork arm outline",
+      "ids": [
+        "JDC"
+      ],
+      "stands_on": "Top plane",
+      "had_a_face": true
+    }
+  ],
+  "body": [
+    {
+      "sketch": "torso outline",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": false
+    },
+    {
+      "sketch": "pivot lines",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "torso shoulder profile",
+      "ids": [
+        "JJC"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    },
+    {
+      "sketch": "trim shoulder pattern",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "hip connector location",
+      "ids": [
+        "JHO"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    },
+    {
+      "sketch": "neck connector location",
+      "ids": [
+        "JTC"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    }
+  ],
+  "head": [
+    {
+      "sketch": "head profile",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": false
+    },
+    {
+      "sketch": "eye profile",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    },
+    {
+      "sketch": "mouth profile",
+      "ids": [
+        "JCC"
+      ],
+      "stands_on": "Front plane",
+      "had_a_face": true
+    }
+  ],
+  "foot": [
+    {
+      "sketch": "pedestal outline",
+      "ids": [],
+      "stands_on": "no query",
+      "had_a_face": false
+    },
+    {
+      "sketch": "foot outline",
+      "ids": [],
+      "stands_on": "no query",
+      "had_a_face": true
+    },
+    {
+      "sketch": "groove profile",
+      "ids": [],
+      "stands_on": "no query",
+      "had_a_face": true
+    }
+  ],
+  "u limb": [
+    {
+      "sketch": "limb section",
+      "ids": [
+        "JaC"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    }
+  ],
+  "l limb": [
+    {
+      "sketch": "limb section",
+      "ids": [
+        "SYGmP"
+      ],
+      "stands_on": "face of the model",
+      "had_a_face": true
+    }
+  ],
+  "gripper": [
+    {
+      "sketch": "clip profile",
+      "ids": [],
+      "stands_on": "no query",
+      "had_a_face": true
+    }
+  ]
+}

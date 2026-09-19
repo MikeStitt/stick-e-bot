@@ -1,0 +1,107 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "Ft5GUrhtbxDKNrL_0",
+    "type": "importDerived",
+    "name": "copy socket"
+  },
+  {
+    "id": "FbbdkgWgT94Xl7J_1",
+    "type": "assignVariable",
+    "name": "#gripperL = 24 mm"
+  },
+  {
+    "id": "FxEvl5aUDj0L59d_1",
+    "type": "assignVariable",
+    "name": "#clipR = 5 mm"
+  },
+  {
+    "id": "FgmtM4PUITxYRIp_1",
+    "type": "assignVariable",
+    "name": "#barD = 3.2 mm"
+  },
+  {
+    "id": "FJgCODFqPoIp6GL_1",
+    "type": "assignVariable",
+    "name": "#bore = 3.3 mm"
+  },
+  {
+    "id": "Fjd0SsalEERMq6V_1",
+    "type": "assignVariable",
+    "name": "#mouth = 2.6 mm"
+  },
+  {
+    "id": "F9kpfGgjPfPZcKY_1",
+    "type": "assignVariable",
+    "name": "#ball = 12 mm"
+  },
+  {
+    "id": "FfXLZecjIGO5Mx0_1",
+    "type": "assignVariable",
+    "name": "#wall = 3 mm"
+  },
+  {
+    "id": "FBWEPg9EEUrxn6H_1",
+    "type": "assignVariable",
+    "name": "#collarR = 9 mm"
+  },
+  {
+    "id": "FZ8ylsGGbOEYi3t_1",
+    "type": "newSketch",
+    "name": "clip profile"
+  },
+  {
+    "id": "Frw0MnIKwDXZ6hZ_1",
+    "type": "extrude",
+    "name": "clip body"
+  },
+  {
+    "id": "FyTz43tfY7tuDzn_2",
+    "type": "cPlane",
+    "name": "plane to cut top of clip"
+  },
+  {
+    "id": "Fjh5j0zfOZ3k2Qs_2",
+    "type": "splitPart",
+    "name": "remove top of clip"
+  },
+  {
+    "id": "FQWriqR9RTVwruA_2",
+    "type": "booleanBodies",
+    "name": "combine parts"
+  },
+  {
+    "id": "FZzaEHLIY5ebA7I_2",
+    "type": "mateConnector",
+    "name": "mate to robot"
+  },
+  {
+    "id": "MHUBFQ6YVbjXwpTMW",
+    "type": null,
+    "name": ""
+  }
+]

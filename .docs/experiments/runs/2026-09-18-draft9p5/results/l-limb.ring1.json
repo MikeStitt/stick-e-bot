@@ -1,0 +1,34 @@
+{
+  "tab": "l limb",
+  "features": [
+    {
+      "i": 6,
+      "name": "combine parts",
+      "step": "combine parts",
+      "type": "booleanBodies",
+      "featureId": "Fl4icKcQNQqK9qQ_3"
+    },
+    {
+      "i": 7,
+      "name": "elbow end",
+      "step": "elbow end",
+      "type": "mateConnector",
+      "featureId": "FBKKSFsDzUDPjBC_2"
+    },
+    {
+      "i": 8,
+      "name": "wrist end",
+      "step": "wrist end",
+      "type": "mateConnector",
+      "featureId": "FF7L6q75Ka6l7EA_2"
+    }
+  ],
+  "solids": 1,
+  "parts": {},
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

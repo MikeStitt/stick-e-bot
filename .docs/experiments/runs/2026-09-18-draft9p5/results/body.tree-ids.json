@@ -1,0 +1,197 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "FAgrWzcmNej31pg_0",
+    "type": "newSketch",
+    "name": "torso outline"
+  },
+  {
+    "id": "FIFwozBOvcYBStK_0",
+    "type": "extrude",
+    "name": "torso block"
+  },
+  {
+    "id": "Fo9i88u3V82tbtI_1",
+    "type": "assignVariable",
+    "name": "#shoulder_half = 36 mm"
+  },
+  {
+    "id": "FDurlIp5iXGmKF3_1",
+    "type": "assignVariable",
+    "name": "#shoulder_drop = 8 mm"
+  },
+  {
+    "id": "FdoRvkpu3k3CuA6_1",
+    "type": "newSketch",
+    "name": "pivot lines"
+  },
+  {
+    "id": "FR0LllJCCJHfNKf_1",
+    "type": "assignVariable",
+    "name": "#yaw = 30 deg"
+  },
+  {
+    "id": "FoO9yBC7HyMwlSQ_1",
+    "type": "cPlane",
+    "name": "plane for shoulder"
+  },
+  {
+    "id": "Fx45SXPmPPiUJ5u_1",
+    "type": "assignVariable",
+    "name": "#shoulder_len = 26 mm"
+  },
+  {
+    "id": "FD71294jP7yk6XP_1",
+    "type": "assignVariable",
+    "name": "#boss_len = 16 mm"
+  },
+  {
+    "id": "F3E2vfCEtw6zamB_1",
+    "type": "assignVariable",
+    "name": "#boss_d = 16 mm"
+  },
+  {
+    "id": "FZJR5RXV3Qy3aAt_1",
+    "type": "assignVariable",
+    "name": "#tilt = 53 deg"
+  },
+  {
+    "id": "F4nhgDBb4vPmYIf_1",
+    "type": "newSketch",
+    "name": "torso shoulder profile"
+  },
+  {
+    "id": "F0zEKNOeum9nu3L_1",
+    "type": "revolve",
+    "name": "shoulder"
+  },
+  {
+    "id": "FYzml21IyH43dQI_2",
+    "type": "mateConnector",
+    "name": "mate for shoulder stud"
+  },
+  {
+    "id": "FxCMI0aJv5XICNo_2",
+    "type": "mirror",
+    "name": "mirror shoulder"
+  },
+  {
+    "id": "FxN7Q3YCZGD8Dd9_1",
+    "type": "newSketch",
+    "name": "trim shoulder pattern"
+  },
+  {
+    "id": "FEMjoAu5vc5nsfB_1",
+    "type": "extrude",
+    "name": "trim shoulder cut"
+  },
+  {
+    "id": "FyEYmaqRXLY9lFX_1",
+    "type": "assignVariable",
+    "name": "#hip_half = 24 mm"
+  },
+  {
+    "id": "FbqwjRjmrDgyqmq_1",
+    "type": "newSketch",
+    "name": "hip stud location"
+  },
+  {
+    "id": "FBTZtz6UyDwUEgT_1",
+    "type": "mateConnector",
+    "name": "mate for hip stud"
+  },
+  {
+    "id": "Fo2BtYFM2giCh0o_1",
+    "type": "newSketch",
+    "name": "neck stud location"
+  },
+  {
+    "id": "F86LtCu31RR3E08_1",
+    "type": "mateConnector",
+    "name": "mate for neck stud"
+  },
+  {
+    "id": "FX12TnSaLDaVDHy_1",
+    "type": "importDerived",
+    "name": "copy ball stud"
+  },
+  {
+    "id": "FhHDE5cgvO6u0qi_2",
+    "type": "transform",
+    "name": "move neck stud"
+  },
+  {
+    "id": "Fl1BVjmdrrffN0K_2",
+    "type": "transform",
+    "name": "copy for hip"
+  },
+  {
+    "id": "FCybTx1IpcAHm2V_2",
+    "type": "transform",
+    "name": "copy for shoulder"
+  },
+  {
+    "id": "F9oUS0alzB8q2BD_2",
+    "type": "mirror",
+    "name": "duplicate shoulder and hip"
+  },
+  {
+    "id": "FGbjkBv5bthf2BK_2",
+    "type": "booleanBodies",
+    "name": "add neck to body"
+  },
+  {
+    "id": "FkvGe7uFmMvBaky_1",
+    "type": "mateConnector",
+    "name": "neck"
+  },
+  {
+    "id": "FbR3fbW9WptBQo4_1",
+    "type": "mateConnector",
+    "name": "left shoulder"
+  },
+  {
+    "id": "Fh59LQqEBGVOQVm_1",
+    "type": "mateConnector",
+    "name": "right shoulder"
+  },
+  {
+    "id": "FAJR2AT0RqLlwbU_1",
+    "type": "mateConnector",
+    "name": "left hip"
+  },
+  {
+    "id": "FFL0PTYr2lCY6OE_1",
+    "type": "mateConnector",
+    "name": "right hip"
+  },
+  {
+    "id": "MNbrdQIV6G98jX9GB",
+    "type": null,
+    "name": ""
+  }
+]

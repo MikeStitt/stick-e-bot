@@ -1,1 +1,1 @@
-@../../.docs/2026-09-14-move-to-stick-e-bot.md
+@../../.docs/experiments/runs/2026-09-18-draft9p5/plan.md

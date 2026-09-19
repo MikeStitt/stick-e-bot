@@ -64,5 +64,7 @@ filename.
   the missing evidence in plain words, and update the record when a result closes it.
 - [Test the technique, not a guess](../../memory/test-the-technique-not-a-guess.md) — before writing
   that a method failed, prove the run performed it in the order it specifies.
+- [Unroll the plan into a checklist](../../memory/unroll-the-plan-into-a-checklist.md) — end a
+  run plan with every tab, part and ring item as its own line, marked Done only when it passed.
 - [Deciding is never done](../../memory/deciding-is-never-done.md) — label a drawing controlling,
   illustrative or superseded, and name the version; no artifact is simply right.

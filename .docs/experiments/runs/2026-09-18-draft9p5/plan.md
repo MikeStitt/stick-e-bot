@@ -309,3 +309,637 @@ stop being reference material.
 ## What is not yet written
 
 Where the guide's pages come from after this draft.
+
+## The unrolled plan
+
+**Every step of every tab, and every item of every ring, as its own line.** A line is marked
+`[x]` when it has been performed and has passed, never when it has been attempted; a line that is
+skipped stays `[ ]` and says why on the line. The register carries the evidence that closes each
+one.
+
+This section exists because `ball and socket` was reported as through Ring 2 on 2026-09-18 while
+two of its items had never been run: the brief's own acceptance checks, which name the two parts
+`Ball stud` and `Socket body`, and the section held beside the brief's sheet. Nothing failed. The
+items were on no list.
+
+The build order below is derived, not typed:
+[`scripts/b_order.py`](scripts/b_order.py) reads each brief's *Recommended steps*, the plan's
+rename table, and Phase A's walk of which feature first reads which variable, and writes
+[`results/build-order.json`](results/build-order.json). It refuses to emit a tab whose brief names
+a feature the parent's record does not have, so the rename table is checked every time it runs.
+187 features across the nine Part Studios and the assembly.
+
+### Phase A0 — the document
+
+- [x] `stickbot-draft9p5` created empty, name read back from Onshape before any write
+- [x] the ten tabs, in Phase B's build order, read back by name and type
+- [x] workspace length unit millimeter, decimals `0.12345`, read back from a fresh dialog
+- [x] ids recorded in [`results/ids.md`](results/ids.md)
+- [x] the duplicate document `9b398e076ce2ea8a25710938` trashed, and recorded
+
+### Phase A — the reads
+
+- [x] every expression walked, each variable's first geometry reader written down
+- [x] every sketch's plane query read, face or stock plane marked
+- [x] the ten connector names settled and checked against the parents' records
+- [x] `eye profile` read in `stickbot-draft9p4-check`, and the cause named
+- [x] `ninja brief-sheets` run, nothing changed
+- [x] every sheet confirmed referenced by the brief that owns it
+- [x] the six open numbers confirmed
+
+### Tab 1 — `robot sizes`
+
+
+
+
+
+
+
+
+
+
+- [x] 23 rows, every one a row the build plan's Variables table asks for
+- [x] Ring 1: all 23 read back with the expression sent, in order
+- [x] Ring 2: every row resolves in a Part Studio to the number `make_plans.py` computes
+- [x] version `tab 1 - robot sizes` published, `9d4f31e4d33a22c3d9a62fec`
+
+### Tab 2 — `ball and socket`
+
+
+
+
+
+
+
+
+
+
+14 features: 9 geometry from
+[`../../build-briefs/ball-and-socket.md`](../../build-briefs/ball-and-socket.md) § *Recommended
+steps*, 5 variables placed by Phase A's walk. Parent record `ball-and-socket.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `#stalk` — variable, title `###name = #value`
+- [x] `stud profile` — newSketch
+- [x] `revolve stud` — revolve
+- [x] `collar profile` — newSketch
+- [x] `collar blank` — extrude
+- [x] `cavity from ball` — booleanBodies
+- [x] `#slit` — variable, title `###name = #value`
+- [x] `#slit_in` — variable, title `###name = #value`
+- [x] `#slit_out` — variable, title `###name = #value`
+- [x] `slit profile` — newSketch
+- [x] `#slit_d` — variable, title `###name = #value`
+- [x] `relief slits` — extrude
+- [x] `stud connect to robot` — mateConnector
+- [x] `socket connect to robot` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 22 faces, face for face
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named: `Ball stud`, `Socket body`  — written and read back
+- [x] Parts (2) — `Ball stud` and `Socket body`.  — `Ball stud`, `Socket body`
+- [ ] The limb stub is Ø24.000 mm and the collar is Ø15.600, so the step around the collar's foot
+- [x] Mouth Ø11.320 mm.  — 11.3200 mm
+- [x] Ball Ø12.000 mm, unchanged by the subtract.  — 12.0000 mm, one sphere face
+- [ ] `Ball stud` volume, unchanged by the slits.
+- [x] Cavity spherical face radius 6.080 mm, read off the face.  — 6.0800 mm
+- [ ] Cavity volume 717.14 mm³ — a full Ø12.16 sphere is 941.455, less the 224.314 cap above the
+- [ ] The slits are 6.2205 mm deep and leave a 6.0 mm floor.
+- [ ] The cut is a slot for its whole depth.
+- [ ] The slit sketch is fully defined — no blue anywhere.
+- [ ] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,
+  -front.png, -section.png)
+- [ ] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 2 - ball and socket` published
+
+### Tab 3 — `hinge`
+
+
+
+
+
+
+
+
+
+
+44 features: 28 geometry from [`../../build-briefs/hinge.md`](../../build-briefs/hinge.md) §
+*Recommended steps*, 16 variables placed by Phase A's walk. Parent record `hinge.features.json`.
+Dropped, because nothing reads either: `#backlash`, `#ear`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `#nose` — variable, title `###name = #value`
+- [x] `blade profile` — newSketch
+- [x] `blade blank` — extrude
+- [x] `#stub` — variable, title `###name = #value`
+- [x] `stub axle outline` — newSketch
+- [x] `#stub_proud` — variable, title `###name = #value`
+- [x] `stub axle` — extrude
+- [x] `#wedges` — variable, title `###name = #value`
+- [x] `#ring_in` — variable, title `###name = #value`
+- [x] `#ring_out` — variable, title `###name = #value`
+- [x] `#wedge_bind` — variable, title `###name = #value`
+- [x] `#wedge_inset` — variable, title `###name = #value`
+- [x] `#wedge_eps` — variable, title `###name = #value`
+- [x] `#wedge_w` — variable, title `###name = #value`
+- [x] `blade wedge outline` — newSketch
+- [x] `blade wedge` — extrude
+- [x] `axis for circular patterns` — mateConnector
+- [x] `blade wedges` — circularPattern
+- [x] `mirror blade` — mirror
+- [x] `blade rod outline` — newSketch
+- [x] `#rod_blade` — variable, title `###name = #value`
+- [x] `blade arm` — extrude
+- [x] `#leaf_root` — variable, title `###name = #value`
+- [x] `#leaf_tip` — variable, title `###name = #value`
+- [x] `#slit_h` — variable, title `###name = #value`
+- [x] `relief slit outline` — newSketch
+- [x] `relief slit` — extrude
+- [x] `fork outline` — newSketch
+- [x] `fork blank` — extrude
+- [x] `fork blade top cut outline` — newSketch
+- [x] `trim fork to arm` — extrude
+- [x] `#bore_d` — variable, title `###name = #value`
+- [x] `axle bore sketch` — newSketch, was `pocket axle sketch`
+- [x] `axle bore on fork` — extrude, was `pocket axle on fork`
+- [x] `fork prong wedge outline` — newSketch, was `ear wedge outline`
+- [x] `fork prong wedge` — extrude, was `ear wedge`
+- [x] `fork prong wedges` — circularPattern, was `ear wedges`
+- [x] `two forks` — mirror
+- [x] `fork arm outline` — newSketch
+- [x] `#rod_fork` — variable, title `###name = #value`
+- [x] `fork arm` — extrude
+- [x] `combine fork parts` — booleanBodies
+- [x] `fork to robot` — mateConnector, was `fork to robot connector`
+- [x] `blade to robot` — mateConnector, was `blade to robot connector`
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 510 faces, face for face
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `blade`, `fork`, read back
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-hinge-iso.png, -right.png,
+  -section.png)
+- [ ] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 3 - hinge` published
+
+### Tab 4 — `body`
+
+
+
+
+
+
+
+
+
+
+33 features: 25 geometry from [`../../build-briefs/torso.md`](../../build-briefs/torso.md) §
+*Recommended steps*, 8 variables placed by Phase A's walk. Parent record `body.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `torso outline` — newSketch
+- [x] `torso block` — extrude
+- [x] `#shoulder_half` — variable, title `###name = #value`
+- [x] `#shoulder_drop` — variable, title `###name = #value`
+- [x] `pivot lines` — newSketch
+- [x] `#yaw` — variable, title `###name = #value`
+- [x] `plane for shoulder` — cPlane
+- [x] `#shoulder_len` — variable, title `###name = #value`
+- [x] `#boss_len` — variable, title `###name = #value`
+- [x] `#boss_d` — variable, title `###name = #value`
+- [x] `#tilt` — variable, title `###name = #value`
+- [x] `torso shoulder profile` — newSketch
+- [x] `shoulder` — revolve
+- [x] `mate for shoulder stud` — mateConnector, was `connector on torso shoulder`
+- [x] `mirror shoulder` — mirror
+- [x] `trim shoulder pattern` — newSketch
+- [x] `trim shoulder cut` — extrude
+- [x] `#hip_half` — variable, title `###name = #value`
+- [x] `hip stud location` — newSketch, was `hip connector location`
+- [x] `mate for hip stud` — mateConnector, was `hip connector on torso`
+- [x] `neck stud location` — newSketch, was `neck connector location`
+- [x] `mate for neck stud` — mateConnector, was `neck connector on torso`
+- [x] `copy ball stud` — importDerived
+- [x] `move neck stud` — transform
+- [x] `copy for hip` — transform
+- [x] `copy for shoulder` — transform
+- [x] `duplicate shoulder and hip` — mirror
+- [x] `add neck to body` — booleanBodies
+- [x] `neck` — mateConnector, was `neck connector`
+- [x] `left shoulder` — mateConnector, was `left shoulder connector`
+- [x] `right shoulder` — mateConnector, was `r shoulder connector`
+- [x] `left hip` — mateConnector, was `l hip connector`
+- [x] `right hip` — mateConnector, was `r hip connector`
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 20 faces, face for face
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `Torso`, read back
+- [ ] Parts (1) at the end.
+- [ ] 72.000 × 48.000 × 96.000 off the bounding box, before the studs are added.
+- [ ] Five balls, each Ø12.000.
+- [ ] Ball centers at their stations, measured off the model.
+- [ ] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.
+- [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
+- [ ] The part is symmetric about the YZ plane.
+- [ ] Thinnest wall anywhere in the part, and where it is.
+- [ ] Every mate connector sits on the geometry it is named for, and open each one to see how it
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,
+  -section.png)
+- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 4 - body` published
+
+### Tab 5 — `head`
+
+
+
+
+
+
+
+
+
+
+26 features: 14 geometry from [`../../build-briefs/head.md`](../../build-briefs/head.md) §
+*Recommended steps*, 12 variables placed by Phase A's walk. Parent record `head.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `#headW` — variable, title `###name = #value`
+- [x] `head profile` — newSketch
+- [x] `#headD` — variable, title `###name = #value`
+- [x] `head body` — extrude
+- [x] `#round` — variable, title `###name = #value`
+- [x] `upper rounds` — fillet
+- [x] `#chamfer` — variable, title `###name = #value`
+- [x] `lower head chamfer` — chamfer
+- [x] `#eyeX` — variable, title `###name = #value`
+- [x] `#eyeUp` — variable, title `###name = #value`
+- [x] `#eyeRx` — variable, title `###name = #value`
+- [x] `#eyeRy` — variable, title `###name = #value`
+- [x] `eye profile` — newSketch
+- [x] `#face` — variable, title `###name = #value`
+- [x] `eye` — extrude
+- [x] `second eye` — mirror
+- [x] `#mouthW` — variable, title `###name = #value`
+- [x] `#mouthH` — variable, title `###name = #value`
+- [x] `#mouthDn` — variable, title `###name = #value`
+- [x] `mouth profile` — newSketch
+- [x] `mouth` — extrude
+- [x] `socket mount point` — mateConnector
+- [x] `get socket` — importDerived
+- [x] `drop socket to neck` — transform
+- [x] `add socket to head` — booleanBodies
+- [x] `head mate` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 47 faces; the 19 that differ are the socket
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `Head`, read back
+- [ ] Parts (1) at the end.
+- [ ] 72.000 across, and 60.000 deep.
+- [ ] The head body is 72.000 tall, so the box above the collar runs z ±36.000 about the head
+- [ ] The socket center is 45.000 below the head center.
+- [ ] The collar stands 10.947 proud, measured as the z-extent from the underside to the rim, and
+- [ ] The rim is four arcs, not a circle — the check that the slits actually opened the mouth.
+- [ ] The slits are 4.947 deep and leave a 6.000 floor.
+- [ ] Socket mouth Ø11.520.
+- [ ] The cavity center sits 2.2205 above the rim plane, not below it.
+- [ ] Shell thickness 1.200 at three places, one of them next to a cut.
+- [ ] The profile is tangent throughout — no crease where an arc meets a line.
+- [ ] Thinnest wall anywhere in the part, and where it is.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,
+  -section.png)
+- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 5 - head` published
+
+### Tab 6 — `foot`
+
+
+
+
+
+
+
+
+
+
+24 features: 11 geometry from [`../../build-briefs/foot.md`](../../build-briefs/foot.md) §
+*Recommended steps*, 13 variables placed by Phase A's walk. Parent record `foot.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `#collar_r` — variable, title `###name = #value`
+- [x] `pedestal outline` — newSketch
+- [x] `#plate` — variable, title `###name = #value`
+- [x] `#collar_down` — variable, title `###name = #value`
+- [x] `#pedestal` — variable, title `###name = #value`
+- [x] `foot pedestal` — extrude
+- [x] `#foot_l` — variable, title `###name = #value`
+- [x] `#foot_w` — variable, title `###name = #value`
+- [x] `#heel_r` — variable, title `###name = #value`
+- [x] `#toe_r` — variable, title `###name = #value`
+- [x] `#heel_y` — variable, title `###name = #value`
+- [x] `foot outline` — newSketch
+- [x] `#ankle_h` — variable, title `###name = #value`
+- [x] `foot` — extrude
+- [x] `#top_round` — variable, title `###name = #value`
+- [x] `top round` — fillet
+- [x] `#rib_w` — variable, title `###name = #value`
+- [x] `groove profile` — newSketch
+- [x] `#rib_d` — variable, title `###name = #value`
+- [x] `sole groove` — extrude
+- [x] `sole ribs` — linearPattern
+- [x] `add socket` — importDerived
+- [x] `combine parts` — booleanBodies
+- [x] `mate to robot` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 60 faces; the 19 that differ are the socket
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `Foot`, read back
+- [ ] Parts (1) at the end.
+- [ ] Length 96.000, width 48.000, off the model's bounding box.
+- [ ] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.
+- [ ] The part is symmetric about its own fore-and-aft centerline.
+- [ ] The outline is tangent throughout — no corner where an arc meets a line.
+- [ ] Socket mouth Ø11.520 and cavity volume 689.06 mm³.
+- [ ] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as
+- [ ] The sole ribs exist and removed material.
+- [ ] The ankle socket has relief slits.
+- [ ] Thinnest wall anywhere in the part, and where it is.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,
+  -section.png)
+- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 6 - foot` published
+
+### Tab 7 — `u limb`
+
+
+
+
+
+
+
+
+
+
+9 features: 9 geometry from [`../../build-briefs/limbs.md`](../../build-briefs/limbs.md) §
+*Recommended steps*, 0 variables placed by Phase A's walk. Parent record `u-limb.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `add socket` — importDerived
+- [x] `mate for fork` — mateConnector
+- [x] `limb section` — newSketch
+- [x] `limb` — extrude
+- [x] `add fork` — importDerived
+- [x] `move fork` — transform
+- [x] `combine parts` — booleanBodies
+- [x] `shoulder end` — mateConnector
+- [x] `elbow end` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 270 faces, face for face
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `upper limb`, read back
+- [ ] Nothing anywhere lies outside Ø24.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-u-limb-iso.png, -right.png,
+  -section.png)
+- [ ] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 7 - u limb` published
+
+### Tab 8 — `l limb`
+
+
+
+
+
+
+
+
+
+
+9 features: 9 geometry from [`../../build-briefs/limbs.md`](../../build-briefs/limbs.md) §
+*Recommended steps*, 0 variables placed by Phase A's walk. Parent record `l-limb.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `add blade` — importDerived
+- [x] `limb section` — newSketch
+- [x] `limb` — extrude
+- [x] `mate for ball stud` — mateConnector
+- [x] `add ball stud` — importDerived
+- [x] `move ball stud` — transform
+- [x] `combine parts` — booleanBodies
+- [x] `elbow end` — mateConnector
+- [x] `wrist end` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 260 faces, face for face
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `lower limb`, read back
+- [ ] Nothing anywhere lies outside Ø24.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-l-limb-iso.png, -right.png,
+  -section.png)
+- [ ] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 8 - l limb` published
+
+### Tab 9 — `gripper`
+
+
+
+
+
+
+
+
+
+
+15 features: 7 geometry from [`../../build-briefs/gripper.md`](../../build-briefs/gripper.md) §
+*Recommended steps*, 8 variables placed by Phase A's walk. Parent record `gripper.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `copy socket` — importDerived
+- [x] `#gripperL` — variable, title `###name = #value`
+- [x] `#clipR` — variable, title `###name = #value`
+- [x] `#barD` — variable, title `###name = #value`
+- [x] `#bore` — variable, title `###name = #value`
+- [x] `#mouth` — variable, title `###name = #value`
+- [x] `#ball` — variable, title `###name = #value`
+- [x] `#wall` — variable, title `###name = #value`
+- [x] `#collarR` — variable, title `###name = #value`
+- [x] `clip profile` — newSketch
+- [x] `clip body` — extrude
+- [x] `plane to cut top of clip` — cPlane
+- [x] `remove top of clip` — splitPart
+- [x] `combine parts` — booleanBodies
+- [x] `mate to robot` — mateConnector
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 32 faces; cut correct, held beside the brief's frame
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [x] parts named as the brief's acceptance checks require  — `Gripper`, read back
+- [ ] Parts (1) at the end.
+- [ ] Clip bore Ø3.300, outer Ø10.000, measured off the model.
+- [ ] Mouth 2.600 across the opening, at its narrowest.
+- [ ] The part is symmetric about its own left-right centerline.
+- [ ] The clip's bore axis is parallel to X, read off the model.
+- [ ] Gripper length 24.000 from wrist center to the lowest point.
+- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and
+- [ ] Thinnest wall anywhere in the part, and where it is.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,
+  -section.png)
+- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 9 - gripper` published
+
+### Tab 10 — `stickbot`
+
+
+
+
+
+
+
+
+
+
+13 features: 13 geometry from [`../../build-briefs/assembly.md`](../../build-briefs/assembly.md) §
+*Recommended steps*, 0 variables placed by Phase A's walk. Parent record `assembly.features.json`.
+
+**Build, in this order. Ring 1 after each: read back, states, rollback bar, and a sketch's entities
+and constraints before the next feature runs.**
+
+- [x] `head to neck` — mate  — resolves
+- [x] `left shoulder` — mate  — resolves
+- [x] `left elbow` — mate  — resolves
+- [ ] `left wrist` — mate
+- [x] `right elbow` — mate  — resolves
+- [ ] `right wrist` — mate
+- [x] `right shoulder` — mate  — resolves
+- [x] `left knee` — mate  — resolves
+- [ ] `left ankle` — mate
+- [x] `left hip` — mate  — resolves
+- [x] `right knee` — mate  — resolves
+- [ ] `right ankle` — mate
+- [x] `right hip` — mate  — resolves
+
+**Ring 2.**
+
+- [ ] Ring 1's feature read, owed: the parameters compared one by one, every
+  `featureStates` entry, and `rollbackIndex` against the count. Deferred while the
+  `/features` GET is refused; the writes answered and the shape diff stands in.
+
+- [ ] `read_shape.py`, and `diff_shape.py` against the parent record
+- [ ] `diff_features.py` against the same, every difference named in the register
+- [ ] parts named as the brief's acceptance checks require
+- [ ] The robot stands 317.00 mm from the sole to the top of the head, in the assembly, measured,
+- [ ] Degrees of freedom, read off Onshape rather than counted by hand.
+- [ ] Every ball joint's actual swing, measured by posing it until it stops.
+- [ ] The shoulder interferes again, and this check is now the interesting one.
+- [ ] Nothing interferes at rest.
+- [ ] The arms reach mid-thigh.
+- [ ] The feet are symmetric at rest, at x ±24.
+- [ ] The feet do not touch, and the gap is 16.
+- [ ] every feature above seen in a view that shows it, with a verdict
+- [ ] the parent rendered in the same views, held beside it (plan-assembly.svg)
+- [ ] no sheet of its own: held beside `plan-parts.svg`
+- [ ] every frame kept opened, and nothing selected in it
+- [ ] construction scored by hand against the seven rulings
+- [ ] version `tab 10 - stickbot` published
+
+### Ring 3 — the robot, when every tab is in
+
+- [ ] the assembled robot seen front, side and isometric against `plan-assembly.svg`
+- [ ] every mate resolves
+- [ ] the figure stands 317.00 mm, sole to the top of the head, measured in the assembly
+- [ ] degrees of freedom read off Onshape, and what it reports written down
+- [ ] every joint moved through its range, and what stops it
+- [ ] nothing interferes at rest, checked with Onshape's interference check
+- [ ] the print files exported, and each part confirmed one solid
+
+### Ring 4 — the record
+
+- [ ] [`register.md`](register.md) says what was built, what each ring caught, and what was done
+- [ ] every ring that was skipped says so, and why
+- [ ] the two gates the declaration claims closed by named evidence: *Model inspected*,
+  *Recovery point*
+- [ ] one named version holding all ten tabs

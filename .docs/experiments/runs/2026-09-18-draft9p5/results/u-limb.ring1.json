@@ -1,0 +1,41 @@
+{
+  "tab": "u limb",
+  "features": [
+    {
+      "i": 5,
+      "name": "move fork",
+      "step": "move fork",
+      "type": "transform",
+      "featureId": "F6nGKC4SouDcSlw_3"
+    },
+    {
+      "i": 6,
+      "name": "combine parts",
+      "step": "combine parts",
+      "type": "booleanBodies",
+      "featureId": "FqTskAj8BSbQmjp_3"
+    },
+    {
+      "i": 7,
+      "name": "shoulder end",
+      "step": "shoulder end",
+      "type": "mateConnector",
+      "featureId": "FyXetiKC2tEQ4xW_1"
+    },
+    {
+      "i": 8,
+      "name": "elbow end",
+      "step": "elbow end",
+      "type": "mateConnector",
+      "featureId": "FM5BPOsWDjRD9J9_1"
+    }
+  ],
+  "solids": 1,
+  "parts": {},
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

@@ -1,0 +1,206 @@
+
+#### Tab `ball and socket` — 14 features (9 geometry, 5 variables)
+- [ ] `#stalk` — assignVariable
+- [ ] `stud profile` — newSketch
+- [ ] `revolve stud` — revolve
+- [ ] `collar profile` — newSketch
+- [ ] `collar blank` — extrude
+- [ ] `cavity from ball` — booleanBodies
+- [ ] `#slit` — assignVariable
+- [ ] `#slit_in` — assignVariable
+- [ ] `#slit_out` — assignVariable
+- [ ] `slit profile` — newSketch
+- [ ] `#slit_d` — assignVariable
+- [ ] `relief slits` — extrude
+- [ ] `stud connect to robot` — mateConnector
+- [ ] `socket connect to robot` — mateConnector
+
+#### Tab `hinge` — 44 features (28 geometry, 16 variables)
+  dropped, read by nothing: #backlash, #ear
+- [ ] `#nose` — assignVariable
+- [ ] `blade profile` — newSketch
+- [ ] `blade blank` — extrude
+- [ ] `#stub` — assignVariable
+- [ ] `stub axle outline` — newSketch
+- [ ] `#stub_proud` — assignVariable
+- [ ] `stub axle` — extrude
+- [ ] `#wedges` — assignVariable
+- [ ] `#ring_in` — assignVariable
+- [ ] `#ring_out` — assignVariable
+- [ ] `#wedge_bind` — assignVariable
+- [ ] `#wedge_inset` — assignVariable
+- [ ] `#wedge_eps` — assignVariable
+- [ ] `#wedge_w` — assignVariable
+- [ ] `blade wedge outline` — newSketch
+- [ ] `blade wedge` — extrude
+- [ ] `axis for circular patterns` — mateConnector
+- [ ] `blade wedges` — circularPattern
+- [ ] `mirror blade` — mirror
+- [ ] `blade rod outline` — newSketch
+- [ ] `#rod_blade` — assignVariable
+- [ ] `blade arm` — extrude
+- [ ] `#leaf_root` — assignVariable
+- [ ] `#leaf_tip` — assignVariable
+- [ ] `#slit_h` — assignVariable
+- [ ] `relief slit outline` — newSketch
+- [ ] `relief slit` — extrude
+- [ ] `fork outline` — newSketch
+- [ ] `fork blank` — extrude
+- [ ] `fork blade top cut outline` — newSketch
+- [ ] `trim fork to arm` — extrude
+- [ ] `#bore_d` — assignVariable
+- [ ] `axle bore sketch` — newSketch  (was `pocket axle sketch`)
+- [ ] `axle bore on fork` — extrude  (was `pocket axle on fork`)
+- [ ] `fork prong wedge outline` — newSketch  (was `ear wedge outline`)
+- [ ] `fork prong wedge` — extrude  (was `ear wedge`)
+- [ ] `fork prong wedges` — circularPattern  (was `ear wedges`)
+- [ ] `two forks` — mirror
+- [ ] `fork arm outline` — newSketch
+- [ ] `#rod_fork` — assignVariable
+- [ ] `fork arm` — extrude
+- [ ] `combine fork parts` — booleanBodies
+- [ ] `fork to robot` — mateConnector  (was `fork to robot connector`)
+- [ ] `blade to robot` — mateConnector  (was `blade to robot connector`)
+
+#### Tab `body` — 33 features (25 geometry, 8 variables)
+- [ ] `torso outline` — newSketch
+- [ ] `torso block` — extrude
+- [ ] `#shoulder_half` — assignVariable
+- [ ] `#shoulder_drop` — assignVariable
+- [ ] `pivot lines` — newSketch
+- [ ] `#yaw` — assignVariable
+- [ ] `plane for shoulder` — cPlane
+- [ ] `#shoulder_len` — assignVariable
+- [ ] `#boss_len` — assignVariable
+- [ ] `#boss_d` — assignVariable
+- [ ] `#tilt` — assignVariable
+- [ ] `torso shoulder profile` — newSketch
+- [ ] `shoulder` — revolve
+- [ ] `mate for shoulder stud` — mateConnector  (was `connector on torso shoulder`)
+- [ ] `mirror shoulder` — mirror
+- [ ] `trim shoulder pattern` — newSketch
+- [ ] `trim shoulder cut` — extrude
+- [ ] `#hip_half` — assignVariable
+- [ ] `hip stud location` — newSketch  (was `hip connector location`)
+- [ ] `mate for hip stud` — mateConnector  (was `hip connector on torso`)
+- [ ] `neck stud location` — newSketch  (was `neck connector location`)
+- [ ] `mate for neck stud` — mateConnector  (was `neck connector on torso`)
+- [ ] `copy ball stud` — importDerived
+- [ ] `move neck stud` — transform
+- [ ] `copy for hip` — transform
+- [ ] `copy for shoulder` — transform
+- [ ] `duplicate shoulder and hip` — mirror
+- [ ] `add neck to body` — booleanBodies
+- [ ] `neck` — mateConnector  (was `neck connector`)
+- [ ] `left shoulder` — mateConnector  (was `left shoulder connector`)
+- [ ] `right shoulder` — mateConnector  (was `r shoulder connector`)
+- [ ] `left hip` — mateConnector  (was `l hip connector`)
+- [ ] `right hip` — mateConnector  (was `r hip connector`)
+
+#### Tab `head` — 26 features (14 geometry, 12 variables)
+- [ ] `#headW` — assignVariable
+- [ ] `head profile` — newSketch
+- [ ] `#headD` — assignVariable
+- [ ] `head body` — extrude
+- [ ] `#round` — assignVariable
+- [ ] `upper rounds` — fillet
+- [ ] `#chamfer` — assignVariable
+- [ ] `lower head chamfer` — chamfer
+- [ ] `#eyeX` — assignVariable
+- [ ] `#eyeUp` — assignVariable
+- [ ] `#eyeRx` — assignVariable
+- [ ] `#eyeRy` — assignVariable
+- [ ] `eye profile` — newSketch
+- [ ] `#face` — assignVariable
+- [ ] `eye` — extrude
+- [ ] `second eye` — mirror
+- [ ] `#mouthW` — assignVariable
+- [ ] `#mouthH` — assignVariable
+- [ ] `#mouthDn` — assignVariable
+- [ ] `mouth profile` — newSketch
+- [ ] `mouth` — extrude
+- [ ] `socket mount point` — mateConnector
+- [ ] `get socket` — importDerived
+- [ ] `drop socket to neck` — transform
+- [ ] `add socket to head` — booleanBodies
+- [ ] `head mate` — mateConnector
+
+#### Tab `foot` — 24 features (11 geometry, 13 variables)
+- [ ] `#collar_r` — assignVariable
+- [ ] `pedestal outline` — newSketch
+- [ ] `#plate` — assignVariable
+- [ ] `#collar_down` — assignVariable
+- [ ] `#pedestal` — assignVariable
+- [ ] `foot pedestal` — extrude
+- [ ] `#foot_l` — assignVariable
+- [ ] `#foot_w` — assignVariable
+- [ ] `#heel_r` — assignVariable
+- [ ] `#toe_r` — assignVariable
+- [ ] `#heel_y` — assignVariable
+- [ ] `foot outline` — newSketch
+- [ ] `#ankle_h` — assignVariable
+- [ ] `foot` — extrude
+- [ ] `#top_round` — assignVariable
+- [ ] `top round` — fillet
+- [ ] `#rib_w` — assignVariable
+- [ ] `groove profile` — newSketch
+- [ ] `#rib_d` — assignVariable
+- [ ] `sole groove` — extrude
+- [ ] `sole ribs` — linearPattern
+- [ ] `add socket` — importDerived
+- [ ] `combine parts` — booleanBodies
+- [ ] `mate to robot` — mateConnector
+
+#### Tab `u limb` — 9 features (9 geometry, 0 variables)
+- [ ] `add socket` — importDerived
+- [ ] `mate for fork` — mateConnector
+- [ ] `limb section` — newSketch
+- [ ] `limb` — extrude
+- [ ] `add fork` — importDerived
+- [ ] `move fork` — transform
+- [ ] `combine parts` — booleanBodies
+- [ ] `shoulder end` — mateConnector
+- [ ] `elbow end` — mateConnector
+
+#### Tab `l limb` — 9 features (9 geometry, 0 variables)
+- [ ] `add blade` — importDerived
+- [ ] `limb section` — newSketch
+- [ ] `limb` — extrude
+- [ ] `mate for ball stud` — mateConnector
+- [ ] `add ball stud` — importDerived
+- [ ] `move ball stud` — transform
+- [ ] `combine parts` — booleanBodies
+- [ ] `elbow end` — mateConnector
+- [ ] `wrist end` — mateConnector
+
+#### Tab `gripper` — 15 features (7 geometry, 8 variables)
+- [ ] `copy socket` — importDerived
+- [ ] `#gripperL` — assignVariable
+- [ ] `#clipR` — assignVariable
+- [ ] `#barD` — assignVariable
+- [ ] `#bore` — assignVariable
+- [ ] `#mouth` — assignVariable
+- [ ] `#ball` — assignVariable
+- [ ] `#wall` — assignVariable
+- [ ] `#collarR` — assignVariable
+- [ ] `clip profile` — newSketch
+- [ ] `clip body` — extrude
+- [ ] `plane to cut top of clip` — cPlane
+- [ ] `remove top of clip` — splitPart
+- [ ] `combine parts` — booleanBodies
+- [ ] `mate to robot` — mateConnector
+
+#### Tab `stickbot` — 13 features (13 geometry, 0 variables)
+- [ ] `head to neck` — mate
+- [ ] `left shoulder` — mate
+- [ ] `left elbow` — mate
+- [ ] `left wrist` — mate
+- [ ] `right elbow` — mate
+- [ ] `right wrist` — mate
+- [ ] `right shoulder` — mate
+- [ ] `left knee` — mate
+- [ ] `left ankle` — mate
+- [ ] `left hip` — mate
+- [ ] `right knee` — mate
+- [ ] `right ankle` — mate
+- [ ] `right hip` — mate

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "FELRnQhESDA3kzn_0",
+    "type": "importDerived",
+    "name": "add socket"
+  },
+  {
+    "id": "FfOzY3GdwJ45OWD_1",
+    "type": "mateConnector",
+    "name": "mate for fork"
+  },
+  {
+    "id": "Fo6NNm8bZ3zpKBx_1",
+    "type": "newSketch",
+    "name": "limb section"
+  },
+  {
+    "id": "Fg68tKJfqzR68wi_1",
+    "type": "extrude",
+    "name": "limb"
+  },
+  {
+    "id": "FsHRNMDSBrOLbj8_2",
+    "type": "importDerived",
+    "name": "add fork"
+  },
+  {
+    "id": "F6nGKC4SouDcSlw_3",
+    "type": "transform",
+    "name": "move fork"
+  },
+  {
+    "id": "FqTskAj8BSbQmjp_3",
+    "type": "booleanBodies",
+    "name": "combine parts"
+  },
+  {
+    "id": "FyXetiKC2tEQ4xW_1",
+    "type": "mateConnector",
+    "name": "shoulder end"
+  },
+  {
+    "id": "FM5BPOsWDjRD9J9_1",
+    "type": "mateConnector",
+    "name": "elbow end"
+  },
+  {
+    "id": "M0MWZ3ZEMsJVBxlsu",
+    "type": null,
+    "name": ""
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "tab": "foot",
+  "features": [
+    {
+      "i": 23,
+      "name": "mate to robot",
+      "step": "mate to robot",
+      "type": "mateConnector",
+      "featureId": "FkivP9OAfmDK7hm_2"
+    }
+  ],
+  "solids": 1,
+  "parts": {
+    "J0D": "Foot"
+  },
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

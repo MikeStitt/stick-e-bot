@@ -1,0 +1,36 @@
+{
+  "tab": "head",
+  "features": [
+    {
+      "i": 23,
+      "name": "drop socket to neck",
+      "step": "drop socket to neck",
+      "type": "transform",
+      "featureId": "F5yOZUcKUm1ognO_2"
+    },
+    {
+      "i": 24,
+      "name": "add socket to head",
+      "step": "add socket to head",
+      "type": "booleanBodies",
+      "featureId": "FyImDuGpB1QTRSf_2"
+    },
+    {
+      "i": 25,
+      "name": "head mate",
+      "step": "head mate",
+      "type": "mateConnector",
+      "featureId": "FHp6SSTfS0y1oax_1"
+    }
+  ],
+  "solids": 1,
+  "parts": {
+    "JHD": "Head"
+  },
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

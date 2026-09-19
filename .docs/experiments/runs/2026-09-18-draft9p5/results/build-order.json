@@ -1,0 +1,1003 @@
+{
+  "ball and socket": {
+    "brief": "ball-and-socket.md",
+    "parent": ".docs/experiments/runs/2026-09-08-draft9p4/reference/ball-and-socket.features.json",
+    "order": [
+      {
+        "parent": "#stalk",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "stud profile",
+        "name": "stud profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "revolve stud",
+        "name": "revolve stud",
+        "type": "revolve"
+      },
+      {
+        "parent": "collar profile",
+        "name": "collar profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "collar blank",
+        "name": "collar blank",
+        "type": "extrude"
+      },
+      {
+        "parent": "cavity from ball",
+        "name": "cavity from ball",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "#slit",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#slit_in",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#slit_out",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "slit profile",
+        "name": "slit profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#slit_d",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "relief slits",
+        "name": "relief slits",
+        "type": "extrude"
+      },
+      {
+        "parent": "stud connect to robot",
+        "name": "stud connect to robot",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "socket connect to robot",
+        "name": "socket connect to robot",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "hinge": {
+    "brief": "hinge.md",
+    "parent": ".docs/experiments/runs/2026-09-08-draft9p4/reference/hinge.features.json",
+    "order": [
+      {
+        "parent": "#nose",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "blade profile",
+        "name": "blade profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "blade blank",
+        "name": "blade blank",
+        "type": "extrude"
+      },
+      {
+        "parent": "#stub",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "stub axle outline",
+        "name": "stub axle outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#stub_proud",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "stub axle",
+        "name": "stub axle",
+        "type": "extrude"
+      },
+      {
+        "parent": "#wedges",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#ring_in",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#ring_out",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#wedge_bind",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#wedge_inset",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#wedge_eps",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#wedge_w",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "blade wedge outline",
+        "name": "blade wedge outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "blade wedge",
+        "name": "blade wedge",
+        "type": "extrude"
+      },
+      {
+        "parent": "axis for circular patterns",
+        "name": "axis for circular patterns",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "blade wedges",
+        "name": "blade wedges",
+        "type": "circularPattern"
+      },
+      {
+        "parent": "mirror blade",
+        "name": "mirror blade",
+        "type": "mirror"
+      },
+      {
+        "parent": "blade rod outline",
+        "name": "blade rod outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#rod_blade",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "blade arm",
+        "name": "blade arm",
+        "type": "extrude"
+      },
+      {
+        "parent": "#leaf_root",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#leaf_tip",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#slit_h",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "relief slit outline",
+        "name": "relief slit outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "relief slit",
+        "name": "relief slit",
+        "type": "extrude"
+      },
+      {
+        "parent": "fork outline",
+        "name": "fork outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "fork blank",
+        "name": "fork blank",
+        "type": "extrude"
+      },
+      {
+        "parent": "fork blade top cut outline",
+        "name": "fork blade top cut outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "trim fork to arm",
+        "name": "trim fork to arm",
+        "type": "extrude"
+      },
+      {
+        "parent": "#bore_d",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "pocket axle sketch",
+        "name": "axle bore sketch",
+        "type": "newSketch"
+      },
+      {
+        "parent": "pocket axle on fork",
+        "name": "axle bore on fork",
+        "type": "extrude"
+      },
+      {
+        "parent": "ear wedge outline",
+        "name": "fork prong wedge outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "ear wedge",
+        "name": "fork prong wedge",
+        "type": "extrude"
+      },
+      {
+        "parent": "ear wedges",
+        "name": "fork prong wedges",
+        "type": "circularPattern"
+      },
+      {
+        "parent": "two forks",
+        "name": "two forks",
+        "type": "mirror"
+      },
+      {
+        "parent": "fork arm outline",
+        "name": "fork arm outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#rod_fork",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "fork arm",
+        "name": "fork arm",
+        "type": "extrude"
+      },
+      {
+        "parent": "combine fork parts",
+        "name": "combine fork parts",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "fork to robot connector",
+        "name": "fork to robot",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "blade to robot connector",
+        "name": "blade to robot",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": [
+      "#ear",
+      "#backlash"
+    ]
+  },
+  "body": {
+    "brief": "torso.md",
+    "parent": ".docs/experiments/runs/2026-08-29-draft9p3/reference/body.features.json",
+    "order": [
+      {
+        "parent": "torso outline",
+        "name": "torso outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "torso block",
+        "name": "torso block",
+        "type": "extrude"
+      },
+      {
+        "parent": "#shoulder_half",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#shoulder_drop",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "pivot lines",
+        "name": "pivot lines",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#yaw",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "plane for shoulder",
+        "name": "plane for shoulder",
+        "type": "cPlane"
+      },
+      {
+        "parent": "#shoulder_len",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#boss_len",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#boss_d",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#tilt",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "torso shoulder profile",
+        "name": "torso shoulder profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "shoulder",
+        "name": "shoulder",
+        "type": "revolve"
+      },
+      {
+        "parent": "connector on torso shoulder",
+        "name": "mate for shoulder stud",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "mirror shoulder",
+        "name": "mirror shoulder",
+        "type": "mirror"
+      },
+      {
+        "parent": "trim shoulder pattern",
+        "name": "trim shoulder pattern",
+        "type": "newSketch"
+      },
+      {
+        "parent": "trim shoulder cut",
+        "name": "trim shoulder cut",
+        "type": "extrude"
+      },
+      {
+        "parent": "#hip_half",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "hip connector location",
+        "name": "hip stud location",
+        "type": "newSketch"
+      },
+      {
+        "parent": "hip connector on torso",
+        "name": "mate for hip stud",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "neck connector location",
+        "name": "neck stud location",
+        "type": "newSketch"
+      },
+      {
+        "parent": "neck connector on torso",
+        "name": "mate for neck stud",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "copy ball stud",
+        "name": "copy ball stud",
+        "type": "importDerived"
+      },
+      {
+        "parent": "move neck stud",
+        "name": "move neck stud",
+        "type": "transform"
+      },
+      {
+        "parent": "copy for hip",
+        "name": "copy for hip",
+        "type": "transform"
+      },
+      {
+        "parent": "copy for shoulder",
+        "name": "copy for shoulder",
+        "type": "transform"
+      },
+      {
+        "parent": "duplicate shoulder and hip",
+        "name": "duplicate shoulder and hip",
+        "type": "mirror"
+      },
+      {
+        "parent": "add neck to body",
+        "name": "add neck to body",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "neck connector",
+        "name": "neck",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "left shoulder connector",
+        "name": "left shoulder",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "r shoulder connector",
+        "name": "right shoulder",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "l hip connector",
+        "name": "left hip",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "r hip connector",
+        "name": "right hip",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "head": {
+    "brief": "head.md",
+    "parent": ".docs/experiments/runs/2026-08-29-draft9p3/reference/head.features.json",
+    "order": [
+      {
+        "parent": "#headW",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "head profile",
+        "name": "head profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#headD",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "head body",
+        "name": "head body",
+        "type": "extrude"
+      },
+      {
+        "parent": "#round",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "upper rounds",
+        "name": "upper rounds",
+        "type": "fillet"
+      },
+      {
+        "parent": "#chamfer",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "lower head chamfer",
+        "name": "lower head chamfer",
+        "type": "chamfer"
+      },
+      {
+        "parent": "#eyeX",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#eyeUp",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#eyeRx",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#eyeRy",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "eye profile",
+        "name": "eye profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#face",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "eye",
+        "name": "eye",
+        "type": "extrude"
+      },
+      {
+        "parent": "second eye",
+        "name": "second eye",
+        "type": "mirror"
+      },
+      {
+        "parent": "#mouthW",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#mouthH",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#mouthDn",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "mouth profile",
+        "name": "mouth profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "mouth",
+        "name": "mouth",
+        "type": "extrude"
+      },
+      {
+        "parent": "socket mount point",
+        "name": "socket mount point",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "get socket",
+        "name": "get socket",
+        "type": "importDerived"
+      },
+      {
+        "parent": "drop socket to neck",
+        "name": "drop socket to neck",
+        "type": "transform"
+      },
+      {
+        "parent": "add socket to head",
+        "name": "add socket to head",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "head mate",
+        "name": "head mate",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "foot": {
+    "brief": "foot.md",
+    "parent": ".docs/experiments/runs/2026-08-29-draft9p3/reference/foot.features.json",
+    "order": [
+      {
+        "parent": "#collar_r",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "pedestal outline",
+        "name": "pedestal outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#plate",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#collar_down",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#pedestal",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "foot pedestal",
+        "name": "foot pedestal",
+        "type": "extrude"
+      },
+      {
+        "parent": "#foot_l",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#foot_w",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#heel_r",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#toe_r",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#heel_y",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "foot outline",
+        "name": "foot outline",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#ankle_h",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "foot",
+        "name": "foot",
+        "type": "extrude"
+      },
+      {
+        "parent": "#top_round",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "top round",
+        "name": "top round",
+        "type": "fillet"
+      },
+      {
+        "parent": "#rib_w",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "groove profile",
+        "name": "groove profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "#rib_d",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "sole groove",
+        "name": "sole groove",
+        "type": "extrude"
+      },
+      {
+        "parent": "sole ribs",
+        "name": "sole ribs",
+        "type": "linearPattern"
+      },
+      {
+        "parent": "add socket",
+        "name": "add socket",
+        "type": "importDerived"
+      },
+      {
+        "parent": "combine parts",
+        "name": "combine parts",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "mate to robot",
+        "name": "mate to robot",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "u limb": {
+    "brief": "limbs.md",
+    "parent": ".docs/experiments/runs/2026-09-08-draft9p4/reference/u-limb.features.json",
+    "order": [
+      {
+        "parent": "add socket",
+        "name": "add socket",
+        "type": "importDerived"
+      },
+      {
+        "parent": "mate for fork",
+        "name": "mate for fork",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "limb section",
+        "name": "limb section",
+        "type": "newSketch"
+      },
+      {
+        "parent": "limb",
+        "name": "limb",
+        "type": "extrude"
+      },
+      {
+        "parent": "add fork",
+        "name": "add fork",
+        "type": "importDerived"
+      },
+      {
+        "parent": "move fork",
+        "name": "move fork",
+        "type": "transform"
+      },
+      {
+        "parent": "combine parts",
+        "name": "combine parts",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "shoulder end",
+        "name": "shoulder end",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "elbow end",
+        "name": "elbow end",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "l limb": {
+    "brief": "limbs.md",
+    "parent": ".docs/experiments/runs/2026-09-08-draft9p4/reference/l-limb.features.json",
+    "order": [
+      {
+        "parent": "add blade",
+        "name": "add blade",
+        "type": "importDerived"
+      },
+      {
+        "parent": "limb section",
+        "name": "limb section",
+        "type": "newSketch"
+      },
+      {
+        "parent": "limb",
+        "name": "limb",
+        "type": "extrude"
+      },
+      {
+        "parent": "mate for ball stud",
+        "name": "mate for ball stud",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "add ball stud",
+        "name": "add ball stud",
+        "type": "importDerived"
+      },
+      {
+        "parent": "move ball stud",
+        "name": "move ball stud",
+        "type": "transform"
+      },
+      {
+        "parent": "combine parts",
+        "name": "combine parts",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "elbow end",
+        "name": "elbow end",
+        "type": "mateConnector"
+      },
+      {
+        "parent": "wrist end",
+        "name": "wrist end",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "gripper": {
+    "brief": "gripper.md",
+    "parent": ".docs/experiments/runs/2026-08-29-draft9p3/reference/gripper.features.json",
+    "order": [
+      {
+        "parent": "copy socket",
+        "name": "copy socket",
+        "type": "importDerived"
+      },
+      {
+        "parent": "#gripperL",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#clipR",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#barD",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#bore",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#mouth",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#ball",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#wall",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "#collarR",
+        "name": null,
+        "type": "assignVariable"
+      },
+      {
+        "parent": "clip profile",
+        "name": "clip profile",
+        "type": "newSketch"
+      },
+      {
+        "parent": "clip body",
+        "name": "clip body",
+        "type": "extrude"
+      },
+      {
+        "parent": "plane to cut top of clip",
+        "name": "plane to cut top of clip",
+        "type": "cPlane"
+      },
+      {
+        "parent": "remove top of clip",
+        "name": "remove top of clip",
+        "type": "splitPart"
+      },
+      {
+        "parent": "combine parts",
+        "name": "combine parts",
+        "type": "booleanBodies"
+      },
+      {
+        "parent": "mate to robot",
+        "name": "mate to robot",
+        "type": "mateConnector"
+      }
+    ],
+    "dropped_variables": []
+  },
+  "stickbot": {
+    "brief": "assembly.md",
+    "parent": ".docs/experiments/runs/2026-08-29-draft9p3/reference/assembly.features.json",
+    "order": [
+      {
+        "parent": "head to neck",
+        "name": "head to neck",
+        "type": "mate"
+      },
+      {
+        "parent": "left shoulder",
+        "name": "left shoulder",
+        "type": "mate"
+      },
+      {
+        "parent": "left elbow",
+        "name": "left elbow",
+        "type": "mate"
+      },
+      {
+        "parent": "left wrist",
+        "name": "left wrist",
+        "type": "mate"
+      },
+      {
+        "parent": "right elbow",
+        "name": "right elbow",
+        "type": "mate"
+      },
+      {
+        "parent": "right wrist",
+        "name": "right wrist",
+        "type": "mate"
+      },
+      {
+        "parent": "right shoulder",
+        "name": "right shoulder",
+        "type": "mate"
+      },
+      {
+        "parent": "left knee",
+        "name": "left knee",
+        "type": "mate"
+      },
+      {
+        "parent": "left ankle",
+        "name": "left ankle",
+        "type": "mate"
+      },
+      {
+        "parent": "left hip",
+        "name": "left hip",
+        "type": "mate"
+      },
+      {
+        "parent": "right knee",
+        "name": "right knee",
+        "type": "mate"
+      },
+      {
+        "parent": "right ankle",
+        "name": "right ankle",
+        "type": "mate"
+      },
+      {
+        "parent": "right hip",
+        "name": "right hip",
+        "type": "mate"
+      }
+    ],
+    "dropped_variables": []
+  }
+}

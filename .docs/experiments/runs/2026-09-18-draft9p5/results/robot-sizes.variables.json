@@ -1,0 +1,163 @@
+[
+  {
+    "type": "LENGTH",
+    "name": "torsoH",
+    "value": null,
+    "expression": "96 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "torsoW",
+    "value": null,
+    "expression": "72 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "torsoD",
+    "value": null,
+    "expression": "48 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "limbCenter",
+    "value": null,
+    "expression": "48 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "wall",
+    "value": null,
+    "expression": "#torsoH * 3 / 160",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "ball",
+    "value": null,
+    "expression": "#torsoH / 8",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "stand",
+    "value": null,
+    "expression": "#ball * 5 / 6",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "collar",
+    "value": null,
+    "expression": "#stand",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "fit",
+    "value": null,
+    "expression": "0.08 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "ballLoss",
+    "value": null,
+    "expression": "0.10 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "t_print",
+    "value": null,
+    "expression": "0.10 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "grip",
+    "value": null,
+    "expression": "sqrt((#ball / 2 + #fit) ^ 2 - (0.48 * #ball - #ballLoss) ^ 2)",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "limbD",
+    "value": null,
+    "expression": "#torsoH / 4",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "blade",
+    "value": null,
+    "expression": "10 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "wedge_h",
+    "value": null,
+    "expression": "0.75 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "wedge_c",
+    "value": null,
+    "expression": "0.15 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "gap",
+    "value": null,
+    "expression": "#wedge_h + #wedge_c",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "seat",
+    "value": null,
+    "expression": "#blade + 2 * #gap",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "blade_out",
+    "value": null,
+    "expression": "32 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "slot_deep",
+    "value": null,
+    "expression": "#blade_out + 1 mm",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "tab_free",
+    "value": null,
+    "expression": "#blade_out - #limbD / 2",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "ear_free",
+    "value": null,
+    "expression": "#slot_deep - #limbD / 2",
+    "description": ""
+  },
+  {
+    "type": "LENGTH",
+    "name": "flat",
+    "value": null,
+    "expression": "sqrt((#limbD / 2) ^ 2 - (#seat / 2) ^ 2)",
+    "description": ""
+  }
+]

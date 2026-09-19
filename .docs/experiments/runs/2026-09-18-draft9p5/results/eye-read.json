@@ -1,0 +1,33 @@
+{
+  "document": "stickbot-draft9p4-check",
+  "did": "86f40935a709a0748cdbb199",
+  "wid": "075a86f5b8f922210c0a7317",
+  "element": "254cd749a0c6c642d288b8cc",
+  "sketches": [
+    "eye profile",
+    "mouth profile",
+    "head profile"
+  ],
+  "eye_profile": [
+    {
+      "id": "W7QpEuwBuld7",
+      "type": "ellipse",
+      "center": [
+        12.0,
+        8.0
+      ],
+      "majorRadius": 7.99182,
+      "minorRadius": 4.06602,
+      "direction": [
+        1000.0,
+        0.0
+      ]
+    }
+  ],
+  "eye_variables": {
+    "eyeX": "#headW / 6",
+    "eyeUp": "#headW / 9",
+    "eyeRx": "#headW / 9",
+    "eyeRy": "#headW / 18"
+  }
+}

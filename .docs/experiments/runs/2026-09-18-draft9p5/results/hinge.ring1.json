@@ -1,0 +1,331 @@
+{
+  "tab": "hinge",
+  "features": [
+    {
+      "i": 0,
+      "name": "###name = #value",
+      "step": "#nose",
+      "type": "assignVariable",
+      "featureId": "FLafhZ06MG9jK2e_0"
+    },
+    {
+      "i": 1,
+      "name": "blade profile",
+      "step": "blade profile",
+      "type": "newSketch",
+      "featureId": "FGvzasijUkKZ498_0",
+      "entities": 4
+    },
+    {
+      "i": 2,
+      "name": "blade blank",
+      "step": "blade blank",
+      "type": "extrude",
+      "featureId": "FDPTz8KbjUI48cJ_0"
+    },
+    {
+      "i": 3,
+      "name": "###name = #value",
+      "step": "#stub",
+      "type": "assignVariable",
+      "featureId": "FV3aONet2qClCE9_1"
+    },
+    {
+      "i": 4,
+      "name": "stub axle outline",
+      "step": "stub axle outline",
+      "type": "newSketch",
+      "featureId": "FoBUnkIblwuiWcB_1",
+      "entities": 1
+    },
+    {
+      "i": 5,
+      "name": "###name = #value",
+      "step": "#stub_proud",
+      "type": "assignVariable",
+      "featureId": "F0wCr4xQFZvxGLH_1"
+    },
+    {
+      "i": 6,
+      "name": "stub axle",
+      "step": "stub axle",
+      "type": "extrude",
+      "featureId": "Fcdr424k5a6Exoc_1"
+    },
+    {
+      "i": 7,
+      "name": "###name = #value",
+      "step": "#wedges",
+      "type": "assignVariable",
+      "featureId": "FbWyyvShvDyZpZf_1"
+    },
+    {
+      "i": 8,
+      "name": "###name = #value",
+      "step": "#ring_in",
+      "type": "assignVariable",
+      "featureId": "F1nVQstwrGJznxU_1"
+    },
+    {
+      "i": 9,
+      "name": "###name = #value",
+      "step": "#ring_out",
+      "type": "assignVariable",
+      "featureId": "FNiGLYBpi7KyW3a_1"
+    },
+    {
+      "i": 10,
+      "name": "###name = #value",
+      "step": "#wedge_bind",
+      "type": "assignVariable",
+      "featureId": "FU17vqlv8anYBKf_1"
+    },
+    {
+      "i": 11,
+      "name": "###name = #value",
+      "step": "#wedge_inset",
+      "type": "assignVariable",
+      "featureId": "F06JztVVCiEeZpK_1"
+    },
+    {
+      "i": 12,
+      "name": "###name = #value",
+      "step": "#wedge_eps",
+      "type": "assignVariable",
+      "featureId": "F3bqSprYf1ARt6S_1"
+    },
+    {
+      "i": 13,
+      "name": "###name = #value",
+      "step": "#wedge_w",
+      "type": "assignVariable",
+      "featureId": "FHUOkSshUBARIMw_1"
+    },
+    {
+      "i": 14,
+      "name": "blade wedge outline",
+      "step": "blade wedge outline",
+      "type": "newSketch",
+      "featureId": "FFOhlI79AgK89d8_1",
+      "entities": 5
+    },
+    {
+      "i": 15,
+      "name": "blade wedge",
+      "step": "blade wedge",
+      "type": "extrude",
+      "featureId": "F7uWmA5tz7Yzspw_1"
+    },
+    {
+      "i": 16,
+      "name": "axis for circular patterns",
+      "step": "axis for circular patterns",
+      "type": "mateConnector",
+      "featureId": "Ftbu0rw2p6wMc4p_1"
+    },
+    {
+      "i": 17,
+      "name": "blade wedges",
+      "step": "blade wedges",
+      "type": "circularPattern",
+      "featureId": "FbarO6eB7FUTEeP_1"
+    },
+    {
+      "i": 18,
+      "name": "mirror blade",
+      "step": "mirror blade",
+      "type": "mirror",
+      "featureId": "FPbUf8rZ8uHshIE_1"
+    },
+    {
+      "i": 19,
+      "name": "blade rod outline",
+      "step": "blade rod outline",
+      "type": "newSketch",
+      "featureId": "FiVv06gxj9CIJnH_1",
+      "entities": 4
+    },
+    {
+      "i": 20,
+      "name": "###name = #value",
+      "step": "#rod_blade",
+      "type": "assignVariable",
+      "featureId": "FgH86gsvVsu4aM3_1"
+    },
+    {
+      "i": 21,
+      "name": "blade arm",
+      "step": "blade arm",
+      "type": "extrude",
+      "featureId": "F3dSU8JIVsLAMqu_1"
+    },
+    {
+      "i": 22,
+      "name": "###name = #value",
+      "step": "#leaf_root",
+      "type": "assignVariable",
+      "featureId": "F9031Ip7kmCUI4p_1"
+    },
+    {
+      "i": 23,
+      "name": "###name = #value",
+      "step": "#leaf_tip",
+      "type": "assignVariable",
+      "featureId": "Fe20jnE3PLeQ8n8_1"
+    },
+    {
+      "i": 24,
+      "name": "###name = #value",
+      "step": "#slit_h",
+      "type": "assignVariable",
+      "featureId": "FSZljrezM5Urw3g_1"
+    },
+    {
+      "i": 25,
+      "name": "relief slit outline",
+      "step": "relief slit outline",
+      "type": "newSketch",
+      "featureId": "FzXygp5mWZYQzGb_1",
+      "entities": 5
+    },
+    {
+      "i": 26,
+      "name": "relief slit",
+      "step": "relief slit",
+      "type": "extrude",
+      "featureId": "FFmax0yLrqBohxS_1"
+    },
+    {
+      "i": 27,
+      "name": "fork outline",
+      "step": "fork outline",
+      "type": "newSketch",
+      "featureId": "F99PfFr4GpkwFZR_1",
+      "entities": 2
+    },
+    {
+      "i": 28,
+      "name": "fork blank",
+      "step": "fork blank",
+      "type": "extrude",
+      "featureId": "Fs6yfQQu6k9DwgQ_1"
+    },
+    {
+      "i": 29,
+      "name": "fork blade top cut outline",
+      "step": "fork blade top cut outline",
+      "type": "newSketch",
+      "featureId": "FWv5Tg3m4QeaSQg_2",
+      "entities": 5
+    },
+    {
+      "i": 30,
+      "name": "trim fork to arm",
+      "step": "trim fork to arm",
+      "type": "extrude",
+      "featureId": "FJAyOW0LfR2T3LG_2"
+    },
+    {
+      "i": 31,
+      "name": "###name = #value",
+      "step": "#bore_d",
+      "type": "assignVariable",
+      "featureId": "FJmHgdrnQCVX9zw_2"
+    },
+    {
+      "i": 32,
+      "name": "axle bore sketch",
+      "step": "axle bore sketch",
+      "type": "newSketch",
+      "featureId": "F07KZ36HfyKzS66_2",
+      "entities": 1
+    },
+    {
+      "i": 33,
+      "name": "axle bore on fork",
+      "step": "axle bore on fork",
+      "type": "extrude",
+      "featureId": "FVJuxDryFLpBoK9_2"
+    },
+    {
+      "i": 34,
+      "name": "fork prong wedge outline",
+      "step": "fork prong wedge outline",
+      "type": "newSketch",
+      "featureId": "Fn3FtZqZD8Ws2aZ_2",
+      "entities": 5
+    },
+    {
+      "i": 35,
+      "name": "fork prong wedge",
+      "step": "fork prong wedge",
+      "type": "extrude",
+      "featureId": "FxCKVajhYHmwcjO_2"
+    },
+    {
+      "i": 36,
+      "name": "fork prong wedges",
+      "step": "fork prong wedges",
+      "type": "circularPattern",
+      "featureId": "FUwalt8CzfQ7Hxb_2"
+    },
+    {
+      "i": 37,
+      "name": "two forks",
+      "step": "two forks",
+      "type": "mirror",
+      "featureId": "F1dYHeKsKXbdw03_2"
+    },
+    {
+      "i": 38,
+      "name": "fork arm outline",
+      "step": "fork arm outline",
+      "type": "newSketch",
+      "featureId": "FZKBbtMZkMPcOd1_2",
+      "entities": 4
+    },
+    {
+      "i": 39,
+      "name": "###name = #value",
+      "step": "#rod_fork",
+      "type": "assignVariable",
+      "featureId": "FSvit8FzmOhohtv_2"
+    },
+    {
+      "i": 40,
+      "name": "fork arm",
+      "step": "fork arm",
+      "type": "extrude",
+      "featureId": "FkiO6IcPphhLPA0_2"
+    },
+    {
+      "i": 41,
+      "name": "combine fork parts",
+      "step": "combine fork parts",
+      "type": "booleanBodies",
+      "featureId": "FVGYrHCSZLrnRav_3"
+    },
+    {
+      "i": 42,
+      "name": "fork to robot",
+      "step": "fork to robot",
+      "type": "mateConnector",
+      "featureId": "FICm4wLWQDk6LbW_2"
+    },
+    {
+      "i": 43,
+      "name": "blade to robot",
+      "step": "blade to robot",
+      "type": "mateConnector",
+      "featureId": "FvTV07al4MUlyPy_2"
+    }
+  ],
+  "solids": 2,
+  "parts": {},
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

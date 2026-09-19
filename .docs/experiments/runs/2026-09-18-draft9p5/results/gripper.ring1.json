@@ -1,0 +1,22 @@
+{
+  "tab": "gripper",
+  "features": [
+    {
+      "i": 14,
+      "name": "mate to robot",
+      "step": "mate to robot",
+      "type": "mateConnector",
+      "featureId": "F52Pv3f9SMgRdv3_2"
+    }
+  ],
+  "solids": 1,
+  "parts": {
+    "JgD": "Gripper"
+  },
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

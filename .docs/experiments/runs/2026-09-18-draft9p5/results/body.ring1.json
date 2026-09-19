@@ -1,0 +1,83 @@
+{
+  "tab": "body",
+  "features": [
+    {
+      "i": 23,
+      "name": "move neck stud",
+      "step": "move neck stud",
+      "type": "transform",
+      "featureId": "FhHDE5cgvO6u0qi_2"
+    },
+    {
+      "i": 24,
+      "name": "copy for hip",
+      "step": "copy for hip",
+      "type": "transform",
+      "featureId": "Fl1BVjmdrrffN0K_2"
+    },
+    {
+      "i": 25,
+      "name": "copy for shoulder",
+      "step": "copy for shoulder",
+      "type": "transform",
+      "featureId": "FCybTx1IpcAHm2V_2"
+    },
+    {
+      "i": 26,
+      "name": "duplicate shoulder and hip",
+      "step": "duplicate shoulder and hip",
+      "type": "mirror",
+      "featureId": "F9oUS0alzB8q2BD_2"
+    },
+    {
+      "i": 27,
+      "name": "add neck to body",
+      "step": "add neck to body",
+      "type": "booleanBodies",
+      "featureId": "FGbjkBv5bthf2BK_2"
+    },
+    {
+      "i": 28,
+      "name": "neck",
+      "step": "neck",
+      "type": "mateConnector",
+      "featureId": "FkvGe7uFmMvBaky_1"
+    },
+    {
+      "i": 29,
+      "name": "left shoulder",
+      "step": "left shoulder",
+      "type": "mateConnector",
+      "featureId": "FbR3fbW9WptBQo4_1"
+    },
+    {
+      "i": 30,
+      "name": "right shoulder",
+      "step": "right shoulder",
+      "type": "mateConnector",
+      "featureId": "Fh59LQqEBGVOQVm_1"
+    },
+    {
+      "i": 31,
+      "name": "left hip",
+      "step": "left hip",
+      "type": "mateConnector",
+      "featureId": "FAJR2AT0RqLlwbU_1"
+    },
+    {
+      "i": 32,
+      "name": "right hip",
+      "step": "right hip",
+      "type": "mateConnector",
+      "featureId": "FFL0PTYr2lCY6OE_1"
+    }
+  ],
+  "solids": 1,
+  "parts": {},
+  "ring1_feature_read": false,
+  "owed": [
+    "parameters read back",
+    "featureStates",
+    "rollbackIndex"
+  ]
+}

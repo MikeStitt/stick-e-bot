@@ -1,0 +1,99 @@
+{
+  "tab": "ball and socket",
+  "version": null,
+  "checks": [
+    {
+      "what": "ball diameter",
+      "saw": 12.0,
+      "want": 12,
+      "unit": "mm",
+      "ok": true
+    },
+    {
+      "what": "ball unchanged by the subtract: its sphere is one face",
+      "saw": 1.0,
+      "want": 1.0,
+      "unit": "faces",
+      "ok": true
+    },
+    {
+      "what": "stalk diameter",
+      "saw": 6.000000000000001,
+      "want": 6,
+      "unit": "mm",
+      "ok": true
+    },
+    {
+      "what": "stalk top face area",
+      "saw": 28.27433388230815,
+      "want": 28.274333882308138,
+      "unit": "mm^2",
+      "ok": true
+    },
+    {
+      "what": "collar diameter",
+      "saw": 15.600000000000001,
+      "want": 15.6,
+      "unit": "mm",
+      "ok": true
+    },
+    {
+      "what": "socket root face area",
+      "saw": 191.13449704440302,
+      "want": 191.134497044403,
+      "unit": "mm^2",
+      "ok": true
+    },
+    {
+      "what": "cavity spherical face radius",
+      "saw": 6.08,
+      "want": 6.08,
+      "unit": "mm",
+      "ok": true
+    },
+    {
+      "what": "mouth diameter, cavity sphere across the rim plane",
+      "saw": 11.32,
+      "want": 11.32,
+      "unit": "mm",
+      "ok": true
+    },
+    {
+      "what": "slit walls",
+      "saw": 8.0,
+      "want": 8.0,
+      "unit": "faces",
+      "ok": true
+    },
+    {
+      "what": "slit ends",
+      "saw": 4.0,
+      "want": 4.0,
+      "unit": "faces",
+      "ok": true
+    },
+    {
+      "what": "`Ball stud` volume",
+      "saw": null,
+      "want": 1040.60427455397,
+      "unit": "mm^3",
+      "ok": false
+    },
+    {
+      "what": "`Socket body` volume",
+      "saw": null,
+      "want": null,
+      "unit": "mm^3",
+      "ok": null
+    }
+  ],
+  "stud_body": "JHD",
+  "socket_body": "JKD",
+  "volumes": {
+    "-all-": 2564.8505532551394
+  },
+  "face_counts": {
+    "JKD": 19,
+    "JHD": 3
+  }
+}
