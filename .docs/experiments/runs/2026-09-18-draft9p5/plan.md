@@ -934,7 +934,7 @@ and constraints before the next feature runs.**
 - [ ] degrees of freedom read off Onshape, and what it reports written down
 - [ ] every joint moved through its range, and what stops it
 - [ ] nothing interferes at rest, checked with Onshape's interference check
-- [ ] the print files exported — each part is confirmed one solid, the export is not done
+- [x] the print files exported — all six as binary STL, each well formed, and each part already measured as one solid
 
 ### Ring 4 — the record
 

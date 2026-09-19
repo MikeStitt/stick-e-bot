@@ -1116,3 +1116,30 @@ socket — and it has not been measured here.
 
 **The hinge's range is its 15° step**, which is measured: 96 cone faces on each body, four to a
 wedge, twenty-four wedges, 360/24.
+
+## The print files export, and each one is a whole part
+
+**All six printed parts export as binary STL**, and each file is well formed: its header's triangle
+count times fifty, plus the eighty-four byte preamble, is exactly the file's length.
+
+| Part | Triangles | Bytes |
+| ---- | --------: | ----: |
+| `Torso` | 23038 | 1151984 |
+| `Head` | 7682 | 384184 |
+| `Foot` | 6822 | 341184 |
+| `lower limb` | 6770 | 338584 |
+| `upper limb` | 6306 | 315384 |
+| `Gripper` | 4110 | 205584 |
+
+**The export needed a client the rest of this draft does not use.** `/stl` answers with a redirect
+to another host, and every other call here is a `fetch` from inside the Onshape page, which is
+same-origin: it dies with *Failed to fetch* and says nothing about why. Playwright's own request
+context carries the browser's cookies, follows the redirect and is not bound by CORS, so it fetches
+what the page cannot.
+
+**Each part being one solid was already measured** on the tabs themselves — one body and one part
+each — so what the export adds is that the file comes out and comes out whole.
+
+**The files are not committed.** The *Capture is out* gate refuses a tracked binary outside
+`instructions/*/source/images/`, and a print file is not a figure; they are written to the session
+scratchpad, which is where a thing built to find something out belongs.
