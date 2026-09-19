@@ -1,0 +1,252 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "FLafhZ06MG9jK2e_0",
+    "type": "assignVariable",
+    "name": "#nose = 12 mm"
+  },
+  {
+    "id": "FGvzasijUkKZ498_0",
+    "type": "newSketch",
+    "name": "blade profile"
+  },
+  {
+    "id": "FDPTz8KbjUI48cJ_0",
+    "type": "extrude",
+    "name": "blade blank"
+  },
+  {
+    "id": "FV3aONet2qClCE9_1",
+    "type": "assignVariable",
+    "name": "#stub = 4 mm"
+  },
+  {
+    "id": "FoBUnkIblwuiWcB_1",
+    "type": "newSketch",
+    "name": "stub axle outline"
+  },
+  {
+    "id": "F0wCr4xQFZvxGLH_1",
+    "type": "assignVariable",
+    "name": "#stub_proud = 3 mm"
+  },
+  {
+    "id": "Fcdr424k5a6Exoc_1",
+    "type": "extrude",
+    "name": "stub axle"
+  },
+  {
+    "id": "FbWyyvShvDyZpZf_1",
+    "type": "assignVariable",
+    "name": "#wedges = 24"
+  },
+  {
+    "id": "F1nVQstwrGJznxU_1",
+    "type": "assignVariable",
+    "name": "#ring_in = 6 mm"
+  },
+  {
+    "id": "FNiGLYBpi7KyW3a_1",
+    "type": "assignVariable",
+    "name": "#ring_out = 10.4494 mm"
+  },
+  {
+    "id": "FU17vqlv8anYBKf_1",
+    "type": "assignVariable",
+    "name": "#wedge_bind = 9.9994 mm"
+  },
+  {
+    "id": "F06JztVVCiEeZpK_1",
+    "type": "assignVariable",
+    "name": "#wedge_inset = 5.159 deg"
+  },
+  {
+    "id": "F3bqSprYf1ARt6S_1",
+    "type": "assignVariable",
+    "name": "#wedge_eps = 1.146 deg"
+  },
+  {
+    "id": "FHUOkSshUBARIMw_1",
+    "type": "assignVariable",
+    "name": "#wedge_w = 11.513 deg"
+  },
+  {
+    "id": "FFOhlI79AgK89d8_1",
+    "type": "newSketch",
+    "name": "blade wedge outline"
+  },
+  {
+    "id": "F7uWmA5tz7Yzspw_1",
+    "type": "extrude",
+    "name": "blade wedge"
+  },
+  {
+    "id": "Ftbu0rw2p6wMc4p_1",
+    "type": "mateConnector",
+    "name": "axis for circular patterns"
+  },
+  {
+    "id": "FbarO6eB7FUTEeP_1",
+    "type": "circularPattern",
+    "name": "blade wedges"
+  },
+  {
+    "id": "FPbUf8rZ8uHshIE_1",
+    "type": "mirror",
+    "name": "mirror blade"
+  },
+  {
+    "id": "FiVv06gxj9CIJnH_1",
+    "type": "newSketch",
+    "name": "blade rod outline"
+  },
+  {
+    "id": "FgH86gsvVsu4aM3_1",
+    "type": "assignVariable",
+    "name": "#rod_blade = 18 mm"
+  },
+  {
+    "id": "F3dSU8JIVsLAMqu_1",
+    "type": "extrude",
+    "name": "blade arm"
+  },
+  {
+    "id": "F9031Ip7kmCUI4p_1",
+    "type": "assignVariable",
+    "name": "#leaf_root = 4.2 mm"
+  },
+  {
+    "id": "Fe20jnE3PLeQ8n8_1",
+    "type": "assignVariable",
+    "name": "#leaf_tip = 1.5 mm"
+  },
+  {
+    "id": "FSZljrezM5Urw3g_1",
+    "type": "assignVariable",
+    "name": "#slit_h = 1.6 mm"
+  },
+  {
+    "id": "FzXygp5mWZYQzGb_1",
+    "type": "newSketch",
+    "name": "relief slit outline"
+  },
+  {
+    "id": "FFmax0yLrqBohxS_1",
+    "type": "extrude",
+    "name": "relief slit"
+  },
+  {
+    "id": "F99PfFr4GpkwFZR_1",
+    "type": "newSketch",
+    "name": "fork outline"
+  },
+  {
+    "id": "Fs6yfQQu6k9DwgQ_1",
+    "type": "extrude",
+    "name": "fork blank"
+  },
+  {
+    "id": "FWv5Tg3m4QeaSQg_2",
+    "type": "newSketch",
+    "name": "fork blade top cut outline"
+  },
+  {
+    "id": "FJAyOW0LfR2T3LG_2",
+    "type": "extrude",
+    "name": "trim fork to arm"
+  },
+  {
+    "id": "FJmHgdrnQCVX9zw_2",
+    "type": "assignVariable",
+    "name": "#bore_d = 4.1 mm"
+  },
+  {
+    "id": "F07KZ36HfyKzS66_2",
+    "type": "newSketch",
+    "name": "axle bore sketch"
+  },
+  {
+    "id": "FVJuxDryFLpBoK9_2",
+    "type": "extrude",
+    "name": "axle bore on fork"
+  },
+  {
+    "id": "Fn3FtZqZD8Ws2aZ_2",
+    "type": "newSketch",
+    "name": "ear wedge outline"
+  },
+  {
+    "id": "FxCKVajhYHmwcjO_2",
+    "type": "extrude",
+    "name": "ear wedge"
+  },
+  {
+    "id": "FUwalt8CzfQ7Hxb_2",
+    "type": "circularPattern",
+    "name": "fork prong wedges"
+  },
+  {
+    "id": "F1dYHeKsKXbdw03_2",
+    "type": "mirror",
+    "name": "two forks"
+  },
+  {
+    "id": "FZKBbtMZkMPcOd1_2",
+    "type": "newSketch",
+    "name": "fork arm outline"
+  },
+  {
+    "id": "FSvit8FzmOhohtv_2",
+    "type": "assignVariable",
+    "name": "#rod_fork = 17 mm"
+  },
+  {
+    "id": "FkiO6IcPphhLPA0_2",
+    "type": "extrude",
+    "name": "fork arm"
+  },
+  {
+    "id": "FVGYrHCSZLrnRav_3",
+    "type": "booleanBodies",
+    "name": "combine fork parts"
+  },
+  {
+    "id": "FICm4wLWQDk6LbW_2",
+    "type": "mateConnector",
+    "name": "fork to robot"
+  },
+  {
+    "id": "FvTV07al4MUlyPy_2",
+    "type": "mateConnector",
+    "name": "blade to robot"
+  },
+  {
+    "id": "M0x1EOjOO9WoBC5En",
+    "type": null,
+    "name": ""
+  }
+]

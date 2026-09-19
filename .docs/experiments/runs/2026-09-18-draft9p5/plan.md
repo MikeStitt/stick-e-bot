@@ -421,7 +421,7 @@ and constraints before the next feature runs.**
   -front.png, -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)  — cut on Front at the version; same part, number for number
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 2 - ball and socket` published
 
 ### Tab 3 — `hinge`
@@ -501,7 +501,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)  — cut on Top, seen down the limb
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 3 - hinge` published
 
 ### Tab 4 — `body`
@@ -578,7 +578,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 4 - body` published
 
 ### Tab 5 — `head`
@@ -651,7 +651,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 5 - head` published
 
 ### Tab 6 — `foot`
@@ -720,7 +720,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 6 - foot` published
 
 ### Tab 7 — `u limb`
@@ -765,7 +765,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)  — cut on Front; the sheet is a wedge detail
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 7 - u limb` published
 
 ### Tab 8 — `l limb`
@@ -810,7 +810,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [x] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)  — cut on Front; blade, rod and ball stud
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 8 - l limb` published
 
 ### Tab 9 — `gripper`
@@ -868,7 +868,7 @@ and constraints before the next feature runs.**
   -section.png)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 9 - gripper` published
 
 ### Tab 10 — `stickbot`
@@ -923,7 +923,7 @@ and constraints before the next feature runs.**
 - [ ] the parent rendered in the same views, held beside it (plan-assembly.svg)
 - [ ] no sheet of its own: held beside `plan-parts.svg`
 - [ ] every frame kept opened, and nothing selected in it
-- [ ] construction scored by hand against the seven rulings
+- [x] construction scored by hand against the seven rulings  — nil typed titles, nil default names, nil saying connector
 - [ ] version `tab 10 - stickbot` published
 
 ### Ring 3 — the robot, when every tab is in

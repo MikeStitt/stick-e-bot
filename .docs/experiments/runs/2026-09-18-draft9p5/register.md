@@ -1000,3 +1000,37 @@ the howto's procedure: section on the plane, look along its normal, no zoom to f
 
 **So Ring 2's sheet comparison is done on all four**, numbers and picture both, and what each
 comparison rests on is written down rather than asserted.
+
+## The construction, scored against the rulings
+
+[`scripts/c_score.py`](scripts/c_score.py) reads each tab's own tree rows — what the GUI shows a
+student — and counts the three things a row can answer. **Every tab passes, and the counts are the
+ones the build order says they should be.**
+
+| Tab | Geometry | Variables | Titles typed over | Default names | Names saying *connector* |
+| --- | -------: | --------: | ----------------: | ------------: | -----------------------: |
+| `ball and socket` | 9 | 5 | 0 | 0 | 0 |
+| `hinge` | 28 | 16 | 0 | 0 | 0 |
+| `body` | 25 | 8 | 0 | 0 | 0 |
+| `head` | 14 | 12 | 0 | 0 | 0 |
+| `foot` | 11 | 13 | 0 | 0 | 0 |
+| `u limb` | 9 | 0 | 0 | 0 | 0 |
+| `l limb` | 9 | 0 | 0 | 0 | 0 |
+| `gripper` | 7 | 8 | 0 | 0 | 0 |
+
+**Against the plan's own survey of the parents**, which counted five typed titles on `ball and
+socket`, eight on `hinge`, and ten connector names still carrying the word — eight on `body` and
+two on `hinge` — all three are now nil.
+
+**`hinge` holds 16 variables where its parent holds 18**, which is `#ear` and `#backlash` dropped
+because nothing reads either, and the walk that found that is
+[`results/variable-first-reader.md`](results/variable-first-reader.md).
+
+**What a row cannot answer, and where its answer is.** That each variable sits immediately above
+its first reader is true by construction: the order came from that same walk and
+[`results/build-order.json`](results/build-order.json) is what the builder writes from. That each
+sketch stands on a face or has a reason is
+[`results/sketch-planes.md`](results/sketch-planes.md) and
+[`results/sketch-moves.md`](results/sketch-moves.md), and one sketch was moved — `blade wedge
+outline`, onto the blade's own face, with `#blade / 2` dropped from its extrude. That `relief slit`
+is the last feature on the blade is the brief's step order, which the build order is derived from.

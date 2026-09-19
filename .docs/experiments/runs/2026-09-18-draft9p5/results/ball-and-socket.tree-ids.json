@@ -1,0 +1,102 @@
+[
+  {
+    "id": "",
+    "type": "",
+    "name": "Default geometry"
+  },
+  {
+    "id": "Origin",
+    "type": "origin",
+    "name": "Origin"
+  },
+  {
+    "id": "Top",
+    "type": "defaultPlane",
+    "name": "Top"
+  },
+  {
+    "id": "Front",
+    "type": "defaultPlane",
+    "name": "Front"
+  },
+  {
+    "id": "Right",
+    "type": "defaultPlane",
+    "name": "Right"
+  },
+  {
+    "id": "Fd0g3TSBEM8sDC9_0",
+    "type": "assignVariable",
+    "name": "#stalk = 6 mm"
+  },
+  {
+    "id": "FZZwbwNZNOv1bis_0",
+    "type": "newSketch",
+    "name": "stud profile"
+  },
+  {
+    "id": "FkTtgWkhJ97rWbj_0",
+    "type": "revolve",
+    "name": "revolve stud"
+  },
+  {
+    "id": "F0kC6Y4llwaXSqz_1",
+    "type": "newSketch",
+    "name": "collar profile"
+  },
+  {
+    "id": "FUfVpiyv8pVEtqO_1",
+    "type": "extrude",
+    "name": "collar blank"
+  },
+  {
+    "id": "FGj9ynsGo77OIYa_2",
+    "type": "booleanBodies",
+    "name": "cavity from ball"
+  },
+  {
+    "id": "Fi66XRZCg24VCQ2_2",
+    "type": "assignVariable",
+    "name": "#slit = 1.6 mm"
+  },
+  {
+    "id": "FYhVcPgXRlBaX0A_2",
+    "type": "assignVariable",
+    "name": "#slit_in = 3.67891 mm"
+  },
+  {
+    "id": "FGdQ2BhuhSWXRt0_2",
+    "type": "assignVariable",
+    "name": "#slit_out = 12 mm"
+  },
+  {
+    "id": "FklpdK0Na0SRY2k_2",
+    "type": "newSketch",
+    "name": "slit profile"
+  },
+  {
+    "id": "FM0Gkv6rXWt47Ex_2",
+    "type": "assignVariable",
+    "name": "#slit_d = 6.22054 mm"
+  },
+  {
+    "id": "FRsmYq6y5hPj7Jm_2",
+    "type": "extrude",
+    "name": "relief slits"
+  },
+  {
+    "id": "FiuhmunVtw2sr73_2",
+    "type": "mateConnector",
+    "name": "stud connect to robot"
+  },
+  {
+    "id": "FxToBYGV4lLthx0_2",
+    "type": "mateConnector",
+    "name": "socket connect to robot"
+  },
+  {
+    "id": "MI1rvr+BMIafQ9ng8",
+    "type": null,
+    "name": ""
+  }
+]
