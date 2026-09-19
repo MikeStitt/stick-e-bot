@@ -927,3 +927,30 @@ built under an education subscription.
 
 **This is not draft9p5's to act on.** It is recorded here and belongs to whoever closes that
 question, along with the second half of it — what a free plan actually allows.
+
+## The section, held beside `brief-socket.svg`
+
+**Sheet used: [`brief-socket.svg`](../../build-briefs/images/brief-socket.svg), *THE SOCKET, IN
+SECTION, IN A LIMB*.** The section was cut on the Front plane at version `the robot, all ten tabs`
+and looked at along that plane's normal with `Shift+1`, which is the procedure
+[`onshape-gui-howto.md`](../../../onshape-gui-howto.md) § *Section: the GUI does it and
+`shadedviews` does not* sets out. It also says why there is no other way: `cutPlane` and
+`sectionPlane` were both passed to `shadedviews` and the image came back byte for byte identical,
+so Onshape ignores them.
+
+**What the section shows:** the ball with its stalk rising out of it, seated in the socket's
+cavity, the collar hatched below it and the fingers standing either side of the mouth.
+
+**What was compared on the sheet, and it is the same part.** The sheet draws the socket's outline
+as `-7.8,-10` up to `2.22054`, in to `5.66`, an arc of `6.08`, out to `7.8` and down to `-10`.
+Every one of those is a number this draft measured off the model: root at z -10 mm, rim at
+z 2.2205 mm, mouth half-width 5.66 mm, cavity radius 6.08 mm, collar radius 7.8 mm. Its dimensions
+read ball Ø12, mouth Ø11.320, cavity Ø12.16, wall 1.8, collar Ø15.6, grip 2.22054 and the four
+slits 1.6 mm wide running 6.2205 mm down — and each matches.
+
+**The sheet also settles the foot brief's odd number.** `brief-socket.svg` says **mouth Ø11.320
+mm**, which is what the model measures; `foot.md`'s prose asks for Ø11.520. So the design source's
+own drawing agrees with the model, and it is that one sentence of prose that trails.
+
+**An SVG sheet is read, not rendered.** Its text carries the geometry and every dimension, which is
+a more exact comparison than looking at a picture of it, and it needs no conversion step.
