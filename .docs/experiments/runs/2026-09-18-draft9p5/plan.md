@@ -861,10 +861,10 @@ and constraints before the next feature runs.**
 - [x] The part is symmetric about its own left-right centerline.  — every face has its mirror about x = 0
 - [x] The clip's bore axis is parallel to X, read off the model.  — axis (-1.000, 0.000, 0.000) off the bore face
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
-- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — FAILS: it measures 18.000 both ways and should be 15.600. The tab redeclares `#wall` as `#torsoH / 32`, so its `#collarR` is 9.000 against the studio's 7.800; the derived collar is Ø15.600 and sits on a 1.200 ledge. The brief's check is rewritten as the expression
+- [x] The top is one flat square face, `2 × #collarR` both ways, with the collar standing on it and  — FIXED 2026-09-19: the tab's `#wall` and `#ball` deleted, so `#collarR` reads 7.800 and the face is 15.600 both ways with the collar tangent on all four sides. The platform is four corner lobes of 13.0564 mm², 52.2255 together, which is the square less the circle exactly
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
-- [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — same part
+- [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — retaken 2026-09-19 after the wall fix; it now differs from the parent in a second place, the clip body, which is this draft's correction
   -section.png)
 - [x] no sheet of its own: held beside `plan-parts.svg`  — the sheet reads mouth 2.6 mm, which the model measures, and platform 15.6 × 15.6 mm, which it does not: the model's is 18.000. That is the defect above
 - [x] every frame kept opened, and nothing selected in it  — this draft kept no frames: the *Capture is out* gate refuses a tracked image under `runs/`, so its renders stayed in the scratchpad. The frames held beside them are the parents', added by the survey of 2026-09-18

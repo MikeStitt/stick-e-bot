@@ -1523,6 +1523,64 @@ part: the renders held beside the parent go stale with it, and the assembly's ow
 taken again. Every feature in this draft is added over REST, and the `/features` POST is at zero
 until about 16:17 on 2026-09-19. It is queued for then, with Ring 1's owed feature read.
 
+## Fixed: the `gripper` tab no longer declares `#wall` or `#ball`
+
+2026-09-19, on Mike's word, with a version published either side.
+
+| | Version | Id |
+| - | ------- | -- |
+| before | `before the gripper wall fix` | `77d651aa4e43e369c93abb9b` |
+| after | `gripper reads the studio's wall` | `4102df8544b8b185f6eb07c7` |
+
+**Both rows deleted from the feature tree**, `#ball` first and `#wall` second.
+[`scripts/c_drop_shadow_vars.py`](scripts/c_drop_shadow_vars.py) does it by the route
+[`onshape-gui-howto.md`](../../../onshape-gui-howto.md) line 238 gives, right-click a variable row
+→ Delete, because the `/features` DELETE shares its quota with the writes and the menu does not.
+`#ball` went first on purpose: it resolves to the same 12.000 mm either way, so the row vanishing
+with the shape unchanged is what proved the delete worked before the one that does change the shape
+ran.
+
+**`#collarR` read 9 mm before and reads 7.8 mm after**, off the tree row itself, with nothing else
+touched.
+
+**What the part became.**
+
+| | Before | After | The source asks |
+| - | -----: | ----: | --------------: |
+| clip body, across the bar | 18.000 mm | **15.600 mm** | `2 × #collarR` = 15.600 mm |
+| clip body, fore and aft | 18.000 mm | **15.600 mm** | the same |
+| chamfer leg | 4.000 mm | **2.800 mm** | `#collarR − #clipR` = 2.800 mm |
+| full-width run above it | 3.700 mm | **4.900 mm** | `#gripperL − #collarR − #mouth / 2 − #collar` = 4.900 mm |
+| ledge under the collar | 1.200 mm | **0.000 mm** | tangent on all four sides |
+
+**The tangency shows up as topology, which is the check worth keeping.** The platform was one face
+of 132.866 mm²; it is now **four corner lobes of 13.0564 mm² each**, 52.2255 mm² together, which is
+a 15.6 mm square less a circle of radius 7.8 mm exactly. A circle inscribed in a square touches all
+four sides and cuts what is left into four disconnected corners, so the face count going 30 to 33
+is the tangency arriving. A width measurement alone would not have told the two apart, and
+[`counts-catch-what-dimensions-miss`](../../../../memory/counts-catch-what-dimensions-miss.md) is
+the memory that says to count the patches.
+
+**The top view says the same thing.** The collar's circle meets the square's four edges and the
+corners are the only material outside it.
+
+**Everything else in the part is where it was.** One part, bore Ø3.300 mm on an axis of
+(-1.000, 0.000, 0.000), mouth 2.600 mm across the opening, lowest point z -24.000 mm, and the
+collar still Ø15.600 mm at z -10.000 mm to 2.2205 mm.
+
+**The assembly did not move**, which was the prediction and is now the measurement: 318.000 mm
+sole to the top of the head, feet centred at x ±24.000 mm touching at 0.000 mm, and the grippers
+reaching z -204.765 mm against a mid-thigh of z -190.890 mm. Nothing in the assembly reads the clip
+body's width.
+
+**The gripper now differs from draft9p1p1 on purpose, in a second place.** It already differed by
+its socket, which is the plan's intent. It now also differs by the clip body, which is this
+correction; the parent's frame shows the collar standing on a block with a ledge all round, and the
+new render has it meeting the edge.
+
+**The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
+18.000 mm body are kept beside them only as the before.
+
 ## A defect in how the whole robot is built: the collar's radius is computed again in each tab
 
 **Mike raised this on 2026-09-19, and it is the general fault the gripper's 18.000 mm is one
@@ -1704,14 +1762,12 @@ is not in this model.
   it and the socket is a derived body in both tabs with the collar as a real face. Raised by Mike
   on 2026-09-19 as CADing like a computer rather than like a person; § *A defect in how the whole
   robot is built* above carries it, with the part the briefs play in causing it.
-- **The `gripper` tab redeclares `#wall` as `#torsoH / 32`, and the studio's row is
-  `#torsoH * 3 / 160`.** 3.000 mm against 1.800 mm, so `#collarR` resolves to 9.000 mm in that tab
-  and the clip body comes out 18.000 mm where the source asks for 15.600 mm, with the chamfer leg
-  4.000 mm where it should be 2.800 mm. The derived collar is Ø15.600, so it sits on a 1.200 mm
-  ledge. Mike settled on 2026-09-19 that the 7.800 mm collar radius is correct, so the tab's
-  `#wall` is what goes. Queued for the `/features` reset.
-- **The `gripper` tab also redeclares `#ball`, with the studio's own expression.** It agrees today
-  and shadows the row all the same. Registered as a defect on Mike's word.
+- ~~**The `gripper` tab redeclares `#wall` and `#ball`.**~~ **Fixed on 2026-09-19.** `#wall` was
+  `#torsoH / 32`, 3.000 mm, against the studio's `#torsoH * 3 / 160`, 1.800 mm, so `#collarR`
+  resolved to 9.000 mm and the clip body came out 18.000 mm with a 4.000 mm chamfer leg and a
+  1.200 mm ledge under the Ø15.600 collar. `#ball` carried the studio's own expression and shadowed
+  the row all the same. Both rows deleted; the body is 15.600 mm, the chamfer 2.800 mm and the
+  ledge 0.000 mm. § *Fixed: the `gripper` tab no longer declares* above carries it.
 - **The head has no shell, and `head.md` both requires one and omits it.** Its
   § *Suggested build order* and its § *Acceptance checks* call for a 1.2 mm shell; its
   § *Recommended steps* table, which the plan and the model follow, has no shell in it. The head
