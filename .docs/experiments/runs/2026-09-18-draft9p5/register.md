@@ -1056,3 +1056,20 @@ parents, so each tab's isometric is held against its own.
 foot has been looked at off axis with the planes hidden, and both limbs have been sectioned, so
 none is unexamined — but none has yet been put beside its parent's frame, which is the part of the
 gate that catches what a single render cannot.
+
+## All eight tabs are now held beside their parents' frames
+
+The three that were outstanding are done, and each matches.
+
+- **`foot`** — same plate with its heel and toe arcs, same top round, same ankle socket standing
+  with its slits and open cavity, same eight tread notches along the sole's edge.
+- **`u limb`** — socket at the top with its slits, rod below, fork at the far end with the
+  twenty-four wedge ring and the axle bore through both prongs.
+- **`l limb`** — blade at the top with its wedge ring and stub axle, rod below, ball stud at the
+  far end.
+
+**So the *Model inspected* gate's harder half is satisfied for every Part Studio**: the part this
+draft built and the part it was built from, rendered in the same view and put side by side. It is
+the comparison that found the gripper's sunken collar when a face count of 32 against 33 had
+nearly hidden it, and it is the reason to take it on the tabs that agree as well as the one that
+did not.
