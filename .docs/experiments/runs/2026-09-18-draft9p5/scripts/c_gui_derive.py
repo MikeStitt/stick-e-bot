@@ -17,6 +17,11 @@ Two traps, both draft9p3's, and both guarded here:
   did not come down.
 - **The dialog writes to the model as you type.** Every failure path presses the
   red cross, or the half-made feature stays.
+
+**The name goes in the dialog's title before the dialog is filled**, not onto the
+tree row afterwards. A name set last is wrong in every frame already taken of
+that step, because the tree row and the dialog header are both in the picture.
+This draft takes no frames, so nothing here was spoiled; the next one does.
 """
 
 from __future__ import annotations
@@ -92,6 +97,8 @@ def main(tab, source, part, name) -> int:
         try:
             gui.search_tool(page, "Derived")
             page.wait_for_timeout(1800)
+            gui.name_feature(page, name)
+            page.wait_for_timeout(600)
             click_text(page, "Select Part Studio", "the Part Studio field")
             page.wait_for_timeout(2500)
             click_text(page, source, "the source tab", min_x=500)
@@ -111,12 +118,11 @@ def main(tab, source, part, name) -> int:
             page.mouse.click(*RED_X)
             page.wait_for_timeout(1200)
             raise
-        # A second derive in the same tab arrives as `Derived 2`, so the row to
-        # rename is whichever `Derived N` the tick just left behind.
-        fresh = [r for r in gui.tree_all(page) if re.match(r"^Derived \d+$", r)]
-        if not fresh:
-            raise RuntimeError("no `Derived N` row to rename after the tick")
-        gui.rename_row(page, fresh[-1], name)
+        # Named in the dialog before it was filled, so the row should already
+        # read it; a `Derived N` left behind means the naming did not take.
+        stray = [r for r in gui.tree_all(page) if re.match(r"^Derived \d+$", r)]
+        if stray:
+            raise RuntimeError(f"the dialog was not named: {stray} is in the tree")
         page.wait_for_timeout(1500)
         tree = gui.tree_all(page)
         if name not in tree:

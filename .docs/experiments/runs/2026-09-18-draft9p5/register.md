@@ -98,7 +98,7 @@ Phase B against its brief, not here.
 ### The eye, and it is neither candidate
 
 [`results/eye.md`](results/eye.md). `eye profile` in `stickbot-draft9p4-check` dimensions the
-ellipse's two diameters with the numbers the mouse landed on —`15.983648598194122*mm` and
+ellipse's two diameters with the numbers the mouse landed on; `15.983648598194122*mm` and
 `8.132031187415123*mm` — while the two dimensions that locate its center carry `#eyeX` and `#eyeUp`.
 Half of each literal is the radius the sketch reports, and pi times those two is 102.0857 mm²,
 which is the face area that started the question. The page is sound: `head.rst:510` says to type
@@ -319,7 +319,7 @@ are in the tree, and nothing said a word until the faces were counted.
 
 ## Phase B tabs 2 and 3, 2026-09-18
 
-- **`ball and socket` is whole and its parts are named.** The tab was resumed from index 6 —
+- **`ball and socket` is whole and its parts are named.** The tab was resumed from index 6;
   `#stalk` through `cavity from ball` had survived the quota — and `Ball stud` and `Socket body`
   were written and read back. 22 faces on 2 bodies, face for face with draft9p1p6.
   Its acceptance checks are [`results/ball-and-socket.acceptance.json`](results/ball-and-socket.acceptance.json):
@@ -359,7 +359,7 @@ from nothing, so it could be worked while the derives were blocked.
 
 ### What the hinge's ten sketches actually are
 
-Every one is fully constrained and anchored by `COINCIDENT` to the joint's axis — 5, 1, 8, 6, 5, 3,
+Every one is fully constrained and anchored by `COINCIDENT` to the joint's axis; 5, 1, 8, 6, 5, 3,
 5, 1, 8 and 6 anchoring constraints — and not one is placed by typed coordinates. The extrudes are
 symmetric where symmetry is the intent: `blade blank` about the blade's mid-plane, `stub axle`
 about the same plane to `#blade + 2 * #stub_proud`, `relief slit` and `pocket axle on fork` about
@@ -1209,7 +1209,7 @@ empty selections between them — and it caught them as a height: 300.0 mm again
 - **Ring 1's feature read on every tab.** The `/features` GET has answered 429 since 2026-09-18
   with a quota that does not clear until about 16:17 on 2026-09-19. Writes to the same route kept
   working, which is why the CAD exists at all.
-- **Posing each joint to its stop.** The swing the geometry allows is measured — 39.0132° per side,
+- **Posing each joint to its stop.** The swing the geometry allows is measured; 39.0132° per side,
   which is `BALL_SWING` — but driving a mate to its stop has not been done, and `assembly.md` asks
   for the posed number.
 - **The interference check.** This assembly's toolbar carries fifty controls and none of them is
@@ -1314,7 +1314,7 @@ every number falls out.
 
 **Two more head numbers move with the collar, like the socket centre before them.** The collar
 stands 12.2205 mm proud where `head.md` says 10.947, and the slits are 6.2205 mm deep where it says
-4.947. Both are `#collar` at 10 mm and `#grip` at 2.2205 against draft9p1p1's 9 mm and 1.947 —
+4.947. Both are `#collar` at 10 mm and `#grip` at 2.2205 against draft9p1p1's 9 mm and 1.947;
 the same one ruling, showing up in a third and fourth place.
 
 ## The socket's wall is 1.72 mm, measured, in all four tabs that carry one
@@ -1448,8 +1448,39 @@ is a wall, the clip's mouth gap, a relief slit or an artefact of the method is u
 measurement was taken, not because it has been understood.
 
 **The follow-up cannot be taken yet: `featurescript` has now spent its own quota**, 8.6 hours,
-reset about 16:15 on 2026-09-19 — the same clock as `/features`. `bodydetails`, `parts`,
+reset about 16:15 on 2026-09-19; the same clock as `/features`. `bodydetails`, `parts`,
 `boundingboxes`, `assemblies` and `variables` all still answer, which is what that memory says to
 expect and what this run has been living on.
 
 **The other three tabs have not been measured this way at all.**
+
+## What the rest of the memories changed
+
+All twenty-eight bodies are now read. Three caught something this run was doing.
+
+**`derive-dont-maintain`: stop tallying.** The user's words in it are *you keep on counting things
+that don't need to be counted, and then editing the counts — I need you to stop doing that.* This
+register and every watchdog report has been doing it: a checklist score restated each tick, the
+number of features that build, the number of pairs tested, the number of findings settled against
+open. Each is a count of this document's own contents, and each has to be edited the next time the
+document grows. It does not forbid a measured number cited as evidence — 22 faces face for face is
+a finding; 273 of 364 lines is bookkeeping. The checklist already carries its own state; reading it
+back out is the work-making.
+
+**`no-em-dash-near-a-number`: six fixed here.** An em dash beside a figure reads as a minus sign.
+Six lines in this file had one and now carry a semicolon. One is left on purpose — `§ *Ring 1 — the
+feature*` quotes the plan's own heading, and no reader takes that for a subtraction.
+
+**`every-feature-gets-its-name`: the name goes in first.**
+[`scripts/c_gui_derive.py`](scripts/c_gui_derive.py) filled the Derived dialog, ticked it, then
+renamed the tree row. The memory says to type the name into the dialog's title before filling it,
+because a name set last is wrong in every frame already taken of that step — the tree row and the
+dialog header are both in the picture. This draft takes no frames so nothing was spoiled, but the
+draft that writes the pages will drive this same script. It now names the dialog first and fails if
+a `Derived N` row survives, which is what a naming that did not take looks like.
+
+**Two more that this run had already obeyed by accident rather than by reading.**
+`never-busy-wait-in-bash` says run the long job in the background and wait for the notification
+rather than polling; the harness refused a `sleep` loop and pushed me there. `agent-browser-borrows-
+its-session` gives the exact restart for a dead 9223 — which is what was done twice, both times
+after killing it myself with a `pkill` pattern broad enough to match it.
