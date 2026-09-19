@@ -690,3 +690,36 @@ made 26 mates out of 13 that way, twice. The reliable reset is to delete the ass
 recreate it, which is safe here only because `stickbot` is the last tab and the order survives. The
 per-name delete in [`scripts/b_assembly.py`](scripts/b_assembly.py) should not be trusted until
 that is understood.
+
+## Looking at it said in one frame what six queries had not
+
+**Mike's advice: hide what you are not working on and look at it off axis.** Done on `foot`, with
+the planes hidden, it answered two questions at once.
+
+**The foot is right.** Rounded plate, heel and toe arcs, eight tread notches along the sole, the
+ankle socket standing proud with its slits — and a mate connector triad at the collar's centre.
+
+**And opening `mate to robot` said exactly what is wrong with it**, which no amount of querying
+around it had: the dialog reads *Origin entity: **Missing Item***, *Select owner entity: **Missing
+Item***, *Attach to: **Missing Entity***, over the message *mate to robot [Mate connector] did not
+regenerate properly: Cannot resolve entities. **3 missing selections***. The triad in the model is
+the one the derived socket brings, not this feature's.
+
+**So the union hypothesis is dropped.** It was a guess with no evidence and it was wrong to name it
+as the next thing to test. The feature has three empty selections, in draft9p1p1's record and here,
+and that is the whole of it.
+
+**And the six REST formulations failed for a reason now obvious:** a body's id in `geometryIds` is
+not what those three fields take. Every write was accepted and every field stayed empty, which is
+why the count never moved.
+
+**What is owed:** fill three selections on two features — `foot`'s and `gripper`'s `mate to
+robot` — with entities that put the connector at the part's origin, which is the ball's centre, and
+then remake the four mates. Two GUI attempts have not yet landed a pick: clicking the part's row in
+the Parts list does not fill an armed selection field, and one click into the graphics area missed.
+The next attempt should arm the field deliberately and pick a face whose own frame gives the part
+origin under `PART_ORIGIN` inference.
+
+**Not the cause, each ruled out by test rather than by argument:** stale connector ids — the mates
+were rebuilt against ids read after the last change and failed the same way; the assembly's
+instances — they insert and name correctly; and the mates themselves — the other nine resolve.
