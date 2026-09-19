@@ -1235,3 +1235,31 @@ written, and the model is right: `head.md`'s socket centre 45 mm against the mod
 loss; and `gripper.md`'s *Ø18 collar* against Ø15.600, which is the clip's square top's number
 attached to the wrong thing. **The fourth is not explained**: the head measures 63 mm deep in this
 draft and in draft9p1p1, and `HEAD_D` computes 60.
+
+## Ring 3, measured on the assembly: the feet touch
+
+**The feet are symmetric and on their legs.** Their centres sit at x +24.0 mm and -24.0 mm, which
+is `FOOT_X` equal to `LEG_X`, exactly as [`assembly.md`](../../build-briefs/assembly.md) says.
+
+**But they touch.** Each foot spans 48.000 mm across — `FOOT_W`, which is `2 × FOOT_H` and what
+[`foot.md`](../../build-briefs/foot.md) asks for and this draft measures — so a foot centred on
+x 24 runs from x 0 to x 48. The two inner edges meet at x 0.000 and the gap is **0.000 mm**.
+
+`assembly.md` expects *the feet do not touch, and the gap is 16*, with *their inner edges land on
+x ±8*. That needs a foot 32 mm across at those centres. **The two briefs disagree with each
+other**: `foot.md`'s 48 mm foot centred on its own leg at ±24 cannot leave a 16 mm gap, and the
+model follows `foot.md`.
+
+**The brief's reasoning for 16 does not survive either.** It calls it *the half-size robot's 4 mm
+doubled*, but a foot whose width is `2 × FOOT_H` scales with the robot, so the gap it leaves scales
+to zero, not to 16: at half size the centres are ±12 and the foot is 24 across, which also meets at
+x 0.
+
+**This draft does not fix it.** Neither brief is draft9p5's, and which number is wrong — the foot's
+width, the stance, or the expectation — is a design decision. It is measured and named here.
+
+## The arms reach past mid-thigh
+
+The gripper's lowest point sits at z -204.765 mm. The thigh — `upper limb <3>` — spans
+z -222.0 mm to -159.779 mm, so its middle is z -190.9 mm. **The arms reach about 14 mm below
+mid-thigh**, not to it.
