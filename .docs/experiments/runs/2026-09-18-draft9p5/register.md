@@ -1635,6 +1635,53 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## The arm against the torso, across the shoulder's whole swing
+
+[`torso.md`](../../build-briefs/torso.md) calls this *the check the 26 mm stud length exists to
+pass, and the only one here that can fail while every dimension measures correctly*, and asks for
+the least clearance, the angle it occurs at, and the angle contact begins.
+
+[`scripts/c_arm_clearance.py`](scripts/c_arm_clearance.py) takes the stud's axis and its ball's
+centre off the torso's own face dump, runs a Ø24.000 mm arm `#limbCenter` from the ball to the
+elbow, and sweeps it over the cone of `BALL_SWING` about that axis. The torso is its own block;
+the Ø16 boss is left out because it is coaxial with the stud, which is what that brief says makes
+it free.
+
+**The stud axis reproduces from the model.** The boss roots at (36.000, 0.000, 40.000) on the side
+face with an axis of (0.5212, -0.3009, -0.7986), and 26.000 mm along it lands on
+(49.5509, -7.8236, 19.2355), which is the shoulder ball's measured centre.
+
+| | Measured | `torso.md` expects |
+| - | -------: | -----------------: |
+| clearance at the zero pose | **+1.5509 mm** | +1.551 mm |
+| the arm first touches the torso at | **33.2722 deg** | 33.38 deg |
+| the joint allows | 39.0132 deg | 41.76 deg |
+| so the arm fouls before the socket stops it, by | **5.7410 deg** | 8.4 deg |
+| least clearance anywhere in the cone | **-4.7739 mm** | *contact inside the cone* |
+
+**The zero pose reproduces exactly**, and it is worth saying where it comes from: the ball sits
+13.5509 mm outside the torso's side face, so a Ø24 arm clears by 1.5509 mm at the ball itself,
+before the arm goes anywhere. That is the 26 mm stud doing its job.
+
+**The brief's conclusion holds and its two premises are stale.** It reasoned from a joint of
+41.76 deg, which was draft9p1's `BALL_SWING`; this model's is 39.0132 deg. And it put the fouling
+angle at 33.38 deg where the geometry gives 33.2722 deg. Both moves shrink the overshoot from
+8.4 deg to 5.7410 deg, and neither changes the answer: **the torso stops the arm, not the socket**,
+which is what the brief said the interesting part was.
+
+**Where it lands, which the brief asks for.** At first contact the arm's axis is at
+(48.00, -24.15, -25.88), 48.0 mm down the arm and 236 deg round the cone, which is the arm swung
+down and across the body. It is 12.00 mm clear of the side face and 0.15 mm past the front face,
+so what it reaches is **the vertical edge between the torso's +x side and its front**, not a face
+flat on.
+
+**The least clearance is at the cone's edge**, -4.7739 mm at the full 39.00 deg, so the deepest
+fouling is at the joint's own limit.
+
+**This is the geometry, not a driven assembly.** `assembly.md` asks to *drive the shoulder to its
+stop, run interference, and report which face it lands on and at what angle*; the angle and the
+face are here and the driving is not.
+
 ## The neck's real tilt limit, and what stops the head
 
 [`head.md`](../../build-briefs/head.md) left this open: *the two-flat-plates model gives 21.8 deg

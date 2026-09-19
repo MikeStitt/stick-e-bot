@@ -569,7 +569,7 @@ and constraints before the next feature runs.**
 - [x] Five balls, each Ø12.000.  — five, all 12.000
 - [x] Ball centers at their stations, measured off the model.  — hips (+/-24, 0, -58), neck (0, 0, 58)
 - [x] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.  — both bosses end at z 48.000; the only faces above it are the neck stud's, on purpose
-- [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
+- [x] Least clearance between a Ø24 arm and the torso, across the whole swing.  — +1.5509 at the zero pose, which is the brief's +1.551; -4.7739 at the cone's edge; contact begins at 33.2722 deg against the 39.0132 the joint allows
 - [x] The part is symmetric about the YZ plane.  — every face has its mirror about x = 0
 - [x] Thinnest wall anywhere in the part, and where it is.  — 9.0000, the torso's side face to a hip stud's stalk; `body` is solid, so this is the least material between two features rather than a wall
 - [x] Every mate connector sits on the geometry it is named for, and open each one to see how it  — all eight are On entity on real geometry with Realign and Move both unticked, so no typed offset: `mate for shoulder stud` on an edge of `shoulder`, `mate for hip stud` and `mate for neck stud` on vertices of their sketches, and the five the assembly mates to on faces of `copy ball stud`, `copy for shoulder`, `copy for hip` and `duplicate shoulder and hip`
@@ -914,7 +914,7 @@ and constraints before the next feature runs.**
 - [x] The robot stands 318.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly. The brief's 317.00 was the height at `#collar` 9 and is fixed
 - [x] Degrees of freedom, read off Onshape rather than counted by hand.  — per instance, not a total; written down in the register
 - [ ] Every ball joint's actual swing, measured by posing it until it stops.  — the neck is computed rather than posed: the torso is reached at 45.240 deg nodding and 36.870 deg sideways, against BALL_SWING 39.0132, so the joint governs fore and aft and the torso governs side to side. The rest are not done
-- [ ] The shoulder interferes again, and this check is now the interesting one.
+- [ ] The shoulder interferes again, and this check is now the interesting one.  — it does, computed rather than driven: the arm fouls at 33.2722 deg, 5.7410 before the socket stops it, on the edge between the torso's side and front
 - [ ] Nothing interferes at rest.
 - [ ] The arms reach mid-thigh.  — MEASURED and it does not pass: the grippers reach z -204.765 and mid-thigh is z -190.890, so 13.875 past it
 - [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
