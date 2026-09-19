@@ -1284,3 +1284,35 @@ Rounding the area to four places made a mesher's rounding look like an asymmetry
 **So the tolerance is part of the measurement.** A check tight enough to see the last digit of an
 area will find a difference in every mirrored pair, and reporting that as a defect is how a sound
 model gets called broken.
+
+## A batch of per-tab numbers, taken from the records
+
+**`body`: the shoulder boss is cut flush and nothing stands proud.** The part has exactly two
+horizontal faces, at z -48.0 mm and z +48.0 mm, so nothing rises above the top. That top face
+measures 3513.459 mm² where a plain 72 × 48 rectangle is 3456 mm², and the 57.46 mm² difference is
+the two elliptical scars the cut leaves — which [`torso.md`](../../build-briefs/torso.md) says to
+expect.
+
+**`foot`: the ankle socket has its relief slits and the boss stands right.** Eight slit walls —
+four slits — and the boss stands `#grip + #plate` = 14.2205 mm proud of the plate's top, which is
+the brief's figure exactly. Its horizontal planes read z -24.0 (nine, the grooved sole), -22.0
+(eight groove floors), -12.0 (the plate top), -4.0 (four slit floors) and 2.2205 (four rim arcs).
+
+**`gripper`: the clip's bore axis is parallel to X**, read off the model as `(-1, 0, 0)`, and its
+three cylinders are r 1.65, r 5.0 and r 7.8 mm.
+
+**`head`: the rim is four arcs, and the cavity sits 2.2205 mm above it.** Four faces stand at
+z -48.2205 mm, which is the rim broken by the slits — the check
+[`head.md`](../../build-briefs/head.md) says proves the slits actually opened the mouth — and the
+cavity's centre at z -46.0 mm is 2.2205 mm above that, *above and not below*, which is the other
+check it asks for.
+
+**My first reading of the head was wrong and the model was not.** I took the rim as the highest
+horizontal plane and got nonsense — a collar 35 mm proud and a cavity 33 mm below its rim. The
+head's socket points **downward**, so its rim is the lowest face, not the highest. Read that way
+every number falls out.
+
+**Two more head numbers move with the collar, like the socket centre before them.** The collar
+stands 12.2205 mm proud where `head.md` says 10.947, and the slits are 6.2205 mm deep where it says
+4.947. Both are `#collar` at 10 mm and `#grip` at 2.2205 against draft9p1p1's 9 mm and 1.947 —
+the same one ruling, showing up in a third and fourth place.
