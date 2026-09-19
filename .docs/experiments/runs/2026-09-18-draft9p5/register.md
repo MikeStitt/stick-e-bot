@@ -825,3 +825,33 @@ the design source by 3 mm, and nothing in this run's records says which was inte
 **This one is not settled here.** Unlike the socket, no ruling explains the 3 mm, so it is a
 question for Mike rather than a call this draft makes: either the head was built deeper than the
 number that names it, or `HEAD_D` no longer describes the head.
+
+## Ring 2 acceptance on `foot` and `gripper`
+
+**`foot` passes every number its brief can be held to.** Length 96.000 mm and width 48.000 mm off
+the bounding box; the ground at z -24.000 mm and the ankle ball's centre on the origin, so the
+ankle height is 24.000 mm; the heel and toe arcs read r 16 mm and r 24 mm, which are `#heel_r` and
+`#toe_r`; the collar is r 7.8 mm and the two fillet cylinders are r 8 mm, which is `#top_round`.
+Volume 38013.328 mm³.
+
+**`gripper` passes its four measured numbers.** Clip bore Ø3.300 mm and outer Ø10.000 mm, read off
+the two cylinders at r 1.65 mm and r 5.0 mm; the top is a flat square 18.000 mm both ways; and the
+gripper is 24.000 mm from the wrist centre — the ball's centre, on the origin — to its lowest
+point. Volume 4363.829 mm³.
+
+### Two more brief numbers that the settled joint has moved past
+
+Both are the same shape of thing as the head's 45 mm, and both are named rather than edited,
+because the briefs are not this draft's to change.
+
+- **`foot.md` asks for a socket mouth of Ø11.520 mm; the joint gives Ø11.320 mm.** 11.520 is
+  `0.96 × #ball` exactly, and `#mouth` is `0.96 × #ball - 2 × #ballLoss`, which is 11.320. The
+  brief's figure is the mouth before the printed ball's loss was taken off it.
+- **`gripper.md` calls it *the Ø18 collar*; the collar is Ø15.600 mm**, which is `2 × #collar_r`.
+  The 18.000 mm in that sentence is the clip's square top, which this tab measures exactly, so the
+  number is right and the thing it is attached to is not.
+
+**So three of the briefs' numbers trail the model and one does not.** The head's 45 mm, the foot's
+Ø11.520 mm and the gripper's *Ø18 collar* each follow from a ruling settled after the brief was
+written. The head's 60 mm depth does not: nothing explains why two drafts measure 63 mm, and that
+one stays a question.
