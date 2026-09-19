@@ -1346,6 +1346,17 @@ The repo already has a tool for this and it finds nothing. It filters surfaces o
 `{x, y, z}` map where the route now answers a list. On every tab it prints *pairs found: 0* and
 then raises on the minimum of an empty sequence.
 
-**It is a shared tool and not this draft's to change**, so the measurement was made in
-[`scripts/c_walls.py`](scripts/c_walls.py) instead and the defect is named here. Two fields moved
-under it; it did not move with them.
+**Mike said to fix it, so it is fixed.** `vec` now reads a point either way it is spelled, the
+surface filter compares on case, and a dump with no pair says so instead of raising on the minimum
+of an empty sequence. Two fields had moved under the tool and it had not moved with them.
+
+**It reports the briefs' own numbers now.** On `ball and socket` it finds the cavity sphere against
+the ball, **0.0800 mm**, which is `#fit`. On `gripper` it finds the clip's bore against its outside,
+**3.3500 mm** — and [`gripper.md`](../../build-briefs/gripper.md) names that figure in as many
+words, *not the clip wall: 3.35 is the thickest thing in the part*. `head` and `foot` hold no
+coaxial or concentric pair at all, and it now says that rather than failing.
+
+**What it still does not do is find the socket's 1.72 mm**, because that wall lies between a
+cylinder and a sphere whose axes meet rather than between two faces sharing an origin and an axis.
+That is the tool's stated scope, not a defect, and
+[`scripts/c_walls.py`](scripts/c_walls.py) measures the wider case for this run.
