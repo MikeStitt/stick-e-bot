@@ -1,6 +1,7 @@
 ---
 name: unroll-the-plan-into-a-checklist
-description: End a run plan with the loop unrolled — every tab, part and ring item as its own line, marked Done only when it has passed
+description: End a run plan with the loop unrolled — every tab, part and ring item
+  as its own line, marked Done only when it has passed
 metadata:
   type: feedback
 ---
