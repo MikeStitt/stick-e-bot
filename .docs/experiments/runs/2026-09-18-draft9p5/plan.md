@@ -499,7 +499,7 @@ and constraints before the next feature runs.**
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-hinge-iso.png, -right.png,
   -section.png)
-- [ ] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)
+- [x] the section held beside [`../../build-briefs/images/brief-fork.svg`](../../build-briefs/images/brief-fork.svg)  — cut on Top, seen down the limb
 - [ ] every frame kept opened, and nothing selected in it
 - [ ] construction scored by hand against the seven rulings
 - [ ] version `tab 3 - hinge` published
@@ -763,7 +763,7 @@ and constraints before the next feature runs.**
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-u-limb-iso.png, -right.png,
   -section.png)
-- [ ] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)
+- [x] the section held beside [`../../build-briefs/images/brief-detent.svg`](../../build-briefs/images/brief-detent.svg)  — cut on Front; the sheet is a wedge detail
 - [ ] every frame kept opened, and nothing selected in it
 - [ ] construction scored by hand against the seven rulings
 - [ ] version `tab 7 - u limb` published
@@ -808,7 +808,7 @@ and constraints before the next feature runs.**
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-l-limb-iso.png, -right.png,
   -section.png)
-- [ ] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)
+- [x] the section held beside [`../../build-briefs/images/brief-roots.svg`](../../build-briefs/images/brief-roots.svg)  — cut on Front; blade, rod and ball stud
 - [ ] every frame kept opened, and nothing selected in it
 - [ ] construction scored by hand against the seven rulings
 - [ ] version `tab 8 - l limb` published

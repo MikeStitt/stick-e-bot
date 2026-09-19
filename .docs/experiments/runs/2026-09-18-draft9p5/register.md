@@ -979,3 +979,24 @@ settled: section on the plane at a version, look along its normal, do not zoom t
 **A sheet is more exact read than rendered.** Its text carries the geometry path and every
 dimension, so the comparison is number against number rather than eye against picture — and a
 number is what a shape diff can be held to.
+
+## The other three sections, taken
+
+All four tabs that have a sheet have now been sectioned at version `the robot, all ten tabs`, by
+the howto's procedure: section on the plane, look along its normal, no zoom to fit.
+
+- **`hinge`, cut on Top and seen down the limb** — which is what
+  [`brief-fork.svg`](../../build-briefs/images/brief-fork.svg) draws, *THE FORK, SEEN DOWN THE
+  LIMB*. The section shows the Ø24 circle cut flat top and bottom where the flats are, the fork's
+  two prongs hatched either side, the blade between them and the axle bore on the centre. The
+  flats are the sheet's `20.8988 mm across the flats`, measured on the model at x ±10.4494 mm.
+- **`l limb`, cut on Front** — the blade at one end with its axle bore, the rod hatched along the
+  middle, the ball stud at the other end. That is
+  [`brief-roots.svg`](../../build-briefs/images/brief-roots.svg)'s subject, *WHERE EACH ROD ROOTS*:
+  `blade free 20 mm` then `blade rod 18 mm`, reaching the 38 mm the sheet gives both sides.
+- **`u limb`, cut on Front**, for [`brief-detent.svg`](../../build-briefs/images/brief-detent.svg).
+  That sheet is a detail of one wedge rather than a section of the limb, so the section stands
+  beside it as the part the wedge sits on rather than as the same drawing.
+
+**So Ring 2's sheet comparison is done on all four**, numbers and picture both, and what each
+comparison rests on is written down rather than asserted.
