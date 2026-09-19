@@ -1143,3 +1143,28 @@ each — so what the export adds is that the file comes out and comes out whole.
 **The files are not committed.** The *Capture is out* gate refuses a tracked binary outside
 `instructions/*/source/images/`, and a print file is not a figure; they are written to the session
 scratchpad, which is where a thing built to find something out belongs.
+
+## Interference at rest, as far as a box test can settle it
+
+With no interference tool in this assembly, the pairs were tested by geometry instead: each
+instance's Part Studio bounding box, carried through that instance's own transform, and every pair
+of the resulting boxes checked for overlap.
+
+**Of 91 pairs, 76 are proved clear.** Their boxes do not touch, so those parts cannot interfere
+whatever their shape. That is a one-way proof and it is the strong direction.
+
+**Fifteen pairs overlap, and thirteen of them are the joints.** Each foot with its lower limb, each
+gripper with its lower limb, the head with the torso, and each lower limb with its upper limb —
+parts that mate are supposed to meet.
+
+**The other two are `Torso <1>` with each arm's `lower limb`**, and they are exactly the pair
+[`assembly.md`](../../build-briefs/assembly.md) says to watch: *the shoulder interferes again, and
+this check is now the interesting one* — the arm first crosses the body at 33.38° while the joint
+now opens to 41.76°, *so the margin is gone and what stops the arm is the torso rather than the
+socket*.
+
+**What this test cannot do.** An overlapping box does not mean the solids touch, and these boxes
+are axis-aligned, so an arm hanging beside the torso overlaps it in a box while standing clear in
+fact. The brief's instruction for those two is to *drive the shoulder to its stop, run
+interference* — both of which need the posing and the tool this draft does not have. So the two
+pairs are named, not judged.
