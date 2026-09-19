@@ -119,7 +119,7 @@ Measure these. Do not infer them.
   corners were off the axes. Measure the **radius at every 5° around the part**, or take the trim
   feature's volume delta and confirm it is non-zero. Both were done in run 3; the box alone would
   have passed a bad part. - **Segment 48.000** between the two joint centers. - **Socket mouth
-  Ø11.520** and **cavity volume 689.06 mm³** — the volume is what catches a socket built upside
+  Ø11.320** and **cavity volume 717.14 mm³**; the volume is what catches a socket built upside
   down; the mouth measurement cannot tell the two apart. - **The socket collar stands 12.2205
   proud**, measured as a z-extent, and its slits are 6.2205 deep and leave a 6.0 floor. - **Ball
   Ø12.000**, center on the axis at the station. - **Slot 11.200**, fork prongs equal to each other

@@ -643,7 +643,7 @@ and constraints before the next feature runs.**
 - [x] The slits are 4.947 deep and leave a 6.000 floor.  — 6.2205 deep, settled in the register; the floor measures 6.000
 - [x] Socket mouth Ø11.520.  — Ø11.320, off a rim arc's radius of 5.660; settled in the register
 - [x] The cavity center sits 2.2205 above the rim plane, not below it.  — 2.2205 above
-- [ ] Shell thickness 1.200 at three places, one of them next to a cut.  — NOT PERFORMED: there is no shell. The head is solid at 263588.0 mm³ and the brief contradicts itself; see the register
+- [x] Shell thickness 1.200 at three places, one of them next to a cut.  — WITHDRAWN 2026-09-19 on Mike's word: the final head has no shell and `head.md` no longer asks for one. The head is solid at 263588.0 mm³
 - [x] The profile is tangent throughout; no crease where an arc meets a line.  — both line-to-arc joins measure 0.0000 deg; the only creases are the arch's two 90 deg line-to-line corners at the bottom
 - [x] Thinnest wall anywhere in the part, and where it is.  — 1.7200, the collar's outside to the cavity in the derived socket; the four 1.6000 approaches are the relief slits, which are gaps
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
@@ -710,7 +710,7 @@ and constraints before the next feature runs.**
 - [x] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.  — sole at z -24.000, ball centre (0.000, 0.000, 0.000), ankle height 24.000
 - [x] The part is symmetric about its own fore-and-aft centerline.  — every face has its mirror about x = 0
 - [x] The outline is tangent throughout; no corner where an arc meets a line.  — all four corners measure 0.0000 deg
-- [x] Socket mouth Ø11.520 and cavity volume 689.06 mm³.  — Ø11.320 and 717.140; the mouth is settled and the volume is a conflict between two briefs, both in the register
+- [x] Socket mouth Ø11.320 and cavity volume 717.14 mm³.  — Ø11.320 and 717.140 measured; both figures follow `#ballLoss`, and `foot.md` and `limbs.md` are fixed
 - [x] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as  — 14.2205, plate top at z -12.000 and rim at z 2.2205
 - [x] The sole ribs exist and removed material.  — eight groove floors at z -22.000, each 2.000 above the sole
 - [x] The ankle socket has relief slits.  — four faces on the rim plane, so the mouth is open
@@ -911,7 +911,7 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — both read a Part Studio's solids and an assembly has none of its own. What stands for it is the instance list against the parent's, and the thirteen mates, all of which resolve
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `assembly.md` names no parts; an assembly's instances take their names from the tabs, and every tab's part is named and read back
-- [x] The robot stands 317.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly; the brief's 317.00 is open in the register
+- [x] The robot stands 318.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly. The brief's 317.00 was the height at `#collar` 9 and is fixed
 - [x] Degrees of freedom, read off Onshape rather than counted by hand.  — per instance, not a total; written down in the register
 - [ ] Every ball joint's actual swing, measured by posing it until it stops.
 - [ ] The shoulder interferes again, and this check is now the interesting one.

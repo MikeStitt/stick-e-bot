@@ -19,7 +19,8 @@ the boss leaves a 0.4 mm ring, and why the neck tilted as little as it did. The 
 Everything below is written to the collar; where a run measured the bored version, it says so.
 
 The head is one part. It carries the **neck socket** on its underside and a face — two eyes and
-a mouth — on its front. Shelling it removes most of the plastic; how much is worked out below.
+a mouth — on its front. **It is solid.** The shell earlier drafts cut out of it is not in the
+final part; § *The head is solid* says what that settled and what it leaves open for the lesson.
 
 ## The frames
 
@@ -36,18 +37,25 @@ frames came from* names the document, workspace and version each was taken at.
 
 **A profile drawn from arcs and lines, tangent throughout, then given a face.** The head is the
 robot's only free-form shape: everything else is a cylinder, a box or a joint. Stage 3 of the
-build plan earns **Arcs**, **Tangent**, **Ellipse**, **Slot** and **Shell** here and nowhere
-else, so if the head cannot be built this way the curriculum loses five tools at once.
+build plan earns **Arcs**, **Tangent**, **Ellipse** and **Slot** here and nowhere else, so if
+the head cannot be built this way the curriculum loses four tools at once.
 
-**Shell is the part worth watching.** On the half-size head run 3 measured it removing 27535 mm³
-of a 33340 mm³ solid — 83% of the plastic. **The head doubled and the wall did not**: 1.2 is three
-perimeters at a 0.4 mm nozzle whatever size the robot is. So the solid grew eightfold while the
-wall, which is thickness × area, grew only fourfold, and the fraction removed goes *up*: run 3's
-5805 mm³ of wall implies about 4840 mm² of surface, four times that is 19350, times 1.2 is roughly
-23200 mm³ of wall inside a 266720 mm³ solid — **about 91%**. That is arithmetic on an old
-measurement, not a new one; measure it and report what you get. Shell also interacts with
-everything cut into the part — eyes standing proud, a mouth cut in, and a socket cavity underneath
-— and the order those happen in decides whether it succeeds.
+### The head is solid
+
+**Settled by Mike on 2026-09-19: the final head carries no shell, and this brief expects none.**
+It measures 263588.0 mm³ solid in `stickbot-draft9p5`, and no head in this project has ever been
+shelled: neither draft9p5 nor draft9p1p1 nor draft9p3's record has the feature.
+
+**A shell used to be here to teach Shell, and it was backed out.** Earlier instructions put a
+temporary shell on the head so a reader met the tool, then removed it again. Where that leaves the
+lesson is a question for the lesson design and not for this part: the tool has to be earned
+somewhere if it is taught at all, and this brief no longer reserves it. **What the brief does
+settle is the inspection**, and the part being inspected is solid.
+
+**The arithmetic that used to sit here is superseded.** It worked out, from run 3's half-size
+measurement, that a 1.2 mm wall would remove about 91% of a 266720 mm³ solid. The solid it
+predicted is the part that exists, to within its own rounding; the wall it predicted is not
+there and is not going to be.
 
 ## The numbers
 
@@ -63,7 +71,7 @@ everything cut into the part — eyes standing proud, a mouth cut in, and a sock
 | socket collar, proud | 12.2205 | derived | `#collar + #grip`, the rim to the underside, where `#collar` is `#stand` = 10 |
 | relief slits | 4 × 1.6, 4.9465 deep | plan | cut down from the collar's top face to `#ball / 4` below the ball's center, leaving a 6.0 floor |
 | socket cavity r | 6.8 | derived | `#ballD`/2 + `#fit`, inside the collar |
-| shell thickness | 1.2 | run 3 | **not built, and never has been.** Three perimeters at a 0.4 mm nozzle. Whether the head is shelled at all is undecided |
+| shell thickness | — | — | **there is no shell.** Settled 2026-09-19; the head is solid. The row is kept so a reader meeting 1.2 in an older record knows it was withdrawn rather than missed |
 | eyes | 16 × 8 ellipses at x = ±12, z = +8, the major across, **no pupils** | plan | `#eyeX`, `#eyeUp`, `#eyeRx`, `#eyeRy`. The eye stands 3 proud; the mouth cuts 3 in |
 | mouth | 40 × 10 slot, r5 ends | plan | `MOUTH_W`, `MOUTH_H`; its top edge sits 13 below the head center |
 
@@ -200,29 +208,24 @@ Our best guess, not a tested path. Deviate where it does not work and say so.
    hand. The slit's inner end must sit inside the mouth radius or the mouth never opens — that
    brief's *four arcs* check is what proves it, and it is the check run 1 failed with slits it
    later called "decorative".
-9. **Shell** last, thickness 1.2, **opening the back face** (y = +30). Not the underside.
+**There is no step 9.** A shell used to be one; § *The head is solid* says why it is not.
 
-### Why the shell opens the back
+### Superseded: what was written when the head was going to be shelled
 
-Run 3 tried the underside four ways and every one failed with *"Could not shell part with
-selections"* — at 1.2 and at 0.9, with and without the boss face, and with the socket suppressed.
-Its diagnosis was topological: the recess removed the whole underside **except** the Ø12 boss, so
-handing that face to Shell left the wall growing inward from the boss with no material path to the
-side walls.
+**Kept as the record of a decision that changed, not as instruction.** None of it describes the
+part this brief now asks for, and none of it is to be built.
 
-**That diagnosis was made against a part this brief no longer describes.** The recess is gone and
-the underside is now one flat face with a collar standing on it, so whether Shell would take the
-underside now is untested. Do not assume either way.
+Run 3 tried shelling from the underside four ways and every one failed with *"Could not shell part
+with selections"* — at 1.2 and at 0.9, with and without the boss face, and with the socket
+suppressed. Its diagnosis was topological: the recess removed the whole underside **except** the
+Ø12 boss, so handing that face to Shell left the wall growing inward from the boss with no
+material path to the side walls. That diagnosis was made against a part with a recess, which no
+longer exists.
 
-**Open the back.** That is the path run 3 proved, it keeps a floor under the collar, it still
-prints without support, and it faces the opening away from the viewer. If you try the underside,
-say what happened.
-
-**Shell goes last, and that is a rule, not a preference.** Shell measures its wall from whatever
-faces exist at the moment it runs, so any cut made after it eats that wall silently — with no
-error. Run 3 moved Shell before the boss and all 20 features stayed green while the floor thinned
-to **0.200 mm** and the socket broke clean through it into the head. Nothing goes red. That is the
-whole problem.
+**The one thing here worth carrying to any part that does get shelled**: Shell measures its wall
+from whatever faces exist at the moment it runs, so any cut made after it eats that wall silently,
+with no error. Run 3 moved Shell before the boss and all 20 features stayed green while the floor
+thinned to **0.200 mm** and the socket broke clean through it into the head. Nothing goes red.
 
 ## Acceptance checks
 
@@ -232,18 +235,24 @@ Measure these. Do not infer them.
 - **72.000 across, and 60.000 deep.**
 - **The head body is 72.000 tall**, so the box above the collar runs z ±36.000 about the head
   center. The whole part is **82.947** tall, −46.947 to +36.000, because the collar hangs below.
-- **The socket center is 45.000 below the head center.** That is the one number the assembly needs
-  from this part, because seating the head means putting that point on the neck ball. It is
-  `36 + #collar`, and it is a whole number because the collar's root is placed off the ball's
-  center. Placed, the top of the head lands at **+139.00** and the figure comes out **317.00** tall.
-- **The collar stands 10.947 proud**, measured as the z-extent from the underside to the rim, and
-  its outside is **Ø15.600**.
+- **The socket center is `36 + #collar` below the head center**, which is 46.000 while `#collar`
+  is `#stand` at 10. That is the one number the assembly needs from this part, because seating the
+  head means putting that point on the neck ball, and it is a whole number because the collar's
+  root is placed off the ball's center. Placed, the top of the head lands at **+140.00** and the
+  figure comes out **318.00** tall, which is what `make_plans.HEIGHT` computes. The 45.000, the
+  +139.00 and the 317.00 that stood here are the same three numbers at `#collar` 9.
+- **The collar stands `#collar + #grip` proud**, which is 12.2205, measured as the z-extent from
+  the underside to the rim, and its outside is **Ø15.600**. The 10.947 that stood here is the same
+  expression at `#collar` 9 and `#grip` 1.9465.
 - **The rim is four arcs, not a circle** — the check that the slits actually opened the mouth.
   Measure one arc's included angle; four equal arcs separated by four 1.6 gaps.
-- **The slits are 4.947 deep and leave a 6.000 floor.** Measure the z-extent of a slit's cut face
+- **The slits are `#grip + #ball / 3` deep, which is 6.2205, and leave a 6.000 floor.** The 4.947
+  that stood here is the same expression at `#grip` 1.9465. Measure the z-extent of a slit's cut
+  face
   and the material left beyond it. A Remove extrude can arrive with `oppositeDirection` set and put
   half the cut into empty air with every feature still green.
-- **Socket mouth Ø11.520**.
+- **Socket mouth `#mouth − 2 × #ballLoss`**, which is **Ø11.320**. The Ø11.520 that stood here is
+  the mouth before the printed ball's loss was taken off it; `brief-socket.svg` draws Ø11.320.
 - **The cavity center sits 2.2205 above the rim plane**, not below it. This is the check that
   catches a socket built the wrong way up, and this head's socket is the wrong way up **on
   purpose**, so state the sign you expect *before* you measure. It used to be written as a volume
@@ -252,9 +261,9 @@ Measure these. Do not infer them.
   the cavity to the outside, so it is no longer an enclosed volume anything can measure.** Two
   numbers off `bodydetails` — the cavity sphere's origin and the part's `lowZ` — say the same
   thing and survive the slits.
-- **Shell thickness 1.200** at three places, one of them next to a cut. Run 3 measured 1.200 at
-  the floor, the front wall, the mouth floor, both eye faces, both sides, the top arc, the outline
-  rounds and the socket dome — so anything that is not 1.200 is a real finding.
+- **The head is solid, and there is no shell to measure.** Check it as a volume rather than as a
+  wall: a shelled head would be about a tenth of a solid one. The thinnest wall in the part is
+  then the socket's, the same figure every socketed part carries.
 - **The profile is tangent throughout** — no crease where an arc meets a line. Look at the
   rendered image as well as the constraints.
 - **Thinnest wall anywhere in the part**, and where it is. A throttled `featurescript` is not a
@@ -264,15 +273,10 @@ Measure these. Do not infer them.
 
 ## Open questions to report on
 
-The eyes and mouth have sizes, and Shell survives the cavity — on the half-size head it offset the
-sphere outward to r 4.400 and left the cup as a 1.2 mm dome. Both from run 3; at this size the
-offset lands at r 8.000 and the dome is still 1.2, because the wall does not scale.
-
 **The collar closed two of the three questions that were open here.** The socket now has the same
 four relief slits every other socket has, so there is no longer a head-only rigid cup; and the
-0.400 mm annular ring measured on the half-size head is gone with the boss that caused it, because
-shelling a flat underside leaves no step for a ring to form in. Neither was fixed on its own
-terms — both were consequences of the boss, and they went when it did.
+0.400 mm annular ring measured on the half-size head is gone with the boss that caused it. Neither
+was fixed on its own terms — both were consequences of the boss, and they went when it did.
 
 What is still open:
 
@@ -284,8 +288,9 @@ What is still open:
   head's underside is 6 mm deeper fore-and-aft than the torso's top face and its corners swing past
   that face rather than onto it. Drive the joint in the assembly, report the angle, and name the
   face that stopped it.
-- **Whether Shell will now take the underside.** Run 3's four failures were diagnosed against the
-  recess, which no longer exists. Untested either way.
+- **Where the lesson earns Shell, now that the head does not.** The head was the only part that
+  used the tool, and it no longer does. Whether Shell is taught at all, and on what, is a question
+  for the lesson design; this brief only settles that the part being inspected is solid.
 
 ## Recommended steps
 

@@ -137,8 +137,11 @@ straight and each arm lies along its own shoulder stud, 33.13° from vertical.
 
 Measure these, in the rest pose. Do not infer them.
 
-- **The robot stands 317.00 mm** from the sole to the top of the head, in the assembly, measured,
-  with the sole at z = −178.0 and the top of the head at +139.00. **This number moved twice.**
+- **The robot stands 318.00 mm** from the sole to the top of the head, in the assembly, measured,
+  with the sole at z = −178.0 and the top of the head at +140.00, which is what
+  `make_plans.HEIGHT` computes. **This number moved three times.** The last move is `#collar`
+  becoming `#stand` at 10, which lifts the head 1 mm on its ball, and the 317.00 that stood here
+  is the figure before it.
   draft9p1's A2 tightened `#fit` to 0.08, which shortened `#grip` from 3.6 to 1.9465, and task #159
   later took the wall to 1.8 mm and `#grip` to 2.2205, and let the
   head sit that much higher on its ball; draft9p1p1's A2 then placed the head's underside off the

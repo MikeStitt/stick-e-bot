@@ -107,8 +107,11 @@ Measure these. Do not infer them.
   reason the outline is drawn this way.
 - **The outline is tangent throughout** — no corner where an arc meets a line. Look for a
   visible crease in the rendered image as well as checking the constraints.
-- **Socket mouth Ø11.520** and **cavity volume 689.06 mm³**. The volume is what catches a socket
-  built upside down.
+- **Socket mouth `#mouth − 2 × #ballLoss`**, which is **Ø11.320**, and **cavity volume
+  717.14 mm³**. The volume is what catches a socket built upside down: it is a Ø12.16 sphere,
+  941.455 mm³, less the 224.314 mm³ cap standing above the mouth plane. The Ø11.520 and the
+  689.06 that stood here are the same two numbers before the printed ball's loss was taken off
+  the mouth, which moved `#grip` from 1.9465 to 2.2205 and the cap with it.
 - **The ankle boss stands `#grip + #plate` = 14.2205 proud** of the plate's top face, measured as
   a z-extent, and **2.0 of that is pedestal**. The collar itself is 12.2205, the same as on every
   other socketed part; `#pedestal` = `#plate − #collar` = 2.0 makes up the rest, and it is a whole
@@ -130,10 +133,11 @@ Measure these. Do not infer them.
   face — four slits would show as four. The limb's collar in the same run came back as four faces
   totaling 26.3 of a possible 29.5 circumference on the half-size part, which is what a slit
   collar looks like from the API. Without slits the whole circumference has to stretch to pass a
-  Ø12 ball through a Ø11.520 mouth, and this is the one joint on the robot nobody can assemble.
+  Ø12 ball through a Ø11.320 mouth, and this is the one joint on the robot nobody can assemble.
 - **Thinnest wall anywhere in the part**, and where it is. Earlier drafts nominated the plate edge,
   which is now 4 mm where the 12 mm plate meets its r8 top fillet. The socket collar is thinner:
-  **2.20**, which is `9.0 − 6.8` and has nothing to do with the plate. Report both.
+  `#collar_r − (#ball + 2 × #fit) / 2`, which is **1.72**, and it has nothing to do with the plate.
+  Report both. The 2.20 that stood here is `9.0 − 6.8`, the same subtraction at the Ø18 collar.
 
 ## Open questions to report on
 

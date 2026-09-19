@@ -1765,24 +1765,36 @@ whether this was easy; it is, and it survives the 429 that stops `featurescript`
 
 # The design's defects, in one place
 
-Ring 4's *What the briefs and the design source owe* named four of these and was written before the
-last three were found. This is the whole list. Most of what follows is a place where a brief or `make_plans.py` and
-the geometry disagree rather than a fault in the model; every model fault this run made while
-building was fixed and is recorded where it happened. **One is a fault in the model as built**, and
-it is the gripper's clip body, found on 2026-09-19 by holding the part beside `plan-parts.svg`.
+Ring 4's *What the briefs and the design source owe* was written before most of these were found.
+This is the whole list. Most of it is a place where a brief and the geometry disagree rather than a
+fault in the model; every model fault this run made while building was fixed and is recorded where
+it happened. **One was a fault in the model as built**, the gripper's clip body, found on
+2026-09-19 by holding the part beside `plan-parts.svg` and fixed the same day.
+
+**The briefs named in § *Settled* were corrected on 2026-09-19, on Mike's word.** Settled used to
+mean only that we knew which side was right; the stale sentences stayed in the briefs. They no
+longer do. Each row below says what the brief now reads and what the withdrawn figure was, so a
+reader meeting an old number in an older record can place it.
 
 ## Settled: the model is right and the words trail a ruling
 
 Each of these follows from `#collar` becoming `#stand` at 10 mm, or from the printed ball's loss
 being taken off the mouth — both settled after the brief that states the old number.
 
-| Where | It says | The model measures | Why |
-| ----- | ------- | -----------------: | --- |
-| `head.md` | socket centre 45 mm below the head centre | **46.0 mm** | the collar is 10 mm, was 9 |
-| `head.md` | collar stands 10.947 mm proud | **12.2205 mm** | `#collar` + `#grip`, both moved |
-| `head.md` | slits 4.947 mm deep | **6.2205 mm** | `#grip + #ball / 3` |
-| `foot.md` | socket mouth Ø11.520 mm | **Ø11.320 mm** | `#mouth` less `2 × #ballLoss` |
-| `gripper.md` | *the Ø18 collar* | **Ø15.600 mm** | 18 is the clip's square top, not the collar |
+| Where | It said | It now reads | The withdrawn figure was |
+| ----- | ------- | -----------: | ------------------------ |
+| `head.md` | socket centre 45 mm below the head centre | `36 + #collar`, **46.000 mm** | the same, at `#collar` 9 |
+| `head.md` | collar stands 10.947 mm proud | `#collar + #grip`, **12.2205 mm** | the same, at `#collar` 9 and `#grip` 1.9465 |
+| `head.md` | slits 4.947 mm deep | `#grip + #ball / 3`, **6.2205 mm** | the same, at `#grip` 1.9465 |
+| `head.md`, `foot.md`, `limbs.md` | socket mouth Ø11.520 mm | `#mouth − 2 × #ballLoss`, **Ø11.320 mm** | the mouth before the ball's loss |
+| `foot.md`, `limbs.md` | cavity volume 689.06 mm³ | **717.14 mm³** | the cavity at `#grip` 1.9465 |
+| `foot.md` | thinnest wall 2.20 mm, `9.0 − 6.8` | `#collar_r − (#ball + 2 × #fit) / 2`, **1.72 mm** | the same, at the Ø18 collar |
+| `head.md`, `assembly.md` | the figure stands 317.00 mm | **318.00 mm** | the height at `#collar` 9 |
+| `gripper.md` | *the Ø18 collar*, 18.000 mm both ways | `2 × #collarR`, **15.600 mm** | the width at the Ø18 collar |
+
+**Every one is written as its expression now, not as the number it currently gives.** That is the
+point of the exercise: the figures went stale because they were literals, and three of them had
+gone stale twice.
 
 `brief-socket.svg` settles the fourth on the model's side: the sheet itself says **mouth Ø11.320
 mm**, so the design source's drawing and the model agree and one sentence of prose does not.
@@ -1822,23 +1834,31 @@ is not in this model.
   1.200 mm ledge under the Ø15.600 collar. `#ball` carried the studio's own expression and shadowed
   the row all the same. Both rows deleted; the body is 15.600 mm, the chamfer 2.800 mm and the
   ledge 0.000 mm. § *Fixed: the `gripper` tab no longer declares* above carries it.
-- **The head has no shell, and `head.md` both requires one and omits it.** Its
-  § *Suggested build order* and its § *Acceptance checks* call for a 1.2 mm shell; its
-  § *Recommended steps* table, which the plan and the model follow, has no shell in it. The head
-  measures 263588.0 mm³ solid. Shelling it is a design decision, not a correction; § *The head has
-  no shell* above carries the sources.
-- **The socket's cavity has two volumes in the briefs.** `ball-and-socket.md` says 717.14 mm³ with
-  its arithmetic shown; `foot.md` and `limbs.md` say 689.06 mm³. It is one derived socket.
-  Measured 717.140 mm³, so the model follows `ball-and-socket.md`, and 689.06 mm³ is the figure the
-  collar ruling moved.
+- ~~**The head has no shell, and `head.md` both requires one and omits it.**~~ **Settled by Mike
+  on 2026-09-19: the final head has no shell, and the brief now expects none.** Its
+  § *Suggested build order* had a step 9, its § *Acceptance checks* measured a 1.2 mm wall, and its
+  own numbers table said *not built, and never has been*. The head measures 263588.0 mm³ solid.
+  `head.md` now carries § *The head is solid*, its shell step is gone, and the shelling passages
+  are kept under a heading that marks them superseded. **What is not settled is the lesson**: the
+  head was the only part that used Shell, an earlier draft put a temporary one on to teach the tool
+  and backed it out, and where that leaves the curriculum is a question for the lesson design. The
+  brief says so and settles only the inspection.
+- ~~**The socket's cavity has two volumes in the briefs.**~~ **Fixed 2026-09-19; it was the same
+  settled ruling.** 689.06 mm³ is the cavity at `#grip` 1.9465 mm, which is `#ballLoss` at zero:
+  a Ø12.16 sphere less the cap the mouth plane cuts, with the plane 1.9465 mm off centre instead of
+  2.2205 mm. So it moved with the mouth's Ø11.520, and it was never an independent question.
+  `foot.md` and `limbs.md` now read 717.14 mm³ with the arithmetic beside it.
 - **The arms reach 13.875 mm past mid-thigh, not to it.** The gripper's lowest point is
   z -204.765 mm and the thigh's middle is z -190.890 mm, both measured in the assembly through the
   occurrence transforms on 2026-09-19. `assembly.md` calls this *a pure ratio, so
   it should survive the doubling exactly; check it on the assembly, because if it does not,
   something scaled that should not have.* It did not.
-- **The robot's height is given twice and differently.** `assembly.md` asks for 317.00 mm;
-  `make_plans` computes `HEIGHT` 318.0 mm. The assembly measures **318.0 mm**, so it follows the
-  design source and not the brief, and the 1 mm between those two is unresolved.
+- ~~**The robot's height is given twice and differently.**~~ **Fixed 2026-09-19; it was the same
+  settled ruling, and calling it unresolved was my error.** `make_plans` has
+  `HEAD_B = NECK_Z + COLLAR_L` and `HEAD_T = HEAD_B + HEAD_H`, so the height moves with the collar:
+  318.0 mm at `#collar` 10 and 317.0 mm at 9. The 1 mm is `#collar` becoming `#stand`, the same
+  ruling as the head's socket centre and its collar height, and the same one `head.md` was still
+  printing as 45.000 and +139.00. `assembly.md` and `head.md` now read 318.00 mm.
 
 ## Not the design: tools that had gone stale
 
