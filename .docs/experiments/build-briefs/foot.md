@@ -161,9 +161,6 @@ Measure these. Do not infer them.
   at 24, and with the offset withdrawn the inner edges meet at x 0 again. Feet that touch when the
   legs and ankles hang straight down from the hips is a stance the design accepts, because every
   joint below the hip turns and some pose always brings them together.
-- Is a 96 mm foot on a 315.4 mm figure goofy in the way the brief wants, or just big? Render it
-  and say. The proportion barely moved — 0.32 of the figure before, 0.30 now — so if it read as
-  goofy at the old size it should still.
 
 ## Recommended steps
 

@@ -1702,8 +1702,8 @@ them need it to build anything. They do not, and the copies have gone wrong.
 | `head.md` line 237 | the whole part is **82.947** tall, −46.947 to +36.000 | 84.2205, −48.2205 to +36.000 |
 | `torso.md` line 78 | the figure's height is **317.00 mm** | the sentence is fair, the number is a copy |
 | `torso.md` line 81 | *came out at 317.05* | the same |
-| `README.md` line 70 | `HEAD_T` +137.4, `HEIGHT` **315.4** | +140.0 and 318.0 |
-| `foot.md` line 164 | *a 96 mm foot on a 315.4 mm figure* | a ratio would not age |
+| ~~`README.md` line 70~~ | `HEAD_T` +137.4, `HEIGHT` **315.4** | **deleted 2026-09-19** |
+| ~~`foot.md` line 164~~ | *a 96 mm foot on a 315.4 mm figure* | **deleted 2026-09-19** |
 
 **`head.md` contradicts itself two lines apart.** Its station table gives the underside at +67.00
 and the top at +139.00; the prose immediately below says *the underside is at +68.00 rather than
@@ -1718,11 +1718,18 @@ by hand, and nobody did. That is
 [`derive-dont-maintain`](../../../../memory/derive-dont-maintain.md) with the derivation written
 down beside it and still not run.
 
-**Not acted on.** The briefs are not draft9p5's, and Mike asked a question rather than for a fix.
-What a fix would be: take the figure out of `head.md` and `torso.md`, leaving the reasoning and a
-pointer to the assembly; correct `head.md`'s station table and its 82.947; regenerate
-`README.md`'s two rows from the command it already carries; and turn `foot.md`'s question into a
-ratio.
+**Two of them went the same day, and by deletion rather than by correction.** Mike removed
+`README.md`'s stations table, taking `HEAD_T` +137.4 and `HEIGHT` 315.4 with it, and `foot.md`'s
+proportion question. Deleting beats correcting for both: the table was a printout of something
+`make_plans.py` computes, and the surviving sentence still says to import it rather than copy it;
+the proportion question was a judgement that had already been made. **A copy that has to be
+maintained is better gone than right**, which is what
+[`derive-dont-maintain`](../../../../memory/derive-dont-maintain.md) says and what these two now
+show.
+
+**Still copied, in `head.md` and `torso.md`.** Taking the figure out of those two, leaving the
+reasoning and a pointer to the assembly, and correcting `head.md`'s station table and its 82.947,
+is what is left. Not acted on: Mike has not asked for it.
 
 ## A defect in how the whole robot is built: the collar's radius is computed again in each tab
 
