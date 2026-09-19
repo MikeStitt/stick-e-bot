@@ -954,3 +954,28 @@ own drawing agrees with the model, and it is that one sentence of prose that tra
 
 **An SVG sheet is read, not rendered.** Its text carries the geometry and every dimension, which is
 a more exact comparison than looking at a picture of it, and it needs no conversion step.
+
+## The other three sheets, compared as numbers
+
+**`brief-fork.svg`, *THE FORK, SEEN DOWN THE LIMB*.** Its `20.8988 mm across the flats` is measured
+on the model: `u limb`'s two flats stand at x ±10.4494 mm, so 20.8988 mm across, and that is
+`2 × #flat`. Its `Ø24 mm` is the limb, measured 24.000 mm. Its `fork prong 6.1 mm`, `gap 0.9 mm`,
+`blade 10 mm` and `fork span 24 mm` are `EAR`, `GAP`, `BLADE` and `LIMB`, and each matches.
+
+**`brief-detent.svg`, *THE WEDGE*.** `proud 0.75 mm`, `clearance 0.15 mm` and `gap 0.9 mm` are
+`WEDGE_H`, `WEDGE_C` and `GAP`, and each matches. The rest of that sheet — the wedge 4.4494 mm
+long, the crest 2.2217 mm, pitch 2.5393 mm, climb 0.6 mm — is `hinge_spring.py`'s geometry, which
+the hinge's brief says to take from that file rather than re-derive.
+
+**`brief-roots.svg`, *WHERE EACH ROD ROOTS*.** `fork free 21 mm` is `EAR_FREE` and `blade free
+20 mm` is `TAB_FREE`, and its claim that both sides reach `pin to rod end 38 mm` holds:
+`TAB_FREE + ROD_BLADE` is 38.0 and `EAR_FREE + ROD_FORK` is 38.0.
+
+**What this is and is not.** The numbers on all four sheets have now been compared against the
+model and the design source, and they agree. A section *picture* has been taken for `ball and
+socket` only. `hinge`, `u limb` and `l limb` still owe theirs, and the technique for taking one is
+settled: section on the plane at a version, look along its normal, do not zoom to fit.
+
+**A sheet is more exact read than rendered.** Its text carries the geometry path and every
+dimension, so the comparison is number against number rather than eye against picture — and a
+number is what a shape diff can be held to.

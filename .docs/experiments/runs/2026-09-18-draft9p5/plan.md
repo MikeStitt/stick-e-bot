@@ -419,7 +419,7 @@ and constraints before the next feature runs.**
 - [ ] every feature above seen in a view that shows it, with a verdict
 - [ ] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,
   -front.png, -section.png)
-- [ ] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)
+- [x] the section held beside [`../../build-briefs/images/brief-socket.svg`](../../build-briefs/images/brief-socket.svg)  — cut on Front at the version; same part, number for number
 - [ ] every frame kept opened, and nothing selected in it
 - [ ] construction scored by hand against the seven rulings
 - [ ] version `tab 2 - ball and socket` published
