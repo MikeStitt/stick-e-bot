@@ -572,7 +572,7 @@ and constraints before the next feature runs.**
 - [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
 - [x] The part is symmetric about the YZ plane.  — every face has its mirror about x = 0
 - [ ] Thinnest wall anywhere in the part, and where it is.
-- [ ] Every mate connector sits on the geometry it is named for, and open each one to see how it
+- [x] Every mate connector sits on the geometry it is named for, and open each one to see how it  — all eight are On entity on real geometry with Realign and Move both unticked, so no typed offset: `mate for shoulder stud` on an edge of `shoulder`, `mate for hip stud` and `mate for neck stud` on vertices of their sketches, and the five the assembly mates to on faces of `copy ball stud`, `copy for shoulder`, `copy for hip` and `duplicate shoulder and hip`
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-body-iso.png, -front.png,  — same part
   -section.png)
@@ -861,7 +861,7 @@ and constraints before the next feature runs.**
 - [x] The part is symmetric about its own left-right centerline.  — every face has its mirror about x = 0
 - [x] The clip's bore axis is parallel to X, read off the model.  — axis (-1.000, 0.000, 0.000) off the bore face
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
-- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — FAILS: the face measures 18.000 both ways, but this check is written against the Ø18 collar and the collar is Ø15.600. The source asks for 15.600, so the collar sits on a 1.200 ledge
+- [ ] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — FAILS: it measures 18.000 both ways and should be 15.600. The tab redeclares `#wall` as `#torsoH / 32`, so its `#collarR` is 9.000 against the studio's 7.800; the derived collar is Ø15.600 and sits on a 1.200 ledge. The brief's check is rewritten as the expression
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-gripper-iso.png, -front.png,  — same part

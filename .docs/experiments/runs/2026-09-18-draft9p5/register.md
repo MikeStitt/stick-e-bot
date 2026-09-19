@@ -1484,10 +1484,31 @@ The chamfer follows the same error: its leg measures 4.000 mm, which is the body
 the clip's radius, where `CLIP_CHAM` is `COLLAR_R - CLIP_R` = 2.800 mm. One wrong number makes
 both.
 
-**The variable is right and the sketch does not read it.** `#collarR` resolves as
-`#ball / 2 + #wall` = 7.800 mm in the tab, so the collar came out Ø15.600. The clip profile carries
-18 as a number instead of `2 * #collarR`, which is the typed number going stale a third time:
-Ø9.0, then Ø18.0, now Ø15.6.
+**The cause is a shadowed variable, and the first diagnosis written here was wrong.** This
+section first said *the clip profile carries 18 as a number instead of `2 * #collarR`*, and that
+`#collarR` resolves to 7.800 mm in the tab. Neither is so. I took the 7.800 mm from
+`make_plans.COLLAR_R` rather than from the tab, which is the assumption the contract's *never claim
+a verification you did not perform* exists to stop, and the number I should have read is the one
+the tab computes.
+
+**The `gripper` tab redeclares `#wall`.** `robot sizes` holds `#wall = #torsoH * 3 / 160`, which is
+1.800 mm. The tab declares its own `#wall = #torsoH / 32`, which is 3.000 mm, and that shadows the
+row. So `#collarR = #ball / 2 + #wall` resolves to **9.000 mm** there, and the clip body, which
+really is written as `2 × #collarR`, comes out 18.000 mm. The chamfer follows the same variable:
+`#collarR − #clipR` is 4.000 mm at 9.000 and 2.800 mm at 7.800, and the model measures 4.000 mm.
+
+**The collar is Ø15.600 because it is derived, not computed here.** `copy socket` brings the socket
+in from `ball and socket`, which reads the studio's `#wall` and so built a collar of radius
+7.800 mm. That is why the part has a Ø15.600 collar sitting on an 18.000 mm square: the two halves
+were sized by two different `#wall`s, one of them the studio's and one the tab's.
+
+**Mike settled it on 2026-09-19: the socket's 7.800 mm collar radius is correct.** So the tab's
+`#wall` is the defect and the fix is to stop the tab declaring it, which makes `#collarR` 7.800 mm,
+the body 15.600 mm and the chamfer 2.800 mm in one change.
+
+**Nothing turned red, and nothing was going to.** This is the hazard the `onshape` skill names in
+as many words: *the local shadows the studio's row, the tab goes on using its own value, the row
+moves without it, and nothing turns red.*
 
 **`gripper.md`'s acceptance check is stale with it, and the checklist had taken the check's side.**
 Line 183 asks for *one flat square face, 18.000 both ways, with the Ø18 collar standing on it*,
@@ -1497,11 +1518,38 @@ is 1.720 mm, which is 7.800 less 6.080, and § *Ring 2's acceptance* above alrea
 checklist line is un-marked and now says the face measures 18.000 and that the check is written
 against a collar the part does not have.
 
-**Not fixed here, and why.** The fix is one dimension in `clip profile`, from 18 to `2 * #collarR`,
-and it reshapes the part: the renders held beside the parent go stale with it, and the assembly's
-own measurements are taken again. Every feature in this draft is added over REST, and the
-`/features` POST is at zero until about 16:15 on 2026-09-19. It is queued for then, with Ring 1's
-owed feature read.
+**Not fixed here, and why.** The fix is the tab's `#wall`, not a dimension, and it reshapes the
+part: the renders held beside the parent go stale with it, and the assembly's own measurements are
+taken again. Every feature in this draft is added over REST, and the `/features` POST is at zero
+until about 16:17 on 2026-09-19. It is queued for then, with Ring 1's owed feature read.
+
+## Every Part Studio variable that shadows a `robot sizes` row
+
+[`scripts/c_shadowed_vars.py`](scripts/c_shadowed_vars.py) compares the studio's row names against
+each tab's own, over `/api/variables`, which answers while `/features` is refused. **Both
+redeclarations in the document are in `gripper`, and no other tab has one.**
+
+| Tab | Name | The tab says | `robot sizes` says | |
+| --- | ---- | ------------ | ------------------ | - |
+| `gripper` | `#wall` | `#torsoH / 32`, 3.000 mm | `#torsoH * 3 / 160`, 1.800 mm | **disagrees** |
+| `gripper` | `#ball` | `#torsoH / 8` | `#torsoH / 8` | agrees today |
+
+**Both are defects, and Mike said to register them as such.** The second is the same trap with its
+spring unsprung: `#ball` carries the studio's own expression, so it gives 12.000 mm today and will
+go on giving whatever `#torsoH / 8` gives even after the studio's row is changed to something else.
+A redeclaration that agrees is not a redeclaration that is safe; it is one whose damage has not
+been triggered yet, and it reads to a student as the way to get at a studio row.
+
+**`#collarR` is not one of them.** The tab declares it and the studio does not, and the skill says
+a local computed from studio rows is a different thing and is fine. What makes it wrong here is
+that one of the rows it computes from is the shadowing `#wall` rather than the studio's.
+
+**The other seven tabs declare 54 local rows between them and none clashes.** `ball and socket`,
+`hinge`, `body`, `head` and `foot` each carry their own names; `u limb` and `l limb` declare none.
+
+**This was a Phase A item and it was read too narrowly.** Phase A confirmed that `#wall` reads
+`#torsoH * 3 / 160`, and it confirmed it on the studio. Nothing asked whether a tab had a `#wall`
+of its own, so the one that had did not come up.
 
 ## The head has no shell, and its brief asks for one twice and omits it once
 
@@ -1602,10 +1650,14 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
-- **The gripper's clip body is 18.000 mm square where the source asks for 15.600 mm.** A model
-  fault, not a brief's: `CLIP_W` is `2 * COLLAR_R`, the sheet prints 15.6 × 15.6 mm, and
-  `gripper.md` § *Settled* says so. The collar stands on a 1.200 mm ledge. Queued for the
-  `/features` reset; § *A model defect* above carries the measurement.
+- **The `gripper` tab redeclares `#wall` as `#torsoH / 32`, and the studio's row is
+  `#torsoH * 3 / 160`.** 3.000 mm against 1.800 mm, so `#collarR` resolves to 9.000 mm in that tab
+  and the clip body comes out 18.000 mm where the source asks for 15.600 mm, with the chamfer leg
+  4.000 mm where it should be 2.800 mm. The derived collar is Ø15.600, so it sits on a 1.200 mm
+  ledge. Mike settled on 2026-09-19 that the 7.800 mm collar radius is correct, so the tab's
+  `#wall` is what goes. Queued for the `/features` reset.
+- **The `gripper` tab also redeclares `#ball`, with the studio's own expression.** It agrees today
+  and shadows the row all the same. Registered as a defect on Mike's word.
 - **The head has no shell, and `head.md` both requires one and omits it.** Its
   § *Suggested build order* and its § *Acceptance checks* call for a 1.2 mm shell; its
   § *Recommended steps* table, which the plan and the model follow, has no shell in it. The head

@@ -93,8 +93,8 @@ square.** Two things were wrong with it as built, and both come from the same ca
   because a square is what a rectangular profile extruded to the same width gives, and the collar
   standing on it is flush all the way round either way. Below that top a **45° chamfer of leg
   `#collarR − #clipR`** necks the body fore-and-aft to the clip's own Ø10 and lands on the mouth's
-  upper lip, so below the lip the part is the clip circle and nothing else and no width of 18 is
-  ever beside the mouth. Settled in
+  upper lip, so below the lip the part is the clip circle and nothing else and no width of
+  `2 × #collarR` is ever beside the mouth. Settled in
   [`../runs/2026-08-26-draft9p1p1/a/a3-gripper.md`](../runs/2026-08-26-draft9p1p1/a/a3-gripper.md),
   which measures the reference robot's own construction alongside it.
 - **It was a typed number, and it went stale twice.** The collar moved to Ø9.0 and 9.4 did not
@@ -180,16 +180,23 @@ part that has no slits; see [`foot.md`](foot.md).
   x = 0, so it mirrors onto itself and passes every other check on this list, while the bore runs
   fore-and-aft and the robot grips a bar pointing away from itself.
 - **Gripper length 24.000** from wrist center to the lowest point.
-- **The top is one flat square face, 18.000 both ways**, with the Ø18 collar standing on it and
-  flush all the way round. Measure both edges: a body that measures 18 across the bar and 10
-  fore-and-aft is the defect draft9p1p1 exists to fix, and it passes every other check on this
-  list. Measure the chamfer too — 4.000 of leg at 45°, ending on the mouth's upper lip — and the
-  run of full width left above it, which is `#gripperL − #collarR − #mouth / 2 − #collar` = 4.700
-  and is the number to watch if any of those four move.
-- **Thinnest wall anywhere in the part**, and where it is. Not the clip wall: 3.35 is the thickest
-  thing here, and nominating it is how the real answer gets missed. Expect **2.92** at the socket
-  collar, which is `9.0 − 6.08` and is the same number on every socketed part in the robot. Run 3
-  measured 1.500 there on the half-size part.
+- **The top is one flat square face, `2 × #collarR` both ways**, which is 15.600 mm while
+  `#collarR` is 7.800 mm, with the collar standing on it and flush all the way round. Write it as
+  the expression and measure what the expression gives: every figure in this bullet used to be a
+  literal from a Ø18 collar, and they all went stale together when the collar became Ø15.6. A body
+  wider than the collar leaves a ledge at each mid-edge; one that measures differently across the
+  bar and fore-and-aft is the defect draft9p1p1 exists to fix, and either passes every other check
+  on this list. **Check what `#collarR` resolves to in the tab before trusting the width**, since
+  a Part Studio that redeclares `#wall` computes its own `#collarR` and the width follows it
+  without anything turning red. Measure the chamfer too, `#collarR − #clipR` = 2.800 mm of leg at
+  45°, ending on the mouth's upper lip; and the run of full width left above it, which is
+  `#gripperL − #collarR − #mouth / 2 − #collar` = 4.900 mm and is the number to watch if any of
+  those four move.
+- **Thinnest wall anywhere in the part**, and where it is. Not the clip wall: `#clipR − #bore / 2`
+  = 3.350 mm is the thickest thing here, and nominating it is how the real answer gets missed.
+  Expect `#collarR − (#ball + 2 × #fit) / 2`, which is 1.720 mm, at the socket collar, and it is
+  the same number on every socketed part in the robot. Run 3 measured 1.500 mm there on the
+  half-size part.
 
 ## Open questions to report on
 
