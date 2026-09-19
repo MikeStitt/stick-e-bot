@@ -1523,6 +1523,54 @@ part: the renders held beside the parent go stale with it, and the assembly's ow
 taken again. Every feature in this draft is added over REST, and the `/features` POST is at zero
 until about 16:17 on 2026-09-19. It is queued for then, with Ring 1's owed feature read.
 
+## A defect in how the whole robot is built: the collar's radius is computed again in each tab
+
+**Mike raised this on 2026-09-19, and it is the general fault the gripper's 18.000 mm is one
+instance of.** In his words, we recompute `#collarR` in several places rather than having sketches
+that use the geometry of the socket; that is CADing like a computer rather than like a person.
+
+**Where the same radius is written out.** `robot sizes` has no collar-radius row at all, so every
+tab that needs one makes its own.
+
+| Where | Written as | Name |
+| ----- | ---------- | ---- |
+| `make_plans.py` line 100 | `BALL / 2 + COLLAR_WALL` | `COLLAR_R` |
+| the `gripper` tab | `#ball / 2 + #wall` | `#collarR` |
+| the `foot` tab | `#ball / 2 + #wall` | `#collar_r` |
+
+The design source is entitled to hold it; the two tabs are each a second copy of a fact, which is
+[`derive-dont-maintain`](../../../../memory/derive-dont-maintain.md) in geometry rather than in
+prose. **And the two tabs spell the name differently**, `#collarR` against `#collar_r`, so a search
+for one does not find the other. That is part of why the gripper's went wrong without being seen.
+
+**The socket is right there, in every one of those tabs.** `copy socket` and `add socket` bring it
+in as a derived body, so the collar is a real cylindrical face with a real circular edge in the
+same Part Studio as the sketch that wants its size. A person builds the square by projecting that
+edge and constraining the four sides tangent to it; the square is then the collar's size because
+it is the collar's edge, and it follows the socket whatever the socket becomes. Nothing recomputes
+and nothing can disagree.
+
+**The model passes the letter of the rule and misses its point.** `cad-models-need-design-intent`
+and the `modeling-practice` skill ask for constraints and variables rather than magic coordinates,
+and the tabs do use variables. But a variable recomputed in a second place is not a relationship;
+it is a typed number with an expression's face on it, and it goes stale exactly the way a typed
+number does. The `onshape` skill says the same thing from the other side: *never type a number to
+place or size something a reference would have given you.*
+
+**Mike's second point: the briefs ask for dimensions where the design intent is tangency.**
+`gripper.md` § *Settled* states the intent outright; the body's top is *a square of the collar's
+diameter, coaxial with the socket and tangent to it on all four sides*. Then its numbers table
+gives **body width `2 × #collarR` = 15.6** and its acceptance check measures a width. What gets
+built is what the table says, so the tangency lives in a sentence nobody builds from and the
+number is what reaches the CAD. `foot.md` does the same at its ankle boss: *stands `#grip +
+#plate` = 14.2205 proud*, where the intent is that the boss's top and the socket's rim are the
+same face.
+
+**What that implies for the briefs, and it is not this draft's to do.** A step table that names the
+reference and the constraint builds the intent; one that names the length builds a number that was
+right once. Neither the briefs nor `make_plans.py` is draft9p5's to change, so this is registered
+and not acted on; it is the shape of the fix rather than the fix.
+
 ## Every Part Studio variable that shadows a `robot sizes` row
 
 [`scripts/c_shadowed_vars.py`](scripts/c_shadowed_vars.py) compares the studio's row names against
@@ -1650,6 +1698,12 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
+- **The collar's radius is computed again in each tab that needs it, rather than taken off the
+  socket's own geometry.** `make_plans.py` has `COLLAR_R`, the `gripper` tab has `#collarR` and the
+  `foot` tab has `#collar_r`, all spelling `#ball / 2 + #wall`, while `robot sizes` has no row for
+  it and the socket is a derived body in both tabs with the collar as a real face. Raised by Mike
+  on 2026-09-19 as CADing like a computer rather than like a person; § *A defect in how the whole
+  robot is built* above carries it, with the part the briefs play in causing it.
 - **The `gripper` tab redeclares `#wall` as `#torsoH / 32`, and the studio's row is
   `#torsoH * 3 / 160`.** 3.000 mm against 1.800 mm, so `#collarR` resolves to 9.000 mm in that tab
   and the clip body comes out 18.000 mm where the source asks for 15.600 mm, with the chamfer leg
