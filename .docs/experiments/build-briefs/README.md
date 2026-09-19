@@ -53,28 +53,7 @@ its feet pointing opposite ways before anyone noticed.
 
 The robot's origin is the **center of the torso**. Every station is computed in
 `src/stickbot/make_plans.py`, which holds them at module level so anything measuring
-the CAD can import them rather than copy the arithmetic. **Import them.** The table below is a
-printout, not a source; where it disagrees with the file, the file is right.
-
-```
-uv run python -c "from stickbot.make_plans import (
-    SOLE_Z, ANKLE_Z, KNEE_Z, HIP_Z, SH_Z, NECK_Z, HEAD_T, HEIGHT)
-print(SOLE_Z, ANKLE_Z, KNEE_Z, HIP_Z, SH_Z, NECK_Z, HEAD_T, HEIGHT)"
-```
-
-| Station | z | Station | z |
-| ------- | -- | ------- | -- |
-| ground, `SOLE_Z` | −178 | shoulder ball, `SH_Z` | +19.235 |
-| ankle, `ANKLE_Z` | −154 | neck, `NECK_Z` | +58 |
-| knee, `KNEE_Z` | −106 | top of head, `HEAD_T` | +137.4 |
-| hip, `HIP_Z` | −58 | whole figure, `HEIGHT` | 315.4 |
-
-Right-hand limbs only: the shoulder ball at x = 49.551 and y = −7.824, legs at x = 24 (`LEG_X`).
-
-These are the draft9p0 stations, at twice the size, and **nothing has been built to them yet.**
-The figure is 315.4 rather than a doubled 316.3, because the joint kept its own numbers while
-everything around it grew. The 1× stations that run 5 measured on an assembled figure are in this
-file's history; do not read across from them.
+the CAD can import them rather than copy the arithmetic.
 
 ## Every number says where it came from
 
@@ -130,9 +109,6 @@ names the document, the workspace to re-capture from, and the version the frame 
 
 **Take a frame again from the version named in the table, not from the workspace.**
 
-**The gripper's frames are the nearest CAD, not an agreeing one.** Its socket collar is Ø18 mm
-against the settled Ø15.6 mm.
-
 ### Taking a frame again
 
 The plain views are `shadedviews`, server-side, 1000 × 1000:
@@ -167,25 +143,6 @@ canvas, with the view cube left in and the right-hand toolbar strip cut off.
 **Its 8.833 px per mm is measured off the frame**, the Ø24 mm rod spanning 212 px;
 `onshape_screen.camera` returned nothing on that tab.
 
-## Every limb is a Ø24 cylinder
-
-`#limbD` = `#torsoH / 4` = 24. **Settled 2026-08-11, and the joints are sized to fit inside the
-limb — never the limb grown to fit a joint.** The hinge's fork is drawn as *full slices of the
-Ø24 limb*, so its geometry is derived from that circle: the blade's full chord at ±5.0 is 21.817,
-and its corners land **on** the Ø24 surface.
-
-The nozzle sets the floor, not the sizes, and it does not scale with the robot — so at twice the
-size the same wall is twice as many perimeters and the floor is further away than it was. The fork
-prong is 6.4 because that is what makes it as strong as the tab it presses against, not because of
-any number of passes. Where a dimension has a reason, the reason is in the part's own brief.
-
-Do not invent a section for a limb. If a brief seems to want one, that brief is wrong — say so
-rather than picking a number.
-
-The build plan's Stage 5 lists four *teaching routes* for the limbs — sloppy quadrilateral,
-ellipse, loft, filleted box — so that each limb teaches a different tool. **Those are tools, not
-sections.** Where a route cannot produce a Ø24 cylinder, the route gives way, not the diameter.
-Report it if you hit one.
 
 ## What every report must contain
 

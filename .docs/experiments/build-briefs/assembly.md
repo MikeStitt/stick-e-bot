@@ -1,6 +1,6 @@
 # Build brief — the assembly
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **Every station here moved on 2026-08-23 and nothing has been assembled at this size.** Run 4's
 measurements are kept below because the click path and the joint count are still what it found;

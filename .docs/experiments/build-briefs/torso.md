@@ -1,6 +1,6 @@
 # Build brief — the torso
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **This brief has never been gated or built from, and it was written without review.** Where a
 number is marked `proposed` nobody has checked it. Build to it, measure what you get, and say

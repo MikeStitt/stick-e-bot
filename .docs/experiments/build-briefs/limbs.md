@@ -1,6 +1,6 @@
 # Build brief — the limbs
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **Every number here moved on 2026-08-23 and none of them has been built.** The robot doubled.
 The limb's own sizes are a clean 2×; the joint's are not, because `#grip` and `#fit` did not

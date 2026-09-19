@@ -1,6 +1,6 @@
 # Build brief — the foot
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **Every number here moved on 2026-08-23 and none of them has been built.** The foot is a clean
 2×; the joint inside it is not, because `#grip` and `#fit` did not scale. Two of the open

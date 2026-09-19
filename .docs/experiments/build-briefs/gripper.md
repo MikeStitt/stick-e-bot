@@ -1,6 +1,6 @@
 # Build brief — the gripper
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **The robot doubled on 2026-08-23 and this part barely did.** The bar is still 3.2, the clip is
 still Ø10, and only the length and the socket grew. That is the thing this brief has always said

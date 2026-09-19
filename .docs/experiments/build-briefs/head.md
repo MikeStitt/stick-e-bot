@@ -1,6 +1,6 @@
 # Build brief — the head
 
-Read [`README.md`](README.md) first: deliverables, coordinate frame, and the settled Ø24 rule.
+Read [`README.md`](README.md) first: deliverables and coordinate frame.
 
 **Every number here moved on 2026-08-23 and none of them has been built.** The robot doubled and
 the joint did not, so the head's own sizes are a clean 2× while `#grip`, `#fit` and the shell wall
