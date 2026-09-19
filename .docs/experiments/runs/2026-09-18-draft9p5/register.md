@@ -1316,3 +1316,36 @@ every number falls out.
 stands 12.2205 mm proud where `head.md` says 10.947, and the slits are 6.2205 mm deep where it says
 4.947. Both are `#collar` at 10 mm and `#grip` at 2.2205 against draft9p1p1's 9 mm and 1.947 —
 the same one ruling, showing up in a third and fourth place.
+
+## The socket's wall is 1.72 mm, measured, in all four tabs that carry one
+
+A wall between two curved faces that share a centre or an axis is their radius gap, and that is a
+measurement rather than an estimate.
+
+| Tab | Wall | Between |
+| --- | ---: | ------- |
+| `ball and socket` | **1.72 mm** | the collar's outside to the cavity |
+| `head` | **1.72 mm** | the same pair, in the socket it derives |
+| `foot` | **1.72 mm** | the same |
+| `gripper` | **1.72 mm** | the same |
+
+That is the figure [`ball-and-socket.md`](../../build-briefs/ball-and-socket.md) gives — *the
+thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity*. The same tab
+yields two design numbers as a by-product: the cavity sphere to the ball is **0.08 mm**, which is
+`#fit`, and the collar's outside to the ball is **1.8 mm**, which is `#wall`.
+
+**What this does not answer.** The briefs ask for *the thinnest wall anywhere in the part*, and a
+wall between faces that are neither concentric nor coaxial is not a radius gap; finding it needs
+`evDistance` over `featurescript`. So this is the thinnest wall of the kind a face dump can measure
+exactly, and the general question is still open on all four.
+
+## `measure_walls.py` cannot read today's `bodydetails`
+
+The repo already has a tool for this and it finds nothing. It filters surfaces on `CYLINDER` and
+`SPHERE` where the route now answers `cylinder` and `sphere`, and it reads each vector as an
+`{x, y, z}` map where the route now answers a list. On every tab it prints *pairs found: 0* and
+then raises on the minimum of an empty sequence.
+
+**It is a shared tool and not this draft's to change**, so the measurement was made in
+[`scripts/c_walls.py`](scripts/c_walls.py) instead and the defect is named here. Two fields moved
+under it; it did not move with them.
