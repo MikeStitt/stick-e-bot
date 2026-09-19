@@ -1384,11 +1384,23 @@ being taken off the mouth — both settled after the brief that states the old n
 `brief-socket.svg` settles the fourth on the model's side: the sheet itself says **mouth Ø11.320
 mm**, so the design source's drawing and the model agree and one sentence of prose does not.
 
+**The head's 3 mm was a bounding box read as a dimension, and nothing disagrees.** This entry stood
+under *Open* saying no ruling accounted for the head measuring 63 mm fore and aft against `HEAD_D`
+60. The head's own front face is at y = -30.000 mm and its back face at y = +30.000 mm, so the head
+is 60.000 mm deep, face to face, exactly as `HEAD_D` computes. Each eye's end face is at
+y = -33.000 mm, which is the whole of the 3 mm: the eyes are in the box and the box is not the
+head. `head.md:67` says it outright; **The eye stands 3 proud; the mouth cuts 3 in**, and the
+mouth's floor measures y = -27.000 mm to match. Measured 2026-09-19 off the head's `bodydetails`,
+on Mike's question about how far the eyes protrude.
+
+**The same dump settles the eye's size on this build.** Each eye's end face is 100.531 mm², which
+is `math.pi * EYE_RX * EYE_RY` with `EYE_RX` 8 mm and `EYE_RY` 4 mm; the centres are at x +/-12.000
+mm and z +8.000 mm. The 102.0857 mm² that `stickbot-draft9p4-check` reproduces from
+[`head.rst`](../../../../instructions/stickbot-draft9p4/source/head.rst) is that page's defect and
+is not in this model.
+
 ## Open: nothing explains these, and they are decisions rather than corrections
 
-- **The head is 63 mm deep and `HEAD_D` computes 60.** This draft and draft9p1p1 both measure
-  63.000 mm fore and aft. No ruling accounts for the 3 mm. Either the head was built deeper than
-  the number that names it, or `HEAD_D` no longer describes the head.
 - **The feet touch, and two briefs disagree about whether they should.** `foot.md` gives a foot
   48.000 mm across, `assembly.md` puts each sole on its own leg at x ±24, and those two together
   leave a gap of **0.000 mm** — measured. `assembly.md` expects 16 mm with the inner edges at

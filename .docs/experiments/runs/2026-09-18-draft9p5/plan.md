@@ -635,8 +635,8 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Head`, read back
 - [ ] Parts (1) at the end.
-- [ ] 72.000 across, and 60.000 deep.
-- [ ] The head body is 72.000 tall, so the box above the collar runs z ±36.000 about the head
+- [x] 72.000 across, and 60.000 deep.  — x spans 72.000, the head's own faces y -30.000 to +30.000; the box reads 63.000 because the eyes stand 3.000 proud
+- [x] The head body is 72.000 tall, so the box above the collar runs z ±36.000 about the head  — z -36.000 to +36.000 above the collar
 - [ ] The socket center is 45.000 below the head center.
 - [ ] The collar stands 10.947 proud, measured as the z-extent from the underside to the rim, and
 - [ ] The rim is four arcs, not a circle — the check that the slits actually opened the mouth.
