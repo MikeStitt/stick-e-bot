@@ -34,11 +34,10 @@ The behavioral contract. Numbered for reference, not priority.
 
 - **Name a unit of work; do not number it.** An identifier is a dotted name in the style the plans
   already use for steps and requirements, `task.foot.sole_groove` beside `audit.page` and
-  `cad.parts.body.block`, and it is written into the plan that will do the work. A number coined in
-  a session's own task list dies with that session: the 193 this repository was built on are
-  invisible to any session but the one that made them, and the 107 places the repository cites one
-  resolve only because [`../../.docs/tasks.md`](../../.docs/tasks.md) was exported by hand. That
-  file is closed at #217 and is history; nothing appends to it.
+  `cad.parts.body.block`. Work a plan will do is named in that plan. Work with no plan yet is named
+  in [`../../.docs/open-work.md`](../../.docs/open-work.md), which is the one list of it.
+  [`../../.docs/tasks.md`](../../.docs/tasks.md) is the dictionary the numbers already cited
+  resolve against; it is history and nothing appends to it.
 
 - **Simplicity first.** Develop the simplest and minimum content (code, prose, or CAD) that solves
   the problem. Nothing speculative; no features beyond what was asked; no abstraction for single-use
@@ -145,7 +144,7 @@ instructions closer to a final product.
 
 `.docs/experiments/` almost entirely. `build-and-verify.md` says on its first line that it is
 superseded by `takes.md`. `build-briefs/` governs subagent runs we no longer do. `.docs/README.md`
-reads like an index but is not one — it is a working to-do list, and its state-of-play is stuck at
+reads like an index but is not one — it is working notes, and its state-of-play is stuck at
 run 2 and run 3.
 
 Paths in an archived record point at where a file lived when the record was written. They are not
@@ -305,5 +304,5 @@ working on — not all four.
   the `constitution-maintenance` skill. Invoke it before changing this file, any part, or any
   skill.
 
-**Version**: 8.0.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-18 | **Source**:
+**Version**: 8.1.0 | **Adapted**: 2026-08-09 | **Last amended**: 2026-09-19 | **Source**:
 mostrobotpy constitution v1.0.0, repurposed for this Onshape CAD course

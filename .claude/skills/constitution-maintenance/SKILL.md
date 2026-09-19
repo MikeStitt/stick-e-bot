@@ -58,6 +58,43 @@ checklist for any change to `constitution.md` or a part.
 
 ## Changelog
 
+- **8.1.0 (2026-09-19)** — MINOR: *Name a unit of work; do not number it* gains a home for work
+  no plan is doing. [`../../../.docs/open-work.md`](../../../.docs/open-work.md) is that home and
+  is the one list of it; the rule's last sentence now reads *"is the dictionary the numbers already
+  cited resolve against; it is history and nothing appends to it"* where it read *"is closed at
+  #217 and is history; nothing appends to it"*.
+
+  A new obligation and no principle removed, which is why this is MINOR. The case for MAJOR was put
+  to Mike and declined: a TODO written into `.docs/README.md` passed before and fails now, but the
+  old rule addressed only work a plan would do, so this fills a gap rather than redefining one.
+
+  _Why:_ the rule named a home for plan-tied work and none for anything else, so an un-planned unit
+  of work had nowhere to go and went to two places. `.docs/tasks.md` was reopened on 2026-09-18 and
+  took #218 through #226, which its own header recorded as contradicting this file;
+  `.docs/README.md` carried about twenty more as prose bullets with no identifier and no status,
+  and the Archive section called it *a working to-do list* while flagging its state-of-play as
+  stale. Three documents disagreed about where a TODO belongs.
+
+  _The argument that was in the rule is now here._ It read *"A number coined in a session's own task
+  list dies with that session: the 193 this repository was built on are invisible to any session but
+  the one that made them, and the 107 places the repository cites one resolve only because
+  `.docs/tasks.md` was exported by hand."* That is the reason for the rule, and 8.0.0 made *the
+  Constitution states rules, not why* binding with this changelog as the carve-out.
+
+  _Companion changes, same commit._ `.docs/open-work.md` is created and holds every open unit of
+  work: the four that were still pending in `tasks.md`, carried over under the dotted names they
+  already had — `task.reproduce.draft9p4`, `task.capture.tutorials_1_to_5`, `task.hinge.ear_rename`
+  and `task.briefs.section_retakes` — and seventeen moved out of `.docs/README.md`, each given a
+  name and its prose carried across unchanged. `.docs/tasks.md`'s header drops *Reopened 2026-09-18*
+  and *This contradicts the Constitution*, and says the four open entries moved by name; its records
+  stay, because four of #218 to #226 are completed work and the numbers are cited.
+  `.docs/README.md` keeps its narrative sections and points at the new file. The Archive section's
+  line about that README says *working notes* rather than *a working to-do list*.
+
+  _Config companion._ None, by the same reasoning 5.9.0 used when it dropped a sixth gate: no check
+  reads a task identifier, and the set one would check is not closed. `ninja check` was run and
+  watched green on all five, over the new file as a tracked one.
+
 - **8.0.0 (2026-09-18)** — MAJOR: `parts/prose-style.md` gains **Turn a 'why' into a 'when'**, and
   stops permitting a reason in a rule's body.
 

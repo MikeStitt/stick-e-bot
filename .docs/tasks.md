@@ -4,16 +4,17 @@ Every task number this repository cites, and what it meant. The numbers were coi
 Claude Code task store keyed by session id, which is not in git and does not survive the
 session that made it; the repository cites them 107 times, so the definitions live here.
 
-**Reopened 2026-09-18 by Mike**, having been closed at 217 on 2026-09-16. #218 through #226
-are appended below, and the four tasks that had been carrying only a dotted name are folded
-back into the entries they belong to. #219 is absent: it was written and deleted on the same
-day, and what it claimed was wrong.
+**Closed, and this file is the dictionary.** It was closed at 217 on 2026-09-16, reopened on
+2026-09-18 for #218 through #226, and closed again on 2026-09-19 when the Constitution gained
+a home for work no plan is doing. #219 is absent: it was written and deleted on the same day,
+and what it claimed was wrong.
 
-**This contradicts the Constitution.** Its Working Rule *Name a unit of work; do not number
-it* says of this file that it "is closed at #217 and is history; nothing appends to it".
-[`../.claude/rules/constitution.md`](../.claude/rules/constitution.md) line 41 and the
-`constitution-maintenance` skill both carry that sentence. Amending either is governed work
-and has not been done, so the rule and this file disagree.
+**The four of those that were still open moved to
+[`open-work.md`](open-work.md)**, under the dotted names they already carried:
+`task.reproduce.draft9p4` was #221, `task.capture.tutorials_1_to_5` was #224,
+`task.hinge.ear_rename` was #225 and `task.briefs.section_retakes` was #226. Their entries stay
+below as the record of where the name came from. Nothing appends here again; new work is named
+in the plan that will do it, or in `open-work.md` when no plan will.
 
 An open task carries its identifier name and the plan or file that holds it. Status is as of
 2026-09-18 for #209 and for #218 onward, and as at the 2026-09-16 export for everything
