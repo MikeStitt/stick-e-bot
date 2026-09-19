@@ -644,7 +644,7 @@ and constraints before the next feature runs.**
 - [x] Socket mouth Ø11.520.  — Ø11.320, off a rim arc's radius of 5.660; settled in the register
 - [x] The cavity center sits 2.2205 above the rim plane, not below it.  — 2.2205 above
 - [ ] Shell thickness 1.200 at three places, one of them next to a cut.  — NOT PERFORMED: there is no shell. The head is solid at 263588.0 mm³ and the brief contradicts itself; see the register
-- [ ] The profile is tangent throughout — no crease where an arc meets a line.
+- [x] The profile is tangent throughout; no crease where an arc meets a line.  — both line-to-arc joins measure 0.0000 deg; the only creases are the arch's two 90 deg line-to-line corners at the bottom
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-head-iso.png, -right.png,  — same part
@@ -709,7 +709,7 @@ and constraints before the next feature runs.**
 - [x] Length 96.000, width 48.000, off the model's bounding box.  — 96.000 x 48.000 measured
 - [x] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.  — sole at z -24.000, ball centre (0.000, 0.000, 0.000), ankle height 24.000
 - [x] The part is symmetric about its own fore-and-aft centerline.  — every face has its mirror about x = 0
-- [ ] The outline is tangent throughout — no corner where an arc meets a line.
+- [x] The outline is tangent throughout; no corner where an arc meets a line.  — all four corners measure 0.0000 deg
 - [x] Socket mouth Ø11.520 and cavity volume 689.06 mm³.  — Ø11.320 and 717.140; the mouth is settled and the volume is a conflict between two briefs, both in the register
 - [x] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as  — 14.2205, plate top at z -12.000 and rim at z 2.2205
 - [x] The sole ribs exist and removed material.  — eight groove floors at z -22.000, each 2.000 above the sole

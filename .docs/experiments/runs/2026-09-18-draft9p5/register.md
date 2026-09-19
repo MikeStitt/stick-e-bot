@@ -1422,6 +1422,26 @@ the hollow rather than closing into the ring.
 was taken against a 36-face gripper and the part now reports 30 faces, so the face indices it names
 no longer resolve. Re-taking it needs `featurescript`.
 
+## The two tangency checks, measured off the profile rather than the whole part
+
+`head.md` and `foot.md` each ask that a profile be tangent throughout, with no crease where an arc
+meets a line. [`scripts/c_tangency.py`](scripts/c_tangency.py) walks the extrude's end cap around
+its outer loop and reports the angle at each corner: the direction the one curve leaves by against
+the direction the next arrives by, which is zero where they run into each other smoothly.
+
+**`head`: both line-to-arc joins measure 0.0000 deg.** They are where the vertical sides meet the
+domed top, and they are the joins the check is about. The profile's other two corners are the
+bottom ones, at 90.0000 deg, line to line; an arch is meant to have those.
+
+**`foot`: all four corners measure 0.0000 deg.** Heel arc to line to toe arc to line, tangent the
+whole way round.
+
+**The first two attempts at this measured the wrong thing**, and are worth naming because the
+numbers looked plausible both times. Comparing surface normals at every shared edge reports the
+eyes and the socket as creases, which they are and which no brief objects to. Narrowing that to
+edges running along the extrude still caught the socket's slit walls, because a slit cut down the
+collar has walls parallel to the extrude too. Only the end cap's own loop is the profile.
+
 ## The head has no shell, and its brief asks for one twice and omits it once
 
 [`head.md`](../../build-briefs/head.md) carries two build orders that disagree.
