@@ -762,3 +762,29 @@ opened.
 **A selection is not a parameter.** Writing a body's id into `originQuery` is accepted and does
 nothing, because those fields take a picked entity. Where a parent's record carries an empty
 selection, the pick has to be made, and the place to make it is the dialog.
+
+## Ring 3, what is measured and what is not
+
+**Every printed part is one solid, and carries its name.** Measured on each tab: `body` `Torso`,
+`head` `Head`, `foot` `Foot`, `gripper` `Gripper`, `u limb` `upper limb`, `l limb` `lower limb` —
+one body and one part each. `ball and socket` and `hinge` hold two apiece and are scaffolding the
+robot derives from rather than parts anyone prints.
+
+**The assembly reads 14 instances and 13 mate features, none in error.** Seen in the tab itself:
+every mate connector triad is placed, every mate row is clean, and the figure stands on its feet.
+
+**Degrees of freedom: what Onshape reports here is per instance, not a number.** Each of the
+fourteen carries the figure icon that marks an instance free to move, which is what a posable robot
+should show. No total appears on screen, so no total is written down.
+
+**The interference check has not been run, and the tool is not called *Interference* here.**
+Onshape's *Search tools* answers *No items match your search* for that word in this assembly.
+Rather than invent a name, this is left open: find what the tool is called by reading the assembly
+toolbar, then run it.
+
+**Still open in Ring 3:** every joint moved through its range, the interference check, and the
+print files exported.
+
+**Still owed on every tab:** Ring 1's feature read — the parameters compared one by one, every
+`featureStates` entry, and `rollbackIndex` against the count — which waits on the `/features`
+quota, about 19 hours out at this tick.
