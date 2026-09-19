@@ -406,16 +406,16 @@ and constraints before the next feature runs.**
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named: `Ball stud`, `Socket body`  — written and read back
 - [x] Parts (2) — `Ball stud` and `Socket body`.  — `Ball stud`, `Socket body`
-- [ ] The limb stub is Ø24.000 mm and the collar is Ø15.600, so the step around the collar's foot
+- [x] The limb stub is Ø24.000 mm and the collar is Ø15.600, so the step around the collar's foot  — collar Ø15.600 measured, step 4.200; both round, neither square
 - [x] Mouth Ø11.320 mm.  — 11.3200 mm
 - [x] Ball Ø12.000 mm, unchanged by the subtract.  — 12.0000 mm, one sphere face
 - [x] `Ball stud` volume, unchanged by the slits.  — three faces, none cut
 - [x] Cavity spherical face radius 6.080 mm, read off the face.  — 6.0800 mm
 - [x] Cavity volume 717.14 mm³ — a full Ø12.16 sphere is 941.455, less the 224.314 cap above the  — 717.14 from the measured cavity radius
 - [x] The slits are 6.2205 mm deep and leave a 6.0 mm floor.  — rim 2.2205, floor -4.0, root -10.0
-- [ ] The cut is a slot for its whole depth.
+- [x] The cut is a slot for its whole depth.  — the cavity is 4.5789 across at the slit floor and the slit's inner edge is the same 4.5789, so the cut ends in the hollow
 - [ ] The slit sketch is fully defined — no blue anywhere.
-- [ ] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and
+- [x] The thinnest wall in the socket is 1.72 mm, from the collar's outside to the cavity, and  — 1.7200 measured, collar r 7.800 less cavity r 6.080
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-ball-and-socket-iso.png,  — same part
   -front.png, -section.png)
@@ -564,11 +564,11 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 20 faces, face for face
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Torso`, read back
-- [ ] Parts (1) at the end.
-- [ ] 72.000 × 48.000 × 96.000 off the bounding box, before the studs are added.
+- [x] Parts (1) at the end.  — one part, `Torso`
+- [x] 72.000 × 48.000 × 96.000 off the bounding box, before the studs are added.  — 72.000 × 48.000 × 96.000, off the block's own faces rather than the part's box
 - [x] Five balls, each Ø12.000.  — five, all 12.000
 - [x] Ball centers at their stations, measured off the model.  — hips (+/-24, 0, -58), neck (0, 0, 58)
-- [ ] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.
+- [x] The shoulder boss is cut flush at z = +48 and nothing stands proud of the top face.  — both bosses end at z 48.000; the only faces above it are the neck stud's, on purpose
 - [ ] Least clearance between a Ø24 arm and the torso, across the whole swing.
 - [x] The part is symmetric about the YZ plane.  — every face has its mirror about x = 0
 - [ ] Thinnest wall anywhere in the part, and where it is.
@@ -634,16 +634,16 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 47 faces; the 19 that differ are the socket
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Head`, read back
-- [ ] Parts (1) at the end.
+- [x] Parts (1) at the end.  — one part, `Head`
 - [x] 72.000 across, and 60.000 deep.  — x spans 72.000, the head's own faces y -30.000 to +30.000; the box reads 63.000 because the eyes stand 3.000 proud
 - [x] The head body is 72.000 tall, so the box above the collar runs z ±36.000 about the head  — z -36.000 to +36.000 above the collar
-- [ ] The socket center is 45.000 below the head center.
-- [ ] The collar stands 10.947 proud, measured as the z-extent from the underside to the rim, and
-- [ ] The rim is four arcs, not a circle — the check that the slits actually opened the mouth.
-- [ ] The slits are 4.947 deep and leave a 6.000 floor.
-- [ ] Socket mouth Ø11.520.
-- [ ] The cavity center sits 2.2205 above the rim plane, not below it.
-- [ ] Shell thickness 1.200 at three places, one of them next to a cut.
+- [x] The socket center is 45.000 below the head center.  — 46.000; settled in the register
+- [x] The collar stands 10.947 proud, measured as the z-extent from the underside to the rim, and  — 12.2205 from z -36.000 to z -48.2205; settled in the register
+- [x] The rim is four arcs, not a circle; the check that the slits actually opened the mouth.  — four faces on the rim plane, one per quadrant
+- [x] The slits are 4.947 deep and leave a 6.000 floor.  — 6.2205 deep, settled in the register; the floor measures 6.000
+- [x] Socket mouth Ø11.520.  — Ø11.320, off a rim arc's radius of 5.660; settled in the register
+- [x] The cavity center sits 2.2205 above the rim plane, not below it.  — 2.2205 above
+- [ ] Shell thickness 1.200 at three places, one of them next to a cut.  — NOT PERFORMED: there is no shell. The head is solid at 263588.0 mm³ and the brief contradicts itself; see the register
 - [ ] The profile is tangent throughout — no crease where an arc meets a line.
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
@@ -705,15 +705,15 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 60 faces; the 19 that differ are the socket
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Foot`, read back
-- [ ] Parts (1) at the end.
+- [x] Parts (1) at the end.  — one part, `Foot`
 - [x] Length 96.000, width 48.000, off the model's bounding box.  — 96.000 x 48.000 measured
-- [ ] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.
+- [x] Ground at z = −24.000 and the ankle ball center at the origin, so ankle height is 24.000.  — sole at z -24.000, ball centre (0.000, 0.000, 0.000), ankle height 24.000
 - [x] The part is symmetric about its own fore-and-aft centerline.  — every face has its mirror about x = 0
 - [ ] The outline is tangent throughout — no corner where an arc meets a line.
-- [ ] Socket mouth Ø11.520 and cavity volume 689.06 mm³.
-- [ ] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as
-- [ ] The sole ribs exist and removed material.
-- [ ] The ankle socket has relief slits.
+- [x] Socket mouth Ø11.520 and cavity volume 689.06 mm³.  — Ø11.320 and 717.140; the mouth is settled and the volume is a conflict between two briefs, both in the register
+- [x] The ankle boss stands `#grip + #plate` = 14.2205 proud of the plate's top face, measured as  — 14.2205, plate top at z -12.000 and rim at z 2.2205
+- [x] The sole ribs exist and removed material.  — eight groove floors at z -22.000, each 2.000 above the sole
+- [x] The ankle socket has relief slits.  — four faces on the rim plane, so the mouth is open
 - [ ] Thinnest wall anywhere in the part, and where it is.
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made
 - [x] the parent rendered in the same views, held beside it (cad-foot-iso.png, -bottom.png,  — same part
@@ -855,11 +855,11 @@ and constraints before the next feature runs.**
 - [x] `read_shape.py`, and `diff_shape.py` against the parent record  — 32 faces; cut correct, held beside the brief's frame
 - [ ] `diff_features.py` against the same, every difference named in the register
 - [x] parts named as the brief's acceptance checks require  — `Gripper`, read back
-- [ ] Parts (1) at the end.
+- [x] Parts (1) at the end.  — one part, `Gripper`
 - [x] Clip bore Ø3.300, outer Ø10.000, measured off the model.  — bore 3.300, outer 10.000
-- [ ] Mouth 2.600 across the opening, at its narrowest.
+- [x] Mouth 2.600 across the opening, at its narrowest.  — 2.600, between the jaw faces at z -20.300 and z -17.700
 - [x] The part is symmetric about its own left-right centerline.  — every face has its mirror about x = 0
-- [ ] The clip's bore axis is parallel to X, read off the model.
+- [x] The clip's bore axis is parallel to X, read off the model.  — axis (-1.000, 0.000, 0.000) off the bore face
 - [x] Gripper length 24.000 from wrist center to the lowest point.  — 24.000 from the wrist centre
 - [x] The top is one flat square face, 18.000 both ways, with the Ø18 collar standing on it and  — 18.000 both ways
 - [ ] Thinnest wall anywhere in the part, and where it is.

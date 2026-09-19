@@ -27,10 +27,17 @@ Written by Phase A0 on 2026-09-18. The machine-readable copy, as Onshape returne
 | 7 | `u limb` | Part Studio | `fc89b8128993be73a0c9f092` |
 | 8 | `l limb` | Part Studio | `be3bd8b485e32946c24ed799` |
 | 9 | `gripper` | Part Studio | `a3a4fac68ffb7372a7803003` |
-| 10 | `stickbot` | Assembly | `599b6d255571795de9383404` |
+| 10 | `stickbot` | Assembly | `c81b630354bd0739d788a42d` |
 
-The Assembly brings a Bill of Materials element with it, `937ec17d8a0a1f8976673f8c`, which is not
+The Assembly brings a Bill of Materials element with it, `cc25ef6cbcdced6c0877d72b`, which is not
 one of the ten tabs and is left alone.
+
+**The Assembly's element id changed on 2026-09-18, and so did the Bill of Materials' with it.**
+The first assembly, `599b6d255571795de9383404`, would not delete its mates reliably by id and
+ended up holding twenty-six mates made from thirteen; it was deleted and rebuilt, which is a new
+element and a new id. The ids above are the live ones, read back from
+`/api/documents/d/{did}/w/{wid}/elements` on 2026-09-19. The old id answers `Element not found.`
+and [`../register.md`](../register.md) says how the duplicate mates arose.
 
 ## A second document of the same name, trashed
 

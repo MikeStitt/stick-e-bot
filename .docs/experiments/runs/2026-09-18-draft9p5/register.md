@@ -1369,6 +1369,111 @@ cylinder and a sphere whose axes meet rather than between two faces sharing an o
 That is the tool's stated scope, not a defect, and
 [`scripts/c_walls.py`](scripts/c_walls.py) measures the wider case for this run.
 
+## Ring 2's acceptance, taken off the face dump while `/features` was refused
+
+2026-09-19. `features` GET answered `retry-after: 29124` with `x-rate-limit-remaining: 0`, and
+`featurescript` `29020`, so both reset about 16:15 that afternoon. `parts`, `bodydetails`,
+`boundingboxes`, `sketches`, `assemblies` and `documents` all answered throughout.
+
+[`scripts/c_accept_faces.py`](scripts/c_accept_faces.py) takes every acceptance number a face dump
+can reach: a sphere's centre and radius, a cylinder's axis, a planar face's position, and an arc's
+radius from three points on it. It reads both shapes the route answers in; the per-part path gives
+`PLANE` with `{x, y, z}` maps where the element path gave `plane` with lists, which is the split
+`measure_walls.py` was fixed for and here they turned up in one session.
+
+**What passed, and what differs.**
+
+| Tab | Check | Measured | The brief asks |
+| --- | ----- | -------: | -------------: |
+| `ball and socket` | collar outside to the cavity | 1.7200 mm | 1.72 mm |
+| `ball and socket` | step around the collar's foot in a Ø24 limb | 4.2000 mm | 4.2 mm |
+| `ball and socket` | cavity radius at the slit floor | 4.5789 mm | 4.5789 mm |
+| `ball and socket` | the slit's inner edge, as a radius | 4.5789 mm | inside the cavity |
+| `body` | the block, off its own faces | 72.000 × 48.000 × 96.000 mm | the same |
+| `body` | both shoulder bosses end at | z 48.000 mm | z +48 |
+| `head` | socket centre below the head centre | 46.000 mm | 45 mm |
+| `head` | collar proud of the underside | 12.2205 mm | 10.947 mm |
+| `head` | cavity centre above the rim plane | 2.2205 mm | 2.2205 mm |
+| `head` | rim faces | four | four arcs |
+| `head` | slit depth from the rim | 6.2205 mm | 4.947 mm |
+| `head` | floor left above the slit | 6.000 mm | 6.000 mm |
+| `head` | mouth diameter, off a rim arc | Ø11.320 mm | Ø11.520 mm |
+| `foot` | sole, ankle ball centre, ankle height | z -24.000 mm, origin, 24.000 mm | the same |
+| `foot` | groove floors, and their depth | eight at z -22.000 mm, 2.000 mm | one per rib |
+| `foot` | ankle boss proud of the plate | 14.2205 mm | 14.2205 mm |
+| `foot` | cavity volume | 717.140 mm³ | 689.06 mm³ |
+| `gripper` | mouth across the opening | 2.600 mm | 2.600 mm |
+| `gripper` | bore axis | (-1.000, 0.000, 0.000) | parallel to x |
+
+Each row that differs is one of the two rulings already settled, or the cavity volume below.
+
+**The step around the collar's foot needed two tabs.** `ball and socket` holds the collar and no
+limb, so the Ø24.000 mm comes from the limb tabs and the 4.200 mm is the half-difference. Both
+faces are cylinders, which is the *if either is square, stop and say so* half of that check.
+
+**The slit's inner edge and the cavity meet at the same radius.** At the slit floor the cavity is
+4.5789 mm across the axis and the slit's inner corner measures 4.5789 mm, because the slit face
+ends where the cavity surface starts. That is the check passing: the bottom of the cut opens into
+the hollow rather than closing into the ring.
+
+**The gripper carries one sliver face.** `Jem`, on the clip's top at y 4.828 mm to 5.000 mm, is
+0.171957 mm wide where the flat top nearly runs tangent to the Ø10 outside. **It is not the
+0.16624 mm** left unexplained below, and the two cannot be reconciled from here: that measurement
+was taken against a 36-face gripper and the part now reports 30 faces, so the face indices it names
+no longer resolve. Re-taking it needs `featurescript`.
+
+## The head has no shell, and its brief asks for one twice and omits it once
+
+[`head.md`](../../build-briefs/head.md) carries two build orders that disagree.
+
+- § *Suggested build order*, item 9: **Shell** last, thickness 1.2, **opening the back face**.
+- § *Acceptance checks*: **Shell thickness 1.200** at three places, one of them next to a cut.
+- § *Recommended steps*, the table: fourteen rows ending at `head mate`, with no shell in it.
+
+The plan's Tab 5 was derived from that table, and so was the model. The parent record
+[`head.features.json`](../2026-08-29-draft9p3/reference/head.features.json) has no shell either, so
+no head in this project has ever been shelled.
+
+**Measured: the head is solid, 263588.0 mm³.** The brief predicts the shell's effect itself; its
+§ *The idea being tested* works out *roughly 23200 mm³ of wall inside a 266720 mm³ solid; about
+91%*. The solid it predicted is the part that exists, to within the rounding of its own arithmetic,
+and the wall it predicted is not there.
+
+**This is a design decision, not a correction.** Shelling the head removes about nine tenths of its
+plastic and changes what the socket sits in; the brief's own § *Why the shell opens the back* says
+the underside was refused four ways by run 3 and that the diagnosis was made against a part the
+brief no longer describes. Nothing in the model is wrong against the table it was built from.
+
+## Two briefs give the socket's cavity two volumes
+
+It is one socket, derived into `head`, `foot`, `gripper` and both limbs, so it has one cavity.
+
+- [`ball-and-socket.md`](../../build-briefs/ball-and-socket.md) line 255: **717.14 mm³**, with the
+  arithmetic beside it; a Ø12.16 sphere is 941.455 mm³, less the 224.314 mm³ cap above the mouth
+  plane.
+- [`foot.md`](../../build-briefs/foot.md) line 110 and
+  [`limbs.md`](../../build-briefs/limbs.md) line 122: **689.06 mm³**.
+
+**Measured 717.140 mm³**, from the cavity sphere's own radius of 6.0800 mm and the rim plane
+2.2205 mm above its centre. The model agrees with `ball-and-socket.md` and with that brief's shown
+working. 689.06 mm³ needs the rim about 1.95 mm from the centre instead of 2.2205 mm, which is the
+`#grip` the collar ruling moved.
+
+## The assembly's element id had moved, and `results/ids.md` had not
+
+`/api/assemblies/.../e/599b6d255571795de9383404` answers **Element not found.** That element was
+deleted and rebuilt on 2026-09-18, when its mates would not delete reliably by id and it ended up
+holding twenty-six mates made from thirteen. The live ids, read back from the document's own
+element list, are `c81b630354bd0739d788a42d` for the assembly and `cc25ef6cbcdced6c0877d72b` for
+the Bill of Materials that comes with it. [`results/ids.md`](results/ids.md) is corrected and says
+why they changed.
+
+**Reading a point in the assembly works, and it is two steps.** The assembly returns fourteen
+occurrences, each with a 4 × 4 row-major transform, alongside the thirteen mate features; a part's
+own `bodydetails` gives every vertex as a point and every edge as start, mid and quarter points,
+so a point in assembly space is the part's point through its occurrence's transform. Mike asked
+whether this was easy; it is, and it survives the 429 that stops `featurescript`.
+
 # The design's defects, in one place
 
 Ring 4's *What the briefs and the design source owe* named four of these and was written before the
@@ -1415,6 +1520,15 @@ is not in this model.
 
 ## Open: nothing explains these, and they are decisions rather than corrections
 
+- **The head has no shell, and `head.md` both requires one and omits it.** Its
+  § *Suggested build order* and its § *Acceptance checks* call for a 1.2 mm shell; its
+  § *Recommended steps* table, which the plan and the model follow, has no shell in it. The head
+  measures 263588.0 mm³ solid. Shelling it is a design decision, not a correction; § *The head has
+  no shell* above carries the sources.
+- **The socket's cavity has two volumes in the briefs.** `ball-and-socket.md` says 717.14 mm³ with
+  its arithmetic shown; `foot.md` and `limbs.md` say 689.06 mm³. It is one derived socket.
+  Measured 717.140 mm³, so the model follows `ball-and-socket.md`, and 689.06 mm³ is the figure the
+  collar ruling moved.
 - **The arms reach about 14 mm past mid-thigh, not to it.** The gripper's lowest point is
   z -204.765 mm and the thigh's middle is z -190.9 mm. `assembly.md` calls this *a pure ratio, so
   it should survive the doubling exactly; check it on the assembly, because if it does not,
