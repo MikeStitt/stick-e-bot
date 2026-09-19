@@ -1096,3 +1096,23 @@ geometry at all. Counting those as failures is what made an earlier pass report
 **What this is worth.** It is the half of *Model inspected* that a picture cannot give: a render
 shows the part, and this shows that no feature in the tree is sitting there doing nothing. Held
 with the face-for-face diffs against the parents, every feature is both present and effective.
+
+## The ball joint's swing, from the model's own geometry
+
+Every input is measured on this draft: the stalk Ø6.000 mm, the cavity sphere r 6.080 mm and the
+rim at z 2.2205 mm. Put through `make_plans`' derivation — `acos(stalk/2 / cavity) − asin(grip /
+cavity)` — the joint this model builds allows **39.0132° per side**, which is `BALL_SWING` exactly
+and the ±39.013° [`assembly.md`](../../build-briefs/assembly.md) states, so 78.0° of cone.
+
+**This is the geometry's limit, not a posed measurement, and the brief asks for the posed one.**
+*Every ball joint's actual swing, measured by posing it until it stops* means driving the mate to
+its stop in the assembly, which this draft has not done. What is established is that the socket and
+stalk it built leave room for the swing the design derives; whether the ball mate reaches it is the
+brief's own follow-up question and is still open.
+
+**The neck is excluded on the brief's own instruction.** It says the head's underside binds on the
+torso's top face well inside the joint, so that angle is measured rather than assumed from the
+socket — and it has not been measured here.
+
+**The hinge's range is its 15° step**, which is measured: 96 cone faces on each body, four to a
+wedge, twenty-four wedges, 360/24.
