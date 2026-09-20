@@ -1131,6 +1131,22 @@ count times fifty, plus the eighty-four byte preamble, is exactly the file's len
 | `upper limb` | 6306 | 315384 |
 | `Gripper` | 4110 | 205584 |
 
+**Re-exported on 2026-09-20, after the gripper's clip body changed.** The table above was taken
+before that fix, so the `Gripper` row was owed a retake the same way its renders were.
+
+**Its triangle count came back identical, 4110, and the file is the new part.** The count alone
+would not have told: the body went from 18.000 mm square to 15.600 mm and the platform split from
+one face into four lobes, and the tessellation still produced 4110 triangles. What settles it is
+the file's own vertices, which span **15.6000 mm** in x and in y and run z -24.0000 mm to
+2.2205 mm. **A triangle count is not a fingerprint**, and an export checked only by its count can
+be stale and look right;
+[`counts-catch-what-dimensions-miss`](../../../../memory/counts-catch-what-dimensions-miss.md) is
+the same lesson from the other side.
+
+**The export script is a run script now**, [`scripts/c_export_stl.py`](scripts/c_export_stl.py).
+The first one was a throwaway and was gone when it was wanted again, which is the test the
+Constitution names for moving a probe out of the scratchpad.
+
 **The export needed a client the rest of this draft does not use.** `/stl` answers with a redirect
 to another host, and every other call here is a `fetch` from inside the Onshape page, which is
 same-origin: it dies with *Failed to fetch* and says nothing about why. Playwright's own request
