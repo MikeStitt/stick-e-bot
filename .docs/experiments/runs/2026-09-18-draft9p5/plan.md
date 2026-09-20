@@ -925,7 +925,7 @@ and constraints before the next feature runs.**
 - [x] Every ball joint's actual swing, measured by posing it until it stops.  — NOT BY POSING, and the record says why: all thirteen mates carry `limitsEnabled: False`, so nothing stops a drag. Taken off the geometry instead: the neck reaches the torso at 45.240 nodding and 36.870 sideways, the shoulder's arm at 33.2722, against `BALL_SWING` 39.0132
 - [x] The shoulder interferes again, and this check is now the interesting one.  — not at rest: the interference check reports none, and the arm clears by +1.5509. It fouls at 33.2722 deg of tilt, computed rather than driven, on the edge between the torso's side and front
 - [x] Nothing interferes at rest.  — Onshape's Interference detection, all fourteen instances selected: `No interferences`
-- [ ] The arms reach mid-thigh.  — MEASURED and it does not pass: the grippers reach z -204.765 and mid-thigh is z -190.890, so 13.875 past it
+- [x] The arms reach mid-thigh.  — they pass it by 18.765, joint to joint, and always have: the arm is 120.000 and the shoulder sits 101.235 above mid-thigh. Both doubled exactly, so nothing scaled wrongly; the brief's premise that they are equal was never true
 - [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
 - [x] The feet touch, and the gap is 0 mm.  — measured 0.000 mm, inner edges at x 0; assembly.md fixed 2026-09-19
 - [x] every feature above seen in a view that shows it, with a verdict  — per part by render against the parent's frame, and per feature by what each one made

@@ -1661,6 +1661,49 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## The arms' reach: nothing scaled wrongly, and the premise was never true
+
+[`assembly.md`](../../build-briefs/assembly.md): *The plan sets shoulder-to-gripper equal to the
+distance from the shoulder to mid-thigh, both 120. This is a pure ratio, so it should survive the
+doubling exactly; check it on the assembly, because if it does not, something scaled that should
+not have.*
+
+**It survived the doubling exactly. The two were never equal.**
+
+| | At this size | At half size | Ratio |
+| - | -----------: | -----------: | ----: |
+| the arm, `2 × #limbCenter + #gripperL` | **120.000 mm** | 60.000 mm | 2.0000 |
+| shoulder ball down to mid-thigh | **101.235 mm** | 50.618 mm | 2.0000 |
+
+Both doubled to the digit, so the test the brief proposed passes and its conclusion does not
+follow. **For the two to be equal, the shoulder ball would have to sit 96.000 mm above the hip; it
+sits 77.235 mm above it**, and did at half size too.
+
+**So the arm passes mid-thigh by 18.765 mm**, measured joint to joint, and the figure has always
+done so.
+
+### Three numbers, and which one to quote
+
+**This register said 13.875 mm and that depended on an unstated choice.** The differences are worth
+naming because each is defensible and they are not the same measurement.
+
+- **18.765 mm**, the arm's reach against mid-thigh taken as halfway from the hip joint to the knee
+  joint. This is the one that matches how the brief describes both quantities, and it is the figure
+  to quote.
+- **13.875 mm**, which this register carried, takes mid-thigh as the middle of the thigh *part's*
+  bounding box, z -190.890 mm. That box runs from z -222.000 mm to -159.779 mm, past both joints,
+  because the socket and the fork stand proud of the centres they turn about.
+- **9.422 mm**, what `make_plans` itself draws, because its arm is posed: `GB_Z` puts the gripper
+  110.658 mm below the shoulder with the arm at 33.13 deg and the elbow bent 45 deg.
+  `plan-assembly.svg` says so on its face; *elbows bent 45 deg for the picture; the assembly is
+  saved at rest*. At rest the arms hang straight and the drop is the full 120.000 mm, which the
+  assembly measures.
+
+**Nothing here is a model defect.** The arm is the length the design gives it and the leg stations
+are where the design puts them. What is wrong is one sentence in a brief, and the decision it
+invites — whether the arms should reach mid-thigh, and which of the shoulder height, the limb
+length or the hip station moves if they should — is Mike's.
+
 ## The interference check, run: no interferences at rest
 
 **It was never a toolbar tool, and I looked for it in the wrong place for a day.**
@@ -2262,11 +2305,15 @@ is not in this model.
   a Ø12.16 sphere less the cap the mouth plane cuts, with the plane 1.9465 mm off centre instead of
   2.2205 mm. So it moved with the mouth's Ø11.520, and it was never an independent question.
   `foot.md` and `limbs.md` now read 717.14 mm³ with the arithmetic beside it.
-- **The arms reach 13.875 mm past mid-thigh, not to it.** The gripper's lowest point is
-  z -204.765 mm and the thigh's middle is z -190.890 mm, both measured in the assembly through the
-  occurrence transforms on 2026-09-19. `assembly.md` calls this *a pure ratio, so
-  it should survive the doubling exactly; check it on the assembly, because if it does not,
-  something scaled that should not have.* It did not.
+- **The arms pass mid-thigh by 18.765 mm, and always have.** `assembly.md` calls this *a pure
+  ratio, so it should survive the doubling exactly; check it on the assembly, because if it does
+  not, something scaled that should not have.* **It did survive**: the arm and the shoulder-to-
+  mid-thigh distance both double to the digit, 60.000 to 120.000 and 50.618 to 101.235. What is
+  untrue is the premise that they are equal at 120; for that the shoulder ball would have to sit
+  96.000 mm above the hip and it sits 77.235 mm above it. A sentence in a brief is wrong and no
+  part is; whether the arms should reach mid-thigh, and what moves if they should, is a design
+  decision. § *The arms' reach* above carries it, with the three different numbers this has been
+  quoted as and why they differ.
 - ~~**The robot's height is given twice and differently.**~~ **Fixed 2026-09-19; it was the same
   settled ruling, and calling it unresolved was my error.** `make_plans` has
   `HEAD_B = NECK_Z + COLLAR_L` and `HEAD_T = HEAD_B + HEAD_H`, so the height moves with the collar:
