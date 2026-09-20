@@ -1716,8 +1716,20 @@ approach *is* has not all been worked out**, and saying so is the point of recor
 [`c_thinnest_wall.py`](scripts/c_thinnest_wall.py) reported**, 1.7200 mm and 9.0000 mm, and that is
 the analytic method behaving as documented rather than disagreeing with itself: it answers pairs
 whose surfaces face each other and declines the rest, and both of these are pairs it declines.
-Whether either is a wall, a groove, or two outer faces converging at a tangency is not settled
-here.
+
+**`evDistance` gives the two points, which settles what each one is.**
+
+- **`foot`, from (23.754, -37.000, -22.000) to (23.754, -36.571, -22.000).** Both points sit at
+  z = -22.000 mm, which is the tread groove's floor, and at x = 23.754 mm, which is within a
+  quarter of a millimetre of the sole's outer edge. So it is **a sliver of the foot's flank left
+  beside one tread groove**, where a groove running straight across meets an outline that curves
+  away. 0.42857 mm is about one nozzle width, so it will not come out as drawn; the render of the
+  sole shows the grooves running clean out to the outline with no visible land.
+- **`body`, from (36.000, -6.285, 23.320) to (37.511, -6.285, 23.320).** The two points differ
+  only in x, so this is the perpendicular gap from the torso's side face to where the trimmed
+  shoulder's flat face begins. **Air, not material**: both are the part's outside. It is a step,
+  not a wall, and it is not the same measurement as the +1.5509 mm an arm clears the torso by,
+  though the two numbers are close enough to be mistaken for each other.
 
 ## Ring 1, taken on every tab once the quota opened
 
