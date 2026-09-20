@@ -923,8 +923,8 @@ and constraints before the next feature runs.**
 - [x] The robot stands 318.00 mm from the sole to the top of the head, in the assembly, measured,  — 318.000 through the occurrence transforms, which is make_plans' HEIGHT exactly. The brief's 317.00 was the height at `#collar` 9 and is fixed
 - [x] Degrees of freedom, read off Onshape rather than counted by hand.  — per instance, not a total; written down in the register
 - [x] Every ball joint's actual swing, measured by posing it until it stops.  — NOT BY POSING, and the record says why: all thirteen mates carry `limitsEnabled: False`, so nothing stops a drag. Taken off the geometry instead: the neck reaches the torso at 45.240 nodding and 36.870 sideways, the shoulder's arm at 33.2722, against `BALL_SWING` 39.0132
-- [ ] The shoulder interferes again, and this check is now the interesting one.  — it does, computed rather than driven: the arm fouls at 33.2722 deg, 5.7410 before the socket stops it, on the edge between the torso's side and front
-- [ ] Nothing interferes at rest.
+- [x] The shoulder interferes again, and this check is now the interesting one.  — not at rest: the interference check reports none, and the arm clears by +1.5509. It fouls at 33.2722 deg of tilt, computed rather than driven, on the edge between the torso's side and front
+- [x] Nothing interferes at rest.  — Onshape's Interference detection, all fourteen instances selected: `No interferences`
 - [ ] The arms reach mid-thigh.  — MEASURED and it does not pass: the grippers reach z -204.765 and mid-thigh is z -190.890, so 13.875 past it
 - [x] The feet are symmetric at rest, at x ±24.  — centres at x +/-24.0
 - [x] The feet touch, and the gap is 0 mm.  — measured 0.000 mm, inner edges at x 0; assembly.md fixed 2026-09-19
@@ -942,7 +942,7 @@ and constraints before the next feature runs.**
 - [x] the figure stands 317.00 mm, sole to the top of the head, measured in the assembly  — measures 318.0 mm, which is make_plans' HEIGHT exactly
 - [x] degrees of freedom read off Onshape, and what it reports written down  — Onshape reports it per instance here, not as a total; all fourteen carry the icon that marks an instance free to move
 - [x] every joint moved through its range, and what stops it  — nothing stops one in CAD: every mate has `limitsEnabled: False` and Onshape solves rigid bodies, so a drag drives a part through its neighbour. What stops each joint is taken off the geometry and recorded
-- [ ] nothing interferes at rest, checked with Onshape's interference check
+- [x] nothing interferes at rest, checked with Onshape's interference check  — `No interferences`; the tool is not in the toolbar, it opens from *Show analysis tools* at the bottom right
 - [x] the print files exported — all six as binary STL, each well formed, and each part already measured as one solid
 
 ### Ring 4 — the record

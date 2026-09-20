@@ -1218,10 +1218,10 @@ empty selections between them — and it caught them as a height: 300.0 mm again
   the geometry instead, and both are recorded above: the neck reaches the torso at 45.240° nodding
   and 36.870° sideways, and the shoulder's arm fouls at 33.2722°. **Neither was posed.** Onshape
   reports degrees of freedom per instance here rather than as a total, so no total is written down.
-- **The interference check.** This assembly's toolbar carries no such control and *Search tools*
-  has no match for the word. The pairs were tested by transformed boxes instead, which clears most
-  of them and cannot settle the two the brief says to watch. **What the tool is called here is a
-  question for Mike**, and it is the only thing standing between this run and Ring 3's last line.
+- ~~**The interference check.**~~ **Run on 2026-09-19: `No interferences`,
+  with all fourteen instances selected.** It is not a toolbar tool, which is why the toolbar and
+  *Search tools* both came up empty; it opens from **Show analysis tools** at the bottom right of
+  the graphics area. Onshape's own help said so and I had not read it.
 
 ## The two gates the declaration claims
 
@@ -1660,6 +1660,37 @@ new render has it meeting the edge.
 
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
+
+## The interference check, run: no interferences at rest
+
+**It was never a toolbar tool, and I looked for it in the wrong place for a day.**
+[`onshape-gui-howto.md`](../../../onshape-gui-howto.md) has nothing on it, *Search tools* answers
+*No items match your search* for the word, and the assembly's toolbar carries none. I recorded that
+as *what the tool is called here is a question for Mike* and left it blocked across several ticks.
+
+**[`trust-the-user-or-read-the-docs`](../../../../memory/trust-the-user-or-read-the-docs.md) names
+three steps and I stopped at the second.** Grep the how-to, then ask the user, **then look it up**.
+Onshape's own help has it: [Analysis Tools](https://cad.onshape.com/help/Content/View/analysis_tools.htm)
+and [Interference Detection](https://cad.onshape.com/help/Content/View/interference_detection.htm)
+say it opens from a **Show analysis tools** menu at the bottom right of the graphics area.
+
+**Verified in this assembly rather than taken from the page.** The control is the middle of three
+icons at the bottom right, at (1543, 952) in a 1600 x 1000 window; it carries no `title`, so it is
+found by hovering and reading the tooltip, which is what the how-to already says about the rail
+icons. Its menu holds **Interference detection**, *Zebra stripes* and *Reflection analysis*. The
+menu item's own text cannot be matched as `Interference detection...`, because the ellipsis is one
+character rather than three.
+
+**The result, with all fourteen instances selected: `No interferences`.** Read off the dialog and
+photographed. That is the robot at rest, which is the state every measurement in this register was
+taken in.
+
+**The shoulder does not interfere at rest either**, which is consistent with the geometry: the arm
+clears the torso by +1.5509 mm at the zero pose and does not reach it until 33.2722 deg of tilt.
+[`assembly.md`](../../build-briefs/assembly.md) asks to *drive the shoulder to its stop, run
+interference, and report which face it lands on and at what angle*; the angle and the face are
+measured off the geometry above, and the driving is still not done, for the reason the section
+above gives.
 
 ## Posing cannot measure a stop in this assembly, and the record says why
 
