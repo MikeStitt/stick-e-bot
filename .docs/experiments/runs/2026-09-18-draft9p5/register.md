@@ -1661,6 +1661,64 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## The gripper's 0.16624 mm, identified
+
+It was measured on 2026-09-18, written down as *not yet a finding* because the faces it named had
+never been read, and carried as open ever since.
+[`scripts/c_close_pairs.py`](scripts/c_close_pairs.py) takes it with `evDistance` and names both
+faces.
+
+**0.16624 mm is the gap between the clip's Ø10.000 mm outer cylinder and the 45 degree chamfer on
+its +y side.** The cylinder is r 5.000 mm with an area of 245.044 mm²; the chamfer is a plane of
+61.773 mm² spanning y 5.000 mm to 7.800 mm at z -17.700 mm to -14.900 mm. The chamfer necks the
+body down to the clip's own diameter and lands on the mouth's upper lip, and on the way it passes
+the clip circle without touching it.
+
+**It is a feather edge, not a wall.** Both faces are the part's outside, and the material caught
+between them near that approach is the 0.171957 mm sliver `Jem` that `bodydetails` had already
+found. At 0.4 mm to a nozzle, neither figure prints as drawn; what comes out is a rounded corner.
+[`draw-it-and-print-it`](../../../../memory/draw-it-and-print-it.md) says to print it and let the
+part correct the model rather than refusing the shape, so it is named here and nothing is changed
+for it.
+
+**The clip body fix did not move it.** It measured 0.16624 mm before the 18.000 mm body became
+15.600 mm and measures 0.16624 mm after, which follows: the chamfer's landing on the mouth's lip
+is what sets it, and that holds at either width.
+
+### Two things about the instrument, both of which produced a wrong answer first
+
+**`qEverything(EntityType.FACE)` is not the part.** In `gripper` it returns 39 faces: the solid's
+33, plus 6 belonging to five surface bodies the Part Studio also holds. The first run of this
+measurement was against all 39 and named a plane at x = 0 that is on none of the part, which sent
+me looking for a body that does not exist. The query has to be `qOwnedByBody` over the solids, and
+the script now is.
+
+**A FeatureScript that will not parse answers HTTP 200.** The complaint arrives in `notices` with
+`level` `ERROR`, and a client reading only the status sees a result with nothing in it. `box` is a
+reserved word; using it as a variable produced *mismatched input 'box' expecting ID*, a 200, and a
+script that appeared to find no close pairs at all. Both run scripts now read `notices` and refuse
+a 200 that carries an error.
+
+### The closest approach in each of the other parts
+
+Measured the same way, on the solids alone. **The faces are identified by position; what each
+approach *is* has not all been worked out**, and saying so is the point of recording them.
+
+| Tab | Closest | Between |
+| --- | ------: | ------- |
+| `ball and socket` | **0.0800 mm** | the ball's sphere to four planes of the socket; 0.08 mm is `#fit` exactly, so this is the joint's clearance and the studio holds both parts |
+| `head` | **1.6000 mm** | four plane pairs, which are the four relief slits |
+| `foot` | **0.42857 mm** | a plane at y = -37.000 mm, 2 mm tall off the sole, against two planes running up the foot's sides |
+| `body` | **1.51145 mm** | the torso's +x side face against a 172.79 mm² plane out at the shoulder, x 37.511 mm to 51.167 mm |
+| `gripper` | **0.16624 mm** | named above |
+
+**`foot` and `body` are both thinner than the wall
+[`c_thinnest_wall.py`](scripts/c_thinnest_wall.py) reported**, 1.7200 mm and 9.0000 mm, and that is
+the analytic method behaving as documented rather than disagreeing with itself: it answers pairs
+whose surfaces face each other and declines the rest, and both of these are pairs it declines.
+Whether either is a wall, a groove, or two outer faces converging at a tangency is not settled
+here.
+
 ## Ring 1, taken on every tab once the quota opened
 
 The `/features` GET came back at 16:17 on 2026-09-19, to the minute the `retry-after` header had
@@ -2176,7 +2234,7 @@ does not give is the distance between two faces, so minimum wall thickness still
 Script* — which is the route for the *thinnest wall anywhere* check four briefs ask for and this
 run had left open.
 
-## The thinnest wall anywhere: one number, not yet identified
+## Identified: the thinnest wall anywhere, and the number that was not one
 
 `evDistance` over every pair of faces, keeping the smallest distance that is not zero — faces that
 meet share an edge, a vertex or a tangency and measure zero, so a wall is the smallest gap above
@@ -2184,10 +2242,10 @@ that.
 
 **`gripper`: 0.16624 mm, between face 22 and face 29 of its 36.**
 
-**That number is not yet a finding.** Which two faces they are has not been read, so whether this
-is a wall, the clip's mouth gap, a relief slit or an artefact of the method is unknown — and
-0.16624 mm would be a defect as a wall and unremarkable as a gap. It is written down because the
-measurement was taken, not because it has been understood.
+**Settled on 2026-09-19**, once `featurescript` answered again: it is the
+gap between the clip's Ø10.000 mm outer cylinder and the 45 degree chamfer on its +y side, and it
+is a feather edge rather than a wall. § *The gripper's 0.16624 mm, identified* above carries it,
+along with the two ways the instrument gave a wrong answer first.
 
 **The follow-up cannot be taken yet: `featurescript` has now spent its own quota**, 8.6 hours,
 reset about 16:15 on 2026-09-19; the same clock as `/features`. `bodydetails`, `parts`,
