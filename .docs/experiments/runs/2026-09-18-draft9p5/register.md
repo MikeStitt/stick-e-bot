@@ -2268,6 +2268,18 @@ named.
 
 ## What this draft changed outside the CAD
 
+**Checked, because this run wrote a great deal of cross-reference.** Every relative link in the
+fifteen Markdown files it changed resolves: 284 of them, none broken. The one the first pass
+reported was a false positive, a link quoted inside a code span in the
+`constitution-maintenance` changelog as the example of a defect 5.9.0 had fixed, so the checker
+had to learn that a link inside backticks is text rather than a link.
+
+**`ninja brief-sheets` regenerates all four sheets byte-identical**, which is the Phase A check run
+again after seven briefs were edited: the sheets come from `make_plans.py` and
+`make_brief_sheets.py`, so prose edits cannot reach them, and now that is measured rather than
+assumed.
+
+
 Seven briefs were corrected on Mike's word, each stale figure rewritten as the expression that
 produces it: `assembly.md`'s feet and its height, `gripper.md`'s width, chamfer and walls,
 `head.md`'s socket centre, collar, slits, mouth and its shell, `foot.md`'s mouth, cavity and
