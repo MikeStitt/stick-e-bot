@@ -1661,6 +1661,34 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## Posing cannot measure a stop in this assembly, and the record says why
+
+[`assembly.md`](../../build-briefs/assembly.md) asks for *every ball joint's actual swing, measured
+by posing it until it stops*, and Ring 3 for *every joint moved through its range, and what stops
+it*. Both assume the joint stops. **In this assembly nothing does.**
+
+Read off the saved assembly features, every one of the thirteen mates carries
+**`limitsEnabled: False`**, with `limitEulerConeAngleMax` 0 and every other limit 0. Nine are
+`BALL` and four are `REVOLUTE`. Onshape solves rigid bodies and an unlimited mate turns freely, so
+dragging the head does not stop it at the torso; it drives the head through it. The assembly's own
+brief says the same thing about the detent: *in CAD a revolute mate turns freely; the detent is a
+print-time feature.*
+
+**So the geometry is the answer, not a pose**, and it is already taken: the neck reaches the torso
+at 45.240 deg nodding and 36.870 deg sideways, and the shoulder's arm fouls at 33.2722 deg, each
+against the 39.0132 deg `BALL_SWING` the socket allows. Posing would have produced a number, and
+the number would have been whatever the drag stopped at.
+
+**What would make a pose mean something.** Setting `limitsEnabled` true and
+`limitEulerConeAngleMax` to `BALL_SWING` on the nine ball mates puts the socket's own limit into
+the assembly, so a drag stops where the joint stops. **It still would not find the collisions**,
+which are what the interesting checks are about: a cone limit is one number per joint, and the
+neck's two limits differ by direction, 45.240 deg fore and aft against 36.870 deg sideways. A
+single cone cannot express that, and the tighter of the two is the torso rather than the joint.
+
+**Not done, because it is a change to the model and nobody asked for it.** It is recorded here as
+the shape of a fix.
+
 ## The gripper's 0.16624 mm, identified
 
 It was measured on 2026-09-18, written down as *not yet a finding* because the faces it named had
