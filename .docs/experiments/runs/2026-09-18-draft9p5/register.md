@@ -1240,10 +1240,13 @@ acceptance number taken. The evidence is [`results/`](results/) and the sections
 | 2026-09-19T00:45:37 | `the robot, all ten tabs` | `f4d70e962e78725ca6ad1758` |
 | 2026-09-19T13:10:56 | `before the gripper wall fix` | `77d651aa4e43e369c93abb9b` |
 | 2026-09-19T13:14:09 | `gripper reads the studio's wall` | `4102df8544b8b185f6eb07c7` |
+| 2026-09-20 | `draft9p5 - all ten tabs, four rings` | `b71745b9c7f1a67202b54285` |
 
-**The one to start from is `gripper reads the studio's wall`.** `the robot, all ten tabs` holds the
-gripper with its 18.000 mm clip body, which is the defect § *Fixed: the `gripper` tab no longer
-declares* records; the two versions after it bracket that change so either side can be reached.
+**The one to cite is `draft9p5 - all ten tabs, four rings`**, which is the run's finished state and
+what § *Where draft9p5 got to* is written against. `gripper reads the studio's wall` holds the same
+model and is named for the change that produced it rather than for the run. `the robot, all ten tabs` holds the gripper with its 18.000 mm clip body, which is the defect
+§ *Fixed: the `gripper` tab no longer declares* records; the versions after it bracket that change
+so either side can be reached.
 
 **The per-tab versions Ring 2 asks for were not published past tab 2**, and the checklist says so
 on each line. A version in Onshape is document-wide, so one published now and named for a single
@@ -2213,6 +2216,47 @@ occurrences, each with a 4 × 4 row-major transform, alongside the thirteen mate
 own `bodydetails` gives every vertex as a point and every edge as start, mid and quarter points,
 so a point in assembly space is the part's point through its occurrence's transform. Mike asked
 whether this was easy; it is, and it survives the 429 that stops `featurescript`.
+
+# Where draft9p5 got to, against what it said it would do
+
+The plan's § *When this draft is done* sets three conditions. **All three hold**, and the version
+that holds them is `draft9p5 - all ten tabs, four rings`, `b71745b9c7f1a67202b54285`, published
+2026-09-20.
+
+- **Every tab passes Ring 2.** Six came out face for face with their parents; `head` and `gripper`
+  differ only by the socket, which is the plan's intent. Every acceptance number a face dump or
+  `evDistance` can reach is taken, and the ones that differ are named.
+- **The robot passes Ring 3.** All thirteen mates resolve, it stands at 318.000 mm which is
+  `make_plans.HEIGHT` to the millimetre, the print files export as one solid each, and Onshape's
+  own Interference detection reports **`No interferences`** with all fourteen instances selected.
+- **One named version holds all ten tabs.** The one above.
+
+**Ring 1 ran on every tab**, once the `/features` quota came back: every `featureStates` entry OK,
+`rollbackIndex` equal to the feature count everywhere, and five parameter differences in all, each
+named.
+
+## What is not done, and what it waits on
+
+- **The seven per-tab versions Ring 2 asks for, and the assembly's.** Not published past tab 2.
+  A version in Onshape is document-wide, so one published now and named for a single tab would hold
+  all ten and say it held one. Each checklist line says so on its face.
+- **Driving the joints in the assembly.** Every mate carries `limitsEnabled: False`, so nothing
+  stops a drag; what stops each joint is taken off the geometry instead.
+- **The briefs citing this document.** The plan's last line says this version is what the briefs
+  cite from then on, and that draft9p1p6, draft9p1p1 and draft9p4-check stop being reference
+  material. **That has not been done**, and it is more than a citation: the 24 `cad-*.png` frames
+  the briefs show are renders of those three documents, so repointing the prose without retaking
+  the frames would leave every brief illustrated by the model it no longer cites.
+  `task.briefs.section_retakes` in [`open-work.md`](../../../open-work.md) already holds two of
+  those retakes.
+
+## What this draft changed outside the CAD
+
+Seven briefs were corrected on Mike's word, each stale figure rewritten as the expression that
+produces it: `assembly.md`'s feet and its height, `gripper.md`'s width, chamfer and walls,
+`head.md`'s socket centre, collar, slits, mouth and its shell, `foot.md`'s mouth, cavity and
+thinnest wall, and `limbs.md`'s mouth and cavity. The Constitution gained a home for work no plan
+is doing, at 8.1.0.
 
 # The design's defects, in one place
 
