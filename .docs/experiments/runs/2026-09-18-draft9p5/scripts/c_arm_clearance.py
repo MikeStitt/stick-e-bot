@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""How close a Ø24 arm comes to the torso, across the shoulder's whole swing.
+"""How close a Ø24 limb comes to the torso, across a ball joint's whole swing.
 
-    uv run python .docs/experiments/runs/2026-09-18-draft9p5/scripts/c_arm_clearance.py
+    uv run python .docs/experiments/runs/2026-09-18-draft9p5/scripts/c_arm_clearance.py [joint]
+
+`shoulder` and `hip` are the two the torso carries, and both are swept by default.
 
 [`torso.md`](../../../build-briefs/torso.md) asks for it and says why: *this is the
 check the 26 mm stud length exists to pass, and it is the only one here that can
@@ -56,18 +58,48 @@ def outside(p, half):
     return math.sqrt(sum(c * c for c in out))
 
 
+def frame_across(axis):
+    """Two directions across the axis, to walk round the limb's surface."""
+    ref = [0.0, 0.0, 1.0] if abs(axis[2]) < 0.9 else [1.0, 0.0, 0.0]
+    e1 = unit([ref[1] * axis[2] - ref[2] * axis[1],
+               ref[2] * axis[0] - ref[0] * axis[2],
+               ref[0] * axis[1] - ref[1] * axis[0]])
+    e2 = unit([axis[1] * e1[2] - axis[2] * e1[1],
+               axis[2] * e1[0] - axis[0] * e1[2],
+               axis[0] * e1[1] - axis[1] * e1[0]])
+    return e1, e2
+
+
 def clearance(ball, axis, half, radius, length):
-    """The least distance from the arm's surface to the block, along its whole length."""
+    """The least distance from the limb's own surface to the block.
+
+    **The surface, not a capsule.** Taking the distance from the axis and
+    subtracting the radius is exact for the lateral surface and wrong at the
+    ends, where it puts a hemisphere on a limb that has a flat cap: at the hip
+    that phantom bulges back up the stalk and reports the thigh buried 2.0 mm in
+    the torso at rest. So the interior is measured from the axis, which is cheap,
+    and the two caps are sampled as the discs they are.
+    """
     least = None
     for i in range(ALONG):
         t = length * i / (ALONG - 1)
-        p = [ball[j] + axis[j] * t for j in range(3)]
-        d = outside(p, half) - radius
-        least = d if least is None else min(least, d)
+        centre = [ball[j] + axis[j] * t for j in range(3)]
+        if 0 < i < ALONG - 1:
+            d = outside(centre, half) - radius
+            least = d if least is None else min(least, d)
+            continue
+        e1, e2 = frame_across(axis)
+        for k in range(24):
+            a = 2 * math.pi * k / 24
+            c, s = math.cos(a), math.sin(a)
+            for r in (radius, radius * 0.5, 0.0):
+                pt = [centre[j] + (e1[j] * c + e2[j] * s) * r for j in range(3)]
+                d = outside(pt, half)
+                least = d if least is None else min(least, d)
     return least
 
 
-def main() -> int:
+def main(joint: str = "shoulder") -> int:
     with api.sync_playwright() as pw:
         browser, ctx, page = api.connect(pw)
         base = f"/api/v10/parts/d/{DID}/w/{WID}/e/{BODY}"
@@ -82,15 +114,21 @@ def main() -> int:
                       "lo": vec(f["box"]["minCorner"]), "hi": vec(f["box"]["maxCorner"])})
 
     half = [float(P.TORSO_W) / 2, float(P.TORSO_D) / 2, float(P.TORSO_H) / 2]
-    ball = max((f for f in faces if f["type"] == "SPHERE"),
-               key=lambda f: f["origin"][0])["origin"]
-    boss = max((f for f in faces if f["type"] == "CYLINDER" and f["radius"]
-                and abs(f["radius"] - float(P.BOSS_D) / 2) < 1e-6),
-               key=lambda f: f["origin"][0])
-    stud = unit([ball[i] - boss["origin"][i] for i in range(3)])
+    balls = [f["origin"] for f in faces if f["type"] == "SPHERE"]
+    if joint == "shoulder":
+        ball = max(balls, key=lambda o: o[0])
+        boss = max((f for f in faces if f["type"] == "CYLINDER" and f["radius"]
+                    and abs(f["radius"] - float(P.BOSS_D) / 2) < 1e-6),
+                   key=lambda f: f["origin"][0])["origin"]
+    else:
+        # The hip ball hangs below the bottom face on a plain stalk, so its root
+        # is the face it grows from rather than a boss.
+        ball = min((o for o in balls if abs(o[0]) > 1), key=lambda o: o[2])
+        boss = [ball[0], ball[1], -half[2]]
+    stud = unit([ball[i] - boss[i] for i in range(3)])
     print(f"  torso block half-sizes {half}")
-    print(f"  shoulder ball centre   {[round(v, 4) for v in ball]}")
-    print(f"  stud root              {[round(v, 4) for v in boss['origin']]}")
+    print(f"  {joint} ball centre      {[round(v, 4) for v in ball]}")
+    print(f"  stud root              {[round(v, 4) for v in boss]}")
     print(f"  stud axis, outward     {[round(v, 4) for v in stud]}")
     print(f"  arm Ø{float(P.LIMB):g} running {float(P.LIMB_CENTER):g} to the elbow,"
           f" swing ±{float(P.BALL_SWING):.4f} deg")
@@ -189,4 +227,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    want = sys.argv[1:] or ["shoulder", "hip"]
+    for j in want:
+        print(f"\n== {j}")
+        main(j)
+    sys.exit(0)

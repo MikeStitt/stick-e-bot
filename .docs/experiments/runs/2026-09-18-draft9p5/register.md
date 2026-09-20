@@ -1661,6 +1661,93 @@ new render has it meeting the edge.
 **The frames were retaken.** The gripper's renders are the part as it is now, and the ones of the
 18.000 mm body are kept beside them only as the before.
 
+## Ring 1, taken on every tab once the quota opened
+
+The `/features` GET came back at 16:17 on 2026-09-19, to the minute the `retry-after` header had
+been counting down to since the day before.
+[`scripts/b_ring1.py`](scripts/b_ring1.py) fetched each tab once and wrote it to disk, so every
+question after that is asked of the saved copy and a second opinion costs no call.
+
+**The three checks the plan asks for, on all nine Part Studios and the assembly.**
+
+- **Every `featureStates` entry is `OK`.** No `ERROR` and no `WARNING` anywhere. It arrives as an
+  array of `{key, value}` wrappers with the status at `value.message.featureStatus`, which is the
+  shape [`onshape-api-via-browser-session`](../../../../memory/onshape-api-via-browser-session.md)
+  warns about.
+- **`rollbackIndex` equals the feature count on every tab.** No bar is parked, so nothing
+  downstream was being read short.
+- **`robot sizes` has no `/features` at all.** A Variable Studio answers 404 on that route; its
+  Ring 1 is the variables read, which was taken on 2026-09-18.
+
+**`gripper` reads 13 features where the plan says 15**, which is `#wall` and `#ball` deleted that
+morning.
+
+### What `diff_features.py` could and could not compare
+
+**The parent records' geometry queries are empty.** `foot`'s `pedestal outline` has its sketch
+plane as `geometryIds: []` in the reference, against `["JDC"]` here. A sketch plane that picks
+nothing cannot build, so that is a property of the export rather than a difference between the
+models, and **entity counts are not comparable between these two records**. Naming it matters: it
+is the difference on most of the rows, and reading them as findings would have buried the five
+that are real.
+
+**Five parameter differences in all, across eight tabs.**
+
+| Tab | Feature | Mine | The parent | |
+| --- | ------- | ---- | ---------- | - |
+| `foot` | `foot`, `sole groove`, `sole ribs` | `defaultScope` **True** | False | the merge-scope correction this run made |
+| `hinge` | `blade wedge` | `startOffset` **False** | True | the parent's is ticked with distance 0 and no entity |
+| `ball and socket` | `stud connect to robot` | `entityInferenceType` **CENTROID** | CENTER | settled below, by measuring where it lands |
+
+**The `foot`'s three are the defect this run already recorded** — the missing merge scope that
+silently lost the foot's whole lower half.
+
+**The `hinge`'s is a box ticked for nothing.** The parent carries `startOffset` true with
+`startOffsetDistance` 0, `startOffsetBound` BLIND and no `startOffsetEntity`, so it offsets by
+nothing; the hinge measured 510 faces face for face either way.
+
+**Everything else the diff reports is this draft's own doing**: `hinge`'s renames and its dropped
+`#ear` and `#backlash`, `body`'s ten connector renames, `gripper`'s two deleted rows, and the order
+difference on every tab, which is the ruling that a variable is typed immediately above its first
+reader rather than stacked at the top.
+
+### Where every mate connector actually lands
+
+The one difference left was how `stud connect to robot` infers its origin, and the way to settle
+that is to measure where it ends up.
+`evMateConnector` over `qBodyType(qEverything(EntityType.BODY), BodyType.MATE_CONNECTOR)`, which is
+the lens that works where `qCreatedBy` finds nothing.
+
+| Tab | Origins, in millimetres |
+| --- | ----------------------- |
+| `ball and socket` | (0, 0, 10) and (0, 0, -10) |
+| `hinge` | (0, -8, 0), (0, 0, 38), (0, 0, -38) |
+| `body` | the five ball centres, plus (44.339, -4.8145, 27.2218), (24, 0, -48), (0, 0, 48) twice |
+| `head` | (0, 0, -36) twice, and (0, 0, -46) |
+| `foot` | (0, 0, 0) and (0, 0, -10) |
+| `u limb` | (0, 0, 0), (0, 0, -48), and three at (0, 0, -10) |
+| `l limb` | (0, 0, 0), (0, 0, -48), (0, -8, 0), and three at (0, 0, -38) |
+| `gripper` | (0, 0, 0) and (0, 0, -10) |
+
+**`stud connect to robot` lands at (0, 0, 10) and `socket connect to robot` at (0, 0, -10)**, which
+is `#collar` = `#stand` = 10 mm each way from the ball's centre.
+[`ball-and-socket.md`](../../build-briefs/ball-and-socket.md) says exactly that: *the ball's center
+to the bottom of the socket, which is exactly what the stud reaches the other way, so both halves
+of the joint give up the same length of limb to it.* **So CENTROID puts the connector where the
+design wants it**, and the difference from the parent is in how it is specified, not in where it
+ends up.
+
+**Every other tab reads the same way.** `body`'s five joint connectors sit on the five measured
+ball centres, (0, 0, 58) and (+/-49.5509, -7.8236, 19.2355) and (+/-24, 0, -58). `head mate` is at
+(0, 0, -46), which is the one number the assembly needs from that part. `u limb`'s two ends are
+48.000 mm apart, which is `#limbCenter`, and so are `l limb`'s. `foot` and `gripper` both put their
+joint end on their own ball centre at the origin.
+
+**The counts are higher than the feature lists because a derive carries connectors with it.**
+`body` has eight `mateConnector` features and nine connectors; the ninth arrives with
+`copy ball stud`. The head's third is the derived socket's own root, at (0, 0, -36) rather than
+(0, 0, -56), which is the socket sitting upside down on purpose.
+
 ## The arm against the torso, across the shoulder's whole swing
 
 [`torso.md`](../../build-briefs/torso.md) calls this *the check the 26 mm stud length exists to

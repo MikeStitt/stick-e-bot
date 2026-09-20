@@ -183,3 +183,12 @@ script, so build them into the capture run rather than eyeballing them.
 
 - **`task.onshape.delete_stale_docs`** — Three stale Onshape documents can be deleted once nothing
   points at them — see [`project.md`](project.md).
+
+- **`task.briefs.sphynx.to.md`** — Change the existing .docs/experiments/build-briefs/*.md to be
+  .rst in .docs/experiments/build-briefs/source/*.rst that makes .md briefs that are used to
+  build the CAD. The reasons is so that they stop getting hand editted numbers that go stale.
+
+- **`task.briefs.remove.history.and.why`** — the briefs are filled with history and why that
+  should have been in the plan. The briefs are instructions on what should be done, and we
+  shouldn't fill the context of the CADer with extraneous history and why. If those are
+  needed, they should be in the CAD.
