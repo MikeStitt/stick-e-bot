@@ -1,0 +1,73 @@
+/* Messages: Mike's in blue, Claude's in grey. */
+.rst-content .admonition.from-mike {
+  background: #eef4fb;
+  border-left: 4px solid #2f6db5;
+}
+.rst-content .admonition.from-mike .admonition-title {
+  background: #2f6db5;
+}
+.rst-content .admonition.from-claude {
+  background: #f6f5f2;
+  border-left: 4px solid #8a7f6e;
+}
+.rst-content .admonition.from-claude .admonition-title {
+  background: #8a7f6e;
+}
+
+.rst-content .admonition.from-mike .admonition-title::before,
+.rst-content .admonition.from-claude .admonition-title::before {
+  display: none;
+}
+
+.rst-content .hidden {
+  display: none;
+}
+
+/* The action tables wrap rather than scroll. */
+.wy-table-responsive {
+  overflow: visible;
+}
+.rst-content table.actions td,
+.rst-content table.actions th,
+.rst-content table.summary td {
+  white-space: normal !important;
+  font-size: 0.85em;
+  vertical-align: top;
+}
+.rst-content table.actions code {
+  word-break: break-all;
+  font-size: 0.9em;
+}
+.rst-content table.actions td:first-child {
+  white-space: nowrap !important;
+}
+
+.rst-content img.cup {
+  max-height: 520px;
+  width: auto;
+}
+
+@media print {
+  .wy-nav-side,
+  .wy-nav-top,
+  .rst-breadcrumbs-buttons,
+  .wy-breadcrumbs,
+  footer {
+    display: none !important;
+  }
+  .wy-nav-content-wrap {
+    margin-left: 0 !important;
+    background: white;
+  }
+  .wy-nav-content {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  .rst-content table.actions tr,
+  .rst-content figure {
+    break-inside: avoid;
+  }
+  h2 {
+    break-before: auto;
+  }
+}

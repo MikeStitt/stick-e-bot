@@ -87,3 +87,13 @@ edge. It is too pale for the mask and is not an entity; what draws it was not es
 `create.py` makes the document once and writes `ids.json`. `build.py` writes the eleven features
 with the Ring 1 read after each. `verify.py`, `drive.py` and `look.py` are the checks above.
 `units.py` and `version.py` set the unit and publish the version.
+
+## The conversation report
+
+`report/` holds the session as a Sphinx page: every message, tool call, time and token count from
+Mike's first message to the answer to *Please take a note of this time and message.*, read from
+Claude Code's transcript by `report/make_report.py`. `report/source/` is the `.rst` it writes,
+`report/html/` the built page, and `report/elephant-cup-conversation.pdf` is Chromium printing
+that page, because no LaTeX is installed. `iso.py` renders the page's picture from the named
+version. Both outputs are committed on request, so they go stale if the source is edited without
+running the script again.
