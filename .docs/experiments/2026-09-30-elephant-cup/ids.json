@@ -1,0 +1,23 @@
+{
+  "document": "elephant cup",
+  "did": "9a8f8614c04120c0a8f85448",
+  "wid": "2ba8fa28d04af5579c057984",
+  "eid": "993e7039919edc785df99d49",
+  "elements": [
+    [
+      "cup",
+      "PARTSTUDIO",
+      "993e7039919edc785df99d49"
+    ],
+    [
+      "Assembly 1",
+      "ASSEMBLY",
+      "c84c3e4b93b77f84adec2e41"
+    ],
+    [
+      "BOM : Assembly 1",
+      "BILLOFMATERIALS",
+      "7f766e3046f7f6b3002f9bbd"
+    ]
+  ]
+}
